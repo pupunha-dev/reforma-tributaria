@@ -31,8 +31,16 @@ python scripts/esqueleto.py fontes/<dominio>/texto/<ato>.txt \
   --saida fontes/<dominio>/texto/<ato>-esqueleto.md
 ```
 
+- **Leis do Planalto: capture também o HTML oficial**, convertido para UTF-8:
+
+  ```bash
+  curl -s -L -A "Mozilla/5.0" "<url>.htm" | iconv -f CP1252 -t UTF-8 | tr -d ''     | sed 's/charset=windows-1252/charset=utf-8/I' > fontes/<dominio>/texto/<ato>-planalto.htm
+  ```
+
+  É a fonte de verdade da vigência (etapa 3) e serve de texto pesquisável
+  quando o PDF não tem camada de texto.
 - Se o `.txt` sair vazio ou só com lixo, o PDF não tem camada de texto:
-  use OCR, ou capture o HTML oficial (Planalto) e salve como `.txt`.
+  use o HTML oficial (acima) ou OCR.
 - **Confira:** o "Último artigo" do esqueleto é o último artigo da lei, e
   nenhum número de artigo some da sequência.
 
@@ -54,9 +62,26 @@ python scripts/esqueleto.py fontes/<dominio>/texto/<ato>.txt \
 
 ## Etapa 3: Mapa de vigência
 
-Crie `notas/<dominio>/_mapa-vigencia.md`, com uma linha por dispositivo
-marcado no esqueleto que tenha data de efeitos **diferente da publicação**
-ou ainda não alcançada:
+**Leis do Planalto: gere o mapa com o script.** No HTML, o texto superado
+vem em `<strike>`, e cada "Produção de efeitos"/"Vigência" é um link para o
+inciso da cláusula de vigência da lei alteradora. Monte o arquivo de
+âncoras (`texto/<ato>-ancoras-vigencia.tsv`: âncora → data → fundamento
+[→ `revogacao`]) a partir do **texto literal** das cláusulas de vigência e
+escreva o cabeçalho (`texto/<ato>-mapa-cabecalho.md`, com as cláusulas
+literais). Depois:
+
+```bash
+python scripts/vigencia_planalto.py fontes/<dominio>/texto/<ato>-planalto.htm   --ancoras fontes/<dominio>/texto/<ato>-ancoras-vigencia.tsv --data-base AAAA-MM-DD   --cabecalho fontes/<dominio>/texto/<ato>-mapa-cabecalho.md   --saida notas/<dominio>/_mapa-vigencia.md
+```
+
+A seção "Âncoras de vigência não mapeadas" mostra links que ficaram sem
+data. Confira se nenhum é de alteração com efeito ainda não alcançado.
+Confira também se o compilado já incorporou as alterações com efeito
+futuro (veja o exemplo da LC 227, art. 169, no LEARNINGS.md).
+
+Para atos fora do Planalto, monte o mapa à mão, com uma linha por
+dispositivo marcado no esqueleto que tenha data de efeitos **diferente da
+publicação** ou ainda não alcançada:
 
 | Dispositivo | Alterado por | Artigo alterador | Efeitos a partir de | Fundamento da data | Situação em <texto-base> |
 |---|---|---|---|---|---|

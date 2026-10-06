@@ -1,0 +1,27 @@
+# Datas de efeitos das alterações da LC 123/2006 pela LC 214/2025 e pela LC 227/2026.
+# Formato: âncora[@artigo|dispositivo] <TAB> AAAA-MM-DD <TAB> fundamento [<TAB> revogacao] (texto literal conferido em 2026-10-06)
+# LC 214, arts. 541 (2025), 542 (2027) e 543 (2033) e LC 227, art. 181 são revogações.
+# LC 214/2025, art. 544 (redação dada pela LC 227/2026):
+#   II  - a partir de 1º de janeiro de 2025: arts. 35, 58, 60 §3º, 62, 266, 317, 403, 480 a 484, 516 e 541
+#   III - a partir de 1º de janeiro de 2027: arts. 168 a 171, 309 a 315, ..., 517, 519 a 534 e 542
+#   V   - a partir de 1º de janeiro de 2033: arts. 518 e 543
+Lcp214.htm#art544-2	2025-01-01	LC 214, art. 544, II
+Lcp214.htm#art544-3	2027-01-01	LC 214, art. 544, III
+Lcp214.htm#art544-5	2033-01-01	LC 214, art. 544, V
+Lcp214.htm#art516	2025-01-01	LC 214, art. 544, II (art. 516)
+Lcp214.htm#art541	2025-01-01	LC 214, art. 544, II (art. 541)	revogacao
+Lcp214.htm#art517	2027-01-01	LC 214, art. 544, III (art. 517)
+Lcp214.htm#art519	2027-01-01	LC 214, art. 544, III (art. 519)
+Lcp214.htm#art520	2027-01-01	LC 214, art. 544, III (art. 520)
+Lcp214.htm#art542	2027-01-01	LC 214, art. 544, III (art. 542)	revogacao
+Lcp214.htm#art518	2033-01-01	LC 214, art. 544, V (art. 518)
+Lcp214.htm#art543	2033-01-01	LC 214, art. 544, V (art. 543)	revogacao
+# LC 227/2026 (lei de 13/01/2026), art. 182:
+#   I, b - a partir de 1º de janeiro de 2027: art. 169
+#   III  - a partir da publicação: demais dispositivos (arts. 168 e 181)
+#   art. 181, IV, c e d trazem datas próprias de revogação
+Lcp227.htm#art168	2026-01-13	LC 227, art. 182, III (publicação)
+Lcp227.htm#art169	2027-01-01	LC 227, art. 182, I, b
+Lcp227.htm#art181	2026-01-13	LC 227, art. 182, III (publicação)	revogacao
+Lcp227.htm#art181@31|§4º	2026-11-30	LC 227, art. 181, IV, c	revogacao
+Lcp227.htm#art181@18|VI-	2033-01-01	LC 227, art. 181, IV, d	revogacao

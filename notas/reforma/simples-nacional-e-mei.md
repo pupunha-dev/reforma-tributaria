@@ -23,7 +23,9 @@ Compartilhamento de dados fiscais entre todas as administrações tributárias; 
 
 ## Como o IBS/CBS entram no cálculo do DAS (LC 227, art. 169 — alterando art. 18 e 18-A da LC 123)
 
-O Documento de Arrecadação do Simples (DAS) passa a segregar, entre as receitas do contribuinte: (i) operações com serviços/bens imateriais sujeitas a IBS/CBS mas não a ISS/ICMS — tributadas pelo Anexo II, deduzida a parcela de ISS; (ii) operações com bens materiais sujeitas a IBS/CBS mas não a ICMS — tributadas pelo Anexo I, deduzida a parcela de ICMS. A opção pelo regime deve ser feita até 31/12 de cada ano, com efeito a partir de janeiro seguinte.
+**Vigência:** o art. 169 da LC 227 produz efeitos **a partir de 01/01/2027** (LC 227, art. 182, I, "b"); até lá vale a segregação atual do art. 18, §4º, da LC 123.
+
+O Documento de Arrecadação do Simples (DAS) passa a segregar, entre as receitas do contribuinte (art. 18, §4º, VIII e IX, da LC 123): (i) operações com serviços/bens imateriais sujeitas a IBS/CBS mas não a ISS/ICMS — tributadas pelo **Anexo III**, deduzida a parcela de ISS; (ii) operações com bens materiais sujeitas a IBS/CBS mas não a ICMS — tributadas pelo Anexo I, deduzida a parcela de ICMS. A opção pelo regime deve ser feita até 31/12 de cada ano, com efeito a partir de janeiro seguinte.
 
 ## Fiscalização e contencioso do Simples (LC 227, art. 168 e 169 — alterando arts. 22, 33, 38-B e 39 da LC 123)
 

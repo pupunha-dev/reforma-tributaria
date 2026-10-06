@@ -90,6 +90,13 @@ class TestEsqueleto(unittest.TestCase):
         self.assertIn("| 3 | §1º | 2 | redacao, efeitos-sem-data | LC 214/2025 |", md)
 
 
+class TestRotulo(unittest.TestCase):
+    def test_normaliza_letra_o_e_grau_como_ordinal(self):
+        self.assertEqual(e.normalizar_rotulo("§ 4o"), "§4º")
+        self.assertEqual(e.normalizar_rotulo("§ 2° - A"), "§2º-A")
+        self.assertEqual(e.normalizar_rotulo("V -"), "V-")
+
+
 class TestQuebraDeParagrafo(unittest.TestCase):
     def test_artigos_em_linhas_seguidas_sem_linha_em_branco(self):
         texto = (

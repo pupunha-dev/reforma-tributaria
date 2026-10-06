@@ -68,3 +68,47 @@ tributos sobre renda/patrimônio não cobertos, como IPTU), responder a
 parte de IBS/CBS/IS/ITCMD normalmente e sinalizar explicitamente que
 IR está fora do escopo do second brain — sem tentar preencher com
 conhecimento geral.
+
+## [2026-10-06] — Duas leituras erradas sobre o art. 169 da LC 227 nas notas da reforma
+
+O que aconteceu: ao montar o mapa de vigência da LC 123 com o texto
+literal da LC 227 (HTML do Planalto), apareceram dois erros:
+(1) [lc227-alteracoes-legislacao-correlata.md](notas/reforma/lc227-alteracoes-legislacao-correlata.md)
+dizia que o art. 182 da LC 227 dá efeitos a partir de 01/01/2027 ao
+"art. 169 da LC 214". O texto se refere ao **art. 169 da própria LC 227**,
+que altera os arts. 18, 18-A e 21 da LC 123; (2)
+[simples-nacional-e-mei.md](notas/reforma/simples-nacional-e-mei.md) dizia
+que serviços sujeitos só a IBS/CBS são tributados pelo **Anexo II**. O
+texto literal (novo inciso VIII do §4º do art. 18 da LC 123) diz
+**Anexo III**. A nota também não informava que essa regra só vale a
+partir de 01/01/2027. As duas notas foram corrigidas.
+
+Por que importa: "art. N" dentro de uma cláusula de vigência se refere à
+própria lei, salvo menção expressa a outra. E a segregação de receitas
+do DAS é exatamente o tipo de regra que um cliente do Simples pergunta
+"já vale?". Sem a data, a nota levava a aplicar em 2026 uma regra de 2027.
+
+Ação: o trecho do art. 18-A, §7º, I ("opção até 31/12 com efeitos em
+janeiro seguinte"), resumido na mesma nota, deve ser conferido contra o
+texto literal na fase A2 (redação das notas `sn-*`).
+
+## [2026-10-06] — Planalto: vigência de cada dispositivo está no HTML, não no PDF
+
+O que aconteceu: no PDF impresso do texto compilado, a redação superada
+perde o risco e "Produção de efeitos" vira texto sem data. No HTML
+oficial, o texto superado vem em `<strike>`, e cada "Produção de
+efeitos"/"Vigência" é um link para o inciso exato da cláusula de vigência
+da lei alteradora (ex.: `Lcp214.htm#art544-3`). Com isso, o
+`scripts/vigencia_planalto.py` gera o mapa de vigência sem depender de
+leitura manual. O mesmo HTML mostrou que **o compilado da LC 123 ainda
+não incorpora o art. 169 da LC 227** (efeitos em 2027): esse texto só
+existe, por enquanto, em `fontes/reforma/texto/lc-227-2026-planalto.htm`.
+
+Por que importa: é o padrão de todas as leis do Planalto, que provavelmente
+vão entrar como próximos domínios (LC 87, LC 116, Leis 10.637/10.833). E o
+compilado pode estar atrasado em relação às alterações com efeito futuro.
+
+Ação: em todo domínio novo vindo do Planalto, capturar também o HTML
+(`texto/<lei>-planalto.htm`) e gerar o mapa com `vigencia_planalto.py`.
+Para alterações com efeito futuro, conferir se o compilado já as
+incorporou; se não, usar o texto da lei alteradora.

@@ -91,6 +91,11 @@ def paragrafos(texto: str, ruido: list[str]) -> list[str]:
     return blocos
 
 
+def normalizar_rotulo(rotulo: str) -> str:
+    """'§ 4o' e '§ 4°' viram '§4º'; espaços somem ('V -' vira 'V-')."""
+    return re.sub(r"(\d)[o°]", r"\1º", re.sub(r"\s+", "", rotulo))
+
+
 def _classificar(bloco: str) -> list[str]:
     return [nome for nome, padrao in TIPOS if padrao.search(bloco)]
 
@@ -127,7 +132,7 @@ def analisar(blocos: list[str]) -> tuple[list[str], list[Registro]]:
                 artigos.append(artigo)
             rotulo = "caput"
         elif m_disp:
-            rotulo = re.sub(r"\s+", "", m_disp.group(1))
+            rotulo = normalizar_rotulo(m_disp.group(1))
         else:
             if TITULO.match(bloco):
                 chave_anterior, versoes = None, 0
