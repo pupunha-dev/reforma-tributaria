@@ -50,19 +50,41 @@ class Registro:
     versoes: int
 
 
+ARTIGO_NO_MEIO = re.compile(r"\sArt\.\s*\d")
+
+
+def _linhas(texto: str) -> list[str]:
+    """Separa título e artigo que o pdftotext deixou na mesma linha."""
+    saida = []
+    for linha in texto.splitlines():
+        limpa = linha.strip()
+        m = ARTIGO_NO_MEIO.search(limpa) if TITULO.match(limpa) else None
+        if m:
+            saida += [limpa[:m.start()], limpa[m.start() + 1:]]
+        else:
+            saida.append(limpa)
+    return saida
+
+
+def _inicia_bloco(linha: str) -> bool:
+    return bool(ANEXO.match(linha) or ARTIGO.match(linha) or DISPOSITIVO.match(linha) or TITULO.match(linha))
+
+
 def paragrafos(texto: str, ruido: list[str]) -> list[str]:
+    """Junta as linhas de cada parágrafo. Um parágrafo termina numa linha em
+    branco ou quando a linha seguinte abre artigo, dispositivo ou título."""
     padroes = [re.compile(p) for p in ruido]
     blocos: list[str] = []
     atual: list[str] = []
-    for linha in texto.splitlines():
-        limpa = linha.strip()
+    for limpa in _linhas(texto):
         if limpa and any(p.match(limpa) for p in padroes):
             continue
-        if not limpa:
+        if not limpa or (atual and _inicia_bloco(limpa)):
             if atual:
                 blocos.append(" ".join(atual))
                 atual = []
-            continue
+            if not limpa:
+                continue
         atual.append(limpa)
     if atual:
         blocos.append(" ".join(atual))

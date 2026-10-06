@@ -90,5 +90,29 @@ class TestEsqueleto(unittest.TestCase):
         self.assertIn("| 3 | §1º | 2 | redacao, efeitos-sem-data | LC 214/2025 |", md)
 
 
+class TestQuebraDeParagrafo(unittest.TestCase):
+    def test_artigos_em_linhas_seguidas_sem_linha_em_branco(self):
+        texto = (
+            "Art. 39. O contencioso administrativo será do órgão julgador.\n"
+            "Art. 39. Observados os dispositivos legais (Redação dada pela "
+            "Lei Complementar nº 227, de 2026)\n"
+            "§ 1º O contribuinte poderá impugnar.\n"
+        )
+        blocos = e.paragrafos(texto, e.RUIDO_PADRAO)
+        self.assertEqual(len(blocos), 3)
+        artigos, registros = e.analisar(blocos)
+        self.assertEqual(artigos, ["39"])
+        self.assertEqual(registros[0].versoes, 2)
+
+    def test_continuacao_de_linha_continua_no_mesmo_paragrafo(self):
+        texto = "V - cujo sócio (Redação dada pela Lei Complementar nº 214, de\n2025) Produção de efeitos\n"
+        self.assertEqual(len(e.paragrafos(texto, e.RUIDO_PADRAO)), 1)
+
+    def test_titulo_e_artigo_na_mesma_linha(self):
+        texto = "Seção I Disposições Gerais Art. 64. Para os efeitos desta Lei Complementar considera-se:\n"
+        artigos, _ = e.analisar(e.paragrafos(texto, e.RUIDO_PADRAO))
+        self.assertEqual(artigos, ["64"])
+
+
 if __name__ == "__main__":
     unittest.main()
