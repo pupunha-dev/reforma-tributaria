@@ -106,8 +106,8 @@ Fica registrado em `docs/procedimento-nova-legislacao.md`.
 | # | Etapa | Entrega | Verificação |
 |---|---|---|---|
 | 1 | Fonte | PDF compilado em `fontes/<dominio>/` + `FONTE.md` (URL oficial, data de captura, última lei alteradora vista no texto) | O arquivo existe e o `FONTE.md` está preenchido |
-| 2 | Extração | `.txt` (PyMuPDF; OCR se não houver camada de texto) + esqueleto Livro/Título/Capítulo/Seção/Artigo, no scratchpad | O número de artigos extraídos bate com o último artigo da lei |
-| 3 | Mapa de vigência | Lista de dispositivos com redação futura ou revogação programada: dispositivo, data, lei alteradora | Toda marca "(Redação dada…)"/"(Vigência…)"/"(Revogado…)" com data futura entra na lista |
+| 2 | Extração | `.txt` (`pdftotext -enc UTF-8`; OCR se não houver camada de texto) + esqueleto gerado por `scripts/esqueleto.py`, **salvos no repositório** em `fontes/<dominio>/texto/`, para permitir busca literal com `grep` | O número de artigos extraídos bate com o último artigo da lei |
+| 3 | Mapa de vigência | `notas/<dominio>/_mapa-vigencia.md`: dispositivo, lei e **artigo** alterador, data de efeitos e fundamento da data | Toda marca "(Redação dada…)"/"(Incluído…)"/"(Revogado…)"/"Produção de efeitos" do esqueleto entra no mapa |
 | 4 | Plano de notas | `notas/<dominio>/_plano-notas.md` (arquivo → artigos → nível de profundidade) | **Aprovação do usuário** antes da etapa 5 |
 | 5 | Redação | Notas no padrão das seções 2.3 e 2.4: didáticas, com artigos citados e fórmulas descritas por completo | `verificar.py` (cobertura + frontmatter) |
 | 6 | Ligações | `INDEX.md` do domínio + bloco no índice mestre + `[[...]]` cruzados com outros domínios | `verificar.py` (links) |
@@ -130,6 +130,11 @@ Nem toda a LC 123 pesa igual para um escritório contábil. A profundidade das n
 ### 4.2 Esboço preliminar de notas (fechado na etapa 4)
 
 `sn-conceitos-definicao-me-epp`, `sn-inscricao-baixa`, `sn-abrangencia-tributos`, `sn-vedacoes-ingresso`, `sn-calculo-aliquota-efetiva`, `sn-anexos-tabelas` (pode ser dividida por anexo), `sn-fator-r`, `sn-sublimites-icms-iss`, `sn-segregacao-receitas` (monofásico, ST, exportação), `sn-mei`, `sn-recolhimento-das`, `sn-creditos-adquirente`, `sn-obrigacoes-acessorias`, `sn-exclusao-opcao`, `sn-fiscalizacao-omissao-receita`, `sn-processo-contencioso`, `sn-acesso-mercados-licitacoes`, `sn-simplificacao-trabalhista`, `sn-fiscalizacao-orientadora`, `sn-demais-disposicoes`. São cerca de 20 a 25 notas.
+
+### 4.2.1 Armadilhas do texto compilado (constatadas em 2026-10-06)
+
+- **Redação antiga e nova lado a lado:** no Planalto, a redação superada aparece riscada. Na extração o risco some, e as duas redações ficam uma depois da outra (ex.: art. 3º §1º e inciso V). A convenção do Planalto é que a **última** redação, a que tem a marca, é a mais nova. O `esqueleto.py` aponta os dispositivos que têm mais de uma versão.
+- **"Produção de efeitos" sem data:** a marca é só um link. A data sai do **artigo alterador** (LC 214, arts. 516–520, ou LC 227, arts. 168–169), combinado com a cláusula de vigência da lei alteradora (LC 214, art. 544). Ex.: na nota `lc214-revogacoes-vigencia`, o art. 516 produz efeitos desde 2025, o 517 e os 519–520 a partir de 2027 e o 518 a partir de 2033. Por isso a mesma lei (LC 214) traz alterações que **já valem** e alterações **futuras**.
 
 ### 4.3 Precisão numérica (Anexos e fórmulas)
 
