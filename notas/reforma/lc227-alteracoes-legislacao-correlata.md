@@ -6,7 +6,7 @@ artigos: 165 a 182 (exceto 168, 169, 174, 179 e 180 — ver nota abaixo)
 
 # Alterações da LC 227 em legislação correlata
 
-Este arquivo reúne os dispositivos da LC 227 que alteram leis **diferentes** da LC 214/2025, um bloco por lei alterada. Não entram aqui: o art. 174 (bloco extenso de alterações à própria LC 214, distribuído pelas 39 notas 🟡 deste acervo), os arts. 168-169 (alterações à LC 123 — ver [[simples-nacional-e-mei.md]]), o art. 179 (norma orçamentária sobre o art. 172 da LC 214 — já tratada em [[regime-especifico-combustiveis]]) e o art. 180 (prazo do art. 481 da LC 214 — já tratada em [[cgibs-na-lc214]]).
+Este arquivo reúne os dispositivos da LC 227 que alteram leis **diferentes** da LC 214/2025, um bloco por lei alterada. Não entram aqui: o art. 174 (bloco extenso de alterações à própria LC 214, distribuído pelas 39 notas 🟡 deste acervo), os arts. 168-169 (alterações à LC 123 — ver [[simples-nacional-e-mei]]), o art. 179 (norma orçamentária sobre o art. 172 da LC 214 — já tratada em [[regime-especifico-combustiveis]]) e o art. 180 (prazo do art. 481 da LC 214 — já tratada em [[cgibs-na-lc214]]).
 
 ## ITBI — fato gerador e critério técnico de valor venal (art. 165, CTN)
 

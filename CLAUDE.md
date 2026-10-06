@@ -95,7 +95,7 @@ achar o arquivo certo. Áreas cobertas:
     AFRMM etc.
 
 Para o mapeamento artigo-por-artigo de qual nota cobre qual dispositivo,
-veja [notas/_plano-notas.md](notas/_plano-notas.md).
+veja [notas/_plano-notas.md](notas/reforma/_plano-notas.md).
 
 ## Outras fontes de contexto
 

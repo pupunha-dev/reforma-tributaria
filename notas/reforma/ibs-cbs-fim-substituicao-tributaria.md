@@ -32,4 +32,4 @@ O único resquício da ST no texto da reforma é operacional, não estrutural: m
 
 ## Nota de escopo
 
-Este raciocínio (por que a ST deixa de existir) está fundamentado na lógica estrutural do split payment e da não cumulatividade, como descritas na LC 214/2025 e LC 227/2026. As notas do projeto não têm — e a ST antiga não é matéria dessas leis — uma lista dos produtos/setores que hoje estão sob ST estadual; ver [LEARNINGS.md](../LEARNINGS.md), entrada de 2026-08-25.
+Este raciocínio (por que a ST deixa de existir) está fundamentado na lógica estrutural do split payment e da não cumulatividade, como descritas na LC 214/2025 e LC 227/2026. As notas do projeto não têm — e a ST antiga não é matéria dessas leis — uma lista dos produtos/setores que hoje estão sob ST estadual; ver [LEARNINGS.md](../../LEARNINGS.md), entrada de 2026-08-25.

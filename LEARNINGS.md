@@ -13,7 +13,7 @@ anos-base e variáveis).
 
 Por que importa: para perguntas sobre o valor exato da alíquota de um
 ano específico dentro de 2029-2035, é preciso consultar o texto literal
-dos arts. 353-365 em `fontes/lc-214-2025-texto-compilado.pdf`, já que a
+dos arts. 353-365 em `fontes/reforma/lc-214-2025-texto-compilado.pdf`, já que a
 nota não tem esse detalhe ainda.
 
 Ação: se essa pergunta voltar a ser feita com frequência, criar uma
@@ -23,7 +23,7 @@ tabela ano-a-ano (ou nota complementar) extraindo os arts. 353-365.
 
 O que aconteceu: perguntado quais produtos eram sujeitos à substituição
 tributária (ST) do ICMS antes da reforma e deixaram de ser, a única nota
-relacionada — [icms-st-estoque-2032.md](notas/icms-st-estoque-2032.md),
+relacionada — [icms-st-estoque-2032.md](notas/reforma/icms-st-estoque-2032.md),
 arts. 142-145 da LC 227/2026 — cobre apenas a regra de transição (crédito
 do ICMS-ST retido sobre estoque em 31/12/2032), não uma lista de produtos.
 A resposta correta foi apontar que essa lista nunca existiu no escopo do
@@ -49,8 +49,8 @@ pedido de pesquisa à parte, não como nota de reforma tributária.
 O que aconteceu: perguntado sobre o que a reforma mudou para o setor
 imobiliário (venda, aluguel, incorporação), a pergunta já veio junto
 com "IR para esse setor". As notas
-[regime-especifico-bens-imoveis.md](notas/regime-especifico-bens-imoveis.md)
-e [transicao-operacoes-bens-imoveis.md](notas/transicao-operacoes-bens-imoveis.md)
+[regime-especifico-bens-imoveis.md](notas/reforma/regime-especifico-bens-imoveis.md)
+e [transicao-operacoes-bens-imoveis.md](notas/reforma/transicao-operacoes-bens-imoveis.md)
 cobrem bem IBS/CBS sobre imóveis, mas Imposto de Renda é tributo
 federal distinto, não tratado pela LC 214/2025 nem pela LC 227/2026 —
 a resposta precisou sinalizar isso como fora de escopo, não como

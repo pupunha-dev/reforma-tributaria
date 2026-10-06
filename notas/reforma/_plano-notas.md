@@ -44,6 +44,7 @@ Fontes de trabalho (scratchpad da sessão):
 | ibs-cbs-sujeicao-passiva.md | 21–26 | 🟡 |
 | ibs-cbs-extincao-debitos.md | 27–30 | 🟡 |
 | ibs-cbs-split-payment.md | 31–35 | 🟡 |
+| ibs-cbs-fim-substituicao-tributaria.md | 31–35 (conceitual; nota criada após o plano) | 🟡 |
 | ibs-cbs-recolhimento-adquirente-responsavel.md | 36–37 | 🔵 |
 | ibs-cbs-pagamento-indevido-ressarcimento.md | 38–40 | 🟡 |
 | ibs-cbs-regime-regular-e-simples.md | 41–46 | 🔵 |
