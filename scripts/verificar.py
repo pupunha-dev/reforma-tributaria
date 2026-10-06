@@ -14,7 +14,13 @@ MDLINK = re.compile(r"\]\(([^)\s]+?\.md)(?:#[^)]*)?\)")
 BLOCO_CODIGO = re.compile(r"```.*?```", re.S)
 CODIGO_INLINE = re.compile(r"`[^`\n]*`")
 
+NOME_NOTA = re.compile(r"(?<![\w/.-])([a-z0-9][a-z0-9-]*\.md)\b")
+DATA_ISO = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
 ARQUIVOS_RAIZ = ("CLAUDE.md", "MEMORY.md", "LEARNINGS.md", "decisions.md")
+CAMPOS_OBRIGATORIOS = ("título", "dominio", "fontes", "vigencia", "texto-base")
+VIGENCIAS_VALIDAS = ("atual", "com-mudanca-programada")
+DOMINIOS_LEGADOS = ("reforma",)
 
 
 def rel(p: Path, raiz: Path) -> str:
@@ -90,3 +96,87 @@ def checar_links(raiz: Path) -> list[str]:
             if not (arq.parent / alvo).exists():
                 erros.append(f"{origem}: link ({alvo}) aponta para arquivo inexistente")
     return erros
+
+
+def dominios(raiz: Path) -> list[Path]:
+    pasta = raiz / "notas"
+    return sorted(p for p in pasta.iterdir() if p.is_dir()) if pasta.exists() else []
+
+
+def ler_frontmatter(caminho: Path) -> dict[str, str] | None:
+    linhas = caminho.read_text(encoding="utf-8").splitlines()
+    if not linhas or linhas[0].strip() != "---":
+        return None
+    campos: dict[str, str] = {}
+    for linha in linhas[1:]:
+        if linha.strip() == "---":
+            return campos
+        if ":" in linha and not linha.startswith((" ", "\t")):
+            chave, valor = linha.split(":", 1)
+            campos[chave.strip()] = valor.split("#", 1)[0].strip()
+    return None
+
+
+def checar_frontmatter(raiz: Path) -> list[str]:
+    erros = []
+    for pasta in dominios(raiz):
+        if pasta.name in DOMINIOS_LEGADOS:
+            continue
+        for nota in notas_de_conteudo(pasta):
+            r = rel(nota, raiz)
+            fm = ler_frontmatter(nota)
+            if fm is None:
+                erros.append(f"{r}: sem frontmatter")
+                continue
+            for campo in CAMPOS_OBRIGATORIOS:
+                if not fm.get(campo):
+                    erros.append(f"{r}: campo '{campo}' ausente ou vazio")
+            if fm.get("dominio") and fm["dominio"] != pasta.name:
+                erros.append(f"{r}: dominio '{fm['dominio']}' difere da pasta '{pasta.name}'")
+            if fm.get("vigencia") and fm["vigencia"] not in VIGENCIAS_VALIDAS:
+                erros.append(f"{r}: vigencia '{fm['vigencia']}' inválida (use {' | '.join(VIGENCIAS_VALIDAS)})")
+            if fm.get("texto-base") and not DATA_ISO.match(fm["texto-base"]):
+                erros.append(f"{r}: texto-base '{fm['texto-base']}' fora do formato AAAA-MM-DD")
+    return erros
+
+
+def checar_cobertura(raiz: Path) -> tuple[list[str], list[str]]:
+    erros: list[str] = []
+    avisos: list[str] = []
+    for pasta in dominios(raiz):
+        existentes = {p.name for p in notas_de_conteudo(pasta)}
+        plano = pasta / "_plano-notas.md"
+        if not plano.exists():
+            if existentes:
+                erros.append(f"notas/{pasta.name}: há notas mas não há _plano-notas.md")
+            continue
+        citadas = {
+            n for n in NOME_NOTA.findall(plano.read_text(encoding="utf-8"))
+            if n != "INDEX.md" and not n.startswith("_")
+        }
+        concluido = (ler_frontmatter(plano) or {}).get("status") == "concluido"
+        for n in sorted(existentes - citadas):
+            erros.append(f"notas/{pasta.name}/{n}: nota fora do _plano-notas.md")
+        for n in sorted(citadas - existentes):
+            msg = f"notas/{pasta.name}/{n}: citada no _plano-notas.md mas não existe"
+            (erros if concluido else avisos).append(msg)
+    return erros, avisos
+
+
+def main(argv: list[str]) -> int:
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
+    raiz = Path(argv[1]) if len(argv) > 1 else Path(__file__).resolve().parent.parent
+    erros = checar_nomes_unicos(raiz) + checar_links(raiz) + checar_frontmatter(raiz)
+    erros_cobertura, avisos = checar_cobertura(raiz)
+    erros += erros_cobertura
+    for a in avisos:
+        print(f"AVISO  {a}")
+    for e in erros:
+        print(f"ERRO   {e}")
+    print(f"\n{len(erros)} erro(s), {len(avisos)} aviso(s)")
+    return 1 if erros else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv))

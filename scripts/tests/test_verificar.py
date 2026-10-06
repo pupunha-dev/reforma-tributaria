@@ -95,5 +95,106 @@ class TestNomesUnicos(Base):
         self.assertEqual(v.checar_nomes_unicos(self.raiz), [])
 
 
+class TestFrontmatter(Base):
+    def nota(self, texto):
+        self.criar("notas/simples-nacional/sn-a.md", texto)
+        return v.checar_frontmatter(self.raiz)
+
+    def test_nota_completa_passa(self):
+        self.assertEqual(self.nota(FM_OK), [])
+
+    def test_campo_ausente(self):
+        erros = self.nota(FM_OK.replace("vigencia: atual\n", ""))
+        self.assertEqual(len(erros), 1)
+        self.assertIn("'vigencia'", erros[0])
+
+    def test_vigencia_invalida(self):
+        erros = self.nota(FM_OK.replace("vigencia: atual", "vigencia: futura"))
+        self.assertEqual(len(erros), 1)
+        self.assertIn("vigencia", erros[0])
+
+    def test_texto_base_com_comentario_e_valido(self):
+        texto = FM_OK.replace("texto-base: 2026-10-06", "texto-base: 2026-10-06   # captura")
+        self.assertEqual(self.nota(texto), [])
+
+    def test_texto_base_fora_do_formato(self):
+        erros = self.nota(FM_OK.replace("2026-10-06", "06/10/2026"))
+        self.assertEqual(len(erros), 1)
+        self.assertIn("texto-base", erros[0])
+
+    def test_dominio_diferente_da_pasta(self):
+        erros = self.nota(FM_OK.replace("dominio: simples-nacional", "dominio: reforma"))
+        self.assertEqual(len(erros), 1)
+        self.assertIn("dominio", erros[0])
+
+    def test_sem_frontmatter(self):
+        erros = self.nota("# só título\n")
+        self.assertEqual(len(erros), 1)
+        self.assertIn("sem frontmatter", erros[0])
+
+    def test_dominio_legado_reforma_e_isento(self):
+        self.criar("notas/reforma/x.md", "---\ntítulo: X\norigem: LC 214\n---\n")
+        self.assertEqual(v.checar_frontmatter(self.raiz), [])
+
+    def test_index_e_arquivos_de_trabalho_isentos(self):
+        self.criar("notas/simples-nacional/INDEX.md", "# Índice\n")
+        self.criar("notas/simples-nacional/_plano-notas.md", "# Plano\n")
+        self.assertEqual(v.checar_frontmatter(self.raiz), [])
+
+
+PLANO = (
+    "---\ntítulo: Plano\nstatus: {status}\n---\n"
+    "| sn-a.md | 1–2 |\n| sn-b.md | 3 |\n"
+    "Ponte: [[simples-nacional-e-mei]]\n"
+)
+
+
+class TestCobertura(Base):
+    def dominio(self, status, notas_existentes):
+        self.criar("notas/simples-nacional/_plano-notas.md", PLANO.format(status=status))
+        for n in notas_existentes:
+            self.criar(f"notas/simples-nacional/{n}", FM_OK)
+        return v.checar_cobertura(self.raiz)
+
+    def test_tudo_coberto(self):
+        self.assertEqual(self.dominio("concluido", ["sn-a.md", "sn-b.md"]), ([], []))
+
+    def test_nota_fora_do_plano_e_erro(self):
+        erros, avisos = self.dominio("aprovado", ["sn-a.md", "sn-b.md", "sn-c.md"])
+        self.assertEqual(len(erros), 1)
+        self.assertIn("sn-c.md", erros[0])
+        self.assertEqual(avisos, [])
+
+    def test_planejada_ausente_e_aviso_enquanto_nao_concluido(self):
+        erros, avisos = self.dominio("aguardando-aprovacao", ["sn-a.md"])
+        self.assertEqual(erros, [])
+        self.assertEqual(len(avisos), 1)
+        self.assertIn("sn-b.md", avisos[0])
+
+    def test_planejada_ausente_e_erro_quando_concluido(self):
+        erros, avisos = self.dominio("concluido", ["sn-a.md"])
+        self.assertEqual(len(erros), 1)
+        self.assertIn("sn-b.md", erros[0])
+
+    def test_dominio_com_notas_sem_plano(self):
+        self.criar("notas/simples-nacional/sn-a.md", FM_OK)
+        erros, _ = v.checar_cobertura(self.raiz)
+        self.assertEqual(len(erros), 1)
+        self.assertIn("_plano-notas.md", erros[0])
+
+
+class TestMain(Base):
+    def test_saida_zero_sem_erros(self):
+        self.criar("notas/reforma/a.md", "[[b]]")
+        self.criar("notas/reforma/b.md")
+        self.criar("notas/reforma/_plano-notas.md", "| a.md |\n| b.md |\n")
+        self.assertEqual(v.main(["verificar.py", str(self.raiz)]), 0)
+
+    def test_saida_um_com_erro(self):
+        self.criar("notas/reforma/a.md", "[[fantasma]]")
+        self.criar("notas/reforma/_plano-notas.md", "| a.md |\n")
+        self.assertEqual(v.main(["verificar.py", str(self.raiz)]), 1)
+
+
 if __name__ == "__main__":
     unittest.main()
