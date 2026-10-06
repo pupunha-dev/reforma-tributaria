@@ -128,6 +128,10 @@ redação da LC 227:
   parcela que não excede, pelas alíquotas efetivas do §1º-A (§17-B); o mesmo se
   aplica ao excesso do limite do art. 13-A, do mês do excesso até o mês anterior
   aos efeitos do impedimento (§17-C).
+- **Revogado a partir de 01/01/2027:** o §15-A (caráter declaratório e
+  confissão de dívida das informações do sistema de cálculo), pela LC 214, art.
+  542, XXXVI, "f". A regra passa a constar do novo art. 25 (declaração e
+  declaração assistida); ver [[sn-obrigacoes-acessorias]].
 - A forma de cálculo (§1º-A) e a incidência sobre a receita do mês (§3º) ficam
   mantidas; os percentuais de repartição passam a conter **CBS e IBS** nos novos
   Anexos (ver [[sn-anexo-i-comercio]] a [[sn-anexo-v-servicos]]).
