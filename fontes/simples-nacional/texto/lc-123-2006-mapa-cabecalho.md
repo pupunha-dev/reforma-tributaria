@@ -75,9 +75,11 @@ Na LC 123, isso significa:
 - **art. 168** (repasse do IBS, inclusive os 50%/50% do MEI; fiscalização; contencioso): já vale;
 - **art. 169**: a partir de 01/01/2027. É o art. 169 **da própria LC 227**,
   não o da LC 214. Altera os arts. **18** (segregação de receitas IBS/CBS,
-  §4º, VIII e IX), **18-A** (§7º, I), **21**, **33** (§1º-C: lançamento de
-  todos os tributos do Simples em qualquer estabelecimento) e **38-B** (II:
-  multa de 60%);
+  §4º, VIII e IX), **18-A** (§7º, I), **21**, **33** (§1º-C: a competência para lançar
+  todos os tributos do Simples em qualquer estabelecimento passa dos incisos I a
+  VIII para os incisos I a X do art. 13, com IBS e CBS) e **38-B** (II: a
+  redução das multas acessórias fixas/mínimas de ME/EPP passa de 50% para 60%;
+  parágrafo único, I: exceções ampliadas a sonegação, simulação e conluio);
 - **art. 181, IV** (revogações): "a) o art. 87-B, na redação dada pelo art.
   517 da Lei Complementar nº 214 [...]; b) os incisos I e II do § 4º do art.
   41; c) em 30 de novembro de 2026, o § 4º do art. 31; d) em 1º de janeiro

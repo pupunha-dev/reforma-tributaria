@@ -401,7 +401,7 @@ texto-base: 2026-10-06
 
 **Files:** Create `sn-fiscalizacao-omissao-receita.md` (33–34), `sn-acrescimos-penalidades.md` (35–38-B), `sn-processo-administrativo-judicial.md` (39–41).
 
-- [ ] **Step 1:** Redigir. Blocos ⏳ 01/01/2027 para o §1º-C do art. 33 e o inciso II do art. 38-B (LC 227, art. 169, texto literal). Contencioso do art. 39 (LC 227, art. 168, vigente).
+- [ ] **Step 1:** Redigir. Blocos ⏳ 01/01/2027 para a extensão do §1º-C do art. 33 aos incisos I a X do art. 13 e para a redução de 60% do art. 38-B, II (LC 227, art. 169, texto literal). Contencioso do art. 39 (LC 227, art. 168, vigente).
 - [ ] **Step 2:** Verificação do procedimento comum.
 - [ ] **Step 3:** Commit `feat(simples-nacional): fiscalização, penalidades e processo`.
 
@@ -440,6 +440,6 @@ EOF
 Expected: nenhum `SEM BLOCO ⏳`.
 
 - [ ] **Step 3:** `python scripts/verificar.py` → `0 erro(s), 0 aviso(s)` (plano concluído exige todas as notas).
-- [ ] **Step 4:** Escrever `docs/perguntas-teste/simples-nacional.md` com 12 perguntas (mesmo formato da bateria da reforma: pergunta, deve citar, comportamento esperado), cobrindo: cálculo da alíquota efetiva com números; Fator R no limite de 28%; vedação de ingresso; armadilha de vigência (DAS hoje × 2027); Anexo III em 2027; MEI e IBS (cruzamento); crédito de IBS/CBS de quem compra de optante (cruzamento); exclusão e o §4º do art. 31 (revogação em 30/11/2026); multa de 60% (só 2027); NFS-e nacional (fase B/lacuna de conteúdo da Res. 140); sublimite de um Estado específico (fora de escopo); IRPJ dentro do Simples (no escopo).
+- [ ] **Step 4:** Escrever `docs/perguntas-teste/simples-nacional.md` com 12 perguntas (mesmo formato da bateria da reforma: pergunta, deve citar, comportamento esperado), cobrindo: cálculo da alíquota efetiva com números; Fator R no limite de 28%; vedação de ingresso; armadilha de vigência (DAS hoje × 2027); Anexo III em 2027; MEI e IBS (cruzamento); crédito de IBS/CBS de quem compra de optante (cruzamento); exclusão e o §4º do art. 31 (revogação em 30/11/2026); redução de 50% → 60% das multas acessórias do art. 38-B (só 2027; não é multa de 60%); NFS-e nacional (fase B/lacuna de conteúdo da Res. 140); sublimite de um Estado específico (fora de escopo); IRPJ dentro do Simples (no escopo).
 - [ ] **Step 5:** Rodar as 12 com `claude -p` e as 5 da reforma; conferir "deve citar" e comportamento. Ajustar notas/protocolo se alguma falhar, e rodar de novo.
 - [ ] **Step 6:** Commit `feat(simples-nacional): índice, ligações, protocolo e perguntas-teste`.

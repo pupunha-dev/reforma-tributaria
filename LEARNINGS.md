@@ -81,8 +81,18 @@ que altera os arts. 18, 18-A, 21, 33 (§1º-C) e 38-B (II) da LC 123; (2)
 que serviços sujeitos só a IBS/CBS são tributados pelo **Anexo II**. O
 texto literal (novo inciso VIII do §4º do art. 18 da LC 123) diz
 **Anexo III**. A nota também não informava que essa regra, o §1º-C do art. 33 e a multa
-de 60% do art. 38-B, II, só valem a partir de 01/01/2027 (erro apontado
+do art. 38-B, II, só valem a partir de 01/01/2027 (erro apontado
 na revisão final). As duas notas foram corrigidas.
+
+**Correção posterior (fase A2, 2026-10-06):** a leitura do art. 38-B estava
+errada desde a origem. Ele **não** é "multa de 60% por fraude": é a
+**redução** das multas fixas/mínimas de obrigação acessória (90% MEI; 50% →
+**60%** para ME/EPP a partir de 2027), e as hipóteses de fraude, sonegação,
+conluio etc. são as **exceções** em que a redução não se aplica. Também o
+§1º-C do art. 33 já existe hoje (incisos I a VIII do art. 13); o art. 169 da
+LC 227 só o estende aos incisos I a X (IBS e CBS) em 2027. A nota-ponte e o
+mapa foram corrigidos. Lição: ler o **caput** do artigo alterado antes de
+interpretar um inciso solto da lei alteradora.
 
 Por que importa: "art. N" dentro de uma cláusula de vigência se refere à
 própria lei, salvo menção expressa a outra. E a segregação de receitas
