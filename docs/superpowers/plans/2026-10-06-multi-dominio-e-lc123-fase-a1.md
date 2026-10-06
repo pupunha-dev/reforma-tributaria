@@ -543,6 +543,7 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 - Move: `fontes/lc-214-2025-texto-compilado.pdf`, `fontes/lc-227-2026.pdf` → `fontes/reforma/`
 - Move: `fontes/lc-123.pdf` → `fontes/simples-nacional/lc-123-2006-texto-compilado.pdf`
 - Move: `fontes/resolucao-cgsn-140-2018.pdf` → `fontes/simples-nacional/resolucao-cgsn-140-2018-dou-original.pdf`
+- Move (ainda não versionados): `fontes/Resolução CGSN nº 190, ….pdf` → `fontes/simples-nacional/resolucao-cgsn-190-2026-dou.pdf`; `fontes/Resolução CGSN Nº 191, ….pdf` → `fontes/simples-nacional/resolucao-cgsn-191-2026-dou.pdf`
 - Modify: `notas/reforma/ibs-cbs-fim-substituicao-tributaria.md:35`, `notas/reforma/lc227-alteracoes-legislacao-correlata.md:9`, `notas/reforma/_plano-notas.md:46`, `LEARNINGS.md`, `CLAUDE.md`
 - Create: `notas/INDEX.md` (índice mestre)
 
@@ -558,6 +559,9 @@ git mv notas/*.md notas/reforma/
 git mv fontes/lc-214-2025-texto-compilado.pdf fontes/lc-227-2026.pdf fontes/reforma/
 git mv fontes/lc-123.pdf fontes/simples-nacional/lc-123-2006-texto-compilado.pdf
 git mv fontes/resolucao-cgsn-140-2018.pdf fontes/simples-nacional/resolucao-cgsn-140-2018-dou-original.pdf
+mv fontes/Resolu*190,*.pdf fontes/simples-nacional/resolucao-cgsn-190-2026-dou.pdf
+mv fontes/Resolu*191,*.pdf fontes/simples-nacional/resolucao-cgsn-191-2026-dou.pdf
+ls fontes   # esperado: só as pastas reforma/ e simples-nacional/
 ```
 
 - [ ] **Step 2: Rodar o verificar e ver o que quebrou**
@@ -1290,12 +1294,13 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 
 ---
 
-### Task 6: LC 123, etapas 1 e 2 (fonte, extração, esqueleto)
+### Task 6: Simples Nacional, etapas 1 e 2 (fonte, extração, esqueleto): LC 123 + Res. CGSN 190 e 191
 
 **Files:**
 - Create: `fontes/simples-nacional/FONTE.md`
 - Create: `fontes/simples-nacional/texto/lc-123-2006.txt`
 - Create: `fontes/simples-nacional/texto/lc-123-2006-esqueleto.md`
+- Create: `fontes/simples-nacional/texto/resolucao-cgsn-190-2026.txt`, `fontes/simples-nacional/texto/resolucao-cgsn-191-2026.txt`
 
 **Interfaces:**
 - Consumes: `scripts/esqueleto.py` (Task 5).
@@ -1346,25 +1351,46 @@ Expected: os 3 conferem. Se algum não conferir, registre no próprio esqueleto,
 |---|---|---|---|---|---|
 | lc-123-2006-texto-compilado.pdf | LC 123/2006 | https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm | 2026-10-06 | LC 227/2026 | Impressão do navegador. A redação superada perde o risco na extração; "Produção de efeitos" não traz data (ver `notas/simples-nacional/_mapa-vigencia.md`). |
 | resolucao-cgsn-140-2018-dou-original.pdf | Res. CGSN 140/2018 | https://www.in.gov.br/web/dou/-/resolucao-n-140-de-22-de-maio-de-2018-15742358 | 2026-10-06 | nenhuma (publicação original do DOU) | **NÃO USAR para notas.** Substituir pela versão compilada do Sijut2 (normas.receita.fazenda.gov.br, "visão compilado") antes da fase B. |
+| resolucao-cgsn-190-2026-dou.pdf | Res. CGSN 190/2026 (altera a Res. 140: IBS/CBS no Simples, Anexos I–V para 2027–2028, Anexo XIII com valores fixos do MEI 2027–2028) | https://www.in.gov.br/web/dou/-/resolucao-cgsn-n-190-de-4-de-agosto-de-2026-724454118 | 2026-10-06 | — (ato alterador; DOU de 10/08/2026, ed. 149-A extra) | Efeitos a partir de 01/01/2027 (art. 9º). A impressão do DOU **repete os arts. 1º a 6º duas vezes**: use só a primeira ocorrência. |
+| resolucao-cgsn-191-2026-dou.pdf | Res. CGSN 191/2026 (altera a Res. 140: NFS-e de padrão nacional obrigatória para ME/EPP, arts. 59 e 79; revoga a Res. 189/2026) | https://www.in.gov.br/en/web/dou/-/resolucao-cgsn-n-191-de-4-de-agosto-de-2026-724399487 | 2026-10-06 | — (ato alterador; DOU de 10/08/2026, ed. 149-A extra) | Efeitos: art. 1º a partir de 01/11/2026; demais artigos, imediatamente (art. 3º). |
 
 ## Texto extraído
 
 - `texto/lc-123-2006.txt`: `pdftotext -enc UTF-8`, sem `-layout`.
 - `texto/lc-123-2006-esqueleto.md`: `scripts/esqueleto.py --ruido "^Lcp 123$"`.
+- `texto/resolucao-cgsn-190-2026.txt`, `texto/resolucao-cgsn-191-2026.txt`: `pdftotext -enc UTF-8`. São atos alteradores da Res. 140: não têm esqueleto próprio; entram no mapa de vigência (Task 7) e, na fase B, nos blocos ⏳ das notas.
+
+## Relação entre as fontes
+
+A LC 123 é a lei; a Res. CGSN 140 a regulamenta; as Res. CGSN 190 e 191
+alteram a 140. Na fase B, ao baixar a 140 compilada do Sijut2, confira
+se ela já incorpora as alterações das 190 e 191 (procure "Resolução CGSN
+nº 190" nas marcas). Se não incorporar, as 190/191 continuam sendo a
+fonte das redações futuras.
 ```
 
 Antes de salvar, confirme a coluna "Última alteração vista":
 Run: `grep -o "Complementar nº [0-9]*, de 20[0-9]*" fontes/simples-nacional/texto/lc-123-2006.txt | sort -t, -k2 -u | tail -3`
 Expected: a mais recente é `Complementar nº 227, de 2026`. Se aparecer outra, use-a.
 
-- [ ] **Step 6: Verificar e fazer o commit**
+- [ ] **Step 6: Extrair as Res. CGSN 190 e 191**
+
+```bash
+pdftotext -enc UTF-8 fontes/simples-nacional/resolucao-cgsn-190-2026-dou.pdf fontes/simples-nacional/texto/resolucao-cgsn-190-2026.txt
+pdftotext -enc UTF-8 fontes/simples-nacional/resolucao-cgsn-191-2026-dou.pdf fontes/simples-nacional/texto/resolucao-cgsn-191-2026.txt
+grep -n "entra em vigor" -A3 fontes/simples-nacional/texto/resolucao-cgsn-19*.txt
+grep -c "^Art. 1º A Resolução CGSN nº 140" fontes/simples-nacional/texto/resolucao-cgsn-190-2026.txt
+```
+Expected: 190, art. 9º com efeitos a partir de 1º de janeiro de 2027; 191, art. 3º com efeitos a partir de 01/11/2026 para o art. 1º e imediatos para o resto. O `grep -c` retorna `2`, que é a duplicação da impressão registrada no FONTE.md.
+
+- [ ] **Step 7: Verificar e fazer o commit**
 
 Run: `python scripts/verificar.py`
 Expected: `0 erro(s), 0 aviso(s)`
 
 ```bash
 git add fontes/simples-nacional
-git commit -m "feat(simples-nacional): fonte e texto extraído da LC 123 com esqueleto
+git commit -m "feat(simples-nacional): fontes e texto extraído da LC 123 (com esqueleto) e Res. CGSN 190/191
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 ```
@@ -1432,6 +1458,17 @@ anterior e a nova. Esta tabela diz **qual vale hoje** (em 2026-10-06).
 |---|---|---|---|---|---|
 | art. 3º, §1º | LC 214/2025 | art. 516 | DD/MM/AAAA | LC 214, art. 544, <inciso> | vigente / ⏳ futura |
 
+## Atos do CGSN já recebidos (alteram a Res. CGSN 140, detalhados na fase B)
+
+| Ato | O que altera na Res. 140 | Efeitos a partir de | Fundamento | Situação em 2026-10-06 |
+|---|---|---|---|---|
+| Res. CGSN 190/2026 | arts. <lista dos arts. com "(NR)">; Subseções/Seções inseridas (arts. 2º a 5º); Anexos I–V (vigência 2027–2028); Anexo XIII (MEI); revogações do art. 8º | 01/01/2027 | Res. 190, art. 9º | ⏳ futura |
+| Res. CGSN 191/2026 | art. 59 §§1º a 1º-E (NFS-e de padrão nacional) e art. 79; revoga a Res. CGSN 189/2026 | 01/11/2026 (art. 1º); imediato (arts. 2º e 3º) | Res. 191, art. 3º | ⏳ futura (art. 1º) / vigente (revogação da 189) |
+
+A lista de artigos da Res. 190 sai de:
+`grep -o '"Art\. *[0-9]*[-A-Z]*' fontes/simples-nacional/texto/resolucao-cgsn-190-2026.txt | sort -u`
+(considerar só a primeira ocorrência do bloco duplicado).
+
 ## Revogações programadas
 
 | Dispositivo da LC 123 | Revogado por | Efeitos a partir de | Fundamento |
@@ -1472,7 +1509,7 @@ Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
 - Modify: `notas/INDEX.md` (bloco Simples Nacional)
 
 **Interfaces:**
-- Consumes: esqueleto (Task 6), mapa de vigência (Task 7), spec §4.1–4.4.
+- Consumes: esqueleto (Task 6), mapa de vigência (Task 7), spec §4.1–4.5. As colunas "Observação" indicam quais notas `sn-*` vão receber detalhamento das Res. CGSN 190/191 na fase B (ex.: Anexos 2027–2028, valores fixos do MEI, NFS-e nacional).
 - Produces: o plano que o usuário aprova; vira o insumo do plano da fase A2.
 
 - [ ] **Step 1: Ler a estrutura da lei**
