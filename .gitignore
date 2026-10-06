@@ -10,3 +10,6 @@ Thumbs.db
 
 # Claude Code - configuracao local
 .claude/settings.local.json
+
+# Workspace do executor de planos (rascunho)
+.superpowers/
