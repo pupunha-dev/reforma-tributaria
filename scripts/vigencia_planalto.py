@@ -29,7 +29,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from esqueleto import ANEXO, ARTIGO, DISPOSITIVO, _classificar, _lei_alteradora, normalizar_rotulo  # noqa: E402
 
-PARAGRAFO = re.compile(r"<p\b.*?</p>", re.S | re.I)
+INICIO_PARAGRAFO = re.compile(r"(?=<p\b)", re.I)
+# No Planalto, células de tabela abrem <p> sem fechar: o parágrafo termina no
+# primeiro </p>, </td> ou <div>, o que vier antes.
+FIM_PARAGRAFO = re.compile(r"</p>|</td>|<div\b", re.I)
 HREF = re.compile(r'href="([^"]+)"', re.I)
 TAG = re.compile(r"<[^>]+>")
 
@@ -49,7 +52,11 @@ class Linha:
 def paragrafos_html(html: str) -> list[tuple[str, bool, list[str]]]:
     """(texto, riscado, links normalizados para 'Arquivo.htm#ancora')."""
     saida = []
-    for p in PARAGRAFO.findall(html):
+    for pedaco in INICIO_PARAGRAFO.split(html):
+        if not pedaco[:2].lower() == "<p":
+            continue
+        fim = FIM_PARAGRAFO.search(pedaco)
+        p = pedaco[:fim.start()] if fim else pedaco
         texto = re.sub(r"\s+", " ", html_lib.unescape(TAG.sub("", p))).strip()
         links = [h.rsplit("/", 1)[-1] for h in HREF.findall(p)]
         saida.append((texto, "<strike" in p.lower(), links))
@@ -57,7 +64,12 @@ def paragrafos_html(html: str) -> list[tuple[str, bool, list[str]]]:
 
 
 def ler_ancoras(tsv: str) -> dict[str, tuple[str, str, str]]:
-    """chave -> (data, fundamento, natureza), natureza 'alteracao' ou 'revogacao'."""
+    """chave -> (data, fundamento, natureza).
+
+    natureza: 'alteracao' (padrão), 'revogacao', 'inclusao' (dispositivo novo)
+    ou 'ignorar' (link do Planalto que diverge do texto da lei alteradora;
+    o fundamento registra a justificativa).
+    """
     ancoras = {}
     for linha in tsv.splitlines():
         if not linha.strip() or linha.lstrip().startswith("#"):
@@ -68,16 +80,21 @@ def ler_ancoras(tsv: str) -> dict[str, tuple[str, str, str]]:
     return ancoras
 
 
-def _situacao(riscado: bool, tipos: list[str], data: str, data_base: str) -> str:
+def _situacao(riscado: bool, tipos: list[str], natureza: str, data: str, data_base: str) -> str:
     if riscado:
         return "superado (riscado no Planalto)"
+    revogacao = natureza == "revogacao" or "revogacao" in tipos
     if data > data_base:
-        if "revogacao" in tipos:
+        if revogacao:
             return "⏳ revogação futura — dispositivo ainda vale"
-        if "inclusao" in tipos:
+        if natureza == "inclusao" or "inclusao" in tipos:
             return "⏳ futura — dispositivo ainda não vale"
+        if "redacao" not in tipos:
+            # só "(Vide ...)": este é o texto de hoje; o novo ainda não foi compilado
+            return (f"vigente — alteração prevista para {_br(data)} "
+                    "(texto novo ainda não compilado; ver lei alteradora)")
         return "⏳ futura — redação anterior ainda vale"
-    return "revogado" if "revogacao" in tipos else "vigente"
+    return "revogado" if revogacao else "vigente"
 
 
 def mapear(
@@ -93,7 +110,7 @@ def mapear(
         m_art = None if m_anexo else ARTIGO.match(texto)
         m_disp = None if (m_anexo or m_art) else DISPOSITIVO.match(texto)
         if m_anexo:
-            artigo, rotulo = f"Anexo {m_anexo.group(1)}", "cabecalho"
+            artigo, rotulo = f"Anexo {m_anexo.group(1).upper()}", "cabecalho"
         elif m_art:
             artigo = m_art.group(1) + (f"-{m_art.group(2)}" if m_art.group(2) else "")
             rotulo = "caput"
@@ -109,20 +126,28 @@ def mapear(
                 mapeadas.append((link, ancoras[link]))
             elif "#" in link and ("efeito" in texto.lower() or "vigência" in texto.lower()):
                 nao_mapeadas[link] += 1
+        mapeadas = [m for m in mapeadas if m[1][2] != "ignorar"]
         if not mapeadas or not artigo:
             continue
 
         lei = _lei_alteradora(texto)
         numero = lei.split()[1].split("/")[0] if lei else ""
         preferidas = [m for m in mapeadas if numero and m[0].startswith(f"Lcp{numero}")] or mapeadas
-        _, (data, fundamento, natureza) = max(preferidas, key=lambda m: m[1][0])
-        tipos = _classificar(texto)
-        if natureza == "revogacao" and "revogacao" not in tipos:
-            tipos.append("revogacao")
-        linhas.append(Linha(
-            artigo, rotulo, tipos, lei, [m[0] for m in mapeadas], data, fundamento,
-            _situacao(riscado, tipos, data, data_base),
-        ))
+        # uma linha por data: um mesmo dispositivo pode ser alterado em 2027 e revogado em 2033
+        por_data: dict[str, list[tuple[str, tuple[str, str, str]]]] = {}
+        for m in preferidas:
+            por_data.setdefault(m[1][0], []).append(m)
+        base_tipos = _classificar(texto)
+        for data in sorted(por_data):
+            grupo = por_data[data]
+            naturezas = {m[1][2] for m in grupo}
+            natureza = next((n for n in ("revogacao", "inclusao") if n in naturezas), "alteracao")
+            fundamento = next(m[1][1] for m in grupo if m[1][2] == natureza)
+            tipos = base_tipos + (["revogacao"] if natureza == "revogacao" and "revogacao" not in base_tipos else [])
+            linhas.append(Linha(
+                artigo, rotulo, tipos, lei, [m[0] for m in grupo], data, fundamento,
+                _situacao(riscado, tipos, natureza, data, data_base),
+            ))
     return linhas, nao_mapeadas
 
 

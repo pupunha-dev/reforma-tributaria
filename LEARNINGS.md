@@ -76,12 +76,13 @@ literal da LC 227 (HTML do Planalto), apareceram dois erros:
 (1) [lc227-alteracoes-legislacao-correlata.md](notas/reforma/lc227-alteracoes-legislacao-correlata.md)
 dizia que o art. 182 da LC 227 dá efeitos a partir de 01/01/2027 ao
 "art. 169 da LC 214". O texto se refere ao **art. 169 da própria LC 227**,
-que altera os arts. 18, 18-A e 21 da LC 123; (2)
+que altera os arts. 18, 18-A, 21, 33 (§1º-C) e 38-B (II) da LC 123; (2)
 [simples-nacional-e-mei.md](notas/reforma/simples-nacional-e-mei.md) dizia
 que serviços sujeitos só a IBS/CBS são tributados pelo **Anexo II**. O
 texto literal (novo inciso VIII do §4º do art. 18 da LC 123) diz
-**Anexo III**. A nota também não informava que essa regra só vale a
-partir de 01/01/2027. As duas notas foram corrigidas.
+**Anexo III**. A nota também não informava que essa regra, o §1º-C do art. 33 e a multa
+de 60% do art. 38-B, II, só valem a partir de 01/01/2027 (erro apontado
+na revisão final). As duas notas foram corrigidas.
 
 Por que importa: "art. N" dentro de uma cláusula de vigência se refere à
 própria lei, salvo menção expressa a outra. E a segregação de receitas

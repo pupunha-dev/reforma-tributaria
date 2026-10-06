@@ -96,6 +96,21 @@ class TestRotulo(unittest.TestCase):
         self.assertEqual(e.normalizar_rotulo("§ 2° - A"), "§2º-A")
         self.assertEqual(e.normalizar_rotulo("V -"), "V-")
 
+    def test_normaliza_travessao(self):
+        self.assertEqual(e.normalizar_rotulo("IV –"), "IV-")
+
+    def test_inciso_com_travessao_e_dispositivo(self):
+        artigos, registros = e.analisar([
+            "Art. 5º Texto.",
+            "IV – texto antigo;",
+            "IV – texto novo; (Redação dada pela Lei Complementar nº 214, de 2025)",
+        ])
+        self.assertEqual((registros[0].dispositivo, registros[0].versoes), ("IV-", 2))
+
+    def test_anexo_em_caixa_mista(self):
+        _, registros = e.analisar(["Anexo VII (Vide Lei Complementar nº 214, de 2025) Produção de efeitos"])
+        self.assertEqual(registros[0].artigo, "Anexo VII")
+
 
 class TestQuebraDeParagrafo(unittest.TestCase):
     def test_artigos_em_linhas_seguidas_sem_linha_em_branco(self):

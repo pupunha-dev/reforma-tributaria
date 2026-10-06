@@ -21,12 +21,12 @@ RUIDO_PADRAO = [
     r"^https?://\S+$",                     # URL do rodapé
 ]
 
-ARTIGO = re.compile(r"^Art\.\s*(\d+)(?:\s*[º°o])?(?:\s*-\s*([A-Z]))?[\s.]")
-ANEXO = re.compile(r"^ANEXO\s+([IVXLC]+)\b")
+ARTIGO = re.compile(r"^Art\.\s*(\d+)(?:\s*[º°o])?(?:\s*[-–—]\s*([A-Z]))?[\s.]")
+ANEXO = re.compile(r"^ANEXO\s+([IVXLC]+)\b", re.I)
 DISPOSITIVO = re.compile(
     r"^(§\s*\d+\s*[º°o]?(?:\s*-\s*[A-Z])?"
     r"|Parágrafo único"
-    r"|[IVXLC]+(?:\s*-\s*[A-Z])?\s+-"
+    r"|[IVXLC]+(?:\s*[-–—]\s*[A-Z])?\s+[-–—]"
     r"|[a-z]\))"
 )
 TITULO = re.compile(r"^(LIVRO|TÍTULO|CAPÍTULO|Seção|Subseção)\b")
@@ -93,7 +93,7 @@ def paragrafos(texto: str, ruido: list[str]) -> list[str]:
 
 def normalizar_rotulo(rotulo: str) -> str:
     """'§ 4o' e '§ 4°' viram '§4º'; espaços somem ('V -' vira 'V-')."""
-    return re.sub(r"(\d)[o°]", r"\1º", re.sub(r"\s+", "", rotulo))
+    return re.sub(r"(\d)[o°]", r"\1º", re.sub(r"\s+", "", rotulo)).replace("–", "-").replace("—", "-")
 
 
 def _classificar(bloco: str) -> list[str]:
@@ -122,7 +122,7 @@ def analisar(blocos: list[str]) -> tuple[list[str], list[Registro]]:
         m_disp = None if (m_anexo or m_art) else DISPOSITIVO.match(bloco)
 
         if m_anexo:
-            artigo, rotulo = f"Anexo {m_anexo.group(1)}", "cabecalho"
+            artigo, rotulo = f"Anexo {m_anexo.group(1).upper()}", "cabecalho"
             vistos_anexo[artigo] = vistos_anexo.get(artigo, 0) + 1
             versoes = vistos_anexo[artigo]
             chave_anterior = (artigo, rotulo)

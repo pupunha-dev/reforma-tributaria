@@ -28,6 +28,9 @@ redação anterior e a nova, uma depois da outra. Esta tabela diz o que vale
 - **vigente**: a redação marcada já produz efeitos;
 - **⏳ futura — redação anterior ainda vale**: até a data indicada, vale a
   redação anterior, que aparece logo antes no texto;
+- **vigente — alteração prevista para DD/MM/AAAA**: o texto da linha é o
+  que vale hoje; a lei alteradora já prevê outra redação, que o compilado
+  ainda não trouxe (marca "Vide"), e ela deve ser lida na lei alteradora;
 - **⏳ futura — dispositivo ainda não vale**: dispositivo novo, ainda sem efeitos;
 - **⏳ revogação futura — dispositivo ainda vale**: o dispositivo será
   revogado na data indicada e até lá continua valendo;
@@ -36,8 +39,11 @@ redação anterior e a nova, uma depois da outra. Esta tabela diz o que vale
 
 A data vem do link "Produção de efeitos"/"Vigência" de cada dispositivo no
 HTML oficial, que aponta para o inciso exato da cláusula de vigência da lei
-alteradora, e do artigo alterador. Quando os dois links divergem, prevalece
-a data mais tardia, que é o lado mais conservador.
+alteradora, e do artigo alterador. Um mesmo dispositivo pode ter **uma linha
+por data** (ex.: alterado em 2027 e revogado em 2033). Links do Planalto que
+divergem do texto literal da lei alteradora são descartados no arquivo de
+âncoras (natureza `ignorar`), com a justificativa ao lado, e os dispositivos
+corretos entram na tabela "Revogações com data própria" abaixo.
 
 ## Cláusulas de vigência usadas (texto literal)
 
@@ -67,8 +73,11 @@ demais dispositivos."
 Na LC 123, isso significa:
 
 - **art. 168** (repasse do IBS, inclusive os 50%/50% do MEI; fiscalização; contencioso): já vale;
-- **art. 169** (segregação de receitas IBS/CBS no art. 18): a partir de 01/01/2027.
-  É o art. 169 **da própria LC 227**, não o da LC 214;
+- **art. 169**: a partir de 01/01/2027. É o art. 169 **da própria LC 227**,
+  não o da LC 214. Altera os arts. **18** (segregação de receitas IBS/CBS,
+  §4º, VIII e IX), **18-A** (§7º, I), **21**, **33** (§1º-C: lançamento de
+  todos os tributos do Simples em qualquer estabelecimento) e **38-B** (II:
+  multa de 60%);
 - **art. 181, IV** (revogações): "a) o art. 87-B, na redação dada pelo art.
   517 da Lei Complementar nº 214 [...]; b) os incisos I e II do § 4º do art.
   41; c) em 30 de novembro de 2026, o § 4º do art. 31; d) em 1º de janeiro
@@ -79,8 +88,8 @@ Na LC 123, isso significa:
 O compilado da LC 123 no Planalto **ainda não incorpora** as alterações do
 **art. 169 da LC 227** (efeitos a partir de 01/01/2027): novos incisos VIII
 e IX do §4º do art. 18 (segregação de receitas sujeitas só a IBS/CBS,
-tributadas pelos Anexos III e I, respectivamente), §7º, I, do art. 18-A e
-art. 21. Por isso esses dispositivos **não aparecem na tabela abaixo**. O
+tributadas pelos Anexos III e I, respectivamente), §7º, I, do art. 18-A,
+art. 21, §1º-C do art. 33 e inciso II do art. 38-B. Por isso esses dispositivos **não aparecem na tabela abaixo**. O
 texto literal está em `fontes/reforma/texto/lc-227-2026-planalto.htm`
 (art. 169).
 
@@ -97,5 +106,7 @@ texto literal está em `fontes/reforma/texto/lc-227-2026-planalto.htm`
 |---|---|---|---|
 | art. 31, § 4º | LC 227/2026, art. 181, IV, c | 30/11/2026 | texto literal acima |
 | art. 18, § 4º, VI | LC 227/2026, art. 181, IV, d | 01/01/2033 | texto literal acima |
+| art. 13, §1º, XIII e XIV | LC 214/2025, art. 543, V, a, 2 | 01/01/2033 | LC 214, art. 544, V (no Planalto o link aparece no inciso XV, que **não** é revogado) |
+| art. 18-A, §3º, V, "e" | LC 214/2025, art. 543, V, c | 01/01/2033 | LC 214, art. 544, V (no Planalto o link aparece também na alínea "d", que **não** é revogada) |
 | art. 13, IV e V e demais menções a PIS/Cofins | LC 214/2025, art. 542 | 01/01/2027 | LC 214, art. 544, III |
 | menções a ICMS/ISS (art. 13, VII e VIII etc.) | LC 214/2025, art. 543 | 01/01/2033 | LC 214, art. 544, V |

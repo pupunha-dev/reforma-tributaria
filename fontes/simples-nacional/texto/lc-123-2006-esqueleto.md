@@ -4,7 +4,7 @@
 
 - Artigos únicos encontrados: 134
 - Primeiro artigo: 1 · Último artigo: 89
-- Dispositivos com mais de uma redação no texto: 102
+- Dispositivos com mais de uma redação no texto: 125
 - Marcas "Produção de efeitos" sem data: 227 (resolver pela lei alteradora — procedimento, etapa 3)
 
 ## Artigos (na ordem)
@@ -18,11 +18,11 @@
 | 1 | IV- | 1 | inclusao |  |
 | 1 | IV- | 2 | efeitos-sem-data |  |
 | 1 | IV- | 2 | redacao |  |
-| 1 | §3o | 1 | inclusao | LC 147/2014 |
-| 1 | §4o | 1 | inclusao | LC 147/2014 |
-| 1 | §5o | 1 | inclusao | LC 147/2014 |
-| 1 | §6o | 1 | inclusao | LC 147/2014 |
-| 1 | §7o | 1 | inclusao | LC 147/2014 |
+| 1 | §3º | 1 | inclusao | LC 147/2014 |
+| 1 | §4º | 1 | inclusao | LC 147/2014 |
+| 1 | §5º | 1 | inclusao | LC 147/2014 |
+| 1 | §6º | 1 | inclusao | LC 147/2014 |
+| 1 | §7º | 1 | inclusao | LC 147/2014 |
 | 2 | I- | 2 | redacao | LC 188/2021 |
 | 2 | I- | 3 | redacao, efeitos-sem-data | LC 214/2025 |
 | 2 | III- | 3 | redacao |  |
@@ -31,14 +31,14 @@
 | 2 | §4º-A | 1 | inclusao | LC 188/2021 |
 | 2 | §4º-A | 2 | redacao, efeitos-sem-data | LC 214/2025 |
 | 2 | §4º-B | 1 | inclusao | LC 188/2021 |
-| 2 | §5o | 2 | redacao |  |
-| 2 | §8º | 1 | redacao | LC 188/2021 |
-| 2 | §8º | 2 | efeitos-sem-data | LC 214/2025 |
-| 2 | §8º | 2 | redacao |  |
+| 2 | §5º | 2 | redacao |  |
+| 2 | §8º | 3 | redacao | LC 188/2021 |
+| 2 | §8º | 4 | efeitos-sem-data | LC 214/2025 |
+| 2 | §8º | 4 | redacao |  |
 | 2 | §8º-A | 1 | inclusao | LC 188/2021 |
 | 2 | §8º-A | 2 | redacao, efeitos-sem-data | LC 214/2025 |
 | 2 | §8º-B | 1 | inclusao | LC 188/2021 |
-| 2 | §9o | 1 | inclusao | LC 147/2014 |
+| 2 | §9º | 1 | inclusao | LC 147/2014 |
 | 2 | I- | 1 | inclusao | LC 147/2014 |
 | 2 | II- | 1 | inclusao | LC 147/2014 |
 | 2 | §10 | 1 | inclusao | LC 147/2014 |
@@ -59,20 +59,20 @@
 | 3-A | caput | 1 | inclusao | LC 147/2014 |
 | 3-A | Parágrafoúnico | 1 | inclusao |  |
 | 3-B | caput | 1 | inclusao |  |
-| 4 | §1o | 2 | redacao |  |
+| 4 | §1º | 2 | redacao |  |
 | 4 | II- | 2 | revogacao |  |
 | 4 | II- | 2 | redacao, efeitos-sem-data | LC 147/2014 |
-| 4 | §3o | 1 | redacao | LC 147/2014 |
-| 4 | §3o-A | 1 | inclusao |  |
-| 4 | §4o | 1 | inclusao |  |
+| 4 | §3º | 2 | redacao | LC 147/2014 |
+| 4 | §3º-A | 1 | inclusao |  |
+| 4 | §4º | 1 | inclusao |  |
 | 4 | I- | 1 | inclusao | LC 147/2014 |
 | 4 | II- | 1 | inclusao | LC 147/2014 |
-| 4 | §5o | 1 | inclusao | LC 147/2014 |
-| 4 | §6o | 1 | inclusao |  |
-| 4 | §6o | 1 | efeitos-sem-data |  |
-| 6 | §3o | 1 | inclusao |  |
-| 6 | §4o | 1 | inclusao | LC 147/2014 |
-| 6 | §5o | 1 | inclusao | LC 147/2014 |
+| 4 | §5º | 1 | inclusao | LC 147/2014 |
+| 4 | §6º | 1 | inclusao |  |
+| 4 | §6º | 1 | efeitos-sem-data |  |
+| 6 | §3º | 1 | inclusao |  |
+| 6 | §4º | 1 | inclusao | LC 147/2014 |
+| 6 | §5º | 1 | inclusao | LC 147/2014 |
 | 7 | I- | 2 | inclusao | LC 147/2014 |
 | 8 | caput | 2 | redacao | LC 147/2014 |
 | 8 | I- | 1 | inclusao | LC 147/2014 |
@@ -80,21 +80,21 @@
 | 8 | a) | 1 | inclusao | LC 147/2014 |
 | 8 | b) | 1 | inclusao | LC 147/2014 |
 | 8 | III- | 1 | inclusao |  |
-| 8 | §1o | 1 | inclusao | LC 147/2014 |
+| 8 | §1º | 1 | inclusao | LC 147/2014 |
 | 8 | I- | 1 | inclusao | LC 147/2014 |
 | 8 | II- | 1 | inclusao |  |
-| 8 | §2o | 1 | inclusao | LC 147/2014 |
-| 8 | §3o | 1 | inclusao | LC 147/2014 |
-| 8 | §4o | 1 | inclusao |  |
+| 8 | §2º | 1 | inclusao | LC 147/2014 |
+| 8 | §3º | 1 | inclusao | LC 147/2014 |
+| 8 | §4º | 1 | inclusao |  |
 | 9 | caput | 2 | redacao | LC 147/2014 |
-| 9 | §3o | 1 | revogacao |  |
-| 9 | §3o | 1 | redacao | LC 147/2014 |
-| 9 | §4o | 1 | redacao | LC 147/2014 |
-| 9 | §5o | 1 | redacao | LC 147/2014 |
-| 9 | §8o | 1 | revogacao |  |
-| 9 | §8o | 1 | redacao | LC 147/2014 |
-| 9 | §9o | 1 | revogacao |  |
-| 9 | §9o | 1 | redacao | LC 147/2014 |
+| 9 | §3º | 2 | revogacao |  |
+| 9 | §3º | 2 | redacao | LC 147/2014 |
+| 9 | §4º | 2 | redacao | LC 147/2014 |
+| 9 | §5º | 2 | redacao | LC 147/2014 |
+| 9 | §8º | 2 | revogacao |  |
+| 9 | §8º | 2 | redacao | LC 147/2014 |
+| 9 | §9º | 2 | revogacao |  |
+| 9 | §9º | 2 | redacao | LC 147/2014 |
 | 9 | §10 | 2 | revogacao |  |
 | 9 | §10 | 2 | redacao | LC 147/2014 |
 | 9 | §11 | 2 | revogacao |  |
@@ -116,11 +116,11 @@
 | 13 | a) | 2 | redacao, efeitos-sem-data | LC 147/2014 |
 | 13 | XV- | 1 | efeitos-sem-data |  |
 | 13 | XV- | 1 | vide |  |
-| 13 | §1o-A | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 13 | §1º-A | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
 | 13 | II- | 1 | efeitos-sem-data |  |
 | 13 | II- | 1 | vide |  |
-| 13 | §7o | 1 | inclusao, efeitos-sem-data | LC 147/2014 |
-| 13 | §8o | 1 | efeitos-sem-data | LC 147/2014 |
+| 13 | §7º | 1 | inclusao, efeitos-sem-data | LC 147/2014 |
+| 13 | §8º | 1 | efeitos-sem-data | LC 147/2014 |
 | 13-A | caput | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
 | 17 | caput | 2 | redacao |  |
 | 17 | I- | 2 | redacao | LC 167/2019 |
@@ -143,23 +143,23 @@
 | 17 | XIII- | 2 | revogacao |  |
 | 17 | XIII- | 2 | redacao, efeitos-sem-data | LC 147/2014 |
 | 17 | XV- | 2 | redacao, efeitos-sem-data | LC 214/2025 |
-| 17 | §5o | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 17 | §5º | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
 | 18 | caput | 2 | redacao, efeitos-sem-data | LC 147/2014 |
 | 18 | caput | 1 | redacao, efeitos-sem-data | LC 155/2016 |
-| 18 | §1o | 1 | redacao, efeitos-sem-data | LC 155/2016 |
-| 18 | §1o | 2 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 18 | §1º | 1 | redacao, efeitos-sem-data | LC 155/2016 |
+| 18 | §1º | 2 | inclusao, efeitos-sem-data | LC 155/2016 |
 | 18 | I- | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
 | 18 | II- | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
 | 18 | III- | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
-| 18 | §1o-B | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 18 | §1º-B | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
 | 18 | I- | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
 | 18 | II- | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
-| 18 | §1o-C | 1 | inclusao | LC 155/2016 |
-| 18 | §1o-C | 1 | efeitos-sem-data |  |
-| 18 | §2o | 2 | redacao, efeitos-sem-data | LC 147/2014 |
-| 18 | §2o | 3 | redacao, efeitos-sem-data | LC 155/2016 |
-| 18 | §3o | 2 | efeitos-sem-data | LC 155/2016 |
-| 18 | §4o | 2 | redacao |  |
+| 18 | §1º-C | 1 | inclusao | LC 155/2016 |
+| 18 | §1º-C | 1 | efeitos-sem-data |  |
+| 18 | §2º | 2 | redacao, efeitos-sem-data | LC 147/2014 |
+| 18 | §2º | 3 | redacao, efeitos-sem-data | LC 155/2016 |
+| 18 | §3º | 2 | efeitos-sem-data | LC 155/2016 |
+| 18 | §4º | 2 | redacao |  |
 | 18 | I- | 1 | redacao | LC 147/2014 |
 | 18 | II- | 1 | redacao |  |
 | 18 | III- | 1 | redacao | LC 147/2014 |
@@ -169,14 +169,14 @@
 | 18 | VII- | 1 | inclusao | LC 147/2014 |
 | 18 | a) | 1 | inclusao |  |
 | 18 | b) | 1 | inclusao | LC 147/2014 |
-| 18 | §4o-A | 1 | inclusao | LC 147/2014 |
+| 18 | §4º-A | 1 | inclusao | LC 147/2014 |
 | 18 | I- | 1 | inclusao | LC 147/2014 |
 | 18 | II- | 1 | inclusao | LC 147/2014 |
 | 18 | III- | 1 | inclusao |  |
 | 18 | IV- | 1 | inclusao | LC 147/2014 |
 | 18 | V- | 1 | inclusao |  |
-| 18 | §5o-A | 1 | revogacao |  |
-| 18 | §5o-A | 1 | redacao, efeitos-sem-data | LC 147/2014 |
+| 18 | §5º-A | 2 | revogacao |  |
+| 18 | §5º-A | 2 | redacao, efeitos-sem-data | LC 147/2014 |
 | 18 | XVI- | 1 | inclusao | LC 147/2014 |
 | 18 | XVII- | 1 | inclusao | LC 147/2014 |
 | 18 | XVIII- | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
@@ -185,17 +185,17 @@
 | 18 | XXI- | 1 | efeitos-sem-data |  |
 | 18 | XXI- | 1 | inclusao |  |
 | 18 | VII- | 1 | inclusao | LC 147/2014 |
-| 18 | §5o-D | 1 | redacao, efeitos-sem-data | LC 155/2016 |
+| 18 | §5º-D | 2 | redacao, efeitos-sem-data | LC 155/2016 |
 | 18 | I- | 2 | redacao, efeitos-sem-data | LC 147/2014 |
-| 18 | §5o-E | 1 | redacao, vide, efeitos-sem-data | LC 214/2025 |
-| 18 | §5o-F | 1 | redacao |  |
-| 18 | §5o-F | 1 | efeitos-sem-data |  |
-| 18 | §5o-F | 2 | redacao |  |
-| 18 | §5o-F | 2 | efeitos-sem-data |  |
-| 18 | §5o-G | 2 | revogacao |  |
-| 18 | §5o-G | 2 | redacao, efeitos-sem-data | LC 147/2014 |
-| 18 | §5o-I | 1 | inclusao, efeitos-sem-data | LC 147/2014 |
-| 18 | §5o-I | 2 | redacao, efeitos-sem-data | LC 155/2016 |
+| 18 | §5º-E | 2 | redacao, vide, efeitos-sem-data | LC 214/2025 |
+| 18 | §5º-F | 2 | redacao |  |
+| 18 | §5º-F | 2 | efeitos-sem-data |  |
+| 18 | §5º-F | 3 | redacao |  |
+| 18 | §5º-F | 3 | efeitos-sem-data |  |
+| 18 | §5º-G | 2 | revogacao |  |
+| 18 | §5º-G | 2 | redacao, efeitos-sem-data | LC 147/2014 |
+| 18 | §5º-I | 1 | inclusao, efeitos-sem-data | LC 147/2014 |
+| 18 | §5º-I | 2 | redacao, efeitos-sem-data | LC 155/2016 |
 | 18 | I- | 1 | vigencia |  |
 | 18 | I- | 1 | inclusao | LC 147/2014 |
 | 18 | I- | 1 | revogacao | LC 155/2016 |
@@ -216,13 +216,13 @@
 | 18 | XI- | 1 | inclusao, efeitos-sem-data | LC 147/2014 |
 | 18 | XII- | 1 | inclusao, efeitos-sem-data | LC 147/2014 |
 | 18 | XII- | 2 | redacao, efeitos-sem-data | LC 155/2016 |
-| 18 | §5o-J | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
-| 18 | §5o-K | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
-| 18 | §5o-L | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
-| 18 | §5o-M | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 18 | §5º-J | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 18 | §5º-K | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 18 | §5º-L | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 18 | §5º-M | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
 | 18 | I- | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
 | 18 | II- | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
-| 18 | §7o | 2 | efeitos-sem-data | LC 147/2014 |
+| 18 | §7º | 2 | efeitos-sem-data | LC 147/2014 |
 | 18 | §12 | 2 | redacao | LC 147/2014 |
 | 18 | §13 | 2 | redacao, efeitos-sem-data | LC 147/2014 |
 | 18 | §13 | 3 | redacao, efeitos-sem-data | LC 155/2016 |
@@ -249,15 +249,15 @@
 | 18 | §24 | 2 | redacao, efeitos-sem-data | LC 147/2014 |
 | 18 | §24 | 3 | redacao, efeitos-sem-data | LC 155/2016 |
 | 18 | §27 | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
-| 18-A | §1o | 2 | redacao, efeitos-sem-data | LC 155/2016 |
-| 18-A | §1º | 1 | redacao | LC 188/2021 |
+| 18-A | §1º | 2 | redacao, efeitos-sem-data | LC 155/2016 |
+| 18-A | §1º | 3 | redacao | LC 188/2021 |
 | 18-A | I- | 1 | inclusao | LC 188/2021 |
 | 18-A | II- | 1 | inclusao | LC 188/2021 |
 | 18-A | III- | 1 | inclusao | LC 188/2021 |
-| 18-A | §2o | 1 | redacao |  |
-| 18-A | §2o | 1 | efeitos-sem-data |  |
-| 18-A | III- | 1 | vide, efeitos-sem-data | LC 214/2025 |
-| 18-A | III- | 1 | redacao, vide, efeitos-sem-data | LC 214/2025 |
+| 18-A | §2º | 2 | redacao |  |
+| 18-A | §2º | 2 | efeitos-sem-data |  |
+| 18-A | IV- | 1 | vide, efeitos-sem-data | LC 214/2025 |
+| 18-A | V- | 2 | redacao, vide, efeitos-sem-data | LC 214/2025 |
 | 18-A | b) | 1 | efeitos-sem-data |  |
 | 18-A | b) | 1 | vide |  |
 | 18-A | c) | 1 | efeitos-sem-data |  |
@@ -266,11 +266,11 @@
 | 18-A | d) | 1 | vide, efeitos-sem-data | LC 214/2025 |
 | 18-A | e) | 1 | vide, efeitos-sem-data | LC 214/2025 |
 | 18-A | e) | 1 | vide, efeitos-sem-data | LC 214/2025 |
-| 18-A | I- | 1 | redacao, efeitos-sem-data | LC 147/2014 |
+| 18-A | I- | 2 | redacao, efeitos-sem-data | LC 147/2014 |
 | 18-A | IV- | 1 | revogacao | LC 155/2016 |
 | 18-A | IV- | 1 | vigencia |  |
 | 18-A | V- | 1 | inclusao | LC 167/2019 |
-| 18-A | §3o | 1 | inclusao | LC 147/2014 |
+| 18-A | §3º | 1 | inclusao | LC 147/2014 |
 | 18-A | §15-B | 1 | inclusao |  |
 | 18-A | §16-A | 1 | efeitos-sem-data |  |
 | 18-A | §16-A | 1 | inclusao | LC 155/2016 |
@@ -285,17 +285,17 @@
 | 18-A | §24 | 1 | inclusao | LC 147/2014 |
 | 18-A | §25 | 1 | inclusao | LC 154/2016 |
 | 18-B | caput | 1 | vide | LC 147/2014 |
-| 18-B | §1o | 1 | redacao | LC 147/2014 |
+| 18-B | §1º | 2 | redacao | LC 147/2014 |
 | 18-C | caput | 2 | redacao, efeitos-sem-data | LC 155/2016 |
-| 18-C | §6o | 1 | inclusao | LC 147/2014 |
+| 18-C | §6º | 1 | inclusao | LC 147/2014 |
 | 18-D | caput | 1 | inclusao | LC 147/2014 |
-| 18-E | §1o | 1 | inclusao | LC 147/2014 |
-| 18-E | §2o | 1 | inclusao |  |
-| 18-E | §3o | 1 | inclusao | LC 147/2014 |
-| 18-E | §4o | 2 | redacao, efeitos-sem-data | LC 155/2016 |
-| 18-E | §5o | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
-| 18-E | §6o | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
-| 18-E | §7o | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 18-E | §1º | 1 | inclusao | LC 147/2014 |
+| 18-E | §2º | 1 | inclusao |  |
+| 18-E | §3º | 1 | inclusao | LC 147/2014 |
+| 18-E | §4º | 2 | redacao, efeitos-sem-data | LC 155/2016 |
+| 18-E | §5º | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 18-E | §6º | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 18-E | §7º | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
 | 18-F | caput | 1 | inclusao | LC 188/2021 |
 | 18-F | I- | 1 | inclusao | LC 188/2021 |
 | 18-F | II- | 1 | inclusao | LC 188/2021 |
@@ -310,24 +310,24 @@
 | 19 | II- | 1 | vigencia |  |
 | 19 | III- | 1 | revogacao | LC 155/2016 |
 | 19 | III- | 1 | vigencia |  |
-| 19 | §2o | 2 | efeitos-sem-data |  |
-| 19 | §2o | 2 | redacao |  |
-| 19 | §4o | 1 | efeitos-sem-data | LC 155/2016 |
+| 19 | §2º | 2 | efeitos-sem-data |  |
+| 19 | §2º | 2 | redacao |  |
+| 19 | §4º | 1 | efeitos-sem-data | LC 155/2016 |
 | 20 | caput | 1 | vide, efeitos-sem-data | LC 214/2025 |
-| 20 | §1o | 1 | redacao, efeitos-sem-data | LC 155/2016 |
-| 20 | §3o | 2 | redacao, efeitos-sem-data | LC 147/2014 |
-| 20 | §3o | 3 | efeitos-sem-data | LC 155/2016 |
+| 20 | §1º | 2 | redacao, efeitos-sem-data | LC 155/2016 |
+| 20 | §3º | 2 | redacao, efeitos-sem-data | LC 147/2014 |
+| 20 | §3º | 3 | efeitos-sem-data | LC 155/2016 |
 | 21 | §4º | 1 | vide, efeitos-sem-data | LC 214/2025 |
-| 21 | I- | 1 | redacao |  |
-| 21 | I- | 1 | efeitos-sem-data |  |
-| 21 | I- | 2 | redacao, efeitos-sem-data | LC 155/2016 |
-| 21 | II- | 1 | redacao |  |
-| 21 | II- | 1 | efeitos-sem-data |  |
-| 21 | II- | 2 | redacao, efeitos-sem-data | LC 155/2016 |
-| 21 | V- | 1 | redacao |  |
-| 21 | V- | 1 | efeitos-sem-data |  |
-| 21 | V- | 2 | redacao, efeitos-sem-data | LC 155/2016 |
-| 21 | §4o-A | 1 | vide, efeitos-sem-data | LC 214/2025 |
+| 21 | I- | 2 | redacao |  |
+| 21 | I- | 2 | efeitos-sem-data |  |
+| 21 | I- | 3 | redacao, efeitos-sem-data | LC 155/2016 |
+| 21 | II- | 2 | redacao |  |
+| 21 | II- | 2 | efeitos-sem-data |  |
+| 21 | II- | 3 | redacao, efeitos-sem-data | LC 155/2016 |
+| 21 | V- | 2 | redacao |  |
+| 21 | V- | 2 | efeitos-sem-data |  |
+| 21 | V- | 3 | redacao, efeitos-sem-data | LC 155/2016 |
+| 21 | §4º-A | 1 | vide, efeitos-sem-data | LC 214/2025 |
 | 21 | §15 | 1 | vide |  |
 | 21 | §16 | 1 | vide |  |
 | 21 | §17 | 1 | vide | LC 155/2016 |
@@ -351,27 +351,27 @@
 | 23 | §5º | 1 | vide | LC 214/2025 |
 | 23 | §5º | 1 | efeitos-sem-data |  |
 | 23 | §7º | 1 | inclusao | LC 216/2025 |
-| 24 | §1o | 1 | efeitos-sem-data | LC 155/2016 |
-| 24 | §2o | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
-| 25 | §3o | 1 | vide, efeitos-sem-data | LC 214/2025 |
-| 25 | §4o | 1 | vide, efeitos-sem-data | LC 214/2025 |
-| 25 | §5o | 1 | inclusao, vide, efeitos-sem-data | LC 214/2025 |
+| 24 | §1º | 1 | efeitos-sem-data | LC 155/2016 |
+| 24 | §2º | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 25 | §3º | 1 | vide, efeitos-sem-data | LC 214/2025 |
+| 25 | §4º | 1 | vide, efeitos-sem-data | LC 214/2025 |
+| 25 | §5º | 1 | inclusao, vide, efeitos-sem-data | LC 214/2025 |
 | 25-A | caput | 1 | inclusao, efeitos-sem-data | LC 214/2025 |
 | 25-B | caput | 1 | inclusao, efeitos-sem-data | LC 214/2025 |
 | 25-B | Parágrafoúnico | 1 | inclusao, efeitos-sem-data | LC 214/2025 |
 | 26 | II- | 2 | redacao, efeitos-sem-data | LC 214/2025 |
-| 26 | §3º | 1 | efeitos-sem-data |  |
-| 26 | §3º | 1 | redacao |  |
-| 26 | §4o | 2 | redacao | LC 147/2014 |
-| 26 | §4o-A | 1 | inclusao | LC 147/2014 |
+| 26 | §3º | 2 | efeitos-sem-data |  |
+| 26 | §3º | 2 | redacao |  |
+| 26 | §4º | 2 | redacao | LC 147/2014 |
+| 26 | §4º-A | 1 | inclusao | LC 147/2014 |
 | 26 | I- | 1 | inclusao | LC 147/2014 |
 | 26 | II- | 1 | inclusao | LC 147/2014 |
 | 26 | II- | 2 | efeitos-sem-data |  |
 | 26 | II- | 2 | redacao |  |
-| 26 | §4o-B | 1 | inclusao | LC 147/2014 |
-| 26 | §4o-C | 1 | inclusao | LC 147/2014 |
-| 26 | §8o | 1 | inclusao | LC 147/2014 |
-| 26 | §9o | 1 | inclusao | LC 147/2014 |
+| 26 | §4º-B | 1 | inclusao | LC 147/2014 |
+| 26 | §4º-C | 1 | inclusao | LC 147/2014 |
+| 26 | §8º | 1 | inclusao | LC 147/2014 |
+| 26 | §9º | 1 | inclusao | LC 147/2014 |
 | 26 | §10 | 1 | inclusao | LC 147/2014 |
 | 26 | §11 | 1 | inclusao | LC 147/2014 |
 | 26 | §12 | 1 | inclusao, vide, efeitos-sem-data | LC 214/2025 |
@@ -381,19 +381,19 @@
 | 26 | §13 | 1 | inclusao, vide, efeitos-sem-data | LC 214/2025 |
 | 26 | §14 | 1 | inclusao, vide, efeitos-sem-data | LC 214/2025 |
 | 26 | §15 | 1 | inclusao | LC 147/2014 |
-| 31 | §2º | 1 | redacao | LC 216/2025 |
-| 31 | §4o | 1 | vide | LC 227/2026 |
+| 31 | §2º | 2 | redacao | LC 216/2025 |
+| 31 | §4º | 1 | vide | LC 227/2026 |
 | 33 | caput | 2 | redacao | LC 227/2026 |
-| 34 | §1o | 1 | inclusao |  |
-| 34 | §1o | 1 | efeitos-sem-data |  |
-| 34 | §2o | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
-| 34 | §3o | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
-| 34 | §4o | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 34 | §1º | 1 | inclusao |  |
+| 34 | §1º | 1 | efeitos-sem-data |  |
+| 34 | §2º | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 34 | §3º | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 34 | §4º | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
 | 38 | II- | 1 | vide, efeitos-sem-data | LC 214/2025 |
-| 38 | §6o | 1 | vide, efeitos-sem-data | LC 214/2025 |
+| 38 | §6º | 1 | vide, efeitos-sem-data | LC 214/2025 |
 | 38-A | I- | 2 | redacao, efeitos-sem-data | LC 214/2025 |
-| 38-A | §1º | 1 | redacao, efeitos-sem-data | LC 214/2025 |
-| 38-A | §3º | 1 | redacao, efeitos-sem-data | LC 214/2025 |
+| 38-A | §1º | 2 | redacao, efeitos-sem-data | LC 214/2025 |
+| 38-A | §3º | 2 | redacao, efeitos-sem-data | LC 214/2025 |
 | 38-A | I- | 1 | efeitos-sem-data |  |
 | 38-A | I- | 1 | inclusao | LC 214/2025 |
 | 38-A | II- | 1 | inclusao | LC 214/2025 |
@@ -411,11 +411,11 @@
 | 39 | I- | 1 | inclusao | LC 227/2026 |
 | 39 | II- | 1 | inclusao | LC 227/2026 |
 | 39 | III- | 1 | inclusao | LC 227/2026 |
-| 39 | §1º | 1 | redacao | LC 227/2026 |
+| 39 | §1º | 2 | redacao | LC 227/2026 |
 | 39 | §2º-A | 1 | inclusao | LC 227/2026 |
 | 39 | §5º | 2 | redacao | LC 227/2026 |
-| 41 | §4o | 1 | redacao, efeitos-sem-data | LC 214/2025 |
-| 41 | §4º | 1 | redacao | LC 227/2026 |
+| 41 | §4º | 1 | redacao, efeitos-sem-data | LC 214/2025 |
+| 41 | §4º | 2 | redacao | LC 227/2026 |
 | 41 | I- | 1 | revogacao | LC 227/2026 |
 | 41 | I- | 1 | vide | LC 214/2025 |
 | 41 | I- | 2 | redacao, revogacao | LC 227/2026 |
@@ -426,9 +426,9 @@
 | 42 | caput | 2 | redacao, vide, efeitos-sem-data | LC 155/2016 |
 | 43 | caput | 2 | redacao | LC 155/2016 |
 | 43 | caput | 2 | vide, efeitos-sem-data |  |
-| 43 | §1o | 2 | redacao | LC 147/2014 |
-| 43 | §1o | 3 | redacao |  |
-| 43 | §1o | 3 | efeitos-sem-data |  |
+| 43 | §1º | 2 | redacao | LC 147/2014 |
+| 43 | §1º | 3 | redacao |  |
+| 43 | §1º | 3 | efeitos-sem-data |  |
 | 44 | caput | 1 | vide |  |
 | 45 | caput | 1 | vide |  |
 | 46 | caput | 1 | vide |  |
@@ -440,9 +440,9 @@
 | 48 | I- | 2 | redacao | LC 147/2014 |
 | 48 | II- | 2 | redacao | LC 147/2014 |
 | 48 | III- | 2 | redacao | LC 147/2014 |
-| 48 | §1o | 2 | revogacao |  |
-| 48 | §1o | 2 | redacao | LC 147/2014 |
-| 48 | §3o | 1 | inclusao | LC 147/2014 |
+| 48 | §1º | 2 | revogacao |  |
+| 48 | §1º | 2 | redacao | LC 147/2014 |
+| 48 | §3º | 1 | inclusao | LC 147/2014 |
 | 49 | caput | 1 | vide |  |
 | 49 | I- | 2 | revogacao |  |
 | 49 | I- | 2 | redacao, efeitos-sem-data | LC 147/2014 |
@@ -454,30 +454,30 @@
 | 49-B | caput | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
 | 55 | caput | 2 | redacao | LC 147/2014 |
 | 55 | caput | 3 | redacao, efeitos-sem-data | LC 155/2016 |
-| 55 | §5o | 1 | inclusao | LC 147/2014 |
-| 55 | §6o | 1 | inclusao | LC 147/2014 |
-| 55 | §7o | 1 | inclusao | LC 147/2014 |
-| 55 | §8o | 1 | inclusao | LC 147/2014 |
-| 55 | §9o | 1 | inclusao |  |
+| 55 | §5º | 1 | inclusao | LC 147/2014 |
+| 55 | §6º | 1 | inclusao | LC 147/2014 |
+| 55 | §7º | 1 | inclusao | LC 147/2014 |
+| 55 | §8º | 1 | inclusao | LC 147/2014 |
+| 55 | §9º | 1 | inclusao |  |
 | 56 | caput | 2 | redacao | LC 147/2014 |
 | 56 | §8º | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
 | 58 | caput | 2 | redacao |  |
 | 58 | caput | 2 | efeitos-sem-data |  |
-| 58 | §1o | 1 | redacao |  |
-| 58 | §1o | 1 | efeitos-sem-data |  |
-| 58 | §2o | 1 | inclusao | LC 147/2014 |
-| 58 | §3o | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
-| 58 | §4o | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 58 | §1º | 1 | redacao |  |
+| 58 | §1º | 1 | efeitos-sem-data |  |
+| 58 | §2º | 1 | inclusao | LC 147/2014 |
+| 58 | §3º | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 58 | §4º | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
 | 58-A | caput | 1 | inclusao | LC 147/2014 |
 | 60-B | caput | 1 | inclusao |  |
 | 60-C | caput | 1 | inclusao | LC 147/2014 |
 | 61-A | caput | 1 | inclusao | LC 155/2016 |
-| 61-A | §1o | 1 | efeitos-sem-data | LC 155/2016 |
-| 61-A | §2o | 1 | efeitos-sem-data |  |
-| 61-A | §2o | 1 | inclusao |  |
-| 61-A | §2º | 1 | redacao | LC 182/2021 |
-| 61-A | §3o | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
-| 61-A | §4o | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 61-A | §1º | 1 | efeitos-sem-data | LC 155/2016 |
+| 61-A | §2º | 1 | efeitos-sem-data |  |
+| 61-A | §2º | 1 | inclusao |  |
+| 61-A | §2º | 2 | redacao | LC 182/2021 |
+| 61-A | §3º | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 61-A | §4º | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
 | 61-A | I- | 1 | inclusao | LC 155/2016 |
 | 61-A | I- | 2 | redacao | LC 182/2021 |
 | 61-A | II- | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
@@ -486,17 +486,17 @@
 | 61-A | III- | 2 | inclusao |  |
 | 61-A | IV- | 1 | inclusao | LC 182/2021 |
 | 61-A | V- | 1 | inclusao | LC 182/2021 |
-| 61-A | §5o | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
-| 61-A | §6o | 1 | inclusao | LC 155/2016 |
-| 61-A | §6o | 1 | efeitos-sem-data |  |
-| 61-A | §6º | 1 | redacao | LC 182/2021 |
+| 61-A | §5º | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 61-A | §6º | 1 | inclusao | LC 155/2016 |
+| 61-A | §6º | 1 | efeitos-sem-data |  |
+| 61-A | §6º | 2 | redacao | LC 182/2021 |
 | 61-A | I- | 1 | inclusao |  |
 | 61-A | II- | 1 | inclusao | LC 182/2021 |
-| 61-A | §7o | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
-| 61-A | §7º | 1 | redacao | LC 182/2021 |
-| 61-A | §8o | 1 | efeitos-sem-data |  |
-| 61-A | §8o | 1 | inclusao | LC 155/2016 |
-| 61-A | §9o | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 61-A | §7º | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
+| 61-A | §7º | 2 | redacao | LC 182/2021 |
+| 61-A | §8º | 1 | efeitos-sem-data |  |
+| 61-A | §8º | 1 | inclusao | LC 155/2016 |
+| 61-A | §9º | 1 | inclusao, efeitos-sem-data | LC 155/2016 |
 | 61-A | §10 | 1 | inclusao | LC 155/2016 |
 | 61-B | caput | 1 | inclusao | LC 155/2016 |
 | 61-C | caput | 1 | inclusao | LC 155/2016 |
@@ -518,9 +518,9 @@
 | 61-H | caput | 1 | inclusao | LC 169/2019 |
 | 61-I | caput | 1 | inclusao | LC 169/2019 |
 | 64 | VI- | 1 | inclusao | LC 147/2014 |
-| 65 | §3o | 2 | redacao | LC 147/2014 |
+| 65 | §3º | 2 | redacao | LC 147/2014 |
 | 65 | II- | 1 | vide, efeitos-sem-data | LC 214/2025 |
-| 65 | §6o | 1 | inclusao |  |
+| 65 | §6º | 1 | inclusao |  |
 | 65-A | caput | 1 | inclusao | LC 167/2019 |
 | 65-A | caput | 2 | redacao | LC 182/2021 |
 | 65-A | §1º | 1 | inclusao | LC 167/2019 |
@@ -563,7 +563,7 @@
 | 79-E | caput | 2 | efeitos-sem-data |  |
 | 85-A | III- | 2 | redacao | LC 147/2014 |
 | 85-A | IV- | 1 | inclusao | LC 147/2014 |
-| 85-A | §3o | 2 | redacao |  |
+| 85-A | §3º | 2 | redacao |  |
 | 87-A | caput | 1 | inclusao |  |
 | Anexo I | cabecalho | 1 | vigencia |  |
 | Anexo I | cabecalho | 2 | redacao, vide, efeitos-sem-data | LC 214/2025 |

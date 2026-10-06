@@ -92,5 +92,62 @@ class TestVigenciaPlanalto(unittest.TestCase):
         self.assertIn("Lcp155.htm#art11 (1)", md)
 
 
+HTML_REVISAO = """
+<p>Art. 18-A. O MEI poderá optar.</p>
+<p>V – texto do inciso. (Vide Lei Complementar nº 214, de 2025) <a href="Lcp214.htm#art544-3">Produção de efeitos</a></p>
+<p>d) alínea d. (Vide Lei Complementar nº 214, de 2025) <a href="Lcp214.htm#art517">x</a> <a href="Lcp214.htm#art544-3">Produção de efeitos</a> <a href="Lcp214.htm#art543">y</a> <a href="Lcp214.htm#art544-5">Produção de efeitos</a></p>
+<p>e) alínea e. (Vide Lei Complementar nº 214, de 2025) <a href="Lcp214.htm#art517">x</a> <a href="Lcp214.htm#art544-3">Produção de efeitos</a> <a href="Lcp214.htm#art543">y</a> <a href="Lcp214.htm#art544-5">Produção de efeitos</a></p>
+<table><tr><td><p>0,50%</td><td><p>ANEXO II DA LEI COMPLEMENTAR (Vide Lei Complementar nº 214, de 2025) <a href="Lcp214.htm#art519">Produção de efeitos</a></p></td></tr></table>
+<p>Anexo VII (Vide Lei Complementar nº 214, de 2025) <a href="Lcp214.htm#art520">Produção de efeitos</a></p>
+"""
+
+TSV_REVISAO = """Lcp214.htm#art544-3\t2027-01-01\tLC 214, art. 544, III
+Lcp214.htm#art544-5\t2033-01-01\tLC 214, art. 544, V
+Lcp214.htm#art517\t2027-01-01\tLC 214, art. 544, III (art. 517)
+Lcp214.htm#art519\t2027-01-01\tLC 214, art. 544, III (art. 519)
+Lcp214.htm#art520\t2027-01-01\tLC 214, art. 544, III (art. 520)\tinclusao
+Lcp214.htm#art543\t2033-01-01\tLC 214, art. 544, V (art. 543)\trevogacao
+Lcp214.htm#art543@18-A|d)\t-\tart. 543 revoga só a alínea e\tignorar
+Lcp214.htm#art544-5@18-A|d)\t-\tart. 543 revoga só a alínea e\tignorar
+"""
+
+
+class TestAchadosDaRevisao(unittest.TestCase):
+    def setUp(self):
+        self.pars = vp.paragrafos_html(HTML_REVISAO)
+        self.linhas, _ = vp.mapear(self.pars, vp.ler_ancoras(TSV_REVISAO), "2026-10-06")
+
+    def linhas_de(self, artigo, dispositivo):
+        return [l for l in self.linhas if (l.artigo, l.dispositivo) == (artigo, dispositivo)]
+
+    def test_paragrafo_sem_fechamento_nao_engole_o_titulo_seguinte(self):
+        self.assertTrue(any(t.startswith("ANEXO II") for t, _, _ in self.pars))
+        self.assertEqual(len(self.linhas_de("Anexo II", "cabecalho")), 1)
+
+    def test_anexo_em_caixa_mista(self):
+        self.assertEqual(len(self.linhas_de("Anexo VII", "cabecalho")), 1)
+
+    def test_natureza_inclusao_da_ancora(self):
+        self.assertEqual(self.linhas_de("Anexo VII", "cabecalho")[0].situacao,
+                         "⏳ futura — dispositivo ainda não vale")
+
+    def test_inciso_com_travessao(self):
+        self.assertEqual(len(self.linhas_de("18-A", "V-")), 1)
+
+    def test_vide_sem_redacao_nova_e_o_texto_vigente(self):
+        self.assertEqual(
+            self.linhas_de("18-A", "V-")[0].situacao,
+            "vigente — alteração prevista para 01/01/2027 (texto novo ainda não compilado; ver lei alteradora)",
+        )
+
+    def test_paragrafo_com_duas_datas_gera_uma_linha_por_data(self):
+        datas = sorted((l.data, l.situacao) for l in self.linhas_de("18-A", "e)"))
+        self.assertEqual([d for d, _ in datas], ["2027-01-01", "2033-01-01"])
+        self.assertEqual(datas[1][1], "⏳ revogação futura — dispositivo ainda vale")
+
+    def test_natureza_ignorar_descarta_link_divergente(self):
+        self.assertEqual([l.data for l in self.linhas_de("18-A", "d)")], ["2027-01-01"])
+
+
 if __name__ == "__main__":
     unittest.main()

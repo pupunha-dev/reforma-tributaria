@@ -28,6 +28,9 @@ redação anterior e a nova, uma depois da outra. Esta tabela diz o que vale
 - **vigente**: a redação marcada já produz efeitos;
 - **⏳ futura — redação anterior ainda vale**: até a data indicada, vale a
   redação anterior, que aparece logo antes no texto;
+- **vigente — alteração prevista para DD/MM/AAAA**: o texto da linha é o
+  que vale hoje; a lei alteradora já prevê outra redação, que o compilado
+  ainda não trouxe (marca "Vide"), e ela deve ser lida na lei alteradora;
 - **⏳ futura — dispositivo ainda não vale**: dispositivo novo, ainda sem efeitos;
 - **⏳ revogação futura — dispositivo ainda vale**: o dispositivo será
   revogado na data indicada e até lá continua valendo;
@@ -36,8 +39,11 @@ redação anterior e a nova, uma depois da outra. Esta tabela diz o que vale
 
 A data vem do link "Produção de efeitos"/"Vigência" de cada dispositivo no
 HTML oficial, que aponta para o inciso exato da cláusula de vigência da lei
-alteradora, e do artigo alterador. Quando os dois links divergem, prevalece
-a data mais tardia, que é o lado mais conservador.
+alteradora, e do artigo alterador. Um mesmo dispositivo pode ter **uma linha
+por data** (ex.: alterado em 2027 e revogado em 2033). Links do Planalto que
+divergem do texto literal da lei alteradora são descartados no arquivo de
+âncoras (natureza `ignorar`), com a justificativa ao lado, e os dispositivos
+corretos entram na tabela "Revogações com data própria" abaixo.
 
 ## Cláusulas de vigência usadas (texto literal)
 
@@ -67,8 +73,11 @@ demais dispositivos."
 Na LC 123, isso significa:
 
 - **art. 168** (repasse do IBS, inclusive os 50%/50% do MEI; fiscalização; contencioso): já vale;
-- **art. 169** (segregação de receitas IBS/CBS no art. 18): a partir de 01/01/2027.
-  É o art. 169 **da própria LC 227**, não o da LC 214;
+- **art. 169**: a partir de 01/01/2027. É o art. 169 **da própria LC 227**,
+  não o da LC 214. Altera os arts. **18** (segregação de receitas IBS/CBS,
+  §4º, VIII e IX), **18-A** (§7º, I), **21**, **33** (§1º-C: lançamento de
+  todos os tributos do Simples em qualquer estabelecimento) e **38-B** (II:
+  multa de 60%);
 - **art. 181, IV** (revogações): "a) o art. 87-B, na redação dada pelo art.
   517 da Lei Complementar nº 214 [...]; b) os incisos I e II do § 4º do art.
   41; c) em 30 de novembro de 2026, o § 4º do art. 31; d) em 1º de janeiro
@@ -79,8 +88,8 @@ Na LC 123, isso significa:
 O compilado da LC 123 no Planalto **ainda não incorpora** as alterações do
 **art. 169 da LC 227** (efeitos a partir de 01/01/2027): novos incisos VIII
 e IX do §4º do art. 18 (segregação de receitas sujeitas só a IBS/CBS,
-tributadas pelos Anexos III e I, respectivamente), §7º, I, do art. 18-A e
-art. 21. Por isso esses dispositivos **não aparecem na tabela abaixo**. O
+tributadas pelos Anexos III e I, respectivamente), §7º, I, do art. 18-A,
+art. 21, §1º-C do art. 33 e inciso II do art. 38-B. Por isso esses dispositivos **não aparecem na tabela abaixo**. O
 texto literal está em `fontes/reforma/texto/lc-227-2026-planalto.htm`
 (art. 169).
 
@@ -97,6 +106,8 @@ texto literal está em `fontes/reforma/texto/lc-227-2026-planalto.htm`
 |---|---|---|---|
 | art. 31, § 4º | LC 227/2026, art. 181, IV, c | 30/11/2026 | texto literal acima |
 | art. 18, § 4º, VI | LC 227/2026, art. 181, IV, d | 01/01/2033 | texto literal acima |
+| art. 13, §1º, XIII e XIV | LC 214/2025, art. 543, V, a, 2 | 01/01/2033 | LC 214, art. 544, V (no Planalto o link aparece no inciso XV, que **não** é revogado) |
+| art. 18-A, §3º, V, "e" | LC 214/2025, art. 543, V, c | 01/01/2033 | LC 214, art. 544, V (no Planalto o link aparece também na alínea "d", que **não** é revogada) |
 | art. 13, IV e V e demais menções a PIS/Cofins | LC 214/2025, art. 542 | 01/01/2027 | LC 214, art. 544, III |
 | menções a ICMS/ISS (art. 13, VII e VIII etc.) | LC 214/2025, art. 543 | 01/01/2033 | LC 214, art. 544, V |
 
@@ -106,9 +117,11 @@ texto literal está em `fontes/reforma/texto/lc-227-2026-planalto.htm`
 
 - revogado: 2
 - superado (riscado no Planalto): 4
-- vigente: 41
-- ⏳ futura — redação anterior ainda vale: 8
-- ⏳ revogação futura — dispositivo ainda vale: 41
+- vigente: 42
+- vigente — alteração prevista para 01/01/2027 (texto novo ainda não compilado; ver lei alteradora): 8
+- ⏳ futura — dispositivo ainda não vale: 1
+- ⏳ futura — redação anterior ainda vale: 1
+- ⏳ revogação futura — dispositivo ainda vale: 39
 
 ## Dispositivos com marca de vigência
 
@@ -133,7 +146,6 @@ texto literal está em `fontes/reforma/texto/lc-227-2026-planalto.htm`
 | 13 | VIII- | vide, efeitos-sem-data, revogacao | LC 214/2025 | 01/01/2033 | LC 214, art. 544, V (art. 543) | ⏳ revogação futura — dispositivo ainda vale |
 | 13 | VII- | revogacao, efeitos-sem-data | LC 214/2025 | 01/01/2025 | LC 214, art. 544, II (art. 541) | superado (riscado no Planalto) |
 | 13 | XIII- | vide, efeitos-sem-data, revogacao | LC 214/2025 | 01/01/2033 | LC 214, art. 544, V (art. 543) | ⏳ revogação futura — dispositivo ainda vale |
-| 13 | XV- | vide, efeitos-sem-data, revogacao | LC 214/2025 | 01/01/2033 | LC 214, art. 544, V (art. 543) | ⏳ revogação futura — dispositivo ainda vale |
 | 13 | II- | vide, efeitos-sem-data, revogacao | LC 214/2025 | 01/01/2033 | LC 214, art. 544, V (art. 543) | ⏳ revogação futura — dispositivo ainda vale |
 | 17 | II- | redacao, efeitos-sem-data | LC 214/2025 | 01/01/2025 | LC 214, art. 544, II (art. 516) | vigente |
 | 17 | XV- | redacao, efeitos-sem-data | LC 214/2025 | 01/01/2025 | LC 214, art. 544, II (art. 516) | vigente |
@@ -145,11 +157,12 @@ texto literal está em `fontes/reforma/texto/lc-227-2026-planalto.htm`
 | 18 | §17-A | vide, efeitos-sem-data, revogacao | LC 214/2025 | 01/01/2033 | LC 214, art. 544, V (art. 543) | ⏳ revogação futura — dispositivo ainda vale |
 | 18 | §22-A | vide, efeitos-sem-data, revogacao | LC 214/2025 | 01/01/2033 | LC 214, art. 544, V (art. 543) | ⏳ revogação futura — dispositivo ainda vale |
 | 18 | §23 | vide, efeitos-sem-data, revogacao | LC 214/2025 | 01/01/2033 | LC 214, art. 544, V (art. 543) | ⏳ revogação futura — dispositivo ainda vale |
-| 18-A | III- | vide, efeitos-sem-data | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 517) | ⏳ futura — redação anterior ainda vale |
-| 18-A | III- | redacao, vide, efeitos-sem-data | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 517) | ⏳ futura — redação anterior ainda vale |
+| 18-A | IV- | vide, efeitos-sem-data | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 517) | vigente — alteração prevista para 01/01/2027 (texto novo ainda não compilado; ver lei alteradora) |
+| 18-A | V- | redacao, vide, efeitos-sem-data | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 517) | ⏳ futura — redação anterior ainda vale |
 | 18-A | b) | vide, efeitos-sem-data, revogacao | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 542) | ⏳ revogação futura — dispositivo ainda vale |
 | 18-A | c) | vide, efeitos-sem-data, revogacao | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 542) | ⏳ revogação futura — dispositivo ainda vale |
-| 18-A | d) | vide, efeitos-sem-data, revogacao | LC 214/2025 | 01/01/2033 | LC 214, art. 544, V (art. 543) | ⏳ revogação futura — dispositivo ainda vale |
+| 18-A | d) | vide, efeitos-sem-data | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 517) | vigente — alteração prevista para 01/01/2027 (texto novo ainda não compilado; ver lei alteradora) |
+| 18-A | e) | vide, efeitos-sem-data | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 517) | vigente — alteração prevista para 01/01/2027 (texto novo ainda não compilado; ver lei alteradora) |
 | 18-A | e) | vide, efeitos-sem-data, revogacao | LC 214/2025 | 01/01/2033 | LC 214, art. 544, V (art. 543) | ⏳ revogação futura — dispositivo ainda vale |
 | 19 | caput | redacao, vide, efeitos-sem-data, revogacao | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 542) | ⏳ revogação futura — dispositivo ainda vale |
 | 20 | caput | vide, efeitos-sem-data, revogacao | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 542) | ⏳ revogação futura — dispositivo ainda vale |
@@ -175,6 +188,7 @@ texto literal está em `fontes/reforma/texto/lc-227-2026-planalto.htm`
 | 26 | §3º | redacao, efeitos-sem-data | LC 214/2025 | 01/01/2025 | LC 214, art. 544, II (art. 516) | vigente |
 | 26 | II- | redacao, efeitos-sem-data | LC 214/2025 | 01/01/2025 | LC 214, art. 544, II (art. 516) | vigente |
 | 26 | §12 | inclusao, vide, efeitos-sem-data, revogacao | LC 214/2025 | 01/01/2033 | LC 214, art. 544, V (art. 543) | ⏳ revogação futura — dispositivo ainda vale |
+| 26 | §12-A | inclusao, vide, efeitos-sem-data | LC 214/2025 | 01/01/2025 | LC 214, art. 544, II (art. 516) | vigente |
 | 26 | §12-A | inclusao, vide, efeitos-sem-data, revogacao | LC 214/2025 | 01/01/2033 | LC 214, art. 544, V (art. 543) | ⏳ revogação futura — dispositivo ainda vale |
 | 26 | §13 | inclusao, vide, efeitos-sem-data, revogacao | LC 214/2025 | 01/01/2033 | LC 214, art. 544, V (art. 543) | ⏳ revogação futura — dispositivo ainda vale |
 | 26 | §14 | inclusao, vide, efeitos-sem-data, revogacao | LC 214/2025 | 01/01/2033 | LC 214, art. 544, V (art. 543) | ⏳ revogação futura — dispositivo ainda vale |
@@ -204,15 +218,15 @@ texto literal está em `fontes/reforma/texto/lc-227-2026-planalto.htm`
 | 41 | II- | redacao, revogacao | LC 227/2026 | 13/01/2026 | LC 227, art. 182, III (publicação) | revogado |
 | 41 | V- | redacao, vide, efeitos-sem-data, revogacao | LC 214/2025 | 01/01/2033 | LC 214, art. 544, V (art. 543) | ⏳ revogação futura — dispositivo ainda vale |
 | 65 | II- | vide, efeitos-sem-data, revogacao | LC 214/2025 | 01/01/2033 | LC 214, art. 544, V (art. 543) | ⏳ revogação futura — dispositivo ainda vale |
-| Anexo I | cabecalho | vide, efeitos-sem-data | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 519) | ⏳ futura — redação anterior ainda vale |
-| Anexo I | cabecalho | vide, efeitos-sem-data | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 519) | ⏳ futura — redação anterior ainda vale |
-| Anexo I | cabecalho | vide, efeitos-sem-data | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 519) | ⏳ futura — redação anterior ainda vale |
-| Anexo IV | cabecalho | vide, efeitos-sem-data | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 519) | ⏳ futura — redação anterior ainda vale |
-| Anexo IV | cabecalho | vide, efeitos-sem-data | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 519) | ⏳ futura — redação anterior ainda vale |
-| Anexo IV | cabecalho | vide, efeitos-sem-data | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 520) | ⏳ futura — redação anterior ainda vale |
+| Anexo I | cabecalho | vide, efeitos-sem-data | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 519) | vigente — alteração prevista para 01/01/2027 (texto novo ainda não compilado; ver lei alteradora) |
+| Anexo II | cabecalho | vide, efeitos-sem-data | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 519) | vigente — alteração prevista para 01/01/2027 (texto novo ainda não compilado; ver lei alteradora) |
+| Anexo III | cabecalho | vide, efeitos-sem-data | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 519) | vigente — alteração prevista para 01/01/2027 (texto novo ainda não compilado; ver lei alteradora) |
+| Anexo IV | cabecalho | vide, efeitos-sem-data | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 519) | vigente — alteração prevista para 01/01/2027 (texto novo ainda não compilado; ver lei alteradora) |
+| Anexo V | cabecalho | vide, efeitos-sem-data | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 519) | vigente — alteração prevista para 01/01/2027 (texto novo ainda não compilado; ver lei alteradora) |
+| Anexo VII | cabecalho | vide, efeitos-sem-data | LC 214/2025 | 01/01/2027 | LC 214, art. 544, III (art. 520) | ⏳ futura — dispositivo ainda não vale |
 
 ## Âncoras de vigência não mapeadas
 
 Links "Produção de efeitos"/"Vigência" sem data no arquivo de âncoras (efeitos já consumados antes da reforma ou fora do escopo deste mapa):
 
-#anexoi (3), #anexov (1), #art11 (5), #art12 (3), #art13 (3), #art14 (1), #art15ii (1), #art18 (3), #art18a (2), #art19 (2), #art20 (2), #art25 (1), #art29 (1), #art3 (3), #art30 (2), #art31 (1), #art44 (1), #art88 (1), Constituicao.htm#art146§1iv (1), Constituicao.htm#art155§2xiig (1), L10406.htm#art1031 (2), L10406.htm#art1179 (1), L10406.htm#art50 (1), L10406.htm#art966 (3), L10406.htm#art970 (1), L14133.htm#art4 (3), L4595.htm#art10iiib (1), L8212cons.htm#art21§2 (2), L8212cons.htm#art21§2.. (1), L8212cons.htm#art32iv (1), L8213cons.htm#art55§4 (1), L8213cons.htm#art94§2 (1), Lcp116.htm#anexo (1), Lcp116.htm#art3 (1), Lcp147.htm#art1 (57), Lcp147.htm#art11 (1), Lcp147.htm#art15i (38), Lcp147.htm#art15ii (14), Lcp147.htm#art16 (8), Lcp147.htm#art2 (4), Lcp147.htm#art3 (1), Lcp155.htm#art1 (106), Lcp155.htm#art10 (20), Lcp155.htm#art11 (106), Lcp155.htm#art2 (5), Lcp168.htm#art1 (1), Lcp182.htm#art17 (17), Lcp182.htm#art18 (3), Lcp182.htm#art19 (17), Lcp188.htm#art1 (1), Lcp63.htm#art3 (1)
+#anexoi (3), #anexov (1), #art11 (5), #art12 (3), #art13 (3), #art14 (1), #art15ii (1), #art18 (3), #art18a (2), #art19 (2), #art20 (2), #art25 (1), #art29 (1), #art3 (3), #art30 (2), #art31 (1), #art44 (1), #art88 (1), Constituicao.htm#art146§1iv (1), Constituicao.htm#art155§2xiig (1), L10406.htm#art1031 (2), L10406.htm#art1179 (1), L10406.htm#art50 (1), L10406.htm#art966 (3), L10406.htm#art970 (1), L14133.htm#art4 (3), L4595.htm#art10iiib (1), L8212cons.htm#art21§2 (2), L8212cons.htm#art21§2.. (1), L8212cons.htm#art32iv (1), L8213cons.htm#art55§4 (1), L8213cons.htm#art94§2 (1), Lcp116.htm#anexo (1), Lcp116.htm#art3 (1), Lcp147.htm#art1 (57), Lcp147.htm#art11 (1), Lcp147.htm#art15i (38), Lcp147.htm#art15ii (14), Lcp147.htm#art16 (8), Lcp147.htm#art2 (4), Lcp147.htm#art3 (1), Lcp155.htm#art1 (106), Lcp155.htm#art10 (20), Lcp155.htm#art11 (106), Lcp155.htm#art2 (5), Lcp182.htm#art17 (17), Lcp182.htm#art18 (3), Lcp182.htm#art19 (17), Lcp188.htm#art1 (1), Lcp63.htm#art3 (1)

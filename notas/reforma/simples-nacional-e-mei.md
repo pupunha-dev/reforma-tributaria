@@ -29,10 +29,12 @@ O Documento de Arrecadação do Simples (DAS) passa a segregar, entre as receita
 
 ## Fiscalização e contencioso do Simples (LC 227, art. 168 e 169 — alterando arts. 22, 33, 38-B e 39 da LC 123)
 
+**Vigência:** o que vem do art. 168 da LC 227 (arts. 22, 33 caput, 39 e 41 §4º da LC 123) vale desde a publicação da LC 227; o que vem do art. 169 (art. 33 §1º-C e art. 38-B, II) só vale **a partir de 01/01/2027** (LC 227, art. 182, I, "b").
+
 - **Repasse do IBS recolhido no Simples** (art. 22): o CGSN define os repasses, cabendo ao **CGIBS** o valor do IBS (art. 22, IV), e — regra específica para o **MEI** — 50% do IBS recolhido vai direto ao Município/DF e 50% ao Estado/DF do estabelecimento (incisos V e VI), sem passar pelo mecanismo geral de partilha do IBS regular.
-- **Fiscalização** (art. 33): cabe às Secretarias de Fazenda/Finanças do ente competente, com autoridade para lançar **todos** os tributos do Simples (art. 13) em qualquer estabelecimento da empresa, independente de qual ente instituiu o tributo (§1º-C, novo) — fiscalização unificada mesmo em empresa com múltiplos endereços.
+- **Fiscalização** (art. 33): cabe às Secretarias de Fazenda/Finanças do ente competente, com autoridade para lançar **todos** os tributos do Simples (art. 13) em qualquer estabelecimento da empresa, independente de qual ente instituiu o tributo (§1º-C, novo — ⏳ **a partir de 01/01/2027**, LC 227, art. 169) — fiscalização unificada mesmo em empresa com múltiplos endereços.
 - **Contencioso** (art. 39, reescrito): dividido por origem do lançamento — órgãos da RFB para questões federais, o **CGIBS** para questões de IBS, e órgãos do próprio Estado/Município/DF para os demais lançamentos locais. Omissão de receita sem identificação de origem é autuada pela **maior alíquota** prevista na lei (§2º-A, novo) — presunção desfavorável ao contribuinte na dúvida.
-- **Multa por sonegação/fraude/simulação/conluio/embaraço à fiscalização** no Simples (art. 38-B): chega a **60%** para optantes do regime.
+- **Multa por sonegação/fraude/simulação/conluio/embaraço à fiscalização** no Simples (art. 38-B, II): chega a **60%** para optantes do regime — ⏳ **a partir de 01/01/2027** (LC 227, art. 169).
 
 ## Alterações e revogações (art. 517 da LC 214; art. 181, IV da LC 227)
 

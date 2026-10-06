@@ -22,8 +22,9 @@ oficiais de `fontes/<dominio>/`.
 **Só atos normativos federais listados na tabela de domínios**: leis
 complementares, leis e atos infralegais federais, como resoluções do
 CGSN. Ficam fora: legislação estadual e municipal (convênios, protocolos,
-ITBI/IPTU municipal etc.) e tributos que esses atos não tratam (ex.:
-Imposto de Renda). Perguntas sobre esses temas ficam fora do escopo das
+ITBI/IPTU municipal etc.) e tributos ou regimes que esses atos não tratam
+(ex.: IRPF e IRPJ pelo lucro real/presumido; o IRPJ **dentro** do Simples
+Nacional é matéria da LC 123 e está no escopo). Perguntas sobre esses temas ficam fora do escopo das
 notas, mesmo quando parecem relacionadas.
 
 **Caso especial: substituição tributária (ST), domínio reforma.** A
