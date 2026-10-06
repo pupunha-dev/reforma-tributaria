@@ -1,6 +1,6 @@
 ---
 título: Plano de notas — Simples Nacional (fase A: LC 123/2006)
-status: aguardando-aprovacao
+status: aprovado
 ---
 
 # Plano de notas — Simples Nacional (fase A: LC 123/2006)
