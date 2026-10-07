@@ -49,6 +49,25 @@ class Linha:
     situacao: str
 
 
+RISCO_TAG = re.compile(r"<strike\b[^>]*>(.*?)</strike>", re.S | re.I)
+RISCO_CSS = re.compile(r"<(\w+)\b[^>]*line-through[^>]*>(.*?)</\1>", re.S | re.I)
+
+
+def _texto_puro(fragmento: str) -> str:
+    return re.sub(r"\s+", " ", html_lib.unescape(TAG.sub("", fragmento))).strip()
+
+
+def riscado(fragmento: str) -> bool:
+    """Trecho superado: o texto riscado (<strike> ou line-through) é pelo menos
+    metade do texto. Um link "Produção de efeitos" riscado sozinho não conta."""
+    total = len(_texto_puro(fragmento))
+    if not total:
+        return False
+    partes = [m.group(1) for m in RISCO_TAG.finditer(fragmento)]
+    partes += [m.group(2) for m in RISCO_CSS.finditer(fragmento)]
+    return len(_texto_puro(" ".join(partes))) * 2 >= total
+
+
 def paragrafos_html(html: str) -> list[tuple[str, bool, list[str]]]:
     """(texto, riscado, links normalizados para 'Arquivo.htm#ancora')."""
     saida = []
@@ -59,7 +78,7 @@ def paragrafos_html(html: str) -> list[tuple[str, bool, list[str]]]:
         p = pedaco[:fim.start()] if fim else pedaco
         texto = re.sub(r"\s+", " ", html_lib.unescape(TAG.sub("", p))).strip()
         links = [h.rsplit("/", 1)[-1] for h in HREF.findall(p)]
-        saida.append((texto, "<strike" in p.lower(), links))
+        saida.append((texto, riscado(p), links))
     return saida
 
 

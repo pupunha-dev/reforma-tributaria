@@ -1,8 +1,8 @@
 ---
 título: Disposições preliminares e definição de microempresa (ME) e empresa de pequeno porte (EPP)
 dominio: simples-nacional
-fontes: LC 123/2006, arts. 1º a 3º-B (arts. 1º, 2º e 3º com redação da LC 214/2025, art. 516)
-vigencia: atual
+fontes: LC 123/2006, arts. 1º a 3º-B (arts. 1º, 2º e 3º com redação da LC 214/2025, art. 516); LC 214/2025, arts. 517 e 518
+vigencia: com-mudanca-programada
 texto-base: 2026-10-06
 ---
 
@@ -166,6 +166,32 @@ uma tolerância de 20%:
   e parágrafo único).
 - O Estatuto, exceto o Capítulo IV (tributário), vale para **toda** ME/EPP,
   mesmo a que não está no Simples, por vedação ou por opção (art. 3º-B).
+
+## ⏳ A partir de 01/01/2027 — redação dada pela LC 214/2025 (art. 517)
+
+Fundamento da data: LC 214, art. 544, III. Texto ainda não incorporado ao
+compilado da LC 123 no Planalto:
+
+- **Novo §1º-A do art. 3º:** a receita bruta do §1º **também compreende as
+  receitas com operações com bens materiais ou imateriais, inclusive direitos,
+  ou com serviços**. É o mesmo vocabulário amplo do IBS/CBS (ver
+  [[ibs-cbs-hipoteses-incidencia]]).
+- **§§11 e 13 (início de atividade):** deixam de falar em sublimites estaduais
+  (os arts. 19 e 20 são revogados em 2027) e passam a tratar do **excesso do
+  limite do art. 13-A** (R$ 3.600.000,00): quem, no ano de início, ultrapassar
+  1/12 desse limite multiplicado pelos meses de funcionamento **não pode
+  recolher ICMS, ISS e IBS** pelo Simples, com efeitos retroativos ao início das
+  atividades (§11), salvo excesso de até 20%, que só produz efeitos no ano
+  seguinte (§13).
+- **§15 (exportação):** continua mandando considerar separadamente as receitas
+  do mercado interno e as de exportação, agora também para a tributação da
+  parcela excedente dos §§16, 16-A, 17, 17-A, 17-B e 17-C do art. 18.
+
+## ⏳ A partir de 01/01/2033 — redação dada pela LC 214/2025 (art. 518)
+
+Fundamento da data: LC 214, art. 544, V. O §11 passa a impedir, no excesso do
+limite do art. 13-A, só o recolhimento do **IBS** pelo Simples (ICMS e ISS
+deixam de existir).
 
 ## Ligações
 

@@ -51,7 +51,9 @@ recolhidos ou com tributação monofásica, isenção, redução, retenção ou 
 fixo (§12), discriminando-se as receitas como comerciais, industriais ou de
 serviços conforme os Anexos I a V (§13). Na **exportação**, a redução
 corresponde às alíquotas efetivas de **Cofins, PIS/Pasep, IPI, ICMS e ISS**
-(§14). Ou seja, o exportador paga só IRPJ, CSLL e CPP sobre essa receita.
+(§14). Ou seja, sobre a receita de exportação não incidem as parcelas de
+Cofins, PIS/Pasep, IPI, ICMS e ISS; as demais parcelas do Anexo aplicável
+continuam devidas.
 
 ## Serviços: o mapa dos Anexos III, IV e V
 

@@ -49,6 +49,15 @@ class TestVigenciaPlanalto(unittest.TestCase):
         self.assertTrue(pars[2][1])
         self.assertFalse(pars[3][1])
 
+    def test_risco_so_no_link_nao_marca_o_paragrafo(self):
+        html = ('<p>Art. 517. A Lei Complementar nº 123 passa a vigorar com as seguintes alterações: '
+                '<a href="Lcp214.htm#art544"><strike>Produção de efeitos</strike></a></p>')
+        self.assertFalse(vp.paragrafos_html(html)[0][1])
+
+    def test_risco_na_maior_parte_marca_o_paragrafo(self):
+        html = '<p><strike>§ 1º Redação antiga e longa do dispositivo.</strike> (Vide LC)</p>'
+        self.assertTrue(vp.paragrafos_html(html)[0][1])
+
     def test_ignora_paragrafo_antes_do_primeiro_artigo(self):
         self.assertNotIn("", {l.artigo for l in self.linhas})
 

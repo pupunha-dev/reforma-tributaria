@@ -16,7 +16,7 @@ texto-base: 2026-10-06
 
 ## Como usar a tabela
 
-1. Ache a **faixa** pelo RBT12 (receita bruta dos 12 meses anteriores).
+1. Ache a **faixa** pelo RBT12: hoje, a receita bruta dos 12 meses anteriores ao período de apuração; a partir de 01/01/2027, a dos 12 meses antecedentes ao **mês anterior** ao período de apuração (art. 18, §1º, redação do art. 517 da LC 214).
 2. Aplique a fórmula: **alíquota efetiva = (RBT12 × alíquota nominal − valor a deduzir) ÷ RBT12** (art. 18, §1º-A).
 3. Multiplique a alíquota efetiva pela receita do mês: é o valor do DAS dessa atividade (art. 18, §3º).
 4. Para saber quanto vai para cada tributo, multiplique a alíquota efetiva pelo **percentual de repartição** da faixa (art. 18, §1º-B).

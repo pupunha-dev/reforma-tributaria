@@ -58,6 +58,8 @@ Com receita de R$ 50.000,00 no mês, o DAS dessa atividade ≈ 50.000,00 × 7,19
 A regra é a receita **auferida** no mês (competência). Por opção do
 contribuinte, na forma do CGSN, a alíquota pode incidir sobre a receita
 **recebida** no mês (caixa). A opção é **irretratável para todo o ano** (§3º).
+**Atenção:** a opção pelo regime de caixa **deixa de existir a partir de
+01/01/2027** (ver bloco ⏳ abaixo).
 
 ## Início de atividade (§2º)
 
@@ -69,8 +71,8 @@ V são **proporcionalizados** ao número de meses de atividade no período (§2�
 - No ano de início de atividade, se o excesso sobre o limite proporcional não
   passar de 20% (art. 3º, §12), a parcela excedente fica sujeita às
   **alíquotas máximas** dos Anexos I a V, proporcionalmente (§16). O mesmo vale
-  do mês do excesso até o mês anterior aos efeitos da exclusão, no excesso de
-  até 20% do art. 3º, §9º-A (§16-A).
+  nas hipóteses do art. 3º, §9º (excesso do limite de EPP), do mês do excesso
+  até o mês anterior aos efeitos da exclusão (§16-A).
 - Para os **sublimites estaduais** (art. 3º, §13, e art. 20, §1º), a parcela
   que exceder fica sujeita, **quanto a ICMS e ISS**, às alíquotas máximas
   correspondentes (§§17 e 17-A). Ver [[sn-sublimites-icms-iss]].
@@ -132,8 +134,17 @@ redação da LC 227:
   confissão de dívida das informações do sistema de cálculo), pela LC 214, art.
   542, XXXVI, "f". A regra passa a constar do novo art. 25 (declaração e
   declaração assistida); ver [[sn-obrigacoes-acessorias]].
-- A forma de cálculo (§1º-A) e a incidência sobre a receita do mês (§3º) ficam
-  mantidas; os percentuais de repartição passam a conter **CBS e IBS** nos novos
+- **Fim do regime de caixa (§3º):** a nova redação diz só que "sobre a receita
+  bruta **auferida** no mês incidirá a alíquota efetiva", **sem** a opção de
+  tributar a receita recebida. Coerente com isso, é revogado o inciso IV do §4º
+  do art. 23 (vedação de crédito ao comprador quando o optante usa o regime de
+  caixa) (LC 214, art. 542, XXXVI, "c"). Ver [[sn-creditos]].
+- **Excesso de receita (§§16 e 17):** a parcela que exceder o limite
+  proporcional do início de atividade (§16) ou, quanto a ICMS e ISS, o sublimite
+  (§17, observado o §17-B) passa a ser **tributada conjuntamente com a parcela
+  que não o exceder, conforme as alíquotas efetivas do §1º-A**, e não mais
+  pelas alíquotas máximas.
+- A fórmula da alíquota efetiva (§1º-A) fica mantida; os percentuais de repartição passam a conter **CBS e IBS** nos novos
   Anexos (ver [[sn-anexo-i-comercio]] a [[sn-anexo-v-servicos]]).
 
 ## ❌ Revogado a partir de 01/01/2033 — LC 214/2025 (art. 543, V, "b")

@@ -57,9 +57,13 @@ Fundamento da data: LC 214, art. 544, III. **Os arts. 19 e 20 são revogados.**
 Acaba a possibilidade de sublimite estadual menor (R$ 1.800.000,00), e passa a
 valer só o limite único do art. 13-A, que a partir de 2027 vale para **ICMS,
 ISS e IBS**: R$ 3.600.000,00 (art. 13-A, redação da LC 214, art. 517). Os
-§§11, 13 e 15 do art. 3º (início de atividade) passam a se referir ao excesso
-do limite do art. 13-A e a impedir o recolhimento de ICMS, ISS e IBS pelo
-Simples (art. 3º, redação do art. 517).
+§§11 e 13 do art. 3º (início de atividade) passam a se referir ao excesso do
+limite do art. 13-A e a impedir o recolhimento de ICMS, ISS e IBS pelo Simples
+(art. 3º, redação do art. 517). E a parcela que exceder o limite passa a ser
+**tributada conjuntamente** com a que não excede, pelas **alíquotas efetivas**
+(e não mais pelas máximas): quanto a ICMS e ISS no art. 18, §17, e quanto ao
+IBS nos §§17-B e 17-C (redação do art. 517). O §17-A do art. 18, que remete
+ao art. 20, §1º, perde o objeto com a revogação do art. 20.
 
 ## ⏳ A partir de 01/01/2033 — redação dada pela LC 214/2025 (art. 518)
 

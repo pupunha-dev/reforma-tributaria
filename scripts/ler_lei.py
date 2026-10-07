@@ -15,7 +15,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from vigencia_planalto import paragrafos_html  # noqa: E402
+from vigencia_planalto import paragrafos_html, riscado  # noqa: E402
 
 TABELA = re.compile(r"<table\b.*?</table>", re.S | re.I)
 LINHA = re.compile(r"<tr\b.*?</tr>", re.S | re.I)
@@ -27,9 +27,7 @@ def _texto(fragmento: str) -> str:
     return re.sub(r"\s+", " ", html_lib.unescape(TAG.sub("", fragmento))).strip()
 
 
-def _riscado(fragmento: str) -> bool:
-    baixo = fragmento.lower()
-    return "<strike" in baixo or "line-through" in baixo
+_riscado = riscado
 
 
 def linearizar(html: str) -> list[str]:

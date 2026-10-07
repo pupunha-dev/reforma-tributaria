@@ -34,6 +34,10 @@ class TestLerLei(unittest.TestCase):
     def test_linha_de_tabela_riscada_por_css(self):
         self.assertIn("[RISCADO] | 2ª Faixa | x |", self.linhas)
 
+    def test_linha_de_tabela_com_risco_so_numa_celula_curta_nao_e_riscada(self):
+        html = "<table><tr><td>3ª Faixa</td><td>De 360.000,01 a 720.000,00</td><td><strike>9%</strike></td></tr></table>"
+        self.assertEqual(ll.linearizar(html), ["| 3ª Faixa | De 360.000,01 a 720.000,00 | 9% |"])
+
     def test_tabela_mantem_ordem_com_legenda(self):
         i = self.linhas.index("Para os anos-calendário 2027 e 2028")
         j = self.linhas.index("A partir de 2029")

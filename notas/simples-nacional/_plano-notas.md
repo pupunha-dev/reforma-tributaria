@@ -22,7 +22,7 @@ Anexos I–VII.
 
 | Arquivo | Artigos | Vigência | Observação | Fase B |
 |---|---|---|---|---|
-| sn-conceitos-definicao-me-epp.md | 1–3-B | atual | Limites de receita bruta (art. 3º), receita bruta (§1º, red. LC 214 desde 2025), consolidação de todas as atividades e inscrições (§19), vedações do §4º | Res. 140, arts. 2º–3º (red. Res. 190) |
+| sn-conceitos-definicao-me-epp.md | 1–3-B | com-mudanca-programada | Limites de receita bruta (art. 3º), receita bruta (§1º, red. LC 214 desde 2025), consolidação de todas as atividades e inscrições (§19), vedações do §4º | Res. 140, arts. 2º–3º (red. Res. 190) |
 | sn-inscricao-baixa.md | 4–11 | atual | Abertura, alteração e baixa simplificadas | — |
 | sn-abrangencia-tributos.md | 12–16 | com-mudanca-programada | Tributos dentro e fora do DAS (art. 13); PIS/Cofins saem em 2027 (LC 214, art. 542) e ICMS/ISS em 2033 (art. 543); isenção de IR sobre lucros distribuídos (art. 14); opção (art. 16) | Res. 140, arts. 4º–6º (red. Res. 190: CBS e IBS no DAS) |
 | sn-vedacoes-ingresso.md | 17 | atual | Atividades e situações que impedem a opção | Res. 140, art. 15 |

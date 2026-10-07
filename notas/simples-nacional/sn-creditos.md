@@ -58,8 +58,6 @@ compilado da LC 123:
   imateriais, inclusive direitos, e de serviços de optante, **em montante
   equivalente ao cobrado por meio do regime único**. Diferente do ICMS, **não**
   há a condição de destinar o bem a comercialização ou industrialização.
-- **Crédito de ICMS (§1º):** passa a ter, expressamente, como limite o ICMS
-  efetivamente devido pelo optante nessas aquisições.
 - **Alíquota do crédito (§2º):** informada no documento fiscal; corresponde aos
   percentuais de **ICMS, IBS e CBS** dos **Anexos I a V** para a faixa do
   optante **no mês da operação** (e não mais no mês anterior). No mês de início
