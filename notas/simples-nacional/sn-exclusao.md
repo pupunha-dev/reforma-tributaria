@@ -1,9 +1,9 @@
 ---
 título: Exclusão do Simples Nacional — de ofício e por comunicação, prazos e efeitos
 dominio: simples-nacional
-fontes: LC 123/2006, arts. 28 a 32 (art. 31, §2º, com redação da LC 216/2025); LC 214/2025, arts. 517 e 518; LC 227/2026, art. 181, IV, "c"
+fontes: LC 123/2006, arts. 28 a 32 (art. 31, §2º, com redação da LC 216/2025); LC 214/2025, arts. 517 e 518; LC 227/2026, art. 181, IV, "c"; Res. CGSN 140/2018, arts. 81 a 84; Res. CGSN 190/2026, art. 1º
 vigencia: com-mudanca-programada
-texto-base: 2026-10-06
+texto-base: 2026-10-07
 ---
 
 # Exclusão do Simples Nacional
@@ -116,6 +116,54 @@ arts. 19 e 20 são revogados em 2027).
 
 Fundamento da data: LC 214, art. 544, V. O art. 31, §3º, e o art. 32, §3º,
 passam a tratar só do impedimento de recolher o **IBS** pelo Simples.
+
+## Regulamentação (Res. CGSN 140/2018)
+
+- **Comunicação (art. 81):** feita no **aplicativo do Portal do Simples**.
+  - **Por opção**, a qualquer tempo: efeitos em 1º de janeiro do **próprio ano**
+    se comunicada em **janeiro**; nos demais meses, em 1º de janeiro do **ano
+    seguinte** (I).
+  - **Obrigatória** (II): excesso dos limites do art. 2º, §1º (até o último dia
+    útil do mês seguinte, se o excesso passar de 20%; senão, até o último dia útil
+    de janeiro do ano seguinte) (a); excesso do limite proporcional no ano de
+    início (b); vedações do art. 15 (c); **débito** sem exigibilidade suspensa (d);
+    vedação já existente no ingresso → efeitos **desde a opção** (e).
+- **Alteração no CNPJ = comunicação (art. 82):** S.A., comandita por ações, SCP
+  ou estabelecimento de sociedade estrangeira; atividade vedada; sócio pessoa
+  jurídica ou domiciliado no exterior; cisão parcial → efeitos no **1º dia do mês
+  seguinte**; extinção → efeitos na data da extinção.
+- **Exclusão de ofício (arts. 83 e 84):** compete à **RFB**, à **Secretaria
+  estadual** do local do estabelecimento e ao **Município** (serviços de sua
+  competência) (art. 83). O ente que inicia expede o **termo de exclusão**, dá
+  ciência (art. 122) e registra no Portal; o termo se torna efetivo após a decisão
+  definitiva desfavorável (se impugnado) ou após o prazo de impugnação (§§1º a 5º).
+  O Município pode excluir por débito ou cadastro municipal mesmo sem atividade de
+  sua competência, e o Estado mesmo sem estabelecimento no seu território (§§7º e
+  8º). Efeitos (art. 84):
+
+| Motivo | Efeitos |
+|---|---|
+| falta de comunicação obrigatória | mesmas datas do art. 81, II (I) |
+| escritório contábil que descumpre os deveres do art. 6º, §8º | mês seguinte ao descumprimento (II) |
+| vedação já existente no ingresso ou declaração falsa na opção | desde a data dos efeitos da opção (III) |
+| embaraço, resistência, interpostas pessoas, infrações reiteradas, inaptidão, contrabando, falta de ECD (investidor-anjo) ou de Livro Caixa, despesas 20% acima dos ingressos, compras acima de 80% dos ingressos, falta reiterada de nota fiscal ou de informação de segurados | **próprio mês** da infração, com **impedimento por 3 anos** (IV), ou **10 anos** com fraude (§2º) |
+| cadastro fiscal ausente ou irregular | 1º dia do mês seguinte (V) |
+| débito sem exigibilidade suspensa | ano seguinte à ciência do termo (VI) |
+
+  Nos casos V e VI, regularizar em **90 dias** da ciência mantém a empresa no
+  Simples (§1º). **Despesas pagas** (alínea "h") incluem custos, salários e demais
+  despesas operacionais e não operacionais (§7º). Na **pejotização** (art. 15,
+  XXV), o titular ou sócio é considerado empregado, com todas as obrigações da
+  relação de emprego (§9º).
+
+## ⏳ A partir de 01/01/2027 — Res. CGSN 190/2026 (art. 1º; Res. 140, art. 81)
+
+Fundamento da data: Res. 190, art. 9º. A exclusão **por opção**, comunicada a
+qualquer tempo, passa a produzir efeitos **sempre a partir de 1º de janeiro do ano
+seguinte** (art. 81, I); revogam-se as alíneas "a" e "b" do inciso I (Res. 190,
+art. 8º, XXIV). É a mesma mudança da LC, cujo art. 31, §4º, é revogado em
+30/11/2026 (LC 227, art. 181, IV, "c"). Na prática, a próxima comunicação feita
+em janeiro (janeiro de 2027) já cai sob a regra nova da Res. 190.
 
 ## Ligações
 

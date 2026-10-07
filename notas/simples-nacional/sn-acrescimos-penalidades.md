@@ -1,9 +1,9 @@
 ---
 título: Acréscimos legais e penalidades no Simples Nacional
 dominio: simples-nacional
-fontes: LC 123/2006, arts. 35 a 38-B (art. 38-A com redação da LC 214/2025, art. 516); LC 214/2025, arts. 517, 518 e 542; LC 227/2026, art. 169
+fontes: LC 123/2006, arts. 35 a 38-B (art. 38-A com redação da LC 214/2025, art. 516); LC 214/2025, arts. 517, 518 e 542; LC 227/2026, art. 169; Res. CGSN 140/2018, arts. 93 a 99; Res. CGSN 190/2026, arts. 1º e 8º
 vigencia: com-mudanca-programada
-texto-base: 2026-10-06
+texto-base: 2026-10-07
 ---
 
 # Acréscimos legais e penalidades
@@ -94,6 +94,52 @@ ainda não incorporados ao compilado da LC 123:
 Fundamento da data: LC 214, art. 544, V. O art. 35 passa a dizer só que se
 aplicam aos tributos do Simples as normas de juros e multa de mora e de ofício
 do imposto de renda, **sem** a menção a ICMS e ISS.
+
+## Regulamentação (Res. CGSN 140/2018)
+
+- **Infração (arts. 93 e 94):** toda ação ou omissão contra as normas do Simples,
+  inclusive **omissão de receita**, **diferença de base de cálculo** ou
+  **recolhimento insuficiente**. Agravantes: **sonegação**, **fraude**, **conluio**
+  e **reincidência** em 2 anos (art. 93, parágrafo único, I a IV).
+- **Juros e multa (art. 95):** normas do imposto de renda, inclusive para ICMS e
+  ISS.
+- **Multas de ofício sobre o tributo não pago (art. 96):**
+
+| Situação | Multa |
+|---|---|
+| falta de pagamento | **75%** (I) |
+| com sonegação, fraude ou conluio | **100%** (II) |
+| sem atender intimação para esclarecer ou apresentar arquivos | **112,50%** (III) |
+| sonegação, fraude ou conluio **e** desatendimento de intimação; ou reincidência em sonegação, fraude ou conluio | **150%** (IV) |
+| reincidência **e** desatendimento de intimação | **225%** (V) |
+
+  Reduções: **50%** se pagar em **30 dias** da notificação do lançamento; **30%**
+  se pagar em 30 dias da decisão de 1ª instância ou do recurso de ofício; e as do
+  parcelamento (art. 46, IV) (§1º). A qualificação (II, IV e V) **não** se aplica
+  sem conduta dolosa individualizada e comprovada, ou com absolvição penal de
+  mérito sobre o mesmo fato (§2º).
+- **Declarações (arts. 97, 97-A e 98):** **DASN** e **Defis** em atraso ou com
+  erro: **2% ao mês** sobre os tributos informados, limitada a **20%** (arts. 97 e
+  97-A); na Defis, também **R$ 100,00** por grupo de 10 informações erradas ou
+  omitidas, mínimo de **R$ 200,00**, reduções à metade (antes de procedimento de
+  ofício) e a 75% (no prazo da intimação) (art. 97-A). **PGDAS-D**: **2% ao mês**
+  desde o dia seguinte ao prazo, **R$ 20,00** por grupo de 10 informações, mínimo
+  de **R$ 50,00 por mês** de referência (art. 98).
+- **Falta de comunicação de exclusão (art. 99):** **10%** dos tributos do Simples
+  do mês anterior aos efeitos da exclusão, como no art. 36 da LC.
+
+## ⏳ A partir de 01/01/2027 — Res. CGSN 190/2026 (arts. 1º e 8º; Res. 140, arts. 97-A e 98-A)
+
+Fundamento da data: Res. 190, art. 9º.
+
+- **Fim da multa da Defis:** o art. 97-A é revogado (Res. 190, art. 8º, XXVI),
+  assim como a própria Defis (art. 72).
+- **Redução das multas acessórias (novo art. 98-A):** multas de obrigação
+  acessória em valor fixo ou mínimo, sem valor mais favorável na lei, têm
+  redução de **90% para o MEI** e de **60% para ME e EPP**; a redução **não** vale
+  com sonegação, fraude, simulação, conluio, resistência ou embaraço, nem se a
+  multa não for paga em 30 dias da notificação. É a regulamentação do novo art.
+  38-B da LC (redação da LC 227).
 
 ## Ligações
 

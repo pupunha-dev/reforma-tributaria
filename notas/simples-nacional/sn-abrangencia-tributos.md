@@ -217,8 +217,9 @@ Fundamento da data: Res. 190, art. 9º.
 > (redação da Res. 190). A Res. 190 **não traz**, no texto das fontes, regra de
 > transição específica para a opção relativa a 2027, e o art. 87-B da LC 123
 > (opção em setembro de 2026) foi revogado pela LC 227 (ver
-> [[sn-disposicoes-finais]]). Ponto a decidir pela equipe (registrar em
-> `decisions.md`).
+> [[sn-disposicoes-finais]]). Os arts. 144-D e 144-E (Res. 190) só tratam da
+> receita anterior de quem tem opção com efeitos em 01/01/2027, e não do prazo.
+> Ponto a decidir pela equipe (registrar em `decisions.md`).
 
 ## Ligações
 
