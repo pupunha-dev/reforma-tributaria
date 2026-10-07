@@ -1,9 +1,9 @@
 ---
 título: Segregação de receitas — em qual Anexo cada atividade é tributada
 dominio: simples-nacional
-fontes: LC 123/2006, art. 18, §§4º, 4º-A, 5º a 5º-I, 6º a 14; LC 214/2025, arts. 517 e 543; LC 227/2026, arts. 169 e 181
+fontes: LC 123/2006, art. 18, §§4º, 4º-A, 5º a 5º-I, 6º a 14; LC 214/2025, arts. 517 e 543; LC 227/2026, arts. 169 e 181; Res. CGSN 140/2018, arts. 25 e 27 a 30; Res. CGSN 190/2026, art. 1º
 vigencia: com-mudanca-programada
-texto-base: 2026-10-06
+texto-base: 2026-10-07
 ---
 
 # Segregação de receitas: em qual Anexo cada atividade entra
@@ -147,6 +147,68 @@ Fundamento das datas: LC 214, art. 544, III; LC 227, art. 182, I, "b". Textos
   na exportação): LC 214, art. 543, V, "b".
 
 Fundamento das datas: LC 227, art. 181, IV, "d"; LC 214, art. 544, V.
+
+## Regulamentação (Res. CGSN 140/2018)
+
+- **Lista por Anexo (art. 25, §1º):** repete a da LC, com detalhes. No **Anexo
+  III** entram também: transporte municipal de passageiros **e de cargas** (III,
+  "d"); corretagem de imóveis de terceiros (III, "j"); serviços vinculados à
+  locação de imóveis (assessoramento locatício e avaliação, III, "k"); cessão de
+  uso de imóveis próprios para eventos (salões de festas, centros de convenções,
+  escritórios virtuais, quadras etc., III, "l"); e o resíduo de serviços **não**
+  intelectuais (III, "m"). Os serviços sujeitos ao **Fator R** estão no inciso V
+  (alíneas "a" a "x"). Escritório contábil: Anexo III **sem** o percentual do ISS
+  quando o ISS for fixo e pago ao Município (VIII). Transporte intermunicipal e
+  interestadual de cargas, de passageiros permitido e comunicação: Anexo III
+  **sem** ISS e **com** o ICMS do Anexo I (IX).
+- **Casos especiais:** medicamentos manipulados sob encomenda → Anexo III;
+  demais → Anexo I (§2º); **agência de viagem**: receita = só a comissão quando
+  apenas intermedeia, e o total nos demais casos (§15); **veículos em
+  consignação**: comissão → Anexo III (contrato de comissão), produto da venda →
+  Anexo I (contrato estimatório) (§16); **construção (itens 7.02 e 7.05 da LC
+  116)**: serviço → Anexo III ou IV, com dedução dos materiais na base do ISS;
+  mercadoria produzida fora do local da obra → Anexo II (§17); **salão-parceiro**
+  e **profissional-parceiro**: serviços → Anexo III, mercadorias → Anexo I (§18).
+- **Exportação de serviços (§§3º a 4º-A):** prestação para residente no exterior
+  com pagamento que represente ingresso de divisas, ou recursos mantidos no
+  exterior na forma da lei; o cálculo desconsidera os percentuais dos tributos
+  desonerados.
+- **Monofásico e ST (art. 25, §§6º a 8º; art. 28):** a receita de produto com
+  tributação concentrada ou ST é segregada; o **substituído** segrega como "sujeita
+  à substituição tributária" e o percentual do ICMS sai do cálculo; o
+  **substituto** recolhe a operação própria pelo Simples e o ICMS-ST retido
+  diretamente ao ente, pela diferença entre o imposto sobre o preço máximo, o
+  preço sugerido ou a MVA e o imposto da operação própria (art. 28, §§1º a 3º).
+- **ISS (art. 25, §9º):** informar a qual Município é devido, se houve retenção
+  ou se é valor fixo (o percentual de ISS sai do cálculo).
+- **Retenção de ISS (art. 27):** alíquota = percentual efetivo de ISS da faixa,
+  pela receita dos 12 meses que antecedem o **mês anterior** à prestação (ou pela
+  média × 12, se houver menos de 13 meses de atividade) (I); **2%** no mês de
+  início de atividade (II); **5%** se a alíquota não for informada (V); sem
+  retenção no ISS em valor fixo (IV); o valor retido é definitivo (VII).
+- **Imunidade (art. 30):** a imunidade de um tributo não afeta a incidência dos
+  demais; desconsidera-se só o percentual do tributo imune.
+
+## ⏳ A partir de 01/01/2027 — Res. CGSN 190/2026 (art. 1º; Res. 140, arts. 25 e 27)
+
+Fundamento da data: Res. 190, art. 9º. Em linha com a LC (art. 517 da LC 214 e
+art. 169 da LC 227):
+
+- **Indústria no Anexo I:** revenda **e** venda de industrializados → Anexo I
+  (§1º, I); Anexo II só para industrializados com **IPI mantido** (art. 126, III,
+  "a", do ADCT) (§1º, II).
+- **Novos tipos de receita:** demais **bens materiais** com IBS/CBS e sem ICMS →
+  Anexo I, deduzida a parcela do ICMS (§1º, I-A); **serviços e bens imateriais**
+  com IBS/CBS e sem ISS e ICMS → Anexo III, deduzida a parcela do ISS (§1º, X).
+- **Exportação:** desconsideram-se os percentuais de **IBS, CBS**, IPI, ICMS e ISS
+  (§3º); a qualificação como exportação de serviços por **qualquer** dos
+  tributos vale para os limites dos arts. 2º e 3º (§4º-B).
+- **Monofásico e ST de IBS/CBS:** segrega-se a receita e desconsideram-se os
+  percentuais de IBS e CBS (§§6º e 8º); imunidade de CBS ou IBS segue o art. 30
+  (§10-A).
+- **Retenção de ISS (art. 27):** faixa do **mês da prestação** (I); alíquota de
+  2% no mês de início **e no mês seguinte** (II).
+- Revogam-se os §§4º e 4º-A do art. 25 (Res. 190, art. 8º, XVI).
 
 ## Ligações
 

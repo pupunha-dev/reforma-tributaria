@@ -1,9 +1,9 @@
 ---
 título: Anexo I do Simples Nacional — Comércio
 dominio: simples-nacional
-fontes: LC 123/2006, Anexo I (redação da LC 155/2016, vigência desde 01/01/2018); LC 214/2025, art. 519 e Anexo XVIII
+fontes: LC 123/2006, Anexo I (redação da LC 155/2016, vigência desde 01/01/2018); Res. CGSN 190/2026, art. 6º; LC 214/2025, art. 519 e Anexo XVIII
 vigencia: com-mudanca-programada
-texto-base: 2026-10-06
+texto-base: 2026-10-07
 ---
 
 # Anexo I — Comércio
@@ -165,9 +165,14 @@ Partilha do Simples Nacional - Comércio
 | 5ª Faixa | 5,50% | 3,50% | 15,50% | 42,00% | 33,50% |
 | 6ª Faixa | 13,50% | 10,00% | 34,40% | 42,10% |  |
 
-> A Resolução CGSN 190/2026 dá nova redação aos Anexos I a V da Res. CGSN 140
-> para os anos-calendário 2027 e 2028 (efeitos a partir de 01/01/2027). O
-> detalhamento entra na fase B deste domínio.
+## Regulamentação (Res. CGSN 140/2018, Anexo I; Res. CGSN 190/2026, art. 6º)
+
+A Res. CGSN 140 traz a mesma tabela em seu **Anexo I** (arquivo separado no portal da Receita,
+não incluído nas fontes). A **Res. CGSN 190/2026** (art. 6º) dá aos Anexos I a V da Res. 140 a
+redação válida **para os anos-calendário 2027 e 2028** (efeitos a partir de 01/01/2027, art. 9º).
+Conferência feita em 07/10/2026: **todos** os percentuais e valores da tabela de 2027–2028 do Anexo I
+da LC 214 transcritos acima aparecem no Anexo correspondente da Res. 190; nenhuma divergência
+encontrada. A Res. 190 não traz as tabelas de 2029 em diante (estas seguem só a LC 214).
 
 ## Ligações
 
