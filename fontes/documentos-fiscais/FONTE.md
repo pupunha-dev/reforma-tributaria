@@ -15,15 +15,29 @@ NF-e (www.nfe.fazenda.gov.br), aba "Documentos".
 
 ## Texto extraído
 
-Para cada NT, dois arquivos em `texto/`:
+**Atenção: as NTs têm texto riscado.** A redação superada aparece com um traço
+sobre o texto (em vermelho, com marca amarela), como o `<strike>` do Planalto. O
+`pdftotext` **não** distingue isso: nos arquivos `.txt` e `-layout.txt` o texto
+riscado aparece misturado ao vigente (ex.: na NT 2025.002, a data "03/08/2026"
+de produção da regra UB12-10 está riscada; a redação vigente diz "implementação
+futura para produção").
 
-- `<nt>.txt`: `pdftotext -enc UTF-8` (texto corrido; bom para regras e descrições).
-- `<nt>-layout.txt`: `pdftotext -layout -enc UTF-8` (preserva colunas; use para
-  **tabelas de leiaute e de cronograma**, que saem embaralhadas na versão corrida).
+Para cada NT, em `texto/`:
 
-Toda data de cronograma usada numa nota é conferida nas duas versões.
-Identificadores técnicos (tags, códigos de regra) são conferidos com
-`scripts/conferir_tags.py`.
+- `<nt>-vigente.txt` — **fonte principal das notas.** Gerado por
+  `scripts/extrair_nt.py` (requer `pip install pymupdf`): só o texto não riscado,
+  uma linha visual por linha, colunas separadas por " | ".
+- `<nt>-riscado.md` — lista, por página, do que está riscado (auditoria; **não**
+  usar nas notas).
+- `<nt>.txt` (`pdftotext -enc UTF-8`) e `<nt>-layout.txt` (`pdftotext -layout`):
+  apoio de leitura; contêm o texto riscado misturado. Na `.txt` alguns códigos
+  perdem o hífen na quebra de linha (ex.: "N1250").
+
+Linhas riscadas por NT (2026-10-07): 2025.002-RTC 32; 2026.002 52; 2026.007 5;
+2026.008 34; 2026.010 0.
+
+Identificadores técnicos (tags, códigos de regra, códigos de rejeição) são
+conferidos com `scripts/conferir_tags.py` contra os `-vigente.txt`.
 
 ## Hierarquia
 
