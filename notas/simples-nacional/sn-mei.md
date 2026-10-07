@@ -119,7 +119,7 @@ Valor fixo mensal = soma de:
 
 O SIMEI no detalhe operacional (opção e enquadramento, recolhimento mensal pelo
 DAS, contratação de empregado, documentos fiscais e NFS-e, DASN-SIMEI,
-desenquadramento, penalidades e os valores fixos de 2027–2028 do Anexo XIII da
+desenquadramento, penalidades e os valores fixos de 2027 em diante do Anexo XIII da
 Res. 190) está em [[sn-mei-regulamentacao]] (arts. 100 a 120 e 144-A).
 
 ## ⏳ A partir de 01/01/2027 — redação dada pela LC 214/2025 (arts. 517, 520 e 542) e pela LC 227/2026 (art. 169)

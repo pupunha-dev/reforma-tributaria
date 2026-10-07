@@ -118,15 +118,18 @@ do imposto de renda, **sem** a menção a ICMS e ISS.
   parcelamento (art. 46, IV) (§1º). A qualificação (II, IV e V) **não** se aplica
   sem conduta dolosa individualizada e comprovada, ou com absolvição penal de
   mérito sobre o mesmo fato (§2º).
-- **Declarações (arts. 97, 97-A e 98):** **DASN** e **Defis** em atraso ou com
-  erro: **2% ao mês** sobre os tributos informados, limitada a **20%** (arts. 97 e
-  97-A); na Defis, também **R$ 100,00** por grupo de 10 informações erradas ou
-  omitidas, mínimo de **R$ 200,00**, reduções à metade (antes de procedimento de
-  ofício) e a 75% (no prazo da intimação) (art. 97-A). **PGDAS-D**: **2% ao mês**
-  desde o dia seguinte ao prazo, **R$ 20,00** por grupo de 10 informações, mínimo
-  de **R$ 50,00 por mês** de referência (art. 98).
+- **Declarações (arts. 97-A e 98):** **Defis** em atraso ou com erro: **2% ao
+  mês** sobre os tributos informados, limitada a **20%**, ou **R$ 100,00** por
+  grupo de 10 informações erradas ou omitidas; mínimo de **R$ 200,00**; reduções
+  à metade (antes de procedimento de ofício) e a 75% (no prazo da intimação)
+  (art. 97-A). **PGDAS-D**: **2% ao mês**
+  desde o dia seguinte ao prazo, limitada a **20%**, ou
+  **R$ 20,00** por grupo de 10 informações incorretas ou omitidas; mínimo de
+  **R$ 50,00 por mês** de referência (art. 98). A antiga multa da **DASN** de
+  ME/EPP (art. 97) está **revogada** pela Res. CGSN 174/2023 desde 15/12/2023.
 - **Falta de comunicação de exclusão (art. 99):** **10%** dos tributos do Simples
-  do mês anterior aos efeitos da exclusão, como no art. 36 da LC.
+  do mês anterior aos efeitos da exclusão, **não inferior a R$ 200,00**,
+  **insusceptível de redução**, como no art. 36 da LC.
 
 ## ⏳ A partir de 01/01/2027 — Res. CGSN 190/2026 (arts. 1º e 8º; Res. 140, arts. 97-A e 98-A)
 

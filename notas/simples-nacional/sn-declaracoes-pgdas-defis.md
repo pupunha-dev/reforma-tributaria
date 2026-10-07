@@ -1,7 +1,7 @@
 ---
 título: Declarações do optante — PGDAS-D, Defis e declarações complementares
 dominio: simples-nacional
-fontes: LC 123/2006, arts. 25 e 26; Res. CGSN 140/2018, arts. 38, 39, 39-A e 72 a 76; Res. CGSN 190/2026, arts. 1º (arts. 38, 38-A e 38-B) e 8º, XXI
+fontes: LC 123/2006, arts. 25 e 26; Res. CGSN 140/2018, arts. 38, 39, 39-A e 72 a 76; Res. CGSN 190/2026, arts. 1º (arts. 38, 38-A e 38-B) e 8º, XVII e XXI
 vigencia: com-mudanca-programada
 texto-base: 2026-10-07
 ---
@@ -81,13 +81,14 @@ até a decadência e a prescrição (§10). Multas da Defis: ver
   Portal, na forma do Confaz (art. 76); quem faz a escrituração fiscal do art. 65
   fica dispensado (§3º). O conteúdo do Confaz não está nas fontes.
 
-## ⏳ A partir de 01/01/2027 — Res. CGSN 190/2026 (arts. 1º e 8º, XXI; Res. 140, arts. 38, 38-A, 38-B e 72)
+## ⏳ A partir de 01/01/2027 — Res. CGSN 190/2026 (arts. 1º e 8º, XVII e XXI; Res. 140, arts. 38, 38-A, 38-B e 72)
 
 Fundamento da data: Res. 190, art. 9º.
 
-- **Art. 38:** mesma regra do PGDAS-D, agora com base no art. 25 da LC; o inciso
-  III do §2º (compartilhamento) sai da redação, e entra o §5º: o PGDAS-D não
-  dispensa informações de terceiros.
+- **Art. 38:** mesma regra do PGDAS-D, agora com base no art. 25 da LC (o
+  inciso III do §2º, compartilhamento, continua); os **§§3º e 4º** (PGDAS antigo,
+  até 2011) são revogados (art. 8º, XVII), e entra o §5º: o PGDAS-D não dispensa
+  informações de terceiros.
 - **Declaração assistida (novo art. 38-A):** a RFB pode disponibilizar o PGDAS-D
   **pré-preenchido** até o **décimo dia** do mês seguinte ao da receita, de forma
   gradual (§1º). Informações de **CBS e IBS** pré-preenchidas **só mudam

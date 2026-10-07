@@ -34,8 +34,7 @@ python scripts/esqueleto.py fontes/<dominio>/texto/<ato>.txt \
 - **Leis do Planalto: capture também o HTML oficial**, convertido para UTF-8:
 
   ```bash
-  curl -s -L -A "Mozilla/5.0" "<url>.htm" | iconv -f CP1252 -t UTF-8 | tr -d '
-'     | sed 's/charset=windows-1252/charset=utf-8/I' > fontes/<dominio>/texto/<ato>-planalto.htm
+  curl -s -L -A "Mozilla/5.0" "<url>.htm" | iconv -f CP1252 -t UTF-8 | tr -d '\r' | sed 's/charset=windows-1252/charset=utf-8/I' > fontes/<dominio>/texto/<ato>-planalto.htm
   ```
 
   É a fonte de verdade da vigência (etapa 3) e serve de texto pesquisável

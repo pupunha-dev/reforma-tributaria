@@ -90,7 +90,7 @@ Valor mensal fixo = soma de:
   (§3º), mas **gratificações, gorjetas, percentagens e abonos** estouram (§4º).
   No afastamento legal, pode contratar substituto (§2º).
 - O MEI com empregado recolhe a **CPP de 3%** sobre o salário do empregado e
-  retém a contribuição do segurado (art. 105, I a III).
+  retém a contribuição do segurado (art. 105, §1º, I a III).
 - Obrigações do empregado e FGTS pelo **eSocial**, com pagamento do **DAE até o
   dia 20** do mês seguinte (art. 105-A, §1º); na rescisão, FGTS em **10 dias**
   (§§2º e 3º); sem expediente bancário, antecipa para o dia útil anterior (§4º).
