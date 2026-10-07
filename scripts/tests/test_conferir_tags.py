@@ -52,6 +52,10 @@ class TestRejeicoes(unittest.TestCase):
     def test_rejeicao_existente_passa(self):
         self.assertEqual(ct.faltantes("rejeição 1161", [self.FONTE]), [])
 
+    def test_coluna_de_efeito_entre_numero_e_rejeicao(self):
+        fonte = "Obrig. 178 Rej. Rejeição: CNPJ\nObrig. 209 | Rej. Rejeição: IE do emitente inválida"
+        self.assertEqual(ct.faltantes("rejeição 178 e rejeição 209", [fonte]), [])
+
     def test_numero_sem_rejeicao_na_fonte_e_reportado(self):
         self.assertEqual(ct.faltantes("rejeição 1162", [self.FONTE + "\n1162 Autorizado"]), ["rejeição 1162"])
 

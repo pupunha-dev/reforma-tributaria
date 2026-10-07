@@ -34,7 +34,7 @@ def disponiveis(fonte: str) -> str:
 def _existe(ident: str, fontes: list[str]) -> bool:
     if ident.startswith("rejeição "):
         numero = ident.split()[1]
-        padrao = re.compile(r"(?<!\d)" + numero + r"\s+Rejeição")
+        padrao = re.compile(r"(?<!\d)" + numero + r"\s+(?:\|\s*)?(?:Rej\.\s+)?Rejeição")
         return any(padrao.search(f) for f in fontes)
     padrao = re.compile(r"(?<![\w-])" + re.escape(ident) + r"(?![\w])")
     return any(padrao.search(f) for f in fontes)
