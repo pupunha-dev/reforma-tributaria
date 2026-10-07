@@ -21,6 +21,7 @@ ARQUIVOS_RAIZ = ("CLAUDE.md", "MEMORY.md", "LEARNINGS.md", "decisions.md")
 CAMPOS_OBRIGATORIOS = ("título", "dominio", "fontes", "vigencia", "texto-base")
 VIGENCIAS_VALIDAS = ("atual", "com-mudanca-programada")
 DOMINIOS_LEGADOS = ("reforma",)
+VERSAO_NT = re.compile(r"NT \d{4}\.\d{3}(?:-RTC)? v\d+\.\d{2}")
 
 
 def rel(p: Path, raiz: Path) -> str:
@@ -140,6 +141,18 @@ def checar_frontmatter(raiz: Path) -> list[str]:
     return erros
 
 
+def checar_versao_nt(raiz: Path) -> list[str]:
+    pasta = raiz / "notas" / "documentos-fiscais"
+    if not pasta.exists():
+        return []
+    erros = []
+    for nota in notas_de_conteudo(pasta):
+        fm = ler_frontmatter(nota) or {}
+        if not VERSAO_NT.search(fm.get("fontes", "")):
+            erros.append(f"{rel(nota, raiz)}: 'fontes' sem NT e versão (ex.: NT 2025.002-RTC v1.52)")
+    return erros
+
+
 def checar_cobertura(raiz: Path) -> tuple[list[str], list[str]]:
     erros: list[str] = []
     avisos: list[str] = []
@@ -167,7 +180,8 @@ def main(argv: list[str]) -> int:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
     raiz = Path(argv[1]) if len(argv) > 1 else Path(__file__).resolve().parent.parent
-    erros = checar_nomes_unicos(raiz) + checar_links(raiz) + checar_frontmatter(raiz)
+    erros = (checar_nomes_unicos(raiz) + checar_links(raiz) + checar_frontmatter(raiz)
+             + checar_versao_nt(raiz))
     erros_cobertura, avisos = checar_cobertura(raiz)
     erros += erros_cobertura
     for a in avisos:

@@ -196,5 +196,20 @@ class TestMain(Base):
         self.assertEqual(v.main(["verificar.py", str(self.raiz)]), 1)
 
 
+class TestVersaoNT(Base):
+    def _nota(self, fontes):
+        self.criar("notas/documentos-fiscais/df-x.md",
+                   f"---\ntítulo: X\ndominio: documentos-fiscais\nfontes: {fontes}\n"
+                   "vigencia: atual\ntexto-base: 2026-10-07\n---\n# X\n")
+
+    def test_fontes_sem_versao_e_erro(self):
+        self._nota("NT 2025.002-RTC, seção 6")
+        self.assertEqual(len(v.checar_versao_nt(self.raiz)), 1)
+
+    def test_fontes_com_versao_passa(self):
+        self._nota("NT 2025.002-RTC v1.52, seção 6")
+        self.assertEqual(v.checar_versao_nt(self.raiz), [])
+
+
 if __name__ == "__main__":
     unittest.main()
