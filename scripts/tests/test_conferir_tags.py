@@ -42,5 +42,19 @@ class TestFaltantes(unittest.TestCase):
         self.assertEqual(ct.faltantes("UB99-99", [FONTE]), ["UB99-99"])
 
 
+class TestRejeicoes(unittest.TestCase):
+    FONTE = "Obrig. 1161 Rejeição: Tipo de Operação incompatível\n225 Rejeição: Falha no Schema"
+
+    def test_extrai_codigo_de_rejeicao(self):
+        self.assertEqual(ct.identificadores("cai na rejeição 1161 e na Rejeição 225"),
+                         {"rejeição 1161", "rejeição 225"})
+
+    def test_rejeicao_existente_passa(self):
+        self.assertEqual(ct.faltantes("rejeição 1161", [self.FONTE]), [])
+
+    def test_numero_sem_rejeicao_na_fonte_e_reportado(self):
+        self.assertEqual(ct.faltantes("rejeição 1162", [self.FONTE + "\n1162 Autorizado"]), ["rejeição 1162"])
+
+
 if __name__ == "__main__":
     unittest.main()

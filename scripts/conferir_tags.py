@@ -1,8 +1,9 @@
 """Confere se todo identificador técnico de uma nota existe nas Notas Técnicas.
 
 Uso: python scripts/conferir_tags.py <nota.md> --fontes <arquivo> [<arquivo> ...]
-Identificadores: tags em crase (ex.: `gIBSCBS`) e códigos de regra de
-validação (ex.: UB12-10, 1C17-04). Ignora o frontmatter e blocos
+Identificadores: tags em crase (ex.: `gIBSCBS`), códigos de regra de
+validação (ex.: UB12-10, 1C17-04) e códigos de rejeição escritos como
+"rejeição 1161" (conferidos contra "1161 Rejeição" na NT). Ignora o frontmatter e blocos
 <!-- exemplo --> ... <!-- /exemplo -->. Sai com código 1 se faltar algum.
 """
 from __future__ import annotations
@@ -17,11 +18,13 @@ REGRA = re.compile(r"(?<![\w-])(\d?[A-Z]{1,3}\d{2,3}[a-zA-Z]?-\d{2,3})(?![\w-])"
 EXEMPLO = re.compile(r"<!--\s*exemplo\s*-->.*?<!--\s*/exemplo\s*-->", re.S)
 FRONTMATTER = re.compile(r"\A---\n.*?\n---\n", re.S)
 QUEBRA = re.compile(r"-[ \t]*\n[ \t]*(?=\d)")
+REJEICAO = re.compile(r"[Rr]ejeição (\d{3,4})\b")
 
 
 def identificadores(texto: str) -> set[str]:
     texto = EXEMPLO.sub("", FRONTMATTER.sub("", texto))
-    return set(TAG.findall(texto)) | set(REGRA.findall(texto))
+    rejeicoes = {f"rejeição {n}" for n in REJEICAO.findall(texto)}
+    return set(TAG.findall(texto)) | set(REGRA.findall(texto)) | rejeicoes
 
 
 def disponiveis(fonte: str) -> str:
@@ -29,6 +32,10 @@ def disponiveis(fonte: str) -> str:
 
 
 def _existe(ident: str, fontes: list[str]) -> bool:
+    if ident.startswith("rejeição "):
+        numero = ident.split()[1]
+        padrao = re.compile(r"(?<!\d)" + numero + r"\s+Rejeição")
+        return any(padrao.search(f) for f in fontes)
     padrao = re.compile(r"(?<![\w-])" + re.escape(ident) + r"(?![\w])")
     return any(padrao.search(f) for f in fontes)
 
