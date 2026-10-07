@@ -69,6 +69,12 @@ parte de IBS/CBS/IS/ITCMD normalmente e sinalizar explicitamente que
 IR está fora do escopo do second brain — sem tentar preencher com
 conhecimento geral.
 
+Atualização [2026-10-07]: na regressão da fase B do Simples (R3), a resposta
+sinalizou o IR corretamente, mas descreveu o IBS/CBS da locação **de memória**
+e chutou um nome de nota inexistente. Por isso, o CLAUDE.md ganhou a regra
+"Pergunta mista": sinalizar a parte fora de escopo e responder a parte coberta
+**abrindo as notas** pelo INDEX. Depois da regra, o R3 passou 2 vezes em 2.
+
 ## [2026-10-06] — Duas leituras erradas sobre o art. 169 da LC 227 nas notas da reforma
 
 O que aconteceu: ao montar o mapa de vigência da LC 123 com o texto

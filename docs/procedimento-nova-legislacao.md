@@ -34,7 +34,8 @@ python scripts/esqueleto.py fontes/<dominio>/texto/<ato>.txt \
 - **Leis do Planalto: capture também o HTML oficial**, convertido para UTF-8:
 
   ```bash
-  curl -s -L -A "Mozilla/5.0" "<url>.htm" | iconv -f CP1252 -t UTF-8 | tr -d ''     | sed 's/charset=windows-1252/charset=utf-8/I' > fontes/<dominio>/texto/<ato>-planalto.htm
+  curl -s -L -A "Mozilla/5.0" "<url>.htm" | iconv -f CP1252 -t UTF-8 | tr -d '
+'     | sed 's/charset=windows-1252/charset=utf-8/I' > fontes/<dominio>/texto/<ato>-planalto.htm
   ```
 
   É a fonte de verdade da vigência (etapa 3) e serve de texto pesquisável
@@ -85,6 +86,37 @@ publicação** ou ainda não alcançada:
 
 | Dispositivo | Alterado por | Artigo alterador | Efeitos a partir de | Fundamento da data | Situação em <texto-base> |
 |---|---|---|---|---|---|
+
+### Fontes da Receita na visão multivigente (portal Normas)
+
+Para atos infralegais da Receita/CGSN, baixe a impressão da **visão
+multivigente** (não a do DOU): ela mostra a redação antiga e a vigente, com
+marcas `[Redação dada pelo(a) ...] date_range DD/MM/AAAA`, `[Incluído...]`,
+`[Revogado...]`, `[Vide modificação prevista para DD/MM/AAAA ...]` e `[Vide
+dispositivo a ser incluído em DD/MM/AAAA ...]`. Cuidados:
+
+- **O texto futuro não aparece**: "Vide modificação prevista" só avisa. A nova
+  redação é lida no ato alterador (ex.: Res. CGSN 190/2026), que também entra em
+  `fontes/<dominio>/texto/`.
+- A redação antiga vem **sem marca**, antes da nova; a impressão às vezes **corta
+  uma marca** (um `[` sem fechamento). O script trata os dois casos.
+- **Anexos** são PDFs separados no portal e não vêm na impressão: registre a
+  lacuna no `FONTE.md` e no cabeçalho do mapa.
+
+Gere o mapa com o script (cabeçalho manual com as cláusulas de vigência
+literais dos atos alteradores):
+
+```bash
+python scripts/vigencia_receita.py fontes/<dominio>/texto/<ato>.txt \
+  --data-base AAAA-MM-DD \
+  --cabecalho fontes/<dominio>/texto/<ato>-mapa-cabecalho.md \
+  --saida notas/<dominio>/_mapa-vigencia-<ato>.md
+```
+
+Na redação, a resolução entra em cada nota numa seção "Regulamentação
+(<ato>)", depois da lei, e a mudança futura num bloco `## ⏳ A partir de
+DD/MM/AAAA — <ato alterador> (art. N)`. Divergência com a lei vira aviso
+`> ⚠️ Conflito LC × Resolução`, e vale a lei.
 
 - "Artigo alterador": o artigo da lei alteradora que contém a nova redação
   (ex.: LC 214, art. 516).

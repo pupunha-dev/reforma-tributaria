@@ -10,7 +10,7 @@ oficiais de `fontes/<dominio>/`.
 | Domínio | Atos normativos | Notas | Fontes | Prefixo | Status |
 |---|---|---|---|---|---|
 | reforma | LC 214/2025 + LC 227/2026 | `notas/reforma/` | `fontes/reforma/` | — | ativo (88 notas) |
-| simples-nacional | LC 123/2006 (fase A) + Res. CGSN 140/2018 e alteradoras, como as Res. CGSN 190 e 191/2026 (fase B) | `notas/simples-nacional/` | `fontes/simples-nacional/` | `sn-` | ativo — fase A (28 notas da LC 123); fase B (Res. CGSN) pendente |
+| simples-nacional | LC 123/2006 (fase A) + Res. CGSN 140/2018 e alteradoras, como as Res. CGSN 190 e 191/2026 (fase B) | `notas/simples-nacional/` | `fontes/simples-nacional/` | `sn-` | ativo (32 notas) — fase A (LC 123) e fase B (Res. CGSN 140) concluídas |
 
 - Índice mestre: **[notas/INDEX.md](notas/INDEX.md)**. Cada domínio tem
   `INDEX.md` (notas por tema) e `_plano-notas.md` (mapa artigo → nota).
@@ -26,6 +26,12 @@ ITBI/IPTU municipal etc.) e tributos ou regimes que esses atos não tratam
 (ex.: IRPF e IRPJ pelo lucro real/presumido; o IRPJ **dentro** do Simples
 Nacional é matéria da LC 123 e está no escopo). Perguntas sobre esses temas ficam fora do escopo das
 notas, mesmo quando parecem relacionadas.
+
+**Pergunta mista (parte dentro, parte fora do escopo).** Não pare na parte
+fora de escopo: sinalize-a e **responda a parte coberta abrindo as notas**
+pelo `INDEX.md` do domínio, citando a nota (ex.: "IR do aluguel" → IR fora de
+escopo; IBS/CBS da locação em `regime-especifico-bens-imoveis.md`). Nunca
+descreva a parte coberta de memória nem adivinhe nome de nota.
 
 **Caso especial: substituição tributária (ST), domínio reforma.** A
 exclusão de escopo vale especificamente para **listas de produtos/setores
