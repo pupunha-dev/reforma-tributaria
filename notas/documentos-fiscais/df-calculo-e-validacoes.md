@@ -128,8 +128,10 @@ Futura"** (ainda não aplicadas, sem data):
 
 ## ⏳ Em produção a partir de 03/11/2026 — NT 2026.008 v1.00 (cronograma)
 
-A NT 2026.008 inclui regras para o valor líquido do produto, altera VB01-10 e
-VB01-20 e remove UB16-10 (ver [[df-valor-liquido-produto]]).
+A NT 2026.008 remove a UB16-10 (fórmula da base de cálculo) e reescreve a
+VB01-10 e a VB01-20: a partir de 2027 o `vProd` **já contém** vIBS, vCBS e vIS,
+que deixam de ser somados de novo no `vItem`. Também cria as regras do valor
+líquido do produto. Fórmula nova completa em [[df-valor-liquido-produto]].
 
 ## Ligações
 

@@ -1,6 +1,6 @@
 ---
 título: Plano de notas — Documentos fiscais eletrônicos (Notas Técnicas NF-e)
-status: aprovado
+status: concluido
 ---
 
 # Plano de notas — documentos-fiscais

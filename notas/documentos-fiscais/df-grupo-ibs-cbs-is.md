@@ -106,6 +106,10 @@ Imposto Seletivo: grupo `IS` (UB01) com `CSTIS`, `cClassTribIS`, `vBCIS`,
   no grupo `DFeReferenciado` (regra VC02-14).
 - Leiaute **reformulado da monofasia de combustíveis** (v1.50), já descrito
   acima, com produção em 03/11/2026.
+- **NT 2026.008:** a partir de 2027, IBS, CBS e IS passam a **compor o `vProd`**
+  e **não** são somados de novo no `vNFTot`; nos grupos tributários ficam
+  informativos. Entram os campos de valor líquido (`vProdLiq`, `vProdLiqTot`).
+  Ver [[df-valor-liquido-produto]].
 
 ## Ligações
 
