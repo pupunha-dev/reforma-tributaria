@@ -79,5 +79,27 @@ class TestVigenciaReceita(unittest.TestCase):
         self.assertNotIn("Res. CGSN 150/2019", md)
 
 
+class TestMarcaCortada(unittest.TestCase):
+    TEXTO = """Art. 2º Texto.
+[Incluído(a) pelo(a) Resolução
+Art. 2º-A O Simples Nacional deve observar os princípios:
+[Incluído(a) pelo(a) Resolução CGSN nº 183, de 26 de setembro de
+2025] date_range 13/10/2025
+[Incluído(a) pelo(a) Resolução CGSN nº 183, de 26
+II - da transparência;
+[Incluído(a) pelo(a) Resolução CGSN nº 183, de 26
+de setembro de 2025] date_range 13/10/2025
+"""
+
+    def test_fragmento_de_marca_nao_engole_o_artigo(self):
+        bs = vr.blocos(self.TEXTO, vr.RUIDO_PADRAO)
+        chaves = [(b.artigo, b.dispositivo) for b in bs]
+        self.assertIn(("2-A", "caput"), chaves)
+        self.assertIn(("2-A", "II-"), chaves)
+        art2a = next(b for b in bs if (b.artigo, b.dispositivo) == ("2-A", "caput"))
+        self.assertEqual([(m.tipo, m.data) for m in art2a.marcas], [("inclusao", "2025-10-13")])
+        self.assertNotIn("[", " ".join(b.texto for b in bs))
+
+
 if __name__ == "__main__":
     unittest.main()

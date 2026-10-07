@@ -31,7 +31,9 @@ RUIDO_PADRAO = [
     r"^NORMAS$",
     r"^Visão Multivigente$",
 ]
-MARCA = re.compile(r"\[([^\]]*)\](?:\s*date_range\s*(\d{2}/\d{2}/\d{4}))?")
+# Marca completa: sem "[" dentro. A impressão do portal às vezes corta uma marca
+# (abre "[" e não fecha); esse fragmento é descartado em blocos().
+MARCA = re.compile(r"\[([^\[\]]*)\](?:\s*date_range\s*(\d{2}/\d{2}/\d{4}))?")
 TIPOS = [
     ("modificacao-prevista", re.compile(r"^Vide modificação prevista para (\d{2}/\d{2}/\d{4})")),
     ("inclusao-prevista", re.compile(r"^Vide dispositivo a ser incluído em (\d{2}/\d{2}/\d{4})")),
@@ -97,8 +99,8 @@ def blocos(texto: str, ruido: list[str]) -> list[Bloco]:
         trecho = limpo[pos:m.start()] if m else limpo[pos:]
         for linha in trecho.splitlines():
             linha = linha.strip()
-            if not linha:
-                continue
+            if not linha or linha.startswith("["):
+                continue  # vazia ou fragmento de marca cortada
             m_anexo, m_art = ANEXO.match(linha), ARTIGO.match(linha)
             m_disp = None if (m_anexo or m_art) else DISPOSITIVO.match(linha)
             if m_anexo:
