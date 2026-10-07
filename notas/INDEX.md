@@ -18,11 +18,10 @@ use os dois.
 
 ## Simples Nacional — LC 123/2006 + Resolução CGSN 140/2018
 
-- Status: **em implantação** (fase A — LC 123). Plano de notas aguardando
-  aprovação; até lá, perguntas sobre o domínio são respondidas como
-  lacuna, com consulta ao texto em `fontes/simples-nacional/texto/`.
-- Plano de notas: [simples-nacional/_plano-notas.md](simples-nacional/_plano-notas.md)
+- Índice: [simples-nacional/INDEX.md](simples-nacional/INDEX.md) — 28 notas (fase A: LC 123)
+- Mapa de artigos: [simples-nacional/_plano-notas.md](simples-nacional/_plano-notas.md)
 - Mapa de vigência: [simples-nacional/_mapa-vigencia.md](simples-nacional/_mapa-vigencia.md)
   — o que da LC 123 vale hoje e o que muda em 2026, 2027 e 2033
 - Ponte com a reforma: [[simples-nacional-e-mei]]
 - Fontes: `fontes/simples-nacional/` (LC 123; Res. CGSN 140, 190 e 191)
+- Fase B (pendente): Resolução CGSN 140/2018 compilada e alteradoras

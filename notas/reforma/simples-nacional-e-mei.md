@@ -43,3 +43,16 @@ O art. 517 da própria LC 214 já havia inserido o **art. 87-B** na LC 123 (meca
 ## Anexos (LC 214, arts. 519-520)
 
 Os Anexos I a V da LC 123 (tabelas de alíquotas e partilha do Simples por atividade) são **substituídos** pelos novos Anexos XVIII a XXII da LC 214, já recalculados para incorporar IBS/CBS no lugar de ICMS/ISS/PIS-Cofins. Um novo Anexo VII (valores fixos do MEI) é acrescentado via Anexo XXIII da LC 214.
+
+## Ligações com o domínio simples-nacional
+
+O regime em si (LC 123) está detalhado nas notas `sn-*`; esta nota cobre o
+que a **reforma** muda nele. Principais:
+
+- [[sn-abrangencia-tributos]] — IBS/CBS no DAS e opção semestral pelo regime regular (2027)
+- [[sn-segregacao-receitas]] — novos incisos VIII e IX do art. 18, §4º (2027)
+- [[sn-anexo-i-comercio]] a [[sn-anexo-v-servicos]] — Anexos XVIII a XXII da LC 214, ano a ano
+- [[sn-mei]] — Anexo VII (valores fixos com IBS/CBS, 2027–2033)
+- [[sn-creditos]] — crédito de IBS/CBS para quem compra de optante (2027)
+- [[sn-repasse-arrecadacao]] — IBS do MEI 50%/50%
+- [[sn-fiscalizacao-omissao-receita]], [[sn-acrescimos-penalidades]] e [[sn-processo-administrativo-judicial]] — arts. 33, 38-B e 39

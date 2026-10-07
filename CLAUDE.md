@@ -10,7 +10,7 @@ oficiais de `fontes/<dominio>/`.
 | Domínio | Atos normativos | Notas | Fontes | Prefixo | Status |
 |---|---|---|---|---|---|
 | reforma | LC 214/2025 + LC 227/2026 | `notas/reforma/` | `fontes/reforma/` | — | ativo (88 notas) |
-| simples-nacional | LC 123/2006 (fase A) + Res. CGSN 140/2018 e alteradoras, como as Res. CGSN 190 e 191/2026 (fase B) | `notas/simples-nacional/` | `fontes/simples-nacional/` | `sn-` | em implantação |
+| simples-nacional | LC 123/2006 (fase A) + Res. CGSN 140/2018 e alteradoras, como as Res. CGSN 190 e 191/2026 (fase B) | `notas/simples-nacional/` | `fontes/simples-nacional/` | `sn-` | ativo — fase A (28 notas da LC 123); fase B (Res. CGSN) pendente |
 
 - Índice mestre: **[notas/INDEX.md](notas/INDEX.md)**. Cada domínio tem
   `INDEX.md` (notas por tema) e `_plano-notas.md` (mapa artigo → nota).
