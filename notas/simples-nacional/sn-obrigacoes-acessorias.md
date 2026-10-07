@@ -1,7 +1,7 @@
 ---
 título: Obrigações acessórias no Simples Nacional — declarações, documentos fiscais e escrituração
 dominio: simples-nacional
-fontes: LC 123/2006, arts. 25 a 27 (arts. 25-A, 25-B e 26 com redação da LC 214/2025, art. 516); LC 214/2025, arts. 517, 542 e 543; Res. CGSN 140/2018, arts. 59 a 71, 79 e 80; Res. CGSN 190/2026, arts. 1º e 8º; Res. CGSN 191/2026, arts. 1º a 3º
+fontes: LC 123/2006, arts. 25 a 27 (arts. 25-A, 25-B e 26 com redação da LC 214/2025, art. 516); LC 214/2025, arts. 517, 542 e 543; Res. CGSN 140/2018, arts. 59 a 71, 79 e 80; Res. CGSN 190/2026, arts. 1º e 8º; Res. CGSN 191/2026, arts. 1º a 3º; NT 2025.002-RTC v1.52 (detalhamento do cronograma); NT 2026.007 v1.10
 vigencia: com-mudanca-programada
 texto-base: 2026-10-07
 ---
@@ -186,9 +186,13 @@ Fundamento da data: Res. 190, art. 9º.
 - Revoga-se a alínea "a" do inciso I do §4º do art. 64 (art. 8º, XX).
 
 > As regras técnicas de preenchimento da NF-e/NFC-e na reforma (grupos de IBS/CBS,
-> classificação tributária, validações) ficam no domínio `documentos-fiscais`.
-> Segundo a NT 2025.002-RTC, as orientações específicas para o **Simples Nacional
-> (CRT 1 e 2) e para o MEI (CRT 4)** ainda **serão publicadas em NT futura**.
+> classificação tributária, validações) estão no domínio `documentos-fiscais`
+> ([[df-visao-geral-reforma-nfe]]). Segundo a NT 2025.002-RTC v1.52, as
+> orientações específicas para o **Simples Nacional (CRT 1 e 2) e para o MEI
+> (CRT 4)** ainda **serão publicadas em NT futura**. Já a NT 2026.007 v1.10,
+> com produção em 03/11/2026, passa a rejeitar a NF-e cujo CRT não bata com o
+> regime do CNPJ na Receita (optante do Simples, MEI ou outros), ver
+> [[df-contribuinte-exclusivo-ibs-cbs]].
 
 ## Ligações
 

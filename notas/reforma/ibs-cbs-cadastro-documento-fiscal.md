@@ -31,3 +31,8 @@ Município e DF ficam obrigados, até 31/12/2032, a autorizar emissão da Nota F
 - **Art. 58, §§4º e 5º** (novos): garantem ao contribuinte **gratuidade** de acesso aos mecanismos mínimos de integração sistêmica para apuração e cumprimento de obrigações acessórias; transações que vão além do mínimo necessário podem ser cobradas mediante ressarcimento de custos.
 - **Art. 59, §5º**: reescrito para tornar o DTE explicitamente unificado e obrigatório a todas as entidades com CNPJ (antes a obrigatoriedade era menos abrangente).
 - **Art. 60, §7º** (novo): o ato conjunto que disciplina o documento fiscal deve permitir a emissão de **documentos consolidados** (uma só nota para várias operações do período, quando aplicável) — medida de simplificação para reduzir volume de emissões individuais.
+
+## Ligações
+
+- [[df-visao-geral-reforma-nfe]]: como a NF-e/NFC-e foi adaptada ao IBS/CBS/IS pelas Notas Técnicas (domínio documentos-fiscais).
+- [[df-contribuinte-exclusivo-ibs-cbs]]: NF-e emitida por quem só é contribuinte de IBS/CBS (sem inscrição estadual).

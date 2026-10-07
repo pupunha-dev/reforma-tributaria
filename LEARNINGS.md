@@ -129,3 +129,20 @@ Ação: em todo domínio novo vindo do Planalto, capturar também o HTML
 (`texto/<lei>-planalto.htm`) e gerar o mapa com `vigencia_planalto.py`.
 Para alterações com efeito futuro, conferir se o compilado já as
 incorporou; se não, usar o texto da lei alteradora.
+
+## [2026-10-07] — Notas Técnicas da NF-e trazem texto riscado que o pdftotext não mostra
+
+O que aconteceu: ao escrever o domínio documentos-fiscais, a regra UB12-10 da
+NT 2025.002-RTC parecia ter produção em 03/08/2026 e, para Simples/MEI, em
+04/01/2027. Renderizando a página, esses trechos estavam **riscados** (redação
+superada, em vermelho com marca amarela); a redação vigente diz
+"implementação futura para produção". O `pdftotext` mistura riscado e vigente
+sem distinção. As 5 NTs tinham texto riscado (de 0 a 52 linhas cada).
+
+Por que importa: toda nova versão de NT repete o padrão (a NT acumula o
+histórico riscado). Sem tratar isso, a nota apresentaria como vigente uma data
+ou regra já superada.
+
+Ação: extrair sempre com `scripts/extrair_nt.py` (pymupdf), usar só o
+`*-vigente.txt` nas notas e nas conferências (`conferir_tags.py`), e consultar o
+`*-riscado.md` quando algo parecer contraditório.

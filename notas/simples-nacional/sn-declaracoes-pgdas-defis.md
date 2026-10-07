@@ -102,7 +102,8 @@ Fundamento da data: Res. 190, art. 9º.
   decadência e a prescrição (§3º).
 
 > Em palavras simples: a partir de 2027, quem errar CBS/IBS no PGDAS-D
-> pré-preenchido não corrige na declaração, corrige **na nota fiscal**.
+> pré-preenchido não corrige na declaração, corrige **na nota fiscal** (como
+> preencher o IBS/CBS na NF-e: [[df-grupo-ibs-cbs-is]]).
 
 ## Ligações
 

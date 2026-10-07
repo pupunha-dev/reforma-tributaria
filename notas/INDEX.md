@@ -27,3 +27,12 @@ use os dois.
 - Ponte com a reforma: [[simples-nacional-e-mei]]
 - Fontes: `fontes/simples-nacional/` (LC 123; Res. CGSN 140, 190 e 191)
 - Fase B concluída em 07/10/2026: Res. CGSN 140/2018 na visão multivigente
+
+## Documentos fiscais eletrônicos — Notas Técnicas NF-e/NFC-e
+
+- Índice: [documentos-fiscais/INDEX.md](documentos-fiscais/INDEX.md) — 10 notas
+- Mapa NT → nota: [documentos-fiscais/_plano-notas.md](documentos-fiscais/_plano-notas.md)
+- Hierarquia: lei > resolução > nota técnica (a NT diz como preencher e validar)
+- Vigência por cronograma de produção; versão da NT em cada nota
+- Fontes: `fontes/documentos-fiscais/` (NT 2025.002-RTC, 2026.002, 2026.007, 2026.008, 2026.010)
+- Pontes: [[ibs-cbs-cadastro-documento-fiscal]], [[sn-obrigacoes-acessorias]]

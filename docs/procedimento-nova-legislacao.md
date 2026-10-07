@@ -86,6 +86,15 @@ publicação** ou ainda não alcançada:
 | Dispositivo | Alterado por | Artigo alterador | Efeitos a partir de | Fundamento da data | Situação em <texto-base> |
 |---|---|---|---|---|---|
 
+- "Artigo alterador": o artigo da lei alteradora que contém a nova redação
+  (ex.: LC 214, art. 516).
+- "Fundamento da data": o dispositivo de vigência (ex.: LC 214, art. 544, I),
+  citado literalmente, a partir do texto da lei alteradora.
+- "Situação": `vigente` ou `⏳ futura — redação anterior ainda vale`.
+- Se uma nota existente (de outro domínio) disser algo diferente do texto
+  literal, o texto literal prevalece, e a divergência é registrada em
+  LEARNINGS.md.
+
 ### Fontes da Receita na visão multivigente (portal Normas)
 
 Para atos infralegais da Receita/CGSN, baixe a impressão da **visão
@@ -117,14 +126,34 @@ Na redação, a resolução entra em cada nota numa seção "Regulamentação
 DD/MM/AAAA — <ato alterador> (art. N)`. Divergência com a lei vira aviso
 `> ⚠️ Conflito LC × Resolução`, e vale a lei.
 
-- "Artigo alterador": o artigo da lei alteradora que contém a nova redação
-  (ex.: LC 214, art. 516).
-- "Fundamento da data": o dispositivo de vigência (ex.: LC 214, art. 544, I),
-  citado literalmente, a partir do texto da lei alteradora.
-- "Situação": `vigente` ou `⏳ futura — redação anterior ainda vale`.
-- Se uma nota existente (de outro domínio) disser algo diferente do texto
-  literal, o texto literal prevalece, e a divergência é registrada em
-  LEARNINGS.md.
+### Notas Técnicas (documentos fiscais eletrônicos)
+
+Para NTs do Projeto NF-e/NFC-e (domínio `documentos-fiscais`):
+
+- **Nome do arquivo com NT e versão** (ex.: `nt-2025-002-rtc-v1.52.pdf`) e,
+  no `FONTE.md`, versão, mês de publicação e data de captura.
+- **Texto riscado:** as NTs marcam a redação superada com um traço sobre o
+  texto, que o `pdftotext` não distingue. Gere o texto vigente:
+
+  ```bash
+  pip install pymupdf
+  python scripts/extrair_nt.py fontes/documentos-fiscais/<nt>.pdf --saida-dir fontes/documentos-fiscais/texto
+  ```
+
+  Isso cria `<nt>-vigente.txt` (fonte das notas) e `<nt>-riscado.md`
+  (auditoria). Guarde também `pdftotext` corrido e `-layout` para leitura.
+- **Vigência por cronograma:** não há "produção de efeitos", e sim
+  implantação em homologação e em produção. O que ainda não está em produção
+  vai para `## ⏳ Em produção a partir de DD/MM/AAAA — NT N vX (cronograma)`,
+  com a data copiada da tabela de cronograma do texto vigente.
+- **Literalidade:** tags em crase, códigos de regra (ex.: UB12-10) e
+  rejeições escritas como "rejeição 1115" são conferidos com
+  `python scripts/conferir_tags.py <nota> --fontes fontes/documentos-fiscais/texto/*-vigente.txt`.
+- **Hierarquia:** lei > resolução > NT; o frontmatter `fontes` cita "NT N vX"
+  (o `verificar.py` exige).
+- **Nova versão de uma NT:** baixe, refaça a extração, leia o histórico de
+  alterações da NT e revise **só** as notas das seções alteradas, trocando a
+  versão no `fontes`.
 
 ## Etapa 4: Plano de notas (exige aprovação)
 

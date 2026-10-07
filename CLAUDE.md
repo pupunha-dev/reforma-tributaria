@@ -11,6 +11,7 @@ oficiais de `fontes/<dominio>/`.
 |---|---|---|---|---|---|
 | reforma | LC 214/2025 + LC 227/2026 | `notas/reforma/` | `fontes/reforma/` | — | ativo (88 notas) |
 | simples-nacional | LC 123/2006 (fase A) + Res. CGSN 140/2018 e alteradoras, como as Res. CGSN 190 e 191/2026 (fase B) | `notas/simples-nacional/` | `fontes/simples-nacional/` | `sn-` | ativo (32 notas) — fase A (LC 123) e fase B (Res. CGSN 140) concluídas |
+| documentos-fiscais | Notas Técnicas do Projeto NF-e: NT 2025.002-RTC, 2026.002, 2026.007, 2026.008 e 2026.010 (versão de cada uma em `fontes/documentos-fiscais/FONTE.md`) | `notas/documentos-fiscais/` | `fontes/documentos-fiscais/` | `df-` | ativo (10 notas) |
 
 - Índice mestre: **[notas/INDEX.md](notas/INDEX.md)**. Cada domínio tem
   `INDEX.md` (notas por tema) e `_plano-notas.md` (mapa artigo → nota).
@@ -21,7 +22,9 @@ oficiais de `fontes/<dominio>/`.
 
 **Só atos normativos federais listados na tabela de domínios**: leis
 complementares, leis e atos infralegais federais, como resoluções do
-CGSN. Ficam fora: legislação estadual e municipal (convênios, protocolos,
+CGSN, e a **documentação técnica nacional dos documentos fiscais
+eletrônicos** (Notas Técnicas do Projeto NF-e/NFC-e) listada na tabela.
+Ficam fora: legislação estadual e municipal (convênios, protocolos,
 ITBI/IPTU municipal etc.) e tributos ou regimes que esses atos não tratam
 (ex.: IRPF e IRPJ pelo lucro real/presumido; o IRPJ **dentro** do Simples
 Nacional é matéria da LC 123 e está no escopo). Perguntas sobre esses temas ficam fora do escopo das
@@ -30,8 +33,11 @@ notas, mesmo quando parecem relacionadas.
 **Pergunta mista (parte dentro, parte fora do escopo).** Não pare na parte
 fora de escopo: sinalize-a e **responda a parte coberta abrindo as notas**
 pelo `INDEX.md` do domínio, citando a nota (ex.: "IR do aluguel" → IR fora de
-escopo; IBS/CBS da locação em `regime-especifico-bens-imoveis.md`). Nunca
-descreva a parte coberta de memória nem adivinhe nome de nota.
+escopo; IBS/CBS da locação em `regime-especifico-bens-imoveis.md`; "limite da
+NFC-e sem destinatário em SP" → valor estadual fora de escopo, regra nacional
+da NT em `df-emissao-offline-alerta.md`). Nunca descreva a parte coberta de
+memória, nem adivinhe nome de nota, nem cite de memória o ato estadual ou
+municipal que estaria fora de escopo.
 
 **Caso especial: substituição tributária (ST), domínio reforma.** A
 exclusão de escopo vale especificamente para **listas de produtos/setores
@@ -80,9 +86,11 @@ faltar é lacuna (regra 3): ofereça consultar o texto extraído em
    `vigencia: com-mudanca-programada`, diga se a regra citada vale **hoje**
    ou **a partir de quando** (blocos `⏳`/`❌`). Nunca misture a redação
    vigente com a futura na mesma frase.
-8. **Hierarquia (R-hierarquia).** Quando uma lei e um ato infralegal
-   tratarem do mesmo ponto, cite os dois. Se houver conflito, a lei
-   prevalece e o conflito é sinalizado.
+8. **Hierarquia (R-hierarquia).** Lei > resolução/ato infralegal > nota
+   técnica. Quando dois níveis tratarem do mesmo ponto, cite os dois. Se
+   houver conflito, prevalece o nível mais alto e o conflito é sinalizado.
+   A nota técnica diz **como preencher e validar** o documento fiscal; ela
+   não cria nem altera tributo.
 9. **Cruzamento (R-cruzamento).** Pergunta que envolve dois domínios (ex.:
    Simples Nacional × IBS/CBS) usa as notas dos dois e cita ambas.
 
@@ -95,6 +103,11 @@ faltar é lacuna (regra 3): ofereça consultar o texto extraído em
   DD/MM/AAAA — <lei> (art. N)` marca revogação programada. O frontmatter
   `vigencia` e `texto-base` diz se a nota tem regra futura e de quando é o
   texto legal usado.
+- **Domínio documentos-fiscais:** a NT entra em vigor por cronograma
+  (homologação e produção). `## ⏳ Em produção a partir de DD/MM/AAAA — NT N
+  vX (cronograma)` marca o que ainda não está em produção; a versão da NT
+  usada fica no `fontes` do frontmatter. As NTs têm **texto riscado**
+  (redação superada): use só os arquivos `*-vigente.txt`.
 
 ## Outras fontes de contexto
 
