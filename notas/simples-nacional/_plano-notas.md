@@ -1,9 +1,9 @@
 ---
-título: Plano de notas — Simples Nacional (fase A: LC 123/2006)
-status: aprovado
+título: Plano de notas — Simples Nacional (fase A: LC 123/2006; fase B: Res. CGSN 140/2018)
+status: concluido
 ---
 
-# Plano de notas — Simples Nacional (fase A: LC 123/2006)
+# Plano de notas — Simples Nacional (fase A: LC 123/2006; fase B: Res. CGSN 140/2018)
 
 Prefixo: `sn-`. Profundidade conforme a spec (§4.1): nível 1 profundo,
 nível 2 médio, nível 3 resumo. A coluna "Vigência" vem do
@@ -104,10 +104,10 @@ recebe a seção "Regulamentação (Res. CGSN 140/2018)" depois da regra da LC
 
 | Arquivo | Arts. Res. 140 | Vigência | Observação |
 |---|---|---|---|
-| sn-parcelamento.md | 46–57, 143–144 | a definir na redação | parcelamento ordinário do Simples |
-| sn-declaracoes-pgdas-defis.md | 38–39, 72–76 | a definir na redação | PGDAS-D (apuração mensal) e DEFIS (declaração anual) |
-| sn-mei-regulamentacao.md | 100–120, 144-A; Anexo XIII (Res. 190) | a definir na redação | SIMEI no detalhe: opção, DAS, empregado, documentos, DASN-SIMEI, desenquadramento, penalidades |
-| sn-transacao.md | 141-A–141-G | a definir na redação | transação de créditos do Simples (LC 174/2020) |
+| sn-parcelamento.md | 46–57, 143–144 | atual | parcelamento ordinário do Simples |
+| sn-declaracoes-pgdas-defis.md | 38–39, 72–76 | com-mudanca-programada | PGDAS-D (apuração mensal) e DEFIS (declaração anual) |
+| sn-mei-regulamentacao.md | 100–120, 144-A; Anexo XIII (Res. 190) | com-mudanca-programada | SIMEI no detalhe: opção, DAS, empregado, documentos, DASN-SIMEI, desenquadramento, penalidades |
+| sn-transacao.md | 141-A–141-G | atual | transação de créditos do Simples (LC 174/2020) |
 
 Anexos VI, VII e XI da Res. 140 (CNAEs impeditivos, CNAEs ambíguos e ocupações
 do MEI) são **lacuna**: são PDFs separados no portal e não estão nas fontes.
