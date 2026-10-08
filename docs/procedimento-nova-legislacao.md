@@ -152,6 +152,14 @@ Para NTs do Projeto NF-e/NFC-e (domínio `documentos-fiscais`):
   O script confere que cada identificador **existe** na NT, não que a regra e a
   rejeição citadas juntas estejam **pareadas**: confira o pareamento na linha
   da regra no `-vigente.txt` (código, descrição e rejeição vêm na mesma linha).
+- **Tabelas publicadas em portal (CST/cClassTrib):** quando a NT remete a uma
+  tabela fora do PDF, procure a fonte oficial e prefira uma que entregue os
+  dados estruturados (JSON/CSV) a copiar da tela. Para o Portal da Conformidade
+  Fácil (SVRS), `python scripts/cclasstrib_svrs.py baixar --data AAAA-MM-DD`
+  grava o JSON completo e o Markdown em `fontes/documentos-fiscais/texto/`, e
+  `python scripts/cclasstrib_svrs.py conferir <nota>` confere que os códigos de
+  6 dígitos da nota (em crase ou na 1ª coluna de tabela) existem na captura.
+  Registre sempre a data da captura: a tabela muda.
 - **Hierarquia:** lei > resolução > NT; o frontmatter `fontes` cita "NT N vX"
   (o `verificar.py` exige).
 - **Nova versão de uma NT:** baixe, refaça a extração, leia o histórico de

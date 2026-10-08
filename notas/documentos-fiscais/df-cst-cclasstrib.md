@@ -46,19 +46,19 @@ diferido...) e o **cClassTrib** (o dispositivo exato da LC 214 que se aplica).
   informar o grupo `gIBSCBS` dá **rejeição 1021** ("Grupo gIBSCBS informado
   indevidamente", regra UB13-20).
 
-## ⚠️ Lacuna: as tabelas não estão nas fontes
+## Onde estão as tabelas
 
 | Anexo da NT 2025.002-RTC | Situação |
 |---|---|
-| I — NCM do Imposto Seletivo | "Tabela a ser publicada" |
-| II — cClassTribIS | "Tabela a ser publicada" |
-| III — **cClassTrib** do IBS e da CBS | publicada só no Portal Nacional da NF-e (aba "Documentos", opção "Diversos") |
-| IV — **cCredPres** | idem |
+| I — NCM do Imposto Seletivo | "Tabela a ser publicada" (⚠️ lacuna) |
+| II — cClassTribIS | "Tabela a ser publicada" (⚠️ lacuna) |
+| III — **cClassTrib** do IBS e da CBS, e a tabela de CST | fora do PDF; capturada em 2026-10-08 do Portal da Conformidade Fácil e organizada em [[df-tabela-cclasstrib]] |
+| IV — **cCredPres** | fora do PDF; **⚠️ lacuna**: a tabela não está na página capturada |
 
-A tabela de CST com os indicadores também está no Portal NF-e. Por isso, **este
-second brain não responde qual cClassTrib usar** para uma operação específica.
-A nota explica só o mecanismo. Para os exemplos de cCredPres que a própria NT
-lista, ver [[df-grupo-ibs-cbs-is]].
+Esta nota explica o mecanismo; os códigos estão em [[df-tabela-cclasstrib]]. Ela
+diz **que códigos existem**, não qual usar numa operação concreta (isso depende de
+enquadrar o produto ou serviço na LC 214). Para os exemplos de cCredPres que a
+própria NT lista, ver [[df-grupo-ibs-cbs-is]].
 
 ## Ligações
 

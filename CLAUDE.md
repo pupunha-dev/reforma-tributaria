@@ -11,7 +11,7 @@ oficiais de `fontes/<dominio>/`.
 |---|---|---|---|---|---|
 | reforma | LC 214/2025 + LC 227/2026 | `notas/reforma/` | `fontes/reforma/` | — | ativo (88 notas) |
 | simples-nacional | LC 123/2006 (fase A) + Res. CGSN 140/2018 e alteradoras, como as Res. CGSN 190 e 191/2026 (fase B) | `notas/simples-nacional/` | `fontes/simples-nacional/` | `sn-` | ativo (32 notas) — fase A (LC 123) e fase B (Res. CGSN 140) concluídas |
-| documentos-fiscais | Notas Técnicas do Projeto NF-e: NT 2025.002-RTC, 2026.002, 2026.007, 2026.008 e 2026.010 (versão de cada uma em `fontes/documentos-fiscais/FONTE.md`) | `notas/documentos-fiscais/` | `fontes/documentos-fiscais/` | `df-` | ativo (10 notas) |
+| documentos-fiscais | Notas Técnicas do Projeto NF-e: NT 2025.002-RTC, 2026.002, 2026.007, 2026.008 e 2026.010 (versão de cada uma em `fontes/documentos-fiscais/FONTE.md`) e tabela CST/cClassTrib do Portal da Conformidade Fácil (SVRS) | `notas/documentos-fiscais/` | `fontes/documentos-fiscais/` | `df-` | ativo (11 notas) |
 
 - Índice mestre: **[notas/INDEX.md](notas/INDEX.md)**. Cada domínio tem
   `INDEX.md` (notas por tema) e `_plano-notas.md` (mapa artigo → nota).
@@ -117,6 +117,8 @@ faltar é lacuna (regra 3): ofereça consultar o texto extraído em
 - **[LEARNINGS.md](LEARNINGS.md)**: aprendizados (armadilhas de
   interpretação, erros já corrigidos).
 - **[decisions.md](decisions.md)**: decisões adotadas pela equipe.
+- **[pendencias.md](pendencias.md)**: o que está em aberto (decisões da
+  equipe a tomar, fontes que faltam, itens adiados).
 - **[docs/perguntas-teste/](docs/perguntas-teste/)**: bateria de regressão
   por domínio.
 - **`scripts/verificar.py`**: rode `python scripts/verificar.py` depois de

@@ -13,6 +13,25 @@ NF-e (www.nfe.fazenda.gov.br), aba "Documentos".
 | nt-2026-008-v1.00.pdf | NT 2026.008 | Valor líquido do produto; ICMS previsto no pagamento antecipado | 1.00 | setembro/2026 | 2026-10-07 | Campos: produção em 03/11/2026; parte das regras de validação: produção em 01/03/2027. |
 | nt-2026-010-v1.00.pdf | NT 2026.010 | DANFE da reforma tributária (leiaute de impressão) | 1.00 | outubro/2026 | 2026-10-07 | Produção em 01/12/2026. |
 
+## Tabela CST e cClassTrib (Portal da Conformidade Fácil)
+
+Os Anexos III (cClassTrib) e IV (cCredPres) da NT 2025.002-RTC ficam fora do PDF.
+A tabela de CST e cClassTrib foi capturada em **2026-10-08** de
+https://dfe-portal.svrs.rs.gov.br/Cff/ClassificacaoTributaria (Portal da
+Conformidade Fácil, SVRS; fonte indicada pelo usuário como recomendada pelo site
+da Receita). Acesso público, sem login. Os dados vêm como JSON embutido na página.
+
+| Arquivo (em `texto/`) | Conteúdo |
+|---|---|
+| cclasstrib-svrs.json | 18 CST e 173 cClassTrib, completos (texto legal de CBS e IBS, listas NCM/NBS de 35 códigos, indicadores) |
+| cclasstrib-svrs.md | as mesmas tabelas em Markdown, geradas por `scripts/cclasstrib_svrs.py baixar` |
+
+Última publicação de um item na tabela: 01/10/2026. A tabela **muda**: repetir a
+captura quando a NT ou o regulamento mudar e comparar com o arquivo anterior. A
+tabela **cCredPres** (Anexo IV) **não está nessa página** e segue como lacuna.
+Códigos citados nas notas são conferidos com
+`python scripts/cclasstrib_svrs.py conferir <nota.md>`.
+
 ## Texto extraído
 
 **Atenção: as NTs têm texto riscado.** A redação superada aparece com um traço

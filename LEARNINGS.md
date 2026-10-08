@@ -146,3 +146,19 @@ ou regra já superada.
 Ação: extrair sempre com `scripts/extrair_nt.py` (pymupdf), usar só o
 `*-vigente.txt` nas notas e nas conferências (`conferir_tags.py`), e consultar o
 `*-riscado.md` quando algo parecer contraditório.
+
+## [2026-10-08] — Tabelas "fora do PDF" podem estar em portal oficial como JSON embutido
+
+O que aconteceu: a lacuna dos Anexos III/IV da NT 2025.002-RTC (cClassTrib,
+cCredPres) parecia exigir cópia manual. A tela do Portal da Conformidade Fácil
+(SVRS) carrega os dados como JSON na própria página (`dadosOriginais`), com
+vigência, redução de IBS/CBS, documentos e texto legal por código. Um site
+privado (ECONET) tinha a mesma informação, mas sem rastreabilidade oficial.
+
+Por que importa: o mesmo padrão deve valer para outras tabelas dos portais da
+NF-e. A fonte privada serve só para achar o dado, nunca como base da nota.
+
+Ação: antes de garimpar à mão, procurar a fonte oficial e olhar se a página
+entrega JSON/CSV; capturar com script, registrar a data e conferir os códigos
+das notas contra a captura (`scripts/cclasstrib_svrs.py`).
+

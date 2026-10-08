@@ -30,7 +30,7 @@ use os dois.
 
 ## Documentos fiscais eletrônicos — Notas Técnicas NF-e/NFC-e
 
-- Índice: [documentos-fiscais/INDEX.md](documentos-fiscais/INDEX.md) — 10 notas
+- Índice: [documentos-fiscais/INDEX.md](documentos-fiscais/INDEX.md) — 11 notas
 - Mapa NT → nota: [documentos-fiscais/_plano-notas.md](documentos-fiscais/_plano-notas.md)
 - Hierarquia: lei > resolução > nota técnica (a NT diz como preencher e validar)
 - Vigência por cronograma de produção; versão da NT em cada nota

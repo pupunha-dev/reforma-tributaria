@@ -25,6 +25,7 @@ Mapa seção da NT → nota: [_plano-notas.md](_plano-notas.md).
 ## 2. Como preencher o XML
 
 - [[df-cst-cclasstrib]] — CST e código de classificação tributária (cClassTrib); tabelas no Portal NF-e
+- [[df-tabela-cclasstrib]] — os 18 CST e os 173 cClassTrib publicados no Portal da Conformidade Fácil (SVRS): reduções, vigência e documentos em que valem
 - [[df-grupo-ibs-cbs-is]] — grupos e campos de IBS, CBS e IS no leiaute
 - [[df-finalidade-debito-credito]] — notas de débito e de crédito
 - [[df-valor-liquido-produto]] — valor líquido do produto e ICMS previsto no pagamento antecipado (NT 2026.008)
