@@ -29,3 +29,11 @@ O percentual do IBS destinado ao Fundo de Combate à Pobreza (art. 82 do ADCT) f
 ## Informações e transparência (arts. 130-131)
 
 Estados informam ao CGIBS os coeficientes de participação municipal a serem usados na cota-parte; o CGIBS disponibiliza em portal público todas as informações do cálculo da distribuição a cada ente.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

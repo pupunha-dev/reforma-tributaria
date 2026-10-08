@@ -50,3 +50,14 @@ Devolução da CBS começa em **janeiro/2027**; devolução do IBS começa em **
 "Geral" é o valor calculado pelos percentuais mínimos do art. 118; "específica" é a diferença que um ente federativo decidiu devolver a mais, por sua própria conta. Só a devolução geral entra no cálculo das alíquotas de referência (para reequilibrar a arrecadação nacional) — a devolução específica é custo assumido pelo próprio ente que decidiu devolver mais.
 
 Nota: o único ponto deste capítulo tocado pela LC 227 foi o **art. 117, §2º, I** (redação dada), que excluiu do cálculo do consumo total o consumo de bens sujeitos ao Imposto Seletivo — para não inflar artificialmente a base de cálculo da devolução com itens como cigarro ou bebida alcoólica.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 492 a 495, 497, 498 e 501 a 509
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 489 a 492, 494 e 499 a 506
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

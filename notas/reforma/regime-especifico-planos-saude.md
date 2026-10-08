@@ -27,3 +27,14 @@ Ainda condicionais ("caso venha a ser permitida" — a regulamentação setorial
 ## Alterações pela LC 227/2026
 
 **Art. 238, parágrafo único reescrito**: precisa a fórmula de cálculo do crédito da empresa contratante — agora deixa explícito que o crédito é a multiplicação entre o débito pago pela operadora no período e a proporção "prêmios de empregados/total de prêmios arrecadados", excluindo expressamente a parcela repassada ao próprio empregado. Antes a redação era menos detalhada sobre a metodologia exata de cálculo.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 330, 332, 336, 337, 339 a 342, 345 e 346
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 330, 332, 336, 337, 339 a 342, 345 e 346
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

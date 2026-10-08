@@ -36,3 +36,11 @@ A União bancou a instalação do CGIBS com **operação de crédito de até R$ 
 - **Art. 483, §1º, I, "b" e §2º reescritos**: ajusta a remissão às novas regras eleitorais do art. 481 e detalha o ressarcimento com juros Selic aos entes que anteciparam despesas de instalação.
 - **Art. 484 inteiro reescrito**: detalha o cronograma de desembolso do empréstimo da União (R$ 600 mi em 2025, R$ 800 mi em 2026, R$ 1,2 bi em 2027 e 2028) e as garantias que o CGIBS oferece em contrapartida (percentual da própria arrecadação do IBS, escalonado de 1% em 2029 a 0,1% de 2033-2038, mais rendimentos de aplicações financeiras).
 - **Art. 180 da LC 227** (norma autônoma, não altera o texto do art. 481 diretamente): estabelece que o prazo do §5º-A do art. 481 (a data-limite de 31/10/2025 para CNM/FNP apresentarem suas indicações) **não se considera vencido antes de decorridos 15 dias** da publicação da própria LC 227 — uma salvaguarda de prazo mínimo para que as entidades municipais tivessem tempo hábil de reagir à nova regra eleitoral recém-criada, evitando que o prazo já tivesse expirado no mesmo instante em que a regra passou a existir.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

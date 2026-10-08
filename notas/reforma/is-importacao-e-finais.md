@@ -19,3 +19,11 @@ Alíquotas específicas (valor fixo por unidade) são atualizadas anualmente pel
 ## Alterações pela LC 227/2026
 
 **Art. 434, §2º-A (novo)**: para importação de produtos fumígenos com alíquota ad valorem, a base de cálculo passa a ser a **maior** entre o valor de referência (art. 414, III, "c" — preço de varejo) e o valor aduaneiro + II (§2º deste artigo) — fecha uma brecha em que a importação poderia ser subavaliada em relação ao mesmo produto vendido no mercado interno, equiparando o tratamento tributário entre fumígeno nacional e importado.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

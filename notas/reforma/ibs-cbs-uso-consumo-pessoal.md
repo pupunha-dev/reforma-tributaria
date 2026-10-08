@@ -31,3 +31,14 @@ Em relação a tudo que se enquadra como uso/consumo pessoal, **fica vedada a ap
 - **§3º, IV, "f" e "h"**: reescritos para tratar planos de saúde e vale-transporte/refeição/alimentação sob a ótica dos regimes específicos correspondentes (créditos equivalentes aos débitos do fornecedor apurados nesses regimes).
 - **§9º** (novo): na venda de bem que não gerou crédito na aquisição (por ser uso pessoal), o contribuinte pode **excluir da base de cálculo** o valor de aquisição, até o limite do valor da venda — evita tributar de novo o que já não gerou crédito, desde que o bem seja identificável.
 - **§§4º, 6º e 7º revogados**: dispositivos que perderam função com a reorganização do artigo.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 62 a 64
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 62 a 64
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

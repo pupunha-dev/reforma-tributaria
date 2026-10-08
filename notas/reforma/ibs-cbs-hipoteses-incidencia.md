@@ -51,3 +51,14 @@ O art. 7º-A resolve o que fazer quando **mais de um benefício** (alíquota zer
 - **Art. 5º, §8º** (novo): a regra de tributar o fornecimento a sócios/empregados/parentes (art. 5º, I, "a" e "b") **não se aplica** quando o bem/serviço é usado preponderantemente na atividade econômica do contribuinte (ex.: veículo de uso misto usado majoritariamente para trabalho).
 - **Art. 5º, §9º e §10** (novos): quando esse fornecimento não oneroso for tributado, a base será o valor de mercado; o regulamento poderá prever critérios simplificados e opcionais para uso temporário do bem por essas pessoas físicas.
 - **Art. 7º-A inteiro** é criação da 227 — antes não havia regra expressa de prioridade entre benefícios concorrentes.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 4 a 8
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 4 a 8
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

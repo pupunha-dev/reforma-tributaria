@@ -23,3 +23,11 @@ Atividades de cobrança/representação seguem a mesma lógica de coordenação 
 ## Composição do Conselho Superior (art. 8º)
 
 Instância máxima de deliberação: **27 membros e suplentes** representando cada Estado/DF + **27 membros e suplentes** representando o conjunto dos Municípios/DF. Os estaduais são indicados diretamente pelo chefe do Executivo de cada Estado; os municipais são eleitos por votação eletrônica entre prefeitos em exercício, com garantia de pelo menos 1 Município representante de cada região do país (o DF pode representar o Centro-Oeste). O detalhamento completo do processo eleitoral municipal e do funcionamento do Conselho está em [[cgibs-orcamento-financiamento]] e, para a fase de instalação provisória, em [[cgibs-na-lc214]].
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

@@ -33,3 +33,14 @@ O único resquício da ST no texto da reforma é operacional, não estrutural: m
 ## Nota de escopo
 
 Este raciocínio (por que a ST deixa de existir) está fundamentado na lógica estrutural do split payment e da não cumulatividade, como descritas na LC 214/2025 e LC 227/2026. As notas do projeto não têm — e a ST antiga não é matéria dessas leis — uma lista dos produtos/setores que hoje estão sob ST estadual; ver [LEARNINGS.md](../../LEARNINGS.md), entrada de 2026-08-25.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 28 a 31 e 33
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 28 a 31 e 33
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

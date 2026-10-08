@@ -34,3 +34,14 @@ Ferramenta de vigilância reforçada para contribuintes de alto risco: embaraço
 - **Art. 327-A (novo)**: dá à **Suframa** competência exclusiva para fiscalizar o cumprimento do processo produtivo básico e demais compromissos assumidos por empresas na Zona Franca de Manaus e Áreas de Livre Comércio — reconhece a expertise técnica da Suframa nesse controle específico, sem prejuízo da fiscalização tributária geral.
 - **Art. 330, §1º, VII (novo)**: exige que o auto de infração do IBS identifique **qual ente federativo** é responsável pelo lançamento — necessário porque o IBS tem múltiplos titulares (Estado + Município), diferente da CBS que é só federal.
 - **Art. 330, §§2º-3º (novos)**: lançamento de ofício deve ser implementado **em meio eletrônico**, e sua lavratura não impede a adoção paralela de mecanismos de solução consensual de controvérsias (transação tributária).
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 435, 438, 552 a 557, 559, 560 e 562 a 578
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 435, 438, 566 a 574 e 576 a 592
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

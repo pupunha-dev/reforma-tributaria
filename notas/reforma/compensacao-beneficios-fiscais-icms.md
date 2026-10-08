@@ -42,3 +42,11 @@ Valores recebidos indevidamente e não devolvidos viram crédito tributário da 
 
 - **Art. 384, caput reescrito, §único IV (novo)**: reforça que a compensação segue estritamente os critérios/limites desta lei, e fixa que o parâmetro para calcular a redução do nível de benefício é a legislação vigente em 31/05/2023 (ou a data de migração do programa, quando aplicável) — fecha ambiguidade sobre qual "foto no tempo" usar como referência.
 - **Art. 392, caput reescrito**: precisa os três marcos temporais possíveis para contar o prazo de 60 dias de reconhecimento automático do crédito (vencimento normal da escrituração, data de transmissão em atraso, ou data de retificação) — antes a redação previa um único marco, gerando dúvida em casos de atraso/retificação.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

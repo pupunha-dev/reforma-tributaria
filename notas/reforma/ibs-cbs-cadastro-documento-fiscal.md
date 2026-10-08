@@ -32,6 +32,18 @@ Município e DF ficam obrigados, até 31/12/2032, a autorizar emissão da Nota F
 - **Art. 59, §5º**: reescrito para tornar o DTE explicitamente unificado e obrigatório a todas as entidades com CNPJ (antes a obrigatoriedade era menos abrangente).
 - **Art. 60, §7º** (novo): o ato conjunto que disciplina o documento fiscal deve permitir a emissão de **documentos consolidados** (uma só nota para várias operações do período, quando aplicável) — medida de simplificação para reduzir volume de emissões individuais.
 
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 112, 115, 146, 515 e 561
+  - ⏳ produz efeitos a partir de 01/01/2027 (só caput, VI, “b” e “c”): art. 115
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 112, 115, 146, 512, 575 e 576
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->
+
 ## Ligações
 
 - [[df-visao-geral-reforma-nfe]]: como a NF-e/NFC-e foi adaptada ao IBS/CBS/IS pelas Notas Técnicas (domínio documentos-fiscais).

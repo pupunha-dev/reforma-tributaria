@@ -28,3 +28,14 @@ Os arts. 496 a 515 e 521 a 541 alteram dezenas de leis federais preexistentes pa
 ## Nova associação pública RFB + CGIBS para infraestrutura de TI
 
 O art. 493-A, embora tecnicamente inserido neste bloco por proximidade numérica, não é uma "alteração de outra lei" — é uma criação institucional nova, feita pela LC 227: uma **associação pública especial**, integrada pela RFB e pelo CGIBS, para desenvolver e operar de forma compartilhada os sistemas de administração do IBS/CBS. Tem personalidade jurídica própria (distinta da União/CGIBS/entes), governança paritária, pode ser contratada pelas partes associadas com dispensa de licitação, e responde subsidiariamente com seus associados por suas obrigações — modelo inspirado no consórcio público (Lei 11.107/2005), aplicada subsidiariamente. É a resposta institucional a um problema prático: como construir e manter um único sistema de TI nacional para dois tributos administrados por órgãos diferentes, sem que nenhum dos dois "seja dono" da infraestrutura.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 3 e 460
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 3 e 460
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

@@ -21,3 +21,14 @@ Quem não optar pelos regimes acima pode, na venda do imóvel, **deduzir da base
 ## Rateio entre entes e uma exceção específica (arts. 489-490)
 
 A receita arrecadada nesses regimes de transição é distribuída entre CBS e as parcelas estadual/municipal do IBS proporcionalmente às alíquotas de referência vigentes no momento do fato gerador. O art. 490 preserva uma exceção pontual: o **Fundo de Arrendamento Residencial (FAR)** mantém integralmente seus créditos de IBS/CBS mesmo em caso de doação de imóvel — não se aplica a ele a regra geral que anularia créditos em transmissões gratuitas (art. 6º, §2º).
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 6 e 461 a 463
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 6, 461 a 464 e 614
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

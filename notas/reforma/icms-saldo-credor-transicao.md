@@ -29,3 +29,11 @@ O titular pode **transferir** o saldo homologado a empresas do mesmo grupo econ�
 ## Efeito na distribuição (art. 141)
 
 O CGIBS **deduz** do produto da arrecadação do IBS devido ao respectivo Estado/DF o valor compensado/ressarcido — ou seja, o custo desses créditos históricos é suportado pelo próprio Estado que os havia concedido/reconhecido, não socializado entre todos os entes.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

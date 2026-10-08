@@ -33,3 +33,14 @@ Cobre medicamentos registrados na Anvisa ou de farmácia de manipulação (os qu
 ## Atualização das listas (art. 134)
 
 Mesmo mecanismo de revisão a cada 120 dias para o Anexo VI (nutrição especial), sem prejuízo da avaliação quinquenal geral do sistema (ver [[avaliacao-quinquenal-e-compensacoes]]).
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 203 a 209
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 203 a 209
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

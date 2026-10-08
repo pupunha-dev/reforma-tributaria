@@ -34,3 +34,14 @@ Qualquer mudança na legislação federal que **reduza ou aumente** a arrecadaç
 ## Alterações pela LC 227/2026
 
 O **parágrafo único do art. 16 é novo**: esclarece que as reduções de alíquota dos regimes diferenciados e específicos (Títulos IV e V) incidem **sobre a alíquota de cada ente federativo**, e não sobre uma alíquota nacional uniforme — ressalvados os casos em que a própria lei já determina alíquota nacionalmente uniforme (como o Imposto Seletivo). Fecha uma ambiguidade sobre como aplicar percentuais de redução quando cada ente tem sua própria alíquota-padrão.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 18 e 466 a 468
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 18 e 467 a 470
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

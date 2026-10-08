@@ -21,3 +21,11 @@ Atos processuais eletrônicos consideram-se praticados na data/hora do **envio a
 ## Vícios e nulidades (arts. 65-66)
 
 A administração **deve** anular seus próprios atos eivados de vício de legalidade (autotutela — art. 65). São **nulos** (art. 66): atos praticados por autoridade incompetente/impedida, atos com preterição do direito de defesa, decisões não fundamentadas, autos com erro na identificação do sujeito passivo (salvo se ao menos um dos coobrigados estiver corretamente identificado em lançamento com múltiplos autuados), e intimações irregulares (salvo se o próprio comparecimento do interessado supre a falha). A nulidade de um ato só contamina os posteriores que dele dependam diretamente; deve ser arguida na primeira oportunidade, sob pena de preclusão (exceto as cognoscíveis de ofício).
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

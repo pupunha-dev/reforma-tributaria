@@ -189,11 +189,26 @@ lc227-alteracoes-legislacao-correlata.md 🟢 — seções internas:
 
 NÃO entram aqui (regra do ajuste 4): art. 174 (distribuído nas 39 notas 🟡), arts. 168/169/181-IV (foram para simples-nacional-e-mei.md), art. 179 (foi para regime-especifico-combustiveis.md), art. 180 (foi para cgibs-na-lc214.md).
 
+## 12. Regulamentos — Decreto 12.955/2026 (CBS) e Res. CGIBS 6/2026 (IBS) (4 notas, 2026-10-08)
+
+Camada "Regulamentação": cada nota acima ganhou um bloco gerado com os artigos
+dos dois regulamentos que citam os seus artigos da LC 214
+(`scripts/mapa_regulamento.py`; mapa em `_mapa-regulamentos.md`). As notas abaixo
+tratam da matéria que os regulamentos detalham além da lei. A coluna "Arts." é da
+LC 214 (usada pelo script para o bloco de cada nota).
+
+| Arquivo | Arts. | Origem |
+|---|---|---|
+| regulamentos-cbs-ibs.md | — (guia: estrutura, hierarquia e vigência dos regulamentos) | regulamentos |
+| ibs-cbs-cadastro-regulamentacao.md | 59 | regulamentos (Dec. 12.955 e Res. CGIBS 6, arts. 104–111) |
+| ibs-cbs-documento-fiscal-regulamentacao.md | 60–62 | regulamentos (arts. 112–151) |
+| ibs-cbs-credito-presumido-regulamentacao.md | 168–171 | regulamentos (arts. 244–258 e Livro II) |
+
 ---
 
 ## Contagem final
 
-26 🔵 + 39 🟡 + 22 🟢 = 87 notas
+26 🔵 + 39 🟡 + 22 🟢 = 87 notas da lei, mais `ibs-cbs-fim-substituicao-tributaria.md` (conceitual) e 4 notas dos regulamentos (seção 12) = 92 notas
 
 ## Ordem de criação sugerida
 

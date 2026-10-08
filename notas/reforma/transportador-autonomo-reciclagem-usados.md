@@ -19,3 +19,16 @@ Crédito presumido na compra de **resíduos sólidos de coletores incentivados**
 ## Bens móveis usados para revenda (art. 171)
 
 Crédito presumido para quem compra bem móvel usado de pessoa física não contribuinte (ou MEI) **para revenda**. O percentual de crédito é simplesmente a **alíquota cheia** que incidiria na operação (soma Estado + Município para IBS, alíquota da União para CBS) — na prática, "zera" o efeito cascata de tributar de novo algo que já foi consumido uma vez pela pessoa física original. O crédito só pode ser usado na revenda do bem específico ao qual se vincula (§2º).
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 250, 252 a 258, 485 e 486
+  - ⏳ produzem efeitos a partir de 01/01/2027: arts. 250 e 252 a 258
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 250, 252 a 258, 483 e 484
+  - ⏳ produzem efeitos a partir de 01/01/2027: arts. 250 e 252 a 258
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

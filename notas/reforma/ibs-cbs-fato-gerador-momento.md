@@ -29,3 +29,14 @@ Regra pensada para contratos com parcelas pagas antes da entrega do bem/serviço
 O **§3º foi reescrito**: para operações de execução continuada ou fracionada (ex.: assinatura de serviço, prestação continuada), o fato gerador ocorre na **primeira** entre duas situações: (i) quando a parte da contraprestação correspondente a cada pagamento se torna exigível, ou (ii) o pagamento efetivo. Antes da mudança, a redação era menos precisa sobre qual das duas datas prevalece — agora fica explícito que é a que ocorrer primeiro.
 
 Também são novos os §§6º e 7º: o §6º esclarece que a extinção do débito por antecipação (§4º) já permite ao adquirente se creditar; o §7º autoriza o regulamento a simplificar a antecipação quando o intervalo entre pagamento e fornecimento for de até 5 dias (nesse caso a antecipação pode ser lançada só no período de apuração do fornecimento, evitando burocracia para prazos curtos).
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 11 e 439
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 11 e 439
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

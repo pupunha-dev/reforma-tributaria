@@ -20,3 +20,16 @@ São as reduções de alíquota **uniformes em todo o país** por setor/produto 
 ## Alterações pela LC 227/2026
 
 **§6º é novo**: exclui as remessas internacionais sujeitas ao Regime de Tributação Simplificada (RTS) da extensão automática dos regimes diferenciados às importações (§1º) — **exceto** para medicamentos importados por pessoa física para uso próprio/individual, que continuam podendo usufruir do benefício mesmo em remessa de baixo valor.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 200, 245, 250 e 469
+  - ⏳ produzem efeitos a partir de 01/01/2027: arts. 245 e 250
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 200, 245 e 250
+  - ⏳ produzem efeitos a partir de 01/01/2027: arts. 245 e 250
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

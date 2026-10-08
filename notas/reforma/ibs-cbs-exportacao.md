@@ -30,3 +30,14 @@ Mecanismo para viabilizar a cadeia de exportação: o fornecedor vende à ECE **
 - **Art. 80, §1º-A (novo)**: define "consumo no exterior" com o mesmo critério espelhado do art. 64 (local da operação fora do país, ou residência do adquirente/destinatário no exterior nos demais casos) — traz simetria entre as regras de importação e exportação de serviços.
 - **Art. 80, §§2º, 3º e 6º revogados**: dispositivos substituídos pela nova redação do §1º-A.
 - **Art. 81-A inteiro é novo**: cria uma regra própria de **comprovação** da exportação sem saída física (art. 81) — documentação e prazo de 180 dias contados da emissão do documento fiscal; se não comprovada, considera-se operação onerosa tributável, com os devidos acréscimos.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 90 a 97, 99, 101 e 158
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 90 a 97, 99, 101 e 158
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

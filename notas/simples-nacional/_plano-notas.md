@@ -90,7 +90,7 @@ recebe a seção "Regulamentação (Res. CGSN 140/2018)" depois da regra da LC
 | sn-fator-r.md | 26 |
 | sn-anexo-i-comercio.md a sn-anexo-v-servicos.md | Anexos I–V (2027–2028, Res. 190) |
 | sn-recolhimento-das.md | 40–45 (e Seções IV-A e V-A da Res. 190), 128–132 |
-| sn-repasse-arrecadacao.md | 45 e seguintes, sobre repasse |
+| sn-repasse-arrecadacao.md | 44, 45 e seguintes, sobre repasse; Res. CGSN 11/2007 (arrecadação e partilha), fase C |
 | sn-creditos.md | 58 |
 | sn-obrigacoes-acessorias.md | 59–71, 79–80 |
 | sn-exclusao.md | 81–84 |

@@ -25,3 +25,14 @@ A operadora deve informar local da aposta, valores apostados e premiados; em apo
 ## Importação e exportação (arts. 249-250)
 
 Se vier a ser permitida a operação por entidade estrangeira para apostador brasileiro (via internet), tributa-se pela mesma alíquota nacional, com o apostador podendo responder solidariamente. Serviço de aposta prestado a residente no exterior é tratado como exportação imune — mas só se a aposta ocorrer efetivamente fora do país; presença física do estrangeiro apostando no Brasil não conta como exportação.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 347, 348, 353, 354, 356 e 357
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 347, 348, 353, 354, 356 e 357
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

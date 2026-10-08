@@ -36,3 +36,11 @@ Espelham exatamente a lógica dos incidentes perante a Câmara Nacional (ver [[c
 
 - **Por matérias repetitivas** (arts. 82-84): exige decisões reiteradas; fixa tese com efeito vinculante (súmula), alcançando processos pendentes; suscitado pela Fazenda ou pelos Presidentes de Câmara; **não suspende** a exigibilidade do crédito;
 - **Por inobservância de provimento vinculante** (arts. 85-87): quando a 2ª instância deixa de aplicar um provimento vinculante já existente; suscitado pela Fazenda ou pelo sujeito passivo; **suspende** a exigibilidade do crédito.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

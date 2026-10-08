@@ -21,22 +21,26 @@ seguem a hierarquia (lei > resolução) e mantêm o aviso ⚠️.
 | # | Fonte | Onde procurar | Notas afetadas | Prioridade |
 |---|---|---|---|---|
 | F1 | Anexos **VII** (CNAEs ambíguos), **X** (relatório mensal do MEI) e **XII** da Res. CGSN 140/2018 (VI e XI entraram em 2026-10-08) | Portal do Simples Nacional → Legislação → Res. CGSN 140 (PDFs dos anexos) | [[sn-cnae-impeditivos]], [[sn-vedacoes-ingresso]], [[sn-mei-regulamentacao]], [[sn-sublimites-icms-iss]] | média |
-| F2 | Res. CGSN 11/2007 (repasse) | Portal do Simples Nacional → Legislação (resoluções antigas) | [[sn-repasse-arrecadacao]] | baixa |
-| F3 | Planilhas completas do IT 2025.002 (colunas que a página não mostra: alíquotas e percentuais do cCredPres, pRedTransicaoIBS, cClass da nota referenciada) e versão do IT posterior à 1.60, se houver | Portal Nacional da NF-e → "Documentos" → "Diversos" | [[df-credito-presumido-ccredpres]], [[df-tabela-cclasstrib]] | média |
+| F3 | Planilhas completas do IT 2025.002 (colunas que a página não mostra: alíquotas e percentuais do cCredPres, pRedTransicaoIBS, cClass da nota referenciada; os percentuais dos códigos 1 a 4 já vêm dos regulamentos) e versão do IT posterior à 1.60, se houver | Portal Nacional da NF-e → "Documentos" → "Diversos" | [[df-credito-presumido-ccredpres]], [[df-tabela-cclasstrib]] | média |
 | F4 | NT futura para emitentes do Simples/MEI (CRT 1, 2 e 4) | Portal Nacional da NF-e, lista de NTs (ainda não publicada) | [[df-visao-geral-reforma-nfe]], [[sn-obrigacoes-acessorias]] | alta quando sair |
-| F5 | **Decreto nº 12.955, de 29/04/2026** (Regulamento da CBS) | Planalto, seção de Decretos de 2026 (provável) | domínio reforma (todas as notas de CBS); trechos por código já estão no JSON do cClassTrib | **alta** |
-| F6 | **Resolução CGIBS nº 6, de 30/04/2026** (Regulamento do IBS) | site do Comitê Gestor do IBS (provável) | domínio reforma (todas as notas de IBS) | **alta** |
+| F8 | Versão atual da **Res. CGIBS 6/2026** (alterações depois de 30/04/2026, se houver) e a **data de publicação** | site do Comitê Gestor do IBS | [[regulamentos-cbs-ibs]], [[ibs-cbs-cadastro-regulamentacao]] (divergência CBS × IBS sobre PF e produtor rural PF) | **alta** |
+| F9 | Ato conjunto RFB/CGIBS com as **datas de obrigatoriedade** de cada documento fiscal (art. 112 dos regulamentos) | sites da RFB e do CGIBS | [[ibs-cbs-documento-fiscal-regulamentacao]] | alta |
+| F10 | Atos anuais (Ministro da Fazenda e CGIBS) com os **percentuais de crédito presumido** de produtor rural e TAC (divulgados até setembro, vigência em janeiro) | DOU / sites da RFB e do CGIBS | [[ibs-cbs-credito-presumido-regulamentacao]] | alta (2027) |
 | F7 | SC Cosit nº 66/2013 (CNAE × atividade real), citada na SC 71/2026 | Portal Normas da Receita | [[sn-cnae-impeditivos]], [[sn-solucoes-consulta]] | baixa |
 
-F5 e F6 foram identificadas no IT 2025.002 v1.60 (seção 02): as tabelas oficiais
-já citam o texto desses regulamentos. São o próximo passo natural para escalar o
-domínio reforma (a LC 214 diz a regra; o regulamento diz como operar).
+Os regulamentos da CBS e do IBS (antes F5 e F6) e a Res. CGSN 11/2007 (antes F2)
+entraram em 2026-10-08. F8 a F10 surgiram da leitura dos regulamentos.
 
 ## C. Em andamento
 
 Nada em andamento.
 
 ## D. Concluídos em 2026-10-08
+
+- Regulamentos da CBS (Decreto 12.955/2026, compilado com o Decreto 13.075/2026) e
+  do IBS (Res. CGIBS 6/2026): mapa gerado, bloco "Regulamentação" em 90 notas e 4
+  notas novas ([[regulamentos-cbs-ibs]]); Res. CGSN 11/2007 em
+  [[sn-repasse-arrecadacao]].
 
 - Tabelas CST/cClassTrib e cCredPres capturadas do Portal dos DF-e (endereços do
   IT 2025.002 v1.60): [[df-tabela-cclasstrib]], [[df-credito-presumido-ccredpres]].

@@ -210,3 +210,37 @@ Ação: SC entra no domínio do ato que interpreta, numa nota de soluções de
 consulta, como "interpretação da Receita", com os fatos resumidos e o limite
 ("vale para os fatos descritos"). Regra 8 do CLAUDE.md atualizada.
 
+## [2026-10-08] — Regulamento que cita a lei artigo por artigo: mapear por script, não à mão
+
+O que aconteceu: os regulamentos da CBS (620 artigos) e do IBS (617) chegaram
+juntos. Escrever notas para 1.200+ artigos antes dos testes era inviável. Mas
+cada artigo cita entre parênteses o dispositivo da LC 214 que regulamenta, em
+dois formatos estáveis ("Lei Complementar nº 214, de 16 de janeiro de 2025" e
+"LC 214/2025"). `scripts/mapa_regulamento.py` lê essas citações, gera o mapa
+lei → regulamentos e grava em cada nota um bloco "Regulamentação" com os artigos
+e a vigência (⏳ 2027/2029). Os artigos sem citação revelaram onde o regulamento
+cria matéria própria (documento fiscal, cadastro, cashback, ZFM), que virou nota.
+
+Por que importa: o padrão vale para qualquer regulamento futuro (ex.: atos do
+CGIBS, novas versões). No PDF gerado pelo Word (Res. CGIBS 6), o `pdftotext`
+junta parágrafos e o "Art. N" aparece no meio da linha; a divisão em artigos
+precisa aceitar só números crescentes e ignorar "(Art. N da LC ...)".
+
+Ação: para regulamento novo, rodar o script, conferir que não há artigo faltando
+e que as citações não reconhecidas são zero ou explicadas, e só então escrever
+notas para a matéria sem citação.
+
+## [2026-10-08] — CBS e IBS regulamentados por atos diferentes podem divergir
+
+O que aconteceu: o Decreto 13.075/2026 alterou o Regulamento da CBS para adiar a
+2027 a inscrição no CNPJ e a emissão de documento por pessoa física e produtor
+rural PF (arts. 105, § 4º-A, e 115, § 3º). A Res. CGIBS 6 das fontes, de mesma
+numeração, não tem esse adiamento.
+
+Por que importa: a reforma tem dois regulamentos para tributos "gêmeos"; o
+cliente vê uma só operação, mas as regras podem andar em ritmos diferentes.
+
+Ação: ao responder com regulamento, dizer se a regra é da CBS, do IBS ou dos
+dois; quando só um foi alterado, sinalizar (⚠️) e registrar a pendência de
+conferir o outro.
+

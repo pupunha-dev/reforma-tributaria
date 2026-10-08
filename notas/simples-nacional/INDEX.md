@@ -18,8 +18,9 @@ fundamento.
 - Ponte com a reforma: [[simples-nacional-e-mei]]
 
 **Lacunas conhecidas:** os Anexos VII, X e XII da Res. 140 (CNAEs ambíguos,
-relatório mensal do MEI e Anexo XII) e a Res. CGSN 11/2007 (repasse) **não estão
-nas fontes**. Os Anexos VI e XI entraram em 2026-10-08.
+relatório mensal do MEI e Anexo XII) **não estão nas fontes**. Os Anexos VI e XI
+e a Res. CGSN 11/2007 (texto original, sobre arrecadação e partilha) entraram em
+2026-10-08.
 
 ## 1. Quem é pequeno e como entra
 
@@ -50,7 +51,7 @@ nas fontes**. Os Anexos VI e XI entraram em 2026-10-08.
 ## 4. Pagamento, créditos e obrigações
 
 - [[sn-recolhimento-das]] — DAS, retenção de ISS, restituição, compensação, parcelamento; split payment em 2027
-- [[sn-repasse-arrecadacao]] — partilha entre os entes; IBS do MEI 50%/50%
+- [[sn-repasse-arrecadacao]] — partilha entre os entes; caminho do DAS até cada ente (Res. CGSN 11/2007); DAS mínimo de R$ 10,00; IBS do MEI 50%/50%
 - [[sn-creditos]] — crédito de ICMS (e, em 2027, de IBS/CBS) para quem compra de optante
 - [[sn-obrigacoes-acessorias]] — declarações, documentos fiscais, livro-caixa; NFS-e nacional em 01/11/2026; declaração assistida em 2027
 - [[sn-declaracoes-pgdas-defis]] — PGDAS-D (confissão de dívida, retificação, malha) e Defis; Defis vira bloco anual do PGDAS-D em 2027

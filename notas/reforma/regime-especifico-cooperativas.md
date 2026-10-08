@@ -17,3 +17,14 @@ A opção é exercida no ano anterior ao início dos efeitos (ou no início das 
 ## Transferência de créditos à cooperativa (art. 272)
 
 Quando o associado fornece à cooperativa com a alíquota zero, ele normalmente "perderia" os créditos das aquisições que fez para produzir aquele bem/serviço (já que não há débito para compensar). O art. 272 resolve isso: o associado pode **transferir** esses créditos (inclusive presumidos) para a cooperativa, afastando a regra geral de intransferibilidade de créditos do art. 55 (ver [[ibs-cbs-nao-cumulatividade-creditos]]) — mas só na medida dos bens/serviços efetivamente usados para produzir o que foi entregue à cooperativa.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 391, 393 e 394
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 391, 393 e 394
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

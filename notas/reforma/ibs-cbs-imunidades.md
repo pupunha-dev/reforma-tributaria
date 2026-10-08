@@ -28,3 +28,14 @@ São imunes os fornecimentos:
 - A imunidade dos entes públicos só cobre suas **finalidades essenciais** — não se aplica a atividade econômica explorada em regime privado ou com cobrança de preço/tarifa (§1º, II), e não dispensa o promitente comprador de pagar tributo sobre imóvel (§1º, III).
 - Entidades religiosas/beneficentes/educacionais precisam cumprir os requisitos do **art. 14 do CTN** (não distribuir lucro, aplicar recursos no país, manter escrituração regular) — §3º.
 - Nenhuma dessas imunidades cobre as **aquisições** feitas por essas entidades: elas pagam IBS/CBS normalmente quando compram bens e serviços (§4º). A imunidade protege o que a entidade fornece, não o que ela adquire.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 9 e 10
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 9 e 10
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->
