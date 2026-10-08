@@ -32,6 +32,13 @@ class TestFaltantes(unittest.TestCase):
     def test_codigo_quebrado_entre_linhas_e_encontrado(self):
         self.assertEqual(ct.faltantes("regra N12-50", [FONTE]), [])
 
+    def test_codigos_com_prefixo_de_dois_digitos_e_com_ponto(self):
+        self.assertEqual(ct.identificadores("regras 12C02-10, 12C21-20, B25.1-10 e B25.2-30"),
+                         {"12C02-10", "12C21-20", "B25.1-10", "B25.2-30"})
+
+    def test_codigo_com_ponto_inexistente_e_reportado(self):
+        self.assertEqual(ct.faltantes("B25.9-10", [FONTE]), ["B25.9-10"])
+
     def test_codigos_com_digito_inicial(self):
         self.assertEqual(ct.faltantes("1C17-04 e 5E17-65", [FONTE]), [])
 

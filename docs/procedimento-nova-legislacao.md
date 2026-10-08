@@ -149,6 +149,9 @@ Para NTs do Projeto NF-e/NFC-e (domínio `documentos-fiscais`):
 - **Literalidade:** tags em crase, códigos de regra (ex.: UB12-10) e
   rejeições escritas como "rejeição 1115" são conferidos com
   `python scripts/conferir_tags.py <nota> --fontes fontes/documentos-fiscais/texto/*-vigente.txt`.
+  O script confere que cada identificador **existe** na NT, não que a regra e a
+  rejeição citadas juntas estejam **pareadas**: confira o pareamento na linha
+  da regra no `-vigente.txt` (código, descrição e rejeição vêm na mesma linha).
 - **Hierarquia:** lei > resolução > NT; o frontmatter `fontes` cita "NT N vX"
   (o `verificar.py` exige).
 - **Nova versão de uma NT:** baixe, refaça a extração, leia o histórico de

@@ -35,8 +35,8 @@ NFC-e".
 
 - Se o cClassTrib tem indicador de **tributação regular**, a alíquota informada
   deve ser **zero**.
-- A regra do IBS da UF não se aplica à devolução (finalidade 4) nem às notas de
-  crédito dos tipos 03, 04 e 06; a da CBS de 2025 e 2026 não se aplica à nota
+- As regras do IBS da UF e do Município (UB18-10 e UB37-10) não se aplicam à
+  devolução (finalidade 4) nem às notas de crédito dos tipos 03, 04 e 06; a da CBS de 2025 e 2026 não se aplica à nota
   de crédito tipo 04.
 - **CBS zero na ZFM e nas ALC (UB56-10, exceção 3):** é aceita quando o NCM
   **não** começa por 93 (armas), 24 (fumo), 2203 a 2208 (bebidas alcoólicas),
@@ -130,8 +130,10 @@ Futura"** (ainda não aplicadas, sem data):
 
 A NT 2026.008 remove a UB16-10 (fórmula da base de cálculo) e reescreve a
 VB01-10 e a VB01-20: a partir de 2027 o `vProd` **já contém** vIBS, vCBS e vIS,
-que deixam de ser somados de novo no `vItem`. Também cria as regras do valor
-líquido do produto. Fórmula nova completa em [[df-valor-liquido-produto]].
+que deixam de ser somados de novo no `vItem`. A VB01-10 reescrita **continua
+marcada como "Implementação Futura"** (a SEFAZ ainda não a aplica), e a
+composição do `vProd` com os tributos vale a partir de 2027. Também cria as
+regras do valor líquido do produto. Fórmula nova completa em [[df-valor-liquido-produto]].
 
 ## Ligações
 

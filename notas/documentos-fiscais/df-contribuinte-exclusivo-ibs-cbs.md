@@ -59,7 +59,7 @@ Regras para quem emite **sem IE**:
 | C17-42 | **proibido emitir NFC-e** (modelo 65); a regra não se aplica a partir de 2033 | 156 |
 | C17-43 | obrigatório informar **CNPJ** do emitente | 157 |
 | C18-50 | proibido informar IE de substituto tributário (`IEST`) | 158 |
-| I08-191 | só CFOP permitido na tabela do Portal NF-e (coluna "indExcIBSCBS"); não se aplica à devolução | 159 |
+| I08-191 | só CFOP permitido na tabela do Portal NF-e (coluna "indExcIBSCBS"); não se aplica à devolução nem ao crédito tipo 03 (retorno) | 159 |
 | N01-10 | **proibido informar ICMS** e ICMS interestadual; não se aplica à devolução nem ao crédito tipo 03 (retorno) | 161 |
 | UB12-11 | **grupo IBS/CBS obrigatório** | 162 |
 | 1C17-02 | rejeita se o CCC mostra IE de contribuinte do ICMS habilitada na UF (também para IE "ISENTO") | 163 |

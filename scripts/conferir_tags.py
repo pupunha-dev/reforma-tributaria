@@ -3,7 +3,9 @@
 Uso: python scripts/conferir_tags.py <nota.md> --fontes <arquivo> [<arquivo> ...]
 Identificadores: tags em crase (ex.: `gIBSCBS`), códigos de regra de
 validação (ex.: UB12-10, 1C17-04) e códigos de rejeição escritos como
-"rejeição 1161" (conferidos contra "1161 Rejeição" na NT). Ignora o frontmatter e blocos
+"rejeição 1161" (conferidos contra "1161 Rejeição" na NT). Limitação: confere
+que cada identificador existe na NT, mas NÃO que a regra e a rejeição citadas
+juntas na nota estejam pareadas na NT; esse pareamento é conferido à mão. Ignora o frontmatter e blocos
 <!-- exemplo --> ... <!-- /exemplo -->. Sai com código 1 se faltar algum.
 """
 from __future__ import annotations
@@ -14,7 +16,7 @@ import sys
 from pathlib import Path
 
 TAG = re.compile(r"`([A-Za-z][A-Za-z0-9_]*)`")
-REGRA = re.compile(r"(?<![\w-])(\d?[A-Z]{1,3}\d{2,3}[a-zA-Z]?-\d{2,3})(?![\w-])")
+REGRA = re.compile(r"(?<![\w.-])(\d{0,2}[A-Z]{1,3}\d{2,3}[a-zA-Z]?(?:\.\d)?-\d{2,3})(?![\w-])")
 EXEMPLO = re.compile(r"<!--\s*exemplo\s*-->.*?<!--\s*/exemplo\s*-->", re.S)
 FRONTMATTER = re.compile(r"\A---\n.*?\n---\n", re.S)
 QUEBRA = re.compile(r"-[ \t]*\n[ \t]*(?=\d)")

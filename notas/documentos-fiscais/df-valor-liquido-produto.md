@@ -27,20 +27,8 @@ Hoje (07/10/2026) tudo isto está **só em homologação**.
 
 ## ⏳ Em produção a partir de 03/11/2026 — NT 2026.008 v1.00 (cronograma)
 
-**Composição do valor do produto (seção 1):**
-
-- IBS e CBS **não** integram as próprias bases de cálculo, mas, "para fins de
-  preenchimento da NF-e e da NFC-e", seus valores **devem ser acrescidos ao valor
-  do produto ou serviço**, compondo o `vProd`. Isso **não** os coloca na base de
-  cálculo, que segue a legislação.
-- Por já estarem no `vProd`, IBS e CBS **não** são somados de novo no total da
-  nota (`vNFTot`); nos grupos tributários ficam "meramente informativos".
-- Observação do campo `vProd` (I11): "A partir de 2027, os valores de IBS, CBS e
-  IS compõem o Valor Total Bruto, exceto nas notas de importação".
-
-> Isso **substitui** a orientação da NT 2025.002-RTC de somar vIBS, vCBS e vIS
-> no valor do item (ver [[df-calculo-e-validacoes]]). A fórmula antiga da base
-> de cálculo (UB16-10) aparece **riscada** nesta NT: a regra foi removida.
+A fórmula antiga da base de cálculo (UB16-10) aparece **riscada** nesta NT: a
+regra foi removida.
 
 **Campos novos:**
 
@@ -75,6 +63,22 @@ sequência será obrigatória".
   Na operação de faturamento direto de veículos novos (VB01-20), a soma é
   `vProd` − vDesc − vICMSDeson (se indDeduzDeson=1) + vFrete + vSeg + vOutro +
   vII + vIPI + vServ + PIS-ST e Cofins-ST (quando somam).
+
+## ⏳ A partir de 2027 — NT 2026.008 v1.00 (composição do vProd)
+
+A data vem da observação do campo `vProd` (I11): "A partir de 2027, os valores
+de IBS, CBS e IS compõem o Valor Total Bruto, exceto nas notas de importação". A
+seção 1 da NT descreve a regra sem data.
+
+- IBS e CBS **não** integram as próprias bases de cálculo, mas, "para fins de
+  preenchimento da NF-e e da NFC-e", seus valores **devem ser acrescidos ao valor
+  do produto ou serviço**, compondo o `vProd`. Isso **não** os coloca na base de
+  cálculo, que segue a legislação.
+- Por já estarem no `vProd`, IBS e CBS **não** são somados de novo no total da
+  nota (`vNFTot`); nos grupos tributários ficam "meramente informativos".
+
+> Isso **substitui** a orientação da NT 2025.002-RTC de somar vIBS, vCBS e vIS
+> no valor do item (ver [[df-calculo-e-validacoes]]).
 
 ## ⏳ Em produção a partir de 01/03/2027 — NT 2026.008 v1.00 (cronograma)
 

@@ -137,7 +137,7 @@ NT 2025.002-RTC parecia ter produção em 03/08/2026 e, para Simples/MEI, em
 04/01/2027. Renderizando a página, esses trechos estavam **riscados** (redação
 superada, em vermelho com marca amarela); a redação vigente diz
 "implementação futura para produção". O `pdftotext` mistura riscado e vigente
-sem distinção. As 5 NTs tinham texto riscado (de 0 a 52 linhas cada).
+sem distinção. 4 das 5 NTs tinham texto riscado (de 5 a 52 linhas cada; a NT 2026.010 não tinha).
 
 Por que importa: toda nova versão de NT repete o padrão (a NT acumula o
 histórico riscado). Sem tratar isso, a nota apresentaria como vigente uma data

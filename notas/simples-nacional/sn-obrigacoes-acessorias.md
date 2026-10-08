@@ -166,6 +166,15 @@ Fundamento da data: Res. 191, art. 3º, I. A Res. 191 também **revogou a Res. C
 - Certificação digital para documento eletrônico passa a valer "quando a
   obrigatoriedade estiver prevista em norma específica" (art. 79, II).
 
+## ⏳ Em produção a partir de 03/11/2026 — NT 2026.007 v1.10 (cronograma)
+
+A NF-e passa a ser rejeitada quando o **CRT** informado não bate com o regime do
+CNPJ na Receita (lista LCC-RFB): CRT 1 ou 2 exige optante do Simples; CRT 4
+exige optante do MEI (regra 12C21-20). Na prática, a empresa excluída do Simples
+ou o MEI desenquadrado precisa ajustar o CRT do emissor. Detalhes em
+[[df-contribuinte-exclusivo-ibs-cbs]]. É regra técnica de validação (nota
+técnica), abaixo da LC 123 e da Res. 140 na hierarquia.
+
 ## ⏳ A partir de 01/01/2027 — Res. CGSN 190/2026 (arts. 1º e 8º; Res. 140, arts. 59, 61, 65, 68-A e 69)
 
 Fundamento da data: Res. 190, art. 9º.
@@ -189,10 +198,7 @@ Fundamento da data: Res. 190, art. 9º.
 > classificação tributária, validações) estão no domínio `documentos-fiscais`
 > ([[df-visao-geral-reforma-nfe]]). Segundo a NT 2025.002-RTC v1.52, as
 > orientações específicas para o **Simples Nacional (CRT 1 e 2) e para o MEI
-> (CRT 4)** ainda **serão publicadas em NT futura**. Já a NT 2026.007 v1.10,
-> com produção em 03/11/2026, passa a rejeitar a NF-e cujo CRT não bata com o
-> regime do CNPJ na Receita (optante do Simples, MEI ou outros), ver
-> [[df-contribuinte-exclusivo-ibs-cbs]].
+> (CRT 4)** ainda **serão publicadas em NT futura**.
 
 ## Ligações
 

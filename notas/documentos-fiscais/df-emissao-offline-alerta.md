@@ -79,7 +79,7 @@ Já em produção em 07/10/2026 (versões 1.00 a 1.10a):
 |---|---|---|
 | limite por UF da NFC-e sem destinatário (W16-40) | 01/06/2026 | 15/06/2026 |
 | schema e regras da NF-e com DANFE Simplificado Tipo 2 | 01/07/2026 | 03/08/2026 |
-| autorização com alerta (5E17-65) e demais ajustes das versões 1.00 a 1.10a | 01/09/2026 | 05/10/2026 |
+| autorização com alerta (5E17-65) e demais ajustes das versões 1.00 a 1.10a, exceto BA02-35, VC02-40 e I08-180 (ver abaixo) | 01/09/2026 | 05/10/2026 |
 
 A tabela de cronograma da NT alinha algumas linhas da versão 1.00 de forma
 ambígua com as datas. As datas acima são as que aparecem ao lado de cada item no
