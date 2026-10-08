@@ -1,9 +1,9 @@
 ---
 título: Vedações ao ingresso no Simples Nacional
 dominio: simples-nacional
-fontes: LC 123/2006, art. 17 (incisos II e XV com redação da LC 214/2025, art. 516)
+fontes: LC 123/2006, art. 17 (incisos II e XV com redação da LC 214/2025, art. 516); Res. CGSN 140/2018, arts. 8º e 15
 vigencia: atual
-texto-base: 2026-10-06
+texto-base: 2026-10-07
 ---
 
 # Vedações ao ingresso no Simples Nacional
@@ -62,6 +62,39 @@ participação societária, filial no exterior, cisão recente etc.), que tiram 
 empresa de **todo** o tratamento diferenciado, e não só do Simples. Ver
 [[sn-conceitos-definicao-me-epp]]. Quem incorre em vedação depois de optar é
 excluído; ver [[sn-exclusao]].
+
+## Regulamentação (Res. CGSN 140/2018)
+
+- **Lista única (art. 15):** a resolução junta numa só lista as vedações do art.
+  3º, §4º, e do art. 17 da LC (27 incisos). Destaques operacionais:
+  - o teto de receita é verificado no **ano anterior ou no ano em curso**:
+    receita bruta acima de **R$ 4.800.000,00** no mercado interno ou acima do
+    mesmo limite em exportação (I); para medir a receita do ano anterior à opção,
+    **não** entram o IPI destacado nem o ICMS retido como substituto (§6º);
+  - também é vedada a **sociedade em conta de participação** como sócia (II e
+    VIII) ou como forma de constituição (XXVI);
+  - **transporte intermunicipal e interestadual de passageiros** só é permitido
+    na modalidade fluvial, no transporte urbano ou metropolitano entre Municípios
+    limítrofes ou em regiões metropolitanas instituídas por lei estadual, com as
+    características de serviço público coletivo (XVI e §4º), ou no **fretamento
+    contínuo** de estudantes ou trabalhadores, por contrato escrito e com documento
+    fiscal (§5º);
+  - **cessão ou locação de mão de obra** = a atividade do art. 112, §1º; a
+    vedação não atinge construção civil, vigilância/limpeza/conservação e
+    advocacia (XXI e §3º);
+  - as exceções para participação em cooperativas de crédito, centrais de
+    compras, consórcio e SPE seguem a LC (§1º).
+- **Identificação pela CNAE (art. 8º):** a atividade impeditiva é identificada
+  pelos **códigos CNAE** informados no CNPJ. O **Anexo VI** lista os códigos
+  impeditivos e o **Anexo VII** os **ambíguos** (abrangem atividade permitida e
+  impeditiva). Com código ambíguo, a empresa pode optar se exercer **só** a
+  atividade permitida e declarar que não incorre em vedação (§3º). Se a lista
+  mudar: atividade que deixa de ser impeditiva → opção a partir do ano seguinte
+  (§4º, I); atividade que passa a ser impeditiva → comunicação à RFB e exclusão
+  (§4º, II).
+
+> **Lacuna:** o conteúdo dos **Anexos VI e VII** (os códigos CNAE) não está nas
+> fontes deste second brain: são PDFs separados no portal da Receita.
 
 ## Ligações
 

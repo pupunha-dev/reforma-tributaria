@@ -1,9 +1,9 @@
 ---
 título: Recolhimento do Simples — DAS, retenção de ISS, restituição, compensação e parcelamento
 dominio: simples-nacional
-fontes: LC 123/2006, arts. 21, 21-A e 21-B; LC 214/2025, arts. 517 e 543; LC 227/2026, art. 169
+fontes: LC 123/2006, arts. 21, 21-A e 21-B; LC 214/2025, arts. 517 e 543; LC 227/2026, art. 169; Res. CGSN 140/2018, arts. 40 a 45 e 128 a 132; Res. CGSN 190/2026, arts. 1º, 4º e 5º
 vigencia: com-mudanca-programada
-texto-base: 2026-10-06
+texto-base: 2026-10-07
 ---
 
 # Recolhimento: DAS, retenção de ISS, restituição e parcelamento
@@ -107,6 +107,72 @@ ainda não incorporados ao compilado da LC 123:
 
 Fundamento da data: LC 214, art. 544, V. São revogados os **§§4º e 4º-A do art.
 21** (retenção de ISS) e o **art. 21-B** (prazo do ICMS-ST).
+
+## Regulamentação (Res. CGSN 140/2018)
+
+- **Vencimento (art. 40):** o DAS vence no **dia 20 do mês seguinte** ao da
+  receita; sem expediente bancário, no dia útil seguinte (§3º); filiais recolhem
+  pela matriz (§1º); atraso com encargos do imposto de renda (§2º).
+- **Calamidade pública (art. 40-A):** para matriz em Município com decreto
+  estadual de calamidade reconhecido pelo Ministério da Integração, o vencimento
+  pode ser prorrogado — o primeiro após o evento e até os 2 seguintes, por até
+  **6 meses** — pagando até o dia 20 do mês de prorrogação, sem direito a
+  restituir o que já foi pago; vale para todos os tributos do Simples, para
+  PGDAS-D, DEFIS e DASN-SIMEI e para parcelamentos da RFB e da PGFN, conforme
+  portaria do Presidente do CGSN.
+- **DAS (arts. 41 a 45):** gerado **só** pelo **PGMEI** (MEI) ou pelo
+  **PGDAS-D** (demais), ou por aplicativo próprio para DAS avulso, cobrança,
+  parcelamento, autuação ou dívida ativa (art. 42); DAS fora disso é inválido
+  (§2º). Contém identificação, competência, vencimento, principal, multa, juros,
+  número único, código de barras e o **perfil da arrecadação** (partilha por
+  tributo e por ente) (art. 43). **DAS abaixo de R$ 10,00 não é emitido**: o
+  valor é somado aos períodos seguintes (art. 44). Pagamento só em instituição
+  credenciada (agente arrecadador) (art. 45).
+- **Restituição e compensação (arts. 128 a 132):** restituição = devolução do
+  pago a mais ou indevido pelo DAS; compensação = uso desse valor para pagar
+  débitos do Simples (art. 128). O pedido de restituição vai **ao ente
+  responsável pelo tributo**, que verifica o crédito no Portal e registra o pedido
+  para impedir duplicidade (art. 130). A compensação é feita no **aplicativo do
+  Portal**, só com débitos do **mesmo ente e mesmo tributo** (art. 131, §1º); sem
+  crédito não tributário ou de fora do Simples (§4º), sem uso para outros débitos
+  (salvo compensação de ofício) (§5º) e sem cessão de créditos (§6º). Crédito
+  corrigido pela **Selic** e prazos do CTN (art. 132).
+
+## ⏳ A partir de 01/01/2027 — Res. CGSN 190/2026 (arts. 1º, 4º e 5º; Res. 140, arts. 40-A a 40-E, 45-A, 45-B e 130)
+
+Fundamento da data: Res. 190, art. 9º.
+
+- **Opção por IBS/CBS no regime regular (arts. 40-C e 40-D, nova Seção IV-A):**
+  o optante pode apurar e recolher IBS e CBS pelo **regime regular** da LC 214, e
+  essas parcelas saem do DAS (art. 40-C). A opção (ou a renúncia) é feita no
+  **Portal do Simples**, é irretratável e vale por **semestre** (art. 40-D):
+
+| Semestre | Prazo para optar ou renunciar | Efeitos | Cancelamento até |
+|---|---|---|---|
+| iniciado em janeiro | 1º a 30 de setembro do ano anterior | 1º de janeiro do ano seguinte | 30 de novembro do ano da solicitação |
+| iniciado em julho | 1º a 31 de março | 1º de julho do mesmo ano | 31 de maio do ano da solicitação |
+
+  Feita a opção, ela **se mantém** nos períodos seguintes enquanto não houver
+  renúncia (§1º). Em **início de atividade**, a opção é feita junto com a opção
+  pelo Simples e vale desde a inscrição no CNPJ (§3º); para inscrição entre 1º de
+  abril e 30 de junho, ou entre 1º de outubro e 31 de dezembro, ela vale também
+  no semestre seguinte (§4º).
+- **Vedação (art. 40-E):** quem recebeu **ressarcimento** de créditos de IBS/CBS
+  no ano corrente ou anterior (art. 39 da LC 214) não pode apurar IBS/CBS pelo
+  regime único. Ver [[ibs-cbs-regime-regular-e-simples]].
+- **Split payment e adquirente (art. 45-B, nova Seção V-A):** os débitos de IBS e
+  CBS apurados no regime único podem ser extintos **na liquidação financeira**
+  (split payment, arts. 31 a 35 da LC 214) ou por **recolhimento do adquirente**
+  (art. 36 da LC 214); a Subseção de prazos não se aplica a esses valores (art.
+  40-B). Ver [[ibs-cbs-split-payment]].
+- **Arredondamento (art. 45-A):** valores do DAS em reais com **duas casas
+  decimais**; terceira casa menor que cinco mantém a segunda; igual ou maior
+  que cinco soma uma unidade; se o arredondamento zerar um valor positivo, fixa-se
+  em **R$ 0,01**.
+- **Restituição de IBS (art. 130):** o pedido vai ao **Comitê Gestor do IBS**,
+  que aplica a sua legislação e pode compensar de ofício com débitos perante ele.
+- Calamidade (art. 40-A, §5º): a referência à DEFIS sai, porque o art. 72 é
+  revogado (ver [[sn-declaracoes-pgdas-defis]]).
 
 ## Ligações
 

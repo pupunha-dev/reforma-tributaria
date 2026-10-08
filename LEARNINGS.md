@@ -69,6 +69,12 @@ parte de IBS/CBS/IS/ITCMD normalmente e sinalizar explicitamente que
 IR está fora do escopo do second brain — sem tentar preencher com
 conhecimento geral.
 
+Atualização [2026-10-07]: na regressão da fase B do Simples (R3), a resposta
+sinalizou o IR corretamente, mas descreveu o IBS/CBS da locação **de memória**
+e chutou um nome de nota inexistente. Por isso, o CLAUDE.md ganhou a regra
+"Pergunta mista": sinalizar a parte fora de escopo e responder a parte coberta
+**abrindo as notas** pelo INDEX. Depois da regra, o R3 passou 2 vezes em 2.
+
 ## [2026-10-06] — Duas leituras erradas sobre o art. 169 da LC 227 nas notas da reforma
 
 O que aconteceu: ao montar o mapa de vigência da LC 123 com o texto
@@ -123,3 +129,20 @@ Ação: em todo domínio novo vindo do Planalto, capturar também o HTML
 (`texto/<lei>-planalto.htm`) e gerar o mapa com `vigencia_planalto.py`.
 Para alterações com efeito futuro, conferir se o compilado já as
 incorporou; se não, usar o texto da lei alteradora.
+
+## [2026-10-07] — Notas Técnicas da NF-e trazem texto riscado que o pdftotext não mostra
+
+O que aconteceu: ao escrever o domínio documentos-fiscais, a regra UB12-10 da
+NT 2025.002-RTC parecia ter produção em 03/08/2026 e, para Simples/MEI, em
+04/01/2027. Renderizando a página, esses trechos estavam **riscados** (redação
+superada, em vermelho com marca amarela); a redação vigente diz
+"implementação futura para produção". O `pdftotext` mistura riscado e vigente
+sem distinção. 4 das 5 NTs tinham texto riscado (de 5 a 52 linhas cada; a NT 2026.010 não tinha).
+
+Por que importa: toda nova versão de NT repete o padrão (a NT acumula o
+histórico riscado). Sem tratar isso, a nota apresentaria como vigente uma data
+ou regra já superada.
+
+Ação: extrair sempre com `scripts/extrair_nt.py` (pymupdf), usar só o
+`*-vigente.txt` nas notas e nas conferências (`conferir_tags.py`), e consultar o
+`*-riscado.md` quando algo parecer contraditório.

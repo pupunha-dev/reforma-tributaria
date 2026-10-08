@@ -1,9 +1,9 @@
 ---
 título: Créditos no Simples Nacional — o optante e quem compra dele
 dominio: simples-nacional
-fontes: LC 123/2006, arts. 23 e 24; LC 214/2025, arts. 517, 542 e 543; LC 227/2026 (redação do art. 517)
+fontes: LC 123/2006, arts. 23 e 24; LC 214/2025, arts. 517, 542 e 543; LC 227/2026 (redação do art. 517); Res. CGSN 140/2018, art. 58; Res. CGSN 190/2026, arts. 1º e 8º
 vigencia: com-mudanca-programada
-texto-base: 2026-10-06
+texto-base: 2026-10-07
 ---
 
 # Créditos: o optante e quem compra dele
@@ -75,6 +75,32 @@ compilado da LC 123:
 
 Fundamento da data: LC 214, art. 544, V. Revoga-se o **§5º do art. 23**
 (crédito de ICMS sobre insumos de indústria optante, concedido pelo Estado).
+
+## Regulamentação (Res. CGSN 140/2018, art. 58)
+
+- Repete a vedação de apropriar ou transferir créditos dos tributos do Simples
+  (caput), o crédito de ICMS do comprador não optante (§1º) e o crédito de ICMS
+  sobre insumos de indústria optante concedido pelo Estado (§2º).
+- **PIS/Cofins não cumulativos (§3º):** quem apura PIS/Cofins pelo regime não
+  cumulativo **pode descontar créditos** sobre aquisições de bens e serviços de
+  optante pelo Simples, observadas as vedações da legislação dessas
+  contribuições.
+
+## ⏳ A partir de 01/01/2027 — Res. CGSN 190/2026 (arts. 1º e 8º; Res. 140, art. 58)
+
+Fundamento da data: Res. 190, art. 9º.
+
+- **Crédito de ICMS:** alíquota informada no documento fiscal = percentuais de
+  ICMS dos Anexos I e II para a faixa do optante **no mês da operação** (§1º-A);
+  no mês de início de atividade, os da menor alíquota (§1º-B).
+- **Crédito de IBS e CBS (§4º):** o comprador não optante tem crédito de IBS e
+  CBS nas aquisições de bens materiais ou imateriais, inclusive direitos, e de
+  serviços de optante, **em montante equivalente ao cobrado no regime único**.
+  Alíquota informada no documento = percentuais de **IBS e CBS dos Anexos I a V**
+  para a faixa do optante **no mês da operação** (§5º); no mês de início, os da
+  menor alíquota (§6º).
+- O §3º (créditos de PIS/Cofins) é revogado (Res. 190, art. 8º, XVIII), já que
+  PIS/Cofins deixam de existir.
 
 ## Ligações
 

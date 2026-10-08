@@ -1,9 +1,9 @@
 ---
 título: Microempreendedor Individual (MEI)
 dominio: simples-nacional
-fontes: LC 123/2006, arts. 18-A a 18-F; LC 214/2025, arts. 517, 518, 520, 542, 543 e Anexo XXIII; LC 227/2026, art. 169
+fontes: LC 123/2006, arts. 18-A a 18-F; LC 214/2025, arts. 517, 518, 520, 542, 543 e Anexo XXIII; LC 227/2026, art. 169; Res. CGSN 140/2018, arts. 100 a 120 (resumo)
 vigencia: com-mudanca-programada
-texto-base: 2026-10-06
+texto-base: 2026-10-07
 ---
 
 # Microempreendedor Individual (MEI)
@@ -114,6 +114,13 @@ Valor fixo mensal = soma de:
 - O MEI é **modalidade de microempresa**; todo benefício da ME se estende a ele
   quando for mais favorável (art. 18-E, §§2º e 3º); o empreendedor rural MEI
   **não perde** a condição de segurado especial (§5º).
+
+## Regulamentação (Res. CGSN 140/2018)
+
+O SIMEI no detalhe operacional (opção e enquadramento, recolhimento mensal pelo
+DAS, contratação de empregado, documentos fiscais e NFS-e, DASN-SIMEI,
+desenquadramento, penalidades e os valores fixos de 2027 em diante do Anexo XIII da
+Res. 190) está em [[sn-mei-regulamentacao]] (arts. 100 a 120 e 144-A).
 
 ## ⏳ A partir de 01/01/2027 — redação dada pela LC 214/2025 (arts. 517, 520 e 542) e pela LC 227/2026 (art. 169)
 

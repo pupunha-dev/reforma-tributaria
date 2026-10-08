@@ -1,9 +1,9 @@
 ---
-título: Plano de notas — Simples Nacional (fase A: LC 123/2006)
+título: Plano de notas — Simples Nacional (fase A: LC 123/2006; fase B: Res. CGSN 140/2018)
 status: concluido
 ---
 
-# Plano de notas — Simples Nacional (fase A: LC 123/2006)
+# Plano de notas — Simples Nacional (fase A: LC 123/2006; fase B: Res. CGSN 140/2018)
 
 Prefixo: `sn-`. Profundidade conforme a spec (§4.1): nível 1 profundo,
 nível 2 médio, nível 3 resumo. A coluna "Vigência" vem do
@@ -69,3 +69,45 @@ Todos os artigos de 1 a 89 (inclusive os com letra, como 3-A, 18-A a 18-F,
 87-A) aparecem em exatamente uma linha das tabelas acima. O art. 18 é
 dividido por tema em 7 notas (cálculo, segregação, Fator R e os 5 Anexos).
 São 28 notas no total: 22 de nível 1, 3 de nível 2 e 3 de nível 3.
+
+## Fase B — Resolução CGSN 140/2018 (aprovado em 2026-10-07, por delegação do usuário)
+
+Fonte: visão multivigente da Receita (com as Res. CGSN 190 e 191/2026). Mapa
+de datas: [_mapa-vigencia-res140.md](_mapa-vigencia-res140.md). Cada nota
+recebe a seção "Regulamentação (Res. CGSN 140/2018)" depois da regra da LC
+(a lei prevalece; divergência → ⚠️).
+
+### Notas existentes que recebem a regulamentação
+
+| Nota | Arts. Res. 140 |
+|---|---|
+| sn-conceitos-definicao-me-epp.md | 1º–3º |
+| sn-abrangencia-tributos.md | 4º–7º, 13–14 |
+| sn-vedacoes-ingresso.md | 8º, 15 |
+| sn-sublimites-icms-iss.md | 9–12, 24 |
+| sn-calculo-aliquota-efetiva.md | 16–23, 31–37, 77–78 |
+| sn-segregacao-receitas.md | 25, 27–30 |
+| sn-fator-r.md | 26 |
+| sn-anexo-i-comercio.md a sn-anexo-v-servicos.md | Anexos I–V (2027–2028, Res. 190) |
+| sn-recolhimento-das.md | 40–45 (e Seções IV-A e V-A da Res. 190), 128–132 |
+| sn-repasse-arrecadacao.md | 45 e seguintes, sobre repasse |
+| sn-creditos.md | 58 |
+| sn-obrigacoes-acessorias.md | 59–71, 79–80 |
+| sn-exclusao.md | 81–84 |
+| sn-fiscalizacao-omissao-receita.md | 85–92 |
+| sn-acrescimos-penalidades.md | 93–99 |
+| sn-processo-administrativo-judicial.md | 121–127, 133–141 |
+| sn-disposicoes-finais.md | 142, 144-B, 145–153 |
+| sn-mei.md | resumo e link para sn-mei-regulamentacao |
+
+### Notas novas (matéria sem correspondente na LC 123)
+
+| Arquivo | Arts. Res. 140 | Vigência | Observação |
+|---|---|---|---|
+| sn-parcelamento.md | 46–57, 143–144 | atual | parcelamento ordinário do Simples |
+| sn-declaracoes-pgdas-defis.md | 38–39, 72–76 | com-mudanca-programada | PGDAS-D (apuração mensal) e DEFIS (declaração anual) |
+| sn-mei-regulamentacao.md | 100–120, 144-A; Anexo XIII (Res. 190) | com-mudanca-programada | SIMEI no detalhe: opção, DAS, empregado, documentos, DASN-SIMEI, desenquadramento, penalidades |
+| sn-transacao.md | 141-A–141-G | atual | transação de créditos do Simples (LC 174/2020) |
+
+Anexos VI, VII e XI da Res. 140 (CNAEs impeditivos, CNAEs ambíguos e ocupações
+do MEI) são **lacuna**: são PDFs separados no portal e não estão nas fontes.

@@ -1,9 +1,9 @@
 ---
 título: Simples Nacional — instituição, tributos abrangidos e opção
 dominio: simples-nacional
-fontes: LC 123/2006, arts. 12 a 16; LC 214/2025, arts. 516, 517, 518, 542 e 543; LC 227/2026, art. 181
+fontes: LC 123/2006, arts. 12 a 16; LC 214/2025, arts. 516, 517, 518, 542 e 543; LC 227/2026, art. 181; Res. CGSN 140/2018, arts. 4º a 7º, 13 e 14; Res. CGSN 190/2026, arts. 1º e 8º
 vigencia: com-mudanca-programada
-texto-base: 2026-10-06
+texto-base: 2026-10-07
 ---
 
 # Instituição, tributos abrangidos e opção
@@ -151,6 +151,75 @@ Fundamento da data: LC 214, art. 544, V. Com o fim de ICMS e ISS:
   do §6º (LC 214, art. 543, V, "a");
 - o art. 13-A passa a tratar só do **IBS**: limite de R$ 3.600.000,00 para
   recolher o IBS pelo Simples (LC 214, art. 518).
+
+## Regulamentação (Res. CGSN 140/2018)
+
+- **Tributos do DAS e fora dele (arts. 4º e 5º):** repetem os arts. 13 e 13, §1º,
+  da LC. A resolução acrescenta que ficam **fora** do DAS: PIS/Cofins em
+  tributação concentrada ou ST (art. 5º, X); a **CPP** nas atividades do Anexo IV
+  e quando o **MEI contrata empregado** (art. 5º, XI); ICMS e ISS nas hipóteses de
+  **impedimento** por sublimite (art. 5º, XII, "i", e XIII, "d"); o **ISS em valor
+  fixo** dos escritórios contábeis (art. 5º, XIII, "c"); e os tributos devidos
+  como **substituto ou responsável** (art. 5º, XIV). Dispensa das demais
+  contribuições da União e do Sistema S (art. 5º, §3º).
+- **Como optar (art. 6º):** só pelo **Portal do Simples Nacional**, irretratável
+  no ano (caput); **até o último dia útil de janeiro**, com efeitos desde 1º de
+  janeiro (§1º). Até o fim do prazo, a empresa pode regularizar pendências (se
+  não regularizar, a opção é indeferida) ou cancelar o pedido ainda não deferido
+  (§2º), salvo empresa em início de atividade (§3º). Na opção, declara
+  expressamente que não incorre nas vedações do art. 15 (§4º).
+- **Empresa em início de atividade (art. 6º, §5º):** a opção é feita **junto com a
+  inscrição no CNPJ**, pelo sistema da Redesim; prazo de até **30 dias** do último
+  deferimento de inscrição (municipal ou, se exigível, estadual), sem passar de
+  **60 dias** da abertura (I); efeitos desde a **data de inscrição no CNPJ** (V);
+  pendências indeferidas podem ser regularizadas em até **30 dias** da inscrição
+  (VI). Enquanto o módulo da Redesim não estiver implantado, vale a regra
+  transitória do art. 144-B.
+- **Escritório contábil** que formaliza a opção assume os deveres do art. 18,
+  §22-B, da LC: atendimento gratuito ao MEI, pesquisas ao CGSN e eventos de
+  orientação (art. 6º, §8º).
+- O agendamento da opção (art. 7º) foi **revogado** pela Res. CGSN 147/2019.
+- **Resultado e indeferimento (arts. 13 e 14):** o resultado é consultado no
+  Portal (art. 13); o indeferimento é formalizado em **termo** pelo ente que
+  indeferiu, inclusive por débitos, com ciência na forma do art. 122 ou, no
+  início de atividade, no momento da solicitação (art. 14 e parágrafo único).
+
+## ⏳ A partir de 01/01/2027 — Res. CGSN 190/2026 (arts. 1º e 8º; Res. 140, arts. 4º a 6º, 13 e 14)
+
+Fundamento da data: Res. 190, art. 9º.
+
+- **Art. 4º:** entram no DAS a **CBS (IX) e o IBS (X)**; o IPI fica observado o
+  art. 126, III, "a", do ADCT (II). Os incisos IV (Cofins) e V (PIS/Pasep) são
+  revogados (Res. 190, art. 8º, I).
+- **Art. 5º — ficam fora do DAS:** IPI na importação (IX); **CBS e IBS apurados
+  pelo regime regular** (XVI); CBS e IBS na **importação** (XVII) e em operação
+  com bem material **sem documento fiscal** (XVIII); **Imposto Seletivo** (XIX);
+  IBS do art. 446 da LC 214 (XX); CBS e IBS **monofásicos** (XXI); tributos como
+  substituto ou responsável (XXII); demais tributos (XXIII). O inciso X é
+  revogado (art. 8º, II).
+- **Opção pelo Simples (art. 6º):** irretratável **no ano-calendário em que
+  produzir efeitos** (caput); formalizada de **1º a 30 de setembro**, com efeitos
+  a partir de 1º de janeiro **do ano seguinte** (§1º); o ano da opção é aquele em
+  que ela produz efeitos (§1º-A); **cancelamento irretratável até 30 de
+  novembro** do ano da formalização (§1º-B). Indeferida a opção, as pendências
+  podem ser regularizadas em **30 dias corridos** da ciência do termo (§2º-A),
+  com ciência no momento da solicitação (§2º-B); regularizadas, o termo é
+  cancelado e a opção deferida (§2º-C); acompanhamento no Portal (§2º-D); para
+  débitos de **IBS**, o termo pode ser emitido de forma integrada pelo **CGIBS**
+  (§2º-E); Estados, DF, Municípios e o CGIBS informam à RFB as pendências de seus
+  contribuintes (§6º-A). Os §§1º, 1º-B e 2º-A não se aplicam ao início de
+  atividade (§3º). Revogam-se os §§2º e 4º do art. 6º e os arts. 13 e 14 (art.
+  8º, III e VIII).
+
+> ⚠️ **Opção para o ano-calendário de 2027:** até 31/12/2026, a Res. 140 manda
+> optar **em janeiro**, com efeitos no próprio ano (art. 6º, §1º atual); a partir
+> de 01/01/2027, a opção passa a ser **em setembro**, com efeitos no ano seguinte
+> (redação da Res. 190). A Res. 190 **não traz**, no texto das fontes, regra de
+> transição específica para a opção relativa a 2027, e o art. 87-B da LC 123
+> (opção em setembro de 2026) foi revogado pela LC 227 (ver
+> [[sn-disposicoes-finais]]). Os arts. 144-D e 144-E (Res. 190) só tratam da
+> receita anterior de quem tem opção com efeitos em 01/01/2027, e não do prazo.
+> Ponto a decidir pela equipe (registrar em `decisions.md`).
 
 ## Ligações
 

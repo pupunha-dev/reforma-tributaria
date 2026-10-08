@@ -34,7 +34,7 @@ python scripts/esqueleto.py fontes/<dominio>/texto/<ato>.txt \
 - **Leis do Planalto: capture também o HTML oficial**, convertido para UTF-8:
 
   ```bash
-  curl -s -L -A "Mozilla/5.0" "<url>.htm" | iconv -f CP1252 -t UTF-8 | tr -d ''     | sed 's/charset=windows-1252/charset=utf-8/I' > fontes/<dominio>/texto/<ato>-planalto.htm
+  curl -s -L -A "Mozilla/5.0" "<url>.htm" | iconv -f CP1252 -t UTF-8 | tr -d '\r' | sed 's/charset=windows-1252/charset=utf-8/I' > fontes/<dominio>/texto/<ato>-planalto.htm
   ```
 
   É a fonte de verdade da vigência (etapa 3) e serve de texto pesquisável
@@ -94,6 +94,69 @@ publicação** ou ainda não alcançada:
 - Se uma nota existente (de outro domínio) disser algo diferente do texto
   literal, o texto literal prevalece, e a divergência é registrada em
   LEARNINGS.md.
+
+### Fontes da Receita na visão multivigente (portal Normas)
+
+Para atos infralegais da Receita/CGSN, baixe a impressão da **visão
+multivigente** (não a do DOU): ela mostra a redação antiga e a vigente, com
+marcas `[Redação dada pelo(a) ...] date_range DD/MM/AAAA`, `[Incluído...]`,
+`[Revogado...]`, `[Vide modificação prevista para DD/MM/AAAA ...]` e `[Vide
+dispositivo a ser incluído em DD/MM/AAAA ...]`. Cuidados:
+
+- **O texto futuro não aparece**: "Vide modificação prevista" só avisa. A nova
+  redação é lida no ato alterador (ex.: Res. CGSN 190/2026), que também entra em
+  `fontes/<dominio>/texto/`.
+- A redação antiga vem **sem marca**, antes da nova; a impressão às vezes **corta
+  uma marca** (um `[` sem fechamento). O script trata os dois casos.
+- **Anexos** são PDFs separados no portal e não vêm na impressão: registre a
+  lacuna no `FONTE.md` e no cabeçalho do mapa.
+
+Gere o mapa com o script (cabeçalho manual com as cláusulas de vigência
+literais dos atos alteradores):
+
+```bash
+python scripts/vigencia_receita.py fontes/<dominio>/texto/<ato>.txt \
+  --data-base AAAA-MM-DD \
+  --cabecalho fontes/<dominio>/texto/<ato>-mapa-cabecalho.md \
+  --saida notas/<dominio>/_mapa-vigencia-<ato>.md
+```
+
+Na redação, a resolução entra em cada nota numa seção "Regulamentação
+(<ato>)", depois da lei, e a mudança futura num bloco `## ⏳ A partir de
+DD/MM/AAAA — <ato alterador> (art. N)`. Divergência com a lei vira aviso
+`> ⚠️ Conflito LC × Resolução`, e vale a lei.
+
+### Notas Técnicas (documentos fiscais eletrônicos)
+
+Para NTs do Projeto NF-e/NFC-e (domínio `documentos-fiscais`):
+
+- **Nome do arquivo com NT e versão** (ex.: `nt-2025-002-rtc-v1.52.pdf`) e,
+  no `FONTE.md`, versão, mês de publicação e data de captura.
+- **Texto riscado:** as NTs marcam a redação superada com um traço sobre o
+  texto, que o `pdftotext` não distingue. Gere o texto vigente:
+
+  ```bash
+  pip install pymupdf
+  python scripts/extrair_nt.py fontes/documentos-fiscais/<nt>.pdf --saida-dir fontes/documentos-fiscais/texto
+  ```
+
+  Isso cria `<nt>-vigente.txt` (fonte das notas) e `<nt>-riscado.md`
+  (auditoria). Guarde também `pdftotext` corrido e `-layout` para leitura.
+- **Vigência por cronograma:** não há "produção de efeitos", e sim
+  implantação em homologação e em produção. O que ainda não está em produção
+  vai para `## ⏳ Em produção a partir de DD/MM/AAAA — NT N vX (cronograma)`,
+  com a data copiada da tabela de cronograma do texto vigente.
+- **Literalidade:** tags em crase, códigos de regra (ex.: UB12-10) e
+  rejeições escritas como "rejeição 1115" são conferidos com
+  `python scripts/conferir_tags.py <nota> --fontes fontes/documentos-fiscais/texto/*-vigente.txt`.
+  O script confere que cada identificador **existe** na NT, não que a regra e a
+  rejeição citadas juntas estejam **pareadas**: confira o pareamento na linha
+  da regra no `-vigente.txt` (código, descrição e rejeição vêm na mesma linha).
+- **Hierarquia:** lei > resolução > NT; o frontmatter `fontes` cita "NT N vX"
+  (o `verificar.py` exige).
+- **Nova versão de uma NT:** baixe, refaça a extração, leia o histórico de
+  alterações da NT e revise **só** as notas das seções alteradas, trocando a
+  versão no `fontes`.
 
 ## Etapa 4: Plano de notas (exige aprovação)
 

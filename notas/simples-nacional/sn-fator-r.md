@@ -1,9 +1,9 @@
 ---
 título: Fator R — quando o serviço vai para o Anexo III ou para o Anexo V
 dominio: simples-nacional
-fontes: LC 123/2006, art. 18, §§5º-B (XVI, XVIII a XXI), 5º-D, 5º-I a 5º-M, 24 a 26 (redação da LC 155/2016); LC 214/2025, art. 517
+fontes: LC 123/2006, art. 18, §§5º-B (XVI, XVIII a XXI), 5º-D, 5º-I a 5º-M, 24 a 26 (redação da LC 155/2016); LC 214/2025, art. 517; Res. CGSN 140/2018, art. 26; Res. CGSN 190/2026, art. 1º
 vigencia: com-mudanca-programada
-texto-base: 2026-10-06
+texto-base: 2026-10-07
 ---
 
 # Fator R
@@ -81,6 +81,42 @@ compilado da LC 123 no Planalto:
   do §24 segue a mesma janela. Há uma defasagem de um mês a mais, igual à do
   novo RBT12 (ver [[sn-calculo-aliquota-efetiva]]);
 - a régua de **28%** e a lista de atividades **não** mudam nesse texto.
+
+## Regulamentação (Res. CGSN 140/2018, art. 26)
+
+- **Fórmula:** fator "r" = folha de salários com encargos dos 12 meses
+  anteriores ao período de apuração ÷ receita bruta total dos mesmos 12 meses,
+  mercados interno e externo somados (caput, I e II). Folha = remunerações a
+  pessoas físicas pelo trabalho e pró-labore, mais CPP e FGTS efetivamente
+  recolhidos (§1º); só as remunerações informadas na forma do art. 32, IV, da Lei
+  8.212/1991, com o 13º salário na competência (§2º); sem aluguéis e
+  distribuição de lucros (§3º).
+- **Siglas (§5º):** FSPA = folha do mês; RPAr = receita do mês; FS12 = folha dos
+  12 meses anteriores; RBT12r = receita dos 12 meses anteriores.
+- **Casos-limite:**
+
+| Situação | Fator "r" |
+|---|---|
+| Mês de início: folha > 0 e receita = 0 | 0,28 (§6º, I) |
+| Mês de início: folha = 0 e receita > 0 | 0,01 (§6º, II) |
+| Mês de início: folha e receita > 0 | FSPA ÷ RPAr (§6º, III) |
+| Meses seguintes: FS12 e RBT12r = 0 | 0,01 (§7º, I) |
+| Meses seguintes: FS12 > 0 e RBT12r = 0 | 0,28 (§7º, II) |
+| Meses seguintes: ambos > 0 | FS12 ÷ RBT12r (§7º, III) |
+| Meses seguintes: FS12 = 0 e RBT12r > 0 | 0,01 (§7º, IV) |
+
+- Com **menos de 13 meses** de atividade, a folha anualizada segue os critérios
+  da receita do art. 22 (média × 12) (§4º).
+
+## ⏳ A partir de 01/01/2027 — Res. CGSN 190/2026 (art. 1º; Res. 140, art. 26)
+
+Fundamento da data: Res. 190, art. 9º.
+
+- Folha e receita passam a ser as dos **12 meses antecedentes ao mês anterior**
+  ao período de apuração (caput, I e II; §1º; §5º, IV e V).
+- Nos **2 primeiros meses** de atividade, o fator "r" é **0,28** (§6º); as regras
+  do §7º passam a valer do **3º mês** em diante; a folha anualizada segue o art.
+  22 para quem tem **mais de 2 e menos de 14 meses** de atividade (§4º).
 
 ## Ligações
 

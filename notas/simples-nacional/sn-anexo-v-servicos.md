@@ -1,9 +1,9 @@
 ---
 título: Anexo V do Simples Nacional — Serviços do §5º-I (Anexo V)
 dominio: simples-nacional
-fontes: LC 123/2006, Anexo V (redação da LC 155/2016, vigência desde 01/01/2018); LC 214/2025, art. 519 e Anexo XXII
+fontes: LC 123/2006, Anexo V (redação da LC 155/2016, vigência desde 01/01/2018); Res. CGSN 190/2026, art. 6º; LC 214/2025, art. 519 e Anexo XXII
 vigencia: com-mudanca-programada
-texto-base: 2026-10-06
+texto-base: 2026-10-07
 ---
 
 # Anexo V — Serviços do §5º-I (Anexo V)
@@ -165,9 +165,14 @@ Partilha do Simples Nacional - Receitas decorrentes da prestação de serviços 
 | 5ª Faixa | 23,00% | 12,50% | 17,15% | 23,85% | 23,50% |
 | 6ª Faixa | 35,00% | 15,50% | 20,00% | 29,50% |  |
 
-> A Resolução CGSN 190/2026 dá nova redação aos Anexos I a V da Res. CGSN 140
-> para os anos-calendário 2027 e 2028 (efeitos a partir de 01/01/2027). O
-> detalhamento entra na fase B deste domínio.
+## Regulamentação (Res. CGSN 140/2018, Anexo V; Res. CGSN 190/2026, art. 6º)
+
+A Res. CGSN 140 traz a mesma tabela em seu **Anexo V** (arquivo separado no portal da Receita,
+não incluído nas fontes). A **Res. CGSN 190/2026** (art. 6º) dá aos Anexos I a V da Res. 140 a
+redação válida **para os anos-calendário 2027 e 2028** (efeitos a partir de 01/01/2027, art. 9º).
+Conferência feita em 07/10/2026: **todos** os percentuais e valores da tabela de 2027–2028 do Anexo V
+da LC 214 transcritos acima aparecem no Anexo correspondente da Res. 190; nenhuma divergência
+encontrada. A Res. 190 não traz as tabelas de 2029 em diante (estas seguem só a LC 214).
 
 ## Ligações
 

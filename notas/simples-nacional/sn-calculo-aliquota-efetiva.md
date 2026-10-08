@@ -1,9 +1,9 @@
 ---
 título: Cálculo do Simples Nacional — RBT12, alíquota nominal e alíquota efetiva
 dominio: simples-nacional
-fontes: LC 123/2006, art. 18, caput, §§1º a 3º e 15 a 23 (redação da LC 155/2016); LC 214/2025, arts. 517 e 543
+fontes: LC 123/2006, art. 18, caput, §§1º a 3º e 15 a 23 (redação da LC 155/2016); LC 214/2025, arts. 517 e 543; Res. CGSN 140/2018, arts. 16 a 23, 31 a 37, 77 e 78; Res. CGSN 190/2026, arts. 1º e 8º
 vigencia: com-mudanca-programada
-texto-base: 2026-10-06
+texto-base: 2026-10-07
 ---
 
 # RBT12, alíquota nominal e alíquota efetiva
@@ -153,6 +153,85 @@ Fundamento da data: LC 214, art. 544, V. São revogados do art. 18 o §5º-E e
 os **§§14, 17, 17-A, 22-A e 23**, ou seja, as regras de excesso de sublimite
 quanto a ICMS e ISS (§§17 e 17-A), o ISS em valor fixo dos escritórios
 contábeis (§22-A) e o abatimento de material na base do ISS (§23).
+
+## Regulamentação (Res. CGSN 140/2018)
+
+- **Base de cálculo (art. 16):** receita bruta total mensal **auferida**
+  (competência) ou **recebida** (caixa), irretratável no ano (§1º), somando
+  todos os estabelecimentos (§2º), segregada por tipo de receita (art. 25) e
+  com mercado interno e exportação em bases separadas (§3º).
+- **Devolução e cancelamento (arts. 17 e 18):** a mercadoria devolvida em mês
+  posterior à venda é **deduzida da receita do mês da devolução**, segregada pelas
+  regras desse mês, e o saldo que sobrar vai para os meses seguintes (art. 17);
+  no regime de caixa, limitada ao valor efetivamente devolvido (parágrafo
+  único). Documento fiscal cancelado é deduzido no período em que foi tributado;
+  o documento que o substituir é tributado no período da operação original (art.
+  18).
+- **Escolha do regime de caixa (art. 19):** registrada no Portal ao apurar
+  **novembro** (para o ano seguinte, se já optante), **dezembro** (início de
+  atividade com efeitos em dezembro) ou o mês de início dos efeitos da opção (nos
+  demais casos). Ela vale **só para a base de cálculo mensal**: para todo o resto,
+  inclusive a faixa de receita, vale a competência (parágrafo único). Optante pelo
+  caixa: parcelas a prazo **não vencidas** entram na base até o último mês do
+  ano-calendário seguinte ao da operação, e o auferido e não recebido entra na
+  base no encerramento, no retorno à competência ou no mês anterior à exclusão
+  (art. 20). Deve manter **registro dos valores a receber** (modelo do Anexo IX:
+  documento, valor, parcelas, recebimentos, saldo e créditos incobráveis), sob
+  pena de **desconsideração de ofício** do regime de caixa e recálculo pela
+  competência (arts. 77 e 78).
+- **Fórmula (art. 21):** alíquota efetiva = (RBT12 × Aliq − PD) ÷ RBT12, com
+  RBT12 dos 12 meses anteriores ao período de apuração (II); percentual efetivo de
+  cada tributo = alíquota efetiva × percentual de repartição, com ISS limitado a
+  5% e o excesso transferido aos tributos federais (III, "a"). Se a RBT12 for
+  **zero**, considera-se **R$ 1,00** só para achar a alíquota (parágrafo único).
+  Quando a RBT12 passa do limite da 5ª faixa sem estourar o sublimite, o
+  percentual de ICMS e ISS segue a fórmula do inciso III, "b", com o percentual de
+  distribuição da 5ª faixa (o numerador da fração não ficou legível no texto
+  extraído; ver a redação de 2027 abaixo).
+- **Início de atividade (art. 22):** no **1º mês**, RBT12 = receita do mês × 12
+  (§2º); nos **11 meses seguintes**, RBT12 = média aritmética da receita dos meses
+  anteriores × 12 (§3º). Quem começou no ano anterior ao da opção usa a média até
+  completar 12 meses e a regra geral a partir do 13º (§4º). Usam-se as
+  **últimas faixas** dos Anexos quando a RBT12 passa do limite anual mas a receita
+  do ano em curso não (§5º). Mercado interno e exportação, em separado (art. 23).
+- **Isenções, reduções e valores fixos de ICMS/ISS (arts. 31 a 36):** Estados,
+  DF e Municípios podem dar isenção ou redução, inclusive só para um ramo de
+  atividade, ou fixar **valores fixos** (arts. 31 e 32). Para o **ISS**, o
+  benefício não pode resultar em percentual **menor que 2%**, salvo os
+  subitens 7.02, 7.05 e 16.01 da lista da LC 116/2003 (art. 31, parágrafo único). Valores fixos mensais
+  máximos, para ME com receita no ano anterior de **até R$ 180.000,00**: ICMS
+  R$ 108,00 e ISS R$ 162,75; **entre R$ 180.000,00 e R$ 360.000,00**: ICMS
+  R$ 295,50 e ISS R$ 427,50 (art. 33, §2º). Valem só a partir do ano seguinte e
+  por faixa (§1º). Ficam fora a ME com mais de um estabelecimento, no ano de
+  início de atividade ou com ramos de atividade de regimes diferentes (§3º).
+  Excedido o limite, sai do valor fixo no mês seguinte (§9º). Isenção ou redução
+  específica gera **redução proporcional** dos percentuais de ICMS ou ISS (art.
+  35); isenção ou redução de Cofins, PIS/Pasep ou ICMS da **cesta básica**, por lei
+  específica, segue a mesma lógica (art. 36). Escritórios contábeis: ISS em valor
+  fixo (art. 34). Nenhum incentivo fiscal fora do previsto (art. 37).
+
+## ⏳ A partir de 01/01/2027 — Res. CGSN 190/2026 (arts. 1º e 8º; Res. 140, arts. 16 a 22, 36, 77 e 78)
+
+Fundamento da data: Res. 190, art. 9º.
+
+- **Só competência (art. 16):** base de cálculo = receita bruta total mensal
+  **auferida**; receita auferida = a reconhecida na forma do art. 2º, §§8º e 9º-A
+  (momento do **faturamento**) (§1º-A). Revogam-se o §1º do art. 16, o parágrafo
+  único do art. 17, o §1º do art. 18, os arts. 19 e 20 e os arts. 77 e 78 (Res.
+  190, art. 8º, IX a XII e XXIII): **acaba o regime de caixa**.
+- **RBT12 (art. 21, II, "a"):** receita dos **doze meses antecedentes ao mês
+  anterior** ao período de apuração. O ISS segue limitado a 5%, com o excesso
+  transferido aos **tributos federais e ao IBS** (III). Acima da 5ª faixa, o
+  percentual de **ICMS, ISS e IBS** = **{[(RBT12 × alíquota nominal da 5ª faixa)
+  − parcela a deduzir da 5ª faixa] ÷ RBT12} × percentual de distribuição do ICMS,
+  ISS e IBS da 5ª faixa** (IV).
+- **Início de atividade (art. 22):** no **1º e 2º meses**, alíquotas da
+  **primeira faixa** (§2º, I); do **3º ao 13º mês**, RBT12 = média aritmética da
+  receita dos meses antecedentes ao mês anterior × 12 (§2º, II); quem começou no
+  ano anterior à opção segue essas regras até 13 meses e a regra geral a partir
+  do 14º (§4º).
+- **Cesta básica (art. 36):** a redução proporcional passa a valer só para
+  isenção ou redução de **ICMS** (PIS/Cofins deixam de existir).
 
 ## Ligações
 

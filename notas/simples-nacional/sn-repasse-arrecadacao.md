@@ -1,9 +1,9 @@
 ---
 título: Repasse do produto da arrecadação do Simples aos entes
 dominio: simples-nacional
-fontes: LC 123/2006, art. 22 (caput e incisos IV a VI com redação da LC 227/2026, art. 168); LC 214/2025, arts. 542 e 543
+fontes: LC 123/2006, art. 22 (caput e incisos IV a VI com redação da LC 227/2026, art. 168); LC 214/2025, arts. 542 e 543; Res. CGSN 140/2018, arts. 27, 43 e 54
 vigencia: com-mudanca-programada
-texto-base: 2026-10-06
+texto-base: 2026-10-07
 ---
 
 # Repasse da arrecadação
@@ -46,6 +46,19 @@ art. 22 (prazo de repasse do ICMS pelos convênios).
 Fundamento da data: LC 214, art. 544, V. Revogam-se os **incisos I (ISS) e II
 (ICMS)** do art. 22: com o fim desses impostos, o repasse fica com INSS,
 CGIBS e, no caso do MEI, a divisão direta do IBS entre Município e Estado.
+
+## Regulamentação (Res. CGSN 140/2018)
+
+A Res. CGSN 140 **não** tem uma seção sobre o sistema de repasse aos entes; ela
+remete, para a arrecadação, à **Res. CGSN 11/2007** (art. 45), que **não está nas
+fontes** deste second brain. Os pontos que a Res. 140 traz são:
+
+- o DAS mostra o **perfil da arrecadação**: a partilha por tributo e os valores
+  de cada ente (art. 43, IX);
+- o **ISS retido na fonte** é definitivo e **não** entra na partilha com os
+  Municípios (art. 27, VII);
+- no **parcelamento**, o repasse aos entes é proporcional ao peso de cada tributo
+  na dívida consolidada (art. 54, III). Ver [[sn-parcelamento]].
 
 ## Ligações
 

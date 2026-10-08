@@ -1,9 +1,9 @@
 ---
 título: Disposições preliminares e definição de microempresa (ME) e empresa de pequeno porte (EPP)
 dominio: simples-nacional
-fontes: LC 123/2006, arts. 1º a 3º-B (arts. 1º, 2º e 3º com redação da LC 214/2025, art. 516); LC 214/2025, arts. 517 e 518
+fontes: LC 123/2006, arts. 1º a 3º-B (arts. 1º, 2º e 3º com redação da LC 214/2025, art. 516); LC 214/2025, arts. 517 e 518; Res. CGSN 140/2018, arts. 1º a 3º; Res. CGSN 190/2026, art. 1º
 vigencia: com-mudanca-programada
-texto-base: 2026-10-06
+texto-base: 2026-10-07
 ---
 
 # Disposições preliminares e definição de ME e EPP
@@ -192,6 +192,76 @@ compilado da LC 123 no Planalto:
 Fundamento da data: LC 214, art. 544, V. O §11 passa a impedir, no excesso do
 limite do art. 13-A, só o recolhimento do **IBS** pelo Simples (ICMS e ISS
 deixam de existir).
+
+## Regulamentação (Res. CGSN 140/2018)
+
+A resolução repete os limites da lei e detalha o que entra e o que não entra
+na receita bruta (art. 2º):
+
+- **Limites:** ME até R$ 360.000,00 e EPP de R$ 360.000,00 a R$ 4.800.000,00
+  por ano-calendário (art. 2º, I, "a" e "b"); para opção e permanência, até
+  R$ 4.800.000,00 no mercado interno **e, adicionalmente**, até o mesmo valor em
+  exportação (art. 2º, §1º). Excesso → exclusão (§2º), com efeitos no **mês
+  seguinte** se passar de 20% de cada limite, ou no **ano seguinte** se não
+  passar (§3º).
+- **Início de atividade (art. 3º):** o limite é **R$ 400.000,00 × meses** entre
+  o início e o fim do ano (fração de mês = mês inteiro). Acima disso, exclusão
+  com pagamento dos tributos pelas regras gerais (§1º): **retroativa ao início**
+  se o excesso passar de 20%; a partir do **ano seguinte** se não passar (§2º).
+  Para quem começou no ano anterior ao da opção, o limite proporcional vale para
+  optar e o anual para permanecer (§3º).
+- **Também compõem a receita bruta** (§4º): custo do financiamento nas vendas a
+  prazo (I); gorjetas, compulsórias ou não (II); royalties, aluguéis e cessão de
+  direito de uso (III); verbas de patrocínio (IV). Troca de mercadorias,
+  compensação ou qualquer outra contraprestação também é receita bruta para as
+  partes (§7º).
+- **Não compõem** (§5º): venda de bem do **ativo imobilizado** (I; imobilizado =
+  ativo tangível usado na atividade e desincorporado a partir do 13º mês, §6º);
+  juros moratórios, multas e encargos pelo **atraso** no pagamento (II);
+  bonificação, doação ou brinde incondicionais (III); amostra grátis (IV); multa
+  ou indenização por rescisão que não corresponda à parte executada (V); valores
+  repassados pelo salão-parceiro ao profissional-parceiro com CNPJ (VI);
+  rendimentos de aplicações financeiras (VII).
+- **Quando reconhecer a receita (§§8º e 9º):** no faturamento, na entrega do bem
+  ou direito ou à medida que o serviço é prestado, **o que ocorrer primeiro**;
+  vale também para adiantamentos (inclusive no regime de caixa) e vendas para
+  entrega futura.
+- **Consolidação** (§10, incluído pela Res. CGSN 183/2025, desde 13/10/2025):
+  somam-se todas as atividades e receitas e todos os débitos exigíveis, ainda
+  que em inscrições distintas, como manda o art. 3º, §19, da LC.
+- Definições operacionais (art. 2º): **período de apuração** = o mês-calendário
+  (III); **empresa em início de atividade** = a que está nos **60 dias** desde a
+  abertura no CNPJ (IV); **data de início de atividade** = data de abertura no
+  CNPJ (V).
+
+## ⏳ A partir de 01/01/2027 — Res. CGSN 190/2026 (art. 1º; Res. 140, art. 2º)
+
+Fundamento da data: Res. 190, art. 9º. Mudanças no art. 2º da Res. 140:
+
+- **Empresa em início de atividade** passa a ser a que se inscreveu no CNPJ
+  **até o final do ano-calendário da inscrição** (IV); **data de início** = data
+  de **inscrição** no CNPJ (V); e entra a definição de **código de acesso**
+  (autenticação gov.br nível ouro ou prata) (VI).
+- **§3º-A:** a receita bruta compreende a decorrente de quaisquer operações com
+  **bens materiais ou imateriais, inclusive direitos, ou com serviços** (como no
+  novo art. 3º, §1º-A, da LC).
+- **Composição (§4º):** gorjetas só compõem a receita bruta **quando não forem
+  integralmente repassadas aos trabalhadores** (II); entra o inciso **VI —
+  juros, multas, acréscimos e encargos**.
+- **Exclusões (§5º):** entram os incisos **VIII — os valores de IBS e CBS
+  apurados e recolhidos pelo regime regular** da LC 214 e **IX — as gorjetas
+  integralmente repassadas aos trabalhadores**.
+- **Momento da receita (§§8º, 9º e 9º-A):** as receitas consideram-se auferidas
+  **no momento do faturamento**, inclusive adiantamentos e vendas para entrega
+  futura; **faturamento** = emissão do documento fiscal da operação (I) ou de
+  documento que altere, complemente ou modifique valores, inclusive nota de
+  débito, quando corresponder a receita bruta (II).
+
+> ⚠️ **Ponto de atenção no texto de 2027:** o novo §4º, VI, inclui na receita
+> bruta "juros, multas, acréscimos e encargos", e o §5º, II (juros moratórios,
+> multas e encargos **pelo atraso** no pagamento **não** compõem), **não** é
+> revogado pela Res. 190 (art. 8º). As notas não resolvem essa convivência;
+> registre a posição da equipe em `decisions.md` quando houver.
 
 ## Ligações
 
