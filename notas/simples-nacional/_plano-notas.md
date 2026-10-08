@@ -1,5 +1,5 @@
 ---
-título: Plano de notas — Simples Nacional (fase A: LC 123/2006; fase B: Res. CGSN 140/2018)
+título: Plano de notas — Simples Nacional (fase A: LC 123/2006; fase B: Res. CGSN 140/2018; fase C: Anexos e Soluções de Consulta)
 status: concluido
 ---
 
@@ -109,5 +109,13 @@ recebe a seção "Regulamentação (Res. CGSN 140/2018)" depois da regra da LC
 | sn-mei-regulamentacao.md | 100–120, 144-A; Anexo XIII (Res. 190) | com-mudanca-programada | SIMEI no detalhe: opção, DAS, empregado, documentos, DASN-SIMEI, desenquadramento, penalidades |
 | sn-transacao.md | 141-A–141-G | atual | transação de créditos do Simples (LC 174/2020) |
 
-Anexos VI, VII e XI da Res. 140 (CNAEs impeditivos, CNAEs ambíguos e ocupações
-do MEI) são **lacuna**: são PDFs separados no portal e não estão nas fontes.
+### Fase C — Anexos da Res. 140 e Soluções de Consulta (2026-10-08, por delegação do usuário)
+
+| Arquivo | Fonte | Vigência | Observação |
+|---|---|---|---|
+| sn-cnae-impeditivos.md | Res. 140, art. 8º e Anexo VI (red. Res. CGSN 143/2018) | atual | os 101 CNAEs impeditivos; CNAE × atividade real (SC Cosit 66/2013, citada na SC 71/2026) |
+| sn-mei-ocupacoes.md | Res. 140, arts. 100, 100-A, 101 e Anexo XI (red. Res. CGSN 182/2025); Res. 190, art. 100, §8º | com-mudanca-programada | as 470 ocupações do MEI (Tabelas A e B), CNAE e ISS/ICMS |
+| sn-solucoes-consulta.md | SC Cosit 71/2026 | atual | o que é uma SC; administração de garantias de locação no Anexo III; aplicações fora do DAS |
+
+Anexos **VII** (CNAEs ambíguos), **X** (relatório mensal do MEI) e **XII** da Res.
+140 seguem **lacuna**: são PDFs separados no portal e não estão nas fontes.

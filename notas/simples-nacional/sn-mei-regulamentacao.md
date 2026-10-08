@@ -17,11 +17,9 @@ o uso fica dentro da franquia, o valor não muda; estourou a franquia, muda de
 plano (desenquadramento). A regra da lei está em [[sn-mei]]; aqui fica a
 operação da Res. 140.
 
-> **Lacuna:** o **Anexo XI** da Res. 140 (ocupações permitidas ao MEI e a
-> tabela B do transportador autônomo de cargas) e o **Anexo X** (Relatório
-> Mensal de Receitas Brutas) **não estão nas fontes**: são PDFs separados no
-> portal da Receita. A nota não responde se uma ocupação específica é
-> permitida.
+> As **ocupações permitidas** (Anexo XI, Tabelas A e B, com CNAE e ISS/ICMS)
+> estão em [[sn-mei-ocupacoes]]. O **Anexo X** (Relatório Mensal de Receitas
+> Brutas) **não está nas fontes** (lacuna).
 
 ## Quem é MEI (arts. 100 e 100-A)
 

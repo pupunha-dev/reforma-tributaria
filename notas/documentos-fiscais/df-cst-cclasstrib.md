@@ -1,7 +1,7 @@
 ---
 título: CST e cClassTrib do IBS/CBS e do Imposto Seletivo na NF-e
 dominio: documentos-fiscais
-fontes: NT 2025.002-RTC v1.52, seções 2 e 3, Grupo UB (leiaute) e Anexos I a IV
+fontes: NT 2025.002-RTC v1.52, seções 2 e 3, Grupo UB (leiaute) e Anexos I a IV; IT 2025.002 v1.60, seções 01 e 06
 vigencia: atual
 texto-base: 2026-10-07
 ---
@@ -46,19 +46,20 @@ diferido...) e o **cClassTrib** (o dispositivo exato da LC 214 que se aplica).
   informar o grupo `gIBSCBS` dá **rejeição 1021** ("Grupo gIBSCBS informado
   indevidamente", regra UB13-20).
 
-## ⚠️ Lacuna: as tabelas não estão nas fontes
+## Onde estão as tabelas
 
 | Anexo da NT 2025.002-RTC | Situação |
 |---|---|
-| I — NCM do Imposto Seletivo | "Tabela a ser publicada" |
-| II — cClassTribIS | "Tabela a ser publicada" |
-| III — **cClassTrib** do IBS e da CBS | publicada só no Portal Nacional da NF-e (aba "Documentos", opção "Diversos") |
-| IV — **cCredPres** | idem |
+| I — NCM do Imposto Seletivo | "Tabela a ser publicada" (⚠️ lacuna) |
+| II — cClassTribIS | "Tabela a ser publicada" (⚠️ lacuna) |
+| III — **cClassTrib** do IBS e da CBS, e a tabela de CST | fora do PDF; publicada pelo IT 2025.002 e capturada em 2026-10-08 do Portal dos DF-e; organizada em [[df-tabela-cclasstrib]] |
+| IV — **cCredPres** | fora do PDF; capturada em 2026-10-08 do Portal dos DF-e (endereço do IT 2025.002 v1.60) e organizada em [[df-credito-presumido-ccredpres]]; as colunas de alíquota da planilha do IT seguem como lacuna |
 
-A tabela de CST com os indicadores também está no Portal NF-e. Por isso, **este
-second brain não responde qual cClassTrib usar** para uma operação específica.
-A nota explica só o mecanismo. Para os exemplos de cCredPres que a própria NT
-lista, ver [[df-grupo-ibs-cbs-is]].
+Esta nota explica o mecanismo; os códigos estão em [[df-tabela-cclasstrib]]. Ela
+diz **que códigos existem**, não qual usar numa operação concreta (isso depende de
+enquadrar o produto ou serviço na LC 214). Os códigos de crédito presumido estão
+em [[df-credito-presumido-ccredpres]] (atenção: o exemplo "5 - Regime opcional
+para cooperativa" do leiaute da NT não confere com a tabela atual).
 
 ## Ligações
 

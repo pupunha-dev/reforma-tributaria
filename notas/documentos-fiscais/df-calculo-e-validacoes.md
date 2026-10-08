@@ -1,7 +1,7 @@
 ---
 título: Cálculo do IBS/CBS/IS na NF-e e regras de validação da SEFAZ
 dominio: documentos-fiscais
-fontes: NT 2025.002-RTC v1.52, seções 5 e 7 (Grupos UB, VB e W03)
+fontes: NT 2025.002-RTC v1.52, seções 5 e 7 (Grupos UB, VB e W03); IT 2025.002 v1.60, seção 05 (alíquotas padrão)
 vigencia: com-mudanca-programada
 texto-base: 2026-10-07
 ---
@@ -33,8 +33,12 @@ NFC-e".
 | IBS do Município (`pIBSMun`) | UB37-10 | 0% (art. 343) | 0,05% (art. 344) | 1036 |
 | CBS (`pCBS`) | UB56-10 / UB56-20 | 0,9% (art. 346) | a "alíquota vigente para o período conforme legislação" | 1037 |
 
-- Se o cClassTrib tem indicador de **tributação regular**, a alíquota informada
-  deve ser **zero**.
+- **Exceção 1 das três regras:** "Se o cClassTrib possuir indicador de
+  Tributação Regular (`ind_gTribRegular` = 1)", a alíquota informada (`pIBSUF`,
+  `pIBSMun`, `pCBS`) deve ser **zero**. Atenção ao sentido: é o código **com** o
+  indicador ligado, que leva a tributação "como seria sem a condição" para o
+  grupo `gTribRegular` (ver [[df-cst-cclasstrib]]); não se trata de código
+  isento ou imune.
 - As regras do IBS da UF e do Município (UB18-10 e UB37-10) não se aplicam à
   devolução (finalidade 4) nem às notas de crédito dos tipos 03, 04 e 06; a da CBS de 2025 e 2026 não se aplica à nota
   de crédito tipo 04.
@@ -43,6 +47,20 @@ NFC-e".
   8703 (automóveis) ou 33 (perfumaria, exceto 3303 a 3307) **e** emitente e
   destinatário estão na mesma área incentivada.
 - As alíquotas de 2026 conferem com [[transicao-fixacao-aliquotas]].
+- **Confirmação do IT 2025.002 v1.60 (seção 05, "Alíquotas padrão do IBS e da
+  CBS"):** o informe dá a tabela, em percentual, a informar nos documentos:
+
+  | Ano | pIBSUF (%) | pIBSMun (%) | pCBS (%) |
+  |---|---|---|---|
+  | 2026 (LC 214/2025) | 0,1 | 0 | 0,9 |
+  | 2027 (LC 214/2025) | 0,05 | 0,05 | Aguardar Legislação |
+  | 2028 (LC 214/2025) | 0,05 | 0,05 | Aguardar Legislação |
+  | 2029 em diante | Aguardar Legislação | Aguardar Legislação | Aguardar Legislação |
+
+  Nota do IT: "Cada ente federativo deve definir suas alíquotas por lei própria
+  (art. 14 da LC 214/2025). Se não o fizer, aplica-se a alíquota de referência,
+  fixada por resolução do Senado Federal (art. 18)." Para a CBS de 2027 e 2028,
+  a regra de cálculo está em [[transicao-fixacao-aliquotas]].
 
 ## As fórmulas conferidas (tolerância de 0,01, salvo indicação)
 
@@ -115,7 +133,9 @@ Futura"** (ainda não aplicadas, sem data):
   vICMSMono − vISSQN + vIS, com exceções para PIS-ST/Cofins-ST que compõem o
   total. Nota da NT: "Implementação Futura, aguardando orientação normativa". A
   NT 2026.008 **remove** essa regra (ver [[df-valor-liquido-produto]]).
-- **Valor do item (VB01-10, rejeição 1105):** `vItem` = vProd − vDesc (−
+- **Valor do item (VB01-10, rejeição 1105):** vale "se não é operação de
+  Faturamento Direto para veículos novos (`tpOp` = nulo ou `tpOp` <> 2)"; nesse
+  caso, `vItem` = vProd − vDesc (−
   vICMSDeson, se indDeduzDeson=1) + vICMSST + vICMSMonoReten + vFCPST + vFrete
   + vSeg + vOutro + vII + vIPI + vIPIDevol + vServ (+ PIS-ST e Cofins-ST quando
   somam) + `vIBS` + `vCBS` + `vIS` + `vTotIBSMonoItem` + `vTotCBSMonoItem`; **em

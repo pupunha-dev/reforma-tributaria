@@ -26,7 +26,6 @@ RUIDO_PADRAO = [
     r"^\d+/\d+$",
     r"^https?://\S+$",
     r"^(import_export\s*)+$",
-    r"^file_present\b.*$",
     r"^Resol\. CGSN nº \d+-\d{4}$",
     r"^NORMAS$",
     r"^Visão Multivigente$",
@@ -86,14 +85,52 @@ def _marca(conteudo: str, date_range: str | None) -> Marca:
     return Marca(tipo, f"Res. CGSN {a.group(1)}/{a.group(2)}" if a else "", data)
 
 
+# "file_present Anexo X .pdf" é o link do arquivo do anexo: sai da linha, o resto fica
+ARQUIVO = re.compile(r"file_present\s+.*?\.pdf")
+# a impressão junta títulos de anexos na mesma linha: cada título começa um bloco
+QUEBRA_ANEXO = re.compile(r"(?=\bANEXO\s+[IVXLC]+\b)")
+
+
+class _Rotulo:
+    """Monta o rótulo com o pai: '§2º, I', '§2º, I, a)', 'Parágrafo único'.
+
+    Incisos que aparecem depois de um § pertencem a ele (técnica legislativa:
+    os incisos do caput vêm antes dos parágrafos); a alínea pertence ao último
+    inciso. Um artigo novo zera o contexto.
+    """
+
+    def __init__(self) -> None:
+        self.paragrafo = ""
+        self.inciso = ""
+
+    def artigo(self) -> str:
+        self.paragrafo = self.inciso = ""
+        return "caput"
+
+    def dispositivo(self, bruto: str) -> str:
+        r = normalizar_rotulo(bruto)
+        if r.startswith("§") or r.startswith("Parágrafo"):
+            self.paragrafo = "Parágrafo único" if r.startswith("Parágrafo") else r
+            self.inciso = ""
+            return self.paragrafo
+        if r.endswith(")"):
+            return ", ".join(p for p in (self.paragrafo, self.inciso, r) if p)
+        self.inciso = r.rstrip("-")
+        return ", ".join(p for p in (self.paragrafo, self.inciso) if p)
+
+
 def blocos(texto: str, ruido: list[str]) -> list[Bloco]:
     padroes = [re.compile(p) for p in ruido]
-    limpo = "\n".join(
-        l.strip() for l in texto.splitlines()
-        if l.strip() and not any(p.match(l.strip()) for p in padroes)
-    )
+    linhas = []
+    for bruta in texto.splitlines():
+        for parte in QUEBRA_ANEXO.split(ARQUIVO.sub("", bruta)):
+            parte = parte.strip()
+            if parte and not any(p.match(parte) for p in padroes):
+                linhas.append(parte)
+    limpo = "\n".join(linhas)
     saida: list[Bloco] = []
     artigo, rotulo = "", ""
+    contexto = _Rotulo()
     pos = 0
     for m in list(MARCA.finditer(limpo)) + [None]:
         trecho = limpo[pos:m.start()] if m else limpo[pos:]
@@ -107,9 +144,9 @@ def blocos(texto: str, ruido: list[str]) -> list[Bloco]:
                 artigo, rotulo = f"Anexo {m_anexo.group(1).upper()}", "cabecalho"
             elif m_art:
                 artigo = m_art.group(1) + (f"-{m_art.group(2)}" if m_art.group(2) else "")
-                rotulo = "caput"
+                rotulo = contexto.artigo()
             elif m_disp:
-                rotulo = normalizar_rotulo(m_disp.group(1))
+                rotulo = contexto.dispositivo(m_disp.group(1))
             elif TITULO.match(linha) or not saida:
                 saida.append(Bloco(artigo, "titulo", linha))
                 continue
@@ -140,7 +177,7 @@ def gerar_markdown(nome: str, blocos_: list[Bloco], data_base: str, desde: str) 
     linhas = [
         f"<!-- Tabela gerada por scripts/vigencia_receita.py a partir de {nome}. Não editar à mão. -->",
         "",
-        f"## Marcas de vigência desde {_br(desde)} (e todas as futuras)",
+        f"## Marcas de vigência desde {_br(desde)} (e todas as futuras e todas as revogações)",
         "",
         f"| Artigo | Dispositivo | Marca | Ato | Data | Situação em {_br(data_base)} |",
         "|---|---|---|---|---|---|",
@@ -151,7 +188,8 @@ def gerar_markdown(nome: str, blocos_: list[Bloco], data_base: str, desde: str) 
         for m in b.marcas:
             if m.tipo in ("vide", "outro") or not m.data:
                 continue
-            if m.data < desde and m.data <= data_base:
+            # revogação antiga continua valendo: sempre aparece
+            if m.data < desde and m.data <= data_base and m.tipo != "revogacao":
                 continue
             linhas.append(f"| {b.artigo} | {b.dispositivo} | {m.tipo} | {m.ato} | {_br(m.data)} | {situacao(m, data_base)} |")
     return "\n".join(linhas) + "\n"

@@ -1,7 +1,7 @@
 ---
 título: Vedações ao ingresso no Simples Nacional
 dominio: simples-nacional
-fontes: LC 123/2006, art. 17 (incisos II e XV com redação da LC 214/2025, art. 516); Res. CGSN 140/2018, arts. 8º e 15
+fontes: LC 123/2006, art. 17 (incisos II e XV com redação da LC 214/2025, art. 516); Res. CGSN 140/2018, arts. 8º e 15 e Anexo VI
 vigencia: atual
 texto-base: 2026-10-07
 ---
@@ -93,11 +93,16 @@ excluído; ver [[sn-exclusao]].
   (§4º, I); atividade que passa a ser impeditiva → comunicação à RFB e exclusão
   (§4º, II).
 
-> **Lacuna:** o conteúdo dos **Anexos VI e VII** (os códigos CNAE) não está nas
-> fontes deste second brain: são PDFs separados no portal da Receita.
+> Os **101 códigos do Anexo VI** estão em [[sn-cnae-impeditivos]]. O **Anexo VII**
+> (códigos ambíguos) **não está nas fontes** (lacuna). Na leitura da Receita, o
+> CNAE é o filtro do sistema, mas decide a atividade efetivamente exercida (SC
+> Cosit 66/2013, citada na SC 71/2026; ver [[sn-solucoes-consulta]]).
 
 ## Ligações
 
 - [[sn-conceitos-definicao-me-epp]]: vedações do art. 3º, §4º.
 - [[sn-exclusao]]: efeitos de incorrer em vedação já sendo optante.
 - [[sn-segregacao-receitas]]: em que Anexo cada atividade permitida é tributada.
+- [[sn-cnae-impeditivos]]: a lista de CNAEs impeditivos (Anexo VI).
+- [[sn-solucoes-consulta]]: exemplo de atividade admitida pelo §2º do art. 17
+  (administração de garantias de locação, SC Cosit 71/2026).

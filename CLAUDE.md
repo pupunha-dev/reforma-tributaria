@@ -10,8 +10,8 @@ oficiais de `fontes/<dominio>/`.
 | Domínio | Atos normativos | Notas | Fontes | Prefixo | Status |
 |---|---|---|---|---|---|
 | reforma | LC 214/2025 + LC 227/2026 | `notas/reforma/` | `fontes/reforma/` | — | ativo (88 notas) |
-| simples-nacional | LC 123/2006 (fase A) + Res. CGSN 140/2018 e alteradoras, como as Res. CGSN 190 e 191/2026 (fase B) | `notas/simples-nacional/` | `fontes/simples-nacional/` | `sn-` | ativo (32 notas) — fase A (LC 123) e fase B (Res. CGSN 140) concluídas |
-| documentos-fiscais | Notas Técnicas do Projeto NF-e: NT 2025.002-RTC, 2026.002, 2026.007, 2026.008 e 2026.010 (versão de cada uma em `fontes/documentos-fiscais/FONTE.md`) | `notas/documentos-fiscais/` | `fontes/documentos-fiscais/` | `df-` | ativo (10 notas) |
+| simples-nacional | LC 123/2006 (fase A) + Res. CGSN 140/2018 e alteradoras, como as Res. CGSN 190 e 191/2026 (fase B) + Anexos VI e XI da Res. 140 e Solução de Consulta Cosit 71/2026 (fase C) | `notas/simples-nacional/` | `fontes/simples-nacional/` | `sn-` | ativo (35 notas) — fases A, B e C concluídas |
+| documentos-fiscais | Notas Técnicas do Projeto NF-e: NT 2025.002-RTC, 2026.002, 2026.007, 2026.008 e 2026.010; Informe Técnico 2025.002 (tabelas do IBS/CBS); tabelas CST/cClassTrib e cCredPres do Portal dos DF-e (SVRS). Versões e datas de captura em `fontes/documentos-fiscais/FONTE.md` | `notas/documentos-fiscais/` | `fontes/documentos-fiscais/` | `df-` | ativo (12 notas) |
 
 - Índice mestre: **[notas/INDEX.md](notas/INDEX.md)**. Cada domínio tem
   `INDEX.md` (notas por tema) e `_plano-notas.md` (mapa artigo → nota).
@@ -22,8 +22,10 @@ oficiais de `fontes/<dominio>/`.
 
 **Só atos normativos federais listados na tabela de domínios**: leis
 complementares, leis e atos infralegais federais, como resoluções do
-CGSN, e a **documentação técnica nacional dos documentos fiscais
-eletrônicos** (Notas Técnicas do Projeto NF-e/NFC-e) listada na tabela.
+CGSN, as **Soluções de Consulta da Receita** listadas na tabela, e a
+**documentação técnica nacional dos documentos fiscais eletrônicos** (Notas
+Técnicas e Informes Técnicos do Projeto NF-e/NFC-e e as tabelas oficiais que
+eles publicam) listada na tabela.
 Ficam fora: legislação estadual e municipal (convênios, protocolos,
 ITBI/IPTU municipal etc.) e tributos ou regimes que esses atos não tratam
 (ex.: IRPF e IRPJ pelo lucro real/presumido; o IRPJ **dentro** do Simples
@@ -90,7 +92,12 @@ faltar é lacuna (regra 3): ofereça consultar o texto extraído em
    técnica. Quando dois níveis tratarem do mesmo ponto, cite os dois. Se
    houver conflito, prevalece o nível mais alto e o conflito é sinalizado.
    A nota técnica diz **como preencher e validar** o documento fiscal; ela
-   não cria nem altera tributo.
+   não cria nem altera tributo. O **Informe Técnico** e as tabelas oficiais
+   que ele publica (cClassTrib, cCredPres) têm o nível da NT; quando o
+   exemplo de uma NT diverge da tabela que ela manda usar, vale a tabela.
+   A **Solução de Consulta** da Receita interpreta a lei e a resolução para
+   os fatos descritos pelo consulente: cite-a como "interpretação da Receita",
+   nunca como regra nova, e sinalize se ela divergir da lei ou da resolução.
 9. **Cruzamento (R-cruzamento).** Pergunta que envolve dois domínios (ex.:
    Simples Nacional × IBS/CBS) usa as notas dos dois e cita ambas.
 
@@ -117,6 +124,8 @@ faltar é lacuna (regra 3): ofereça consultar o texto extraído em
 - **[LEARNINGS.md](LEARNINGS.md)**: aprendizados (armadilhas de
   interpretação, erros já corrigidos).
 - **[decisions.md](decisions.md)**: decisões adotadas pela equipe.
+- **[pendencias.md](pendencias.md)**: o que está em aberto (decisões da
+  equipe a tomar, fontes que faltam, itens adiados).
 - **[docs/perguntas-teste/](docs/perguntas-teste/)**: bateria de regressão
   por domínio.
 - **`scripts/verificar.py`**: rode `python scripts/verificar.py` depois de

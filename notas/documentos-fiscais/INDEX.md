@@ -5,7 +5,7 @@ título: Índice — Documentos fiscais eletrônicos (Notas Técnicas NF-e)
 # Índice de notas — documentos-fiscais
 
 Domínio `documentos-fiscais`. Prefixo `df-`. Fontes: Notas Técnicas do Projeto
-NF-e (ver [FONTE.md](../../fontes/documentos-fiscais/FONTE.md)), com a versão de
+NF-e, o Informe Técnico 2025.002 e as tabelas do Portal dos DF-e (ver [FONTE.md](../../fontes/documentos-fiscais/FONTE.md)), com a versão de
 cada uma no frontmatter das notas. Data-base: 07/10/2026.
 
 **Hierarquia:** lei (LC 214/2025, LC 123/2006) > resolução/ato infralegal > nota
@@ -25,6 +25,8 @@ Mapa seção da NT → nota: [_plano-notas.md](_plano-notas.md).
 ## 2. Como preencher o XML
 
 - [[df-cst-cclasstrib]] — CST e código de classificação tributária (cClassTrib); tabelas no Portal NF-e
+- [[df-tabela-cclasstrib]] — os 18 CST e os 173 cClassTrib (IT 2025.002 + Portal dos DF-e): reduções, vigência, documentos em que valem, tipo de receita do Simples (tpRBSN) e histórico das versões
+- [[df-credito-presumido-ccredpres]] — os 13 códigos de crédito presumido (cCredPres): apropriação no documento ou por evento e vigência por tributo (nenhum antes de 01/01/2027)
 - [[df-grupo-ibs-cbs-is]] — grupos e campos de IBS, CBS e IS no leiaute
 - [[df-finalidade-debito-credito]] — notas de débito e de crédito
 - [[df-valor-liquido-produto]] — valor líquido do produto e ICMS previsto no pagamento antecipado (NT 2026.008)

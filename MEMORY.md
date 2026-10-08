@@ -9,13 +9,22 @@
     88 notas, origem marcada 🔵 LC 214 · 🟢 LC 227 · 🟡 ambas.
   - `simples-nacional`: LC 123/2006 (fase A, 2026-10-06) + Resolução CGSN
     140/2018 na visão multivigente da Receita, com as Res. CGSN 190 e
-    191/2026 (fase B, 2026-10-07): 32 notas `sn-*`. Anexos VI, VII, X, XI e
-    XII da Res. 140 ainda não estão nas fontes.
+    191/2026 (fase B, 2026-10-07) + Anexos VI (CNAEs impeditivos) e XI
+    (ocupações do MEI) da Res. 140 e a SC Cosit 71/2026 (fase C,
+    2026-10-08): 35 notas `sn-*`. Anexos VII, X e XII ainda não estão nas
+    fontes.
   - `documentos-fiscais` (desde 2026-10-07): 5 Notas Técnicas do Projeto
     NF-e (NT 2025.002-RTC v1.52, 2026.002 v1.11, 2026.007 v1.10, 2026.008
-    v1.00 e 2026.010 v1.00), 10 notas `df-*`. Hierarquia: lei > resolução >
-    NT. As NTs têm texto riscado; as notas usam o `*-vigente.txt`
-    (`scripts/extrair_nt.py`, requer pymupdf). Orientações de NF-e para
-    Simples/MEI (CRT 1, 2 e 4) ainda dependem de "NT futura".
-- Próximos candidatos a domínio: LC 87/1996 (Kandir), LC 116/2003 (ISS),
-  Leis 10.637/2002 e 10.833/2003 (PIS/Cofins), ainda sem decisão.
+    v1.00 e 2026.010 v1.00), o Informe Técnico 2025.002 v1.60 e as tabelas
+    CST/cClassTrib (173 códigos) e cCredPres (13 códigos) capturadas em
+    2026-10-08 do Portal dos DF-e (SVRS) via `scripts/tabelas_svrs.py`: 12
+    notas `df-*`. Hierarquia: lei > resolução > NT/IT. As NTs e ITs têm
+    texto riscado; as notas usam o `*-vigente.txt` (`scripts/extrair_nt.py`,
+    requer pymupdf). Orientações de NF-e para Simples/MEI (CRT 1, 2 e 4)
+    ainda dependem de "NT futura".
+- Soluções de Consulta da Receita entram como **interpretação** dos atos do
+  domínio (não criam regra), a partir da SC Cosit 71/2026.
+- Próximos candidatos: regulamentos da reforma (Decreto 12.955/2026 da CBS e
+  Res. CGIBS 6/2026 do IBS, citados no IT 2025.002); LC 87/1996 (Kandir), LC
+  116/2003 (ISS), Leis 10.637/2002 e 10.833/2003 (PIS/Cofins), ainda sem
+  decisão. Pendências em `pendencias.md`.

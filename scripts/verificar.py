@@ -21,7 +21,7 @@ ARQUIVOS_RAIZ = ("CLAUDE.md", "MEMORY.md", "LEARNINGS.md", "decisions.md")
 CAMPOS_OBRIGATORIOS = ("título", "dominio", "fontes", "vigencia", "texto-base")
 VIGENCIAS_VALIDAS = ("atual", "com-mudanca-programada")
 DOMINIOS_LEGADOS = ("reforma",)
-VERSAO_NT = re.compile(r"NT \d{4}\.\d{3}(?:-RTC)? v\d+\.\d{2}")
+VERSAO_NT = re.compile(r"NT \d{4}\.\d{3}(?:-RTC)? v\d+\.\d{1,2}\b")
 
 
 def rel(p: Path, raiz: Path) -> str:
