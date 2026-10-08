@@ -53,5 +53,38 @@ class TestExtrairNT(unittest.TestCase):
         self.assertIn("Coluna A", vigente)
 
 
+@unittest.skipIf(pymupdf is None, "pymupdf não instalado")
+class TestRiscadoParcialEAnotacao(unittest.TestCase):
+    def setUp(self):
+        self._tmp = tempfile.TemporaryDirectory()
+        doc = pymupdf.open()
+        pg = doc.new_page()
+        pg.insert_text((72, 100), "Data 03/08/2026 03/11/2026", fontsize=11)
+        larg = pymupdf.get_text_length("Data ", fontsize=11)
+        larg_data = pymupdf.get_text_length("03/08/2026", fontsize=11)
+        pg.draw_line((72 + larg, 96), (72 + larg + larg_data, 96), color=(1, 0, 0), width=0.8)
+        pg.insert_text((72, 160), "Regra antiga anotada", fontsize=11)
+        quad = pg.search_for("Regra antiga anotada")[0]
+        pg.add_strikeout_annot(quad)
+        pg.insert_text((72, 200), "Regra nova", fontsize=11)
+        self.pdf = Path(self._tmp.name) / "nt2.pdf"
+        doc.save(self.pdf)
+
+    def tearDown(self):
+        self._tmp.cleanup()
+
+    def test_riscado_parcial_dentro_do_mesmo_trecho(self):
+        vigente, riscados = en.extrair(self.pdf)
+        self.assertIn("Data 03/11/2026", vigente)
+        self.assertNotIn("03/08/2026", vigente)
+        self.assertIn((1, "03/08/2026"), riscados)
+
+    def test_anotacao_strikeout_conta_como_riscado(self):
+        vigente, riscados = en.extrair(self.pdf)
+        self.assertNotIn("Regra antiga", vigente)
+        self.assertIn("Regra nova", vigente)
+        self.assertIn((1, "Regra antiga anotada"), riscados)
+
+
 if __name__ == "__main__":
     unittest.main()

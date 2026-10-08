@@ -7,30 +7,44 @@ NF-e (www.nfe.fazenda.gov.br), aba "Documentos".
 
 | Arquivo | NT | Assunto | Versão | Publicação | Capturado em | Observação |
 |---|---|---|---|---|---|---|
-| nt-2025-002-rtc-v1.52.pdf | NT 2025.002-RTC | Reforma Tributária do Consumo — adequações da NF-e/NFC-e (grupos IBS/CBS/IS, regras de validação, eventos) | 1.52 | setembro/2026 | 2026-10-07 | 94 páginas. Anexos I (NCM do IS) e II (cClassTribIS): "tabela a ser publicada". Anexos III (**cClassTrib**) e IV (**cCredPres**): tabelas publicadas **só no Portal NF-e**, fora do PDF → **lacuna**. A seção 9 (DANFE) diz "em estudo", superada pela NT 2026.010. |
+| nt-2025-002-rtc-v1.52.pdf | NT 2025.002-RTC | Reforma Tributária do Consumo — adequações da NF-e/NFC-e (grupos IBS/CBS/IS, regras de validação, eventos) | 1.52 | setembro/2026 | 2026-10-07 | 94 páginas. Anexos I (NCM do IS) e II (cClassTribIS): "tabela a ser publicada". Anexos III (**cClassTrib**) e IV (**cCredPres**): fora do PDF; publicadas pelo IT 2025.002 e capturadas do Portal dos DF-e (seções abaixo). A seção 9 (DANFE) diz "em estudo", superada pela NT 2026.010. |
 | nt-2026-002-v1.11.pdf | NT 2026.002 | Vendas presenciais e não presenciais, autorização com alerta, DANFE Simplificado Tipo 2 | 1.11 | setembro/2026 | 2026-10-07 | Cronograma por versão (1.00 a 1.11). |
 | nt-2026-007-v1.10.pdf | NT 2026.007 | Emissão por contribuinte exclusivo do IBS/CBS | 1.10 | setembro/2026 | 2026-10-07 | Produção em 03/11/2026. |
 | nt-2026-008-v1.00.pdf | NT 2026.008 | Valor líquido do produto; ICMS previsto no pagamento antecipado | 1.00 | setembro/2026 | 2026-10-07 | Campos: produção em 03/11/2026; parte das regras de validação: produção em 01/03/2027. |
 | nt-2026-010-v1.00.pdf | NT 2026.010 | DANFE da reforma tributária (leiaute de impressão) | 1.00 | outubro/2026 | 2026-10-07 | Produção em 01/12/2026. |
 
-## Tabela CST e cClassTrib (Portal da Conformidade Fácil)
+## Informe Técnico 2025.002 (tabelas de classificação do IBS e da CBS)
 
-Os Anexos III (cClassTrib) e IV (cCredPres) da NT 2025.002-RTC ficam fora do PDF.
-A tabela de CST e cClassTrib foi capturada em **2026-10-08** de
-https://dfe-portal.svrs.rs.gov.br/Cff/ClassificacaoTributaria (Portal da
-Conformidade Fácil, SVRS; fonte indicada pelo usuário como recomendada pelo site
-da Receita). Acesso público, sem login. Os dados vêm como JSON embutido na página.
+Fornecidos pelo usuário em 2026-10-08 (pasta `fontes/novos-analise/`). O IT
+divulga e mantém as tabelas cClassTrib, CST e cCredPres e as alíquotas padrão, e
+dá os endereços oficiais das tabelas online (seção 06).
 
-| Arquivo (em `texto/`) | Conteúdo |
-|---|---|
-| cclasstrib-svrs.json | 18 CST e 173 cClassTrib, completos (texto legal de CBS e IBS, listas NCM/NBS de 35 códigos, indicadores) |
-| cclasstrib-svrs.md | as mesmas tabelas em Markdown, geradas por `scripts/cclasstrib_svrs.py baixar` |
+| Arquivo | Documento | Versão | Publicação | Capturado em | Observação |
+|---|---|---|---|---|---|
+| it-2025-002-v1.60.pdf | IT 2025.002 — Tabelas de Classificação do IBS e da CBS | 1.60 | 22/06/2026 | 2026-10-08 | **Versão usada nas notas.** 12 páginas. Seções: objetivo, cClassTrib, CST, cCredPres, alíquotas padrão 2026–2029, tabelas online, histórico de alterações (v1.10 a v1.60). Cita o Decreto 12.955/2026 (Regulamento da CBS) e a Res. CGIBS 6/2026 (Regulamento do IBS), que **não estão nas fontes**. 1 trecho riscado ("ind_gMonoDif", excluído). |
+| it-2025-002-v1.31.pdf | idem | 1.31 | 15/12/2025 | 2026-10-08 | **Superada** pela v1.60; guardada para histórico. 8 linhas riscadas. |
 
-Última publicação de um item na tabela: 01/10/2026. A tabela **muda**: repetir a
-captura quando a NT ou o regulamento mudar e comparar com o arquivo anterior. A
-tabela **cCredPres** (Anexo IV) **não está nessa página** e segue como lacuna.
-Códigos citados nas notas são conferidos com
-`python scripts/cclasstrib_svrs.py conferir <nota.md>`.
+Texto em `texto/`: `<it>-vigente.txt` e `<it>-riscado.md` (`scripts/extrair_nt.py`),
+mais `.txt` e `-layout.txt` (`pdftotext`). Use só o `-vigente.txt`.
+
+## Tabelas online do Portal dos DF-e (SVRS)
+
+Capturadas em **2026-10-08** pelos endereços do IT 2025.002 v1.60 (seção 06), com
+`scripts/tabelas_svrs.py`. Acesso público, sem login. A equipe confirmou em
+2026-10-08 que a fonte é a recomendada pelo site da Receita.
+
+| Arquivo (em `texto/`) | Origem | Conteúdo |
+|---|---|---|
+| cclasstrib-svrs.json | https://dfe-portal.svrs.rs.gov.br/DFE/TabelaClassificacaoTributaria (redireciona para `/DFE/ClassificacaoTributaria`; mesmo JSON de `/Cff/ClassificacaoTributaria`) | 18 CST e 173 cClassTrib, completos: indicadores, tpRBSN, texto dos regulamentos da CBS e do IBS (165 códigos), listas NCM/NBS de 35 códigos. Os dados vêm como JSON embutido na página |
+| cclasstrib-svrs.md | idem | as mesmas tabelas em Markdown (`tabelas_svrs.py cclasstrib`) |
+| ccredpres-svrs.json / .md | https://dfe-portal.svrs.rs.gov.br/DFE/TabelaCreditoPresumido | 13 códigos cCredPres: apropriação (DF-e ou evento), dedução, declaração de pagamento, documentos e vigência por tributo (`tabelas_svrs.py ccredpres`). A página é HTML; as colunas de alíquota e percentual do IT **não** aparecem nela |
+
+A tabela cClassTrib do portal tem itens publicados em 01/10/2026, **depois** do IT
+v1.60. A tabela **muda**: repetir a captura quando a NT, o IT ou o regulamento
+mudar, comparar com o arquivo anterior e regerar a nota com
+`python scripts/tabelas_svrs.py nota notas/documentos-fiscais/df-tabela-cclasstrib.md`.
+Códigos de 6 dígitos citados nas notas são conferidos com
+`python scripts/tabelas_svrs.py conferir <nota.md>`.
 
 ## Texto extraído
 

@@ -68,7 +68,10 @@ Outros grupos do item:
   1 aquisição de produtor rural não contribuinte; 2 transporte de TAC pessoa
   física não contribuinte; 3 aquisição de pessoa física para reciclagem;
   4 bens móveis de pessoa física não contribuinte para revenda (veículos,
-  brechó); 5 regime opcional para cooperativa.
+  brechó); 5 regime opcional para cooperativa. ⚠️ Na tabela cCredPres atual o
+  código 5 é o regime automotivo (art. 311) e vale a tabela: ver
+  [[df-credito-presumido-ccredpres]], com os 13 códigos e a vigência de cada um
+  (nenhum antes de 01/01/2027).
 - `gCredPresIBSZFM` (UB131): crédito presumido de IBS sobre o saldo devedor na
   **ZFM** (art. 450, §1º, da LC 214), com `tpCredPresIBSZFM`.
 

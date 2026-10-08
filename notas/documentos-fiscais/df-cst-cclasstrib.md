@@ -1,7 +1,7 @@
 ---
 título: CST e cClassTrib do IBS/CBS e do Imposto Seletivo na NF-e
 dominio: documentos-fiscais
-fontes: NT 2025.002-RTC v1.52, seções 2 e 3, Grupo UB (leiaute) e Anexos I a IV
+fontes: NT 2025.002-RTC v1.52, seções 2 e 3, Grupo UB (leiaute) e Anexos I a IV; IT 2025.002 v1.60, seções 01 e 06
 vigencia: atual
 texto-base: 2026-10-07
 ---
@@ -52,13 +52,14 @@ diferido...) e o **cClassTrib** (o dispositivo exato da LC 214 que se aplica).
 |---|---|
 | I — NCM do Imposto Seletivo | "Tabela a ser publicada" (⚠️ lacuna) |
 | II — cClassTribIS | "Tabela a ser publicada" (⚠️ lacuna) |
-| III — **cClassTrib** do IBS e da CBS, e a tabela de CST | fora do PDF; capturada em 2026-10-08 do Portal da Conformidade Fácil e organizada em [[df-tabela-cclasstrib]] |
-| IV — **cCredPres** | fora do PDF; **⚠️ lacuna**: a tabela não está na página capturada |
+| III — **cClassTrib** do IBS e da CBS, e a tabela de CST | fora do PDF; publicada pelo IT 2025.002 e capturada em 2026-10-08 do Portal dos DF-e; organizada em [[df-tabela-cclasstrib]] |
+| IV — **cCredPres** | fora do PDF; capturada em 2026-10-08 do Portal dos DF-e (endereço do IT 2025.002 v1.60) e organizada em [[df-credito-presumido-ccredpres]]; as colunas de alíquota da planilha do IT seguem como lacuna |
 
 Esta nota explica o mecanismo; os códigos estão em [[df-tabela-cclasstrib]]. Ela
 diz **que códigos existem**, não qual usar numa operação concreta (isso depende de
-enquadrar o produto ou serviço na LC 214). Para os exemplos de cCredPres que a
-própria NT lista, ver [[df-grupo-ibs-cbs-is]].
+enquadrar o produto ou serviço na LC 214). Os códigos de crédito presumido estão
+em [[df-credito-presumido-ccredpres]] (atenção: o exemplo "5 - Regime opcional
+para cooperativa" do leiaute da NT não confere com a tabela atual).
 
 ## Ligações
 

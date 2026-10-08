@@ -1,8 +1,8 @@
 ---
 título: Notas de débito e de crédito na NF-e (finalidades 5 e 6)
 dominio: documentos-fiscais
-fontes: NT 2025.002-RTC v1.52, seção 4, Grupo B (leiaute, campos B25 a B25.2) e regras de validação B25
-vigencia: atual
+fontes: NT 2025.002-RTC v1.52, seção 4, Grupo B (leiaute, campos B25 a B25.2) e regras de validação B25; NT 2026.008 v1.00 (Exceção 4 da B25-80)
+vigencia: com-mudanca-programada
 texto-base: 2026-10-07
 ---
 
@@ -61,6 +61,11 @@ enxergue o ajuste automaticamente.
 Exceções da B25-80: não se aplica aos créditos tipos 03, 04 e 06 nem ao débito
 tipo 07 (perda em estoque). O débito tipo 06 (pagamento antecipado) aceita PIS,
 PIS-ST, Cofins e Cofins-ST em NF-e emitida em 2026, e aceita IPI.
+
+> ⏳ **Em produção a partir de 03/11/2026 — NT 2026.008 v1.00 (cronograma):** a
+> NT 2026.008 acrescenta a **Exceção 4** da B25-80: o débito tipo 06 "permite a
+> informação do grupo ICMS/ICMSPrevistoPagtoAntecip (id: NB01)", isto é, o ICMS
+> previsto no pagamento antecipado (ver [[df-valor-liquido-produto]]).
 
 Em palavras simples: a nota de débito/crédito é, em regra, **só de IBS/CBS**.
 Ela não carrega ICMS nem os tributos antigos, salvo nas exceções acima.

@@ -98,7 +98,8 @@ intelectuais, técnicas, científicas, desportivas, artísticas ou culturais nã
 sujeitas aos Anexos III ou IV.
 
 **Regra residual:** serviço não vedado e sem previsão expressa → **Anexo III**,
-salvo previsão de IV ou V (§5º-F).
+salvo previsão de IV ou V (§5º-F). Exemplo da Receita: administração de
+garantias de locação, no Anexo III (SC Cosit 71/2026, ver [[sn-solucoes-consulta]]).
 
 **Comunicação e transporte** intermunicipal/interestadual de cargas (e os
 transportes de passageiros permitidos no art. 17, VI): **Anexo III**, deduzida a

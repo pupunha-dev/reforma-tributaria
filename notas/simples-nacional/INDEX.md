@@ -1,5 +1,5 @@
 ---
-título: Índice — Simples Nacional (LC 123/2006 + Res. CGSN 140/2018)
+título: Índice — Simples Nacional (LC 123/2006 + Res. CGSN 140/2018 e anexos + Soluções de Consulta)
 ---
 
 # Índice de notas — Simples Nacional
@@ -17,15 +17,16 @@ fundamento.
 - Mapa artigo → nota (lei e resolução): [_plano-notas.md](_plano-notas.md)
 - Ponte com a reforma: [[simples-nacional-e-mei]]
 
-**Lacunas conhecidas:** os Anexos VI, VII, X, XI e XII da Res. 140 (CNAEs
-impeditivos e ambíguos, relatório do MEI, ocupações do MEI etc.) e a Res. CGSN
-11/2007 (repasse) **não estão nas fontes**.
+**Lacunas conhecidas:** os Anexos VII, X e XII da Res. 140 (CNAEs ambíguos,
+relatório mensal do MEI e Anexo XII) e a Res. CGSN 11/2007 (repasse) **não estão
+nas fontes**. Os Anexos VI e XI entraram em 2026-10-08.
 
 ## 1. Quem é pequeno e como entra
 
 - [[sn-conceitos-definicao-me-epp]] — limites de ME (R$ 360 mil) e EPP (R$ 4,8 mi), receita bruta, vedações do art. 3º, excesso de 20%
 - [[sn-inscricao-baixa]] — registro e baixa simplificados, alvará provisório, MEI custo zero
 - [[sn-vedacoes-ingresso]] — atividades e situações que impedem o Simples (art. 17)
+- [[sn-cnae-impeditivos]] — os 101 CNAEs impeditivos do Anexo VI da Res. 140; o CNAE é o filtro, decide a atividade real
 - [[sn-abrangencia-tributos]] — tributos dentro e fora do DAS, opção, isenção de IR sobre lucros; IBS/CBS a partir de 2027
 
 ## 2. Cálculo do DAS
@@ -44,6 +45,7 @@ impeditivos e ambíguos, relatório do MEI, ocupações do MEI etc.) e a Res. CG
 
 - [[sn-mei]] — quem pode, valor fixo mensal, desenquadramento, Anexo VII (2027–2033)
 - [[sn-mei-regulamentacao]] — SIMEI no detalhe: limites proporcionais, empregado, notas e NFS-e, DASN-SIMEI, desenquadramento por excesso, Anexo XIII
+- [[sn-mei-ocupacoes]] — as 470 ocupações permitidas ao MEI (Anexo XI, Tabelas A e B), com CNAE e marcação de ISS/ICMS
 
 ## 4. Pagamento, créditos e obrigações
 
@@ -62,7 +64,11 @@ impeditivos e ambíguos, relatório do MEI, ocupações do MEI etc.) e a Res. CG
 - [[sn-processo-administrativo-judicial]] — contencioso por ente (IBS via CGIBS), DTE-SN (ciência em 45 dias), consulta, PGFN
 - [[sn-transacao]] — transação de créditos: descontos até 70%, prazo até 145 meses; pequeno valor até 60 salários mínimos
 
-## 6. Demais capítulos do Estatuto
+## 6. Interpretações da Receita (Soluções de Consulta)
+
+- [[sn-solucoes-consulta]] — o que é uma SC e o que ela não faz; SC Cosit 71/2026: administração de garantias de locação admitida no Simples (Anexo III), rendimento de aplicação fora do DAS
+
+## 7. Demais capítulos do Estatuto
 
 - [[sn-acesso-mercados]] — licitações: regularidade fiscal tardia, empate ficto, cotas
 - [[sn-simplificacao-trabalhista]] — dispensas e obrigações trabalhistas

@@ -46,7 +46,8 @@ Mesmo no Simples, a empresa paga pela legislação comum, como contribuinte ou
 responsável (§1º):
 
 - IOF (I), Imposto de Importação (II), Imposto de Exportação (III), ITR (IV);
-- **IR** sobre aplicações financeiras (V, retenção definitiva, §2º), sobre
+- **IR** sobre aplicações financeiras (V, retenção definitiva, §2º; aplicação
+  concreta na SC Cosit 71/2026, em [[sn-solucoes-consulta]]), sobre
   ganho de capital na venda de ativo permanente (VI) e sobre pagamentos a
   pessoas físicas (XI);
 - FGTS (VIII), contribuição previdenciária do trabalhador (IX) e do empresário

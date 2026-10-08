@@ -34,9 +34,15 @@ portal:
 - **inclusao-prevista**: "Vide dispositivo a ser incluído em DD/MM/AAAA": um
   dispositivo novo entra **depois** do dispositivo da linha, na data indicada.
 
-A tabela mostra as marcas desde 01/01/2025 e **todas** as futuras.
-Modificações previstas em **títulos de seção** (4 casos) não aparecem na
-tabela.
+A tabela mostra as marcas desde 01/01/2025, **todas** as futuras e **todas as
+revogações**, de qualquer data (um dispositivo revogado em 2023 continua
+revogado). Modificações previstas em **títulos de seção** (4 casos) não aparecem
+na tabela.
+
+Rótulos: o dispositivo leva o pai, como "§2º, I" (inciso I do §2º) e "§2º, I,
+a)"; inciso sem § é do caput. Nos anexos, a marca é do anexo da linha (desde
+2026-10-08 o script separa os títulos de anexo que a impressão junta numa linha
+só).
 
 ## Cláusulas de vigência dos atos alteradores (texto literal)
 
@@ -52,6 +58,8 @@ tabela.
 
 Os Anexos da Res. 140 são **arquivos separados** no portal e **não** vêm na
 impressão. Os Anexos I a V de 2027–2028 constam da Res. CGSN 190 (DOU). Os
-demais, entre eles **VI (CNAEs impeditivos ao Simples), VII (CNAEs que abrangem
-atividades permitidas e impeditivas) e XI (ocupações permitidas ao MEI)**,
-**não estão nas fontes** deste second brain.
+Anexos **VI** (CNAEs impeditivos; redação da Res. CGSN 143/2018, desde
+01/01/2019) e **XI** (ocupações do MEI; redação da Res. CGSN 182/2025, desde
+01/10/2025) entraram nas fontes em 2026-10-08 (ver `FONTE.md`). Os demais, entre
+eles o **VII** (CNAEs que abrangem atividades permitidas e impeditivas), o **X**
+(relatório mensal do MEI) e o **XII**, **não estão nas fontes**.

@@ -109,7 +109,18 @@ dispositivo a ser incluído em DD/MM/AAAA ...]`. Cuidados:
 - A redação antiga vem **sem marca**, antes da nova; a impressão às vezes **corta
   uma marca** (um `[` sem fechamento). O script trata os dois casos.
 - **Anexos** são PDFs separados no portal e não vêm na impressão: registre a
-  lacuna no `FONTE.md` e no cabeçalho do mapa.
+  lacuna no `FONTE.md` e no cabeçalho do mapa. Quando o PDF do anexo chegar:
+  - extraia a tabela com
+    `python scripts/tabela_pdf.py <anexo.pdf> --titulo "<título>" --saida fontes/<dominio>/texto/<ato>-anexo-<n>.md`
+    (requer pymupdf) e confira contra o `pdftotext` (mesma contagem de códigos);
+  - descubra a versão: a **última marca depois do link do anexo** na visão
+    multivigente (a marca vem depois do `file_present`, não antes do título) e a
+    **data de criação do PDF** (metadado) devem ser coerentes; registre as duas
+    no `FONTE.md`.
+- **Soluções de Consulta (Cosit):** entram no domínio do ato que interpretam,
+  numa nota de soluções de consulta, como "interpretação da Receita" para os
+  fatos do consulente (não como regra nova). Nome do arquivo:
+  `solucao-consulta-cosit-<n>-<ano>.pdf`.
 
 Gere o mapa com o script (cabeçalho manual com as cláusulas de vigência
 literais dos atos alteradores):
@@ -152,14 +163,25 @@ Para NTs do Projeto NF-e/NFC-e (domínio `documentos-fiscais`):
   O script confere que cada identificador **existe** na NT, não que a regra e a
   rejeição citadas juntas estejam **pareadas**: confira o pareamento na linha
   da regra no `-vigente.txt` (código, descrição e rejeição vêm na mesma linha).
-- **Tabelas publicadas em portal (CST/cClassTrib):** quando a NT remete a uma
-  tabela fora do PDF, procure a fonte oficial e prefira uma que entregue os
-  dados estruturados (JSON/CSV) a copiar da tela. Para o Portal da Conformidade
-  Fácil (SVRS), `python scripts/cclasstrib_svrs.py baixar --data AAAA-MM-DD`
-  grava o JSON completo e o Markdown em `fontes/documentos-fiscais/texto/`, e
-  `python scripts/cclasstrib_svrs.py conferir <nota>` confere que os códigos de
-  6 dígitos da nota (em crase ou na 1ª coluna de tabela) existem na captura.
-  Registre sempre a data da captura: a tabela muda.
+- **Informe Técnico (IT):** é documentação técnica do mesmo nível da NT (divulga
+  tabelas e orientações de preenchimento). Trate como NT: nome com versão
+  (`it-2025-002-v1.60.pdf`), extração com `extrair_nt.py` (também tem texto
+  riscado) e versões antigas guardadas só para histórico.
+- **Tabelas publicadas em portal (CST/cClassTrib, cCredPres):** quando a NT remete
+  a uma tabela fora do PDF, use o endereço dado pelo IT e prefira a fonte que
+  entregue dados estruturados (JSON/HTML) a copiar da tela:
+
+  ```bash
+  python scripts/tabelas_svrs.py cclasstrib --data AAAA-MM-DD
+  python scripts/tabelas_svrs.py ccredpres --data AAAA-MM-DD
+  python scripts/tabelas_svrs.py nota notas/documentos-fiscais/df-tabela-cclasstrib.md
+  python scripts/tabelas_svrs.py conferir <nota>
+  ```
+
+  Os dois primeiros gravam JSON e Markdown em `fontes/documentos-fiscais/texto/`;
+  `nota` regera só as tabelas marcadas com `<!-- gerado:... -->`; `conferir`
+  confere que os códigos de 6 dígitos da nota (em crase ou na 1ª coluna de
+  tabela) existem na captura. Registre sempre a data da captura: a tabela muda.
 - **Hierarquia:** lei > resolução > NT; o frontmatter `fontes` cita "NT N vX"
   (o `verificar.py` exige).
 - **Nova versão de uma NT:** baixe, refaça a extração, leia o histórico de

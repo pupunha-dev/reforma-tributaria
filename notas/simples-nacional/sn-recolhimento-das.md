@@ -147,10 +147,15 @@ Fundamento da data: Res. 190, art. 9º.
   essas parcelas saem do DAS (art. 40-C). A opção (ou a renúncia) é feita no
   **Portal do Simples**, é irretratável e vale por **semestre** (art. 40-D):
 
-| Semestre | Prazo para optar ou renunciar | Efeitos | Cancelamento até |
+Todas as datas abaixo contam a partir do **ano da solicitação**:
+
+| Semestre | Prazo para optar ou renunciar (no ano da solicitação) | Efeitos a partir de | Cancelamento até |
 |---|---|---|---|
-| iniciado em janeiro | 1º a 30 de setembro do ano anterior | 1º de janeiro do ano seguinte | 30 de novembro do ano da solicitação |
-| iniciado em julho | 1º a 31 de março | 1º de julho do mesmo ano | 31 de maio do ano da solicitação |
+| iniciado em janeiro | 1º a 30 de setembro | 1º de janeiro do ano seguinte ao da solicitação | 30 de novembro do ano da solicitação |
+| iniciado em julho | 1º a 31 de março | 1º de julho do mesmo ano da solicitação | 31 de maio do ano da solicitação |
+
+  <!-- exemplo -->Exemplo: opção feita em setembro de 2027 vale a partir de
+  01/01/2028 e pode ser cancelada até 30/11/2027.<!-- /exemplo -->
 
   Feita a opção, ela **se mantém** nos períodos seguintes enquanto não houver
   renúncia (§1º). Em **início de atividade**, a opção é feita junto com a opção

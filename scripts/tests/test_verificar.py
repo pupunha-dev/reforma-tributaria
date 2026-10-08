@@ -210,6 +210,10 @@ class TestVersaoNT(Base):
         self._nota("NT 2025.002-RTC v1.52, seção 6")
         self.assertEqual(v.checar_versao_nt(self.raiz), [])
 
+    def test_versao_com_uma_casa_decimal_passa(self):
+        self._nota("NT 2027.001 v2.1, seção 3")
+        self.assertEqual(v.checar_versao_nt(self.raiz), [])
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -48,7 +48,11 @@ def _riscado(caixa, tracos) -> bool:
 
 
 def _linhas(spans: list[tuple]) -> list[str]:
-    """spans: (x0, y0, x1, y1, texto). Agrupa por linha visual e ordena por x."""
+    """spans: (x0, y0, x1, y1, texto[, id do span]). Agrupa por linha visual e ordena por x.
+
+    Pedaços do mesmo span (separados por um riscado parcial) nunca viram
+    colunas diferentes: dentro de um span não há quebra de coluna.
+    """
     grupos: list[list[tuple]] = []
     for sp in sorted(spans, key=lambda s: ((s[1] + s[3]) / 2, s[0])):
         centro = (sp[1] + sp[3]) / 2
@@ -59,19 +63,44 @@ def _linhas(spans: list[tuple]) -> list[str]:
     saida = []
     for _, membros in grupos:
         membros.sort(key=lambda s: s[0])
-        texto, fim = "", None
-        for x0, _, x1, _, t in membros:
+        texto, fim, origem_ant = "", None, None
+        for x0, _, x1, _, t, *origem in membros:
+            mesmo_span = bool(origem) and origem == origem_ant
             if fim is None:
                 texto = t
-            elif x0 - fim > LACUNA_COLUNA:
+            elif x0 - fim > LACUNA_COLUNA and not mesmo_span:
                 texto = texto.rstrip() + " | " + t.lstrip()
             elif texto.endswith(" ") or t.startswith(" "):
                 texto += t
             else:
                 texto += " " + t
-            fim = x1
+            fim, origem_ant = x1, origem
         saida.append(" ".join(texto.split()))
     return saida
+
+
+def _pedacos(span: dict, tracos, origem: int) -> list[tuple[bool, tuple]]:
+    """Divide o span em trechos contínuos riscados ou não, letra por letra.
+
+    O risco pode cobrir só parte de um span (ex.: só a data antiga de uma
+    frase); classificar o span inteiro perderia o resto do texto.
+    """
+    import pymupdf
+    y0, y1 = span["bbox"][1], span["bbox"][3]
+    pedacos: list[list] = []  # [riscado, x0, x1, texto]
+    for ch in span["chars"]:
+        caixa = pymupdf.Rect(ch["bbox"])
+        caixa.y0, caixa.y1 = y0, y1
+        # espaço e pontuação herdam do vizinho: o traço às vezes não cobre a vírgula
+        risc = _riscado(caixa, tracos) if ch["c"].isalnum() else None
+        if pedacos and (risc is None or risc == pedacos[-1][0] or pedacos[-1][0] is None):
+            if pedacos[-1][0] is None:
+                pedacos[-1][0] = risc
+            pedacos[-1][2] = caixa.x1
+            pedacos[-1][3] += ch["c"]
+        else:
+            pedacos.append([risc, caixa.x0, caixa.x1, ch["c"]])
+    return [(bool(r), (x0, y0, x1, y1, t, origem)) for r, x0, x1, t in pedacos if t.strip()]
 
 
 def extrair(pdf: Path) -> tuple[str, list[tuple[int, str]]]:
@@ -81,14 +110,11 @@ def extrair(pdf: Path) -> tuple[str, list[tuple[int, str]]]:
     for n, pagina in enumerate(doc, 1):
         tracos = _tracos(pagina)
         vivos, mortos = [], []
-        for bloco in pagina.get_text("dict")["blocks"]:
-            for linha in bloco.get("lines", []):
-                for sp in linha["spans"]:
-                    if not sp["text"].strip():
-                        continue
-                    caixa = pymupdf.Rect(sp["bbox"])
-                    item = (caixa.x0, caixa.y0, caixa.x1, caixa.y1, sp["text"])
-                    (mortos if _riscado(caixa, tracos) else vivos).append(item)
+        spans = (sp for bloco in pagina.get_text("rawdict")["blocks"]
+                 for linha in bloco.get("lines", []) for sp in linha["spans"])
+        for origem, sp in enumerate(spans):
+            for risc, item in _pedacos(sp, tracos, origem):
+                (mortos if risc else vivos).append(item)
         paginas.append(f"=== página {n} ===\n" + "\n".join(_linhas(vivos)))
         riscados += [(n, t) for t in _linhas(mortos)]
     return "\n\n".join(paginas) + "\n", riscados

@@ -1,0 +1,278 @@
+[
+ {
+  "codigo": 1,
+  "descricao": "Crédito presumido da aquisição de bens e serviços de produtor rural e produtor rural integrado não contribuinte, observado o art. 168 da Lei Complementar nº 214, de 2025.",
+  "apropria_dfe": false,
+  "apropria_evento": true,
+  "deduz": false,
+  "declaracao_pagamento": true,
+  "documentos": [
+   "NFe",
+   "NFSe"
+  ],
+  "ibs": {
+   "aplicavel": true,
+   "inicio": "01/01/2027",
+   "fim": "Indeterminado"
+  },
+  "cbs": {
+   "aplicavel": true,
+   "inicio": "01/01/2027",
+   "fim": "Indeterminado"
+  }
+ },
+ {
+  "codigo": 2,
+  "descricao": "Crédito presumido da aquisição de serviço de transportador autônomo de carga pessoa física não contribuinte, observado o art. 169 da Lei Complementar nº 214, de 2025.",
+  "apropria_dfe": false,
+  "apropria_evento": true,
+  "deduz": false,
+  "declaracao_pagamento": true,
+  "documentos": [
+   "CTe",
+   "NFSe"
+  ],
+  "ibs": {
+   "aplicavel": true,
+   "inicio": "01/01/2027",
+   "fim": "Indeterminado"
+  },
+  "cbs": {
+   "aplicavel": true,
+   "inicio": "01/01/2027",
+   "fim": "Indeterminado"
+  }
+ },
+ {
+  "codigo": 3,
+  "descricao": "Crédito presumido da aquisição de resíduos e demais materiais destinados à reciclagem, reutilização ou logística reversa adquiridos de pessoa física, cooperativa ou outra forma de organização popular, observado o art. 170 da Lei Complementar nº 214, de 2025.",
+  "apropria_dfe": false,
+  "apropria_evento": true,
+  "deduz": false,
+  "declaracao_pagamento": true,
+  "documentos": [
+   "NFe"
+  ],
+  "ibs": {
+   "aplicavel": true,
+   "inicio": "01/01/2029",
+   "fim": "Indeterminado"
+  },
+  "cbs": {
+   "aplicavel": true,
+   "inicio": "01/01/2027",
+   "fim": "Indeterminado"
+  }
+ },
+ {
+  "codigo": 4,
+  "descricao": "Crédito presumido da aquisição de bens móveis usados de pessoa física não contribuinte para revenda, observado o art. 171 da Lei Complementar nº 214, de 2025.",
+  "apropria_dfe": true,
+  "apropria_evento": true,
+  "deduz": true,
+  "declaracao_pagamento": true,
+  "documentos": [
+   "NFe",
+   "NFCe"
+  ],
+  "ibs": {
+   "aplicavel": true,
+   "inicio": "01/01/2027",
+   "fim": "Indeterminado"
+  },
+  "cbs": {
+   "aplicavel": true,
+   "inicio": "01/01/2027",
+   "fim": "Indeterminado"
+  }
+ },
+ {
+  "codigo": 5,
+  "descricao": "Crédito presumido no regime automotivo, observado o art. 311 da Lei Complementar nº 214, de 2025.",
+  "apropria_dfe": true,
+  "apropria_evento": false,
+  "deduz": false,
+  "declaracao_pagamento": false,
+  "documentos": [
+   "NFe"
+  ],
+  "ibs": {
+   "aplicavel": false,
+   "inicio": null,
+   "fim": null
+  },
+  "cbs": {
+   "aplicavel": true,
+   "inicio": "01/01/2027",
+   "fim": "Indeterminado"
+  }
+ },
+ {
+  "codigo": 6,
+  "descricao": "Crédito presumido no regime automotivo, observado o art. 312 da Lei Complementar nº 214, de 2025.",
+  "apropria_dfe": true,
+  "apropria_evento": false,
+  "deduz": false,
+  "declaracao_pagamento": false,
+  "documentos": [
+   "NFe"
+  ],
+  "ibs": {
+   "aplicavel": false,
+   "inicio": null,
+   "fim": null
+  },
+  "cbs": {
+   "aplicavel": true,
+   "inicio": "01/01/2027",
+   "fim": "Indeterminado"
+  }
+ },
+ {
+  "codigo": 7,
+  "descricao": "Crédito presumido na aquisição por contribuinte na Zona Franca de Manaus, observado o art. 444 da Lei Complementar nº 214, de 2025.",
+  "apropria_dfe": true,
+  "apropria_evento": false,
+  "deduz": true,
+  "declaracao_pagamento": false,
+  "documentos": [
+   "NFe"
+  ],
+  "ibs": {
+   "aplicavel": true,
+   "inicio": "01/01/2027",
+   "fim": "Indeterminado"
+  },
+  "cbs": {
+   "aplicavel": false,
+   "inicio": null,
+   "fim": null
+  }
+ },
+ {
+  "codigo": 8,
+  "descricao": "Crédito presumido na aquisição por contribuinte na Zona Franca de Manaus, observado o art. 447 da Lei Complementar nº 214, de 2025.",
+  "apropria_dfe": false,
+  "apropria_evento": true,
+  "deduz": false,
+  "declaracao_pagamento": false,
+  "documentos": [
+   "NFe"
+  ],
+  "ibs": {
+   "aplicavel": true,
+   "inicio": "Não informado",
+   "fim": "Indeterminado"
+  },
+  "cbs": {
+   "aplicavel": false,
+   "inicio": null,
+   "fim": null
+  }
+ },
+ {
+  "codigo": 9,
+  "descricao": "Crédito presumido na aquisição por contribuinte na Zona Franca de Manaus, observado o art. 449 da Lei Complementar nº 214, de 2025.",
+  "apropria_dfe": false,
+  "apropria_evento": true,
+  "deduz": false,
+  "declaracao_pagamento": false,
+  "documentos": [
+   "NFe"
+  ],
+  "ibs": {
+   "aplicavel": true,
+   "inicio": "01/01/2029",
+   "fim": "Indeterminado"
+  },
+  "cbs": {
+   "aplicavel": false,
+   "inicio": null,
+   "fim": null
+  }
+ },
+ {
+  "codigo": 10,
+  "descricao": "Crédito presumido na aquisição por contribuinte na Zona Franca de Manaus, observado o art. 450 da Lei Complementar nº 214, de 2025.",
+  "apropria_dfe": true,
+  "apropria_evento": false,
+  "deduz": false,
+  "declaracao_pagamento": false,
+  "documentos": [
+   "NFe"
+  ],
+  "ibs": {
+   "aplicavel": false,
+   "inicio": null,
+   "fim": null
+  },
+  "cbs": {
+   "aplicavel": true,
+   "inicio": "01/01/2027",
+   "fim": "Indeterminado"
+  }
+ },
+ {
+  "codigo": 11,
+  "descricao": "Crédito presumido na aquisição por contribuinte na Área de Livre Comércio, observado o art. 462 da Lei Complementar nº 214, de 2025.",
+  "apropria_dfe": true,
+  "apropria_evento": false,
+  "deduz": true,
+  "declaracao_pagamento": false,
+  "documentos": [
+   "NFe"
+  ],
+  "ibs": {
+   "aplicavel": true,
+   "inicio": "01/01/2027",
+   "fim": "Indeterminado"
+  },
+  "cbs": {
+   "aplicavel": false,
+   "inicio": null,
+   "fim": null
+  }
+ },
+ {
+  "codigo": 12,
+  "descricao": "Crédito presumido na aquisição por contribuinte na Área de Livre Comércio, observado o art. 465 da Lei Complementar nº 214, de 2025.",
+  "apropria_dfe": false,
+  "apropria_evento": true,
+  "deduz": false,
+  "declaracao_pagamento": false,
+  "documentos": [
+   "NFe"
+  ],
+  "ibs": {
+   "aplicavel": true,
+   "inicio": "01/01/2029",
+   "fim": "Indeterminado"
+  },
+  "cbs": {
+   "aplicavel": false,
+   "inicio": null,
+   "fim": null
+  }
+ },
+ {
+  "codigo": 13,
+  "descricao": "Crédito presumido na aquisição pela indústria na Área de Livre Comércio, observado o art. 467 da Lei Complementar nº 214, de 2025.",
+  "apropria_dfe": true,
+  "apropria_evento": false,
+  "deduz": false,
+  "declaracao_pagamento": false,
+  "documentos": [
+   "NFe"
+  ],
+  "ibs": {
+   "aplicavel": false,
+   "inicio": null,
+   "fim": null
+  },
+  "cbs": {
+   "aplicavel": true,
+   "inicio": "01/01/2027",
+   "fim": "Indeterminado"
+  }
+ }
+]

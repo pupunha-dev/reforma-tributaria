@@ -1,8 +1,8 @@
 # Tabela CST e cClassTrib — Portal da Conformidade Fácil (SVRS)
 
-Origem: https://dfe-portal.svrs.rs.gov.br/Cff/ClassificacaoTributaria
+Origem: https://dfe-portal.svrs.rs.gov.br/DFE/TabelaClassificacaoTributaria
 Capturado em: 2026-10-08
-Conteúdo: 18 CST e 173 cClassTrib. Gerado por `scripts/cclasstrib_svrs.py` a partir do JSON da página; o JSON completo (texto legal e listas NCM/NBS) está em `cclasstrib-svrs.json`.
+Conteúdo: 18 CST e 173 cClassTrib. Gerado por `scripts/tabelas_svrs.py` a partir do JSON da página; o JSON completo (texto legal e listas NCM/NBS) está em `cclasstrib-svrs.json`.
 
 ## CST (situação tributária)
 

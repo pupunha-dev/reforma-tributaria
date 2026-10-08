@@ -64,7 +64,8 @@ Em fórmula, o teto de desconto do §3º, II, é:
 
 ## Controvérsia relevante e disseminada (art. 141-F)
 
-O Ministro (hoje, da área econômica) ou os Secretários de Fazenda dos entes podem
+O "Ministro de Estado da Economia ou os Secretários competentes para a
+administração tributária dos Estados, Distrito Federal e Municípios" podem
 propor transação sobre **controvérsia jurídica relevante e disseminada** do
 Simples, ou seja, questão que ultrapassa o interesse da causa (caput e §2º). A
 proposta especifica as hipóteses de fato e de direito (§1º), o **CGSN** delibera

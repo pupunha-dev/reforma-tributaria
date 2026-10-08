@@ -160,5 +160,53 @@ NF-e. A fonte privada serve só para achar o dado, nunca como base da nota.
 
 Ação: antes de garimpar à mão, procurar a fonte oficial e olhar se a página
 entrega JSON/CSV; capturar com script, registrar a data e conferir os códigos
-das notas contra a captura (`scripts/cclasstrib_svrs.py`).
+das notas contra a captura (`scripts/tabelas_svrs.py`).
+
+## [2026-10-08] — Documento técnico fica defasado: vale a tabela mais nova
+
+O que aconteceu: o leiaute da NT 2025.002-RTC v1.52 dá como exemplo o cCredPres
+"5 - Regime opcional para cooperativa", mas a tabela oficial atual tem o 5 como
+regime automotivo (art. 311) e nenhum código para cooperativa. E a tabela
+cClassTrib do portal tem itens publicados em 01/10/2026, depois do IT 2025.002
+v1.60 (22/06/2026): o `410036` mudou de nome entre um e outro.
+
+Por que importa: NT e IT são PDFs versionados; as tabelas do Portal dos DF-e
+mudam com mais frequência. Copiar um exemplo da NT para uma nota pode registrar
+um código errado.
+
+Ação: para códigos (cClassTrib, cCredPres), a fonte é a tabela capturada, com
+data (`scripts/tabelas_svrs.py`); o exemplo da NT só ilustra. Quando divergirem,
+a nota avisa (⚠️) e segue a tabela, que a própria NT manda usar.
+
+## [2026-10-08] — Mapa da visão multivigente: anexos na mesma linha e versão do anexo
+
+O que aconteceu: o mapa da Res. 140 dizia que as Res. CGSN 178/2024 e 182/2025
+alteraram o **Anexo VIII**; eram do **Anexo XI**. Na impressão do portal, os
+títulos "ANEXO IX", "ANEXO X" e "ANEXO XI" ficam na mesma linha do link
+`file_present ... .pdf`, e o filtro de ruído apagava a linha inteira. Também: a
+marca de redação de um anexo vem **depois** do link do arquivo (não antes do
+título), e os PDFs de anexo não dizem a versão.
+
+Por que importa: toda resolução da Receita com anexos em PDF separado repete o
+padrão (próximos: Anexos VII, X e XII). Um rótulo errado no mapa leva a
+atribuir uma alteração ao anexo errado.
+
+Ação: `vigencia_receita.py` agora tira só o trecho `file_present ... .pdf` e
+separa cada título de anexo. Para saber a versão de um PDF de anexo, cruzar a
+última marca do anexo no mapa com a data de criação do PDF (metadado) e
+registrar as duas no `FONTE.md`.
+
+## [2026-10-08] — Solução de Consulta: interpretação para os fatos do consulente
+
+O que aconteceu: entrou a primeira Solução de Consulta (SC Cosit 71/2026). Ela
+admite no Simples a administração de garantias de locação (Anexo III) e diz que
+rendimento de aplicação fica fora do DAS, mas só para os fatos descritos e sem
+convalidá-los (art. 45 da IN RFB 2.058/2021, citado na própria SC).
+
+Por que importa: SCs vão chegar com frequência e são úteis para casos concretos
+de clientes, mas não são regra geral nem estão acima da lei.
+
+Ação: SC entra no domínio do ato que interpreta, numa nota de soluções de
+consulta, como "interpretação da Receita", com os fatos resumidos e o limite
+("vale para os fatos descritos"). Regra 8 do CLAUDE.md atualizada.
 
