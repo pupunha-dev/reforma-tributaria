@@ -75,6 +75,12 @@ e chutou um nome de nota inexistente. Por isso, o CLAUDE.md ganhou a regra
 "Pergunta mista": sinalizar a parte fora de escopo e responder a parte coberta
 **abrindo as notas** pelo INDEX. Depois da regra, o R3 passou 2 vezes em 2.
 
+Atualização [2026-10-08]: na regressão dos regulamentos, o R3 respondeu a parte
+coberta pelas notas, mas, ao sinalizar o IR como fora de escopo, citou de memória
+"carnê-leão, tabela progressiva, 27,5%". A regra "Pergunta mista" do CLAUDE.md
+passou a proibir regras, alíquotas, valores e nomes de obrigações da parte fora
+de escopo.
+
 ## [2026-10-06] — Duas leituras erradas sobre o art. 169 da LC 227 nas notas da reforma
 
 O que aconteceu: ao montar o mapa de vigência da LC 123 com o texto

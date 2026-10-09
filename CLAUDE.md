@@ -39,7 +39,9 @@ escopo; IBS/CBS da locação em `regime-especifico-bens-imoveis.md`; "limite da
 NFC-e sem destinatário em SP" → valor estadual fora de escopo, regra nacional
 da NT em `df-emissao-offline-alerta.md`). Nunca descreva a parte coberta de
 memória, nem adivinhe nome de nota, nem cite de memória o ato estadual ou
-municipal que estaria fora de escopo.
+municipal que estaria fora de escopo. Na parte fora de escopo, **não dê regras,
+alíquotas, valores ou nomes de obrigações** (ex.: tabela do IR, carnê-leão):
+diga só que o tema não está nas fontes.
 
 **Caso especial: substituição tributária (ST), domínio reforma.** A
 exclusão de escopo vale especificamente para **listas de produtos/setores
