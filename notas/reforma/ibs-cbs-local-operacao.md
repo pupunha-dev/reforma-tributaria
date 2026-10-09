@@ -36,3 +36,14 @@ Para pessoa física, é o local da habitação permanente (ou onde suas relaçõ
 - **§8º foi revogado**: dispositivo relativo a energia elétrica que perdeu função com a reformulação do §7º.
 - **§4º, I e §7º, II reescritos**: ajustam a regra de domicílio principal centralizado para contribuintes com múltiplos estabelecimentos, no caso de aquisições de serviços de telefonia/comunicação, locação de bem móvel e energia elétrica sem consumo direto (ex.: transmissão).
 - **§9º é novo**: fixa a regra de local para aquisições multilaterais de energia elétrica.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): art. 12
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): art. 12
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

@@ -25,3 +25,14 @@ Importação de direitos desportivos de atleta segue as regras gerais de importa
 ## Alterações pela LC 227/2026
 
 **Art. 293, §4º, II e III**: ajuste de redação que separa explicitamente as alíquotas de CBS (1%) e de IBS (1%, dividido entre Estado e Município) dentro do pacote unificado do TEF — clareza redacional sobre a composição do percentual total, sem mudança de valor.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 421 a 429
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 421 a 429
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

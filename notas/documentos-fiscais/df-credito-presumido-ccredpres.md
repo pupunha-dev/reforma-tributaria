@@ -45,8 +45,10 @@ ind_gIBSCredPres (se o grupo de crédito presumido da CBS ou do IBS deve ser
 preenchido), "Alíquota CBS", "Alíquota IBS", pAliqCredPresCBS, pAliqCredPresIBS,
 pRedTransicaoIBS (criada na v1.60) e "cClass nota referenciada". Estão na
 planilha do Portal Nacional da NF-e ("Documentos" → "Diversos"), que **não está
-nas fontes**. Sem ela, esta nota **não informa percentuais** de crédito presumido
-(ver as notas da reforma ligadas a cada código).
+nas fontes**. Os **percentuais e as fórmulas** de mérito estão nos regulamentos
+da CBS e do IBS, para os códigos 1 a 4 (produtor rural, transportador autônomo,
+reciclagem e bens usados): ver [[ibs-cbs-credito-presumido-regulamentacao]].
+Para os demais códigos, ver as notas da reforma ligadas a cada um.
 
 ## Hoje (08/10/2026)
 

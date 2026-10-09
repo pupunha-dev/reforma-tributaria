@@ -44,6 +44,14 @@ O art. 517 da própria LC 214 já havia inserido o **art. 87-B** na LC 123 (meca
 
 Os Anexos I a V da LC 123 (tabelas de alíquotas e partilha do Simples por atividade) são **substituídos** pelos novos Anexos XVIII a XXII da LC 214, já recalculados para incorporar IBS/CBS no lugar de ICMS/ISS/PIS-Cofins. Um novo Anexo VII (valores fixos do MEI) é acrescentado via Anexo XXIII da LC 214.
 
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->
+
 ## Ligações com o domínio simples-nacional
 
 O regime em si (LC 123) está detalhado nas notas `sn-*`; esta nota cobre o

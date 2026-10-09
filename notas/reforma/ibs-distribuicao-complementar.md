@@ -25,3 +25,11 @@ Entre 2029-2033, a receita mensal usada no cálculo é multiplicada pela razão 
 ## Dados de população (§§7º-8º)
 
 Usa as estimativas mais recentes do IBGE; revisão posterior dessas estimativas **não** altera valores já distribuídos — princípio de segurança para não reabrir cálculos já fechados.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

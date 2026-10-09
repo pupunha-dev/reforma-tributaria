@@ -17,3 +17,14 @@ ZPEs são áreas voltadas exclusivamente à produção para exportação. A lóg
 - **Transporte** de/para a ZPE (art. 103): alíquota **zero** (não suspensão) para o transporte dos bens até a ZPE e dos bens exportados a partir dela.
 
 O regime segue subsidiariamente a legislação aduaneira geral de ZPE (art. 104).
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 179 a 184
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 179 a 184
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

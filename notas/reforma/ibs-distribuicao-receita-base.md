@@ -35,3 +35,11 @@ O que sobra depois das retenções, ajustado pelos itens de alíquota diferencia
 ## Regimes específicos na receita inicial (art. 113)
 
 Regra detalhada, regime por regime, de **para qual ente** vai a receita de cada tributação monofásica/específica: combustíveis vão ao destino da operação (baseado na quantidade e alíquota específica); serviços financeiros geralmente vão ao domicílio do tomador do serviço que não gerou crédito (com exceções: crédito, câmbio, TVM e FGTS são distribuídos proporcionalmente entre todos os entes pela participação geral no IBS, não por operação individual); planos de saúde vão ao domicílio do titular; concursos de prognósticos vão ao local da aposta (presencial) ou domicílio do apostador (online); SAF vai ao domicílio principal do clube.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

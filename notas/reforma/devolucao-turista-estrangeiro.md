@@ -19,3 +19,14 @@ Modelo de "tax free shopping" comum em outros países: ato conjunto do Ministér
 - O limite mínimo de devolução não pode ser inferior a **US$ 1.000,00**, com parâmetro por pessoa (não por nota fiscal individual).
 
 Os artigos 469-470 aplicam aqui as mesmas regras gerais de partes relacionadas (art. 12, §4º) e de consideração da renúncia de arrecadação no cálculo das alíquotas de referência — os mesmos mecanismos usados nos capítulos de ZFM/ALC.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 516, 541, 542 e 579 a 581
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 513, 531 e 593 a 595
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

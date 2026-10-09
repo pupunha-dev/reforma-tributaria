@@ -31,3 +31,14 @@ A apuração feita pelo próprio contribuinte **constitui confissão de dívida*
 ## Apuração assistida (art. 46)
 
 O Comitê Gestor/RFB podem oferecer uma apuração pré-calculada com base nos documentos fiscais eletrônicos e nas informações de extinção de débitos já disponíveis no sistema. Se o contribuinte não se manifestar no prazo, presume-se correta e já constitui o crédito tributário automaticamente — um mecanismo pensado para reduzir a necessidade de o contribuinte "calcular do zero" todo mês, já que o Fisco tem acesso à maior parte dos dados via nota fiscal eletrônica e split payment.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 41 a 44 e 46
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 41 a 44, 46 e 239
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

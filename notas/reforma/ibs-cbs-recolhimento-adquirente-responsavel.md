@@ -15,3 +15,14 @@ O valor recolhido é usado exclusivamente para quitar aquela operação específ
 ## Pagamento pelo responsável (art. 37)
 
 Regra de remissão simples: aplicam-se ao "responsável" (qualquer pessoa a quem a lei atribua essa condição — ver os casos de responsabilidade solidária do art. 24, em [[ibs-cbs-sujeicao-passiva]]) as mesmas regras de pagamento e multa de mora do art. 29 (ver [[ibs-cbs-extincao-debitos]]).
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 36 e 37
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 36 e 37
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

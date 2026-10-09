@@ -8,6 +8,12 @@ Legenda: 🔵 só LC 214/2025 · 🟡 ambas (227 alterou dispositivo da 214) · 
 
 Ver o mapeamento completo de artigos em [_plano-notas.md](_plano-notas.md).
 
+**Regulamentos (desde 2026-10-08):** o Regulamento da CBS (Decreto nº 12.955/2026) e o do IBS
+(Res. CGIBS nº 6/2026) detalham a lei. Cada nota abaixo termina com o bloco **"Regulamentação"**,
+que lista os artigos dos dois regulamentos ligados aos seus artigos da lei (⏳ marca os que só
+valem em 2027 ou 2029). Guia: [regulamentos-cbs-ibs.md](regulamentos-cbs-ibs.md); mapa completo:
+[_mapa-regulamentos.md](_mapa-regulamentos.md).
+
 ## 1. Núcleo IBS/CBS
 
 - [ibs-cbs-conceitos-principios.md](ibs-cbs-conceitos-principios.md) 🔵 — instituição, neutralidade, definições estruturais
@@ -128,3 +134,10 @@ Ver o mapeamento completo de artigos em [_plano-notas.md](_plano-notas.md).
 ## 11. Legislação correlata (LC 227)
 
 - [lc227-alteracoes-legislacao-correlata.md](lc227-alteracoes-legislacao-correlata.md) 🟢 — ITBI, COSIP, cota-parte ICMS, Fundeb, crimes de responsabilidade, PAF federal, AFRMM etc.
+
+## 12. Regulamentos da CBS e do IBS (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+- [regulamentos-cbs-ibs.md](regulamentos-cbs-ibs.md) — guia: o que são, estrutura (Livros I a III), hierarquia, vigência (2026, 2027 e 2029), divergência CBS × IBS
+- [ibs-cbs-cadastro-regulamentacao.md](ibs-cbs-cadastro-regulamentacao.md) — cadastro único (CNPJ por estabelecimento), quem se inscreve, escritório virtual, prazos de atualização; PF e produtor rural PF só em 2027 (CBS)
+- [ibs-cbs-documento-fiscal-regulamentacao.md](ibs-cbs-documento-fiscal-regulamentacao.md) — documento fiscal eletrônico: quem emite, quais documentos (NF-e, NFS-e, NFAg, NF-e ABI, DeRE...), validade, documento inidôneo, contingência, eventos, base legal das NTs até 2032
+- [ibs-cbs-credito-presumido-regulamentacao.md](ibs-cbs-credito-presumido-regulamentacao.md) — crédito presumido de produtor rural, TAC, reciclagem e bens usados: fórmula CP = (VO × C) ÷ (1 + C), documento do adquirente, percentuais e vigência (2027/2029)

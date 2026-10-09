@@ -47,3 +47,14 @@ O regime de crédito aqui é mais limitado que o padrão: em regra, só se credi
 - **Art. 212 inteiro reescrito**: transforma a alíquota do FGTS de um valor simples em uma tabela de transição progressiva (1% em 2027-2028 subindo a 3% em 2033), com regras específicas de proporção entre CBS e IBS e de exclusão de tributos da própria base de cálculo (§7º).
 - **Art. 218-A (novo)**: cria toda a operacionalização de prazos, retenção e extinção antecipada de tributo para o fluxo financeiro entre instituidor e participantes de arranjo de pagamento — resolve uma lacuna prática sobre como e quando cada elo da cadeia de pagamento recolhe sua parte do tributo.
 - **Art. 217 revogado**: dispositivo cuja função foi absorvida pela reformulação dos arts. 214-218.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 269 a 273, 276, 277, 283 a 290, 292 a 329 e 480 a 484
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 269 a 273, 276, 277, 283 a 290, 292 a 329, 479, 480 e 482
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

@@ -22,3 +22,15 @@ Herda os benefícios das Leis 9.440/1997 e 9.826/1999 (incentivos regionais à i
 - Crédito só compensa débitos **do próprio estabelecimento** habilitado (não transferível, não ressarcível);
 - Descumprimento das condições (investimento mínimo, produção mínima, permanência) pode gerar **cancelamento retroativo** da habilitação e devolução proporcional do crédito já usado, com juros;
 - Como ponte, os benefícios de IPI das leis originais ficam **prorrogados até 31/12/2026** (art. 316), garantindo que não haja hiato entre o fim do IPI automotivo e o início do crédito presumido de CBS.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 517 a 527
+  - ⏳ produzem efeitos a partir de 01/01/2027: arts. 518 a 527
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): nenhum artigo cita os artigos desta nota.
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

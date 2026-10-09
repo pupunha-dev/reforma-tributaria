@@ -35,3 +35,14 @@ O direito ao crédito **prescreve em 5 anos**, contados do primeiro dia do perí
 
 - **Art. 47, §8º** (redação nova): na devolução/cancelamento de operação em que o adquirente **não é** contribuinte do regime regular, o fornecedor pode apropriar crédito ou estornar débito com base nos valores da operação devolvida — resolve uma lacuna sobre como o vendedor recupera o tributo já recolhido quando quem devolveu a mercadoria é consumidor final.
 - **Art. 47, §§12 e 13** (novos): tratam da devolução/cancelamento quando o adquirente **é** contribuinte do regime regular (o regulamento definirá se cabe estorno de crédito ou constituição de débito) e da devolução de valores retidos por split payment ao fornecedor nesses casos (prazo de 3 dias úteis, sem gerar novo crédito ao fornecedor pelo valor devolvido).
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 47 a 56, 58, 60, 420 e 426
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 47 a 56, 58 e 60
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

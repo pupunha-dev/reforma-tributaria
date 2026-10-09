@@ -43,3 +43,14 @@ Zera o IBS/CBS sobre pesquisa e desenvolvimento prestados por Instituição Cien
 - **Art. 149, §3º revogado**: dispositivo sobre adaptação do veículo, substituído pela nova regra de teto de preço.
 - **Art. 152, II reescrito**: reduziu de 4 para **3 anos** o intervalo mínimo entre compras de automóvel por PCD/TEA.
 - **Art. 156, caput reescrito**: estendeu o benefício também às **fundações de apoio credenciadas**, além da própria ICT sem fins lucrativos.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 219 a 232
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 219 a 232
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

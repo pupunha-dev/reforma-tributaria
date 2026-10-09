@@ -17,3 +17,11 @@ Baseada na arrecadação **histórica** de ICMS (Estados) e ISS (Municípios), c
 ## Divulgação e contestação (art. 116)
 
 O CGIBS divulga o coeficiente de participação de cada ente até **31 de agosto de 2027**, com todo o detalhamento de cálculo publicado no Diário Oficial. Usa dados do Siconfi e balanços oficiais, podendo estimar a arrecadação de ente que não prestou contas na forma da LRF. Entes podem **contestar** o coeficiente em 30 dias; o CGIBS responde em até 90 dias após a última contestação, publicando novos coeficientes se necessário — sem novo recurso possível depois dessa resposta.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

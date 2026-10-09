@@ -24,3 +24,11 @@ Quem tiver mercadoria em estoque no dia **31/12/2032** sob regime de substituiç
 ## Exceção para o Simples Nacional (art. 145)
 
 Quem está no Simples **não** usa esse mecanismo de compensação com o IBS (já que não apura IBS pelo regime regular) — em vez disso, inventaria o estoque e pede **restituição** diretamente ao Estado/DF, conforme a legislação de cada ente.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

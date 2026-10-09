@@ -31,3 +31,14 @@ Regra de prioridade: seguem os prazos de 30/60 dias (mais curtos) automaticament
 - pedidos cujo valor seja **≤ 150% da média mensal** da diferença entre créditos e débitos do contribuinte nos últimos 24 meses.
 
 Ou seja, quem pede ressarcimento dentro do "padrão histórico" da própria operação tem análise mais rápida — é um filtro de risco automático que privilegia quem não está pedindo um valor atipicamente alto.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 38 a 40
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 38 a 40
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

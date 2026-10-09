@@ -25,3 +25,11 @@ O ITCMD historicamente sofre de baixa arrecadação por falta de rastreamento de
 ## Padronização (art. 164)
 
 Estados/DF podem, por convênio, padronizar obrigações acessórias e metodologias de cálculo da base de cálculo do ITCMD — passo em direção a uma administração mais uniforme de um imposto que hoje varia muito de Estado para Estado.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

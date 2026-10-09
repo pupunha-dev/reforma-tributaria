@@ -25,3 +25,14 @@ Cobre o fornecimento ao setor público de bens/serviços de soberania/segurança
 ## Alterações pela LC 227/2026
 
 **Art. 142, II**: redação ajustada para precisar que o requisito de 20% de capital social brasileiro se aplica à sociedade prestadora de serviços de segurança da informação/cibersegurança listada no Anexo XI — reforço do critério de soberania nesse segmento específico.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 215 a 218
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 215 a 218
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

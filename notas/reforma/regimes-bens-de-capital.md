@@ -25,3 +25,14 @@ O art. 110 zera a alíquota na venda/importação de **tratores e implementos ag
 ## Alterações pela LC 227/2026
 
 **Art. 106, §7º (novo)**: estende os benefícios do Reidi também aos beneficiários do **Rehidro** (Regime Especial de Incentivos para Produção de Hidrogênio de Baixa Emissão de Carbono, Lei 14.948/2024) — reconhece o hidrogênio de baixo carbono como projeto de infraestrutura elegível ao mesmo tratamento.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 186, 187, 189, 190, 193 e 195 a 198
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 186, 187, 189, 190, 193 e 195 a 198
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

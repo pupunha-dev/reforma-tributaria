@@ -27,3 +27,11 @@ Sucessor (na causa mortis) ou donatário (na doação) — sempre quem **recebe*
 ## Competência para instituir — bens imóveis (art. 158)
 
 Sempre o Estado/DF onde o imóvel está **situado**, mesmo que o falecido/doador more no exterior. Imóvel no exterior segue o domicílio do de cujus/doador (se no Brasil) ou do sucessor/donatário (se o de cujus/doador for do exterior). Imóvel situado em mais de um Estado: ITCMD devido a cada um proporcionalmente à área/valor de mercado ali situada.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

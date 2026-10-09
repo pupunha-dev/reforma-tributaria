@@ -95,6 +95,30 @@ publicação** ou ainda não alcançada:
   literal, o texto literal prevalece, e a divergência é registrada em
   LEARNINGS.md.
 
+### Regulamentos que citam a lei em cada artigo (Decreto 12.955/2026, Res. CGIBS 6/2026)
+
+Os regulamentos da reforma trazem, em cada artigo, a citação do dispositivo da
+LC 214 entre parênteses. Não escreva o mapa à mão: guarde o texto (HTML do
+Planalto para decreto federal; `pdftotext` para PDF do CGIBS), ajuste o
+cabeçalho com as cláusulas de vigência literais e rode:
+
+```bash
+python scripts/mapa_regulamento.py \
+  --cbs fontes/reforma/texto/decreto-12955-2026-planalto.htm \
+  --ibs fontes/reforma/texto/res-cgibs-6-2026.txt \
+  --plano notas/reforma/_plano-notas.md \
+  --cabecalho fontes/reforma/texto/regulamentos-mapa-cabecalho.md \
+  --mapa notas/reforma/_mapa-regulamentos.md \
+  --textos fontes/reforma/texto --notas notas/reforma
+```
+
+O script imprime quantos artigos achou e quantos têm citação. Confira que a
+contagem bate com o último artigo do ato e que não há citação de LC perdida.
+As datas de vigência por artigo (⏳) ficam em `EFEITOS`, no próprio script: ao
+mudar a cláusula de vigência do regulamento, atualize ali e o teste. Uma nova
+versão de regulamento: troque a fonte, rode de novo (os blocos das notas são
+substituídos, não duplicados) e revise as notas próprias dos regulamentos.
+
 ### Fontes da Receita na visão multivigente (portal Normas)
 
 Para atos infralegais da Receita/CGSN, baixe a impressão da **visão

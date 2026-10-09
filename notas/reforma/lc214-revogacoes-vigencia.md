@@ -31,3 +31,11 @@ Ou seja: a lei tem vigência **fatiada por assunto**, não uma data única — c
 ## Alterações pela LC 227/2026
 
 **Art. 544, III**: ajusta a lista de artigos com vigência a partir de 01/01/2027, incluindo o novo bloco de alterações a outras leis federais (499-500, 502, 504-507, 509-515, 517, 519-534) e o próprio art. 542 (revogações do PIS/Cofins) — sincronização necessária porque a 227 alterou/inseriu vários desses dispositivos depois da redação original da LC 214.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

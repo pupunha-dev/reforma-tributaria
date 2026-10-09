@@ -26,3 +26,14 @@ Quando o contribuinte não exibe documentação (alegando perda, extravio etc.) 
 ## Alterações pela LC 227/2026
 
 **§9º é novo**: fixa a base de cálculo para aquisições multilaterais de energia elétrica (mercado de curto prazo da CCEE) como o valor da liquidação financeira apurada pela Câmara de Comercialização, observada a participação proporcional dos estabelecimentos envolvidos — complementa a regra de local do art. 11, §9º (ver [[ibs-cbs-local-operacao]]).
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 13, 14 e 16
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 13, 14 e 16
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

@@ -29,3 +29,11 @@ Julga recurso de uniformização, incidentes de uniformização, pedido de retif
 ## Representação da Fazenda e disposições finais (arts. 97-102)
 
 A Fazenda Pública é representada por procuradores dos Estados/DF/Municípios ou autoridade fiscal, com direito a sustentação oral e a apresentar sugestões de melhoria ao contencioso. Decisões devem indicar claramente os pressupostos de fato e direito (art. 98). Julgadores não podem ser punidos pelas opiniões/decisões que proferirem, salvo dolo ou excesso de linguagem (art. 99). Configuram **renúncia tácita** ao mandato: retardar processos além do prazo, não redigir acórdão no prazo, ou faltar a 3 sessões consecutivas/5 alternadas no quadrimestre (art. 100). **Perde o mandato** quem usa meios ilícitos para procrastinar julgamento ou pratica favorecimento, ou incorre em falta grave (art. 101) — decisão cabe ao Presidente da Câmara Superior/CGIBS, sem recurso. Casos omissos são resolvidos pelo próprio CGIBS (art. 102).
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

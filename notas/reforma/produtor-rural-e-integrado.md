@@ -27,3 +27,16 @@ Como o produtor rural não contribuinte não gera crédito ao comprador (por est
 ## Alterações pela LC 227/2026
 
 **Art. 168, §6º reescrito**: permite que os percentuais de crédito presumido sejam **diferenciados** não só por bem/serviço, mas também pelo **nível de receita anual** e pela **tipologia do produtor rural** — dá mais granularidade ao cálculo, reconhecendo que produtores de portes/perfis diferentes têm estruturas de custo distintas.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 238 a 243 e 245 a 249
+  - ⏳ produzem efeitos a partir de 01/01/2027: arts. 245 a 249
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 238 a 243 e 245 a 249
+  - ⏳ produzem efeitos a partir de 01/01/2027: arts. 245 a 249
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

@@ -43,3 +43,17 @@ Espelha quase integralmente o regime da ZFM para Tabatinga, Guajará-Mirim, Boa 
 - **Art. 440, II reescrito**: precisa a definição de "indústria incentivada" para excluir explicitamente os casos já tratados pelo art. 441 (produtos vedados).
 - **Art. 442, I e II reescritos**: reorganiza os requisitos de habilitação (cadastro simples na Suframa para atividade comercial/serviços × aprovação de projeto técnico-econômico para atividade industrial), mesma lógica replicada no art. 460 para as ALCs.
 - **Art. 450, caput reescrito, §6º (novo)**: exclui do crédito presumido geral (art. 450) as operações já cobertas pelo regime específico do art. 448 (venda entre indústrias incentivadas), e detalha com precisão a ordem de dedução do crédito presumido no cálculo do saldo devedor de IBS, incluindo a transferência do saldo a recuperar à indústria incentivada em até 3 dias úteis — mecanismo de liquidez que não existia antes com esse detalhamento.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 432 a 438 e 528 a 540
+  - ⏳ produzem efeitos a partir de 01/01/2027: arts. 528, 531 e 539
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 432 a 438 e 514 a 530
+  - ⏳ produzem efeitos a partir de 01/01/2027: arts. 515, 525 e 526
+  - ⏳ produzem efeitos a partir de 01/01/2029: arts. 517, 518, 520 a 522, 528 e 529
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

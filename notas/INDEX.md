@@ -9,12 +9,13 @@ própria pasta de notas, o próprio índice e o próprio plano de notas (mapa
 artigo → nota). Comece pelo domínio da pergunta; se ela cruzar domínios,
 use os dois.
 
-## Reforma Tributária — LC 214/2025 + LC 227/2026
+## Reforma Tributária — LC 214/2025 + LC 227/2026 + regulamentos da CBS e do IBS
 
-- Índice: [reforma/INDEX.md](reforma/INDEX.md) — 88 notas, 11 áreas
+- Índice: [reforma/INDEX.md](reforma/INDEX.md) — 92 notas, 12 áreas
+- Regulamentos: [reforma/_mapa-regulamentos.md](reforma/_mapa-regulamentos.md) — artigo da LC 214 → artigos do Decreto 12.955/2026 (CBS) e da Res. CGIBS 6/2026 (IBS); guia em [[regulamentos-cbs-ibs]]
 - Mapa de artigos: [reforma/_plano-notas.md](reforma/_plano-notas.md)
 - Legenda: 🔵 só LC 214/2025 · 🟡 ambas (227 alterou dispositivo da 214) · 🟢 só LC 227/2026
-- Fontes: `fontes/reforma/`
+- Fontes: `fontes/reforma/` (LC 214, LC 227, Decreto 12.955/2026 e Res. CGIBS 6/2026)
 
 ## Simples Nacional — LC 123/2006 + Resolução CGSN 140/2018 (com anexos) + Soluções de Consulta
 

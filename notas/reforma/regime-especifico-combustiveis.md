@@ -44,3 +44,14 @@ Como o tributo já foi cobrado uma única vez lá na origem, é **vedado** ao di
 - **Art. 172, §2º (novo)**: autoriza suspensão do IBS/CBS em operações com hidrocarbonetos líquidos **não combustíveis** (inclusive nafta) quando destinados a centrais petroquímicas autorizadas pela ANP, como insumo da indústria petroquímica — reconhece que nem todo hidrocarboneto do regime é necessariamente "combustível" no sentido de uso final.
 - **Art. 172, §3º (novo)**: permite postergar a implementação do regime específico para gás natural processado, biometano e GNV (incisos IX-XI) — dá flexibilidade de cronograma para produtos cuja tributação monofásica ainda não está operacionalmente madura.
 - **Art. 179 da própria LC 227** (não é alteração do art. 172, é norma de acompanhamento orçamentário): determina que o aumento de receita gerado pela mudança acima (suspensão para insumo petroquímico) seja incorporado à lei orçamentária anual, e que essa incorporação já supre a exigência legal de compensação para renúncia de receita voltada à indústria química.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 259, 260, 263 a 267, 471 a 476 e 478
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 259, 260, 263 a 267, 473 a 475 e 478
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

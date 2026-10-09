@@ -28,3 +28,14 @@ Base de cálculo é a **margem de agenciamento**: valor total cobrado do turista
 ## Alterações pela LC 227/2026
 
 **Art. 280, parágrafo único (novo)**: esclarece que quando um hotel/parque também fornece alimentação/bebida, essa parte da receita segue as regras do regime de **bares e restaurantes** (não as de hotelaria) — evita dúvida sobre qual regime se aplica ao restaurante dentro do hotel.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 396, 397, 399 a 403, 405 a 408, 411, 414 e 416 a 420
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 396, 397, 399 a 403, 405 a 408, 411, 414 e 416 a 420
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

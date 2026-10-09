@@ -32,3 +32,14 @@ Quem executa essa segregação são os **prestadores de serviço de pagamento** 
 - **Art. 32, §2º-A** (novo): se o recebedor optar por não informar os dados de vinculação da operação (art. 32, §1º, I), cabe ao fornecedor ou à plataforma digital incluir essa informação no próprio documento fiscal eletrônico — como salvaguarda para o sistema não perder rastreabilidade.
 - **Art. 33 inteiro reescrito**: o procedimento simplificado deixou de ser regra excepcional/transitória para virar uma opção estrutural, com regras próprias de uso dos valores retidos (§3º, incisos I e II, novos) e devolução de sobras em até 3 dias úteis (§4º). O §2º-A (novo) esclarece que, se a transação não identificar os valores de IBS/CBS conforme o art. 32, isso **já implica automaticamente** a opção pelo procedimento simplificado.
 - **Art. 34, V, "a"**: ajuste de redação sem mudança de fundo.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 28 a 31 e 33
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 28 a 31 e 33
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

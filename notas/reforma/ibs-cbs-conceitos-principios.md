@@ -35,3 +35,14 @@ Essa distinção adquirente × destinatário importa bastante nas regras de loca
 ## Alterações pela LC 227/2026
 
 O §3º do art. 3º é **novo** (incluído pela 227): esclarece que locação, arrendamento e cessão temporária de bem **também são consideradas "operações com bens"** para todos os efeitos da lei — encerrando dúvida sobre se essas operações seriam tratadas como "serviço" ou "bem" para fins de regime aplicável.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): art. 2
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): art. 2
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

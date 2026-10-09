@@ -25,3 +25,11 @@ Dois tipos:
 2. **Inobservância de provimento vinculante** (art. 323-H, II): quando uma decisão de 2ª instância deixa de aplicar um provimento vinculante já existente (súmula do CGIBS, decisão do STF/STJ etc. — ver [[pat-ibs-contencioso]]). Suscitado pela Fazenda Pública ou pelo sujeito passivo. **Suspende** a exigibilidade do crédito — tratamento mais protetivo, já que aqui há um precedente vinculante potencialmente descumprido.
 
 A tese firmada pode ser revista de ofício ou por pedido dos legitimados; ato conjunto CGIBS + Ministro da Fazenda regulamenta o processamento de ambos os incidentes.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

@@ -28,3 +28,11 @@ Renúncia pura e simples à herança/legado (sem ressalva, sem ato de aceitaçã
 ## Momento do fato gerador (art. 151)
 
 Na sucessão: data do óbito (ou da morte presumida). Na doação: varia por tipo de bem — celebração do contrato, registro em cartório de imóveis, instituição de usufruto, renúncia em favor de pessoa determinada, homologação de partilha (para o excesso de meação), registro na junta comercial (quotas empresariais) etc. Para trust estrangeiro, o fato gerador ocorre na mudança de titularidade **ou** no falecimento do instituidor, o que vier primeiro (podendo ser antecipado se o instituidor renunciar irrevogavelmente a direitos sobre parte do patrimônio do trust).
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

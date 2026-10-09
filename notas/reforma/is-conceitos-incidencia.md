@@ -21,3 +21,11 @@ Diferente do IBS/CBS (administração compartilhada), o Imposto Seletivo é **in
 ## O que fica fora (art. 413)
 
 Energia elétrica e telecomunicações são explicitamente excluídas da incidência — apesar de tecnicamente poderem se enquadrar em alguma hipótese de "bem", o legislador optou por não tributá-las como seletivo.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

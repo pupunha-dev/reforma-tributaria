@@ -42,3 +42,14 @@ Cada bem imóvel precisa estar inscrito no **Cadastro Imobiliário Brasileiro (C
 - **Art. 253, §§1º e 2º (novos)**: locação residencial de curto prazo (até 90 dias, tipo Airbnb) por contribuinte do regime regular segue as regras de **hotelaria** — os novos parágrafos esclarecem que essas operações contam para os limites do art. 251 que definem quando a pessoa física vira contribuinte.
 - **Art. 258, I e III reescritos, §10 (novo)**: ajustes na apuração do valor inicial do redutor de ajuste para imóveis em construção e para imóveis adquiridos de não contribuinte a partir de 2027; o §10 garante que, na compra de imóvel de contribuinte do regime regular a partir de 2027, o redutor de ajuste é mantido **sem prejudicar** o direito ao crédito da operação (esclarecimento de que os dois benefícios não são mutuamente excludentes).
 - **Art. 260, caput**: ajuste de redação sobre o redutor social de locação residencial (R$ 600/mês), sem mudança de valor.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 359 a 361, 363 a 377, 379 a 382, 384 a 390 e 410
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 359 a 361, 363 a 377, 379 a 382, 384 a 390 e 410
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

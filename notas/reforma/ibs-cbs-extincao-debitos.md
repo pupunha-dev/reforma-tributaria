@@ -28,3 +28,14 @@ Também há uma exclusão de base de cálculo para energia solar/microgeração 
 - **Art. 28, §1º e §2º**: reforçam que o recolhimento só ocorre no fornecimento para consumo (ou para não contribuinte do regime regular), e fixam o momento do fato gerador do serviço de transmissão nos termos do art. 10, §3º.
 - **Art. 29, §1º**: passou a prever devolução do pagamento excedente em até **3 dias úteis** (antes não havia prazo definido de forma tão objetiva).
 - **Art. 29, §5º** (novo): juros de mora passam a incidir também sobre **multas punitivas** inadimplidas, não só sobre o tributo em atraso.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 15, 22, 26, 27 e 157
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 15, 22, 26, 27 e 157
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

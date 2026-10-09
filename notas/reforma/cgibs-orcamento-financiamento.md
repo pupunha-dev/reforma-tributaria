@@ -25,3 +25,11 @@ O CGIBS segue as normas gerais de licitação/contratação pública (Lei 14.133
 ## Regras de transição do próprio financiamento (arts. 51-53)
 
 Entre 2026-2032, o percentual de financiamento é **mais generoso no início e decrescente depois**: até 100% do orçamento aprovado em 2026 (fase de implantação), até 50% em 2027-2028, depois um teto decrescente de 2% (2029) a 0,5% (2032) — reflete que o CGIBS precisa de mais recursos relativos no começo (montar toda a infraestrutura do zero) e menos depois, proporcionalmente, quando a arrecadação total do IBS já estiver em patamar maduro. O orçamento de 2025-2028 é formado pelos aportes da União (art. 484 da LC 214). O primeiro Presidente do Conselho Superior é necessariamente um representante dos Estados/DF (art. 53) — critério de desempate na fase inicial, antes de haver alternância regular entre blocos estadual e municipal.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

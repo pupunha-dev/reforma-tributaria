@@ -32,3 +32,14 @@ Contratos da administração pública direta, autarquias e fundações públicas
 - **Art. 348, §§3º-4º (novos)**: durante 2026, se for lavrado auto de infração por descumprimento de obrigação acessória (art. 341-G), o contribuinte é intimado para sanar a omissão em 60 dias; cumprindo, a penalidade é **extinta** — reconhece que 2026 é ano de aprendizado do novo sistema e trata falhas formais com tolerância, mantendo a fiscalização, mas sem punição definitiva para quem corrige.
 - **Art. 361 (alíquotas de referência do IBS para 2029)**: ajuste de redação na metodologia de cálculo.
 - **Art. 363, 365**: pequenos ajustes de redação nas fórmulas de 2031 e 2033.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 464, 582, 583 e 585 a 601
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 465 e 596 a 610
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

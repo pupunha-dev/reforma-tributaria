@@ -35,3 +35,14 @@ Fato gerador: **entrada** do bem estrangeiro no território nacional (art. 65). 
 - **Art. 71, caput**: passa a ressalvar expressamente o §6º do art. 126 (regra de remessas internacionais de baixo valor).
 - **Art. 73, parágrafo único (novo)**: exclui a responsabilidade do transportador/depositário em casos de caso fortuito ou força maior — correção de uma lacuna que responsabilizava objetivamente mesmo em situações fora do controle desses agentes.
 - **Art. 76, §3º reescrito**: amplia a possibilidade de diferimento do pagamento também para remessas internacionais no Regime de Tributação Simplificada, além do Programa OEA.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 65 a 73, 75, 76, 78 a 89, 469 e 470
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 65 a 73, 75, 76, 78 a 89, 471 e 472
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

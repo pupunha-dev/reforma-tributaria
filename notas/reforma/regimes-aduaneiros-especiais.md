@@ -24,3 +24,14 @@ Regimes aduaneiros especiais (trânsito, depósito, admissão temporária, aperf
 - **Seção VIII inteira é nova** (arts. 98-A e 98-B): 
   - **art. 98-A** autoriza o regulamento a estender os regimes de trânsito, depósito, permanência temporária e aperfeiçoamento também a bens **saindo** do país (não só entrando) — cobre situações de saída temporária;
   - **art. 98-B** fixa regra geral: a suspensão converte-se em alíquota zero se o bem for **destruído sob controle aduaneiro**, às custas do interessado, como forma de encerrar o regime — antes cada regime tratava esse cenário separadamente (ou nem tratava).
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 102, 103, 152, 154, 156, 158 a 164, 169, 171 a 173 e 178
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 102, 103, 152, 154, 156, 158 a 164, 169, 171 a 173 e 178
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

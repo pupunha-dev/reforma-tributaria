@@ -26,3 +26,11 @@ Varia pelo tipo de operação: valor de venda (comercialização), valor de arre
 - **Art. 414, III, "c" e VI (novo)**: precisa que fumígenos usam valor de referência baseado no preço de varejo, e cria uma hipótese residual de valor de mercado para os casos não cobertos pelos incisos anteriores.
 - **Art. 422, §2º reescrito**: fixa expressamente o teto de 0,25% para bens minerais extraídos (antes a redação era menos específica sobre esse limite).
 - **Art. 422, §5º reescrito**: detalha que o ajuste das alíquotas de fumígenos/bebidas alcoólicas/açucaradas entre 2029-2033 deve incorporar progressivamente o diferencial que já existia entre a alíquota do ICMS aplicada a esses produtos e a alíquota modal do ICMS — calibra a transição para não gerar salto abrupto de carga tributária nesses setores sensíveis.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

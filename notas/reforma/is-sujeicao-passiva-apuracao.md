@@ -25,3 +25,11 @@ Período mensal, apuração consolidada por todos os estabelecimentos do contrib
 ## Alterações pela LC 227/2026
 
 **Art. 424, I**: ajuste de redação que reorganiza as hipóteses em que o **fabricante** é contribuinte (primeiro fornecimento, incorporação ao ativo, transação não onerosa, consumo próprio) num único inciso mais claro — sem mudança de fundo na regra.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

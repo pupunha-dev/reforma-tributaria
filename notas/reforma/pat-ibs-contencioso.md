@@ -25,3 +25,11 @@ Desistência do litígio ocorre expressamente (pedido do sujeito passivo) ou **t
 ## Provimentos vinculantes (art. 74)
 
 Lista de fontes que **vinculam** o julgamento administrativo, dispensando fundamentos contrários: súmulas vinculantes do STF, decisões transitadas em julgado em controle concentrado de constitucionalidade, decisões do STF em controle difuso com execução suspensa por resolução do Senado, decisões do STF/STJ em repercussão geral/recursos repetitivos, súmulas do próprio CGIBS, e decisões da Câmara Nacional de Integração do Contencioso IBS/CBS (ver [[contencioso-integrado-ibs-cbs]]). É **vedado** à autoridade julgadora afastar a legislação tributária sob fundamento de inconstitucionalidade/ilegalidade — o contencioso administrativo não é foro para controle de constitucionalidade, só o Judiciário decide isso.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+Nos dois regulamentos, nenhum artigo cita os artigos da lei desta nota. Ver o [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

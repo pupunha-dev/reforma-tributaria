@@ -21,3 +21,14 @@ Regra espelhada para revendedores profissionais de bens usados: se o bem foi com
 ## Disposições finais da transição de IBS/CBS (art. 408)
 
 Regra de **transição de competência tributária no tempo**: se um mesmo fato, ocorrido até 31/12/2026, gerar PIS/Cofins, e o mesmo tipo de fato a partir de 2027 gerar CBS, aplica-se **só um dos dois** — nunca os dois tributos sobre o mesmo fato gerador, evitando sobreposição no momento exato da virada do sistema.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 614 a 616
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 612, 613 e 616
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

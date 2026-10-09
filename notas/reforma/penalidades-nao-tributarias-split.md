@@ -27,3 +27,14 @@ Se o descumprimento atingir 10% ou mais das transações (em valor ou quantidade
 ## Defesa (art. 471-F)
 
 A instituição penalizada pode impugnar em até 20 dias úteis (à RFB para CBS, ao CGIBS para IBS), com recurso hierárquico único de 10 dias úteis, e mais 20 dias úteis para pagar se o recurso for negado.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): arts. 579 a 581
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 593 e 594
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

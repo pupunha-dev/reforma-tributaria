@@ -9,8 +9,8 @@ oficiais de `fontes/<dominio>/`.
 
 | Domínio | Atos normativos | Notas | Fontes | Prefixo | Status |
 |---|---|---|---|---|---|
-| reforma | LC 214/2025 + LC 227/2026 | `notas/reforma/` | `fontes/reforma/` | — | ativo (88 notas) |
-| simples-nacional | LC 123/2006 (fase A) + Res. CGSN 140/2018 e alteradoras, como as Res. CGSN 190 e 191/2026 (fase B) + Anexos VI e XI da Res. 140 e Solução de Consulta Cosit 71/2026 (fase C) | `notas/simples-nacional/` | `fontes/simples-nacional/` | `sn-` | ativo (35 notas) — fases A, B e C concluídas |
+| reforma | LC 214/2025 + LC 227/2026 + regulamentos: Decreto 12.955/2026 (CBS) e Res. CGIBS 6/2026 (IBS) | `notas/reforma/` | `fontes/reforma/` | — | ativo (92 notas; bloco "Regulamentação" em cada nota da lei) |
+| simples-nacional | LC 123/2006 (fase A) + Res. CGSN 140/2018 e alteradoras, como as Res. CGSN 190 e 191/2026 (fase B) + Anexos VI e XI da Res. 140, Res. CGSN 11/2007 (arrecadação) e Solução de Consulta Cosit 71/2026 (fase C) | `notas/simples-nacional/` | `fontes/simples-nacional/` | `sn-` | ativo (35 notas) — fases A, B e C concluídas |
 | documentos-fiscais | Notas Técnicas do Projeto NF-e: NT 2025.002-RTC, 2026.002, 2026.007, 2026.008 e 2026.010; Informe Técnico 2025.002 (tabelas do IBS/CBS); tabelas CST/cClassTrib e cCredPres do Portal dos DF-e (SVRS). Versões e datas de captura em `fontes/documentos-fiscais/FONTE.md` | `notas/documentos-fiscais/` | `fontes/documentos-fiscais/` | `df-` | ativo (12 notas) |
 
 - Índice mestre: **[notas/INDEX.md](notas/INDEX.md)**. Cada domínio tem
@@ -39,7 +39,9 @@ escopo; IBS/CBS da locação em `regime-especifico-bens-imoveis.md`; "limite da
 NFC-e sem destinatário em SP" → valor estadual fora de escopo, regra nacional
 da NT em `df-emissao-offline-alerta.md`). Nunca descreva a parte coberta de
 memória, nem adivinhe nome de nota, nem cite de memória o ato estadual ou
-municipal que estaria fora de escopo.
+municipal que estaria fora de escopo. Na parte fora de escopo, **não dê regras,
+alíquotas, valores ou nomes de obrigações** (ex.: tabela do IR, carnê-leão):
+diga só que o tema não está nas fontes.
 
 **Caso especial: substituição tributária (ST), domínio reforma.** A
 exclusão de escopo vale especificamente para **listas de produtos/setores
@@ -95,6 +97,10 @@ faltar é lacuna (regra 3): ofereça consultar o texto extraído em
    não cria nem altera tributo. O **Informe Técnico** e as tabelas oficiais
    que ele publica (cClassTrib, cCredPres) têm o nível da NT; quando o
    exemplo de uma NT diverge da tabela que ela manda usar, vale a tabela.
+   Os **regulamentos da reforma** (Decreto 12.955/2026 para a CBS; Res. CGIBS
+   6/2026 para o IBS) são atos infralegais: detalham a LC 214 e citam, em cada
+   artigo, o dispositivo da lei; ao usar uma nota da reforma, consulte o bloco
+   "Regulamentação" dela e diga se a regra é da CBS, do IBS ou dos dois.
    A **Solução de Consulta** da Receita interpreta a lei e a resolução para
    os fatos descritos pelo consulente: cite-a como "interpretação da Receita",
    nunca como regra nova, e sinalize se ela divergir da lei ou da resolução.

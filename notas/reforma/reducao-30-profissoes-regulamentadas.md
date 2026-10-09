@@ -20,3 +20,14 @@ Sociedades multidisciplinares são permitidas — a natureza jurídica da socied
 ## Exceção
 
 Profissionais de educação física organizados em pessoa jurídica **não** seguem as regras de sociedade profissional dos §§1º e 2º (§3º) — provavelmente porque academias e clubes esportivos costumam ter estrutura empresarial distinta da de escritórios de profissão liberal clássica.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): art. 202
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): art. 202
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->

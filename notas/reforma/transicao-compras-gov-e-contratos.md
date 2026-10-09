@@ -19,3 +19,14 @@ O regime de destinar 100% do IBS/CBS de uma compra pública ao ente **contratant
 Peça importante para concessões e contratos públicos de longo prazo firmados **antes** da reforma: se a mudança de carga tributária (IBS/CBS substituindo ICMS/ISS/PIS/Cofins) desequilibrar o contrato, a contratada tem direito ao **reequilíbrio econômico-financeiro** — mesmo em contratos cuja matriz de risco já atribuía a ela os "impactos tributários supervenientes" (o legislador decidiu que a mudança de todo o sistema tributário não se enquadra nesse risco ordinário).
 
 A avaliação do desequilíbrio considera: efeito da não cumulatividade nas aquisições, possibilidade de repassar o tributo a terceiros, impacto do período de transição do ADCT, e benefícios fiscais que a empresa já tinha e que foram extintos. O pedido de reequilíbrio tem procedimento **prioritário**, prazo de decisão de 90 dias (prorrogável uma vez), e pode ser resolvido por vários mecanismos: revisão de valores, compensação financeira, ajuste tarifário, renegociação de prazos, elevação/redução de outorga, transferência de encargos. É possível reequilíbrio **provisório** enquanto a decisão definitiva não sai, com acerto de contas posterior.
+
+## Regulamentação (Decreto 12.955/2026 e Res. CGIBS 6/2026)
+
+Artigos dos regulamentos que citam os artigos da lei tratados nesta nota (lista gerada por `scripts/mapa_regulamento.py`; a regra da lei prevalece):
+
+<!-- gerado:regulamentos -->
+- **Regulamento da CBS** (Decreto nº 12.955/2026): art. 441
+- **Regulamento do IBS** (Res. CGIBS nº 6/2026): arts. 441 e 611
+
+Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fontes/reforma/texto/res-cgibs-6-2026-artigos.txt` (procure a linha que começa com "Art. N"). Como ler e vigência: [mapa dos regulamentos](_mapa-regulamentos.md).
+<!-- /gerado:regulamentos -->
