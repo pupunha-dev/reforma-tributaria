@@ -13,7 +13,7 @@ artigos: 47 a 56
 Regras operacionais chave:
 - créditos de IBS e de CBS são **segregados** — nunca se compensa crédito de um com débito do outro (§1º, I);
 - a apropriação exige **documento fiscal eletrônico idôneo** (§1º, II);
-- vale mesmo comprando de optante do Simples Nacional (§3º) — mecanismo importante para não quebrar a cadeia de créditos quando um elo é pequena empresa;
+- vale mesmo comprando de optante do Simples Nacional (§3º) — mecanismo importante para não quebrar a cadeia de créditos quando um elo é pequena empresa. **Atenção ao valor:** o crédito de quem compra de optante é "em montante equivalente ao cobrado no regime único", isto é, calculado pelos percentuais de IBS e CBS dos Anexos I a V da faixa do vendedor, e **não** o crédito pleno de quem compra de um fornecedor do regime regular (ver [[sn-creditos]]); o optante que apura IBS/CBS pelo regime regular dá crédito pleno ([[ibs-cbs-regime-regular-e-simples]]);
 - combustíveis do regime específico dispensam comprovação de extinção do débito para gerar crédito (§4º-§5º) — o crédito nasce do valor registrado no documento fiscal, não da confirmação de pagamento;
 - se o bem perecer, deteriorar ou for roubado/furtado, o crédito apropriado deve ser **estornado** (§6º-§7º).
 

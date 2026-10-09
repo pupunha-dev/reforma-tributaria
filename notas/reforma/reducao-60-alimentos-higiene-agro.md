@@ -20,7 +20,10 @@ Cobre produtos agropecuários, aquícolas, pesqueiros, florestais e extrativista
 
 ## Insumos agropecuários e aquícolas (art. 138, Anexo IX)
 
-Exige registro no órgão competente do Ministério da Agricultura quando aplicável (§1º). Tem uma peculiaridade técnica importante: em vez de redução direta na venda, o mecanismo usado é o **diferimento** do recolhimento (§2º) quando o comprador é outro contribuinte do regime regular, ou produtor rural não contribuinte que usa o insumo para produzir algo vendido a quem tem direito ao crédito presumido do art. 168 (ver [[produtor-rural-e-integrado]]). O diferimento se encerra (e o tributo é recolhido) quando a cadeia chega a uma operação tributada normalmente, isenta, ou sem documento fiscal.
+São **dois mecanismos somados**, não alternativos:
+
+1. **Redução de 60%** das alíquotas do IBS e da CBS sobre o fornecimento dos insumos agropecuários e aquícolas do Anexo IX (caput). O Anexo IX inclui, por exemplo, **fertilizantes (adubos)** e biofertilizantes, corretivos de solo e certas matérias-primas para fabricá-los, "em conformidade com as definições e demais requisitos da legislação específica". A redução só vale para o produto que, **quando exigido, esteja registrado** como insumo agropecuário ou aquícola no órgão competente do Ministério da Agricultura e Pecuária (§1º).
+2. **Diferimento** do recolhimento (§2º) quando o comprador é outro contribuinte do regime regular, ou produtor rural não contribuinte que usa o insumo para produzir algo vendido a quem tem direito ao crédito presumido do art. 168 (ver [[produtor-rural-e-integrado]]). A importação por contribuinte do regime regular também tem diferimento. O diferimento se encerra (e o tributo é recolhido) quando a cadeia chega a uma operação tributada normalmente, isenta, ou sem documento fiscal.
 
 Mesma sistemática de atualização trimestral do Anexo IX por ato conjunto (§10), incluindo insumos destinados exclusivamente à fabricação de defensivos agropecuários.
 

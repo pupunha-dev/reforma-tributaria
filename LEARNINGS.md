@@ -250,3 +250,25 @@ Ação: ao responder com regulamento, dizer se a regra é da CBS, do IBS ou dos
 dois; quando só um foi alterado, sinalizar (⚠️) e registrar a pendência de
 conferir o outro.
 
+## [2026-10-09] — Perguntas da diretoria revelaram um erro de nota e duas omissões
+
+O que aconteceu: ao rodar as 6 perguntas da diretoria em sessão limpa, a
+conferência do conteúdo (não só da citação) achou: (1) a nota
+`reducao-60-alimentos-higiene-agro` dizia que, nos insumos agropecuários (art.
+138), o mecanismo era o diferimento "em vez de redução"; a lei **reduz 60% e
+também difere**, e a resposta sobre fertilizantes omitiu os 60%; (2) a nota de
+créditos dizia que comprar de optante do Simples "vale", sem dizer que o crédito
+é só o valor do regime único (a resposta B6 afirmou crédito "normalmente"); (3) a
+rampa de queda do ICMS (2029 a 2032) estava em outra nota e a resposta sobre "o
+ICMS acaba?" misturou 2027-2032.
+
+Por que importa: passar na regressão (a nota esperada foi citada) não prova que
+o conteúdo está certo. O erro (1) estava há semanas numa nota revisada.
+
+Ação: conferir o conteúdo das respostas de teste contra o texto da lei, não só a
+citação; corrigidas as três notas e criada, em `transicao-fixacao-aliquotas`, a
+tabela "quando cada tributo atual acaba". Lacuna registrada: o regime atual de
+PIS/Cofins (cumulativo no Lucro Presumido) não está nas fontes; a resposta B3
+usou conhecimento geral. Fica para o domínio PIS/Cofins (Leis 9.718, 10.637 e
+10.833), candidato em `MEMORY.md`.
+

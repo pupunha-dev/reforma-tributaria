@@ -10,6 +10,21 @@ artigos: 342 a 370
 
 O sistema não nasce em alíquota cheia — sobe em **degraus anuais** até estabilizar, dando tempo para calibrar o valor exato necessário a preservar a arrecadação de cada esfera federativa sem "chute". É a parte mais técnica/matemática de toda a lei: cada ano tem um artigo com sua própria fórmula, usando dados históricos de arrecadação (ano-base) para calcular a alíquota do ano seguinte.
 
+## Quando cada tributo atual acaba (resumo)
+
+"O ICMS, o PIS e a Cofins vão acabar?" Sim, mas em datas diferentes:
+
+| Tributo | O que acontece | Quando | Fonte |
+|---|---|---|---|
+| **PIS e Cofins** | substituídos pela CBS; em 2026 a CBS de 0,9% é compensada com eles; a **base legal é revogada** | **01/01/2027** | art. 542; [[lc214-revogacoes-vigencia]] |
+| **ICMS** | as alíquotas são **reduzidas** em 10% (2029), 20% (2030), 30% (2031) e 40% (2032) das vigentes em 31/12/2028; a base legal (Lei Kandir) é revogada | reduções de **2029 a 2032**; extinção em **01/01/2033** | arts. 501 e 543; [[lc214-alteracoes-outras-leis]] |
+| **ISS** | redução simétrica à do ICMS; a LC 116/2003 é revogada | **2029 a 2032**; extinção em **01/01/2033** | arts. 508 e 543 |
+| **IBS** (substitui ICMS e ISS) | 0,1% em 2026 (teste), 0,05% estadual + 0,05% municipal em 2027-2028 e alíquotas de referência reais de 2029 a 2033 | 2026 a 2033 | arts. 343, 344 e 349 a 365 |
+| **CBS** (substitui PIS e Cofins) | 0,9% em 2026 (teste); em 2027-2028, pela fórmula do art. 14 menos 0,1 ponto percentual; a alíquota de referência da CBS é fixada pelo Senado **de 2027 a 2035** (a do IBS, de 2029 a 2035) | a partir de 2026 | arts. 18, 346 e 347; [[ibs-cbs-aliquotas]] |
+
+Atenção: entre 2027 e 2028, a CBS já substitui PIS/Cofins, mas o **ICMS e o ISS
+seguem integrais**; eles só começam a cair em 2029.
+
 ## 2026 — ano de teste, quase simbólico (arts. 343, 346, 348)
 
 Alíquotas irrisórias: IBS a 0,1% (estadual), CBS a 0,9%. O objetivo não é arrecadar de verdade — é **testar o sistema** (emissão de documentos, split payment, cadastros). Tanto que o valor recolhido é **compensado** com os tributos que estão sendo extintos (PIS/Cofins para a CBS) e pode ser dispensado inteiramente para quem cumprir as obrigações acessórias (§1º do art. 348) — não há intenção arrecadatória real neste ano.
