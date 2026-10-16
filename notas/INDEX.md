@@ -31,9 +31,9 @@ use os dois.
 
 ## Documentos fiscais eletrônicos — Notas Técnicas, Informe Técnico e tabelas NF-e/NFC-e
 
-- Índice: [documentos-fiscais/INDEX.md](documentos-fiscais/INDEX.md) — 30 notas (12 da NF-e/NFC-e, 10 do guia da NFS-e Nacional e 8 das Notas Técnicas da SE/CGNFS-e e tabelas de códigos)
+- Índice: [documentos-fiscais/INDEX.md](documentos-fiscais/INDEX.md) — 40 notas (12 da NF-e/NFC-e, 10 do guia da NFS-e Nacional e 18 das Notas Técnicas da SE/CGNFS-e, anexos e tabelas de códigos)
 - Mapa NT → nota: [documentos-fiscais/_plano-notas.md](documentos-fiscais/_plano-notas.md)
 - Hierarquia: lei > resolução > nota técnica (a NT diz como preencher e validar)
 - Vigência por cronograma de produção; versão da NT em cada nota
-- Fontes: `fontes/documentos-fiscais/` (NT 2025.002-RTC, 2026.002, 2026.007, 2026.008, 2026.010; IT 2025.002; tabelas cClassTrib e cCredPres do Portal dos DF-e; Guia do Emissor Público Nacional Web da NFS-e v1.2, documentação operacional; NTs SE/CGNFS-e 003 a 010, Anexos I e VII, manual da API e lista nacional de serviços da NFS-e; tabela de municípios do IBGE)
+- Fontes: `fontes/documentos-fiscais/` (NT 2025.002-RTC, 2026.002, 2026.007, 2026.008, 2026.010; IT 2025.002; tabelas cClassTrib e cCredPres do Portal dos DF-e; Guia do Emissor Público Nacional Web da NFS-e v1.2, documentação operacional; NTs SE/CGNFS-e 003 a 010, Anexos I, II, IV (ADN), VI, VII e VIII, manual da API e lista nacional de serviços da NFS-e; tabela de municípios do IBGE)
 - Pontes: [[ibs-cbs-cadastro-documento-fiscal]], [[sn-obrigacoes-acessorias]]

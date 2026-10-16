@@ -1,0 +1,38 @@
+L1	DISTRIBUIÇÃO DE DF-e PELO SISTEMA NACIONAL NFS-e
+L2	#	DF-e ⏎ | ⏎ \/		ADMINISTRAÇÃO TRIBUTÁRIA													CGNFS-e	ATORES DA NFS-e
+L3				RFB	Município ⏎ Emissor ⏎ (cLocEmi)						Município do ⏎ Emitente ⏎ (P/T/I)	Município do ⏎ Não Emitente ⏎ (P/T/I) ⏎ (3)	Município da ⏎ Prestação ⏎ (3)	Município de ⏎ Incidência	Para os Municípios do: ⏎ Prestador, Tomador, Intermediário, Emissor da NFS-e e Local da Prestação		CGNFS-e	Emitente ⏎ (P/T/I)	Não Emitente ⏎ (P/T/I)
+L5		GERAÇÃO DE NSU ->		Geral	Recepção		Distribuição				Distribuição	Distribuição ⏎ (1)	Distribuição ⏎ (2)	Distribuição	MEI ⏎ (CSTAT = 107)		BYPASS ⏎ (CSTAT = 102)	Distribuição	Distribuição
+L6					DF-e ⏎ Emitido na ⏎ Sefin Nacional	DF-e ⏎ Emitido no Sistema Próprio do Município e ⏎ Compartilhado com ADN	Existente* e Ativo		Existente*  ⏎ e  ⏎ Não Ativo	Inexistente**					Município ⏎ inexistente ou ⏎ Existente ⏎ INATIVO no ⏎ SN NFS-e	Município ⏎ Existente diferente de INATIVO no ⏎ SN NFS-e
+L7							DF-e ⏎ Emitido na ⏎ Sefin Nacional	DF-e ⏎ Emitido no Sistema Próprio do Município e ⏎ Compartilhado com ADN
+L8	1	NFS-e		V	X	V	X	V	X	X	O NSU de distribuição do DF-e para o Município do Emitente ⏎ do DF-e já é contemplada  pois: ⏎  ⏎ Município do ⏎ Emitente ⏎ (P/T/I) ⏎ é o ⏎ Município Emissor, ⏎ dependendo  ⏎ do tipo de  ⏎ emitente da NFS-e.	V	V	O NSU de distribuição do DF-e para o Município de Incidência ⏎ do ISSQN já é contemplada pois: ⏎  ⏎ o ⏎ Município de ⏎ Incidência é: ⏎  ⏎ ou ⏎ 1) Município  ⏎ do Prestador ⏎ ou ⏎ 2) Município  ⏎ do Tomador ⏎ ou ⏎ 3) Município  ⏎ da Prestação  ⏎ do Serviço	V	X	V	V	V
+L9	2	Cancelamento de NFS-e		V	X	V	X	V	X	X		V	V		V	X	V	V	V
+L10	3	Cancelamento de NFS-e por Substituição		V	X	V	X	V	X	X		V	V		V	X	V	V	V
+L11	4	Solicitação de Análise Fiscal para Cancelamento de NFS-e		V	X	V	X	V	X	X		V	V		V	X	V	V	V
+L12	5	Cancelamento de NFS-e Deferido por Análise Fiscal		V	X	V	X	V	X	X		V	V		V	X	V	V	V
+L13	6	Cancelamento de NFS-e Indeferido por Análise Fiscal		V	X	V	X	V	X	X		V	V		V	X	V	V	V
+L14	7	Manifestação de NFS-e	Confirmação do Prestador	V	X	V	X	V	X	X		V	V		V	X	V	V	V
+L15	8		Confirmação do Tomador	V	X	V	X	V	X	X		V	V		V	X	V	V	V
+L16	9		Confirmação do Intermediário	V	X	V	X	V	X	X		V	V		V	X	V	V	V
+L17	10		Confirmação Tácita	V	X	V	X	V	X	X		V	V		V	X	V	V	V
+L18	11		Rejeição do Prestador	V	X	V	X	V	X	X		V	V		V	X	V	V	V
+L19	12		Rejeição do Tomador	V	X	V	X	V	X	X		V	V		V	X	V	V	V
+L20	13		Rejeição do Intermediário	V	X	V	X	V	X	X		V	V		V	X	V	V	V
+L21	14		Anulação da Rejeição	V	X	V	X	V	X	X		V	V		V	X	V	V	V
+L22	15	Cancelamento de NFS-e por Ofício		V	X	V	X	V	X	X		V	V		V	X	V	V	V
+L23	16	Bloqueio de NFS-e ⏎ por Ofício	Cancelamento de NFS-e	V	X	V	X	V	X	X		V	V		V	X	V	V	X
+L24	17		Cancelamento de NFS-e ⏎ por Substituição	V	X	V	X	V	X	X		V	V		V	X	V	V	X
+L25	18		Cancelamento de NFS-e ⏎ Deferido por Análise Fiscal	V	X	V	X	V	X	X		V	V		V	X	V	V	X
+L26	19		Cancelamento de NFS-e ⏎ Indeferido por Análise Fiscal	V	X	V	X	V	X	X		V	V		V	X	V	V	X
+L27	20		Cancelamento de NFS-e por Ofício	V	X	V	X	V	X	X		V	V		V	X	V	V	X
+L28	21	Desbloqueio de NFS-e por Ofício	Cancelamento de NFS-e	V	X	V	X	V	X	X		V	V		V	X	V	V	X
+L29	22		Cancelamento de NFS-e ⏎ por Substituição	V	X	V	X	V	X	X		V	V		V	X	V	V	X
+L30	23		Cancelamento de NFS-e ⏎ Deferido por Análise Fiscal	V	X	V	X	V	X	X		V	V		V	X	V	V	X
+L31	24		Cancelamento de NFS-e ⏎ Indeferido por Análise Fiscal	V	X	V	X	V	X	X		V	V		V	X	V	V	X
+L32	25		Cancelamento de NFS-e por Ofício	V	X	V	X	V	X	X		V	V		V	X	V	V	X
+L33				(1)	 Gerar NSU de Distribuição somente se o Município do Não Emitente for diferente do Município do Emitente.
+L34				(2)	 Gerar NSU de Distribuição somente se o Município da Prestação for diferente do Município do Emitente E do Município do Não Emitente.
+L35				(3)	 Os NSU são gerados para qualquer Município, ativos ou não ativos no Sistema Nacional NFS-e. Todos os DF-e podem ser solicitados na API de distribuição, exceto quando o município for inexistente ou existente inativo ou suspenso.
+L36				(4)	 Gerar NSU de Distribuição somente se o Município do Destinatário for diferente do Município do Tomador .
+L37				(5)	 Gerar NSU de Distribuição somente se o Destinatário for diferente do Tomador .
+L38				*	EXISTENTE no cadastro de municípios conveniados ao Sistema Nacional NFS-e
+L39				**	INEXISTENTE no cadastro de municípios conveniados ao Sistema Nacional NFS-e

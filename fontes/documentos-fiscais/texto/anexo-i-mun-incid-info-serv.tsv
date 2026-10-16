@@ -144,7 +144,7 @@ L143	110201	Vigilância, segurança ou monitoramento de bens, pessoas e semovent
 L144	110301	Escolta, inclusive de veículos e cargas.	X	-	-	X	-	X
 L145	110401	Armazenamento, depósito, guarda de bens de qualquer espécie.	-	X	-	X	-	X
 L146	110402	Carga, descarga, arrumação de bens de qualquer espécie.	-	X	-	X	-	X
-L147	110501	Serviços relacionados ao monitoramento e rastreamento a distância, em qualquer via ou local, de veículos, cargas, pessoas e semoventes em circulação ou movimento, realizados por meio de telefonia móvel, transmissão de satélites, rádio ou qualquer outro meio, inclusive pelas empresas de Tecnologia da Informação Veicular, independentemente de o prestador de serviços ser proprietário ou não da infraestrutura de telecomunicações que utiliza.  	X	-	-	X	-	X
+L147	110501	Serviços relacionados ao monitoramento e rastreamento a distância, em qualquer via ou local, de veículos, cargas, pessoas e semoventes em circulação ou movimento, realizados por meio de telefonia móvel, transmissão de satélites, rádio ou qualquer outro meio, inclusive pelas empresas de Tecnologia da Informação Veicular, independentemente de o prestador de serviços ser proprietário ou não da infraestrutura de telecomunicações que utiliza.	X	-	-	X	-	X
 L148	120101	Espetáculos teatrais.	-	X	-	X	atvEvento	X
 L149	120201	Exibições cinematográficas.	-	X	-	X	atvEvento	X
 L150	120301	Espetáculos circenses.	-	X	-	X	atvEvento	X
@@ -182,158 +182,160 @@ L181	141101	Tapeçaria e reforma de estofamentos em geral.	X	-	-	X	-	X
 L182	141201	Funilaria e lanternagem.	X	-	-	X	-	X
 L183	141301	Carpintaria.	X	-	-	X	-	X
 L184	141302	Serralheria.	X	-	-	X	-	X
-L185	141401	Guincho intramunicipal.	X	-	-	X	-	X
-L186	141402	Guindaste e içamento.	X	-	-	X	-	X
-L187	150101	Administração de fundos quaisquer e congêneres.	X	-	-	X	-	X
-L188	150102	Administração de consórcio e congêneres.	X	-	-	X	-	X
-L189	150103	Administração de cartão de crédito ou débito e congêneres.	X	-	-	X	-	X
-L190	150104	Administração de carteira de clientes e congêneres.	X	-	-	X	-	X
-L191	150105	Administração de cheques pré-datados e congêneres.	X	-	-	X	-	X
-L192	150201	Abertura de conta-corrente no País, bem como a manutenção da referida conta ativa e inativa.	X	-	-	X	-	X
-L193	150202	Abertura de conta-corrente no exterior, bem como a manutenção da referida conta ativa e inativa.	X	-	-	X	-	X
-L194	150203	Abertura de conta de investimentos e aplicação no País, bem como a manutenção da referida conta ativa e inativa.	X	-	-	X	-	X
-L195	150204	Abertura de conta de investimentos e aplicação no exterior, bem como a manutenção da referida conta ativa e inativa.	X	-	-	X	-	X
-L196	150205	Abertura de caderneta de poupança no País, bem como a manutenção da referida conta ativa e inativa.	X	-	-	X	-	X
-L197	150206	Abertura de caderneta de poupança no exterior, bem como a manutenção da referida conta ativa e inativa.	X	-	-	X	-	X
-L198	150207	Abertura de contas em geral no País, não abrangida em outro subitem, bem como a manutenção das referidas contas ativas e inativas.	X	-	-	X	-	X
-L199	150208	Abertura de contas em geral no exterior, não abrangida em outro subitem, bem como a manutenção das referidas contas ativas e inativas.	X	-	-	X	-	X
-L200	150301	Locação de cofres particulares.	X	-	-	X	-	X
-L201	150302	Manutenção de cofres particulares.	X	-	-	X	-	X
-L202	150303	Locação de terminais eletrônicos.	X	-	-	X	-	X
-L203	150304	Manutenção de terminais eletrônicos.	X	-	-	X	-	X
-L204	150305	Locação de terminais de atendimento.	X	-	-	X	-	X
-L205	150306	Manutenção de terminais de atendimento.	X	-	-	X	-	X
-L206	150307	Locação de bens e equipamentos em geral.	X	-	-	X	-	X
-L207	150308	Manutenção de bens e equipamentos em geral.	X	-	-	X	-	X
-L208	150401	Fornecimento ou emissão de atestados em geral, inclusive atestado de idoneidade, atestado de capacidade financeira e congêneres.	X	-	-	X	-	X
-L209	150501	Cadastro, elaboração de ficha cadastral, renovação cadastral e congêneres.	X	-	-	X	-	X
-L210	150502	Inclusão no Cadastro de Emitentes de Cheques sem Fundos - CCF.	X	-	-	X	-	X
-L211	150503	Exclusão no Cadastro de Emitentes de Cheques sem Fundos - CCF.	X	-	-	X	-	X
-L212	150504	Inclusão em quaisquer outros bancos cadastrais.	X	-	-	X	-	X
-L213	150505	Exclusão em quaisquer outros bancos cadastrais.	X	-	-	X	-	X
-L214	150601	Emissão, reemissão e fornecimento de avisos, comprovantes e documentos em geral	X	-	-	X	-	X
-L215	150602	Abono de firmas.	X	-	-	X	-	X
-L216	150603	Coleta e entrega de documentos, bens e valores.	X	-	-	X	-	X
-L217	150604	Comunicação com outra agência ou com a administração central.	X	-	-	X	-	X
-L218	150605	Licenciamento eletrônico de veículos.	X	-	-	X	-	X
-L219	150606	Transferência de veículos.	X	-	-	X	-	X
-L220	150607	Agenciamento fiduciário ou depositário.	X	-	-	X	-	X
-L221	150608	Devolução de bens em custódia.	X	-	-	X	-	X
-L222	150701	Acesso, movimentação, atendimento e consulta a contas em geral, por qualquer meio ou processo, inclusive por telefone, fac-símile, internet e telex.	X	-	-	X	-	X
-L223	150702	Acesso a terminais de atendimento, inclusive vinte e quatro horas.	X	-	-	X	-	X
-L224	150703	Acesso a outro banco e à rede compartilhada.	X	-	-	X	-	X
-L225	150704	Fornecimento de saldo, extrato e demais informações relativas a contas em geral, por qualquer meio ou processo.	X	-	-	X	-	X
-L226	150801	Emissão, reemissão, alteração, cessão, substituição, cancelamento e registro de contrato de crédito.	X	-	-	X	-	X
-L227	150802	Estudo, análise e avaliação de operações de crédito.	X	-	-	X	-	X
-L228	150803	Emissão, concessão, alteração ou contratação de aval, fiança, anuência e congêneres.	X	-	-	X	-	X
-L229	150804	Serviços relativos à abertura de crédito, para quaisquer fins.	X	-	-	X	-	X
-L230	150901	Arrendamento mercantil (leasing) de quaisquer bens, inclusive cessão de direitos e obrigações, substituição de garantia, alteração, cancelamento e registro de contrato, e demais serviços relacionados ao arrendamento mercantil (leasing).	X	-	-	X	-	X
-L231	151001	Serviços relacionados a cobranças em geral, de títulos quaisquer, de contas ou carnês, de câmbio, de tributos e por conta de terceiros, inclusive os efetuados por meio eletrônico, automático ou por máquinas de atendimento.	X	-	-	X	-	X
-L232	151002	Serviços relacionados a recebimentos em geral, de títulos quaisquer, de contas ou carnês, de câmbio, de tributos e por conta de terceiros, inclusive os efetuados por meio eletrônico, automático ou por máquinas de atendimento.	X	-	-	X	-	X
-L233	151003	Serviços relacionados a pagamentos em geral, de títulos quaisquer, de contas ou carnês, de câmbio, de tributos e por conta de terceiros, inclusive os efetuados por meio eletrônico, automático ou por máquinas de atendimento.	X	-	-	X	-	X
-L234	151004	Serviços relacionados a fornecimento de posição de cobrança, recebimento ou pagamento.	X	-	-	X	-	X
-L235	151005	Serviços relacionados a emissão de carnês, fichas de compensação, impressos e documentos em geral.	X	-	-	X	-	X
-L236	151101	Devolução de títulos, protesto de títulos, sustação de protesto, manutenção de títulos, reapresentação de títulos, e demais serviços a eles relacionados.	X	-	-	X	-	X
-L237	151201	Custódia em geral, inclusive de títulos e valores mobiliários.	X	-	-	X	-	X
-L238	151301	Serviços relacionados a operações de câmbio em geral, edição, alteração, prorrogação, cancelamento e baixa de contrato de câmbio.	X	-	-	X	-	X
-L239	151302	Serviços relacionados a emissão de registro de exportação ou de crédito.	X	-	-	X	-	X
-L240	151303	Serviços relacionados a cobrança ou depósito no exterior.	X	-	-	X	-	X
-L241	151304	Serviços relacionados a emissão, fornecimento e cancelamento de cheques de viagem.	X	-	-	X	-	X
-L242	151305	Serviços relacionados a fornecimento, transferência, cancelamento e demais serviços relativos a carta de crédito de importação, exportação e garantias recebidas.	X	-	-	X	-	X
-L243	151306	Serviços relacionados a envio e recebimento de mensagens em geral relacionadas a operações de câmbio.	X	-	-	X	-	X
-L244	151401	Fornecimento, emissão, reemissão de cartão magnético, cartão de crédito, cartão de débito, cartão salário e congêneres.	X	-	-	X	-	X
-L245	151402	Renovação de cartão magnético, cartão de crédito, cartão de débito, cartão salário e congêneres.	X	-	-	X	-	X
-L246	151403	Manutenção de cartão magnético, cartão de crédito, cartão de débito, cartão salário e congêneres.	X	-	-	X	-	X
-L247	151501	Compensação de cheques e títulos quaisquer.	X	-	-	X	-	X
-L248	151502	Serviços relacionados a depósito, inclusive depósito identificado, a saque de contas quaisquer, por qualquer meio ou processo, inclusive em terminais eletrônicos e de atendimento.	X	-	-	X	-	X
-L249	151601	Emissão, reemissão, liquidação, alteração, cancelamento e baixa de ordens de pagamento, ordens de crédito e similares, por qualquer meio ou processo.	X	-	-	X	-	X
-L250	151602	Serviços relacionados à transferência de valores, dados, fundos, pagamentos e similares, inclusive entre contas em geral.	X	-	-	X	-	X
-L251	151701	Emissão e fornecimento de cheques quaisquer, avulso ou por talão.	X	-	-	X	-	X
-L252	151702	Devolução de cheques quaisquer, avulso ou por talão.	X	-	-	X	-	X
-L253	151703	Sustação, cancelamento e oposição de cheques quaisquer, avulso ou por talão.	X	-	-	X	-	X
-L254	151801	Serviços relacionados a crédito imobiliário, de avaliação e vistoria de imóvel ou obra.	X	-	-	X	-	X
-L255	151802	Serviços relacionados a crédito imobiliário, de análise técnica e jurídica.	X	-	-	X	-	X
-L256	151803	Serviços relacionados a crédito imobiliário, de emissão, reemissão, alteração, transferência e renegociação de contrato.	X	-	-	X	-	X
-L257	151804	Serviços relacionados a crédito imobiliário, de emissão e reemissão do termo de quitação.	X	-	-	X	-	X
-L258	151805	Demais serviços relacionados a crédito imobiliário.	X	-	-	X	-	X
-L259	160101	Serviços de transporte coletivo municipal rodoviário de passageiros.	X	-	-	X	-	X
-L260	160102	Serviços de transporte coletivo municipal metroviário de passageiros.	-	X	-	X	-	X
-L261	160103	Serviços de transporte coletivo municipal ferroviário de passageiros.	-	X	-	X	-	X
-L262	160104	Serviços de transporte coletivo municipal aquaviário de passageiros.	-	X	-	X	-	X
-L263	160201	Outros serviços de transporte de natureza municipal.	-	X	-	X	-	X
-L264	170101	Assessoria ou consultoria de qualquer natureza, não contida em outros itens desta lista.	X	-	-	X	-	X
-L265	170102	Análise, exame, pesquisa, coleta, compilação e fornecimento de dados e informações de qualquer natureza, inclusive cadastro e similares.	X	-	-	X	-	X
-L266	170201	Datilografia, digitação, estenografia e congêneres.	X	-	-	X	-	X
-L267	170202	Expediente, secretaria em geral, apoio e infra-estrutura administrativa e congêneres.	X	-	-	X	-	X
-L268	170203	Resposta audível e congêneres.	X	-	-	X	-	X
-L269	170204	Redação, edição, revisão e congêneres.	X	-	-	X	-	X
-L270	170205	Interpretação, tradução e congêneres.	X	-	-	X	-	X
-L271	170301	Planejamento, coordenação, programação ou organização técnica.	X	-	-	X	-	X
-L272	170302	Planejamento, coordenação, programação ou organização financeira.	X	-	-	X	-	X
-L273	170303	Planejamento, coordenação, programação ou organização administrativa.	X	-	-	X	-	X
-L274	170401	Recrutamento, agenciamento, seleção e colocação de mão-de-obra.	X	-	-	X	-	X
-L275	170501	Fornecimento de mão-de-obra, mesmo em caráter temporário, inclusive de empregados ou trabalhadores, avulsos ou temporários, contratados pelo prestador de serviço.	-	-	X	X	-	X
-L276	170601	Propaganda e publicidade, inclusive promoção de vendas, planejamento de campanhas ou sistemas de publicidade, elaboração de desenhos, textos e demais materiais publicitários.	X	-	-	X	-	X
-L277	170801	Franquia (franchising).	X	-	-	X	-	X
-L278	170901	Perícias, laudos, exames técnicos e análises técnicas.	X	-	-	X	-	X
-L279	171001	Planejamento, organização e administração de feiras, exposições, e congêneres.	-	X	-	X	-	X
-L280	171002	Planejamento, organização e administração de congressos e congêneres.	-	X	-	X	-	X
-L281	171101	Organização de festas e recepções.	X	-	-	X	-	X
-L282	171102	Bufê (exceto o fornecimento de alimentação e bebidas, que fica sujeito ao ICMS).	X	-	-	X	-	X
-L283	171201	Administração em geral, inclusive de bens e negócios de terceiros.	X	-	-	X	-	X
-L284	171301	Leilão e congêneres.	X	-	-	X	-	X
-L285	171401	Advocacia	X	-	-	X	-	X
-L286	171501	Arbitragem de qualquer espécie, inclusive jurídica.	X	-	-	X	-	X
-L287	171601	Auditoria.	X	-	-	X	-	X
-L288	171701	Análise de Organização e Métodos.	X	-	-	X	-	X
-L289	171801	Atuária e cálculos técnicos de qualquer natureza.	X	-	-	X	-	X
-L290	171901	Contabilidade, inclusive serviços técnicos e auxiliares.	X	-	-	X	-	X
-L291	172001	Consultoria e assessoria econômica ou financeira.	X	-	-	X	-	X
-L292	172101	Estatística.	X	-	-	X	-	X
-L293	172201	Cobrança em geral.	X	-	-	X	-	X
-L294	172301	Assessoria, análise, avaliação, atendimento, consulta, cadastro, seleção, gerenciamento de informações, administração de contas a receber ou a pagar e em geral, relacionados a operações de faturização (factoring).	X	-	-	X	-	X
-L295	172401	Apresentação de palestras, conferências, seminários e congêneres.	X	-	-	X	-	X
-L296	172501	Inserção de textos, desenhos e outros materiais de propaganda e publicidade, em qualquer meio (exceto em livros, jornais, periódicos e nas modalidades de serviços de radiodifusão sonora e de sons e imagens de recepção livre e gratuita).	X	-	-	X	-	X
-L297	180101	Serviços de regulação de sinistros vinculados a contratos de seguros e congêneres.	X	-	-	X	-	X
-L298	180102	Serviços de inspeção e avaliação de riscos para cobertura de contratos de seguros e congêneres.	X	-	-	X	-	X
-L299	180103	Serviços de prevenção e gerência de riscos seguráveis e congêneres.	X	-	-	X	-	X
-L300	190101	Serviços de distribuição e venda de bilhetes e demais produtos de loteria, cartões, pules ou cupons de apostas, sorteios, prêmios, inclusive os decorrentes de títulos de capitalização e congêneres.	X	-	-	X	-	X
-L301	190102	Serviços de distribuição e venda de bingos e congêneres.	X	-	-	X	-	X
-L302	200101	Serviços portuários, ferroportuários, utilização de porto, movimentação de passageiros, reboque de embarcações, rebocador escoteiro, atracação, desatracação, serviços de praticagem, capatazia, armazenagem de qualquer natureza, serviços acessórios, movimentação de mercadorias, serviços de apoio marítimo, de movimentação ao largo, serviços de armadores, estiva, conferência, logística e congêneres.	-	(**) X	-	X	-	X
-L303	200201	Serviços aeroportuários, utilização de aeroporto, movimentação de passageiros, armazenagem de qualquer natureza, capatazia, movimentação de aeronaves, serviços de apoio aeroportuários, serviços acessórios, movimentação de mercadorias, logística e congêneres.	-	X	-	X	-	X
-L304	200301	Serviços de terminais rodoviários, ferroviários, metroviários, movimentação de passageiros, mercadorias, inclusive suas operações, logística e congêneres.	-	X	-	X	-	X
-L305	210101	Serviços de registros públicos, cartorários e notariais.	X	-	-	X	-	X
-L306	220101	Serviços de exploração de rodovia mediante cobrança de preço ou pedágio dos usuários, envolvendo execução de serviços de conservação, manutenção, melhoramentos para adequação de capacidade e segurança de trânsito, operação, monitoração, assistência aos usuários e outros serviços definidos em contratos, atos de concessão ou de permissão ou em normas oficiais.	-	X	-	X	-	X
-L307	230101	Serviços de programação e comunicação visual e congêneres.	X	-	-	X	-	X
-L308	230102	Serviços de desenho industrial e congêneres.	X	-	-	X	-	X
-L309	240101	Serviços de chaveiros, confecção de carimbos e congêneres.	X	-	-	X	-	X
-L310	240102	Serviços de placas, sinalização visual, banners, adesivos e congêneres.	X	-	-	X	-	X
-L311	250101	Funerais, inclusive fornecimento de caixão, urna ou esquifes; aluguel de capela; transporte do corpo cadavérico; fornecimento de flores, coroas e outros paramentos; desembaraço de certidão de óbito; fornecimento de véu, essa e outros adornos; embalsamento, embelezamento, conservação ou restauração de cadáveres.	X	-	-	X	-	X
-L312	250201	Translado intramunicipal de corpos e partes de corpos cadavéricos.	X	-	-	X	-	X
-L313	250202	Cremação de corpos e partes de corpos cadavéricos.	X	-	-	X	-	X
-L314	250301	Planos ou convênio funerários.	X	-	-	X	-	X
-L315	250401	Manutenção e conservação de jazigos e cemitérios.	X	-	-	X	-	X
-L316	250501	Cessão de uso de espaços em cemitérios para sepultamento.	X	-	-	X	-	X
-L317	260101	Serviços de coleta, remessa ou entrega de correspondências, documentos, objetos, bens ou valores, inclusive pelos correios e suas agências franqueadas.	X	-	-	X	-	X
-L318	260102	Serviços de courrier e congêneres.	X	-	-	X	-	X
-L319	270101	Serviços de assistência social.	X	-	-	X	-	X
-L320	280101	Serviços de avaliação de bens e serviços de qualquer natureza.	X	-	-	X	-	X
-L321	290101	Serviços de biblioteconomia.	X	-	-	X	-	X
-L322	300101	Serviços de biologia e biotecnologia.	X	-	-	X	-	X
-L323	300102	Serviços de química.	X	-	-	X	-	X
-L324	310101	Serviços técnicos em edificações e congêneres.	X	-	-	X	-	X
-L325	310102	Serviços técnicos em eletrônica, eletrotécnica e congêneres.	X	-	-	X	-	X
-L326	310103	Serviços técnicos em mecânica e congêneres.	X	-	-	X	-	X
-L327	310104	Serviços técnicos em telecomunicações e congêneres.	X	-	-	X	-	X
-L328	320101	Serviços de desenhos técnicos.	X	-	-	X	-	X
-L329	330101	Serviços de desembaraço aduaneiro, comissários, despachantes e congêneres.	X	-	-	X	-	X
-L330	340101	Serviços de investigações particulares, detetives e congêneres.	X	-	-	X	-	X
-L331	350101	Serviços de reportagem e jornalismo.	X	-	-	X	-	X
-L332	350102	Serviços de assessoria de imprensa.	X	-	-	X	-	X
-L333	350103	Serviços de relações públicas.	X	-	-	X	-	X
-L334	360101	Serviços de meteorologia.	X	-	-	X	-	X
-L335	370101	Serviços de artistas, atletas, modelos e manequins.	X	-	-	X	-	X
-L336	380101	Serviços de museologia.	X	-	-	X	-	X
-L337	390101	Serviços de ourivesaria e lapidação (quando o material for fornecido pelo tomador do serviço).	X	-	-	X	-	X
-L338	400101	Obras de arte sob encomenda.	X	-	-	X	-	X
-L339	990101	Serviços sem a incidência de ISSQN e ICMS	-	-	-	-	-	X
+L185	141401	Guincho intramunicipal.	-	X	-	X	-	X
+L186	141402	Guindaste e içamento.	-	X	-	X	-	X
+L187	141403	Guincho intramunicipal em construção civil.	-	X	-	X	obra	X
+L188	141404	Guindaste e içamento em construção civil.	-	X	-	X	obra	X
+L189	150101	Administração de fundos quaisquer e congêneres.	X	-	-	X	-	X
+L190	150102	Administração de consórcio e congêneres.	X	-	-	X	-	X
+L191	150103	Administração de cartão de crédito ou débito e congêneres.	X	-	-	X	-	X
+L192	150104	Administração de carteira de clientes e congêneres.	X	-	-	X	-	X
+L193	150105	Administração de cheques pré-datados e congêneres.	X	-	-	X	-	X
+L194	150201	Abertura de conta-corrente no País, bem como a manutenção da referida conta ativa e inativa.	X	-	-	X	-	X
+L195	150202	Abertura de conta-corrente no exterior, bem como a manutenção da referida conta ativa e inativa.	X	-	-	X	-	X
+L196	150203	Abertura de conta de investimentos e aplicação no País, bem como a manutenção da referida conta ativa e inativa.	X	-	-	X	-	X
+L197	150204	Abertura de conta de investimentos e aplicação no exterior, bem como a manutenção da referida conta ativa e inativa.	X	-	-	X	-	X
+L198	150205	Abertura de caderneta de poupança no País, bem como a manutenção da referida conta ativa e inativa.	X	-	-	X	-	X
+L199	150206	Abertura de caderneta de poupança no exterior, bem como a manutenção da referida conta ativa e inativa.	X	-	-	X	-	X
+L200	150207	Abertura de contas em geral no País, não abrangida em outro subitem, bem como a manutenção das referidas contas ativas e inativas.	X	-	-	X	-	X
+L201	150208	Abertura de contas em geral no exterior, não abrangida em outro subitem, bem como a manutenção das referidas contas ativas e inativas.	X	-	-	X	-	X
+L202	150301	Locação de cofres particulares.	X	-	-	X	-	X
+L203	150302	Manutenção de cofres particulares.	X	-	-	X	-	X
+L204	150303	Locação de terminais eletrônicos.	X	-	-	X	-	X
+L205	150304	Manutenção de terminais eletrônicos.	X	-	-	X	-	X
+L206	150305	Locação de terminais de atendimento.	X	-	-	X	-	X
+L207	150306	Manutenção de terminais de atendimento.	X	-	-	X	-	X
+L208	150307	Locação de bens e equipamentos em geral.	X	-	-	X	-	X
+L209	150308	Manutenção de bens e equipamentos em geral.	X	-	-	X	-	X
+L210	150401	Fornecimento ou emissão de atestados em geral, inclusive atestado de idoneidade, atestado de capacidade financeira e congêneres.	X	-	-	X	-	X
+L211	150501	Cadastro, elaboração de ficha cadastral, renovação cadastral e congêneres.	X	-	-	X	-	X
+L212	150502	Inclusão no Cadastro de Emitentes de Cheques sem Fundos - CCF.	X	-	-	X	-	X
+L213	150503	Exclusão no Cadastro de Emitentes de Cheques sem Fundos - CCF.	X	-	-	X	-	X
+L214	150504	Inclusão em quaisquer outros bancos cadastrais.	X	-	-	X	-	X
+L215	150505	Exclusão em quaisquer outros bancos cadastrais.	X	-	-	X	-	X
+L216	150601	Emissão, reemissão e fornecimento de avisos, comprovantes e documentos em geral	X	-	-	X	-	X
+L217	150602	Abono de firmas.	X	-	-	X	-	X
+L218	150603	Coleta e entrega de documentos, bens e valores.	X	-	-	X	-	X
+L219	150604	Comunicação com outra agência ou com a administração central.	X	-	-	X	-	X
+L220	150605	Licenciamento eletrônico de veículos.	X	-	-	X	-	X
+L221	150606	Transferência de veículos.	X	-	-	X	-	X
+L222	150607	Agenciamento fiduciário ou depositário.	X	-	-	X	-	X
+L223	150608	Devolução de bens em custódia.	X	-	-	X	-	X
+L224	150701	Acesso, movimentação, atendimento e consulta a contas em geral, por qualquer meio ou processo, inclusive por telefone, fac-símile, internet e telex.	X	-	-	X	-	X
+L225	150702	Acesso a terminais de atendimento, inclusive vinte e quatro horas.	X	-	-	X	-	X
+L226	150703	Acesso a outro banco e à rede compartilhada.	X	-	-	X	-	X
+L227	150704	Fornecimento de saldo, extrato e demais informações relativas a contas em geral, por qualquer meio ou processo.	X	-	-	X	-	X
+L228	150801	Emissão, reemissão, alteração, cessão, substituição, cancelamento e registro de contrato de crédito.	X	-	-	X	-	X
+L229	150802	Estudo, análise e avaliação de operações de crédito.	X	-	-	X	-	X
+L230	150803	Emissão, concessão, alteração ou contratação de aval, fiança, anuência e congêneres.	X	-	-	X	-	X
+L231	150804	Serviços relativos à abertura de crédito, para quaisquer fins.	X	-	-	X	-	X
+L232	150901	Arrendamento mercantil (leasing) de quaisquer bens, inclusive cessão de direitos e obrigações, substituição de garantia, alteração, cancelamento e registro de contrato, e demais serviços relacionados ao arrendamento mercantil (leasing).	X	-	-	X	-	X
+L233	151001	Serviços relacionados a cobranças em geral, de títulos quaisquer, de contas ou carnês, de câmbio, de tributos e por conta de terceiros, inclusive os efetuados por meio eletrônico, automático ou por máquinas de atendimento.	X	-	-	X	-	X
+L234	151002	Serviços relacionados a recebimentos em geral, de títulos quaisquer, de contas ou carnês, de câmbio, de tributos e por conta de terceiros, inclusive os efetuados por meio eletrônico, automático ou por máquinas de atendimento.	X	-	-	X	-	X
+L235	151003	Serviços relacionados a pagamentos em geral, de títulos quaisquer, de contas ou carnês, de câmbio, de tributos e por conta de terceiros, inclusive os efetuados por meio eletrônico, automático ou por máquinas de atendimento.	X	-	-	X	-	X
+L236	151004	Serviços relacionados a fornecimento de posição de cobrança, recebimento ou pagamento.	X	-	-	X	-	X
+L237	151005	Serviços relacionados a emissão de carnês, fichas de compensação, impressos e documentos em geral.	X	-	-	X	-	X
+L238	151101	Devolução de títulos, protesto de títulos, sustação de protesto, manutenção de títulos, reapresentação de títulos, e demais serviços a eles relacionados.	X	-	-	X	-	X
+L239	151201	Custódia em geral, inclusive de títulos e valores mobiliários.	X	-	-	X	-	X
+L240	151301	Serviços relacionados a operações de câmbio em geral, edição, alteração, prorrogação, cancelamento e baixa de contrato de câmbio.	X	-	-	X	-	X
+L241	151302	Serviços relacionados a emissão de registro de exportação ou de crédito.	X	-	-	X	-	X
+L242	151303	Serviços relacionados a cobrança ou depósito no exterior.	X	-	-	X	-	X
+L243	151304	Serviços relacionados a emissão, fornecimento e cancelamento de cheques de viagem.	X	-	-	X	-	X
+L244	151305	Serviços relacionados a fornecimento, transferência, cancelamento e demais serviços relativos a carta de crédito de importação, exportação e garantias recebidas.	X	-	-	X	-	X
+L245	151306	Serviços relacionados a envio e recebimento de mensagens em geral relacionadas a operações de câmbio.	X	-	-	X	-	X
+L246	151401	Fornecimento, emissão, reemissão de cartão magnético, cartão de crédito, cartão de débito, cartão salário e congêneres.	X	-	-	X	-	X
+L247	151402	Renovação de cartão magnético, cartão de crédito, cartão de débito, cartão salário e congêneres.	X	-	-	X	-	X
+L248	151403	Manutenção de cartão magnético, cartão de crédito, cartão de débito, cartão salário e congêneres.	X	-	-	X	-	X
+L249	151501	Compensação de cheques e títulos quaisquer.	X	-	-	X	-	X
+L250	151502	Serviços relacionados a depósito, inclusive depósito identificado, a saque de contas quaisquer, por qualquer meio ou processo, inclusive em terminais eletrônicos e de atendimento.	X	-	-	X	-	X
+L251	151601	Emissão, reemissão, liquidação, alteração, cancelamento e baixa de ordens de pagamento, ordens de crédito e similares, por qualquer meio ou processo.	X	-	-	X	-	X
+L252	151602	Serviços relacionados à transferência de valores, dados, fundos, pagamentos e similares, inclusive entre contas em geral.	X	-	-	X	-	X
+L253	151701	Emissão e fornecimento de cheques quaisquer, avulso ou por talão.	X	-	-	X	-	X
+L254	151702	Devolução de cheques quaisquer, avulso ou por talão.	X	-	-	X	-	X
+L255	151703	Sustação, cancelamento e oposição de cheques quaisquer, avulso ou por talão.	X	-	-	X	-	X
+L256	151801	Serviços relacionados a crédito imobiliário, de avaliação e vistoria de imóvel ou obra.	X	-	-	X	-	X
+L257	151802	Serviços relacionados a crédito imobiliário, de análise técnica e jurídica.	X	-	-	X	-	X
+L258	151803	Serviços relacionados a crédito imobiliário, de emissão, reemissão, alteração, transferência e renegociação de contrato.	X	-	-	X	-	X
+L259	151804	Serviços relacionados a crédito imobiliário, de emissão e reemissão do termo de quitação.	X	-	-	X	-	X
+L260	151805	Demais serviços relacionados a crédito imobiliário.	X	-	-	X	-	X
+L261	160101	Serviços de transporte coletivo municipal rodoviário de passageiros.	-	X	-	X	-	X
+L262	160102	Serviços de transporte coletivo municipal metroviário de passageiros.	-	X	-	X	-	X
+L263	160103	Serviços de transporte coletivo municipal ferroviário de passageiros.	-	X	-	X	-	X
+L264	160104	Serviços de transporte coletivo municipal aquaviário de passageiros.	-	X	-	X	-	X
+L265	160201	Outros serviços de transporte de natureza municipal.	-	X	-	X	-	X
+L266	170101	Assessoria ou consultoria de qualquer natureza, não contida em outros itens desta lista.	X	-	-	X	-	X
+L267	170102	Análise, exame, pesquisa, coleta, compilação e fornecimento de dados e informações de qualquer natureza, inclusive cadastro e similares.	X	-	-	X	-	X
+L268	170201	Datilografia, digitação, estenografia e congêneres.	X	-	-	X	-	X
+L269	170202	Expediente, secretaria em geral, apoio e infra-estrutura administrativa e congêneres.	X	-	-	X	-	X
+L270	170203	Resposta audível e congêneres.	X	-	-	X	-	X
+L271	170204	Redação, edição, revisão e congêneres.	X	-	-	X	-	X
+L272	170205	Interpretação, tradução e congêneres.	X	-	-	X	-	X
+L273	170301	Planejamento, coordenação, programação ou organização técnica.	X	-	-	X	-	X
+L274	170302	Planejamento, coordenação, programação ou organização financeira.	X	-	-	X	-	X
+L275	170303	Planejamento, coordenação, programação ou organização administrativa.	X	-	-	X	-	X
+L276	170401	Recrutamento, agenciamento, seleção e colocação de mão-de-obra.	X	-	-	X	-	X
+L277	170501	Fornecimento de mão-de-obra, mesmo em caráter temporário, inclusive de empregados ou trabalhadores, avulsos ou temporários, contratados pelo prestador de serviço.	-	-	X	X	-	X
+L278	170601	Propaganda e publicidade, inclusive promoção de vendas, planejamento de campanhas ou sistemas de publicidade, elaboração de desenhos, textos e demais materiais publicitários.	X	-	-	X	-	X
+L279	170801	Franquia (franchising).	X	-	-	X	-	X
+L280	170901	Perícias, laudos, exames técnicos e análises técnicas.	X	-	-	X	-	X
+L281	171001	Planejamento, organização e administração de feiras, exposições, e congêneres.	-	X	-	X	-	X
+L282	171002	Planejamento, organização e administração de congressos e congêneres.	-	X	-	X	-	X
+L283	171101	Organização de festas e recepções.	X	-	-	X	-	X
+L284	171102	Bufê (exceto o fornecimento de alimentação e bebidas, que fica sujeito ao ICMS).	X	-	-	X	-	X
+L285	171201	Administração em geral, inclusive de bens e negócios de terceiros.	X	-	-	X	-	X
+L286	171301	Leilão e congêneres.	X	-	-	X	-	X
+L287	171401	Advocacia	X	-	-	X	-	X
+L288	171501	Arbitragem de qualquer espécie, inclusive jurídica.	X	-	-	X	-	X
+L289	171601	Auditoria.	X	-	-	X	-	X
+L290	171701	Análise de Organização e Métodos.	X	-	-	X	-	X
+L291	171801	Atuária e cálculos técnicos de qualquer natureza.	X	-	-	X	-	X
+L292	171901	Contabilidade, inclusive serviços técnicos e auxiliares.	X	-	-	X	-	X
+L293	172001	Consultoria e assessoria econômica ou financeira.	X	-	-	X	-	X
+L294	172101	Estatística.	X	-	-	X	-	X
+L295	172201	Cobrança em geral.	X	-	-	X	-	X
+L296	172301	Assessoria, análise, avaliação, atendimento, consulta, cadastro, seleção, gerenciamento de informações, administração de contas a receber ou a pagar e em geral, relacionados a operações de faturização (factoring).	X	-	-	X	-	X
+L297	172401	Apresentação de palestras, conferências, seminários e congêneres.	X	-	-	X	-	X
+L298	172501	Inserção de textos, desenhos e outros materiais de propaganda e publicidade, em qualquer meio (exceto em livros, jornais, periódicos e nas modalidades de serviços de radiodifusão sonora e de sons e imagens de recepção livre e gratuita).	X	-	-	X	-	X
+L299	180101	Serviços de regulação de sinistros vinculados a contratos de seguros e congêneres.	X	-	-	X	-	X
+L300	180102	Serviços de inspeção e avaliação de riscos para cobertura de contratos de seguros e congêneres.	X	-	-	X	-	X
+L301	180103	Serviços de prevenção e gerência de riscos seguráveis e congêneres.	X	-	-	X	-	X
+L302	190101	Serviços de distribuição e venda de bilhetes e demais produtos de loteria, cartões, pules ou cupons de apostas, sorteios, prêmios, inclusive os decorrentes de títulos de capitalização e congêneres.	X	-	-	X	-	X
+L303	190102	Serviços de distribuição e venda de bingos e congêneres.	X	-	-	X	-	X
+L304	200101	Serviços portuários, ferroportuários, utilização de porto, movimentação de passageiros, reboque de embarcações, rebocador escoteiro, atracação, desatracação, serviços de praticagem, capatazia, armazenagem de qualquer natureza, serviços acessórios, movimentação de mercadorias, serviços de apoio marítimo, de movimentação ao largo, serviços de armadores, estiva, conferência, logística e congêneres.	-	(**) X	-	X	-	X
+L305	200201	Serviços aeroportuários, utilização de aeroporto, movimentação de passageiros, armazenagem de qualquer natureza, capatazia, movimentação de aeronaves, serviços de apoio aeroportuários, serviços acessórios, movimentação de mercadorias, logística e congêneres.	-	X	-	X	-	X
+L306	200301	Serviços de terminais rodoviários, ferroviários, metroviários, movimentação de passageiros, mercadorias, inclusive suas operações, logística e congêneres.	-	X	-	X	-	X
+L307	210101	Serviços de registros públicos, cartorários e notariais.	X	-	-	X	-	X
+L308	220101	Serviços de exploração de rodovia mediante cobrança de preço ou pedágio dos usuários, envolvendo execução de serviços de conservação, manutenção, melhoramentos para adequação de capacidade e segurança de trânsito, operação, monitoração, assistência aos usuários e outros serviços definidos em contratos, atos de concessão ou de permissão ou em normas oficiais.	-	X	-	X	-	X
+L309	230101	Serviços de programação e comunicação visual e congêneres.	X	-	-	X	-	X
+L310	230102	Serviços de desenho industrial e congêneres.	X	-	-	X	-	X
+L311	240101	Serviços de chaveiros, confecção de carimbos e congêneres.	X	-	-	X	-	X
+L312	240102	Serviços de placas, sinalização visual, banners, adesivos e congêneres.	X	-	-	X	-	X
+L313	250101	Funerais, inclusive fornecimento de caixão, urna ou esquifes; aluguel de capela; transporte do corpo cadavérico; fornecimento de flores, coroas e outros paramentos; desembaraço de certidão de óbito; fornecimento de véu, essa e outros adornos; embalsamento, embelezamento, conservação ou restauração de cadáveres.	X	-	-	X	-	X
+L314	250201	Translado intramunicipal de corpos e partes de corpos cadavéricos.	X	-	-	X	-	X
+L315	250202	Cremação de corpos e partes de corpos cadavéricos.	X	-	-	X	-	X
+L316	250301	Planos ou convênio funerários.	X	-	-	X	-	X
+L317	250401	Manutenção e conservação de jazigos e cemitérios.	X	-	-	X	-	X
+L318	250501	Cessão de uso de espaços em cemitérios para sepultamento.	X	-	-	X	-	X
+L319	260101	Serviços de coleta, remessa ou entrega de correspondências, documentos, objetos, bens ou valores, inclusive pelos correios e suas agências franqueadas.	X	-	-	X	-	X
+L320	260102	Serviços de courrier e congêneres.	X	-	-	X	-	X
+L321	270101	Serviços de assistência social.	X	-	-	X	-	X
+L322	280101	Serviços de avaliação de bens e serviços de qualquer natureza.	X	-	-	X	-	X
+L323	290101	Serviços de biblioteconomia.	X	-	-	X	-	X
+L324	300101	Serviços de biologia e biotecnologia.	X	-	-	X	-	X
+L325	300102	Serviços de química.	X	-	-	X	-	X
+L326	310101	Serviços técnicos em edificações e congêneres.	X	-	-	X	-	X
+L327	310102	Serviços técnicos em eletrônica, eletrotécnica e congêneres.	X	-	-	X	-	X
+L328	310103	Serviços técnicos em mecânica e congêneres.	X	-	-	X	-	X
+L329	310104	Serviços técnicos em telecomunicações e congêneres.	X	-	-	X	-	X
+L330	320101	Serviços de desenhos técnicos.	X	-	-	X	-	X
+L331	330101	Serviços de desembaraço aduaneiro, comissários, despachantes e congêneres.	X	-	-	X	-	X
+L332	340101	Serviços de investigações particulares, detetives e congêneres.	X	-	-	X	-	X
+L333	350101	Serviços de reportagem e jornalismo.	X	-	-	X	-	X
+L334	350102	Serviços de assessoria de imprensa.	X	-	-	X	-	X
+L335	350103	Serviços de relações públicas.	X	-	-	X	-	X
+L336	360101	Serviços de meteorologia.	X	-	-	X	-	X
+L337	370101	Serviços de artistas, atletas, modelos e manequins.	X	-	-	X	-	X
+L338	380101	Serviços de museologia.	X	-	-	X	-	X
+L339	390101	Serviços de ourivesaria e lapidação (quando o material for fornecido pelo tomador do serviço).	X	-	-	X	-	X
+L340	400101	Obras de arte sob encomenda.	X	-	-	X	-	X
+L341	990101	Serviços sem a incidência de ISSQN e ICMS	-	-	-	-	-	X

@@ -1,0 +1,20 @@
+L1	Tipo de ajuste da Base de Cálculo		Início	Fim	Ajusta Base de Cálculo do ISSQN *	Ajusta Bade de Cálculo do IBS/CBS		Ajusta Receita Bruta do Simples Nacional
+L2							Referência Legal
+L3	Valor Percentual (pAjusteBCISSQN)		2022-01-01 00:00:00		V	X	 -	X
+L4	Valor Monetário (vAjusteBCISSQN)		2022-01-01 00:00:00		V	X	 -	X
+L5	Por Documentos
+L6	Tipo de Ajuste (tpAjusteBC)	Descrição do tipo de ajuste
+L7	2	Materiais	2022-01-01 00:00:00		V	X		X
+L8	5	Repasse consorciado	2022-01-01 00:00:00		V	X		X
+L9	6	Repasse plano de saúde	2022-01-01 00:00:00		V	X		X
+L10	7	Serviços	2022-01-01 00:00:00		V	X		X
+L11	8	Subempreitada de mão de obra	2022-01-01 00:00:00		V	X		X
+L12	9	Profissional parceiro	2022-01-01 00:00:00		V	X		V
+L13	99	Outras deduções exclusivas do ISSQN	2022-01-01 00:00:00		V	X		X
+L14	101	Repasses na intermediação de imóveis (...)	2026-01-01 00:00:00		V	V	LC 214/2025: ⏎ Art. 255, § 3º	V
+L15	102	Repasses na intermediação de agências de turismo	2026-01-01 00:00:00		V	V	LC 214/2025: ⏎ Art. 12, § 2º, inciso IV	V
+L16	103	Reembolso de agência de propaganda e publicidade (...)	2026-01-01 00:00:00		V	V	LC 214/2025: ⏎ Art. 12, § 2º, inciso IV	V
+L17	104	Reembolso de agência de propaganda e publicidade. ref serviço de mídias	2026-01-01 00:00:00		V	V	LC 214/2025: ⏎ Art. 12, § 2º, inciso IV	V
+L18	105	Glosa de Serviços de Saúde	2026-01-01 00:00:00		X	V	LC 214/2025: ⏎ Art. 130, § único	V
+L19	199	Outros reembolsos . (...)	2026-01-01 00:00:00		V	V	 LC 214/2025: ⏎ Art. 12, § 2º, inciso IV	V
+L21	* OBSERVAÇÃO sobre o "Ajuste Base de Cálculo do ISSQN": para que o ajuste tenha repercussão na Base de Cálculo do ISSQN, o Município de incidência desse imposto deverá, via parametrização no Painel Administrativo Municipal, autorizar a dedução conforme o código de tributação parametrizado e o tipo de dedução/redução: por valor percentual, por valor monetário ou por documentos.

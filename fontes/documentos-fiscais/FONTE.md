@@ -61,11 +61,15 @@ SE/CGNFS-e: não confundir com as NTs do Projeto NF-e. Nota: [[df-nfse-cgnfse-no
 | nt-cgnfse-006-v1.00.pdf | NT 006: NFS-e Via, layout 1.00 | 1.00 | 22/01/2026 | 13 | nenhum | `df-nfse-via` |
 | nt-cgnfse-007-v1.0.pdf | NT 007: PIS/COFINS, `indZFMALC`, novos códigos | 1.0 | 07/02/2026 | 10 | nenhum | `df-nfse-layout-ibscbs`, `df-nfse-via` |
 | nt-cgnfse-008-v1.02.pdf | NT 008: DANFSe v2.0 | 1.02 (1.01: 30/06/2026) | 14/07/2026 | 26 | nenhum | `df-nfse-danfse` |
-| nt-cgnfse-009-v1.0.pdf | NT 009: ajustes e novos campos do grupo IBSCBS | 1.0 | 04/06/2026 | 12 | 4 linhas | `df-nfse-layout-ibscbs` |
+| nt-cgnfse-009-v1.01.pdf | NT 009: ajustes e novos campos do grupo IBSCBS (consolida a v1.0) | 1.01 | 11/09/2026 (o portal rotula o arquivo como 01/10/2026; as fontes não explicam a diferença; PDF criado em 14/09/2026) | 23 | ver `-vigente.txt` | `df-nfse-layout-ibscbs`, `df-nfse-comercio-exterior`, `df-nfse-regras-ibscbs-anexo-vi` |
 | nt-cgnfse-010-v1.00.pdf | NT 010: NFS-e Via, layout 1.01 e manifestação | 1.00 | 11/09/2026 | 6 | nenhum | `df-nfse-via` |
 | manual-api-emissor-nfse-2025-10.pdf | Manual dos Contribuintes: API do Emissor Público Nacional | **indeterminada**: o arquivo veio rotulado "v1.2", mas o histórico interno lista só a 1.0 (17/03/2025); PDF criado em 06/10/2025 | 17/03/2025 (histórico); PDF 06/10/2025 | 6 | nenhum | `df-nfse-cgnfse-notas-tecnicas` |
-| anexo-i-leiaute-rn-dps-nfse.xlsx | Anexo I: leiaute e regras de negócio da DPS/NFS-e (5 abas) | **cópia anterior ao RTC**: planilha modificada em 09/09/2025, **sem o grupo `IBSCBS`** (a NT 004 v2.00 cita o Anexo I "v1.00-20251210", que não está nas fontes) | 09/09/2025 | 5 abas | não se aplica | `df-nfse-comercio-exterior` (regras de exportação), `df-nfse-emissao-servico` |
-| anexo-vii-indop-ibscbs-v1.03.00.xlsx | Anexo VII: IndOp_IBSCBS (códigos do `cIndOp`) | 1.03.00 (as NTs citam 1.00.00, 1.01.00 e 1.02.00) | planilha modificada em 15/09/2026 | 1 aba | não se aplica | `df-nfse-indop-ibscbs`, `df-nfse-via` |
+| anexo-i-leiaute-rn-dps-nfse-v1.01-20260209.xlsx | Anexo I: leiaute e regras de negócio da DPS/NFS-e (5 abas) | **v1.01-20260209** (layout **em produção**: NT 004 v2.00 + PIS/COFINS da NT 007; sem as evoluções das NTs 005 e 009) | planilha modificada em 12/02/2026 | 5 abas | não se aplica | `df-nfse-comercio-exterior`, `df-nfse-regras-ibscbs-anexo-vi`, `df-nfse-layout-ibscbs`, `df-nfse-lista-servicos-ctribnac`, `df-nfse-codigos-ibge-localidades` |
+| anexo-ii-eventos-v1.01-20260122.xlsx | Anexo II: leiautes e regras dos eventos de NFS-e (4 abas) | v1.01-20260122 | planilha modificada em 17/01/2026 | 4 abas | não se aplica | `df-nfse-eventos` |
+| anexo-iv-adn-v1.00-20251216.xlsx | Anexo IV: ADN, geração de NSU, distribuição a municípios e contribuintes e recepção de lote (3 abas). **Não** é o "Anexo IV" da NFS-e Via (`LeiautesRN_ADN-SNNFSeVia_V1.00.04`) que a NT 010 cita | v1.00-20251216 | planilha modificada em 10/12/2025 | 3 abas | não se aplica | `df-nfse-adn-distribuicao` |
+| anexo-vi-leiautes-rn-rtc-ibscbs-v1.04.01-nt009-v1.01.xlsx | Anexo VI: LeiautesRN_RTC_IBSCBS (layout da NT 009 v1.01; ao entrar em produção passa a ser o `ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe`) | **v1.04.01** (as NTs citam 1.01.03, 1.02.00, 1.03.00 e 1.04.00 de épocas anteriores) | planilha modificada em 01/10/2026 | 7 abas | não se aplica | `df-nfse-layout-ibscbs`, `df-nfse-regras-ibscbs-anexo-vi`, `df-nfse-comercio-exterior` |
+| anexo-viii-correlacao-nbs-indop-cclasstrib-v1.01.00.xlsx | Anexo VIII: correlação item da lista × NBS × cIndOp × cClassTrib (abas "tabela geral", "REGRA inc. X" e "Planilha2") | v1.01.00 | planilha modificada em 01/04/2026 | 3 abas | não se aplica | `df-nfse-correlacao-nbs-indop` e as seis `df-nfse-correlacao-itens-*` |
+| anexo-vii-indop-ibscbs-v1.03.00.xlsx | Anexo VII: IndOp_IBSCBS (códigos do `cIndOp`) | 1.03.00 (as NTs citam 1.00.00, 1.01.00, 1.02.00 e, a NT 009 v1.01, 1.02.01) | planilha modificada em 15/09/2026 | 1 aba | não se aplica | `df-nfse-indop-ibscbs`, `df-nfse-via` |
 
 A cadeia de substituição entre as NTs está em [[df-nfse-cgnfse-notas-tecnicas]]. **NT 004 (1ª versão, de
 19/08/2025)** e as **NTs 001 e 002** são citadas pelas outras, mas **não estão nas fontes**.
@@ -78,11 +82,22 @@ e `-comentarios.tsv`, `anexo-i-leiaute-dps-nfs-e.tsv`, `anexo-i-rn-dps-nfs-e.tsv
 K = emissores nacionais (recepção da DPS); L = emissores nacionais sob decisão judicial; M = compartilhamento
 com o ADN; N = ADN com decisão judicial; os níveis são 1, 2 e 3.
 
-**Lacunas conhecidas (pedir ao usuário quando necessário):** Anexo VI (LeiautesRN_RTC_IBSCBS, v1.04.00
-da NT 009), Anexo VIII (correlação item da NBS × cIndOp × cClassTrib), Anexos A (municípios IBGE e países
-ISO2) e B (lista nacional de serviços), Anexo IV (leiautes RN ADN da NFS-e Via), Manual para Emissão da
-NFS-e Via v1.02, Resolução CGNFS-e nº 9/2025, Anexo I atual (com os grupos `IBSCBS`), cronograma de
-implantação das NTs 005, 007 e 009 e o ato que fixa as datas do IBS/CBS na NFS-e.
+**Arquivados como superados** (em `historico/`, sem nota): `anexo-i-leiaute-rn-dps-nfse-copia-2025-09-09-superada.xlsx`
+(Anexo I anterior ao RTC, sem o grupo `IBSCBS`; substituído pelo Anexo I v1.01-20260209) e `nt-cgnfse-009-v1.0-superada.pdf`
+(a NT 009 v1.0 de 04/06/2026, substituída pela v1.01).
+
+**Triagem dos arquivos de 16/10/2026 (noite):** (1) Anexo I v1.01-20260209 é o layout em produção e o Anexo VI v1.04.01 é o
+layout da NT 009 v1.01; o que existe só no VI **não tem data de produção nas fontes**; (2) a NT 009 v1.01 cita o Anexo VII
+v1.02.01, e as fontes têm a v1.03.00, mais nova; (3) o Anexo VIII é "norteador" segundo a NT 004 v2.00 e não gera regra de
+negócio nos anexos de regras; (4) o nome "Anexo IV" designa dois documentos (ADN e NFS-e Via): só o do ADN está nas fontes.
+Extrações em `texto/`: `anexo-i-*.tsv`, `anexo-vi-*.tsv`, `anexo-ii-*.tsv`, `anexo-iv-*.tsv` e `anexo-viii-*.tsv`
+(`scripts/xlsx_para_tsv.py`; o Anexo VIII é expandido por `scripts/anexo_viii.py`, e as notas por item são geradas por
+`scripts/gerar_notas_anexo_viii.py`).
+
+**Lacunas conhecidas (pedir ao usuário quando necessário):** Anexo A (países ISO2), Anexo B (lista nacional de serviços
+"V1.01-20260122" citada pelo guia), Anexo IV da NFS-e Via (`LeiautesRN_ADN-SNNFSeVia_V1.00.04`), Manual para Emissão da NFS-e
+Via v1.02, Resolução CGNFS-e nº 9/2025, NTs 001 e 002, cronograma de implantação das NTs 005, 007 e 009 e do Anexo VI e o ato
+que fixa as datas do IBS/CBS na NFS-e. Confirmar no portal se o Anexo VIII v1.01.00 é o mais recente.
 
 ## Tabelas de códigos da NFS-e, tabela do IBGE e arquivos de apoio (2026-10-16, fim da tarde)
 

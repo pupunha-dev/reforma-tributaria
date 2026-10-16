@@ -1,7 +1,7 @@
 ---
 título: NFS-e Nacional — consultar NFS-e emitidas, substituir, cancelar, baixar XML e DANFSe e consulta pública
 dominio: documentos-fiscais
-fontes: Guia do Emissor Público Nacional Web da NFS-e v1.2 (27/07/2026), seções 5 e 9 (p. 100-106 e 115-117); NT 2025.002-RTC v1.52 (referência de hierarquia, ver df-visao-geral-reforma-nfe)
+fontes: Guia do Emissor Público Nacional Web da NFS-e v1.2 (27/07/2026), seções 5 e 9 (p. 100-106 e 115-117); Anexo II v1.01-20260122 (eventos); NT 2025.002-RTC v1.52 (referência de hierarquia, ver df-visao-geral-reforma-nfe)
 vigencia: atual
 texto-base: 2026-10-16
 ---
@@ -44,7 +44,7 @@ cancelamento são **definidos por cada município**.
 ## Cancelamento (item 5.3)
 
 - Cancela a NFS-e por um **Evento de Cancelamento** (XML processado e vinculado à
-  nota), conforme as regras do anexo de leiaute e os leiautes de eventos do Anexo II.
+  nota), conforme as regras do anexo de leiaute e os leiautes de eventos do Anexo II, que estão em [[df-nfse-eventos]] (motivos, quem pode registrar, ordem entre eventos e rejeições).
 - O sistema mostra, recuperados: chave de acesso, número e série da DPS, número da
   NFS-e, data de geração, valor, município gerador, "emitido para" e serviço. O
   emitente informa o **motivo do cancelamento** (lista) e a **justificativa**

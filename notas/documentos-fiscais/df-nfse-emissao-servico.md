@@ -1,7 +1,7 @@
 ---
 título: NFS-e Nacional — emissão completa, passo 2 (Serviço): local, código de tributação, NBS, indicador da operação, imóveis, eventos, comércio exterior e tipo de operação
 dominio: documentos-fiscais
-fontes: Guia do Emissor Público Nacional Web da NFS-e v1.2 (27/07/2026), seção 4.1.2 (p. 43-66); Anexo VII v1.03.00 e Anexo I (ver df-nfse-indop-ibscbs e df-nfse-comercio-exterior); LC 214/2025, art. 254 (conferido em fontes/reforma/texto); NT 2025.002-RTC v1.52 (referência para CST/cClassTrib, ver df-cst-cclasstrib)
+fontes: Guia do Emissor Público Nacional Web da NFS-e v1.2 (27/07/2026), seção 4.1.2 (p. 43-66); Anexo VII v1.03.00, Anexo I v1.01-20260209 e Anexo VIII v1.01.00 (ver df-nfse-indop-ibscbs, df-nfse-comercio-exterior e df-nfse-correlacao-nbs-indop); NT CGNFS-e 009 v1.01 (11/09/2026); LC 214/2025, art. 254 (conferido em fontes/reforma/texto); NT 2025.002-RTC v1.52 (referência para CST/cClassTrib, ver df-cst-cclasstrib)
 vigencia: com-mudanca-programada
 texto-base: 2026-10-16
 ---
@@ -16,8 +16,9 @@ o **Código de Tributação Nacional** (a "gaveta" do serviço na lista nacional
 da operação**. Dependendo da gaveta escolhida, a tela abre blocos extras: imóvel ou
 obra, evento, comércio exterior.
 
-> Campos e regras de negócio: planilhas de leiaute da DPS (`ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe`),
-> que **não estão nas fontes**. O ISSQN (quem cobra, alíquota, benefício) é matéria
+> Campos e regras de negócio: planilhas de leiaute da DPS (`ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe`): o
+> Anexo I v1.01 (em produção) e o Anexo VI v1.04.01 (NT 009 v1.01) **estão nas fontes**
+> ([[df-nfse-layout-ibscbs]], [[df-nfse-regras-ibscbs-anexo-vi]]). O ISSQN (quem cobra, alíquota, benefício) é matéria
 > **municipal e fora do escopo**; aqui só se descreve como a tela se comporta.
 
 ## Local da prestação
@@ -34,8 +35,8 @@ obra, evento, comércio exterior.
 ## Código de Tributação Nacional e código complementar
 
 - **Código de Tributação Nacional:** obrigatório; escolhido na lista nacional de
-  serviços (Anexo B; o guia cita o arquivo "..._V1.01-20260122"), com busca a partir
-  de 3 caracteres. Os 335 códigos da lista publicada no portal e as regras do documento que
+  serviços (Anexo B; o guia cita o arquivo "..._V1.01-20260122", que **não está nas fontes**), com
+  busca a partir de 3 caracteres. Os 335 códigos da lista publicada no portal e as regras do documento que
   dependem do código (obra, evento, águas marítimas, não incidência) estão em
   [[df-nfse-lista-servicos-ctribnac]]. Alguns campos só aparecem conforme o código escolhido.
 - **Código complementar municipal:** obrigatório quando o município tiver criado
@@ -66,8 +67,10 @@ obra, evento, comércio exterior.
 - **Código indicador da operação** (`IndOp_IBSCBS`, `cIndOp` no XML): **obrigatório nas
   emissões com destaque de IBS/CBS**; escolhido na lista do **Anexo VII** do leiaute, cujos
   **40 códigos** (versão 1.03.00) estão em [[df-nfse-indop-ibscbs]]. O guia só cita que os
-  códigos **020101, 020201 e 020301** ligam o serviço a **imóveis**. A correlação do item da NBS com o
-  código (Anexo VIII) **não está nas fontes**.
+  códigos **020101, 020201 e 020301** ligam o serviço a **imóveis** (o Anexo VI inclui também 020202 e
+  020401 na regra do grupo de imóvel). A correlação do item da lista e da NBS com o código (Anexo
+  VIII v1.01.00) está em [[df-nfse-correlacao-nbs-indop]] e nas notas por item; ela é "norteador" e
+  não escolhe o código por você.
 - **Descrição do serviço:** obrigatória, detalhada.
 
 ## Imóvel e obra
@@ -79,8 +82,8 @@ obra, evento, comércio exterior.
   código postal, estado/região) e **inscrição imobiliária fiscal** (código da
   prefeitura para identificar a obra ou recolher IPTU).
 - **Informações para obra:** no lugar do bloco de imóvel, quando o código de
-  tributação for dos subitens **07.02** e **07.05** (segundo o guia; o Anexo I, regra E0372,
-  permite o grupo de obra em 11 códigos, e a divergência está em
+  tributação for dos subitens **07.02** e **07.05** (segundo o guia; o Anexo I v1.01, regra E0372,
+  permite o grupo de obra em 13 códigos, e a divergência está em
   [[df-nfse-lista-servicos-ctribnac]]). Escolhe-se informar o **código
   da obra** (só no Brasil), o **CIB** ou o **endereço**, com as mesmas regras de CEP
   e de exterior.
@@ -92,6 +95,9 @@ inicial e final (obrigatórias), descrição e a forma de identificar o local: o
 **identificador** da atividade de evento determinado pela Administração Tributária
 (opcional, só no Brasil) ou o **endereço** (Brasil: CEP do município da prestação;
 exterior: campos do endereço estrangeiro).
+
+> A NT CGNFS-e 009 v1.01 (sem data de produção nas fontes) altera o grupo de evento para os subitens
+> 12.13 e 17.10 (`atvEvento` e `cMun`); ver [[df-nfse-layout-ibscbs]].
 
 ## Comércio exterior
 
@@ -125,7 +131,7 @@ Campos pedidos no bloco:
 | Campo | Regra |
 |---|---|
 | Modo de prestação | obrigatório: transfronteiriço, consumo no Brasil, movimento temporário de pessoas físicas ou consumo no exterior |
-| Vínculo entre as partes | obrigatório: sem vínculo, controlada, controladora, coligada, matriz, outro vínculo ou desconhecido (⚠️ o Anexo I não tem "desconhecido" e tem "filial ou sucursal", que o guia não lista: [[df-nfse-comercio-exterior]]) |
+| Vínculo entre as partes | obrigatório: sem vínculo, controlada, controladora, coligada, matriz, outro vínculo ou desconhecido (o Anexo I v1.01 tem também "filial ou sucursal", que o guia não lista, e "desconhecido" é o valor 9: [[df-nfse-comercio-exterior]]) |
 | Moeda | código de 3 dígitos numéricos da tabela do Banco Central |
 | Valor do serviço em moeda estrangeira | obrigatório |
 | Mecanismo de apoio/fomento do prestador e do tomador | obrigatório (os dois, na tela de quem emite); listas (por exemplo ACC, ACE, BNDES-Exim, FGE, PROEX, RECINE, REIDI, ZPE) com a opção "Nenhum". O Anexo I diz que cada campo é "disponível" na nota do respectivo lado: ⚠️ [[df-nfse-comercio-exterior]] |

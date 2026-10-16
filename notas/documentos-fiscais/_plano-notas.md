@@ -107,3 +107,27 @@ Arquivos recebidos em `fontes/assets/` e tratados assim:
 | `RELATORIO_DTB_BRASIL_{MUNICIPIO,DISTRITO,SUBDISTRITO}.xls` e as planilhas "novos 2023" (IBGE, data-base 22/11/2024) | tabela grande (5.570 municípios): vira fonte consultável (TSV) e script `scripts/consulta_ibge.py`; a nota explica o uso | df-nfse-codigos-ibge-localidades.md |
 | `NT_2025.002_v1.33_RTC_NF-e_IBS_CBS_IS.pdf` (12/2025) | versão **superada** da NT 2025.002 (vigente: v1.52); arquivada em `fontes/documentos-fiscais/historico/`, sem nota | — |
 | `reforma_tributaria_contabilin_2026-10-16.csv` (origem não oficial) | correlação item da LC 116 × NBS × cIndOp × cClassTrib; **reprovado na conferência** (códigos cIndOp inexistentes e textos que contradizem o Anexo VII); arquivado em `referencias-nao-oficiais/`, **não usado nas notas** | pendência F15 segue aberta |
+
+## Anexos novos da NFS-e Nacional (2026-10-16, noite)
+
+Arquivos recebidos em `/assets` e tratados assim (detalhe e vereditos em `fontes/documentos-fiscais/FONTE.md`):
+Anexo I v1.01-20260209, Anexo II v1.01-20260122, Anexo IV v1.00-20251216 (ADN), Anexo VI v1.04.01 (NT 009 v1.01),
+Anexo VIII v1.01.00 e NT CGNFS-e 009 v1.01 (PDF). Nível de NT. Dez notas novas, prefixo `df-nfse-`:
+
+| Nota | Fonte (anexo e abas) | Vigência prevista | Conteúdo |
+|---|---|---|---|
+| df-nfse-regras-ibscbs-anexo-vi.md | Anexo I v1.01 e Anexo VI v1.04.01 (aba `RN DPS_NFS-e`) | com-mudanca-programada | Regras de rejeição do IBS/CBS: calculadora, tomador/destinatário, imóvel, bens móveis, fórmulas de `vBC` e `vTotNF`, o que é só do Anexo VI |
+| df-nfse-eventos.md | Anexo II v1.01-20260122 (abas de tipos, leiaute, RN e `RN EVENTOSxEVENTOS`) | atual | 16 tipos de evento, leiaute do pedido, motivos, ordem entre eventos, rejeições |
+| df-nfse-adn-distribuicao.md | Anexo IV v1.00-20251216 (abas `ADN-GERACAO_NSU_DFe`, `ADN-RN_DISTRIB_MUN_CONTRIB`, `RN_RECEPCAO_LOTE_DF-e`) | atual | Em que filas o NSU é gerado, consultas por NSU e chave, rejeições de certificado e de lote |
+| df-nfse-correlacao-nbs-indop.md | Anexo VIII v1.01.00 (abas "tabela geral" e "REGRA inc. X") | com-mudanca-programada | Como ler a correlação item × NBS × cIndOp × cClassTrib, regra do inciso X, legenda |
+| df-nfse-correlacao-itens-01-06.md | Anexo VIII (gerada por `scripts/gerar_notas_anexo_viii.py`) | com-mudanca-programada | Tabelas por item da LC 116, itens 01 a 06 |
+| df-nfse-correlacao-itens-07.md | idem | com-mudanca-programada | Item 07 (construção civil, obras e engenharia) |
+| df-nfse-correlacao-itens-08-13.md | idem | com-mudanca-programada | Itens 08 a 13 |
+| df-nfse-correlacao-itens-14-16.md | idem | com-mudanca-programada | Itens 14 a 16 |
+| df-nfse-correlacao-itens-17-40.md | idem | com-mudanca-programada | Itens 17 a 40 |
+| df-nfse-correlacao-itens-99.md | idem | com-mudanca-programada | Item 99 (códigos nacionais de uso especial) |
+
+Notas antigas revisadas: `df-nfse-layout-ibscbs` (NT 009 v1.01, Anexo I v1.01 × Anexo VI), `df-nfse-comercio-exterior`,
+`df-nfse-cgnfse-notas-tecnicas` (cronologia e quadro de anexos), `df-nfse-indop-ibscbs`, `df-nfse-lista-servicos-ctribnac`
+(três códigos que só o Anexo I tem), `df-nfse-emissao-servico`, `df-nfse-emissao-pessoas`, `df-nfse-via`,
+`df-nfse-codigos-ibge-localidades`, `df-nfse-consulta-cancelamento-substituicao` e `df-nfse-notas-recebidas-manifestacao`.

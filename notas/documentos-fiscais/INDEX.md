@@ -5,7 +5,7 @@ título: Índice — Documentos fiscais eletrônicos (Notas Técnicas NF-e)
 # Índice de notas — documentos-fiscais
 
 Domínio `documentos-fiscais`. Prefixo `df-`. Fontes: Notas Técnicas do Projeto
-NF-e, o Informe Técnico 2025.002, as tabelas do Portal dos DF-e, o Guia do Emissor Público Nacional Web da NFS-e v1.2 e as Notas Técnicas da SE/CGNFS-e 003 a 010 com os Anexos I e VII, o manual da API e a lista nacional de serviços da NFS-e, e a tabela de municípios do IBGE (ver [FONTE.md](../../fontes/documentos-fiscais/FONTE.md)), com a versão de
+NF-e, o Informe Técnico 2025.002, as tabelas do Portal dos DF-e, o Guia do Emissor Público Nacional Web da NFS-e v1.2 e as Notas Técnicas da SE/CGNFS-e 003 a 010 com os Anexos I, II, IV (ADN), VI, VII e VIII, o manual da API e a lista nacional de serviços da NFS-e, e a tabela de municípios do IBGE (ver [FONTE.md](../../fontes/documentos-fiscais/FONTE.md)), com a versão de
 cada uma no frontmatter das notas. Data-base: 07/10/2026 (NF-e) e 16/10/2026 (NFS-e).
 
 **Hierarquia:** lei (LC 214/2025, LC 123/2006) > resolução/ato infralegal > nota
@@ -64,7 +64,7 @@ Nível de **NT** (documentação técnica nacional): acima do guia, abaixo da le
 regulamentos. A mais nova que altera um campo prevalece; o cronograma de produção de várias NTs
 **não está nas fontes**.
 
-- [[df-nfse-cgnfse-notas-tecnicas]] — **comece por aqui** nas perguntas sobre NT da NFS-e: cronologia das NTs 003 a 010, qual substitui qual, o que está em produção (05/01/2026, 09/02/2026), mapa dos anexos (I, VI, VII, VIII) e API do emissor nacional (POST /nfse, DPS, eventos, produção restrita)
+- [[df-nfse-cgnfse-notas-tecnicas]] — **comece por aqui** nas perguntas sobre NT da NFS-e: cronologia das NTs 003 a 010, qual substitui qual, o que está em produção (05/01/2026, 09/02/2026), mapa dos anexos (I v1.01, II, IV, VI, VII e VIII, com as versões nas fontes) e API do emissor nacional (POST /nfse, DPS, eventos, produção restrita)
 - [[df-nfse-layout-ibscbs]] — campos e fórmulas do grupo IBSCBS na DPS e na NFS-e: obrigatoriedade suspensa, vBC, alíquotas efetivas, vTotNF, PIS/COFINS (NT 007: significado de cada CST, como 06 alíquota zero, e tpRetPisCofins), notas de ajuste, Simples, imóvel, bens móveis, pagamento vinculado, CNPJ alfanumérico (NTs 004, 005, 007, 009)
 - [[df-nfse-comercio-exterior]] — exportação de serviço na NFS-e: grupo comExt (códigos de vínculo, moeda, mecanismos de apoio, DI/RE), NIF/cNaoNIF, rejeições E0330 a E0356 e E0590, as 112 combinações do Anexo I
 - [[df-nfse-indop-ibscbs]] — os 40 códigos do indicador da operação cIndOp (Anexo VII v1.03.00), como ler a tabela e o que ela não responde
@@ -72,3 +72,8 @@ regulamentos. A mais nova que altera um campo prevalece; o cronograma de produç
 - [[df-nfse-via]] — NFS-e Via (exploração de via/pedágio; NTs 006 e 010): layout, campos fixos (220101, 106042100, CST 000, cClassTrib 000002), eventos de cancelamento e de manifestação
 - [[df-nfse-lista-servicos-ctribnac]] — os 335 códigos de tributação nacional (cTribNac, 6 dígitos) da lista nacional de serviços, e as regras do documento que dependem do código (obra E0372, evento E0392, águas marítimas E1402, não incidência 990101, rodovia 220101)
 - [[df-nfse-codigos-ibge-localidades]] — códigos IBGE de 7 dígitos de município na DPS (cLocEmi, cLocPrestacao `0000000` águas marítimas, cLocIncid, cMun), o que a tabela do IBGE (DTB 22/11/2024) contém e como consultar (script)
+- [[df-nfse-regras-ibscbs-anexo-vi]] — regras de rejeição do IBS/CBS na DPS e na NFS-e (Anexo I v1.01 em produção × Anexo VI v1.04.01 da NT 009): papel da calculadora, quando exigir tomador/destinatário com CNPJ/CPF e endereço, imóvel (E0931/E0932/E0928), locação, bens móveis (99.04.01), fórmulas de vBC e vTotNF, o que é só do Anexo VI
+- [[df-nfse-eventos]] — os 16 tipos de evento da NFS-e (Anexo II v1.01): códigos, quem registra, leiaute do pedido, motivos de cancelamento/substituição/rejeição, ordem entre eventos (bloqueio e desbloqueio por ofício) e rejeições (E0xxx/E1xxx/E2xxx)
+- [[df-nfse-adn-distribuicao]] — distribuição de DF-e pelo ADN (Anexo IV v1.00-20251216): em quais filas o NSU é gerado para município, RFB e contribuintes, consulta por NSU/chave e rejeições na recepção de lote
+- [[df-nfse-correlacao-nbs-indop]] — Anexo VIII v1.01.00: como ler a correlação item da lista × NBS × cIndOp × cClassTrib, regra do inciso X (códigos 1001xx/1003xx/1005xx), legenda dos 28 cClassTrib
+- [[df-nfse-correlacao-itens-01-06]], [[df-nfse-correlacao-itens-07]], [[df-nfse-correlacao-itens-08-13]], [[df-nfse-correlacao-itens-14-16]], [[df-nfse-correlacao-itens-17-40]], [[df-nfse-correlacao-itens-99]] — as tabelas do Anexo VIII por item da LC 116 (NBS, cIndOp e cClassTrib de cada NBS); abra a que contém o item perguntado

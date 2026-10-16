@@ -1,0 +1,117 @@
+L1	C E N Á R I O S	ITENS DECLARADOS PELO EMITENTE DA DPS						CONCEITO DE  ⏎ COMÉRCIO EXTERIOR  ⏎ (Exportação) ⏎ PARA  ⏎ EMISSÃO DE NFS-e		COMPORTAMENTO DO SISTEMA APÓS A VALIDAÇÃO DOS  ⏎ ITENS DECLARADOS PELO EMITENTE DA DPS
+L2		LOCAIS			SUBITEM ⏎ DA LISTA	RESPOSTA DO EMITENTE PARA A TRIBUTAÇÃO DO ISSQN (TribISSQN)				EXIBE MENSAGEM DE ERRO OU AVISO?	LOCAL DE ⏎ INCIDÊNCIA	INFORMAÇÕES ESPECÍFICAS  ⏎ RELATIVAS A COMEX
+L3		Endereço ⏎ Tomador	Endereço ⏎ Intermediário	Local da ⏎ Prestação do ⏎ Serviço (LP)	Qual seria o local de Incidência ⏎ do ISSQN conforme subitem da lista de serviço informado	O serviço prestado é um caso de: imunidade, exportação de serviço ou  ⏎ não incidência  ⏎ do ISSQN?	Tributação do ISSQN ⏎	ISSQN	RFB		Para cada cenário define a existência ou não e qual o município de incidência?	Para cada cenário, o preenchimento das seguintes informações deve ser: ⏎  ⏎ OBRIGATÓRIO (SIM) ⏎ NÃO PERMITIDO (NÃO) ⏎ OPCIONAL (Opcional) ⏎  CENÁRIO INEXISTENTE (X) ⏎  ⏎ Obs: Nos cenários inexistentes os campos NBS, País Resultado (Exportação) e Grupo Comex não serão validados pois o sistema retorna a mensagem de erro correspondente.
+L4								EXPORTAÇÃO ⏎ Local da Prestação ⏎ no Exterior	AO MENOS 1 DOS 3 LOCAIS NO EXTERIOR
+L5								É exportação ⏎ para o ISSQN?	É exportação ⏎ para a RFB?			NBS	País Resultado ⏎ (Exportação)	Grupo ⏎ Comex
+L6	1	Brasil	Brasil	Brasil	EP	Sim	Imunidade	-	NÃO	-	-	Opcional	NÃO	NÃO
+L7	2	Brasil	Brasil	Brasil	EP	Sim	Exportação de Serviço	NÃO	NÃO	-	-	SIM	SIM	SIM
+L8	3	Brasil	Brasil	Brasil	EP	Sim	Não Incidência	-	NÃO	MENSAGEM ERRO 3	X	X	X	X
+L9	4	Brasil	Brasil	Brasil	EP	Não	Operação Tributável	NÃO	NÃO	-	Município do EP	Opcional	NÃO	NÃO
+L10	5	Brasil	Brasil	Brasil	ET	Sim	Imunidade	-	NÃO	-	-	Opcional	NÃO	NÃO
+L11	6	Brasil	Brasil	Brasil	ET	Sim	Exportação de Serviço	NÃO	NÃO	MENSAGEM ERRO 1	X	X	X	X
+L12	7	Brasil	Brasil	Brasil	ET	Sim	Não Incidência	-	NÃO	MENSAGEM ERRO 3	X	X	X	X
+L13	8	Brasil	Brasil	Brasil	ET	Não	Operação Tributável	NÃO	NÃO	-	Município do ET	Opcional	NÃO	NÃO
+L14	9	Brasil	Brasil	Brasil	LP	Sim	Imunidade	-	NÃO	-	-	Opcional	NÃO	NÃO
+L15	10	Brasil	Brasil	Brasil	LP	Sim	Exportação de Serviço	NÃO	NÃO	MENSAGEM ERRO 1	X	X	X	X
+L16	11	Brasil	Brasil	Brasil	LP	Sim	Não Incidência	-	NÃO	MENSAGEM ERRO 3	X	X	X	X
+L17	12	Brasil	Brasil	Brasil	LP	Não	Operação Tributável	NÃO	NÃO	-	Município do LP	Opcional	NÃO	NÃO
+L18	13	Brasil	Brasil	Brasil	99.01.01	Sim	Não Incidência	-	NÃO	-	-	Opcional	NÃO	NÃO
+L19	14	Brasil	Brasil	Brasil	Qq.Serv.Param.Mun.Incid.	Sim	Não Incidência	-	NÃO	-	-	Opcional	NÃO	NÃO
+L20	15	Brasil	Brasil	Ext	EP	Sim	Imunidade	-	SIM	-	-	SIM	NÃO	SIM
+L21	16	Brasil	Brasil	Ext	EP	Sim	Exportação de Serviço	SIM	SIM	-	-	SIM	NÃO	SIM
+L22	17	Brasil	Brasil	Ext	EP	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L23	18	Brasil	Brasil	Ext	EP	Não	Operação Tributável	SIM	SIM	-	Município do EP	SIM	NÃO	SIM
+L24	19	Brasil	Brasil	Ext	ET	Sim	Imunidade	-	SIM	-	-	SIM	NÃO	SIM
+L25	20	Brasil	Brasil	Ext	ET	Sim	Exportação de Serviço	SIM	SIM	-	-	SIM	NÃO	SIM
+L26	21	Brasil	Brasil	Ext	ET	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L27	22	Brasil	Brasil	Ext	ET	Não	Operação Tributável	SIM	SIM	-	Município do ET	SIM	NÃO	SIM
+L28	23	Brasil	Brasil	Ext	LP	Sim	Imunidade	-	SIM	-	-	SIM	NÃO	SIM
+L29	24	Brasil	Brasil	Ext	LP	Sim	Exportação de Serviço	SIM	SIM	-	-	SIM	NÃO	SIM
+L30	25	Brasil	Brasil	Ext	LP	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L31	26	Brasil	Brasil	Ext	LP	Não	Operação Tributável	SIM	SIM	MENSAGEM ERRO 2	X	X	X	X
+L32	27	Brasil	Brasil	Ext	99.01.01	Sim	Não Incidência	-	SIM	-	-	SIM	NÃO	SIM
+L33	28	Brasil	Brasil	Ext	Qq.Serv.Param.Mun.Incid.	Sim	Não Incidência	-	SIM	-	-	SIM	NÃO	SIM
+L34	29	Brasil	Ext	Brasil	EP	Sim	Imunidade	-	SIM	-	-	SIM	NÃO	SIM
+L35	30	Brasil	Ext	Brasil	EP	Sim	Exportação de Serviço	NÃO	SIM	-	-	SIM	SIM	SIM
+L36	31	Brasil	Ext	Brasil	EP	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L37	32	Brasil	Ext	Brasil	EP	Não	Operação Tributável	NÃO	SIM	-	Município do EP	SIM	NÃO	SIM
+L38	33	Brasil	Ext	Brasil	ET	Sim	Imunidade	-	SIM	-	-	SIM	-	SIM
+L39	34	Brasil	Ext	Brasil	ET	Sim	Exportação de Serviço	NÃO	SIM	MENSAGEM ERRO 1	X	X	X	X
+L40	35	Brasil	Ext	Brasil	ET	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L41	36	Brasil	Ext	Brasil	ET	Não	Operação Tributável	NÃO	SIM	-	Município do ET	SIM	NÃO	SIM
+L42	37	Brasil	Ext	Brasil	LP	Sim	Imunidade	-	SIM	-	-	SIM	-	SIM
+L43	38	Brasil	Ext	Brasil	LP	Sim	Exportação de Serviço	NÃO	SIM	MENSAGEM ERRO 1	X	X	X	X
+L44	39	Brasil	Ext	Brasil	LP	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L45	40	Brasil	Ext	Brasil	LP	Não	Operação Tributável	NÃO	SIM	-	Município do LP	SIM	NÃO	SIM
+L46	41	Brasil	Ext	Brasil	99.01.01	Sim	Não Incidência	-	SIM	-	-	SIM	NÃO	SIM
+L47	42	Brasil	Ext	Brasil	Qq.Serv.Param.Mun.Incid.	Sim	Não Incidência	-	SIM	-	-	SIM	NÃO	SIM
+L48	43	Brasil	Ext	Ext	EP	Sim	Imunidade	-	SIM	-	-	SIM	NÃO	SIM
+L49	44	Brasil	Ext	Ext	EP	Sim	Exportação de Serviço	SIM	SIM	-	-	SIM	NÃO	SIM
+L50	45	Brasil	Ext	Ext	EP	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L51	46	Brasil	Ext	Ext	EP	Não	Operação Tributável	SIM	SIM	-	Município do EP	SIM	NÃO	SIM
+L52	47	Brasil	Ext	Ext	ET	Sim	Imunidade	-	SIM	-	-	SIM	NÃO	SIM
+L53	48	Brasil	Ext	Ext	ET	Sim	Exportação de Serviço	SIM	SIM	-	-	SIM	NÃO	SIM
+L54	49	Brasil	Ext	Ext	ET	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L55	50	Brasil	Ext	Ext	ET	Não	Operação Tributável	SIM	SIM	-	Município do ET	SIM	NÃO	SIM
+L56	51	Brasil	Ext	Ext	LP	Sim	Imunidade	-	SIM	-	-	SIM	NÃO	SIM
+L57	52	Brasil	Ext	Ext	LP	Sim	Exportação de Serviço	SIM	SIM	-	-	SIM	NÃO	SIM
+L58	53	Brasil	Ext	Ext	LP	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L59	54	Brasil	Ext	Ext	LP	Não	Operação Tributável	SIM	SIM	MENSAGEM ERRO 2	X	X	X	X
+L60	55	Brasil	Ext	Ext	99.01.01	Sim	Não Incidência	-	SIM	-	-	SIM	NÃO	SIM
+L61	56	Brasil	Ext	Ext	Param.Mun.Incid.	Sim	Não Incidência	-	SIM	-	-	SIM	NÃO	SIM
+L62	57	Ext	Brasil	Brasil	EP	Sim	Imunidade	-	SIM	-	-	SIM	NÃO	SIM
+L63	58	Ext	Brasil	Brasil	EP	Sim	Exportação de Serviço	NÃO	SIM	-	-	SIM	SIM	SIM
+L64	59	Ext	Brasil	Brasil	EP	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L65	60	Ext	Brasil	Brasil	EP	Não	Operação Tributável	NÃO	SIM	-	Município do EP	SIM	NÃO	SIM
+L66	61	Ext	Brasil	Brasil	ET	Sim	Imunidade	-	SIM	-	-	SIM	NÃO	SIM
+L67	62	Ext	Brasil	Brasil	ET	Sim	Exportação de Serviço	NÃO	SIM	-	-	SIM	SIM	SIM
+L68	63	Ext	Brasil	Brasil	ET	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L69	64	Ext	Brasil	Brasil	ET	Não	Operação Tributável	NÃO	SIM	MENSAGEM AVISO 1	Município do LP	SIM	NÃO	SIM
+L70	65	Ext	Brasil	Brasil	LP	Sim	Imunidade	-	SIM	-	-	SIM	NÃO	SIM
+L71	66	Ext	Brasil	Brasil	LP	Sim	Exportação de Serviço	NÃO	SIM	MENSAGEM ERRO 1	X	X	X	X
+L72	67	Ext	Brasil	Brasil	LP	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L73	68	Ext	Brasil	Brasil	LP	Não	Operação Tributável	NÃO	SIM	-	Município do LP	SIM	SIM	SIM
+L74	69	Ext	Brasil	Brasil	99.01.01	Sim	Não Incidência	-	SIM	-	-	SIM	NÃO	SIM
+L75	70	Ext	Brasil	Brasil	Qq.Serv.Param.Mun.Incid.	Sim	Não Incidência	-	SIM	-	-	SIM	NÃO	SIM
+L76	71	Ext	Ext	Brasil	EP	Sim	Imunidade	-	SIM	-	-	SIM	NÃO	SIM
+L77	72	Ext	Ext	Brasil	EP	Sim	Exportação de Serviço	NÃO	SIM	-	-	SIM	SIM	SIM
+L78	73	Ext	Ext	Brasil	EP	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L79	74	Ext	Ext	Brasil	EP	Não	Operação Tributável	NÃO	SIM	-	Município do EP	SIM	NÃO	SIM
+L80	75	Ext	Ext	Brasil	ET	Sim	Imunidade	-	SIM	-	-	SIM	NÃO	SIM
+L81	76	Ext	Ext	Brasil	ET	Sim	Exportação de Serviço	NÃO	SIM	-	-	SIM	SIM	SIM
+L82	77	Ext	Ext	Brasil	ET	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L83	78	Ext	Ext	Brasil	ET	Não	Operação Tributável	NÃO	SIM	MENSAGEM AVISO 1	Município do LP	SIM	NÃO	SIM
+L84	79	Ext	Ext	Brasil	LP	Sim	Imunidade	-	SIM	-	-	SIM	NÃO	SIM
+L85	80	Ext	Ext	Brasil	LP	Sim	Exportação de Serviço	NÃO	SIM	MENSAGEM ERRO 1	X	X	X	X
+L86	81	Ext	Ext	Brasil	LP	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L87	82	Ext	Ext	Brasil	LP	Não	Operação Tributável	NÃO	SIM	-	Município do LP	SIM	NÃO	SIM
+L88	83	Ext	Ext	Brasil	99.01.01	Sim	Não Incidência	-	SIM	-	-	SIM	NÃO	SIM
+L89	84	Ext	Ext	Brasil	Qq.Serv.Param.Mun.Incid.	Sim	Não Incidência	-	SIM	-	-	SIM	NÃO	SIM
+L90	85	Ext	Brasil	Ext	EP	Sim	Imunidade	-	SIM	-	-	SIM	NÃO	SIM
+L91	86	Ext	Brasil	Ext	EP	Sim	Exportação de Serviço	SIM	SIM	-	-	SIM	NÃO	SIM
+L92	87	Ext	Brasil	Ext	EP	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L93	88	Ext	Brasil	Ext	EP	Não	Operação Tributável	SIM	SIM	-	Município do EP	SIM	NÃO	SIM
+L94	89	Ext	Brasil	Ext	ET	Sim	Imunidade	-	SIM	-	-	SIM	NÃO	SIM
+L95	90	Ext	Brasil	Ext	ET	Sim	Exportação de Serviço	SIM	SIM	-	-	SIM	NÃO	SIM
+L96	91	Ext	Brasil	Ext	ET	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L97	92	Ext	Brasil	Ext	ET	Não	Operação Tributável	SIM	SIM	MENSAGEM ERRO 2	X	X	X	X
+L98	93	Ext	Brasil	Ext	LP	Sim	Imunidade	-	SIM	-	-	SIM	NÃO	SIM
+L99	94	Ext	Brasil	Ext	LP	Sim	Exportação de Serviço	SIM	SIM	-	-	SIM	NÃO	SIM
+L100	95	Ext	Brasil	Ext	LP	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L101	96	Ext	Brasil	Ext	LP	Não	Operação Tributável	SIM	SIM	MENSAGEM ERRO 2	X	X	X	X
+L102	97	Ext	Brasil	Ext	99.01.01	Sim	Não Incidência	-	SIM	-	-	SIM	NÃO	SIM
+L103	98	Ext	Brasil	Ext	Qq.Serv.Param.Mun.Incid.	Sim	Não Incidência	-	SIM	-	-	SIM	NÃO	SIM
+L104	99	Ext	Ext	Ext	EP	Sim	Imunidade	-	SIM	-	-	SIM	NÃO	SIM
+L105	100	Ext	Ext	Ext	EP	Sim	Exportação de Serviço	SIM	SIM	-	-	SIM	NÃO	SIM
+L106	101	Ext	Ext	Ext	EP	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L107	102	Ext	Ext	Ext	EP	Não	Operação Tributável	SIM	SIM	-	Município do EP	SIM	NÃO	SIM
+L108	103	Ext	Ext	Ext	ET	Sim	Imunidade	-	SIM	-	-	SIM	NÃO	SIM
+L109	104	Ext	Ext	Ext	ET	Sim	Exportação de Serviço	SIM	SIM	-	-	SIM	NÃO	SIM
+L110	105	Ext	Ext	Ext	ET	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L111	106	Ext	Ext	Ext	ET	Não	Operação Tributável	SIM	SIM	MENSAGEM ERRO 2	X	X	X	X
+L112	107	Ext	Ext	Ext	LP	Sim	Imunidade	-	SIM	-	-	SIM	NÃO	SIM
+L113	108	Ext	Ext	Ext	LP	Sim	Exportação de Serviço	SIM	SIM	-	-	SIM	NÃO	SIM
+L114	109	Ext	Ext	Ext	LP	Sim	Não Incidência	-	SIM	MENSAGEM ERRO 3	X	X	X	X
+L115	110	Ext	Ext	Ext	LP	Não	Operação Tributável	SIM	SIM	MENSAGEM ERRO 2	X	X	X	X
+L116	111	Ext	Ext	Ext	99.01.01	Sim	Não Incidência	SIM	SIM	-	-	SIM	NÃO	SIM
+L117	112	Ext	Brasil	Ext	Qq.Serv.Param.Mun.Incid.	Sim	Não Incidência	-	SIM	-	-	SIM	NÃO	SIM

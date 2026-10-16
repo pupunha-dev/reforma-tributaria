@@ -1,0 +1,29 @@
+L1	#	REGRAS DE NEGÓCIO		APLIC.	EFEITO	CÓD. ERRO	MSG. ERRO	OBSERVAÇÕES DE NEGÓCIO
+L2	=ROW(A1)	Validação da Distribuição para NSU Geral		-	-	-	-	-
+L3	=ROW(A2)	CNPJ do transmissor deve estar cadastrado para um Órgão no convênio do sistema nacional.		Obrig.	Rej.	E2301	CNPJ não cadastrado.	-
+L4	=ROW(A3)	Distriuição a partir de um NSU		-	-	-	-	-
+L5	=ROW(A4)	Verificar se existem DF-e a partir do NSU informado pelo o Órgão solicitante.		Obrig.	Rej.	E2305	Nenhum documento localizado – não existem documentos fiscais a partir do NSU informado.	-
+L6	=ROW(A5)	Consulta por NSU		-	-	-	-	-
+L7	=ROW(A6)	Verificar se existe DF-e para o NSU informado pelo Órgão solicitante.		Obrig.	Rej.	E2306	Nenhum documento localizado – não existe documento fiscal para o NSU informado.	-
+L8	=ROW(A7)	Validação da Distribuição para NSU do Municipio		-	-	-	-	-
+L9	=ROW(A8)	Validações do Certificado da Transmissão.		Obrig.	Rej.	E2000	Erro no Certificado de transmissão.	-
+L10	=ROW(A9)	CNPJ do transmissor deve estar cadastrado para um Município no convênio municipal do sistema nacional.		Obrig.	Rej.	E2001	CNPJ não cadastrado para nenhum Município conveniado.	-
+L11	=ROW(A10)	O código do Município informado deve existir e estar com a situação CADASTRADO no cadastro de convênio municipal.		Obrig.	Rej.	E2003	O código do município informado existe, mas está suspenso no convênio municipal.	-
+L12	=ROW(A11)	O código do Município informado deve existir e estar inativo a menos de <<prazo para a inativação>> dias no cadastro de convênio municipal.		Obrig.	Rej.	E2004	O código do município informado existe, mas não está ativo há mais de <<prazo para a inativação>> dias no cadastro de convênio municipal.	-
+L13	=ROW(A12)	Distriuição a partir de um NSU		-	-	-	-	-
+L14	=ROW(A13)	Verificar se existem DF-e a partir do NSU informado pelo o município solicitante.		Obrig.	Rej.	E2020	Nenhum documento localizado – não existem documentos fiscais para o Município a partir do NSU informado.	-
+L15	=ROW(A14)	Consulta por NSU		-	-	-	-	-
+L16	=ROW(A15)	Verificar se existe DF-e para o NSU informado pelo municipio solicitante.		Obrig.	Rej.	E2040	Nenhum documento localizado – não existe documento fiscal para o Município com o NSU informado.	-
+L17	=ROW(A16)	Consulta por Chave de Acesso						-
+L18	=ROW(A17)	Chave de acesso não localizada.		Obrig.	Rej.	E2060	Nenhum documento localizado – não existe documentos fiscal para a chave de acesso informada.	-
+L19	=ROW(A18)	Chave de acesso não referencia o Município solicitante.		Obrig.	Rej.	E2061	Chave de acesso da NFS-e não referencia o Município solicitante e por isso não pode ser compartilhado.	-
+L20	=ROW(A19)	Recuperação de Backup - Município Emissor		-	-	-	-	-
+L21	=ROW(A20)	NSU (NSU de recepção) não localizado para o Município solicitante.		Obrig.	Rej.	E2070	Nenhum documento localizado – não existem documentos fiscais recebidos para o Município a partir do NSU de recepção informado.	-
+L22		Validação da Distribuição para NSU dos Atores da NFS-e		-	-	-	-	-
+L23	=ROW(A22)	Distriuição a partir de um NSU		-	-	-	-	-
+L24	=ROW(A23)	Verificar se existem DF-e a partir do NSU informado pelo o contribuinte solicitante.		Obrig.	Rej.	E2215	Nenhum documento localizado – não existem documentos fiscais para o Contribuinte a partir do NSU informado.	-
+L25	=ROW(A24)	Consulta por NSU		-	-	-	-	-
+L26	=ROW(A25)	Verificar se existe DF-e para o NSU informado pelo contribuinte solicitante.		Obrig.	Rej.	E2230	Nenhum documento localizado – não existe documento fiscal para o Contribuinte com o NSU informado.	-
+L27	=ROW(A26)	Consulta por Chave de Acesso		-	-	-	-	-
+L28	=ROW(A27)	Chave de acesso não localizada.		Obrig.	Rej.	E2240	Nenhum documento localizado – não existe documentos fiscal para a chave de acesso informada.	-
+L29	=ROW(A28)	Chave de acesso não referencia o Contribuinte solicitante.		Obrig.	Rej.	E2241	Chave de acesso da NFS-e não referencia o Contribuinte solicitante e por isso não pode ser compartilhado.	-

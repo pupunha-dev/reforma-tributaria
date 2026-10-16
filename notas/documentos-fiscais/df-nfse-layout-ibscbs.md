@@ -1,7 +1,7 @@
 ---
-título: NFS-e Nacional — layout do IBS/CBS na DPS e na NFS-e (grupo IBSCBS, campos, fórmulas e evoluções das NTs 004, 005, 007 e 009)
+título: NFS-e Nacional — layout do IBS/CBS na DPS e na NFS-e (grupo IBSCBS, campos, fórmulas e evoluções das NTs 004, 005, 007 e 009 v1.01)
 dominio: documentos-fiscais
-fontes: NT CGNFS-e 004 v2.00 (10/12/2025; layout previsto para produção a partir de 05/01/2026); NT CGNFS-e 005 v1.0 (19/11/2025); NT CGNFS-e 007 v1.0 (07/02/2026); NT CGNFS-e 009 v1.0 (04/06/2026); NT CGNFS-e 003 v1.2 (04/07/2025, substituída); LC 214/2025, art. 12 §2º (conferido em fontes/reforma/texto)
+fontes: NT CGNFS-e 004 v2.00 (10/12/2025; layout previsto para produção a partir de 05/01/2026); NT CGNFS-e 005 v1.0 (19/11/2025); NT CGNFS-e 007 v1.0 (07/02/2026); NT CGNFS-e 009 v1.01 (11/09/2026; a v1.0 de 04/06/2026 está superada); Anexo I v1.01-20260209 (layout em produção); Anexo VI v1.04.01 (layout da NT 009 v1.01); NT CGNFS-e 003 v1.2 (04/07/2025, substituída); LC 214/2025, art. 12 §2º (conferido em fontes/reforma/texto)
 vigencia: com-mudanca-programada
 texto-base: 2026-10-16
 ---
@@ -20,10 +20,19 @@ do emissor que preenche esses campos está em [[df-nfse-emissao-valores-ibs-cbs]
 
 > **Qual versão vale?** A NT CGNFS-e 004 v2.00 "substitui as versões anteriores" (inclusive
 > a NT 003 e a NT 004 de 19/08/2025). A NT 005 (19/11/2025) trouxe evoluções que **não** foram
-> para a produção em janeiro de 2026; a NT 009 (04/06/2026) as consolida e ajusta. As NTs
-> 005 e 009 dizem que o **cronograma** de implantação seria publicado no portal; ele **não está
-> nas fontes**. Cada seção abaixo diz de qual NT vem a regra. Ver a cronologia em
-> [[df-nfse-cgnfse-notas-tecnicas]].
+> para a produção em janeiro de 2026; a NT 009 consolida e ajusta (v1.0 de 04/06/2026, **substituída
+> pela v1.01 de 11/09/2026**). As NTs 005 e 009 dizem que o **cronograma** de implantação seria
+> publicado no portal; ele **não está nas fontes**. Cada seção abaixo diz de qual NT vem a regra.
+> Ver a cronologia em [[df-nfse-cgnfse-notas-tecnicas]].
+>
+> **Que planilha traz o layout em produção?** O **Anexo I v1.01-20260209** (arquivo de 09/02/2026)
+> tem o grupo `IBSCBS` da NT 004 v2.00 e, da NT 007, só a parte de **PIS/COFINS** (lista de CST e
+> `tpRetPisCofins`), que a própria NT diz ter ido a produção em 09/02/2026. Ele **não tem**:
+> `indZFMALC`, `finNFSe` além de 0, `vAjusteBC`, `regApIBSCBSSN`, `cAtvSN`, `gTribSN`, `gUnidImob`,
+> `gPgtoVinc`, `condominios`, `opSimpNac` = 4, nem os códigos de tributação 99.02 a 99.05. Esses
+> itens estão no **Anexo VI v1.04.01** (layout da NT 009 v1.01), que "ao entrar em Produção passará a
+> ser identificado como `ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe`" e **não tem data nas fontes**.
+> (O Anexo I de 09/09/2025, anterior ao RTC e sem o grupo `IBSCBS`, está arquivado e superado.)
 
 ## Quando o grupo IBSCBS é obrigatório (NT 004 v2.00, seção 1.1)
 
@@ -42,8 +51,15 @@ do emissor que preenche esses campos está em [[df-nfse-emissao-valores-ibs-cbs]
   layout passou a valer em Produção, com validade jurídica, a partir de **05/01/2026**. No
   início, Emissor Nacional Web, Consulta Pública e DANFSe **não exibiam** o grupo (ver
   [[df-nfse-danfse]]). O guia v1.2 (27/07/2026) já descreve os campos IBS/CBS no emissor Web.
-- A tabela de correlação (Anexo VIII: item da NBS × `cIndOp` × cClassTrib) é "norteador"
-  sem regras de negócio; **não está nas fontes**.
+- A tabela de correlação (Anexo VIII: item da NBS × `cIndOp` × cClassTrib) foi tratada pela NT 004
+  v2.00 como "norteador", sem regras de negócio; a v1.01.00 está nas fontes em
+  [[df-nfse-correlacao-nbs-indop]].
+- **Regras de rejeição do grupo no Anexo VI** ([[df-nfse-regras-ibscbs-anexo-vi]]): a regra E0850
+  só permite declarar IBS/CBS a partir da data de competência 01/01/2026; a **E0855 (nova no Anexo VI)**
+  torna **obrigatório** declarar IBS/CBS quando a competência for **igual ou posterior a 01/10/2026**.
+  Como o Anexo VI não tem data de produção nas fontes, **não dá para afirmar nas fontes que a E0855
+  já está sendo aplicada hoje**; a suspensão da NT 004 v2.00 (acima) é a regra em produção que as
+  fontes documentam.
 - Datas de obrigatoriedade para o contribuinte (03/08/2026 no regime regular; 01/01/2027 para
   o Simples por fato gerador) são as **do guia**; o ato que as fixa não está nas fontes
   ([[df-nfse-visao-geral]]).
@@ -128,6 +144,8 @@ Todos os valores têm 15 inteiros e 2 decimais (`1-15V2`); as alíquotas, `1-2V2
 | Até 2032 | `vBC = vServ − descIncond − vCalcReeRepRes − vISSQN` | NT 004 v2.00 |
 | Até 2026 | `vBC = vServ − descIncond − (vCalcAjusteBCIBSCBS ou vCalcAjusteBCLocImoveis) − vISSQN − vPIS − vCOFINS` | NT 009 v1.0 |
 | De 2027 até 2032 | `vBC = vServ − descIncond − (vCalcAjusteBCIBSCBS ou vCalcAjusteBCLocImoveis) − vISSQN` | NT 009 v1.0 |
+| Até 2026 | `vBC = vServ − descIncond − (vCalcAjusteBCIBSCBS ou vCalcAjusteBCLocImoveis) − vISSQN + vAjusteBCIBSCBSComExt − vPIS − vCOFINS` | NT 009 v1.01 |
+| De 2027 até 2032 | `vBC = vServ − descIncond − (vCalcAjusteBCIBSCBS ou vCalcAjusteBCLocImoveis) − vISSQN + vAjusteBCIBSCBSComExt` | NT 009 v1.01 |
 
 Em palavras: parte-se do valor do serviço, tiram-se o desconto incondicional, os ajustes
 (reembolsos e afins) e os **valores dos tributos que a lei manda excluir da base** (o ISSQN e,
@@ -135,7 +153,10 @@ até 2026, o PIS e a COFINS). Os campos `vPIS` e `vCOFINS` são o **débito de a
 a NT 007 explica que muitos contribuintes lançavam ali o valor **retido**, o que reduzia
 indevidamente a base do IBS/CBS, "de acordo com o inciso V do § 2º do art. 12 da LC 214/2025",
 cujo texto está em [[ibs-cbs-base-calculo]]. A NT 009 renomeia `vCalcReeRepRes` para
-`vCalcAjusteBCIBSCBS`. Não há, nas fontes, a regra legal que fixa o prazo "até 2026" e "até
+`vCalcAjusteBCIBSCBS`. **Como a regra E1530 do Anexo VI separa os dois casos:** para os códigos
+`99.03.xx` (locação, cessão onerosa e equiparados) a base é `vServ − descIncond −
+vCalcAjusteBCLocImoveis − vISSQN` (até 2026, menos `vPIS` e `vCOFINS`); para os **demais** códigos é a
+fórmula com `vCalcAjusteBCIBSCBS` **mais** `vAjusteBCIBSCBSComExt` (só estes têm o ajuste de comércio exterior). Não há, nas fontes, a regra legal que fixa o prazo "até 2026" e "até
 2032" dos períodos acima: são as datas **da NT**.
 
 ## NT 007 v1.0 (07/02/2026): PIS/COFINS, ZFM e novos códigos
@@ -197,24 +218,41 @@ PIS/COFINS, que não está nas fontes.**
 | 98 | Outras operações de entrada |
 | 99 | Outras operações |
 
-⚠️ **O Anexo I das fontes é anterior à NT 007** (arquivo de 09/09/2025) e traz só os CST 00 a
-09, com o 07 escrito como "Operação **Tributável** da Contribuição", que é erro de digitação
-da cópia: a NT 007 (mais nova, que altera o domínio) diz "Operação **Isenta** da Contribuição".
-Vale a NT 007.
+A lista do **Anexo I v1.01-20260209** (layout em produção) é a mesma da NT 007, com "07 — Operação
+**Isenta** da Contribuição". (Uma cópia anterior do Anexo I, de 09/09/2025, trazia só os CST 00 a 09
+e escrevia o 07 como "Tributável"; está arquivada e superada.)
 
-## NT 009 v1.0 (04/06/2026): consolidação das evoluções
+## NT 009 (v1.0 de 04/06/2026; v1.01 de 11/09/2026): consolidação das evoluções
 
 | Mudança | Detalhe |
 |---|---|
 | **CNPJ alfanumérico** | todos os campos CNPJ passam de numérico para caractere, para o formato a vigorar a partir de julho de 2026 |
 | **Notas de ajuste de IBS/CBS** | `finNFSe`: 0 regular; **1 crédito**; **2 débito**. Novos `tpNFSeDebito` (01 transferência de créditos para cooperativas; 02 anulação de crédito por saídas imunes/isentas; 03 débitos de notas não processadas na apuração; 04 multa e juros; 05 transferência de crédito na sucessão; 06 pagamento antecipado) e `tpNFSeCredito` (01 multa e juros; 05 transferência de crédito na sucessão). Novo grupo `gIBSCBSAjuste` (`vIBS` e `vCBS` a ajustar). As regras dessas notas ainda estão **em evolução** |
-| **Unificação dos ajustes de base** | `vDedRed` e `gReeRepRes` viram **`vAjusteBC`**: `pAjusteBCISSQN`, `vAjusteBCISSQN` e `documentos/docAjusteBC` (até 1000), com `tpAjusteBC`: 2 materiais; 5 repasse consorciado; 6 repasse plano de saúde; 7 serviços; 8 subempreitada de mão de obra; 9 profissional parceiro; 99 outras deduções exclusivas do ISSQN; 101 repasse de remuneração por intermediação de imóveis; 102 repasse a fornecedor de agência de turismo; 103 produção externa; 104 mídia; 105 glosa de serviços de saúde; 199 outros reembolsos ou ressarcimentos. Também: `vTotDoc` e `vAjuteAplic` (este, menor ou igual ao total do documento). Foram **descontinuados** os tipos antigos "1 alimentação e bebidas/frigobar" (hotéis e motéis: a inclusão afetaria o cálculo do IBS/CBS dos alimentos já registrados em outros documentos), "3 produção externa" e "4 reembolso de despesas" (substituídos por 103, 104 e 199). Reembolso não previsto, com autorização municipal e só para o ISSQN: tipo 99 |
+| **Unificação dos ajustes de base** | `vDedRed` e `gReeRepRes` viram **`vAjusteBC`**: `pAjusteBCISSQN`, `vAjusteBCISSQN` e `documentos/docAjusteBC` (até 1000), com `tpAjusteBC`: 2 materiais; 5 repasse consorciado; 6 repasse plano de saúde; 7 serviços; 8 subempreitada de mão de obra; 9 profissional parceiro; 99 outras deduções exclusivas do ISSQN; 101 repasse de remuneração por intermediação de imóveis; 102 repasse a fornecedor de agência de turismo; 103 produção externa; 104 mídia; 105 glosa de serviços de saúde; 199 outros reembolsos ou ressarcimentos. Também: `vTotDoc` e `vAjusteAplic` (este, menor ou igual ao total do documento; a v1.0 grafava `vAjuteAplic`). Foram **descontinuados** os tipos antigos "1 alimentação e bebidas/frigobar" (hotéis e motéis: a inclusão afetaria o cálculo do IBS/CBS dos alimentos já registrados em outros documentos), "3 produção externa" e "4 reembolso de despesas" (substituídos por 103, 104 e 199). Reembolso não previsto, com autorização municipal e só para o ISSQN: tipo 99 |
 | **Renomeações na NFS-e** | `vCalcDR` → `vCalcAjusteBCISSQN`; `vCalcReeRepRes` → `vCalcAjusteBCIBSCBS`; `vCalcDedRedIBSCBS` → `vCalcAjusteBCLocImoveis` (só locação, cessão onerosa ou arrendamento de imóveis, subitem 99.03). Base do ISSQN: `vBC = vServ − descIncond − (vAjusteBCISSQN + vCalcAjusteBCISSQN) − (vRedBCBM ou VCalcBM)` |
-| **Simples Nacional** | `opSimpNac` ganha **4 — optante pendente**. Novo `regApIBSCBSSN`: **1** IBS e CBS apurados pelo SN; **2** CBS apurada pelo SN e IBS pelo regime regular; **3** IBS e CBS pelo regime regular. Novo `cAtvSN` (códigos 7 a 14 e 90: 7 serviços do Anexo III; 8 serviços contábeis com ISS fixo, Anexo III; 9 sujeitos ao fator R, Anexo III ou V; 10 transporte municipal de passageiros, Anexo III; 11 locação de bens móveis e operações sem ISS, Anexo III; 12 construção civil (7.02 e 7.05), Anexo III; 13 a mesma, Anexo IV; 14 serviços, Anexo IV; 90 operações não tributadas). Na NFS-e: `vReceitaBrutaSN = vServ − descIncond − vCalcAjusteBCIBSCBS − vCalcAjusteBCISSQN*` (*só quando vier de documentos com tipo 9, profissional parceiro) e o grupo `gTribSN` (`pIBSSN`, `vIBSSN`, `pCBSSN`, `vCBSSN`). Por isso `vIBSTot`, `gIBSUFTot`, `gIBSMunTot`, `pCredPresCBS`, `vCredPresCBS` e `vCBS` deixaram de ser obrigatórios |
+| **Simples Nacional** | `opSimpNac` ganha **4 — optante pendente**. Novo `regApIBSCBSSN`: **1** IBS e CBS apurados pelo SN; **2** CBS apurada pelo SN e IBS pelo regime regular; **3** IBS e CBS pelo regime regular. Novo `cAtvSN` (códigos 7 a 14 e 90: 7 serviços do Anexo III; 8 serviços contábeis com ISS fixo, Anexo III; 9 sujeitos ao fator R, Anexo III ou V; 10 transporte municipal de passageiros, Anexo III; 11 locação de bens móveis e operações sem ISS, Anexo III; 12 construção civil (7.02 e 7.05), Anexo III; 13 a mesma, Anexo IV; 14 serviços, Anexo IV; 90 operações não tributadas). Na NFS-e: `vReceitaBrutaSN = vServ − descIncond − vCalcAjusteBCIBSCBS − vCalcAjusteBCISSQN*` (*só quando vier de documentos com tipo 9, profissional parceiro; **na v1.01** a receita passa a depender do indicador `tpRBSN` do cClassTrib: se for 0 "não é receita bruta", `vReceitaBrutaSN` = 0; nos demais, a fórmula acima) e o grupo `gTribSN` (`pIBSSN`, `vIBSSN`, `pCBSSN`, `vCBSSN`). Por isso `vIBSTot`, `gIBSUFTot`, `gIBSMunTot`, `pCredPresCBS`, `vCredPresCBS` e `vCBS` deixaram de ser obrigatórios. **Na v1.01** as regras de `cAtvSN` ficaram "bicondicionais" (a primeira informação só é válida se a segunda também for, e vice-versa) e as de `vIBSSN` e `vCBSSN` foram ajustadas à segregação de receita interna e externa |
 | **Reinserção de `indFinal`** | uso ou consumo pessoal, **art. 57 da LC 214/2025** |
-| **Bens imóveis** | no `imovel`: novo `cMun`, grupo **`gLocacao`** (`pCopropriedade`, `vTotOper`, `vDescIncondTot`, `vDescCondTot`, `dVencOrig`) e **`gUnidImob`** (até 99 unidades; mesmos atores, mesmo município e mesmo percentual de copropriedade) com `gAjusteBCLocImoveis` (até 1000): tipos 01 tributos inclusos (IPTU, contribuição de melhoria), 02 emolumento, 03 condomínio (esses três só para as NBS 1.1002.10.00 ou 1.1002.20.00), 04 redutor social (só 1.1002.10.00) e 99 outras. Nos códigos do subitem **99.03**: `vServ = pCopropriedade × vTotOper`, `vDescIncond = pCopropriedade × vDescIncondTot` e `vDescCond = pCopropriedade × vDescCondTot`. O valor total é o da operação "conforme art. 255 da LC 214/2025" (citado pela NT) |
+| **Bens imóveis** | no `imovel`: novo `cMun`, grupo **`gLocacao`** (`pCopropriedade`, `vTotOper`, `vDescIncondTot`, `vDescCondTot`, `dVencOrig`) e **`gUnidImob`** (até 99 unidades; mesmos atores, mesmo município e mesmo percentual de copropriedade) com `gAjusteBCLocImoveis` (até **10** ocorrências na v1.01; eram 1000 na v1.0): tipos 01 tributos inclusos (IPTU, contribuição de melhoria), 02 emolumento, 03 condomínio (esses três só para as NBS 1.1002.10.00 ou 1.1002.20.00), 04 redutor social (só 1.1002.10.00) e 99 outras. `pCopropriedade` passou de 1-2V2 para **1-3V2** na v1.01 (cabe 100,00). Nos códigos do subitem **99.03**: `vServ = pCopropriedade × vTotOper`, `vDescIncond = pCopropriedade × vDescIncondTot` e `vDescCond = pCopropriedade × vDescCondTot`. O valor total é o da operação "conforme art. 255 da LC 214/2025" (citado pela NT) |
 | **Bens móveis** | `gLocBensMoveis` (NT 005) vira **`bensMoveis`**, agora com até **1000** registros |
 | **Pagamento vinculado** | novo `gPgtoVinc` (até 99 `pgto`): `nPag`, `idTransacao`, `tpMeioPgto` (15 boleto; 17 Pix QR Code dinâmico; 18 TED; 20 Pix chave ou QR Code estático; 23 Pix automático; 24 TEF/*booktransfer*), `CNPJReceb` e `CNPJBasePSP`. Quando o pagamento só puder ser informado após a emissão, haverá um **evento** com a mesma estrutura |
+
+### O que a v1.01 (11/09/2026) acrescentou à v1.0
+
+A v1.01 mantém as seções 2.1 a 2.8 da v1.0 (com os ajustes já refletidos no quadro acima) e **cria as
+seções 2.9 a 2.16**. Como a NT 009, ela **não tem cronograma nas fontes** ("será publicado no portal").
+
+| Seção | Mudança |
+|---|---|
+| 2.9 | Novo campo **`verCalcIBSCBS`** na NFS-e (0-1, até 20 posições): versão da Calculadora de Tributos (IBS/CBS) que gerou a nota. É gerado pela Sefin Nacional (`ambGer` = 2); **não é exigido** nas notas autorizadas em sistemas próprios dos municípios e depois compartilhadas com o ADN |
+| 2.10 | **Validação dos endereços** do tomador/adquirente e do destinatário na Sefin Nacional: o código IBGE do município informado deve **bater com o cadastro CNPJ/CPF**, senão a DPS (ou a NFS-e compartilhada) é rejeitada, por exigência do art. 11 da LC 214/2025 e dos arts. 12 dos regulamentos (Decreto 12.955/2026 e Res. CGIBS 6/2026). **Exceção no subitem 17.05** (fornecimento de mão de obra, cujo local de incidência do ISSQN é o do estabelecimento do tomador): usa-se o município do **tomador** quando o destinatário não é informado ou tem CNPJ de raiz (8 primeiros dígitos) diferente, ou CPF diferente; usa-se o do **destinatário** quando a raiz do CNPJ ou o CPF coincide, e só nesses casos o emitente **pode alterar** o endereço do destinatário sem que a divergência cadastral rejeite o documento |
+| 2.11 | `indDest` e o grupo `dest` saem do grupo `IBSCBS` e vão para a raiz de `infDPS`, logo após `toma` (mesmo conteúdo: CNPJ, CPF, NIF ou `cNaoNIF`, nome, endereço nacional ou exterior, telefone e e-mail) |
+| 2.12 e 2.13 | Comércio exterior: `nFatura`, `vFatura`, `nContCambio`, `mdPrestacao` = 5, `nDUIMP` e `nDUE`, validação de `tpMoeda`, fim do valor "desconhecido" no ADN a partir de 01/01/2027 e o novo `vAjusteBCIBSCBSComExt`. Tudo em [[df-nfse-comercio-exterior]] |
+| 2.14 | **`atvEvento/cMun`** (0-1, 7 posições): município do evento, só para os subitens **12.13 e 17.10**, quando o local do evento for diferente do local da prestação, porque o local de incidência do IBS/CBS desses serviços é o do evento. Nos demais casos o local do evento é o da prestação. O grupo `atvEvento` passa a ser exigido também para o subitem 17.10 |
+| 2.15 | **Condomínios** (art. 26, §2º, I, da LC 214/2025): novo código de tributação **99.05.01** — operações condominiais (taxas e demais valores cobrados pelo condomínio edilício, quando não caracterizem operação de outro código). Segue as diretrizes da NT 007 (item 3.a): emissão **só pelos emissores públicos nacionais**, por todas as pessoas jurídicas autorizadas. Novo grupo `IBSCBS/condominios`: `dVencOrig` (vencimento original), `gCobranca` (1 a 20 cobranças: `tpCobranca` 01 condomínio ordinário, 02 privativo, 03 fundo de promoção e propaganda, 04 impostos e taxas, 05 fundo de reserva, 99 outra; `vCobranca`; `gDetCobranca` com até 20 detalhamentos, `tpDetCobranca` de 001 a 036 e 999 "outro", e `vDetCobranca`) e `gDesconto` (até 10: `tpDesconto` 1 incondicionado, 2 condicionado, `vDesconto`). Para 99.05: `vServ` = soma de `vCobranca`; `vDescIncond` = soma dos descontos do tipo 1; `vDescCond` = soma dos do tipo 2. O grupo `imovel` passa a ser obrigatório nesses casos |
+| 2.16 | **`CST` e `cClassTrib` passam a ficar antes do grupo `gIBSCBS`** (em `valores/trib`). Com isso, o CST informado define o indicador **`ind_gIBSCBS`** da tabela CST/cClassTrib (Informe Técnico 2025.002 v1.60, de 23/06/2026): o detalhamento da tributação só deve ser informado quando o indicador disser que há tributação a declarar; nos CST **400 (isenção), 410 (imunidade e não incidência) e 820 (tributação em documento específico)** as informações **não** são preenchidas. Por isso ficaram **facultativos (0-1)**: na NFS-e, `cLocalidadeIncid`, `xLocalidadeIncid`, `valores`, `valores/vBC`, `totCIBS/gIBS` e `totCIBS/gCBS`; na DPS, `cIndOp` e `valores/trib/gIBSCBS`. A tabela está em [[df-tabela-cclasstrib]] |
+
+As regras de rejeição correspondentes (E1515 a E1607, E0859, E0860, E0960 etc.) estão em
+[[df-nfse-regras-ibscbs-anexo-vi]].
 
 ## O que a NT 005 v1.0 (19/11/2025) acrescentou e a NT 009 manteve ou renomeou
 
@@ -225,11 +263,14 @@ código NCM e quantidade, só com o código 99.04.01), o grupo de deduções de 
 (`gDedRedIBSCBS`, depois `gAjusteBCLocImoveis`) e o `pRedutor` obrigatório na NFS-e. A NT 005
 **não** foi implantada em produção em janeiro de 2026 (aviso da NT 004 v2.00).
 
-## ⏳ Sem data nas fontes — NT 005 v1.0 e NT 009 v1.0 (cronograma não publicado nas fontes)
+## ⏳ Sem data nas fontes — NT 005 v1.0 e NT 009 v1.0/v1.01 (cronograma não publicado nas fontes)
 
 Os campos e grupos acima que vêm só das NTs 005 e 009 (`indDoacao`, `gEstornoCred`,
 `gPagAntecipado`, `vAjusteBC`, `gIBSCBSAjuste`, `gLocacao`, `gUnidImob`, `bensMoveis`,
-`gPgtoVinc`, `regApIBSCBSSN`, `cAtvSN`, `gTribSN`, o CNPJ alfanumérico etc.) **não têm data de
-produção nas fontes**. As NTs 007 e 009 apenas dizem que o cronograma "será publicado no portal
-da NFS-e". Antes de afirmar que um desses campos **já vale**, consulte o cronograma e o Anexo I
-vigente (que não estão nas fontes).
+`gPgtoVinc`, `regApIBSCBSSN`, `cAtvSN`, `gTribSN`, `verCalcIBSCBS`, `condominios`, `atvEvento/cMun`,
+os campos novos de `comExt`, o CNPJ alfanumérico etc.) **não têm data de produção nas fontes**. As
+NTs 007 e 009 apenas dizem que o cronograma "será publicado no portal da NFS-e". O **Anexo I
+v1.01-20260209** (layout em produção) **não contém** esses campos; eles só aparecem no Anexo VI
+v1.04.01. A única data do tema vinda do próprio texto da NT 009 v1.01 é **01/01/2027**, para o fim do
+valor "desconhecido" no compartilhamento ao ADN ([[df-nfse-comercio-exterior]]). Antes de afirmar que
+um desses campos **já vale**, consulte o cronograma do portal (não está nas fontes).

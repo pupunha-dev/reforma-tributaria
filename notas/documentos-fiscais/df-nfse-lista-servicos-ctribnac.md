@@ -1,7 +1,7 @@
 ---
 título: NFS-e Nacional — lista nacional de serviços: os 335 códigos de tributação nacional (cTribNac, 6 dígitos)
 dominio: documentos-fiscais
-fontes: Portal da NFS-e, página "Lista de Serviços Anexa à Lei Complementar nº 116, de 31 de julho de 2003" (Código e Descrição dos Serviços; página publicada em 20/02/2024 e atualizada em 20/08/2024, capturada em 16/10/2026); Anexo I do leiaute da DPS/NFS-e (arquivo de 09/09/2025, anterior à versão de 10/12/2025 citada pela NT CGNFS-e 004 v2.00: layout do campo cTribNac e regras E0372, E0392 e E1402); Guia do Emissor Público Nacional Web da NFS-e v1.2 (27/07/2026)
+fontes: Portal da NFS-e, página "Lista de Serviços Anexa à Lei Complementar nº 116, de 31 de julho de 2003" (Código e Descrição dos Serviços; página publicada em 20/02/2024 e atualizada em 20/08/2024, capturada em 16/10/2026); Anexo I v1.01-20260209 do leiaute da DPS/NFS-e (layout do campo cTribNac, aba de incidência por subitem e regras E0372, E0392 e E1402); Anexo VI v1.04.01 (NT CGNFS-e 009 v1.01: regras E0309, E0936, E0967 sobre os códigos 99.xx); Guia do Emissor Público Nacional Web da NFS-e v1.2 (27/07/2026)
 vigencia: atual
 texto-base: 2026-10-16
 ---
@@ -38,7 +38,7 @@ escopo**. A tela de escolha do código está em [[df-nfse-emissao-servico]].
 | Código ou grupo | O que o documento exige | Rejeição | Fonte |
 |---|---|---|---|
 | **990101** (serviços sem a incidência de ISSQN e ICMS) | é o código da "não incidência" (a mensagem 3 da planilha de exportação diz que "não incidência" só vale com ele; o guia acrescenta que o município pode configurar outros códigos como não incidência); não há localidade de incidência do ISSQN | ver [[df-nfse-comercio-exterior]] | Anexo I; guia |
-| **070201, 070202, 070401, 070501, 070502, 070601, 070602, 070701, 070801, 071701 e 071901** | só nesses códigos (e no 990101) o **grupo de obra** é permitido | E0372 | Anexo I |
+| **070201, 070202, 070401, 070501, 070502, 070601, 070602, 070701, 070801, 071701, 071901, 141403 e 141404** | só nesses 13 códigos (e no 990101) o **grupo de obra** é permitido (o 141403 e o 141404, guincho e guindaste em construção civil, são do Anexo I v1.01 e **não estão na lista do portal**: ver abaixo) | E0372 | Anexo I v1.01 e Anexo VI |
 | **todo o item 12** (diversões, lazer, entretenimento) | só nele (e no 990101) o **grupo de atividade/evento** é permitido | E0392 | Anexo I |
 | **200101** (serviços portuários, prestados em terra) | não pode ser informado com local da prestação "Águas Marítimas" (código `0000000`) | E1402 | Anexo I |
 | **200102** (os mesmos serviços, prestados em águas marinhas) | a regra E1402 barra "Águas Marítimas" só para o 200101; o comentário do campo `cTribNac` fala em "20.01" sem distinguir os dois desdobros | — | Anexo I |
@@ -47,9 +47,24 @@ escopo**. A tela de escolha do código está em [[df-nfse-emissao-servico]].
 | **170501** (fornecimento de mão de obra) | o sistema nacional não identifica a localidade nem destaca o ISSQN | — | guia |
 
 > ⚠️ **Divergência entre guia e Anexo I (obra).** O guia (v1.2) diz que o bloco "informações para obra"
-> aparece para os subitens **07.02 e 07.05**; o Anexo I (arquivo de 09/09/2025) permite o grupo de
-> obra em **11 códigos**, listados acima, que incluem também 07.04, 07.06, 07.07, 07.08, 07.17 e 07.19.
-> Pela hierarquia vale o Anexo I (nível de NT); o guia é só documentação operacional.
+> aparece para os subitens **07.02 e 07.05**; o Anexo I v1.01 (e o Anexo VI) permite o grupo de
+> obra em **13 códigos**, listados acima, que incluem também 07.04, 07.06, 07.07, 07.08, 07.17, 07.19
+> e 14.14.03 e 14.14.04. Pela hierarquia vale o Anexo I (nível de NT); o guia é só documentação
+> operacional. (O grupo de **imóvel** é o oposto: proibido nos 11 subitens 07.xx dessa lista, E0931;
+> [[df-nfse-regras-ibscbs-anexo-vi]].)
+
+## Códigos do Anexo I v1.01 que a lista do portal não traz
+
+A aba de incidência do Anexo I v1.01-20260209 (a lista com as regras de incidência e os grupos exigidos
+por subitem) tem **três códigos de 6 dígitos que a lista do portal** (atualizada em 20/08/2024) **não
+tem**: `110501` (monitoramento e rastreamento a distância de veículos, cargas, pessoas e semoventes, em
+qualquer via ou local, por telefonia móvel, satélite, rádio ou outro meio, inclusive pelas empresas de
+Tecnologia da Informação Veicular), `141403` (guincho intramunicipal em construção civil) e `141404`
+(guindaste e içamento em construção civil). A lista do portal tem `141401` e `141402` (guincho e
+guindaste, sem "em construção civil"). O Anexo I v1.01 é o layout em produção (nível de NT) e os lista; a
+lista do portal está, portanto, **defasada** em relação a ele, e as fontes não dizem se o portal já foi
+atualizado. A tabela abaixo (os 335 códigos do portal) não os inclui; para esses três, use a
+descrição acima (Anexo I: `fontes/documentos-fiscais/texto/anexo-i-mun-incid-info-serv.tsv`).
 
 ## Os 335 códigos
 
@@ -399,7 +414,9 @@ títulos dos itens**; a descrição de cada linha é a da fonte.
 
 - **Qual código escolher** para um serviço concreto: depende dos fatos; a lista só descreve.
 - **Alíquota, local de incidência e retenção do ISSQN:** matéria municipal, fora do escopo.
-- **NBS e indicador da operação de cada código:** a correlação oficial (Anexo VIII) **não está nas
-  fontes** ([[df-nfse-indop-ibscbs]]).
+- **NBS e indicador da operação de cada código:** a correlação oficial (Anexo VIII v1.01.00) está
+  nas fontes, mas parte do **item/subitem da LC 116** (não do código de 6 dígitos): ver
+  [[df-nfse-correlacao-nbs-indop]] e as notas por item; os significados do `cIndOp` estão em
+  [[df-nfse-indop-ibscbs]].
 - **Códigos criados ou extintos depois de 20/08/2024** (data informada pela página do portal): se a
   pergunta for sobre a atualidade da lista, diga isso; nas demais, não é preciso lembrar.

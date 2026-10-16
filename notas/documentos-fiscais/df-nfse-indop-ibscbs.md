@@ -1,7 +1,7 @@
 ---
 título: NFS-e Nacional — código indicador da operação (cIndOp, Anexo VII): os 40 códigos, o que significam e onde incide o IBS/CBS
 dominio: documentos-fiscais
-fontes: Anexo VII — IndOp_IBSCBS v1.03.00 (planilha "cIndOp Public"); NT CGNFS-e 004 v2.00 (10/12/2025), NT CGNFS-e 005 v1.0 (19/11/2025), NT CGNFS-e 007 v1.0 (07/02/2026) e NT CGNFS-e 009 v1.0 (04/06/2026), que citam as versões 1.00.00, 1.01.00 e 1.02.00 do anexo; LC 214/2025, art. 11 (conferido em fontes/reforma/texto); Guia do Emissor Público Nacional Web da NFS-e v1.2 (27/07/2026), seção 4.1.2
+fontes: Anexo VII — IndOp_IBSCBS v1.03.00 (planilha "cIndOp Public"); NT CGNFS-e 004 v2.00 (10/12/2025), NT CGNFS-e 005 v1.0 (19/11/2025), NT CGNFS-e 007 v1.0 (07/02/2026) e NT CGNFS-e 009 v1.01 (11/09/2026), que citam as versões 1.00.00, 1.01.00 e 1.02.01 do anexo; Anexo VIII v1.01.00 e regras do Anexo I v1.01 e do Anexo VI v1.04.01 (E0932, E0928, E0938); LC 214/2025, art. 11 (conferido em fontes/reforma/texto); Guia do Emissor Público Nacional Web da NFS-e v1.2 (27/07/2026), seção 4.1.2
 vigencia: com-mudanca-programada
 texto-base: 2026-10-16
 ---
@@ -17,9 +17,10 @@ com isso, **qual endereço da NFS-e define o local de incidência do IBS/CBS**. 
 
 > **Nível e vigência.** O Anexo VII é documentação técnica (nível NT): organiza a lei, não
 > a altera. A versão usada aqui é a **1.03.00**; as NTs citam versões anteriores (1.00.00 nas
-> NTs 004 e 005, 1.01.00 na NT 007 e 1.02.00 na NT 009) e nenhuma NT em mãos cita a 1.03.00.
-> O guia da NFS-e (27/07/2026) cita só os códigos 020101, 020201 e 020301 como ligados a
-> imóveis; o anexo traz também 020102, 020202 e 020401. O campo `cIndOp` é obrigatório (1-1,
+> NTs 004 e 005, 1.01.00 na NT 007 e 1.02.01 na NT 009 v1.01) e nenhuma NT em mãos cita a 1.03.00.
+> O guia da NFS-e (27/07/2026) e o Anexo I v1.01 (regra E0932) citam só os códigos 020101, 020201 e
+> 020301 como ligados a imóveis; o Anexo VI (E0932) acrescenta 020202 e 020401, e o anexo traz também
+> 020102 ([[df-nfse-regras-ibscbs-anexo-vi]]). O campo `cIndOp` é obrigatório (1-1,
 > 6 posições) **dentro** do grupo `IBSCBS` da DPS; o grupo em si é 0-1, e a NT CGNFS-e 004 v2.00
 > suspendeu no início de 2026 a validação que exige o grupo ([[df-nfse-cgnfse-notas-tecnicas]]).
 
@@ -121,8 +122,9 @@ com isso, **qual endereço da NFS-e define o local de incidência do IBS/CBS**. 
   `cIndOp` usar nesse caso **não está nas fontes**.
 - **Qual código escolher por NBS:** o Anexo VIII (correlação entre item da NBS, `cIndOp` e
   cClassTrib), citado pela NT CGNFS-e 004 v2.00 como "norteador" (trabalho inicial, sem regras de
-  negócio para os grupos `IBSCBS`), **não
-  está nas fontes** do projeto ([[df-nfse-cgnfse-notas-tecnicas]]).
+  negócio para os grupos `IBSCBS`), **está nas fontes** (v1.01.00): [[df-nfse-correlacao-nbs-indop]]
+  e as seis notas por item. Ele lista, por item e NBS, os códigos usados; só 19 dos 40 códigos
+  aparecem nele, e a escolha no caso concreto continua dependendo dos fatos.
 - **A tabela não escolhe o código:** ela organiza os códigos por hipótese do art. 11. Qual
   hipótese se aplica depende dos fatos da operação (por exemplo, se o serviço é prestado
   fisicamente sobre bem imóvel, inciso II, ou se cai na regra residual do inciso X). A nota

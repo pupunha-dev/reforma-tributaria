@@ -1,7 +1,7 @@
 ---
 título: NFS-e Nacional — as Notas Técnicas da SE/CGNFS-e (003 a 010): cronologia, o que cada uma muda, anexos e API
 dominio: documentos-fiscais
-fontes: NT CGNFS-e 003 v1.2 (04/07/2025); NT CGNFS-e 004 v2.00 (10/12/2025); NT CGNFS-e 005 v1.0 (19/11/2025); NT CGNFS-e 006 v1.00 (22/01/2026); NT CGNFS-e 007 v1.0 (07/02/2026); NT CGNFS-e 008 v1.02 (14/07/2026); NT CGNFS-e 009 v1.0 (04/06/2026); NT CGNFS-e 010 v1.00 (11/09/2026); Manual dos Contribuintes — API do Emissor Público Nacional (PDF de 06/10/2025; histórico interno lista só a v1.0 de 17/03/2025); Anexo I e Anexo VII (planilhas)
+fontes: NT CGNFS-e 003 v1.2 (04/07/2025); NT CGNFS-e 004 v2.00 (10/12/2025); NT CGNFS-e 005 v1.0 (19/11/2025); NT CGNFS-e 006 v1.00 (22/01/2026); NT CGNFS-e 007 v1.0 (07/02/2026); NT CGNFS-e 008 v1.02 (14/07/2026); NT CGNFS-e 009 v1.01 (11/09/2026; a v1.0 de 04/06/2026 está superada); NT CGNFS-e 010 v1.00 (11/09/2026); Manual dos Contribuintes — API do Emissor Público Nacional (PDF de 06/10/2025; histórico interno lista só a v1.0 de 17/03/2025); Anexos I v1.01-20260209, II v1.01-20260122, IV v1.00-20251216 (ADN), VI v1.04.01, VII v1.03.00 e VIII v1.01.00 (planilhas)
 vigencia: com-mudanca-programada
 texto-base: 2026-10-16
 ---
@@ -39,7 +39,8 @@ Notas Técnicas do **Projeto NF-e** (numeração "2025.002", "2026.007"), que tr
 | **004** v2.00 | 10/12/2025 | versão que entra em produção em **05/01/2026**; suspende a obrigatoriedade do grupo `IBSCBS`; remove o grupo `adq`; ambiente de teste em 10/12/2025; informa o piloto da NFS-e Via | [[df-nfse-layout-ibscbs]], [[df-nfse-via]] |
 | **006** v1.00 | 22/01/2026 | **NFS-e Via** (Resolução CGNFS-e 9/2025): layout 1.00, cancelamento e contingência de janeiro/2026 | [[df-nfse-via]] |
 | **007** v1.0 | 07/02/2026 | `indZFMALC`; PIS/COFINS (CST, `tpRetPisCofins`, retenções em `vRetCSLL`), em produção desde **09/02/2026**; novos códigos 99.xx; novos fatos geradores só no ambiente nacional; numeração e "pulos"; NFS-e Via e MAN | [[df-nfse-layout-ibscbs]] |
-| **009** v1.0 | 04/06/2026 | consolida e ajusta: CNPJ alfanumérico, notas de ajuste, `vAjusteBC`, Simples Nacional, imóveis, bens móveis, pagamento vinculado | [[df-nfse-layout-ibscbs]] |
+| **009** v1.0 | 04/06/2026 | consolida e ajusta: CNPJ alfanumérico, notas de ajuste, `vAjusteBC`, Simples Nacional, imóveis, bens móveis, pagamento vinculado; **substituída pela v1.01** | histórico (arquivo em `historico/`); não usar |
+| **009** v1.01 | 11/09/2026 (o portal rotula 01/10/2026; as fontes não explicam a diferença) | a v1.0 mais: `verCalcIBSCBS`, validação do endereço contra o cadastro e regra do 17.05, `indDest`/`dest` em `infDPS`, ajustes de comércio exterior (`vAjusteBCIBSCBSComExt`), `atvEvento`/`cMun` para 12.13 e 17.10, condomínios (99.05.01), reposição de CST/cClassTrib com `ind_gIBSCBS` e grupos facultativos para CST 400, 410 e 820 | [[df-nfse-layout-ibscbs]], [[df-nfse-comercio-exterior]], [[df-nfse-regras-ibscbs-anexo-vi]] |
 | **008** v1.02 | 14/07/2026 (v1.01: 30/06/2026) | **DANFSe v2.0** e suspensão da API de geração do DANFSe em 03/08/2026 | [[df-nfse-danfse]] |
 | **010** v1.00 | 11/09/2026 | NFS-e Via: layout 1.01 (`modPagamento` 6 "sem cobrança") e evento de manifestação do adquirente | [[df-nfse-via]] |
 
@@ -54,8 +55,10 @@ As fontes dizem com certeza só isto:
 - **Desde 09/02/2026:** as mudanças de PIS/COFINS da NT 007 (produção e produção restrita).
 - **Desde 1º/01/2026:** a NFS-e Via (layout 1.00); o layout 1.01 e o evento de manifestação
   vêm da NT 010 (11/09/2026), **sem data de produção** nas fontes.
-- **Sem data nas fontes:** tudo o que vem **só** das NTs 005 e 009 (notas de ajuste,
-  `vAjusteBC`, `gLocacao`, `gTribSN`, `gPgtoVinc`, CNPJ alfanumérico etc.) e o DANFSe v2.0.
+- **Sem data nas fontes:** tudo o que vem **só** das NTs 005 e 009 v1.01 (notas de ajuste,
+  `vAjusteBC`, `gLocacao`, `gTribSN`, `gPgtoVinc`, CNPJ alfanumérico, condomínios etc.), as regras
+  **só do Anexo VI** (por exemplo E0855, que exige o IBS/CBS para competência a partir de 01/10/2026)
+  e o DANFSe v2.0. O Anexo VI "ao entrar em Produção" vira o Anexo I; a data não está nas fontes.
   As NTs 004, 007 e 009 dizem que o **cronograma de implantação** seria publicado no
   portal da NFS-e; **ele não está nas fontes**.
 - **Datas de obrigatoriedade para o contribuinte:** as do guia (03/08/2026 no regime regular;
@@ -69,18 +72,18 @@ nas fontes.
 
 | Anexo | Conteúdo | Versão nas fontes |
 |---|---|---|
-| **I** — leiaute e regras de negócio da DPS/NFS-e | layout do XML, regras de rejeição (E0xxx), planilhas de exportação e de incidência por subitem | **cópia anterior ao RTC**: arquivo modificado em 09/09/2025, **sem o grupo `IBSCBS`**. A NT 004 v2.00 cita a versão "v1.00-20251210" (de 10/12/2025). As regras de comércio exterior estão em [[df-nfse-comercio-exterior]] |
-| **IV** — leiautes RN ADN (NFS-e Via) | layout e regras da NFS-e Via e dos eventos | **não está nas fontes** |
-| **VI** — LeiautesRN_RTC_IBSCBS | layout e regras de negócio do grupo `IBSCBS` da DPS e da NFS-e | **não está nas fontes** (NT 004 v2.00: v1.01.03; NT 005: v1.02.00; NT 007: v1.03.00; NT 009: v1.04.00) |
-| **VII** — IndOp_IBSCBS | códigos do `cIndOp` | **v1.03.00**: [[df-nfse-indop-ibscbs]]. As NTs citam as versões 1.00.00 (NT 004 e 005), 1.01.00 (NT 007) e 1.02.00 (NT 009) |
-| **VIII** — correlação item da NBS × `cIndOp` × cClassTrib | "norteador" sem regras de negócio | **não está nas fontes** |
+| **I** — leiaute e regras de negócio da DPS/NFS-e | layout do XML, regras de rejeição (E0xxx), planilhas de exportação e de incidência por subitem | **v1.01-20260209**: layout **em produção** (NT 004 v2.00 + PIS/COFINS da NT 007; sem as evoluções das NTs 005 e 009). A cópia de 09/09/2025, anterior ao RTC e sem o grupo `IBSCBS`, está arquivada em `historico/` e superada. Comércio exterior: [[df-nfse-comercio-exterior]]; regras do IBS/CBS: [[df-nfse-regras-ibscbs-anexo-vi]] |
+| **II** — leiautes e RN dos eventos de NFS-e | 16 tipos de evento, leiaute do pedido de registro, matriz entre eventos | **v1.01-20260122**: [[df-nfse-eventos]] |
+| **IV** — dois documentos com o mesmo nome | (a) **ADN, distribuição de DF-e** (NSU, municípios, contribuintes, recepção de lote); (b) **Leiautes RN ADN da NFS-e Via** (`LeiautesRN_ADN-SNNFSeVia_V1.00.04`, citado pela NT 010) | (a) **v1.00-20251216**: [[df-nfse-adn-distribuicao]]; (b) **não está nas fontes** ([[df-nfse-via]]) |
+| **VI** — LeiautesRN_RTC_IBSCBS | layout e regras de negócio do grupo `IBSCBS` da DPS e da NFS-e, com as evoluções da NT 009 | **v1.04.01** (layout da NT 009 v1.01): [[df-nfse-layout-ibscbs]], [[df-nfse-regras-ibscbs-anexo-vi]]. As NTs citam versões anteriores (NT 004 v2.00: v1.01.03; NT 005: v1.02.00; NT 007: v1.03.00; NT 009 v1.0: v1.04.00) |
+| **VII** — IndOp_IBSCBS | códigos do `cIndOp` | **v1.03.00**: [[df-nfse-indop-ibscbs]]. As NTs citam as versões 1.00.00 (NT 004 e 005), 1.01.00 (NT 007), 1.02.00 (NT 009 v1.0) e 1.02.01 (NT 009 v1.01); as fontes têm a v1.03.00, **mais nova** que todas elas |
+| **VIII** — correlação item da NBS × `cIndOp` × cClassTrib | "norteador" sem regras de negócio (NT 004 v2.00) | **v1.01.00**: [[df-nfse-correlacao-nbs-indop]] e seis notas por item |
 | **A** — municípios IBGE e países ISO2 | tabela de códigos | municípios: a tabela do IBGE (DTB de 22/11/2024) está nas fontes, ver [[df-nfse-codigos-ibge-localidades]]; **países ISO2: não estão nas fontes** |
 | **B** — lista nacional de serviços | códigos de tributação nacional | a lista do portal (atualizada em 20/08/2024) está em [[df-nfse-lista-servicos-ctribnac]]; o arquivo "V1.01-20260122" citado pelo guia **não está nas fontes** |
-| **II** do manual da API — leiautes e regras dos eventos | eventos de NFS-e | **não está nas fontes** |
 
-Sem o **Anexo VI**, as **regras de negócio do grupo `IBSCBS`** (por exemplo, quais combinações de
-`cIndOp`, CST e cClassTrib a Sefin rejeita, e os códigos de rejeição desse grupo) **não podem ser
-respondidas** pelas notas; só o layout descrito nas NTs.
+O **Anexo VI** responde pelas regras de rejeição do grupo `IBSCBS` do layout da NT 009 v1.01; as do
+layout em produção estão no **Anexo I v1.01**. A diferença entre os dois (80 regras a mais no VI) está
+em [[df-nfse-regras-ibscbs-anexo-vi]].
 
 ## API do Emissor Público Nacional (manual dos contribuintes)
 

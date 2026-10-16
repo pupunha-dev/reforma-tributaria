@@ -1,7 +1,7 @@
 ---
 título: NFS-e Nacional — NFS-e recebidas e manifestação (confirmar ou rejeitar)
 dominio: documentos-fiscais
-fontes: Guia do Emissor Público Nacional Web da NFS-e v1.2 (27/07/2026), seção 6 (p. 107-112); NT 2025.002-RTC v1.52 (referência de hierarquia, ver df-visao-geral-reforma-nfe)
+fontes: Guia do Emissor Público Nacional Web da NFS-e v1.2 (27/07/2026), seção 6 (p. 107-112); Anexo II v1.01-20260122 (eventos de manifestação); NT 2025.002-RTC v1.52 (referência de hierarquia, ver df-visao-geral-reforma-nfe)
 vigencia: atual
 texto-base: 2026-10-16
 ---
@@ -29,8 +29,9 @@ NFS-e.
   sobre a nota. O guia prevê eventos de confirmação e de rejeição para o
   prestador/fornecedor, o tomador/adquirente e o intermediário, conforme quem seja o
   emitente da nota.
-- Cada manifestação gera um **XML de evento** (leiaute do anexo de leiaute, fora das
-  fontes), processado, armazenado e vinculado à NFS-e.
+- Cada manifestação gera um **XML de evento** (leiaute no Anexo II v1.01-20260122, em
+  [[df-nfse-eventos]]: códigos 202201 a 204207, uma manifestação por não emitente, anulação da rejeição
+  pelo município de incidência), processado, armazenado e vinculado à NFS-e.
 
 ### Confirmar
 
