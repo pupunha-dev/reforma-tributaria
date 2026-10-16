@@ -61,7 +61,9 @@ cancelamento são **definidos por cada município**.
 - **XML da NFS-e:** o emitente guarda cópia no próprio ambiente.
 - **DANFSe:** PDF com a representação gráfica resumida da nota. O texto do guia, na
   seção 5.5, diz que o comando baixa "o modelo XML", mas o título e a descrição geral
-  falam do PDF; trate o DANFSe como PDF. ⚠️ Divergência interna do guia.
+  falam do PDF; trate o DANFSe como PDF. ⚠️ Divergência interna do guia. O leiaute do DANFSe (blocos,
+  QR Code, marcas d'água) e a suspensão da API de geração em 03/08/2026 estão em
+  [[df-nfse-danfse]] (NT CGNFS-e 008).
 
 ## Consulta pública (seção 9)
 

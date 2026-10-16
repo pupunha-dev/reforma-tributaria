@@ -287,3 +287,19 @@ O que aconteceu: dois testes do bot (quem emite NFS-e pelo Emissor Nacional; ser
 Por que importa: o roteador escolhe só pelo texto da linha do índice, então a linha precisa conter a regra que responde a pergunta mais provável, não só o tema. E "espelho" de artigo é armadilha: conferir os conectivos (e/ou) e a condição "nos demais casos".
 
 Ação: nota de exportação reescrita com o teste completo do § 1º-A e a ligação com o art. 11; linhas dos três índices ajustadas; bloco "Comércio exterior" da NFS-e com as lacunas do guia; perguntas D24 a D26 e R11 no banco de testes. Padrão: ao resumir uma regra "espelhada", citar os dois dispositivos lado a lado e conferir cada conectivo.
+
+## [2026-10-16] — Reteste do caso real: o roteador deixou de abrir a nota do NIF e a nota trazia um exemplo que a lei não dá
+
+O que aconteceu: no reteste da pergunta do colaborador (serviço prestado no Brasil a tomador no exterior), a resposta ficou correta e condicional, mas disse que "o NIF não consta nas notas", embora `df-nfse-emissao-pessoas` o trate. Pergunta com várias partes (CST/cClassTrib, sete campos de comércio exterior, NIF) esgota as 4 notas do roteador; a linha do índice dessa nota não citava o tomador no exterior nem o NIF, e ela perdeu para as outras quatro. Além disso, `ibs-cbs-exportacao` dava como exemplo de serviço do inciso X "serviço intelectual ou técnico a distância": exemplo nosso, não da lei, e perigoso (serviço de engenharia executado em obra no Brasil pode ser do art. 11, II ou V).
+
+Por que importa: "não consta nas notas" dito sobre algo que está na base é o erro que mais abala a confiança da diretoria; e exemplo inventado numa nota vira regra na resposta do bot.
+
+Ação: linha do índice passa a citar tomador no exterior e NIF; exemplo removido e substituído por aviso de enquadramento no art. 11; pergunta D27 no banco de testes. Padrão: pergunta com várias partes pode precisar de mais de 4 notas (`maxNotas` no nó "Preparar"); avaliar subir para 5 se o padrão se repetir. Nota nunca deve trazer exemplo de enquadramento que o texto legal não traz.
+
+## [2026-10-16] — NFS-e: documentos técnicos do mesmo assunto não se alinham por data nem por número
+
+O que aconteceu: ao ler as NTs da SE/CGNFS-e (003 a 010) e os anexos, apareceram quatro armadilhas. (1) A NT 005 (19/11/2025) é **anterior** à NT 004 v2.00 (10/12/2025), mas a 004 v2.00 diz que as evoluções da 005 só entram em produção depois: "a mais nova vale" não resolve, é preciso separar **publicada** de **em produção**. (2) O Anexo I recebido (modificado em 09/09/2025) é anterior ao RTC e não tem o grupo IBSCBS, enquanto as NTs citam versões de 10/12/2025 e o guia cita a v1.01 de 09/02/2026: um anexo em mãos pode estar defasado em relação à NT que o cita. (3) Nas regras de recepção do Anexo I, a mesma regra roda em colunas diferentes (emissores nacionais, decisão judicial, compartilhamento com o ADN): afirmar que uma regra "sempre vale" sem ver a coluna levou a um erro corrigido antes da publicação (as regras do valor 0 e de nDI/nRE rodam só nos emissores nacionais). (4) Planilhas têm anomalias (cenários 68, 111 e 112 do comércio exterior) que não se resolvem nas fontes.
+
+Por que importa: o bot responderia "vale desde X" ou "a Sefin rejeita" sem base. A diretoria perde confiança se aparecer data ou rejeição errada.
+
+Ação: nota de cronologia (`df-nfse-cgnfse-notas-tecnicas`) com seção "O que está em produção hoje?", versão do anexo registrada no `FONTE.md`, anomalias sinalizadas com ⚠️ nas notas, e `scripts/verificar.py` passou a aceitar versões do tipo "NT CGNFS-e 004 v2.00". Padrão: ao ingerir anexo ou planilha, registrar a data interna do arquivo, comparar com a versão citada pela NT e ler as colunas de aplicabilidade antes de afirmar onde uma regra roda.

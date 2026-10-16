@@ -1,0 +1,85 @@
+# Texto riscado — nt-cgnfse-004-v2.00.pdf
+
+Trechos marcados como superados (traço sobre o texto). **Não** usar nas notas.
+
+- p. 2: 2.1.2 | Grupo de Informações Relativas ao Adquirente .................................................
+- p. 10: 1 = NFS-e de crédito
+- p. 10: 2 = NFS-e de débito
+- p. 10: 9 = Outro
+- p. 10: Se tpEnteGov informado for igual a 9 = outro, este campo deve
+- p. 10: NFSe/infNFSe/DPS/infDPS/IBSCBS/ | xTpEnteGov | E | C | 0-1 | 100 informar qual a descrição do ente. Exemplo: "Comitê Gestor do
+- p. 10: IBS".
+- p. 10: indPessoas
+- p. 10: 2 - O adquirente e o destinatário são a mesma pessoa, mas
+- p. 10: diferente do tomador de serviços; (tomador ≠ adquirente =
+- p. 10: destinatário)
+- p. 10: 3 - O tomador e o destinatário são a mesma pessoa, diferente
+- p. 10: do adquirente; (tomador = destinatário ≠ adquirente)
+- p. 11: 4 - O tomador, o adquirente e o destinatário são pessoas
+- p. 11: distintas que devem ser identificadas. (tomador ≠ adquirente ≠
+- p. 11: destinatário)
+- p. 12: 2.1.2 | Grupo de Informações Relativas ao Adquirente
+- p. 12: CAMPO | ELE TIPO OCOR. TAM. | DESCRIÇÃO
+- p. 12: CAMINHO NO XML
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/ | adq | G | 0-1 | Grupo de informações relativas ao Adquirente
+- p. 12: Número da inscrição no Cadastro Nacional de Pessoa
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/ | CNPJ | CE | N | 1-1 | 14
+- p. 12: Jurídica (CNPJ) do adquirente de serviço
+- p. 12: Número da inscrição no Cadastro de Pessoa Física
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/ | CPF | CE | N | 1-1 | 11
+- p. 12: (CPF) do adquirente do serviço
+- p. 12: Número de identificação fiscal fornecido por órgão de
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/ | NIF | CE | C | 1-1 | 40
+- p. 12: administração tributária no exterior
+- p. 12: Motivo para não informação do NIF:
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/ | cNaoNIF | CE | N | 1-1 | 1 | 0 - Não informado na nota de origem;
+- p. 12: 1 - Dispensado do NIF;
+- p. 12: 2 - Não exigência do NIF;
+- p. 12: Número do Cadastro de Atividade Econômica da
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/ | CAEPF | E | N | 0-1 | 14
+- p. 12: Pessoa Física (CAEPF) do adquirente do serviço.
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/ | xNome | E | C | 1-1 | 150 | Nome / Nome Empresarial do adquirente
+- p. 12: Grupo de informações do endereço do adquirente do
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/ | end | G | 0-1
+- p. 12: serviço.
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/end/ | endNac | CG | 1-1 | Grupo de informações do endereço nacional.
+- p. 12: Código do município do endereço do adquirente do
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/end/endNac/ | cMun | E | N | 1-1 | 7 | serviço.
+- p. 12: (Tabela do IBGE)
+- p. 12: Código numérico do Endereçamento Postal nacional
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/end/endNac/ | CEP | E | C | 1-1 | 8 | (CEP)
+- p. 12: do endereço do adquirente do serviço.
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/end/ | endExt | CG | 1-1 | Grupo de informações do endereço no exterior.
+- p. 12: Código do país do endereço do adquirente do
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/end/endExt/ | cPais | E | C | 1-1 | 2 | serviço.
+- p. 12: (Tabela de Países ISO)
+- p. 12: Código alfanumérico do Endereçamento Postal no
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/end/endExt/ | cEndPost | E | C | 1-1 | 1-11
+- p. 12: exterior do adquirente do serviço.
+- p. 13: Nome da cidade no exterior do adquirente do
+- p. 13: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/end/endExt/ | xCidade | E | C | 1-1 | 1-60
+- p. 13: serviço.
+- p. 13: Estado, província ou região da cidade no exterior do
+- p. 13: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/end/endExt/ | xEstProvReg | E | C | 1-1 | 1-60
+- p. 13: adquirente do serviço.
+- p. 13: 1- | Tipo e nome do logradouro do endereço do
+- p. 13: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/end/ | xLgr | E | C | 1-1
+- p. 13: 255 | adquirente do serviço.
+- p. 13: Número no logradouro do endereço do adquirente do
+- p. 13: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/end/ | nro | E | C | 1-1 | 1-60
+- p. 13: serviço.
+- p. 13: 1-
+- p. 13: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/end/ | xCpl | E | C | 0-1 | Complemento do endereço do adquirente do serviço.
+- p. 13: 156
+- p. 13: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/end/ | xBairro | E | C | 1-1 | 1-60 | Bairro do endereço do adquirente do serviço.
+- p. 13: Número do telefone do adquirente do serviço.
+- p. 13: (Preencher com o Código DDD + número do
+- p. 13: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/ | fone | E | N | 0-1 | 6-20 telefone. Nas operações com exterior é permitido
+- p. 13: informar o código do país + código da localidade +
+- p. 13: número do telefone)
+- p. 13: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/ | email | E | C | 0-1 | 1-80 | E-mail do adquirente.
+- p. 16: Descrição do código indicador da operação de fornecimento,
+- p. 16: NFSe/infNFSe/IBSCBS/ | xIndOp | E | C | 1-1 | 500
+- p. 16: conforme tabela “código indicador de operação”
+- p. 16: NFSe/infNFSe/IBSCBS/ | xCST | E | C | 1-1 | 600 Descrição do Código de Situação Tributária do IBS/CBS.
+- p. 16: NFSe/infNFSe/IBSCBS/ | xCClassTrib | E | C | 1-1 | 600 Descrição do Código de Classificação Tributária do IBS/CBS

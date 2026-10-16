@@ -11,7 +11,7 @@ oficiais de `fontes/<dominio>/`.
 |---|---|---|---|---|---|
 | reforma | LC 214/2025 + LC 227/2026 + regulamentos: Decreto 12.955/2026 (CBS) e Res. CGIBS 6/2026 (IBS) | `notas/reforma/` | `fontes/reforma/` | — | ativo (92 notas; bloco "Regulamentação" em cada nota da lei) |
 | simples-nacional | LC 123/2006 (fase A) + Res. CGSN 140/2018 e alteradoras, como as Res. CGSN 190 e 191/2026 (fase B) + Anexos VI e XI da Res. 140, Res. CGSN 11/2007 (arrecadação) e Solução de Consulta Cosit 71/2026 (fase C) | `notas/simples-nacional/` | `fontes/simples-nacional/` | `sn-` | ativo (35 notas) — fases A, B e C concluídas |
-| documentos-fiscais | Notas Técnicas do Projeto NF-e: NT 2025.002-RTC, 2026.002, 2026.007, 2026.008 e 2026.010; Informe Técnico 2025.002 (tabelas do IBS/CBS); tabelas CST/cClassTrib e cCredPres do Portal dos DF-e (SVRS); Guia do Emissor Público Nacional Web da NFS-e v1.2 (documentação operacional, notas `df-nfse-*`). Versões e datas de captura em `fontes/documentos-fiscais/FONTE.md` | `notas/documentos-fiscais/` | `fontes/documentos-fiscais/` | `df-` | ativo (22 notas) |
+| documentos-fiscais | Notas Técnicas do Projeto NF-e: NT 2025.002-RTC, 2026.002, 2026.007, 2026.008 e 2026.010; Informe Técnico 2025.002 (tabelas do IBS/CBS); tabelas CST/cClassTrib e cCredPres do Portal dos DF-e (SVRS); Guia do Emissor Público Nacional Web da NFS-e v1.2 (documentação operacional, notas `df-nfse-*`); **Notas Técnicas da SE/CGNFS-e 003 a 010 da NFS-e Nacional**, com os Anexos I e VII e o manual da API (nível de NT, notas `df-nfse-*`). Versões e datas de captura em `fontes/documentos-fiscais/FONTE.md` | `notas/documentos-fiscais/` | `fontes/documentos-fiscais/` | `df-` | ativo (28 notas) |
 
 - Índice mestre: **[notas/INDEX.md](notas/INDEX.md)**. Cada domínio tem
   `INDEX.md` (notas por tema) e `_plano-notas.md` (mapa artigo → nota).
@@ -25,7 +25,7 @@ complementares, leis e atos infralegais federais, como resoluções do
 CGSN, as **Soluções de Consulta da Receita** listadas na tabela, e a
 **documentação técnica nacional dos documentos fiscais eletrônicos** (Notas
 Técnicas e Informes Técnicos do Projeto NF-e/NFC-e, as tabelas oficiais que
-eles publicam e o **Guia do Emissor Público Nacional Web da NFS-e**, que é
+eles publicam, as **Notas Técnicas da SE/CGNFS-e da NFS-e Nacional** com seus anexos e o **Guia do Emissor Público Nacional Web da NFS-e**, que é
 documentação operacional: diz como usar o emissor; datas e obrigações vêm do ato)
 listada na tabela.
 Ficam fora: legislação estadual e municipal (convênios, protocolos,
@@ -99,6 +99,9 @@ faltar é lacuna (regra 3): ofereça consultar o texto extraído em
    não cria nem altera tributo. O **Informe Técnico** e as tabelas oficiais
    que ele publica (cClassTrib, cCredPres) têm o nível da NT; quando o
    exemplo de uma NT diverge da tabela que ela manda usar, vale a tabela.
+   As **NTs da SE/CGNFS-e** (NFS-e Nacional) e seus anexos têm o nível da NT: a mais nova
+   que altera um campo prevalece (as NTs 003, 004 v2.00 e 005 "substituem" as versões anteriores);
+   várias não têm cronograma de produção nas fontes, então diga de qual NT vem o campo e que a data não está nas fontes.
    O **Guia do Emissor da NFS-e** é o nível mais baixo (guia operacional): fica
    abaixo da NT e dos atos; nunca cria obrigação nem fixa data de obrigatoriedade.
    Os **regulamentos da reforma** (Decreto 12.955/2026 para a CBS; Res. CGIBS

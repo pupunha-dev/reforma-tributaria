@@ -1,0 +1,128 @@
+# Texto riscado — nt-cgnfse-003-v1.2.pdf
+
+Trechos marcados como superados (traço sobre o texto). **Não** usar nas notas.
+
+- p. 2: 2.1.4.1 | Grupo de Informações Específicas Relativas ao IBS Estadual ...........................
+- p. 2: 2.1.4.2 | Grupo de Informações Específicas Relativas ao IBS Municipal .........................
+- p. 2: 2.1.4.3 | Grupo de Informações Específicas Relativas à CBS...........................................
+- p. 6: 1 = NFS-e de crédito
+- p. 6: 2 = NFS-e de débito
+- p. 7: Número do Cadastro de Atividade Econômica da
+- p. 7: NFSe/infNFSe/DPS/infDPS/IBSCBS/dest/ | CAEPF | E | N | 0-1 | 14
+- p. 7: Pessoa Física (CAEPF) do destinatário do serviço.
+- p. 8: Número do Cadastro de Atividade Econômica da
+- p. 8: NFSe/infNFSe/DPS/infDPS/IBSCBS/adq/ | CAEPF | E | N | 0-1 | 14
+- p. 8: Pessoa Física (CAEPF) do adquirente do serviço.
+- p. 11: 2.1.4.1 | Grupo de Informações Específicas Relativas ao IBS
+- p. 11: Estadual
+- p. 11: CAMPO | ELE TIPO OCOR. TAM. | DESCRIÇÃO
+- p. 11: CAMINHO NO XML
+- p. 11: Grupo de informações
+- p. 11: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/ | gIBSUF | G | 1-1 | relacionados ao IBS para o
+- p. 11: Estado
+- p. 11: Grupo de informações
+- p. 11: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gIBSUF/ | gDif | G | 0-1 | relacionadas ao diferimento
+- p. 11: para o Estado
+- p. 11: 1- | Percentual de diferimento
+- p. 11: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gIBSUF/gDif/ | pDifUF | E | N | 1-1
+- p. 11: 3V2 | estadual.
+- p. 11: Grupo de informações
+- p. 11: NFSe/infNFSe/DPS/infDPS/IBSCBSSEL/valores/trib/gIBSCBS/gIBSUF/ | gDevTrib | G | 0-1 | relacionados à devolução
+- p. 11: tributária para o Estado
+- p. 11: 1- | Devolução personalizada do
+- p. 11: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gIBSUF/gDevTrib/ | vDevTribUF | E | N | 1-1
+- p. 11: 15V2 | IBS estadual.
+- p. 11: Grupo de informações
+- p. 11: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gIBSUF/ | gDeson | G | 0-1 | relacionados à desoneração
+- p. 11: para o Estado
+- p. 12: Código de Situação tributária
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gIBSUF/gDeson/ | cstUFDeson | E | N | 1-1 | 3 | estadual de Desoneração do
+- p. 12: IBS.
+- p. 12: Código de Classificação
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gIBSUF/gDeson/ | cClassTribUFDeson E | N | 1-1 | 6 | estadual de Desoneração do
+- p. 12: IBS.
+- p. 12: 1- | Valor da alíquota estadual de
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gIBSUF/gDeson/ | pAliqUFDeson | E | N | 1-1
+- p. 12: 2V2 | Desoneração do IBS.
+- p. 12: 2.1.4.2 | Grupo de Informações Específicas Relativas ao IBS
+- p. 12: Municipal
+- p. 12: CAMPO | ELE TIPO OCOR. TAM. | DESCRIÇÃO
+- p. 12: CAMINHO NO XML
+- p. 12: Grupo de informações
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/ | gIBSMun | G | 1-1 | relacionados ao IBS para
+- p. 12: o Município
+- p. 12: Grupo de informações
+- p. 12: relacionadas ao
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gIBSMun/ | gDif | G | 0-1
+- p. 12: diferimento para o
+- p. 12: Município
+- p. 12: 1- | Percentual de diferimento
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gIBSMun/gDif/ | pDifMun | E | N | 1-1
+- p. 12: 3V2 | municipal.
+- p. 12: Grupo de informações
+- p. 12: relacionadas à devolução
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gIBSMun/ | gDevTrib | G | 0-1
+- p. 12: tributária para o
+- p. 12: Município
+- p. 12: 1- Devolução personalizada do
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gIBSMun/gDevol/ | vDevTribMun | E | N | 1-1
+- p. 12: 15V2 | IBS municipal.
+- p. 12: Grupo de informações
+- p. 12: relacionadas à
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gIBSMun/ | gDeson | G | 0-1
+- p. 12: desoneração para o
+- p. 12: Município
+- p. 12: Código de Situação
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gIBSMun/gDeson/ | cstMunDeson | E | N | 1-1 | 3 | tributária municipal de
+- p. 12: desoneração do IBS.
+- p. 12: Código de Classificação
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gIBSMun/gDeson/ | cClassTribMunDeson E | N | 1-1 | 6 | municipal de desoneração
+- p. 12: do IBS.
+- p. 12: 1- | Valor da alíquota municipal
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gIBSMun/gDeson/ | pAliqMunDeson | E | N | 1-1
+- p. 12: 2V2 | de desoneração do IBS.
+- p. 12: 2.1.4.3 | Grupo de Informações Específicas Relativas à CBS
+- p. 12: CAMPO | ELE TIPO OCOR. TAM. | DESCRIÇÃO
+- p. 12: CAMINHO NO XML
+- p. 12: Grupo de informações
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/ | gCBS | G | 1-1
+- p. 12: relacionadas à CBS
+- p. 12: Grupo de informações
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gCBS/ | gCBSCredPres | G | 0-1 | relacionadas ao crédito
+- p. 12: presumido para a CBS
+- p. 12: Código de Classificação do
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gCBS/gCBSCredPres/ | cCredPresCBS | E | N | 1-1 | 2
+- p. 12: Crédito Presumido da CBS.
+- p. 12: 1- | Percentual do Crédito
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gCBS/gCBSCredPres/ | pCredPresCBS | E | N | 1-1
+- p. 12: 2V2 | Presumido da CBS.
+- p. 12: Grupo de informações
+- p. 12: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gCBS/ | gDif | G | 0-1 | relacionadas ao
+- p. 12: diferimento para a CBS
+- p. 13: Percentual de diferimento
+- p. 13: 1-
+- p. 13: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gCBS/gDif/ | pDifCBS | E | N | 1-1 | da
+- p. 13: 3V2
+- p. 13: CBS.
+- p. 13: Grupo de informações
+- p. 13: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gCBS/ | gDevTrib | G | 0-1 | relacionadas à devolução
+- p. 13: tributária para a CBS
+- p. 13: 1- Devolução personalizada da
+- p. 13: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gCBS/gDevol/ | vDevTribCBS | E | N | 1-1
+- p. 13: 15V2 | CBS.
+- p. 13: Grupo de informações da
+- p. 13: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gCBS/ | gDeson | G | 0-1
+- p. 13: desoneração para a CBS
+- p. 13: Código de Situação
+- p. 13: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gCBS/gDeson/ | cstCBSDeson | E | N | 1-1 | 3 | tributária de Desoneração
+- p. 13: da CBS.
+- p. 13: Código de Classificação
+- p. 13: Tributária de Desoneração
+- p. 13: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gCBS/gDeson/ | cClassTribCBSDeson E | N | 1-1 | 6
+- p. 13: da
+- p. 13: CBS.
+- p. 13: Valor da alíquota
+- p. 13: 1-
+- p. 13: NFSe/infNFSe/DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gCBS/gDeson/ | pAliqCBSDeson | E | N | 1-1 | Desoneração
+- p. 13: 2V2
+- p. 13: da CBS.
