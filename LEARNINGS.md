@@ -312,3 +312,11 @@ Por que importa: a tabela de terceiros daria ao bot uma resposta de aparência o
 
 Ação: compilação de terceiros arquivada em `referencias-nao-oficiais/`, fora das notas, com os resultados da conferência no `FONTE.md`; pendência F15 segue aberta até o Anexo VIII oficial. Padrão: fonte não oficial só entra depois de bater, linha a linha, com as tabelas oficiais; se não bater, fica arquivada e registrada. Para PDFs de página web, extrair por blocos e comparar contagens com outra extração.
 
+
+## [2026-10-16] — Teste do bot: "não consta nas notas" sobre código que está na fonte, e tela do guia que contradiz o Anexo I
+
+O que aconteceu: no reteste do caso do tomador estrangeiro, 4 das 5 respostas conferiram linha a linha com as fontes (cTribNac, E0372, IBGE, Anexo VIII). A quinta tinha duas lacunas de nota: (1) o bot disse que o CST 06 do PIS/COFINS "não consta nas notas", mas a NT 007 define o 06 como "Operação Tributável a Alíquota Zero"; a nota só listava as faixas de códigos, sem o significado. (2) Disse que o mecanismo de apoio do tomador "só aparece na nota do tomador" (texto do Anexo I), enquanto o guia mostra os dois mecanismos como obrigatórios na tela de quem emite e o valor 0 é rejeitado; o usuário via o campo e a resposta o contradizia. O guia também lista o vínculo "desconhecido" (sem "filial"), o que o Anexo I não tem.
+
+Por que importa: afirmar que algo "não consta" quando consta, ou contradizer a tela que o usuário está vendo, abala a confiança na ferramenta. O Anexo I em mãos é de 09/09/2025 e o guia é de 27/07/2026, então a divergência pode ser só desatualização do anexo.
+
+Ação: quadro com o significado dos CST do PIS/COFINS em `df-nfse-layout-ibscbs` (e o erro de digitação do 07 no Anexo I sinalizado); avisos ⚠️ sobre os dois mecanismos e o vínculo em `df-nfse-comercio-exterior` e `df-nfse-emissao-servico`; linha do índice atualizada; perguntas D46 a D48. Padrão: quando guia (tela) e anexo divergem, a nota deve dizer as duas versões, qual prevalece pela hierarquia e que a fonte não concilia, em vez de repetir só uma.
