@@ -11,6 +11,12 @@
 | resolucao-cgsn-140-2018-anexo-xi.pdf | Res. CGSN 140/2018, **Anexo XI** (ocupações permitidas ao MEI, Tabelas A e B, arts. 100 e 101) | idem | 2026-10-08 | Res. CGSN 182/2025 (vigência 01/10/2025) | 43 páginas, 470 ocupações (467 na Tabela A, 4 na B). Metadado: criado em 16/10/2025, depois da Res. 182, o que indica a versão atual. "REPARADOR(A) INDEPENDENTE" aparece 2 vezes (CNAEs 3314-7/01 e 3314-7/10), como no PDF. |
 | solucao-consulta-cosit-71-2026.pdf | Solução de Consulta Cosit nº 71, de 24/04/2026 (Simples: administração de garantias na locação de imóveis) | Receita Federal; fornecido pelo usuário | 2026-10-08 | — (ato interpretativo) | 14 páginas. Interpreta a LC 123 e a Res. 140 para os fatos da consulente (IN RFB 2.058/2021); não cria regra. Cita a SC Cosit 66/2013, que não está nas fontes. |
 | resolucao-cgsn-11-2007.pdf | Res. CGSN nº 11, de 23/07/2007 (arrecadação do Simples: DAS, rede arrecadadora e partilha) | fornecido pelo usuário | 2026-10-08 | — (texto original; DOU de 25/07/2007) | 6 páginas; PDF gerado em 05/11/2008. Alterações posteriores não verificadas; cita normas antigas (Res. CGSN 5/2007, Lei 8.666/1993). A Res. 140 remete a ela no art. 45. Texto em `texto/resolucao-cgsn-11-2007.txt`. |
+| texto/resolucao-cgsn-186-2026-consolidada.txt | Res. CGSN 186/2026 (opção pelo Simples e pelo regime regular de IBS/CBS no ano-calendário 2027), **texto consolidado com a redação da Res. 194/2026** | fornecido pelo usuário como texto extraído da publicação oficial (origem exata não informada; ato publicado no DOU de 17/04/2026) | 2026-10-16 | Res. CGSN 194/2026 (DOU de 28/09/2026, Edição Extra; efeitos desde 28/09/2026) | Traz só a redação **vigente**: marca "Redação Anterior" nos arts. 1º, 2º e 3º sem reproduzir o texto antigo. A **redação original** (DOU de 17/04/2026) **não está nas fontes** (`pendencias.md`, F20). Fonte da nota `sn-opcao-2027-prazos`. |
+| resolucao-cgsn-194-2026-econet.pdf (+ texto/resolucao-cgsn-194-2026.txt) | Res. CGSN 194/2026 (altera a 186: novos prazos da opção para 2027), DOU de 28/09/2026, Edição Extra | impressão da Econet Editora (https://www.econeteditora.com.br/bdi/res/rs26/resolucao_cgsn_194_2026.php), fornecida pelo usuário | 2026-10-16 | — (ato alterador) | 2 páginas. **Não é o DOU**: é impressão de editora privada; o conteúdo bate com o consolidado da 186. Contém o "Econet Comenta" no cabeçalho, sem texto de comentário. |
+| texto/resolucao-cgsn-187-2026.txt | Res. CGSN 187/2026 (inclui o §6º no art. 40-A da Res. 140: prazos das parcelas de parcelamentos em calamidade pública), DOU de 17/04/2026 | fornecido pelo usuário como texto extraído da publicação oficial (origem exata não informada) | 2026-10-16 | — (ato alterador) | A 140 multivigente (capturada em 07/10/2026) já traz o §6º do art. 40-A como incluído pela 187. |
+| texto/resolucao-cgsn-188-2026.txt | Res. CGSN 188/2026 (autoriza o DAS para recolher o ISS até 31/12/2032 pelo MAN da NFS-e nacional; revoga a Res. CGSN 177/2024), DOU de 27/04/2026 | fornecido pelo usuário como texto extraído da publicação oficial (origem exata não informada) | 2026-10-16 | — (ato autônomo) | O ISS é matéria municipal (fora de escopo); a nota registra só a autorização do DAS. |
+| texto/resolucao-cgsn-192-2026.txt | Res. CGSN 192/2026 (altera os arts. 17-A, 19, 20 e 21 da Res. CGSN 11/2007: inclui o CGIBS na arrecadação e partilha), DOU de 10/08/2026, Edição Extra | fornecido pelo usuário como texto extraído da publicação oficial (origem exata não informada) | 2026-10-16 | — (ato alterador) | Só reproduz os trechos alterados. O art. 17-A não existe no texto original da Res. 11 que temos. O art. 19 traz a grafia "CGBIS" (erro do ato). |
+| texto/resolucao-cgsn-193-2026.txt | Res. CGSN 193/2026 (altera o Regimento Interno do CGSN, Res. CGSN 176/2024: grupos técnicos e propostas de alteração), DOU de 10/08/2026 | fornecido pelo usuário como texto extraído da publicação oficial (origem exata não informada) | 2026-10-16 | — (ato alterador) | **Arquivada sem nota**: não traz regra tributária (só organização do CGSN). |
 
 ## Texto extraído
 
@@ -21,6 +27,8 @@
 - `texto/resolucao-cgsn-140-2018-anexo-vi.md` e `texto/resolucao-cgsn-140-2018-anexo-xi.md`: tabelas extraídas com `scripts/tabela_pdf.py` (detecção de tabelas do pymupdf), conferidas contra o texto corrido (`.txt`, `-layout.txt`, `pdftotext`): mesmo número de CNAEs no Anexo VI e o mesmo multiconjunto de CNAEs no Anexo XI.
 - `texto/solucao-consulta-cosit-71-2026.txt` e `-layout.txt`: `pdftotext -enc UTF-8`.
 - `texto/resolucao-cgsn-190-2026.txt`, `texto/resolucao-cgsn-191-2026.txt`: `pdftotext -enc UTF-8`. São atos alteradores da Res. 140: não têm esqueleto próprio; entram no mapa de vigência e, na fase B, nos blocos ⏳ das notas.
+- `texto/resolucao-cgsn-186-2026-consolidada.txt`, `-187-`, `-188-`, `-192-`, `-193-`: texto recebido do usuário, só com conversão de fim de linha (CRLF → LF). `texto/resolucao-cgsn-194-2026.txt`: `pdftotext -enc UTF-8` da impressão da Econet.
+- A Res. CGSN 191/2026 também foi enviada em `.txt` em 2026-10-16: conferida contra o DOU já guardado (`resolucao-cgsn-191-2026-dou.pdf`), tem o mesmo conteúdo (arts. 1º a 3º e 59 e 79 da Res. 140); **não foi duplicada**.
 
 ## Relação entre as fontes
 
@@ -28,3 +36,12 @@ A LC 123 é a lei; a Res. CGSN 140 a regulamenta; as Res. CGSN 190 e 191
 alteram a 140. A 140 multivigente (capturada em 2026-10-07) já incorpora a 191 e
 marca as modificações da 190 previstas para 01/01/2027, mas não traz o
 texto futuro: as 190/191 continuam sendo a fonte das redações futuras.
+
+Os atos de 2026 que ficam **fora** da Res. 140 têm destino próprio: a Res. CGSN
+186/2026 (alterada pela 194/2026) fixa os prazos da opção para 2027 e vira a nota
+`sn-opcao-2027-prazos`; a 187/2026 inclui o §6º no art. 40-A da Res. 140 (a visão
+multivigente já o traz); a 188/2026 trata do DAS para o ISS; a 192/2026 altera a
+Res. CGSN 11/2007 (arrecadação) e entra em `sn-repasse-arrecadacao`; a 193/2026
+altera só o Regimento Interno do CGSN. As Res. 186, 187, 188, 192 e 193 vieram
+como texto extraído, sem o PDF do DOU: a conferência contra o Diário Oficial é
+pendência (F20).

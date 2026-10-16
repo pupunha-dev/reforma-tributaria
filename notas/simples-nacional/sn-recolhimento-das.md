@@ -1,9 +1,9 @@
 ---
 título: Recolhimento do Simples — DAS, retenção de ISS, restituição, compensação e parcelamento
 dominio: simples-nacional
-fontes: LC 123/2006, arts. 21, 21-A e 21-B; LC 214/2025, arts. 517 e 543; LC 227/2026, art. 169; Res. CGSN 140/2018, arts. 40 a 45 e 128 a 132; Res. CGSN 190/2026, arts. 1º, 4º e 5º
+fontes: LC 123/2006, arts. 21, 21-A e 21-B; LC 214/2025, arts. 517 e 543; LC 227/2026, art. 169; Res. CGSN 140/2018, arts. 40 a 45 e 128 a 132; Res. CGSN 190/2026, arts. 1º, 4º e 5º; Res. CGSN 187/2026 (art. 40-A, §6º); Res. CGSN 188/2026 (DAS para ISS)
 vigencia: com-mudanca-programada
-texto-base: 2026-10-07
+texto-base: 2026-10-16
 ---
 
 # Recolhimento: DAS, retenção de ISS, restituição e parcelamento
@@ -119,7 +119,19 @@ Fundamento da data: LC 214, art. 544, V. São revogados os **§§4º e 4º-A do 
   **6 meses** — pagando até o dia 20 do mês de prorrogação, sem direito a
   restituir o que já foi pago; vale para todos os tributos do Simples, para
   PGDAS-D, DEFIS e DASN-SIMEI e para parcelamentos da RFB e da PGFN, conforme
-  portaria do Presidente do CGSN.
+  portaria do Presidente do CGSN. Desde **17/04/2026** (Res. CGSN 187/2026), o
+  **§6º** diz que o previsto no art. 40-A vale também, no que couber, para os
+  **prazos de vencimento das parcelas** dos parcelamentos administrados pela
+  RFB e pela PGFN (ver [[sn-parcelamento]]).
+- **DAS para recolher o ISS (Res. CGSN 188/2026):** o ato autoriza,
+  excepcionalmente e **até 31/12/2032**, usar o **DAS** para recolher o **ISS**
+  dos contribuintes sujeitos ao regime geral de apuração do imposto que usarem o
+  **Módulo de Apuração Nacional (MAN)** (Guia Única de Recolhimento) da NFS-e de
+  padrão nacional, na forma definida pelo CGNFS-e (art. 1º). O mesmo ato
+  **revogou a Res. CGSN 177/2024** (art. 2º), e vale desde a publicação (DOU de
+  27/04/2026). O ISS é imposto municipal: as regras do ISS em si estão **fora do
+  escopo** deste projeto; aqui só consta o que o CGSN autorizou sobre o DAS. A
+  forma de uso do MAN está nos atos do CGNFS-e (o MAN aparece em [[df-nfse-visao-geral]]).
 - **DAS (arts. 41 a 45):** gerado **só** pelo **PGMEI** (MEI) ou pelo
   **PGDAS-D** (demais), ou por aplicativo próprio para DAS avulso, cobrança,
   parcelamento, autuação ou dívida ativa (art. 42); DAS fora disso é inválido

@@ -1,9 +1,9 @@
 ---
 título: Parcelamento de débitos do Simples Nacional
 dominio: simples-nacional
-fontes: LC 123/2006, art. 21, §§15 a 24; Res. CGSN 140/2018, arts. 46 a 57, 143 e 144
+fontes: LC 123/2006, art. 21, §§15 a 24; Res. CGSN 140/2018, arts. 46 a 57, 143 e 144; Res. CGSN 187/2026 (art. 40-A, §6º)
 vigencia: atual
-texto-base: 2026-10-07
+texto-base: 2026-10-16
 ---
 
 # Parcelamento de débitos do Simples Nacional
@@ -81,6 +81,13 @@ revistos a pedido ou de ofício (art. 49), e o pedido implica adesão às regras
   **proporcionalmente** a cada tributo na dívida (III).
 - Estado, DF ou Município concessor fixa o próprio mínimo e o vencimento (§1º).
   Toda parcela, inclusive a mínima, leva os juros do art. 46, II (§2º).
+- **Calamidade pública:** a prorrogação de vencimento do art. 40-A da Res. 140
+  (decreto estadual ou distrital reconhecido pelo Ministério da Integração)
+  vale também, **no que couber**, para os **prazos de vencimento das parcelas**
+  dos parcelamentos administrados pela RFB e pela PGFN (art. 40-A, §6º,
+  incluído pela Res. CGSN 187/2026, em vigor desde 17/04/2026). Os termos da
+  prorrogação (até 6 meses, condições, portaria do CGSN) estão em
+  [[sn-recolhimento-das]].
 
 ## Reparcelamento (art. 55)
 

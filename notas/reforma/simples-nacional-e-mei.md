@@ -38,7 +38,7 @@ O Documento de Arrecadação do Simples (DAS) passa a segregar, entre as receita
 
 ## Alterações e revogações (art. 517 da LC 214; art. 181, IV da LC 227)
 
-O art. 517 da própria LC 214 já havia inserido o **art. 87-B** na LC 123 (mecanismo de transição). A LC 227, no seu art. 181, IV, revoga: esse art. 87-B na redação dada pelo art. 517; os incisos I e II do §4º do art. 41 da LC 123; o §4º do art. 31 (a partir de 30/11/2026); e o inciso VI do §4º do art. 18 (a partir de 01/01/2033) — uma limpeza de dispositivos que perderam função ou têm vigência programada para se encerrar.
+O art. 517 da própria LC 214 já havia inserido o **art. 87-B** na LC 123 (mecanismo de transição: opção de 2027 em setembro de 2026). Os prazos efetivos de 2027 vieram na Res. CGSN 186/2026, alterada pela 194/2026 ([[sn-opcao-2027-prazos]]). A LC 227, no seu art. 181, IV, revoga: esse art. 87-B na redação dada pelo art. 517; os incisos I e II do §4º do art. 41 da LC 123; o §4º do art. 31 (a partir de 30/11/2026); e o inciso VI do §4º do art. 18 (a partir de 01/01/2033) — uma limpeza de dispositivos que perderam função ou têm vigência programada para se encerrar.
 
 ## Anexos (LC 214, arts. 519-520)
 
@@ -58,6 +58,7 @@ O regime em si (LC 123) está detalhado nas notas `sn-*`; esta nota cobre o
 que a **reforma** muda nele. Principais:
 
 - [[sn-abrangencia-tributos]] — IBS/CBS no DAS e opção semestral pelo regime regular (2027)
+- [[sn-opcao-2027-prazos]] — prazos da opção pelo Simples (até 15/10/2026) e pelo regime regular de IBS/CBS (até 30/10/2026) para 2027, Res. CGSN 186/2026 alterada pela 194/2026
 - [[sn-segregacao-receitas]] — novos incisos VIII e IX do art. 18, §4º (2027)
 - [[sn-anexo-i-comercio]] a [[sn-anexo-v-servicos]] — Anexos XVIII a XXII da LC 214, ano a ano
 - [[sn-mei]] — Anexo VII (valores fixos com IBS/CBS, 2027–2033)

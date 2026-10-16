@@ -1,9 +1,9 @@
 ---
 título: Simples Nacional — instituição, tributos abrangidos e opção
 dominio: simples-nacional
-fontes: LC 123/2006, arts. 12 a 16; LC 214/2025, arts. 516, 517, 518, 542 e 543; LC 227/2026, art. 181; Res. CGSN 140/2018, arts. 4º a 7º, 13 e 14; Res. CGSN 190/2026, arts. 1º e 8º
+fontes: LC 123/2006, arts. 12 a 16; LC 214/2025, arts. 516, 517, 518, 542 e 543; LC 227/2026, art. 181; Res. CGSN 140/2018, arts. 4º a 7º, 13 e 14; Res. CGSN 190/2026, arts. 1º e 8º; Res. CGSN 186/2026 (redação da Res. CGSN 194/2026), arts. 1º a 4º
 vigencia: com-mudanca-programada
-texto-base: 2026-10-07
+texto-base: 2026-10-16
 ---
 
 # Instituição, tributos abrangidos e opção
@@ -106,7 +106,8 @@ Em fórmula:
 - Para enquadrar, conta a receita bruta do **ano anterior** à opção, dentro
   dos limites do art. 3º (§1º).
 - **Prazo hoje:** no mês de **janeiro**, até o último dia útil, com efeitos
-  desde o primeiro dia do ano (§2º). Empresa em início de atividade: efeitos
+  desde o primeiro dia do ano (§2º) — **exceto a opção para 2027**, que tem
+  datas próprias em 2026 ([[sn-opcao-2027-prazos]]). Empresa em início de atividade: efeitos
   desde o início, nas condições do CGSN (§3º).
 - A opção implica aceitar o **Domicílio Tributário Eletrônico** do Simples
   (§§1º-A a 1º-D): comunicações no portal valem como pessoais, sem Diário
@@ -212,15 +213,18 @@ Fundamento da data: Res. 190, art. 9º.
   atividade (§3º). Revogam-se os §§2º e 4º do art. 6º e os arts. 13 e 14 (art.
   8º, III e VIII).
 
-> ⚠️ **Opção para o ano-calendário de 2027:** até 31/12/2026, a Res. 140 manda
-> optar **em janeiro**, com efeitos no próprio ano (art. 6º, §1º atual); a partir
-> de 01/01/2027, a opção passa a ser **em setembro**, com efeitos no ano seguinte
-> (redação da Res. 190). A Res. 190 **não traz**, no texto das fontes, regra de
-> transição específica para a opção relativa a 2027, e o art. 87-B da LC 123
-> (opção em setembro de 2026) foi revogado pela LC 227 (ver
-> [[sn-disposicoes-finais]]). Os arts. 144-D e 144-E (Res. 190) só tratam da
-> receita anterior de quem tem opção com efeitos em 01/01/2027, e não do prazo.
-> Ponto a decidir pela equipe (registrar em `decisions.md`).
+> ⚠️ **Opção para o ano-calendário de 2027:** a transição está na **Res. CGSN
+> 186/2026, alterada pela 194/2026**, e não na Res. 140 nem na Res. 190. Até
+> 31/12/2026 a Res. 140 manda optar **em janeiro** (art. 6º, §1º atual); a
+> partir de 01/01/2027 a Res. 190 manda optar **em setembro**; mas, para o
+> ano-calendário **2027**, a Res. 186 fixa a opção pelo Simples de **01/09 a
+> 15/10/2026**, o cancelamento de **03/11 a 20/12/2026**, a regularização de
+> pendências até **30/10/2026** e a opção por apurar IBS/CBS pelo regime regular
+> (janeiro a junho de 2027) de **01/09 a 30/10/2026**. Tudo, com empresas novas e
+> SIMEI, está em [[sn-opcao-2027-prazos]]. O art. 87-B da LC 123 (opção em
+> setembro de 2026) foi revogado pela LC 227 (ver [[sn-disposicoes-finais]]); os
+> arts. 144-D e 144-E (Res. 190) tratam só da receita anterior de quem tem opção
+> com efeitos em 01/01/2027, e não do prazo.
 
 ## Ligações
 

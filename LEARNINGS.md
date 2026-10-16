@@ -340,3 +340,12 @@ Por que importa: respostas sobre NFS-e e NT trazem muitos nomes com underscore (
 O que aconteceu: numa tarde de testes o bot passou a responder "não consegui ler os índices no GitHub (403 API rate limit exceeded)". Os nós de leitura chamavam `api.github.com`, e as chamadas saíam sem token: sem autenticação o limite é de 60 consultas por hora por IP, e cada pergunta usa de 4 a 9 (3 índices + 1 a 6 notas).
 
 Por que importa: com a diretoria testando em sequência, o bot cai por até 1 hora sem aviso claro. O repositório é público, então a leitura passou a ser pelo `raw.githubusercontent.com`, sem token e sem esse limite (efeito colateral: o cache do GitHub pode atrasar até ~5 minutos uma nota recém-mergeada). Se o repositório virar privado, a leitura volta a precisar de token.
+
+## [2026-10-16] — Bot disse "a regra de janeiro vale hoje" para a opção de 2027: faltavam as Res. CGSN 186 e 194
+
+O que aconteceu: numa pergunta sobre a prorrogação da opção pelo Simples e o "regime híbrido", o bot respondeu que valia a regra de janeiro (Res. 140, art. 6º) e que a Res. 190 não trazia transição. A comparação com a resposta de uma consultoria (Econet) mostrou o motivo: o prazo de 2027 está na **Res. CGSN 186/2026, alterada pela 194/2026**, que não estavam nas fontes. Não foi erro do roteador nem do prompt: as notas estavam coerentes com o que havia, e o aviso ⚠️ (que apontava a lacuna e um "ponto a decidir pela equipe") estava certo, mas ficou parado sem ninguém buscar o ato.
+
+Por que importa: a diretoria vê prazo errado como erro técnico. Um aviso de lacuna só protege se alguém for atrás da fonte, e atos do CGSN saem entre as nossas capturas (a 186 é de abril; a 194, de 28/09/2026, mudou todas as datas).
+
+Ação: nota nova `sn-opcao-2027-prazos` e correção do ⚠️ em `sn-abrangencia-tributos`; perguntas S23 a S29 no teste do Simples; roteador com regra para a pergunta de prazo de opção; regra R-erro no CLAUDE.md (todo erro apontado vira, no mesmo PR, aprendizado + pergunta de teste + pendência de fonte, se for o caso); proposta P2 em `pendencias.md` (varredura de atos novos). Padrão a repetir: quando uma nota tem aviso "sem regra nas fontes", registrar em `pendencias.md` a fonte a procurar (F), não só um ponto a decidir (D).
+
