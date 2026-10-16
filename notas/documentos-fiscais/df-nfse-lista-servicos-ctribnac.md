@@ -1,7 +1,7 @@
 ---
 título: NFS-e Nacional — lista nacional de serviços (Anexo B v1.01-20260122): os 338 códigos de tributação nacional (cTribNac, 6 dígitos), com títulos de item e subitem
 dominio: documentos-fiscais
-fontes: Anexo B — lista nacional de serviços (cTribNac) e lista de NBS v2.0 (arquivo "Anexo_B-Nbs2-Lista_Servico_Nacional-SNNFSe-V1.01-20260122", abas LISTA.SERV.NAC. e LISTA.NBS_v2.0); NT CGNFS-e 004 v2.00 (Anexo B citado como parte da NT); Portal da NFS-e, página "Lista de Serviços Anexa à Lei Complementar nº 116, de 31 de julho de 2003" (Código e Descrição dos Serviços; página publicada em 20/02/2024 e atualizada em 20/08/2024, capturada em 16/10/2026); Anexo I v1.01-20260209 do leiaute da DPS/NFS-e (layout do campo cTribNac, aba de incidência por subitem e regras E0372, E0392 e E1402); Anexo VI v1.04.01 (NT CGNFS-e 009 v1.01: regras E0309, E0936, E0967 sobre os códigos 99.xx); Guia do Emissor Público Nacional Web da NFS-e v1.2 (27/07/2026)
+fontes: Anexo B — lista nacional de serviços (cTribNac) e lista de NBS v2.0 (arquivo "Anexo_B-Nbs2-Lista_Servico_Nacional-SNNFSe-V1.01-20260122", abas LISTA.SERV.NAC. e LISTA.NBS_v2.0); NT CGNFS-e 004 v2.00 (seção 1.3 cita o arquivo do Anexo B na versão v1.00-20251210, só para identificar o código 22.01.01 da NFS-e Via); Portal da NFS-e, página "Lista de Serviços Anexa à Lei Complementar nº 116, de 31 de julho de 2003" (Código e Descrição dos Serviços; página publicada em 20/02/2024 e atualizada em 20/08/2024, capturada em 16/10/2026); Anexo I v1.01-20260209 do leiaute da DPS/NFS-e (layout do campo cTribNac, aba de incidência por subitem e regras E0372, E0392 e E1402); Anexo VI v1.04.01 (NT CGNFS-e 009 v1.01: regras E0309, E0936, E0967 sobre os códigos 99.xx); Guia do Emissor Público Nacional Web da NFS-e v1.2 (27/07/2026)
 vigencia: atual
 texto-base: 2026-10-16
 ---
@@ -22,8 +22,9 @@ escopo**. A tela de escolha do código está em [[df-nfse-emissao-servico]].
 > `LISTA.SERV.NAC.`: 338 códigos, 41 títulos de item e 201 títulos de subitem). A página "Lista de
 > Serviços" do portal da NFS-e (atualizada em 20/08/2024) traz **335** desses códigos, todos com
 > descrição idêntica à do Anexo B; ficam de fora dela só `110501`, `141403` e `141404`. Como o Anexo B é
-> o anexo da NT e o Anexo I v1.01 também lista os três códigos, vale o Anexo B; a página do portal é só
-> uma cópia mais antiga. O título da lista usa o nome da lista da LC 116/2003, mas os códigos têm
+> um anexo oficial da NFS-e Nacional (nível de NT; a NT 004 v2.00 cita uma versão anterior dele, a
+> v1.00-20251210), é mais novo que a página e o Anexo I v1.01 também lista os três códigos, vale o
+> Anexo B; a página do portal é só uma cópia mais antiga. O título da lista usa o nome da lista da LC 116/2003, mas os códigos têm
 > **6 dígitos** (item, subitem e desdobro nacional), e não só os 4 dígitos da lei; por isso é a lista
 > **nacional**, e a LC 116 não está nas fontes.
 
