@@ -29,9 +29,9 @@ seguem a hierarquia (lei > resolução) e mantêm o aviso ⚠️.
 | F11 | Ato que fixa as datas de obrigatoriedade do IBS/CBS na NFS-e que o guia cita (03/08/2026 regime regular; 01/01/2027 Simples, por fato gerador) | Portal da NFS-e Nacional; atos da RFB/CGIBS/CGNFS-e | [[df-nfse-visao-geral]], [[df-nfse-emissao-pessoas]], [[df-nfse-emissao-valores-ibs-cbs]], [[df-nfse-cgnfse-notas-tecnicas]] | alta |
 | F12 | **Anexo I atual** (leiaute e RN da DPS/NFS-e **com os grupos IBSCBS**; a NT 004 v2.00 cita "v1.00-20251210"; o guia cita v1.01 de 09/02/2026). A cópia nas fontes é de 09/09/2025, sem IBSCBS | Portal da NFS-e Nacional → documentação técnica | [[df-nfse-comercio-exterior]], [[df-nfse-layout-ibscbs]] | média |
 | F14 | **Anexo VI** (LeiautesRN_RTC_IBSCBS, v1.04.00 da NT 009): regras de negócio e rejeições do grupo IBSCBS | Portal da NFS-e → documentação técnica (anexo da NT 009) | [[df-nfse-layout-ibscbs]], [[df-nfse-cgnfse-notas-tecnicas]] | **alta** |
-| F15 | **Anexo VIII** (correlação item da NBS × cIndOp × cClassTrib) | idem (anexo da NT 005 e seguintes) | [[df-nfse-indop-ibscbs]] | alta |
+| F15 | **Anexo VIII** oficial (correlação item da NBS × cIndOp × cClassTrib). Um CSV de terceiros com essa correlação foi **reprovado** na conferência (`FONTE.md`) e não vale como substituto | idem (anexo da NT 005 e seguintes) | [[df-nfse-indop-ibscbs]] | alta |
 | F16 | **Cronograma de implantação** das NTs 005, 007 e 009 (notas de ajuste, `vAjusteBC`, `gLocacao`, `gTribSN`, `gPgtoVinc`, CNPJ alfanumérico, DANFSe v2.0) | portal da NFS-e ("cronograma de implantação") | [[df-nfse-cgnfse-notas-tecnicas]], [[df-nfse-layout-ibscbs]], [[df-nfse-danfse]] | alta |
-| F17 | Anexos **A** (municípios IBGE e países ISO2) e **B** (lista nacional de serviços e cTribNac/NBS) | idem | [[df-nfse-emissao-servico]], [[df-nfse-comercio-exterior]] | média |
+| F17 | Anexo **A**, parte **países ISO2** (os municípios IBGE entraram em 2026-10-16), e o Anexo **B** na versão "V1.01-20260122" citada pelo guia (a lista do portal, atualizada em 20/08/2024, entrou em 2026-10-16) | idem | [[df-nfse-emissao-servico]], [[df-nfse-comercio-exterior]], [[df-nfse-lista-servicos-ctribnac]] | média |
 | F18 | **Resolução CGNFS-e nº 9/2025**, Manual para Emissão da NFS-e Via v1.02 e Anexo IV (leiautes RN ADN) | portal da NFS-e → NFS-e Via → documentação técnica | [[df-nfse-via]] | média |
 | F19 | NT 004 (1ª versão, 19/08/2025) e NTs 001 e 002; versão do **manual da API** posterior à 1.0 (o arquivo recebido não identifica a versão) | portal da NFS-e → documentação técnica | [[df-nfse-cgnfse-notas-tecnicas]] | baixa |
 | F13 | Endereço oficial de origem do **Guia do Emissor** e de cada **NT/anexo da SE/CGNFS-e** (os PDFs não trazem) e versão posterior à 1.2 do guia, se houver | Portal da NFS-e Nacional | [[df-nfse-visao-geral]] | baixa |
@@ -67,3 +67,6 @@ Nada em andamento.
   API: seis notas novas ([[df-nfse-cgnfse-notas-tecnicas]], [[df-nfse-layout-ibscbs]],
   [[df-nfse-comercio-exterior]], [[df-nfse-indop-ibscbs]], [[df-nfse-danfse]], [[df-nfse-via]]).
   Resolveu a parte de F12 (Anexo VII e regras de comércio exterior); o que continua aberto está em F12 e F14 a F19.
+- Lista nacional de serviços do portal da NFS-e (335 códigos de tributação nacional) e tabela de municípios do
+  IBGE (DTB de 22/11/2024), com o script `scripts/consulta_ibge.py`: [[df-nfse-lista-servicos-ctribnac]],
+  [[df-nfse-codigos-ibge-localidades]]. A NT 2025.002 v1.33 (superada) e o CSV de terceiros ficaram arquivados sem uso.

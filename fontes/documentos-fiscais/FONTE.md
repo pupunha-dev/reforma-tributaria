@@ -84,6 +84,18 @@ ISO2) e B (lista nacional de serviços), Anexo IV (leiautes RN ADN da NFS-e Via)
 NFS-e Via v1.02, Resolução CGNFS-e nº 9/2025, Anexo I atual (com os grupos `IBSCBS`), cronograma de
 implantação das NTs 005, 007 e 009 e o ato que fixa as datas do IBS/CBS na NFS-e.
 
+## Tabelas de códigos da NFS-e, tabela do IBGE e arquivos de apoio (2026-10-16, fim da tarde)
+
+Fornecidos pelo usuário em 2026-10-16 (caixa de entrada `fontes/assets/`).
+
+| Arquivo | Documento | Versão e data | Uso | Observação |
+|---|---|---|---|---|
+| lista-servicos-ctribnac-portal-nfse-2026-10-16.pdf | Portal da NFS-e, "Lista de Serviços Anexa à Lei Complementar nº 116, de 31 de julho de 2003" (Código e Descrição dos Serviços); endereço: https://www.gov.br/nfse/pt-br/mei-e-demais-empresas/codigos-de-tributacao-nacional-nbs | página publicada em 20/02/2024 e **atualizada em 20/08/2024**; impressa em 16/10/2026 (33 páginas) | nota [[df-nfse-lista-servicos-ctribnac]] | É a lista **nacional** de 335 códigos de 6 dígitos (cTribNac), não a lista de 4 dígitos da lei. Pode estar defasada: o guia cita o Anexo B "V1.01-20260122", que não está nas fontes. Extração com pymupdf (`texto/lista-servicos-ctribnac.tsv`); o `pdftotext` embaralha o primeiro item de cada página (cabeçalho fixo do site) e o texto cru ficou em `texto/lista-servicos-ctribnac-portal-nfse-2026-10-16.txt` só como apoio. Conferido: todos os 305 códigos legíveis no `pdftotext -layout` constam nos 335 |
+| ibge-dtb/RELATORIO_DTB_BRASIL_MUNICIPIO.xls, _DISTRITO.xls, _SUBDISTRITO.xls | IBGE, BET (Banco de Estruturas Territoriais), Relatório da Divisão Territorial Brasileira | data-base 22/11/2024 | nota [[df-nfse-codigos-ibge-localidades]] e `scripts/consulta_ibge.py` | 5.570 municípios; 10.724 distritos; 645 subdistritos. TSV em `texto/ibge-dtb-municipios.tsv`, `ibge-dtb-distritos.tsv` e `ibge-dtb-subdistritos.tsv`. Origem do download não registrada nos arquivos (site do IBGE) |
+| ibge-dtb/Distritos novos - 2023.xlsx, Subdistritos novos - 2023.xlsx | IBGE, divisões criadas em 2023 | 2023 | apoio | 54 distritos e 2 subdistritos; **todos já constam** nos relatórios de 22/11/2024 |
+| historico/nt-2025-002-rtc-v1.33-superada.pdf | NT 2025.002-RTC | **v1.33 (12/2025)**, superada pela v1.52 | nenhum (histórico) | A própria v1.52 lista a v1.33 como "correção em regras de validação e alteração da data de início de regra". Não usar |
+| referencias-nao-oficiais/reforma_tributaria_contabilin_2026-10-16.csv | compilação de terceiros ("contabilin"): item da LC 116 × NBS × cIndOp × local de incidência × cClassTrib × CNAE (227 linhas) | 16/10/2026 | **nenhum**: não é fonte oficial | Reprovada na conferência contra as fontes oficiais: 3 códigos cIndOp que não existem no Anexo VII v1.03.00 (010100, 070100 e 301001; os códigos vêm sem o zero à esquerda, como 20201, e foram normalizados para 6 dígitos para a conferência); 110 das 114 linhas com cIndOp 100301 dizem "Domicílio principal do adquirente", mas 4 dizem local do imóvel, da prestação ou do evento, em contradição com o anexo; 83 das 227 linhas trazem o nome do cClassTrib diferente do da tabela do Portal dos DF-e (parte é só abreviação); 4 cClassTrib não têm o uso em NFS-e na tabela oficial (000002, 011001, 011002 e 011005); o item 11.05 não consta na lista nacional. **Não substitui o Anexo VIII oficial** (pendência F15) |
+
 ## Tabelas online do Portal dos DF-e (SVRS)
 
 Capturadas em **2026-10-08** pelos endereços do IT 2025.002 v1.60 (seção 06), com
