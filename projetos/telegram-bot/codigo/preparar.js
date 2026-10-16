@@ -19,7 +19,7 @@ const CFG = {
   esforcoResposta: 'medium',       // idem
   maxTokensRoteador: 2000,         // inclui o "raciocínio" do modelo, por isso é folgado
   maxTokensResposta: 8000,
-  maxNotas: 4,                     // notas abertas por pergunta
+  maxNotas: 6,                     // notas abertas por pergunta (o corte por tamanho total abaixo continua valendo)
   maxCharsNota: 80000,             // corte por nota (~23 mil tokens)
   maxCharsTotal: 200000,           // corte do total de notas (~57 mil tokens)
   maxCharsPergunta: 1500,

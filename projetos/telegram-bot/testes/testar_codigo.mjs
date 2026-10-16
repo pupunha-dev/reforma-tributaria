@@ -250,6 +250,21 @@ console.log('\n[5b] Escape de _ * ` [ (parse_mode Markdown do n8n)');
   confere('com escapes, nenhuma parte passa de 4.096', fm2.every((x) => x.json.text.length <= 4096), fm2.map((x) => x.json.text.length).join(','));
 }
 
+// ---------------------------------------------------------------- 5c) até 6 notas
+console.log('\n[5c] Roteador pode abrir até 6 notas');
+{
+  const S = {};
+  S['Preparar'] = await rodar('Preparar', S, update(111, 'pergunta de teste sobre imóveis'), TROCA_ID);
+  const nomes = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
+  S['Montar roteador'] = [{ json: { indicesLidos: 1, validos: { 'documentos-fiscais': nomes }, errosIndice: [] } }];
+  const resp = JSON.stringify({ notas: nomes.map((n) => `documentos-fiscais/${n}.md`), fora_do_escopo: '', observacao: '' });
+  const e = await rodar('Escolher notas', S, [{ json: { content: [{ type: 'text', text: resp }] } }]);
+  confere('6 notas passam e a 7ª é cortada', e[0].json.notas.length === 6 && e[0].json.notas[5].arquivo === 'f.md', String(e[0].json.notas.length));
+  confere('ordem do roteador preservada (mais importante primeiro)', e[0].json.notas[0].arquivo === 'a.md');
+  const rot = fs.readFileSync(new URL('../prompts/roteador.md', import.meta.url), 'utf8');
+  confere('prompt do roteador diz 1 a 6 notas', rot.includes('1 a 6 notas') && !rot.includes('1 a 4 notas'));
+}
+
 // ---------------------------------------------------------------- 6) travas contra disparo acidental
 console.log('\n[6] Travas anti-disparo');
 {
