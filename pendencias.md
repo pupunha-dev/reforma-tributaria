@@ -31,7 +31,7 @@ seguem a hierarquia (lei > resolução) e mantêm o aviso ⚠️.
 | F14 | ~~Anexo VI~~ **entrou em 2026-10-16** (v1.04.01, layout da NT 009 v1.01). Resta a **data de produção** do Anexo VI (junto com F16) | Portal da NFS-e → documentação técnica | [[df-nfse-regras-ibscbs-anexo-vi]], [[df-nfse-layout-ibscbs]] | **alta** |
 | F15 | ~~Anexo VIII oficial~~ **entrou em 2026-10-16** (v1.01.00, [[df-nfse-correlacao-nbs-indop]]). Resta confirmar no portal se é a versão mais recente; o CSV de terceiros continua reprovado | Portal da NFS-e (anexo da NT 005 e seguintes) | [[df-nfse-correlacao-nbs-indop]] | baixa |
 | F16 | **Cronograma de implantação** das NTs 005, 007 e 009 e do Anexo VI v1.04.01 (notas de ajuste, `vAjusteBC`, `gLocacao`, `gTribSN`, `gPgtoVinc`, CNPJ alfanumérico, DANFSe v2.0) | portal da NFS-e ("cronograma de implantação") | [[df-nfse-cgnfse-notas-tecnicas]], [[df-nfse-layout-ibscbs]], [[df-nfse-danfse]] | alta |
-| F17 | Anexo **A**, parte **países ISO2** (os municípios IBGE entraram em 2026-10-16), e o Anexo **B** (lista de serviços) na versão "V1.01-20260122" citada pelo guia (a lista do portal, atualizada em 20/08/2024, entrou em 2026-10-16) | idem | [[df-nfse-emissao-servico]], [[df-nfse-comercio-exterior]], [[df-nfse-lista-servicos-ctribnac]] | média |
+| F17 | Anexo **A**, parte **países ISO2** (os municípios IBGE entraram em 2026-10-16). ~~Anexo B (lista de serviços)~~ **entrou em 2026-10-16** na versão v1.01-20260122 (338 códigos) | idem | [[df-nfse-emissao-servico]], [[df-nfse-comercio-exterior]], [[df-nfse-lista-servicos-ctribnac]] | média |
 | F18 | **Resolução CGNFS-e nº 9/2025**, Manual para Emissão da NFS-e Via v1.02 e **Anexo IV da NFS-e Via** (`LeiautesRN_ADN-SNNFSeVia_V1.00.04`; o "Anexo IV" que está nas fontes é o do ADN) | portal da NFS-e → NFS-e Via → documentação técnica | [[df-nfse-via]], [[df-nfse-adn-distribuicao]] | média |
 | F19 | NT 004 (1ª versão, 19/08/2025) e NTs 001 e 002; versão do **manual da API** posterior à 1.0 (o arquivo recebido não identifica a versão) | portal da NFS-e → documentação técnica | [[df-nfse-cgnfse-notas-tecnicas]] | baixa |
 | F13 | Endereço oficial de origem do **Guia do Emissor** e de cada **NT/anexo da SE/CGNFS-e** (os PDFs não trazem) e versão posterior à 1.2 do guia, se houver | Portal da NFS-e Nacional | [[df-nfse-visao-geral]] | baixa |
@@ -67,9 +67,10 @@ Nada em andamento.
   API: seis notas novas ([[df-nfse-cgnfse-notas-tecnicas]], [[df-nfse-layout-ibscbs]],
   [[df-nfse-comercio-exterior]], [[df-nfse-indop-ibscbs]], [[df-nfse-danfse]], [[df-nfse-via]]).
   Resolveu a parte de F12 (Anexo VII e regras de comércio exterior); o que continua aberto está em F12 e F14 a F19.
-- Lista nacional de serviços do portal da NFS-e (335 códigos de tributação nacional) e tabela de municípios do
+- Lista nacional de serviços do portal da NFS-e (335 códigos de tributação nacional; depois substituída como base pelo Anexo B v1.01-20260122, com 338) e tabela de municípios do
   IBGE (DTB de 22/11/2024), com o script `scripts/consulta_ibge.py`: [[df-nfse-lista-servicos-ctribnac]],
   [[df-nfse-codigos-ibge-localidades]]. A NT 2025.002 v1.33 (superada) e o CSV de terceiros ficaram arquivados sem uso.
+- Anexo B v1.01-20260122 (lista nacional de serviços: 338 códigos com títulos de item e subitem; lista de NBS v2.0 com 1.210 entradas): reescrita de [[df-nfse-lista-servicos-ctribnac]]; fecha a parte "Anexo B" de F17.
 - Anexos oficiais novos (Anexo I v1.01, II, IV-ADN, VI v1.04.01, VIII) e NT 009 v1.01: dez notas novas
   ([[df-nfse-regras-ibscbs-anexo-vi]], [[df-nfse-eventos]], [[df-nfse-adn-distribuicao]],
   [[df-nfse-correlacao-nbs-indop]] e seis `df-nfse-correlacao-itens-*`) e revisão das notas antigas.

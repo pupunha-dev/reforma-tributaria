@@ -35,8 +35,8 @@ obra, evento, comércio exterior.
 ## Código de Tributação Nacional e código complementar
 
 - **Código de Tributação Nacional:** obrigatório; escolhido na lista nacional de
-  serviços (Anexo B; o guia cita o arquivo "..._V1.01-20260122", que **não está nas fontes**), com
-  busca a partir de 3 caracteres. Os 335 códigos da lista publicada no portal e as regras do documento que
+  serviços (Anexo B v1.01-20260122, nas fontes), com
+  busca a partir de 3 caracteres. Os 338 códigos do Anexo B e as regras do documento que
   dependem do código (obra, evento, águas marítimas, não incidência) estão em
   [[df-nfse-lista-servicos-ctribnac]]. Alguns campos só aparecem conforme o código escolhido.
 - **Código complementar municipal:** obrigatório quando o município tiver criado

@@ -79,7 +79,7 @@ nas fontes.
 | **VII** — IndOp_IBSCBS | códigos do `cIndOp` | **v1.03.00**: [[df-nfse-indop-ibscbs]]. As NTs citam as versões 1.00.00 (NT 004 e 005), 1.01.00 (NT 007), 1.02.00 (NT 009 v1.0) e 1.02.01 (NT 009 v1.01); as fontes têm a v1.03.00, **mais nova** que todas elas |
 | **VIII** — correlação item da NBS × `cIndOp` × cClassTrib | "norteador" sem regras de negócio (NT 004 v2.00) | **v1.01.00**: [[df-nfse-correlacao-nbs-indop]] e seis notas por item |
 | **A** — municípios IBGE e países ISO2 | tabela de códigos | municípios: a tabela do IBGE (DTB de 22/11/2024) está nas fontes, ver [[df-nfse-codigos-ibge-localidades]]; **países ISO2: não estão nas fontes** |
-| **B** — lista nacional de serviços | códigos de tributação nacional | a lista do portal (atualizada em 20/08/2024) está em [[df-nfse-lista-servicos-ctribnac]]; o arquivo "V1.01-20260122" citado pelo guia **não está nas fontes** |
+| **B** — lista nacional de serviços e lista de NBS v2.0 | 338 códigos de tributação nacional com títulos de item e subitem; 1.210 entradas de NBS | **v1.01-20260122** nas fontes: [[df-nfse-lista-servicos-ctribnac]]. A página do portal (20/08/2024) tem 335 desses códigos; faltam nela 110501, 141403 e 141404 |
 
 O **Anexo VI** responde pelas regras de rejeição do grupo `IBSCBS` do layout da NT 009 v1.01; as do
 layout em produção estão no **Anexo I v1.01**. A diferença entre os dois (80 regras a mais no VI) está

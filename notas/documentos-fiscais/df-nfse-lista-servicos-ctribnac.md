@@ -1,7 +1,7 @@
 ---
-título: NFS-e Nacional — lista nacional de serviços: os 335 códigos de tributação nacional (cTribNac, 6 dígitos)
+título: NFS-e Nacional — lista nacional de serviços (Anexo B v1.01-20260122): os 338 códigos de tributação nacional (cTribNac, 6 dígitos), com títulos de item e subitem
 dominio: documentos-fiscais
-fontes: Portal da NFS-e, página "Lista de Serviços Anexa à Lei Complementar nº 116, de 31 de julho de 2003" (Código e Descrição dos Serviços; página publicada em 20/02/2024 e atualizada em 20/08/2024, capturada em 16/10/2026); Anexo I v1.01-20260209 do leiaute da DPS/NFS-e (layout do campo cTribNac, aba de incidência por subitem e regras E0372, E0392 e E1402); Anexo VI v1.04.01 (NT CGNFS-e 009 v1.01: regras E0309, E0936, E0967 sobre os códigos 99.xx); Guia do Emissor Público Nacional Web da NFS-e v1.2 (27/07/2026)
+fontes: Anexo B — lista nacional de serviços (cTribNac) e lista de NBS v2.0 (arquivo "Anexo_B-Nbs2-Lista_Servico_Nacional-SNNFSe-V1.01-20260122", abas LISTA.SERV.NAC. e LISTA.NBS_v2.0); NT CGNFS-e 004 v2.00 (Anexo B citado como parte da NT); Portal da NFS-e, página "Lista de Serviços Anexa à Lei Complementar nº 116, de 31 de julho de 2003" (Código e Descrição dos Serviços; página publicada em 20/02/2024 e atualizada em 20/08/2024, capturada em 16/10/2026); Anexo I v1.01-20260209 do leiaute da DPS/NFS-e (layout do campo cTribNac, aba de incidência por subitem e regras E0372, E0392 e E1402); Anexo VI v1.04.01 (NT CGNFS-e 009 v1.01: regras E0309, E0936, E0967 sobre os códigos 99.xx); Guia do Emissor Público Nacional Web da NFS-e v1.2 (27/07/2026)
 vigencia: atual
 texto-base: 2026-10-16
 ---
@@ -13,17 +13,19 @@ texto-base: 2026-10-16
 Na NFS-e Nacional cada serviço é identificado por um **código de tributação nacional** de
 **6 dígitos** (`cTribNac`, obrigatório na DPS, no grupo `serv/cServ`): é a "gaveta" da lista nacional em
 que o serviço se encaixa, e **vários campos e regras do documento dependem dele** (grupo de
-obra, grupo de evento, local da prestação, não incidência). A tabela abaixo traz os **335 códigos**
-da lista nacional publicada no portal da NFS-e. Esta nota só **lista os códigos e as regras do
+obra, grupo de evento, local da prestação, não incidência). A tabela abaixo traz os **338 códigos**
+da lista nacional do **Anexo B v1.01-20260122** (nível de NT), com os títulos dos 41 itens. Esta nota só **lista os códigos e as regras do
 documento**: alíquota, local de incidência e benefícios do ISSQN são matéria municipal e **fora do
 escopo**. A tela de escolha do código está em [[df-nfse-emissao-servico]].
 
-> **Origem da lista.** A tabela foi copiada da página do portal da NFS-e, impressa em 16/10/2026;
-> a própria página informa "atualizada em 20/08/2024", ou seja, é a versão que o portal
-> publicava nessa data. (O guia cita o arquivo do Anexo B "V1.01-20260122"; ele não foi
-> fornecido e as fontes não indicam que difira desta lista.) O título da página do portal usa o nome da
-> lista da LC 116/2003, mas os códigos têm **6 dígitos** (item, subitem e desdobro nacional),
-> e não só os 4 dígitos da lei; por isso é a lista **nacional**, e a LC 116 não está nas fontes.
+> **Origem da lista.** A tabela vem do **Anexo B v1.01-20260122** (planilha oficial, aba
+> `LISTA.SERV.NAC.`: 338 códigos, 41 títulos de item e 201 títulos de subitem). A página "Lista de
+> Serviços" do portal da NFS-e (atualizada em 20/08/2024) traz **335** desses códigos, todos com
+> descrição idêntica à do Anexo B; ficam de fora dela só `110501`, `141403` e `141404`. Como o Anexo B é
+> o anexo da NT e o Anexo I v1.01 também lista os três códigos, vale o Anexo B; a página do portal é só
+> uma cópia mais antiga. O título da lista usa o nome da lista da LC 116/2003, mas os códigos têm
+> **6 dígitos** (item, subitem e desdobro nacional), e não só os 4 dígitos da lei; por isso é a lista
+> **nacional**, e a LC 116 não está nas fontes.
 
 ## Como o código aparece
 
@@ -38,7 +40,7 @@ escopo**. A tela de escolha do código está em [[df-nfse-emissao-servico]].
 | Código ou grupo | O que o documento exige | Rejeição | Fonte |
 |---|---|---|---|
 | **990101** (serviços sem a incidência de ISSQN e ICMS) | é o código da "não incidência" (a mensagem 3 da planilha de exportação diz que "não incidência" só vale com ele; o guia acrescenta que o município pode configurar outros códigos como não incidência); não há localidade de incidência do ISSQN | ver [[df-nfse-comercio-exterior]] | Anexo I; guia |
-| **070201, 070202, 070401, 070501, 070502, 070601, 070602, 070701, 070801, 071701, 071901, 141403 e 141404** | só nesses 13 códigos (e no 990101) o **grupo de obra** é permitido (o 141403 e o 141404, guincho e guindaste em construção civil, são do Anexo I v1.01 e **não estão na lista do portal**: ver abaixo) | E0372 | Anexo I v1.01 e Anexo VI |
+| **070201, 070202, 070401, 070501, 070502, 070601, 070602, 070701, 070801, 071701, 071901, 141403 e 141404** | só nesses 13 códigos (e no 990101) o **grupo de obra** é permitido (o 141403 e o 141404, guincho e guindaste em construção civil, estão no Anexo B e no Anexo I v1.01, mas **não na página do portal**: ver acima) | E0372 | Anexo I v1.01 e Anexo VI |
 | **todo o item 12** (diversões, lazer, entretenimento) | só nele (e no 990101) o **grupo de atividade/evento** é permitido | E0392 | Anexo I |
 | **200101** (serviços portuários, prestados em terra) | não pode ser informado com local da prestação "Águas Marítimas" (código `0000000`) | E1402 | Anexo I |
 | **200102** (os mesmos serviços, prestados em águas marinhas) | a regra E1402 barra "Águas Marítimas" só para o 200101; o comentário do campo `cTribNac` fala em "20.01" sem distinguir os dois desdobros | — | Anexo I |
@@ -53,29 +55,30 @@ escopo**. A tela de escolha do código está em [[df-nfse-emissao-servico]].
 > operacional. (O grupo de **imóvel** é o oposto: proibido nos 11 subitens 07.xx dessa lista, E0931;
 > [[df-nfse-regras-ibscbs-anexo-vi]].)
 
-## Códigos do Anexo I v1.01 que a lista do portal não traz
+## Códigos que o portal não traz e o Anexo B traz
 
-A aba de incidência do Anexo I v1.01-20260209 (a lista com as regras de incidência e os grupos exigidos
-por subitem) tem **três códigos de 6 dígitos que a lista do portal** (atualizada em 20/08/2024) **não
-tem**: `110501` (monitoramento e rastreamento a distância de veículos, cargas, pessoas e semoventes, em
-qualquer via ou local, por telefonia móvel, satélite, rádio ou outro meio, inclusive pelas empresas de
-Tecnologia da Informação Veicular), `141403` (guincho intramunicipal em construção civil) e `141404`
-(guindaste e içamento em construção civil). A lista do portal tem `141401` e `141402` (guincho e
-guindaste, sem "em construção civil"). O Anexo I v1.01 é o layout em produção (nível de NT) e os lista; a
-lista do portal está, portanto, **defasada** em relação a ele, e as fontes não dizem se o portal já foi
-atualizado. A tabela abaixo (os 335 códigos do portal) não os inclui; para esses três, use a
-descrição acima (Anexo I: `fontes/documentos-fiscais/texto/anexo-i-mun-incid-info-serv.tsv`).
+Três códigos de 6 dígitos estão no Anexo B (e na aba de incidência do Anexo I v1.01-20260209) e **não**
+na página do portal de 20/08/2024: `110501` (monitoramento e rastreamento a distância de veículos,
+cargas, pessoas e semoventes, em qualquer via ou local, por telefonia móvel, satélite, rádio ou outro
+meio, inclusive pelas empresas de Tecnologia da Informação Veicular), `141403` (guincho intramunicipal
+em construção civil) e `141404` (guindaste e içamento em construção civil). O portal tem `141401` e
+`141402` (guincho e guindaste, sem "em construção civil"). Quem consultar só a página do portal fica com
+a lista **defasada**; as fontes não dizem se o portal já foi atualizado.
 
-## Os 335 códigos
+## Os 338 códigos
 
-A lista tem 335 códigos, dos itens 01 a 40 e o 99. Os desdobros (os dois últimos
-dígitos) existem só onde a lista nacional separa serviços do mesmo subitem. A lista **não traz os
-títulos dos itens**; a descrição de cada linha é a da fonte.
+A lista tem 338 códigos, dos itens 01 a 40 e o 99. Cada item aparece com o título do anexo; o título de
+subitem só é repetido quando o subitem tem **mais de um desdobro** ou quando difere da descrição do seu
+único código. Os desdobros (os dois últimos dígitos) existem só onde a lista nacional separa serviços do
+mesmo subitem. Código = item (2 dígitos) + subitem (2) + desdobro (2); o anexo guarda os códigos como
+número, sem o zero à esquerda, e esta nota os escreve com 6 dígitos.
 
 | Código | Descrição |
 |---|---|
+| **Item 01** | **Serviços de Informática e congêneres.** |
 | `010101` | Análise e desenvolvimento de sistemas. |
 | `010201` | Programação. |
+| *Subitem 01.03* | *Processamento, armazenamento ou hospedagem de dados, textos, imagens, vídeos, páginas eletrônicas, aplicativos e sistemas de informação, entre outros formatos, e congêneres.* |
 | `010301` | Processamento de dados, textos, imagens, vídeos, páginas eletrônicas, aplicativos e sistemas de informação, entre outros formatos, e congêneres. |
 | `010302` | Armazenamento ou hospedagem de dados, textos, imagens, vídeos, páginas eletrônicas, aplicativos e sistemas de informação, entre outros formatos, e congêneres. |
 | `010401` | Elaboração de programas de computadores, inclusive de jogos eletrônicos, independentemente da arquitetura construtiva da máquina em que o programa será executado, incluindo tablets, smartphones e congêneres. |
@@ -83,26 +86,35 @@ títulos dos itens**; a descrição de cada linha é a da fonte.
 | `010601` | Assessoria e consultoria em informática. |
 | `010701` | Suporte técnico em informática, inclusive instalação, configuração e manutenção de programas de computação e bancos de dados. |
 | `010801` | Planejamento, confecção, manutenção e atualização de páginas eletrônicas. |
+| *Subitem 01.09* | *Disponibilização, sem cessão definitiva, de conteúdos de áudio, vídeo, imagem e texto por meio da internet, respeitada a imunidade de livros, jornais e periódicos (exceto a distribuição de conteúdos pelas prestadoras de Serviço de Acesso Condicionado, de que trata a Lei nº 12.485, de 12 de setembro de 2011, sujeita ao ICMS).* |
 | `010901` | Disponibilização, sem cessão definitiva, de conteúdos de áudio por meio da internet (exceto a distribuição de conteúdos pelas prestadoras de Serviço de Acesso Condicionado, de que trata a Lei nº 12.485, de 12 de setembro de 2011, sujeita ao ICMS). |
 | `010902` | Disponibilização, sem cessão definitiva, de conteúdos de vídeo, imagem e texto por meio da internet, respeitada a imunidade de livros, jornais e periódicos (exceto a distribuição de conteúdos pelas prestadoras de Serviço de Acesso Condicionado, de que trata a Lei nº 12.485, de 12 de setembro de 2011, sujeita ao ICMS). |
+| **Item 02** | **Serviços de pesquisas e desenvolvimento de qualquer natureza.** |
 | `020101` | Serviços de pesquisas e desenvolvimento de qualquer natureza. |
+| **Item 03** | **Serviços prestados mediante locação, cessão de direito de uso e congêneres.** |
 | `030201` | Cessão de direito de uso de marcas e de sinais de propaganda. |
+| *Subitem 03.03* | *Exploração de salões de festas, centro de convenções, escritórios virtuais, stands, quadras esportivas, estádios, ginásios, auditórios, casas de espetáculos, parques de diversões, canchas e congêneres, para realização de eventos ou negócios de qualquer natureza.* |
 | `030301` | Exploração de salões de festas, centro de convenções, stands e congêneres, para realização de eventos ou negócios de qualquer natureza. |
 | `030302` | Exploração de escritórios virtuais e congêneres, para realização de eventos ou negócios de qualquer natureza. |
 | `030303` | Exploração de quadras esportivas, estádios, ginásios, canchas e congêneres, para realização de eventos ou negócios de qualquer natureza. |
 | `030304` | Exploração de auditórios, casas de espetáculos e congêneres, para realização de eventos ou negócios de qualquer natureza. |
 | `030305` | Exploração de parques de diversões e congêneres, para realização de eventos ou negócios de qualquer natureza. |
+| *Subitem 03.04* | *Locação, sublocação, arrendamento, direito de passagem ou permissão de uso, compartilhado ou não, de ferrovia, rodovia, postes, cabos, dutos e condutos de qualquer natureza.* |
 | `030401` | Locação, sublocação, arrendamento, direito de passagem ou permissão de uso, compartilhado ou não, de ferrovia. |
 | `030402` | Locação, sublocação, arrendamento, direito de passagem ou permissão de uso, compartilhado ou não, de rodovia. |
 | `030403` | Locação, sublocação, arrendamento, direito de passagem ou permissão de uso, compartilhado ou não, de postes, cabos, dutos e condutos de qualquer natureza. |
 | `030501` | Cessão de andaimes, palcos, coberturas e outras estruturas de uso temporário. |
+| **Item 04** | **Serviços de saúde, assistência médica e congêneres.** |
+| *Subitem 04.01* | *Medicina e biomedicina.* |
 | `040101` | Medicina. |
 | `040102` | Biomedicina. |
+| *Subitem 04.02* | *Análises clínicas, patologia, eletricidade médica, radioterapia, quimioterapia, ultra-sonografia, ressonância magnética, radiologia, tomografia e congêneres.* |
 | `040201` | Análises clínicas e congêneres. |
 | `040202` | Patologia e congêneres. |
 | `040203` | Eletricidade médica (eletroestimulação de nervos e musculos, cardioversão, etc) e congêneres. |
 | `040204` | Radioterapia, quimioterapia e congêneres. |
 | `040205` | Ultra-sonografia, ressonância magnética, radiologia, tomografia e congêneres. |
+| *Subitem 04.03* | *Hospitais, clínicas, laboratórios, sanatórios, manicômios, casas de saúde, prontos-socorros, ambulatórios e congêneres.* |
 | `040301` | Hospitais e congêneres. |
 | `040302` | Laboratórios e congêneres. |
 | `040303` | Clínicas, sanatórios, manicômios, casas de saúde, prontos-socorros, ambulatórios e congêneres. |
@@ -110,6 +122,7 @@ títulos dos itens**; a descrição de cada linha é a da fonte.
 | `040501` | Acupuntura. |
 | `040601` | Enfermagem, inclusive serviços auxiliares. |
 | `040701` | Serviços farmacêuticos. |
+| *Subitem 04.08* | *Terapia ocupacional, fisioterapia e fonoaudiologia.* |
 | `040801` | Terapia ocupacional. |
 | `040802` | Fisioterapia. |
 | `040803` | Fonoaudiologia. |
@@ -121,6 +134,7 @@ títulos dos itens**; a descrição de cada linha é a da fonte.
 | `041401` | Próteses sob encomenda. |
 | `041501` | Psicanálise. |
 | `041601` | Psicologia. |
+| *Subitem 04.17* | *Casas de repouso e de recuperação, creches, asilos e congêneres.* |
 | `041701` | Casas de repouso e congêneres. |
 | `041702` | Casas de recuperação e congêneres. |
 | `041703` | Creches e congêneres. |
@@ -131,8 +145,11 @@ títulos dos itens**; a descrição de cada linha é a da fonte.
 | `042101` | Unidade de atendimento, assistência ou tratamento móvel e congêneres. |
 | `042201` | Planos de medicina de grupo ou individual e convênios para prestação de assistência médica, hospitalar, odontológica e congêneres. |
 | `042301` | Outros planos de saúde que se cumpram através de serviços de terceiros contratados, credenciados, cooperados ou apenas pagos pelo operador do plano mediante indicação do beneficiário. |
+| **Item 05** | **Serviços de medicina e assistência veterinária e congêneres.** |
+| *Subitem 05.01* | *Medicina veterinária e zootecnia.* |
 | `050101` | Medicina veterinária |
 | `050102` | Zootecnia. |
+| *Subitem 05.02* | *Hospitais, clínicas, ambulatórios, prontos-socorros e congêneres, na área veterinária.* |
 | `050201` | Hospitais e congêneres, na área veterinária. |
 | `050202` | Clínicas, ambulatórios, prontos-socorros e congêneres, na área veterinária. |
 | `050301` | Laboratórios de análise na área veterinária. |
@@ -142,33 +159,43 @@ títulos dos itens**; a descrição de cada linha é a da fonte.
 | `050701` | Unidade de atendimento, assistência ou tratamento móvel e congêneres. |
 | `050801` | Guarda, tratamento, amestramento, embelezamento, alojamento e congêneres. |
 | `050901` | Planos de atendimento e assistência médico-veterinária. |
+| **Item 06** | **Serviços de cuidados pessoais, estética, atividades físicas e congêneres.** |
 | `060101` | Barbearia, cabeleireiros, manicuros, pedicuros e congêneres. |
 | `060201` | Esteticistas, tratamento de pele, depilação e congêneres. |
 | `060301` | Banhos, duchas, sauna, massagens e congêneres. |
 | `060401` | Ginástica, dança, esportes, natação, artes marciais e demais atividades físicas. |
 | `060501` | Centros de emagrecimento, spa e congêneres. |
 | `060601` | Aplicação de tatuagens, piercings e congêneres. |
+| **Item 07** | **Serviços relativos a engenharia, arquitetura, geologia, urbanismo, construção civil, manutenção, limpeza, meio ambiente, saneamento e congêneres.** |
+| *Subitem 07.01* | *Engenharia, agronomia, agrimensura, arquitetura, geologia, urbanismo, paisagismo e congêneres.* |
 | `070101` | Engenharia e congêneres. |
 | `070102` | Agronomia e congêneres. |
 | `070103` | Agrimensura e congêneres. |
 | `070104` | Arquitetura, urbanismo e congêneres. |
 | `070105` | Geologia e congêneres. |
 | `070106` | Paisagismo e congêneres. |
+| *Subitem 07.02* | *Execução, por administração, empreitada ou subempreitada, de obras de construção civil, hidráulica ou elétrica e de outras obras semelhantes, inclusive sondagem, perfuração de poços, escavação, drenagem e irrigação, terraplanagem, pavimentação, concretagem e a instalação e montagem de produtos, peças e equipamentos (exceto o fornecimento de mercadorias produzidas pelo prestador de serviços fora do local da prestação dos serviços, que fica sujeito ao ICMS).* |
 | `070201` | Execução, por administração, de obras de construção civil, hidráulica ou elétrica e de outras obras semelhantes, inclusive sondagem, perfuração de poços, escavação, drenagem e irrigação, terraplanagem, pavimentação, concretagem e a instalação e montagem de produtos, peças e equipamentos (exceto o fornecimento de mercadorias produzidas pelo prestador de serviços fora do local da prestação dos serviços, que fica sujeito ao ICMS). |
 | `070202` | Execução, por empreitada ou subempreitada, de obras de construção civil, hidráulica ou elétrica e de outras obras semelhantes, inclusive sondagem, perfuração de poços, escavação, drenagem e irrigação, terraplanagem, pavimentação, concretagem e a instalação e montagem de produtos, peças e equipamentos (exceto o fornecimento de mercadorias produzidas pelo prestador de serviços fora do local da prestação dos serviços, que fica sujeito ao ICMS). |
+| *Subitem 07.03* | *Elaboração de planos diretores, estudos de viabilidade, estudos organizacionais e outros, relacionados com obras e serviços de engenharia; elaboração de anteprojetos, projetos básicos e projetos executivos para trabalhos de engenharia.* |
 | `070301` | Elaboração de planos diretores, estudos de viabilidade, estudos organizacionais e outros, relacionados com obras e serviços de engenharia. |
 | `070302` | Elaboração de anteprojetos, projetos básicos e projetos executivos para trabalhos de engenharia. |
 | `070401` | Demolição. |
+| *Subitem 07.05* | *Reparação, conservação e reforma de edifícios, estradas, pontes, portos e congêneres (exceto o fornecimento de mercadorias produzidas pelo prestador dos serviços, fora do local da prestação dos serviços, que fica sujeito ao ICMS).* |
 | `070501` | Reparação, conservação e reforma de edifícios e congêneres (exceto o fornecimento de mercadorias produzidas pelo prestador dos serviços, fora do local da prestação dos serviços, que fica sujeito ao ICMS). |
 | `070502` | Reparação, conservação e reforma de estradas, pontes, portos e congêneres (exceto o fornecimento de mercadorias produzidas pelo prestador dos serviços, fora do local da prestação dos serviços, que fica sujeito ao ICMS). |
+| *Subitem 07.06* | *Colocação e instalação de tapetes, carpetes, assoalhos, cortinas, revestimentos de parede, vidros, divisórias, placas de gesso e congêneres, com material fornecido pelo tomador do serviço.* |
 | `070601` | Colocação e instalação de tapetes, carpetes, cortinas e congêneres, com material fornecido pelo tomador do serviço. |
 | `070602` | Colocação e instalação de assoalhos, revestimentos de parede, vidros, divisórias, placas de gesso e congêneres, com material fornecido pelo tomador do serviço. |
 | `070701` | Recuperação, raspagem, polimento e lustração de pisos e congêneres. |
 | `070801` | Calafetação. |
+| *Subitem 07.09* | *Varrição, coleta, remoção, incineração, tratamento, reciclagem, separação e destinação final de lixo, rejeitos e outros resíduos quaisquer.* |
 | `070901` | Varrição, coleta e remoção de lixo, rejeitos e outros resíduos quaisquer. |
 | `070902` | Incineração, tratamento, reciclagem, separação e destinação final de lixo, rejeitos e outros resíduos quaisquer. |
+| *Subitem 07.10* | *Limpeza, manutenção e conservação de vias e logradouros públicos, imóveis, chaminés, piscinas, parques, jardins e congêneres.* |
 | `071001` | Limpeza, manutenção e conservação de vias e logradouros públicos, parques, jardins e congêneres. |
 | `071002` | Limpeza, manutenção e conservação de imóveis, chaminés, piscinas e congêneres. |
+| *Subitem 07.11* | *Decoração e jardinagem, inclusive corte e poda de árvores.* |
 | `071101` | Decoração. |
 | `071102` | Jardinagem, inclusive corte e poda de árvores. |
 | `071201` | Controle e tratamento de efluentes de qualquer natureza e de agentes físicos, químicos e biológicos. |
@@ -177,32 +204,43 @@ títulos dos itens**; a descrição de cada linha é a da fonte.
 | `071701` | Escoramento, contenção de encostas e serviços congêneres. |
 | `071801` | Limpeza e dragagem de rios, portos, canais, baías, lagos, lagoas, represas, açudes e congêneres. |
 | `071901` | Acompanhamento e fiscalização da execução de obras de engenharia, arquitetura e urbanismo. |
+| *Subitem 07.20* | *Aerofotogrametria (inclusive interpretação), cartografia, mapeamento, levantamentos topográficos, batimétricos, geográficos, geodésicos, geológicos, geofísicos e congêneres.* |
 | `072001` | Aerofotogrametria (inclusive interpretação), cartografia, mapeamento e congêneres. |
 | `072002` | Levantamentos batimétricos, geográficos, geodésicos, geológicos, geofísicos e congêneres. |
 | `072003` | Levantamentos topográficos e congêneres. |
 | `072101` | Pesquisa, perfuração, cimentação, mergulho, perfilagem, concretação, testemunhagem, pescaria, estimulação e outros serviços relacionados com a exploração e explotação de petróleo, gás natural e de outros recursos minerais. |
 | `072201` | Nucleação e bombardeamento de nuvens e congêneres. |
+| **Item 08** | **Serviços de educação, ensino, orientação pedagógica e educacional, instrução, treinamento e avaliação pessoal de qualquer grau ou natureza.** |
+| *Subitem 08.01* | *Ensino regular pré-escolar, fundamental, médio e superior.* |
 | `080101` | Ensino regular pré-escolar, fundamental e médio. |
 | `080102` | Ensino regular superior. |
 | `080201` | Instrução, treinamento, orientação pedagógica e educacional, avaliação de conhecimentos de qualquer natureza. |
+| **Item 09** | **Serviços relativos a hospedagem, turismo, viagens e congêneres.** |
+| *Subitem 09.01* | *Hospedagem de qualquer natureza em hotéis, apart-service condominiais, flat, apart-hotéis, hotéis residência, residence-service, suite service, hotelaria marítima, motéis, pensões e congêneres; ocupação por temporada com fornecimento de serviço (o valor da alimentação e gorjeta, quando incluído no preço da diária, fica sujeito ao Imposto Sobre Serviços).* |
 | `090101` | Hospedagem em hotéis, hotelaria marítima e congêneres (o valor da alimentação e gorjeta, quando incluído no preço da diária, fica sujeito ao Imposto Sobre Serviços). |
 | `090102` | Hospedagem em pensões, albergues, pousadas, hospedarias, ocupação por temporada com fornecimento de serviços e congêneres (o valor da alimentação e gorjeta, quando incluído no preço da diária, fica sujeito ao Imposto Sobre Serviços). |
 | `090103` | Hospedagem em motéis e congêneres (o valor da alimentação e gorjeta, quando incluído no preço da diária, fica sujeito ao Imposto Sobre Serviços). |
 | `090104` | Hospedagem em apart-service condominiais, flat, apart-hotéis, hotéis residência, residence-service, suite service e congêneres (o valor da alimentação e gorjeta, quando incluído no preço da diária, fica sujeito ao Imposto Sobre Serviços). |
+| *Subitem 09.02* | *Agenciamento, organização, promoção, intermediação e execução de programas de turismo, passeios, viagens, excursões, hospedagens e congêneres.* |
 | `090201` | Agenciamento e intermediação de programas de turismo, passeios, viagens, excursões, hospedagens e congêneres. |
 | `090202` | Organização, promoção e execução de programas de turismo, passeios, viagens, excursões, hospedagens e congêneres. |
 | `090301` | Guias de turismo. |
+| **Item 10** | **Serviços de intermediação e congêneres.** |
+| *Subitem 10.01* | *Agenciamento, corretagem ou intermediação de câmbio, de seguros, de cartões de crédito, de planos de saúde e de planos de previdência privada.* |
 | `100101` | Agenciamento, corretagem ou intermediação de câmbio. |
 | `100102` | Agenciamento, corretagem ou intermediação de seguros. |
 | `100103` | Agenciamento, corretagem ou intermediação de cartões de crédito. |
 | `100104` | Agenciamento, corretagem ou intermediação de planos de saúde. |
 | `100105` | Agenciamento, corretagem ou intermediação de planos de previdência privada. |
+| *Subitem 10.02* | *Agenciamento, corretagem ou intermediação de títulos em geral, valores mobiliários e contratos quaisquer.* |
 | `100201` | Agenciamento, corretagem ou intermediação de títulos em geral e valores mobiliários. |
 | `100202` | Agenciamento, corretagem ou intermediação de contratos quaisquer. |
 | `100301` | Agenciamento, corretagem ou intermediação de direitos de propriedade industrial, artística ou literária. |
+| *Subitem 10.04* | *Agenciamento, corretagem ou intermediação de contratos de arrendamento mercantil (leasing), de franquia (franchising) e de faturização (factoring).* |
 | `100401` | Agenciamento, corretagem ou intermediação de contratos de arrendamento mercantil (leasing). |
 | `100402` | Agenciamento, corretagem ou intermediação de contratos de franquia (franchising). |
 | `100403` | Agenciamento, corretagem ou intermediação de faturização (factoring). |
+| *Subitem 10.05* | *Agenciamento, corretagem ou intermediação de bens móveis ou imóveis, não abrangidos em outros itens ou subitens, inclusive aqueles realizados no âmbito de Bolsas de Mercadorias e Futuros, por quaisquer meios.* |
 | `100501` | Agenciamento, corretagem ou intermediação de bens móveis ou imóveis, não abrangidos em outros itens ou subitens, por quaisquer meios. |
 | `100502` | Agenciamento, corretagem ou intermediação de bens móveis ou imóveis realizados no âmbito de Bolsas de Mercadorias e Futuros, por quaisquer meios. |
 | `100601` | Agenciamento marítimo. |
@@ -210,12 +248,17 @@ títulos dos itens**; a descrição de cada linha é a da fonte.
 | `100801` | Agenciamento de publicidade e propaganda, inclusive o agenciamento de veiculação por quaisquer meios. |
 | `100901` | Representação de qualquer natureza, inclusive comercial. |
 | `101001` | Distribuição de bens de terceiros. |
+| **Item 11** | **Serviços de guarda, estacionamento, armazenamento, vigilância e congêneres.** |
+| *Subitem 11.01* | *Guarda e estacionamento de veículos terrestres automotores, de aeronaves e de embarcações.* |
 | `110101` | Guarda e estacionamento de veículos terrestres automotores. |
 | `110102` | Guarda e estacionamento de aeronaves e de embarcações. |
 | `110201` | Vigilância, segurança ou monitoramento de bens, pessoas e semoventes. |
 | `110301` | Escolta, inclusive de veículos e cargas. |
+| *Subitem 11.04* | *Armazenamento, depósito, carga, descarga, arrumação e guarda de bens de qualquer espécie.* |
 | `110401` | Armazenamento, depósito, guarda de bens de qualquer espécie. |
 | `110402` | Carga, descarga, arrumação de bens de qualquer espécie. |
+| `110501` | Serviços relacionados ao monitoramento e rastreamento a distância, em qualquer via ou local, de veículos, cargas, pessoas e semoventes em circulação ou movimento, realizados por meio de telefonia móvel, transmissão de satélites, rádio ou qualquer outro meio, inclusive pelas empresas de Tecnologia da Informação Veicular, independentemente de o prestador de serviços ser proprietário ou não da infraestrutura de telecomunicações que utiliza. |
+| **Item 12** | **Serviços de diversões, lazer, entretenimento e congêneres.** |
 | `120101` | Espetáculos teatrais. |
 | `120201` | Exibições cinematográficas. |
 | `120301` | Espetáculos circenses. |
@@ -224,6 +267,7 @@ títulos dos itens**; a descrição de cada linha é a da fonte.
 | `120601` | Boates, taxi-dancing e congêneres. |
 | `120701` | Shows, ballet, danças, desfiles, bailes, óperas, concertos, recitais, festivais e congêneres. |
 | `120801` | Feiras, exposições, congressos e congêneres. |
+| *Subitem 12.09* | *Bilhares, boliches e diversões eletrônicas ou não.* |
 | `120901` | Bilhares. |
 | `120902` | Boliches. |
 | `120903` | Diversões eletrônicas ou não. |
@@ -235,10 +279,12 @@ títulos dos itens**; a descrição de cada linha é a da fonte.
 | `121501` | Desfiles de blocos carnavalescos ou folclóricos, trios elétricos e congêneres. |
 | `121601` | Exibição de filmes, entrevistas, musicais, espetáculos, shows, concertos, desfiles, óperas, competições esportivas, de destreza intelectual ou congêneres. |
 | `121701` | Recreação e animação, inclusive em festas e eventos de qualquer natureza. |
+| **Item 13** | **Serviços relativos a fonografia, fotografia, cinematografia e reprografia.** |
 | `130201` | Fonografia ou gravação de sons, inclusive trucagem, dublagem, mixagem e congêneres. |
 | `130301` | Fotografia e cinematografia, inclusive revelação, ampliação, cópia, reprodução, trucagem e congêneres. |
 | `130401` | Reprografia, microfilmagem e digitalização. |
 | `130501` | Composição gráfica, inclusive confecção de impressos gráficos, fotocomposição, clicheria, zincografia, litografia e fotolitografia, exceto se destinados a posterior operação de comercialização ou industrialização, ainda que incorporados, de qualquer forma, a outra mercadoria que deva ser objeto de posterior circulação, tais como bulas, rótulos, etiquetas, caixas, cartuchos, embalagens e manuais técnicos e de instrução, quando ficarão sujeitos ao ICMS. |
+| **Item 14** | **Serviços relativos a bens de terceiros.** |
 | `140101` | Lubrificação, limpeza, lustração, revisão, carga e recarga, conserto, restauração, blindagem, manutenção e conservação de máquinas, veículos, aparelhos, equipamentos, motores, elevadores ou de qualquer objeto (exceto peças e partes empregadas, que ficam sujeitas ao ICMS). |
 | `140201` | Assistência técnica. |
 | `140301` | Recondicionamento de motores (exceto peças e partes empregadas, que ficam sujeitas ao ICMS). |
@@ -251,15 +297,22 @@ títulos dos itens**; a descrição de cada linha é a da fonte.
 | `141001` | Tinturaria e lavanderia. |
 | `141101` | Tapeçaria e reforma de estofamentos em geral. |
 | `141201` | Funilaria e lanternagem. |
+| *Subitem 14.13* | *Carpintaria e serralheria.* |
 | `141301` | Carpintaria. |
 | `141302` | Serralheria. |
+| *Subitem 14.14* | *Guincho intramunicipal, guindaste e içamento.* |
 | `141401` | Guincho intramunicipal. |
 | `141402` | Guindaste e içamento. |
+| `141403` | Guincho intramunicipal em construção civil. |
+| `141404` | Guindaste e içamento em construção civil. |
+| **Item 15** | **Serviços relacionados ao setor bancário ou financeiro, inclusive aqueles prestados por instituições financeiras autorizadas a funcionar pela União ou por quem de direito.** |
+| *Subitem 15.01* | *Administração de fundos quaisquer, de consórcio, de cartão de crédito ou débito e congêneres, de carteira de clientes, de cheques pré-datados e congêneres.* |
 | `150101` | Administração de fundos quaisquer e congêneres. |
 | `150102` | Administração de consórcio e congêneres. |
 | `150103` | Administração de cartão de crédito ou débito e congêneres. |
 | `150104` | Administração de carteira de clientes e congêneres. |
 | `150105` | Administração de cheques pré-datados e congêneres. |
+| *Subitem 15.02* | *Abertura de contas em geral, inclusive conta-corrente, conta de investimentos e aplicação e caderneta de poupança, no País e no exterior, bem como a manutenção das referidas contas ativas e inativas.* |
 | `150201` | Abertura de conta-corrente no País, bem como a manutenção da referida conta ativa e inativa. |
 | `150202` | Abertura de conta-corrente no exterior, bem como a manutenção da referida conta ativa e inativa. |
 | `150203` | Abertura de conta de investimentos e aplicação no País, bem como a manutenção da referida conta ativa e inativa. |
@@ -268,6 +321,7 @@ títulos dos itens**; a descrição de cada linha é a da fonte.
 | `150206` | Abertura de caderneta de poupança no exterior, bem como a manutenção da referida conta ativa e inativa. |
 | `150207` | Abertura de contas em geral no País, não abrangida em outro subitem, bem como a manutenção das referidas contas ativas e inativas. |
 | `150208` | Abertura de contas em geral no exterior, não abrangida em outro subitem, bem como a manutenção das referidas contas ativas e inativas. |
+| *Subitem 15.03* | *Locação e manutenção de cofres particulares, de terminais eletrônicos, de terminais de atendimento e de bens e equipamentos em geral.* |
 | `150301` | Locação de cofres particulares. |
 | `150302` | Manutenção de cofres particulares. |
 | `150303` | Locação de terminais eletrônicos. |
@@ -277,11 +331,13 @@ títulos dos itens**; a descrição de cada linha é a da fonte.
 | `150307` | Locação de bens e equipamentos em geral. |
 | `150308` | Manutenção de bens e equipamentos em geral. |
 | `150401` | Fornecimento ou emissão de atestados em geral, inclusive atestado de idoneidade, atestado de capacidade financeira e congêneres. |
+| *Subitem 15.05* | *Cadastro, elaboração de ficha cadastral, renovação cadastral e congêneres, inclusão ou exclusão no Cadastro de Emitentes de Cheques sem Fundos - CCF ou em quaisquer outros bancos cadastrais.* |
 | `150501` | Cadastro, elaboração de ficha cadastral, renovação cadastral e congêneres. |
 | `150502` | Inclusão no Cadastro de Emitentes de Cheques sem Fundos - CCF. |
 | `150503` | Exclusão no Cadastro de Emitentes de Cheques sem Fundos - CCF. |
 | `150504` | Inclusão em quaisquer outros bancos cadastrais. |
 | `150505` | Exclusão em quaisquer outros bancos cadastrais. |
+| *Subitem 15.06* | *Emissão, reemissão e fornecimento de avisos, comprovantes e documentos em geral; abono de firmas; coleta e entrega de documentos, bens e valores; comunicação com outra agência ou com a administração central; licenciamento eletrônico de veículos; transferência de veículos; agenciamento fiduciário ou depositário; devolução de bens em custódia.* |
 | `150601` | Emissão, reemissão e fornecimento de avisos, comprovantes e documentos em geral |
 | `150602` | Abono de firmas. |
 | `150603` | Coleta e entrega de documentos, bens e valores. |
@@ -290,15 +346,18 @@ títulos dos itens**; a descrição de cada linha é a da fonte.
 | `150606` | Transferência de veículos. |
 | `150607` | Agenciamento fiduciário ou depositário. |
 | `150608` | Devolução de bens em custódia. |
+| *Subitem 15.07* | *Acesso, movimentação, atendimento e consulta a contas em geral, por qualquer meio ou processo, inclusive por telefone, fac-símile, internet e telex, acesso a terminais de atendimento, inclusive vinte e quatro horas; acesso a outro banco e à rede compartilhada; fornecimento de saldo, extrato e demais informações relativas a contas em geral, por qualquer meio ou processo.* |
 | `150701` | Acesso, movimentação, atendimento e consulta a contas em geral, por qualquer meio ou processo, inclusive por telefone, fac-símile, internet e telex. |
 | `150702` | Acesso a terminais de atendimento, inclusive vinte e quatro horas. |
 | `150703` | Acesso a outro banco e à rede compartilhada. |
 | `150704` | Fornecimento de saldo, extrato e demais informações relativas a contas em geral, por qualquer meio ou processo. |
+| *Subitem 15.08* | *Emissão, reemissão, alteração, cessão, substituição, cancelamento e registro de contrato de crédito; estudo, análise e avaliação de operações de crédito; emissão, concessão, alteração ou contratação de aval, fiança, anuência e congêneres; serviços relativos à abertura de crédito, para quaisquer fins.* |
 | `150801` | Emissão, reemissão, alteração, cessão, substituição, cancelamento e registro de contrato de crédito. |
 | `150802` | Estudo, análise e avaliação de operações de crédito. |
 | `150803` | Emissão, concessão, alteração ou contratação de aval, fiança, anuência e congêneres. |
 | `150804` | Serviços relativos à abertura de crédito, para quaisquer fins. |
 | `150901` | Arrendamento mercantil (leasing) de quaisquer bens, inclusive cessão de direitos e obrigações, substituição de garantia, alteração, cancelamento e registro de contrato, e demais serviços relacionados ao arrendamento mercantil (leasing). |
+| *Subitem 15.10* | *Serviços relacionados a cobranças, recebimentos ou pagamentos em geral, de títulos quaisquer, de contas ou carnês, de câmbio, de tributos e por conta de terceiros, inclusive os efetuados por meio eletrônico, automático ou por máquinas de atendimento; fornecimento de posição de cobrança, recebimento ou pagamento; emissão de carnês, fichas de compensação, impressos e documentos em geral.* |
 | `151001` | Serviços relacionados a cobranças em geral, de títulos quaisquer, de contas ou carnês, de câmbio, de tributos e por conta de terceiros, inclusive os efetuados por meio eletrônico, automático ou por máquinas de atendimento. |
 | `151002` | Serviços relacionados a recebimentos em geral, de títulos quaisquer, de contas ou carnês, de câmbio, de tributos e por conta de terceiros, inclusive os efetuados por meio eletrônico, automático ou por máquinas de atendimento. |
 | `151003` | Serviços relacionados a pagamentos em geral, de títulos quaisquer, de contas ou carnês, de câmbio, de tributos e por conta de terceiros, inclusive os efetuados por meio eletrônico, automático ou por máquinas de atendimento. |
@@ -306,39 +365,51 @@ títulos dos itens**; a descrição de cada linha é a da fonte.
 | `151005` | Serviços relacionados a emissão de carnês, fichas de compensação, impressos e documentos em geral. |
 | `151101` | Devolução de títulos, protesto de títulos, sustação de protesto, manutenção de títulos, reapresentação de títulos, e demais serviços a eles relacionados. |
 | `151201` | Custódia em geral, inclusive de títulos e valores mobiliários. |
+| *Subitem 15.13* | *Serviços relacionados a operações de câmbio em geral, edição, alteração, prorrogação, cancelamento e baixa de contrato de câmbio; emissão de registro de exportação ou de crédito; cobrança ou depósito no exterior; emissão, fornecimento e cancelamento de cheques de viagem; fornecimento, transferência, cancelamento e demais serviços relativos a carta de crédito de importação, exportação e garantias recebidas; envio e recebimento de mensagens em geral relacionadas a operações de câmbio.* |
 | `151301` | Serviços relacionados a operações de câmbio em geral, edição, alteração, prorrogação, cancelamento e baixa de contrato de câmbio. |
 | `151302` | Serviços relacionados a emissão de registro de exportação ou de crédito. |
 | `151303` | Serviços relacionados a cobrança ou depósito no exterior. |
 | `151304` | Serviços relacionados a emissão, fornecimento e cancelamento de cheques de viagem. |
 | `151305` | Serviços relacionados a fornecimento, transferência, cancelamento e demais serviços relativos a carta de crédito de importação, exportação e garantias recebidas. |
 | `151306` | Serviços relacionados a envio e recebimento de mensagens em geral relacionadas a operações de câmbio. |
+| *Subitem 15.14* | *Fornecimento, emissão, reemissão, renovação e manutenção de cartão magnético, cartão de crédito, cartão de débito, cartão salário e congêneres.* |
 | `151401` | Fornecimento, emissão, reemissão de cartão magnético, cartão de crédito, cartão de débito, cartão salário e congêneres. |
 | `151402` | Renovação de cartão magnético, cartão de crédito, cartão de débito, cartão salário e congêneres. |
 | `151403` | Manutenção de cartão magnético, cartão de crédito, cartão de débito, cartão salário e congêneres. |
+| *Subitem 15.15* | *Compensação de cheques e títulos quaisquer; serviços relacionados a depósito, inclusive depósito identificado, a saque de contas quaisquer, por qualquer meio ou processo, inclusive em terminais eletrônicos e de atendimento.* |
 | `151501` | Compensação de cheques e títulos quaisquer. |
 | `151502` | Serviços relacionados a depósito, inclusive depósito identificado, a saque de contas quaisquer, por qualquer meio ou processo, inclusive em terminais eletrônicos e de atendimento. |
+| *Subitem 15.16* | *Emissão, reemissão, liquidação, alteração, cancelamento e baixa de ordens de pagamento, ordens de crédito e similares, por qualquer meio ou processo; serviços relacionados à transferência de valores, dados, fundos, pagamentos e similares, inclusive entre contas em geral.* |
 | `151601` | Emissão, reemissão, liquidação, alteração, cancelamento e baixa de ordens de pagamento, ordens de crédito e similares, por qualquer meio ou processo. |
 | `151602` | Serviços relacionados à transferência de valores, dados, fundos, pagamentos e similares, inclusive entre contas em geral. |
+| *Subitem 15.17* | *Emissão, fornecimento, devolução, sustação, cancelamento e oposição de cheques quaisquer, avulso ou por talão.* |
 | `151701` | Emissão e fornecimento de cheques quaisquer, avulso ou por talão. |
 | `151702` | Devolução de cheques quaisquer, avulso ou por talão. |
 | `151703` | Sustação, cancelamento e oposição de cheques quaisquer, avulso ou por talão. |
+| *Subitem 15.18* | *Serviços relacionados a crédito imobiliário, avaliação e vistoria de imóvel ou obra, análise técnica e jurídica, emissão, reemissão, alteração, transferência e renegociação de contrato, emissão e reemissão do termo de quitação e demais serviços relacionados a crédito imobiliário.* |
 | `151801` | Serviços relacionados a crédito imobiliário, de avaliação e vistoria de imóvel ou obra. |
 | `151802` | Serviços relacionados a crédito imobiliário, de análise técnica e jurídica. |
 | `151803` | Serviços relacionados a crédito imobiliário, de emissão, reemissão, alteração, transferência e renegociação de contrato. |
 | `151804` | Serviços relacionados a crédito imobiliário, de emissão e reemissão do termo de quitação. |
 | `151805` | Demais serviços relacionados a crédito imobiliário. |
+| **Item 16** | **Serviços de transporte de natureza municipal.** |
+| *Subitem 16.01* | *Serviços de transporte coletivo municipal rodoviário, metroviário, ferroviário e aquaviário de passageiros.* |
 | `160101` | Serviços de transporte coletivo municipal rodoviário de passageiros. |
 | `160102` | Serviços de transporte coletivo municipal metroviário de passageiros. |
 | `160103` | Serviços de transporte coletivo municipal ferroviário de passageiros. |
 | `160104` | Serviços de transporte coletivo municipal aquaviário de passageiros. |
 | `160201` | Outros serviços de transporte de natureza municipal. |
+| **Item 17** | **Serviços de apoio técnico, administrativo, jurídico, contábil, comercial e congêneres.** |
+| *Subitem 17.01* | *Assessoria ou consultoria de qualquer natureza, não contida em outros itens desta lista; análise, exame, pesquisa, coleta, compilação e fornecimento de dados e informações de qualquer natureza, inclusive cadastro e similares.* |
 | `170101` | Assessoria ou consultoria de qualquer natureza, não contida em outros itens desta lista. |
 | `170102` | Análise, exame, pesquisa, coleta, compilação e fornecimento de dados e informações de qualquer natureza, inclusive cadastro e similares. |
+| *Subitem 17.02* | *Datilografia, digitação, estenografia, expediente, secretaria em geral, resposta audível, redação, edição, interpretação, revisão, tradução, apoio e infra-estrutura administrativa e congêneres.* |
 | `170201` | Datilografia, digitação, estenografia e congêneres. |
 | `170202` | Expediente, secretaria em geral, apoio e infra-estrutura administrativa e congêneres. |
 | `170203` | Resposta audível e congêneres. |
 | `170204` | Redação, edição, revisão e congêneres. |
 | `170205` | Interpretação, tradução e congêneres. |
+| *Subitem 17.03* | *Planejamento, coordenação, programação ou organização técnica, financeira ou administrativa.* |
 | `170301` | Planejamento, coordenação, programação ou organização técnica. |
 | `170302` | Planejamento, coordenação, programação ou organização financeira. |
 | `170303` | Planejamento, coordenação, programação ou organização administrativa. |
@@ -347,8 +418,10 @@ títulos dos itens**; a descrição de cada linha é a da fonte.
 | `170601` | Propaganda e publicidade, inclusive promoção de vendas, planejamento de campanhas ou sistemas de publicidade, elaboração de desenhos, textos e demais materiais publicitários. |
 | `170801` | Franquia (franchising). |
 | `170901` | Perícias, laudos, exames técnicos e análises técnicas. |
+| *Subitem 17.10* | *Planejamento, organização e administração de feiras, exposições, congressos e congêneres.* |
 | `171001` | Planejamento, organização e administração de feiras, exposições, e congêneres. |
 | `171002` | Planejamento, organização e administração de congressos e congêneres. |
+| *Subitem 17.11* | *Organização de festas e recepções; bufê (exceto o fornecimento de alimentação e bebidas, que fica sujeito ao ICMS).* |
 | `171101` | Organização de festas e recepções. |
 | `171102` | Bufê (exceto o fornecimento de alimentação e bebidas, que fica sujeito ao ICMS). |
 | `171201` | Administração em geral, inclusive de bens e negócios de terceiros. |
@@ -365,50 +438,85 @@ títulos dos itens**; a descrição de cada linha é a da fonte.
 | `172301` | Assessoria, análise, avaliação, atendimento, consulta, cadastro, seleção, gerenciamento de informações, administração de contas a receber ou a pagar e em geral, relacionados a operações de faturização (factoring). |
 | `172401` | Apresentação de palestras, conferências, seminários e congêneres. |
 | `172501` | Inserção de textos, desenhos e outros materiais de propaganda e publicidade, em qualquer meio (exceto em livros, jornais, periódicos e nas modalidades de serviços de radiodifusão sonora e de sons e imagens de recepção livre e gratuita). |
+| **Item 18** | **Serviços de regulação de sinistros vinculados a contratos de seguros; inspeção e avaliação de riscos para cobertura de contratos de seguros; prevenção e gerência de riscos seguráveis e congêneres.** |
+| *Subitem 18.01* | *Serviços de regulação de sinistros vinculados a contratos de seguros; inspeção e avaliação de riscos para cobertura de contratos de seguros; prevenção e gerência de riscos seguráveis e congêneres.* |
 | `180101` | Serviços de regulação de sinistros vinculados a contratos de seguros e congêneres. |
 | `180102` | Serviços de inspeção e avaliação de riscos para cobertura de contratos de seguros e congêneres. |
 | `180103` | Serviços de prevenção e gerência de riscos seguráveis e congêneres. |
+| **Item 19** | **Serviços de distribuição e venda de bilhetes e demais produtos de loteria, bingos, cartões, pules ou cupons de apostas, sorteios, prêmios, inclusive os decorrentes de títulos de capitalização e congêneres.** |
+| *Subitem 19.01* | *Serviços de distribuição e venda de bilhetes e demais produtos de loteria, bingos, cartões, pules ou cupons de apostas, sorteios, prêmios, inclusive os decorrentes de títulos de capitalização e congêneres.* |
 | `190101` | Serviços de distribuição e venda de bilhetes e demais produtos de loteria, cartões, pules ou cupons de apostas, sorteios, prêmios, inclusive os decorrentes de títulos de capitalização e congêneres. |
 | `190102` | Serviços de distribuição e venda de bingos e congêneres. |
+| **Item 20** | **Serviços portuários, aeroportuários, ferroportuários, de terminais rodoviários, ferroviários e metroviários.** |
+| *Subitem 20.01* | *Serviços portuários, ferroportuários, utilização de porto, movimentação de passageiros, reboque de embarcações, rebocador escoteiro, atracação, desatracação, serviços de praticagem, capatazia, armazenagem de qualquer natureza, serviços acessórios, movimentação de mercadorias, serviços de apoio marítimo, de movimentação ao largo, serviços de armadores, estiva, conferência, logística e congêneres.* |
 | `200101` | Serviços portuários, ferroportuários, utilização de porto, movimentação de passageiros, reboque de embarcações, rebocador escoteiro, atracação, desatracação, serviços de praticagem, capatazia, armazenagem de qualquer natureza, serviços acessórios, movimentação de mercadorias, serviços de apoio marítimo, de movimentação ao largo, serviços de armadores, estiva, conferência, logística e congêneres. (prestado em terra) |
 | `200102` | Serviços portuários, ferroportuários, utilização de porto, movimentação de passageiros, reboque de embarcações, rebocador escoteiro, atracação, desatracação, serviços de praticagem, capatazia, armazenagem de qualquer natureza, serviços acessórios, movimentação de mercadorias, serviços de apoio marítimo, de movimentação ao largo, serviços de armadores, estiva, conferência, logística e congêneres. (prestado em águas marinhas) |
 | `200201` | Serviços aeroportuários, utilização de aeroporto, movimentação de passageiros, armazenagem de qualquer natureza, capatazia, movimentação de aeronaves, serviços de apoio aeroportuários, serviços acessórios, movimentação de mercadorias, logística e congêneres. |
 | `200301` | Serviços de terminais rodoviários, ferroviários, metroviários, movimentação de passageiros, mercadorias, inclusive suas operações, logística e congêneres. |
+| **Item 21** | **Serviços de registros públicos, cartorários e notariais.** |
 | `210101` | Serviços de registros públicos, cartorários e notariais. |
+| **Item 22** | **Serviços de exploração de rodovia.** |
 | `220101` | Serviços de exploração de rodovia mediante cobrança de preço ou pedágio dos usuários, envolvendo execução de serviços de conservação, manutenção, melhoramentos para adequação de capacidade e segurança de trânsito, operação, monitoração, assistência aos usuários e outros serviços definidos em contratos, atos de concessão ou de permissão ou em normas oficiais. |
+| **Item 23** | **Serviços de programação e comunicação visual, desenho industrial e congêneres.** |
+| *Subitem 23.01* | *Serviços de programação e comunicação visual, desenho industrial e congêneres.* |
 | `230101` | Serviços de programação e comunicação visual e congêneres. |
 | `230102` | Serviços de desenho industrial e congêneres. |
+| **Item 24** | **Serviços de chaveiros, confecção de carimbos, placas, sinalização visual, banners, adesivos e congêneres.** |
+| *Subitem 24.01* | *Serviços de chaveiros, confecção de carimbos, placas, sinalização visual, banners, adesivos e congêneres.* |
 | `240101` | Serviços de chaveiros, confecção de carimbos e congêneres. |
 | `240102` | Serviços de placas, sinalização visual, banners, adesivos e congêneres. |
+| **Item 25** | **Serviços funerários.** |
 | `250101` | Funerais, inclusive fornecimento de caixão, urna ou esquifes; aluguel de capela; transporte do corpo cadavérico; fornecimento de flores, coroas e outros paramentos; desembaraço de certidão de óbito; fornecimento de véu, essa e outros adornos; embalsamento, embelezamento, conservação ou restauração de cadáveres. |
+| *Subitem 25.02* | *Translado intramunicipal e cremação de corpos e partes de corpos cadavéricos.* |
 | `250201` | Translado intramunicipal de corpos e partes de corpos cadavéricos. |
 | `250202` | Cremação de corpos e partes de corpos cadavéricos. |
 | `250301` | Planos ou convênio funerários. |
 | `250401` | Manutenção e conservação de jazigos e cemitérios. |
 | `250501` | Cessão de uso de espaços em cemitérios para sepultamento. |
+| **Item 26** | **Serviços de coleta, remessa ou entrega de correspondências, documentos, objetos, bens ou valores, inclusive pelos correios e suas agências franqueadas; courrier e congêneres.** |
+| *Subitem 26.01* | *Serviços de coleta, remessa ou entrega de correspondências, documentos, objetos, bens ou valores, inclusive pelos correios e suas agências franqueadas; courrier e congêneres.* |
 | `260101` | Serviços de coleta, remessa ou entrega de correspondências, documentos, objetos, bens ou valores, inclusive pelos correios e suas agências franqueadas. |
 | `260102` | Serviços de courrier e congêneres. |
+| **Item 27** | **Serviços de assistência social.** |
 | `270101` | Serviços de assistência social. |
+| **Item 28** | **Serviços de avaliação de bens e serviços de qualquer natureza.** |
 | `280101` | Serviços de avaliação de bens e serviços de qualquer natureza. |
+| **Item 29** | **Serviços de biblioteconomia.** |
 | `290101` | Serviços de biblioteconomia. |
+| **Item 30** | **Serviços de biologia, biotecnologia e química.** |
+| *Subitem 30.01* | *Serviços de biologia, biotecnologia e química.* |
 | `300101` | Serviços de biologia e biotecnologia. |
 | `300102` | Serviços de química. |
+| **Item 31** | **Serviços técnicos em edificações, eletrônica, eletrotécnica, mecânica, telecomunicações e congêneres.** |
+| *Subitem 31.01* | *Serviços técnicos em edificações, eletrônica, eletrotécnica, mecânica, telecomunicações e congêneres.* |
 | `310101` | Serviços técnicos em edificações e congêneres. |
 | `310102` | Serviços técnicos em eletrônica, eletrotécnica e congêneres. |
 | `310103` | Serviços técnicos em mecânica e congêneres. |
 | `310104` | Serviços técnicos em telecomunicações e congêneres. |
+| **Item 32** | **Serviços de desenhos técnicos.** |
 | `320101` | Serviços de desenhos técnicos. |
+| **Item 33** | **Serviços de desembaraço aduaneiro, comissários, despachantes e congêneres.** |
 | `330101` | Serviços de desembaraço aduaneiro, comissários, despachantes e congêneres. |
+| **Item 34** | **Serviços de investigações particulares, detetives e congêneres.** |
 | `340101` | Serviços de investigações particulares, detetives e congêneres. |
+| **Item 35** | **Serviços de reportagem, assessoria de imprensa, jornalismo e relações públicas.** |
+| *Subitem 35.01* | *Serviços de reportagem, assessoria de imprensa, jornalismo e relações públicas.* |
 | `350101` | Serviços de reportagem e jornalismo. |
 | `350102` | Serviços de assessoria de imprensa. |
 | `350103` | Serviços de relações públicas. |
+| **Item 36** | **Serviços de meteorologia.** |
 | `360101` | Serviços de meteorologia. |
+| **Item 37** | **Serviços de artistas, atletas, modelos e manequins.** |
 | `370101` | Serviços de artistas, atletas, modelos e manequins. |
+| **Item 38** | **Serviços de museologia.** |
 | `380101` | Serviços de museologia. |
+| **Item 39** | **Serviços de ourivesaria e lapidação.** |
 | `390101` | Serviços de ourivesaria e lapidação (quando o material for fornecido pelo tomador do serviço). |
+| **Item 40** | **Serviços relativos a obras de arte sob encomenda.** |
 | `400101` | Obras de arte sob encomenda. |
+| **Item 99** | **Serviços sem a incidência de ISSQN e ICMS** |
 | `990101` | Serviços sem a incidência de ISSQN e ICMS |
+
 
 ## O que a nota não responde
 
@@ -418,5 +526,7 @@ títulos dos itens**; a descrição de cada linha é a da fonte.
   nas fontes, mas parte do **item/subitem da LC 116** (não do código de 6 dígitos): ver
   [[df-nfse-correlacao-nbs-indop]] e as notas por item; os significados do `cIndOp` estão em
   [[df-nfse-indop-ibscbs]].
-- **Códigos criados ou extintos depois de 20/08/2024** (data informada pela página do portal): se a
-  pergunta for sobre a atualidade da lista, diga isso; nas demais, não é preciso lembrar.
+- **Códigos criados ou extintos depois do Anexo B v1.01-20260122:** as fontes não trazem versão mais
+  nova; se a pergunta for sobre a atualidade da lista, diga qual versão foi usada.
+- **A lista de NBS v2.0** (aba `LISTA.NBS_v2.0` do mesmo arquivo, 1.210 entradas) não é repetida aqui;
+  ver [[df-nfse-correlacao-nbs-indop]].

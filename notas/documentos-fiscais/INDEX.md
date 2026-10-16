@@ -5,7 +5,7 @@ título: Índice — Documentos fiscais eletrônicos (Notas Técnicas NF-e)
 # Índice de notas — documentos-fiscais
 
 Domínio `documentos-fiscais`. Prefixo `df-`. Fontes: Notas Técnicas do Projeto
-NF-e, o Informe Técnico 2025.002, as tabelas do Portal dos DF-e, o Guia do Emissor Público Nacional Web da NFS-e v1.2 e as Notas Técnicas da SE/CGNFS-e 003 a 010 com os Anexos I, II, IV (ADN), VI, VII e VIII, o manual da API e a lista nacional de serviços da NFS-e, e a tabela de municípios do IBGE (ver [FONTE.md](../../fontes/documentos-fiscais/FONTE.md)), com a versão de
+NF-e, o Informe Técnico 2025.002, as tabelas do Portal dos DF-e, o Guia do Emissor Público Nacional Web da NFS-e v1.2 e as Notas Técnicas da SE/CGNFS-e 003 a 010 com os Anexos B, I, II, IV (ADN), VI, VII e VIII, o manual da API e a lista nacional de serviços da NFS-e, e a tabela de municípios do IBGE (ver [FONTE.md](../../fontes/documentos-fiscais/FONTE.md)), com a versão de
 cada uma no frontmatter das notas. Data-base: 07/10/2026 (NF-e) e 16/10/2026 (NFS-e).
 
 **Hierarquia:** lei (LC 214/2025, LC 123/2006) > resolução/ato infralegal > nota
@@ -70,7 +70,7 @@ regulamentos. A mais nova que altera um campo prevalece; o cronograma de produç
 - [[df-nfse-indop-ibscbs]] — os 40 códigos do indicador da operação cIndOp (Anexo VII v1.03.00), como ler a tabela e o que ela não responde
 - [[df-nfse-danfse]] — DANFSe v2.0 (NT 008): blocos, supressões, QR Code, marcas d'água CANCELADA/SUBSTITUÍDA e suspensão da API de geração em 03/08/2026
 - [[df-nfse-via]] — NFS-e Via (exploração de via/pedágio; NTs 006 e 010): layout, campos fixos (220101, 106042100, CST 000, cClassTrib 000002), eventos de cancelamento e de manifestação
-- [[df-nfse-lista-servicos-ctribnac]] — os 335 códigos de tributação nacional (cTribNac, 6 dígitos) da lista nacional de serviços, e as regras do documento que dependem do código (obra E0372, evento E0392, águas marítimas E1402, não incidência 990101, rodovia 220101)
+- [[df-nfse-lista-servicos-ctribnac]] — os 338 códigos de tributação nacional (cTribNac, 6 dígitos) do Anexo B (lista nacional de serviços, com títulos de item e subitem), e as regras do documento que dependem do código (obra E0372, evento E0392, águas marítimas E1402, não incidência 990101, rodovia 220101)
 - [[df-nfse-codigos-ibge-localidades]] — códigos IBGE de 7 dígitos de município na DPS (cLocEmi, cLocPrestacao `0000000` águas marítimas, cLocIncid, cMun), o que a tabela do IBGE (DTB 22/11/2024) contém e como consultar (script)
 - [[df-nfse-regras-ibscbs-anexo-vi]] — regras de rejeição do IBS/CBS na DPS e na NFS-e (Anexo I v1.01 em produção × Anexo VI v1.04.01 da NT 009): papel da calculadora, quando exigir tomador/destinatário com CNPJ/CPF e endereço, imóvel (E0931/E0932/E0928), locação, bens móveis (99.04.01), fórmulas de vBC e vTotNF, o que é só do Anexo VI
 - [[df-nfse-eventos]] — os 16 tipos de evento da NFS-e (Anexo II v1.01): códigos, quem registra, leiaute do pedido, motivos de cancelamento/substituição/rejeição, ordem entre eventos (bloqueio e desbloqueio por ofício) e rejeições (E0xxx/E1xxx/E2xxx)

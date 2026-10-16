@@ -1,0 +1,1211 @@
+L1	CÓDIGO NBS	DESCRIÇÃO
+L2	10101	Serviços de construção de edificações
+L3	1.0101.1	Serviços de construção de edificações residenciais
+L4	1.0101.11.00	Serviços de construção de edificações residenciais de um e dois pavimentos
+L5	1.0101.12.00	Serviços de construção de edificações residenciais com mais de dois pavimentos
+L6	1.0101.2	Serviços de construção de edificações não residenciais
+L7	1.0101.21.00	Serviços de construção de edificações industriais
+L8	1.0101.22.00	Serviços de construção de edificações comerciais
+L9	1.0101.29.00	Serviços de construção de edificações não residenciais não classificados em subposições anteriores
+L10	1.0101.30.00	Serviços de construção de edificações de uso misto (residencial e não residencial)
+L11	10102	Serviços de construção de obras de engenharia civil
+L12	1.0102.1	Serviços de construção de autoestradas (exceto autoestradas elevadas), ruas, estradas, estradas férreas, pistas de pouso e de decolagem em aeroportos e infraestrutura aeroportuária
+L13	1.0102.11.00	Serviços de construção de autoestradas (exceto autoestradas elevadas), ruas e estradas
+L14	1.0102.12.00	Serviços de construção de ferrovias
+L15	1.0102.13.00	Serviços de construção de pistas de pouso e decolagem em aeroportos e de infraestrutura aeroportuária
+L16	1.0102.20.00	Serviços de construção de pontes, autoestradas elevadas e túneis
+L17	1.0102.3	Serviços de construção de portos, vias navegáveis, represas, irrigação e outras obras hídricas
+L18	1.0102.31.00	Serviços de construção de infraestrutura de proteção e acesso aquaviário
+L19	1.0102.32.00	Serviços de construção de infraestrutura de acostagem aquaviária
+L20	1.0102.33.00	Serviços de construção de infraestrutura terrestre e de obras de engenharia afins nos portos
+L21	1.0102.34.00	Serviços de construção de barragens
+L22	1.0102.35	Serviços de construção de adutoras em conduto livre, de sistemas de irrigação e relacionados ao controle dos cursos de água
+L23	1.0102.35.10	Serviços de construção de adutoras em conduto livre
+L24	1.0102.35.20	Serviços de construção de sistemas de irrigação
+L25	1.0102.35.30	Serviços de construção relacionada ao controle dos cursos de água, inclusive canalização
+L26	1.0102.4	Serviços de construção de dutos e de linhas de comunicação, ambos de longo curso, e de linhas de transmissão de alta tensão
+L27	1.0102.41	Serviços de construção de dutos de longo curso
+L28	1.0102.41.10	Serviços de construção de dutos de longo curso para o transporte de petróleo, seus derivados, e gás
+L29	1.0102.41.20	Serviços de construção de dutos de longo curso para o transporte e escoamento de águas
+L30	1.0102.41.90	Serviços de construção de dutos de longo curso não classificados em subposições anteriores
+L31	1.0102.42	Serviços de construção de linhas de comunicação de longo curso e linhas de transmissão de alta tensão
+L32	1.0102.42.10	Serviços de construção de linhas de comunicação de longo curso
+L33	1.0102.42.20	Serviços de construção de linhas de transmissão de alta tensão
+L34	1.0102.5	Serviços de construção de dutos locais e de linhas locais de comunicação e de transmissão de baixa e média tensão e outros serviços de construção relacionados
+L35	1.0102.51.00	Serviços de construção de dutos locais
+L36	1.0102.52	Serviços de construção de linhas locais de comunicação e de transmissão de baixa e média tensão e outros serviços de construção relacionados
+L37	1.0102.52.10	Serviços de construção de linhas locais de comunicação
+L38	1.0102.52.20	Serviços de construção de linhas locais de transmissão de baixa e média tensão
+L39	1.0102.53	Serviços de construção de sistemas de esgotos e de sistemas de estações para elevação, tratamento e purificação de água
+L40	1.0102.53.10	Serviços de construção de sistemas de esgotos
+L41	1.0102.53.20	Serviços de construção de sistemas de estações para elevação, tratamento e purificação de água
+L42	1.0102.6	Serviços de construção de instalações industriais
+L43	1.0102.61.00	Serviços de construção de usinas de geração de energia
+L44	1.0102.69.00	Serviços de construção de instalações industriais não classificados em subposições anteriores
+L45	1.0102.70.00	Serviços de construção de minas e suas unidades industriais
+L46	1.0102.80.00	Serviços de construção de instalações para recreação e atividades desportivas ao ar livre
+L47	1.0102.90.00	Serviços de construção de obras de engenharia civil não classificados em subposições anteriores
+L48	10103	Serviços de preparação do local da obra
+L49	1.0103.10.00	Serviços de demolição
+L50	1.0103.20.00	Serviços de preparação de terrenos e de canteiros de obras
+L51	1.0103.30.00	Serviços de escavação e remoção de terra
+L52	1.0103.4	Serviços de perfuração de poços de água e de instalação de sistemas sépticos
+L53	1.0103.41.00	Serviços de perfuração de poços de água
+L54	1.0103.42.00	Serviços de instalação de sistemas sépticos
+L55	1.0104.00.00	Serviços de montagem e de edificação de construções pré-fabricadas
+L56	10105	Serviços especializados de construção
+L57	1.0105.1	Serviços de estaqueamento e de fundação
+L58	1.0105.11.00	Serviços de estaqueamento
+L59	1.0105.12.00	Serviços de fundação
+L60	1.0105.2	Serviços de construção de estruturas
+L61	1.0105.21.00	Serviços de construção de estruturas de edificações
+L62	1.0105.22.00	Serviços de construção de estruturas de telhados e coberturas
+L63	1.0105.30.00	Serviços de construção de telhados e coberturas e serviços de impermeabilização
+L64	1.0105.40.00	Serviços de concretagem
+L65	1.0105.50.00	Serviços de montagem de estruturas de aço
+L66	1.0105.60.00	Serviços de alvenaria
+L67	1.0105.70.00	Serviços de andaimes
+L68	1.0105.90.00	Serviços especializados de construção não classificados em subposições anteriores
+L69	10106	Serviços de instalação
+L70	1.0106.1	Serviços de instalação elétrica
+L71	1.0106.11.00	Serviços de instalação de fiação elétrica e componentes
+L72	1.0106.12.00	Serviços de instalação de alarmes contra incêndio
+L73	1.0106.13.00	Serviços de instalação de sistemas de alarmes antifurto
+L74	1.0106.14.00	Serviços de instalação de antenas residenciais
+L75	1.0106.19.00	Serviços de instalação elétrica não classificados em subposições anteriores
+L76	1.0106.2	Serviços de instalação de tubulação para fornecimento e escoamento de água
+L77	1.0106.21.00	Serviços de instalação de tubulação para fornecimento de água
+L78	1.0106.22.00	Serviços de instalação de tubulação para escoamento de água
+L79	1.0106.3	Serviços de instalação de equipamentos de aquecimento, de ventilação e de ar condicionado
+L80	1.0106.31.00	Serviços de instalação de equipamentos de aquecimento
+L81	1.0106.32.00	Serviços de instalação de equipamentos de ventilação e de ar condicionado
+L82	1.0106.40.00	Serviços de instalação de gás
+L83	1.0106.50.00	Serviços de instalação de isolamentos
+L84	1.0106.60.00	Serviços de instalação de elevadores, esteiras e escadas rolantes
+L85	1.0106.90.00	Serviços de instalação não classificados em subposições anteriores
+L86	10107	Serviços de acabamento
+L87	1.0107.10.00	Serviços de vidraçaria
+L88	1.0107.20.00	Serviços de gesso e de estuque
+L89	1.0107.30.00	Serviços de pintura
+L90	1.0107.40.00	Serviços de revestimento de pisos e de paredes
+L91	1.0107.50.00	Serviços de carpintaria e de serralharia
+L92	1.0107.60.00	Serviços de instalação de cercas e grades
+L93	1.0107.90.00	Serviços de acabamento não classificados em subposições anteriores
+L94	1.0201.00.00	Serviços de intermediação na distribuição de mercadorias
+L95	1.0202.00.00	Comércio atacadista
+L96	1.0203.00.00	Comércio varejista
+L97	1.0204.00.00	Serviços de despacho aduaneiro
+L98	1.0205.00.00	Serviços de intermediação na comercialização de energia elétrica
+L99	10301	Fornecimento de alimentação, incluindo refeições
+L100	1.0301.10.00	Fornecimento de refeições acompanhado de serviços de restaurante
+L101	1.0301.2	Fornecimento de refeições com serviços limitados de restaurante
+L102	1.0301.21.00	Fornecimento de refeições pelo sistema de autosserviço (self-service)
+L103	1.0301.22.00	Fornecimento de comidas rápidas (fast-food)
+L104	1.0301.29.00	Fornecimento de refeições com serviços limitados de restaurante não classificado em subposições anteriores
+L105	1.0301.3	Fornecimento de alimentação, incluindo refeições, sob contrato
+L106	1.0301.31.00	Fornecimento de alimentação para eventos
+L107	1.0301.32.00	Fornecimento de alimentação para operadores de transportes (comissaria ou catering)
+L108	1.0301.39.00	Fornecimento de alimentação, incluindo refeições, sob contrato, não classificados em subposições anteriores
+L109	1.0301.90.00	Fornecimento de alimentação não classificado em subposições anteriores
+L110	1.0302.00.00	Fornecimento de bebidas em bares, cervejarias e outros
+L111	10303	Serviços de hospedagem para visitantes
+L112	1.0303.1	Serviços de hospedagem em quartos ou unidades de hospedagem para visitantes
+L113	1.0303.11.00	Serviços de hospedagem em quartos ou unidades de hospedagem para visitantes, com serviços diários de faxina
+L114	1.0303.12.00	Serviços de hospedagem em quartos ou unidades de hospedagem para visitantes, sem serviços diários de faxina
+L115	1.0303.13.00	Serviços de hospedagem em quartos ou unidades de hospedagem para visitantes, em propriedades partilhadas
+L116	1.0303.14.00	Serviços de hospedagem para visitantes, em quartos de múltipla ocupação
+L117	1.0303.20.00	Serviços de acampamentos turísticos (camping)
+L118	1.0303.90.00	Serviços de hospedagem para visitantes não classificados em subposições anteriores
+L119	10304	Serviços de hospedagem, exceto para visitantes
+L120	1.0304.10.00	Serviços de hospedagem em quartos ou unidades de hospedagem para estudantes em residências estudantis
+L121	1.0304.20.00	Serviços de hospedagem em quartos ou unidades de hospedagem para trabalhadores em hotéis ou campos
+L122	1.0304.90.00	Serviços de hospedagem, exceto para visitantes, não classificados em subposições anteriores
+L123	10401	Serviços de transporte local de passageiros
+L124	1.0401.1	Serviços de transporte terrestre local de passageiros
+L125	1.0401.11	Serviços de transporte rodoviário local regular de passageiros
+L126	1.0401.11.1	Serviços de transporte rodoviário local regular de passageiros, exceto em áreas metropolitanas
+L127	1.0401.11.11	Serviços de transporte rodoviário local prestados exclusivamente por meio de ônibus
+L128	1.0401.11.19	Serviços de transporte rodoviário local regular de passageiros, exceto em áreas metropolitanas, não classificados em subitens anteriores
+L129	1.0401.11.20	Serviços de transporte rodoviário local regular de passageiros, em áreas metropolitanas
+L130	1.0401.12	Serviços especiais de transporte rodoviário local regular de passageiros
+L131	1.0401.12.10	Serviços de transporte escolar
+L132	1.0401.12.20	Serviços de transporte para aeroportos (shuttle)
+L133	1.0401.12.90	Serviços especiais de transporte rodoviário local regular de passageiros não classificados em itens anteriores
+L134	1.0401.13.00	Serviços de táxi
+L135	1.0401.14.00	Serviços de carro com motorista, exceto táxi
+L136	1.0401.15	Serviços de transporte rodoviário local de passageiros por fretamento
+L137	1.0401.15.10	Serviços de fretamento contínuo, local
+L138	1.0401.15.20	Serviços de fretamento eventual ou turístico, local
+L139	1.0401.16	Serviços de transporte local de passageiros por veículos sobre trilhos
+L140	1.0401.16.10	Serviços de transporte ferroviário local de passageiros
+L141	1.0401.16.20	Serviços de transporte metroviário (metrô) local de passageiros
+L142	1.0401.16.90	Serviços de transporte local de passageiros por veículos sobre trilhos não classificados em itens anteriores
+L143	1.0401.17	Serviços de transporte terrestre para passeios turísticos (sightseeing)
+L144	1.0401.17.10	Serviços de transporte rodoviário para passeios turísticos (sightseeing)
+L145	1.0401.17.20	Serviços de transporte ferroviário para passeios turísticos (sightseeing)
+L146	1.0401.17.90	Serviços de transporte terrestre para passeios turísticos (sightseeing), não classificados em itens anteriores
+L147	1.0401.19.00	Serviços de transporte terrestre local de passageiros, não classificados em subposições anteriores
+L148	1.0401.2	Serviços de transporte aquaviário local de passageiros
+L149	1.0401.21	Serviços de transporte aquaviário local de passageiros, por navegação interior
+L150	1.0401.21.10	Serviços de transporte aquaviário local de passageiros, por navegação interior, em embarcações para travessia
+L151	1.0401.21.20	Serviços de transporte aquaviário local de passageiros, por navegação interior, em embarcações para cruzeiros
+L152	1.0401.21.90	Serviços de transporte aquaviário local de passageiros, por navegação interior, não classificados em itens anteriores
+L153	1.0401.22.00	Serviços de transporte aquaviário local de passageiros por fretamento
+L154	1.0401.23.00	Serviços de transporte aquaviário para passeios turísticos (sightseeing)
+L155	1.0401.29.00	Serviços de transporte aquaviário local de passageiros, não classificados em subposições anteriores
+L156	1.0401.30.00	Serviços de transporte integrado local de passageiros
+L157	1.0401.4	Serviços de transporte aéreo local de passageiros
+L158	1.0401.41.00	Serviços de táxi aéreo local
+L159	1.0401.42.00	Serviços de transporte aéreo local de passageiros por fretamento
+L160	1.0401.43.00	Serviços de transporte aéreo para passeios turísticos (sightseeing)
+L161	1.0401.49.00	Serviços de transporte aéreo local de passageiros, não classificados em subposições anteriores
+L162	1.0401.90.00	Serviços de transporte local de passageiros, não classificados em subposições anteriores
+L163	10402	Serviços de transporte nacional, exceto local, de passageiros
+L164	1.0402.1	Serviços de transporte terrestre nacional, exceto local, de passageiros
+L165	1.0402.11	Serviços de transporte rodoviário nacional, exceto local, regular de passageiros
+L166	1.0402.11.10	Serviços de transporte rodoviário nacional, exceto local, prestados exclusivamente por meio de ônibus
+L167	1.0402.11.90	Serviços de transporte rodoviário nacional, exceto local, de passageiros, não classificados em subitens anteriores
+L168	1.0402.12.00	Serviços especiais de transporte rodoviário nacional, exceto local, regular de passageiros
+L169	1.0402.13	Serviços de transporte rodoviário nacional, exceto local, de passageiros, por fretamento
+L170	1.0402.13.10	Serviços de fretamento contínuo, nacional, exceto local
+L171	1.0402.13.20	Serviços de fretamento eventual ou turístico, nacional, exceto local
+L172	1.0402.14.00	Serviços de transporte ferroviário nacional, exceto local, de passageiros
+L173	1.0402.19.00	Serviços de transporte terrestre nacional, exceto local, de passageiros, não classificados em subposições anteriores
+L174	1.0402.2	Serviços de transporte aquaviário nacional, exceto local, de passageiros
+L175	1.0402.21	Serviços de transporte aquaviário nacional, exceto local, de passageiros, por navegação interior
+L176	1.0402.21.10	Serviços de transporte aquaviário de passageiros, por navegação interior, em embarcações para travessia
+L177	1.0402.21.20	Serviços de transporte aquaviário de passageiros, por navegação interior, em embarcações para cruzeiros
+L178	1.0402.21.90	Serviços de transporte aquaviário nacional, exceto local, de passageiros, por navegação interior, não classificados em itens anteriores
+L179	1.0402.22.00	Serviços de transporte aquaviário nacional costeiro de passageiros
+L180	1.0402.23.00	Serviços de transporte aquaviário nacional, exceto local, de passageiros, por fretamento
+L181	1.0402.3	Serviços de transporte aéreo nacional, exceto local, de passageiros
+L182	1.0402.31.00	Serviços de transporte aéreo nacional, exceto local, regular de passageiros
+L183	1.0402.32.00	Serviços de táxi aéreo nacional, exceto local
+L184	1.0402.33.00	Serviços de transporte aéreo nacional, exceto local, de passageiros, por fretamento
+L185	1.0402.39.00	Serviços de transporte aéreo nacional, exceto local, de passageiros, não classificados em subposições anteriores
+L186	1.0402.90.00	Serviços de transporte nacional, exceto local, de passageiros, não classificados em subposições anteriores
+L187	10403	Serviços de transporte internacional de passageiros
+L188	1.0403.1	Serviços regulares de transporte terrestre internacional de passageiros
+L189	1.0403.11	Serviços de transporte rodoviário internacional regular de passageiros
+L190	1.0403.11.10	Serviços de transporte de passageiros prestados exclusivamente por meio de ônibus
+L191	1.0403.11.90	Serviços de transporte rodoviário internacional de passageiros não classificados em itens anteriores
+L192	1.0403.12.00	Serviços de transporte rodoviário internacional de passageiros por fretamento
+L193	1.0403.13	Serviços de transporte internacional de passageiros por veículos sobre trilhos
+L194	1.0403.13.10	Serviços de transporte internacional ferroviário de passageiros
+L195	1.0403.13.90	Serviços de transporte internacional de passageiros por veículos sobre trilhos não classificados em itens anteriores
+L196	1.0403.19.00	Serviços de transporte terrestre internacional de passageiros, não classificados em subposições anteriores
+L197	1.0403.2	Serviços de transporte aquaviário internacional de passageiros
+L198	1.0403.21	Serviços de transporte aquaviário internacional de passageiros, por navegação interior
+L199	1.0403.21.10	Serviços de transporte aquaviário internacional de passageiros, por navegação interior, em embarcações para travessia
+L200	1.0403.21.20	Serviços de transporte aquaviário internacional de passageiros, por navegação interior, em embarcações para cruzeiros
+L201	1.0403.21.90	Serviços de transporte aquaviário internacional de passageiros, por navegação interior, não classificados em itens anteriores
+L202	1.0403.22.00	Serviços de transporte aquaviário internacional costeiro de passageiros
+L203	1.0403.23.00	Serviços de transporte aquaviário internacional transoceânico de passageiros
+L204	1.0403.24.00	Serviços de transporte aquaviário internacional de passageiros por fretamento
+L205	1.0403.3	Serviços de transporte aéreo internacional de passageiros
+L206	1.0403.31.00	Serviços de transporte aéreo internacional regular de passageiros
+L207	1.0403.32.00	Serviços de táxi aéreo internacional
+L208	1.0403.33.00	Serviços de transporte aéreo internacional de passageiros por fretamento
+L209	1.0403.39.00	Serviços de transporte aéreo internacional de passageiros, não classificados em subposições anteriores
+L210	1.0403.90.00	Serviços de transporte internacional de passageiros, não classificados em subposições anteriores
+L211	10404	Locação de veículos de passageiros com operador
+L212	1.0404.10.00	Locação de veículos rodoviários de passageiros com motorista
+L213	1.0404.20.00	Locação de embarcações de passageiros com tripulação
+L214	1.0404.30.00	Locação de aeronaves de passageiros com tripulação
+L215	1.0405.00.00	Afretamento de embarcações de passageiros por tempo
+L216	10501	Serviços de transporte terrestre de cargas
+L217	1.0501.1	Serviços de transporte rodoviário de cargas
+L218	1.0501.11	Serviços de transporte rodoviário de cargas a granel
+L219	1.0501.11.10	Serviços de transporte rodoviário de cargas sólidas a granel
+L220	1.0501.11.20	Serviços de transporte rodoviário de cargas líquidas, ou liquefeitas, a granel
+L221	1.0501.11.30	Serviços de transporte rodoviário de cargas gasosas a granel
+L222	1.0501.12	Serviços de transporte rodoviário de carga geral, exceto em contêineres
+L223	1.0501.12.10	Serviços de transporte rodoviário de carga solta, não unitizada
+L224	1.0501.12.20	Serviços de transporte rodoviário de carga unitizada
+L225	1.0501.12.30	Serviços de transporte rodoviário de carga frigorificada ou climatizada
+L226	1.0501.13	Serviços de transporte rodoviário de cargas em contêineres
+L227	1.0501.13.10	Serviços de transporte rodoviário de cargas em contêineres frigorificados ou climatizados
+L228	1.0501.13.20	Serviços de transporte rodoviário de cargas em contêineres não frigorificados ou climatizados
+L229	1.0501.14	Serviços de transporte rodoviário de cargas especiais
+L230	1.0501.14.10	Serviços de transporte rodoviário de cargas vivas
+L231	1.0501.14.20	Serviços de transporte rodoviário de mudanças domésticas e de mobília e outros objetos de escritório
+L232	1.0501.14.30	Serviços de transporte rodoviário de cargas de grande porte
+L233	1.0501.14.40	Serviços de transporte rodoviário de veículos
+L234	1.0501.14.5	Serviços de transporte rodoviário de produtos perigosos
+L235	1.0501.14.51	Serviços de transporte rodoviário de combustíveis, lubrificantes e GLP, inclusive apresentados em botijões metálicos
+L236	1.0501.14.52	Serviços de transporte rodoviário de produtos químicos perigosos, exceto lubrificantes e GLP
+L237	1.0501.14.59	Serviços de transporte rodoviário de produtos perigosos não classificados em subitens anteriores
+L238	1.0501.15.00	Serviços de transporte rodoviário de cargas postais e malotes
+L239	1.0501.19.00	Serviços de transporte rodoviário de cargas não classificados em subposições anteriores
+L240	1.0501.2	Serviços de transporte ferroviário de cargas
+L241	1.0501.21	Serviços de transporte ferroviário de cargas a granel
+L242	1.0501.21.10	Serviços de transporte ferroviário de cargas sólidas a granel
+L243	1.0501.21.20	Serviços de transporte ferroviário de cargas líquidas, ou liquefeitas, a granel
+L244	1.0501.21.30	Serviços de transporte ferroviário de cargas gasosas a granel
+L245	1.0501.22	Serviços de transporte ferroviário de cargas geral, exceto em contêineres
+L246	1.0501.22.10	Serviços de transporte ferroviário de carga solta, não unitizada
+L247	1.0501.22.20	Serviços de transporte ferroviário de carga unitizada
+L248	1.0501.22.30	Serviços de transporte ferroviário de carga frigorificada ou climatizada
+L249	1.0501.23	Serviços de transporte ferroviário de cargas em contêineres
+L250	1.0501.23.10	Serviços de transporte ferroviário de cargas em contêineres frigorificados ou climatizados
+L251	1.0501.23.20	Serviços de transporte ferroviário de cargas em contêineres não frigorificados ou climatizados
+L252	1.0501.24	Serviços de transporte ferroviário de cargas especiais
+L253	1.0501.24.10	Serviços de transporte ferroviário de cargas vivas
+L254	1.0501.24.2	Serviços de transporte ferroviário de produtos perigosos
+L255	1.0501.24.21	Serviços de transporte ferroviário de combustíveis, lubrificantes e GLP, inclusive apresentados em botijões metálicos
+L256	1.0501.24.22	Serviços de transporte ferroviário de produtos químicos perigosos, exceto lubrificantes e GLP
+L257	1.0501.24.29	Serviços de transporte ferroviário de produtos perigosos não classificados em subposições anteriores
+L258	1.0501.25.00	Serviços de transporte ferroviário de bens e valores
+L259	1.0501.29.00	Serviços de transporte ferroviário de cargas não classificados em subposições anteriores
+L260	1.0501.3	Serviços de transporte de cargas por meio de dutos
+L261	1.0501.31.00	Serviços de transporte de petróleo, gás natural e combustível por meio de dutos
+L262	1.0501.32.00	Serviços de transporte de minérios por meio de dutos
+L263	1.0501.39.00	Serviços de transporte de cargas por meio de dutos não classificados em subposições anteriores
+L264	10502	Serviços de transporte aquaviário de cargas
+L265	1.0502.1	Serviços de transporte aquaviário por navegação interior de cargas
+L266	1.0502.11	Serviços de transporte aquaviário por navegação interior de cargas a granel
+L267	1.0502.11.10	Serviços de transporte aquaviário por navegação interior de cargas sólidas, a granel
+L268	1.0502.11.20	Serviços de transporte aquaviário por navegação interior de cargas líquidas, ou liquefeitas, a granel
+L269	1.0502.11.30	Serviços de transporte aquaviário por navegação interior de cargas gasosas a granel
+L270	1.0502.12	Serviços de transporte aquaviário por navegação interior de carga geral, exceto em contêineres
+L271	1.0502.12.10	Serviços de transporte aquaviário por navegação interior de carga solta, não unitizada
+L272	1.0502.12.20	Serviços de transporte aquaviário por navegação interior de carga unitizada
+L273	1.0502.12.30	Serviços de transporte aquaviário por navegação interior de carga frigorificada ou climatizada
+L274	1.0502.13	Serviços de transporte aquaviário por navegação interior de cargas em contêineres
+L275	1.0502.13.10	Serviços de transporte aquaviário por navegação interior de cargas em contêineres frigorificados ou climatizados
+L276	1.0502.13.20	Serviços de transporte aquaviário por navegação interior de cargas em contêineres não frigorificados ou climatizados
+L277	1.0502.14	Serviços de transporte aquaviário por navegação interior de cargas especiais
+L278	1.0502.14.10	Serviços de transporte aquaviário por navegação interior de cargas vivas
+L279	1.0502.14.20	Serviços de transporte aquaviário por navegação interior de mudanças domésticas e de mobília e outros objetos de escritório
+L280	1.0502.14.30	Serviços de transporte aquaviário por navegação interior de cargas de grande porte
+L281	1.0502.14.40	Serviços de transporte aquaviário por navegação interior de veículos
+L282	1.0502.14.5	Serviços de transporte aquaviário por navegação interior de produtos perigosos
+L283	1.0502.14.51	Serviços de transporte aquaviário por navegação interior de combustíveis, lubrificantes e GLP, inclusive apresentado em botijões metálicos
+L284	1.0502.14.52	Serviços de transporte aquaviário por navegação interior de produtos químicos perigosos, exceto lubrificantes e GLP
+L285	1.0502.14.59	Serviços de transporte aquaviário por navegação interior de produtos perigosos não classificados em subposições anteriores
+L286	1.0502.14.90	Serviços de transporte aquaviário por navegação interior de cargas especiais não classificados em subposições anteriores
+L287	1.0502.19.00	Serviços de transporte aquaviário por navegação interior de cargas não classificados em subposições anteriores
+L288	1.0502.2	Serviços de transporte aquaviário costeiro de cargas
+L289	1.0502.21	Serviços de transporte aquaviário costeiro de cargas a granel
+L290	1.0502.21.10	Serviços de transporte aquaviário costeiro de cargas sólidas a granel
+L291	1.0502.21.20	Serviços de transporte aquaviário costeiro de cargas líquidas ou liquefeitas, a granel
+L292	1.0502.21.30	Serviços de transporte aquaviário costeiro de cargas gasosas a granel
+L293	1.0502.22	Serviços de transporte aquaviário costeiro de cargas em geral, exceto em contêineres
+L294	1.0502.22.10	Serviços de transporte aquaviário costeiro de carga solta, não unitizada
+L295	1.0502.22.20	Serviços de transporte aquaviário costeiro de carga unitizada
+L296	1.0502.22.30	Serviços de transporte aquaviário costeiro de carga frigorificada ou climatizada
+L297	1.0502.23	Serviços de transporte aquaviário costeiro de cargas em contêineres
+L298	1.0502.23.10	Serviços de transporte aquaviário costeiro de cargas em contêineres frigorificados ou climatizados
+L299	1.0502.23.20	Serviços de transporte aquaviário costeiro de cargas em contêineres não classificados em subposições anteriores
+L300	1.0502.24	Serviços de transporte aquaviário costeiro de cargas especiais
+L301	1.0502.24.10	Serviços de transporte aquaviário costeiro de cargas vivas
+L302	1.0502.24.20	Serviços de transporte aquaviário costeiro de mudanças domésticas e de mobília e outros objetos de escritório
+L303	1.0502.24.30	Serviços de transporte aquaviário costeiro de cargas de grande porte
+L304	1.0502.24.40	Serviços de transporte aquaviário costeiro de veículos
+L305	1.0502.24.5	Serviços de transporte aquaviário costeiro de produtos perigosos
+L306	1.0502.24.51	Serviços de transporte aquaviário costeiro de combustíveis, lubrificantes e GLP, inclusive apresentado em botijões metálicos
+L307	1.0502.24.52	Serviços de transporte aquaviário costeiro de produtos químicos perigosos, exceto lubrificantes e GLP
+L308	1.0502.24.59	Serviços de transporte aquaviário costeiro de produtos perigosos não classificados em subposições anteriores
+L309	1.0502.29.00	Serviços de transportes aquaviário costeiro de cargas não classificados em subposições anteriores
+L310	1.0502.3	Serviços de transporte aquaviário transoceânico de cargas
+L311	1.0502.31	Serviços de transporte aquaviário transoceânico de cargas a granel
+L312	1.0502.31.10	Serviços de transporte aquaviário transoceânico de cargas sólidas a granel
+L313	1.0502.31.20	Serviços de transporte aquaviário transoceânico de cargas líquidas, ou liquefeitas, a granel
+L314	1.0502.31.30	Serviços de transporte aquaviário transoceânico de cargas gasosas a granel
+L315	1.0502.32	Serviços de transporte aquaviário transoceânico de carga geral, exceto em contêineres
+L316	1.0502.32.10	Serviços de transporte aquaviário transoceânico de carga solta, não unitizada
+L317	1.0502.32.20	Serviços de transporte aquaviário transoceânico de carga unitizada
+L318	1.0502.32.30	Serviços de transporte aquaviário transoceânico de carga frigorificada ou climatizada
+L319	1.0502.33	Serviços de transporte aquaviário transoceânico de cargas em contêineres
+L320	1.0502.33.10	Serviços de transporte aquaviário transoceânico de cargas em contêineres frigorificados ou climatizados
+L321	1.0502.33.20	Serviços de transporte aquaviário transoceânico de cargas em contêineres não frigorificados ou climatizados
+L322	1.0502.34	Serviços de transporte aquaviário transoceânico de cargas especiais
+L323	1.0502.34.10	Serviços de transporte aquaviário transoceânico de cargas vivas
+L324	1.0502.34.20	Serviços de transporte aquaviário transoceânico de mudanças domésticas e de mobília e outros objetos de escritório
+L325	1.0502.34.30	Serviços de transporte aquaviário transoceânico de cargas de grande porte
+L326	1.0502.34.40	Serviços de transporte aquaviário transoceânico de veículos
+L327	1.0502.34.5	Serviços de transporte aquaviário transoceânico de produtos perigosos
+L328	1.0502.34.51	Serviços de transporte aquaviário transoceânico de combustíveis, lubrificantes e GLP, inclusive apresentado em botijões metálicos
+L329	1.0502.34.52	Serviços de transporte aquaviário transoceânico de produtos químicos perigosos, exceto lubrificantes e GLP
+L330	1.0502.34.59	Serviços de transporte aquaviário transoceânico de produtos perigosos não classificados em subposições anteriores
+L331	1.0502.39.00	Serviços de transporte aquaviário transoceânico de cargas não classificados em subposições anteriores
+L332	10503	Serviços de transporte aéreo de cargas
+L333	1.0503.1	Serviços de transporte aéreo de cargas em contêineres
+L334	1.0503.11.00	Serviços de transporte aéreo de cargas em contêineres frigorificados ou climatizados
+L335	1.0503.12.00	Serviços de transporte aéreo de cargas em contêineres não frigorificados ou climatizados
+L336	1.0503.2	Serviços de transporte aéreo de cargas especiais
+L337	1.0503.21.00	Serviços de transporte aéreo de produtos perigosos
+L338	1.0503.22.00	Serviços de transporte aéreo de animais vivos
+L339	1.0503.23.00	Serviços de transporte aéreo de máquinas e veículos
+L340	1.0503.24.00	Serviços de transporte aéreo de perecíveis
+L341	1.0503.25.00	Serviços de transporte aéreo de cargas frágeis
+L342	1.0503.26.00	Serviços de transporte aéreo de cargas controladas
+L343	1.0503.27.00	Serviços de transporte aéreo de valores
+L344	1.0503.28.00	Serviços de transporte aéreo de cargas postais, remessas expressas e cargas congêneres
+L345	1.0503.29.00	Serviços de transporte aéreo de cargas especiais não classificados em subposições anteriores
+L346	1.0503.90.00	Serviços de transporte aéreo de cargas não classificados em subposições anteriores
+L347	10504	Serviços de transporte multimodal de cargas
+L348	1.0504.1	Serviços de transporte multimodal de cargas a granel
+L349	1.0504.11.00	Serviços de transporte multimodal de cargas sólidas a granel
+L350	1.0504.12.00	Serviços de transporte multimodal de cargas líquidas, ou liquefeitas, a granel
+L351	1.0504.13.00	Serviços de transporte multimodal de cargas gasosas a granel
+L352	1.0504.2	Serviços de transporte multimodal de carga geral, exceto em contêineres
+L353	1.0504.21.00	Serviços de transporte multimodal de carga solta, não unitizada
+L354	1.0504.22.00	Serviços de transporte multimodal de carga unitizada
+L355	1.0504.23.00	Serviços de transporte multimodal de carga frigorificada ou climatizada
+L356	1.0504.3	Serviços de transporte multimodal de cargas em contêineres
+L357	1.0504.31.00	Serviços de transporte multimodal de cargas em contêineres frigorificados ou climatizados
+L358	1.0504.32.00	Serviços de transporte multimodal de cargas em contêineres não frigorificados ou climatizados
+L359	1.0504.4	Serviços de transporte multimodal de cargas especiais
+L360	1.0504.41.00	Serviços de transporte multimodal de cargas vivas
+L361	1.0504.42.00	Serviços de transporte multimodal de mudanças domésticas e de mobília e outros objetos de escritório
+L362	1.0504.43.00	Serviços de transporte multimodal de cargas de grande porte
+L363	1.0504.44.00	Serviços de transporte multimodal de veículos
+L364	1.0504.45	Serviços de transporte multimodal de produtos perigosos
+L365	1.0504.45.10	Serviços de transporte multimodal de combustíveis, lubrificantes e GLP, inclusive apresentado em botijões metálicos
+L366	1.0504.45.20	Serviços de transporte multimodal de produtos químicos perigosos, exceto lubrificantes e GLP
+L367	1.0504.45.90	Serviços de transporte multimodal de produtos perigosos não classificados em subposições anteriores
+L368	1.0504.49.00	Serviços de transporte multimodal de cargas especiais não classificados em subposições anteriores
+L369	1.0504.90.00	Serviços de transporte multimodal de cargas não classificados em subposições anteriores
+L370	10505	Locação de veículos de cargas com operador
+L371	1.0505.10.00	Locação de veículos rodoviários de carga com motorista
+L372	1.0505.20.00	Locação de embarcações de carga com tripulação
+L373	1.0505.30.00	Locação de aeronaves de carga com tripulação
+L374	1.0506.00.00	Afretamento de embarcações de carga por tempo
+L375	10601	Serviços de manuseio de cargas
+L376	1.0601.10.00	Serviços de manuseio de contêineres
+L377	1.0601.90.00	Serviços de manuseio de cargas não classificados em subposições anteriores
+L378	10602	Serviços de armazenagem
+L379	1.0602.10.00	Serviços de armazenagem frigorificada
+L380	1.0602.2	Serviços de armazenagem de produtos perigosos
+L381	1.0602.21.00	Serviços de armazenagem de petróleo e seus derivados
+L382	1.0602.22.00	Serviços de armazenagem de combustíveis, lubrificantes e GLP, inclusive apresentado em botijões metálicos
+L383	1.0602.23.00	Serviços de armazenagem de produtos químicos perigosos
+L384	1.0602.29.00	Serviços de armazenagem de outros produtos perigosos
+L385	1.0602.3	Serviços de armazenagem de granéis sólidos, líquidos ou liquefeitos e gasosos
+L386	1.0602.31.00	Serviços de armazenagem de granéis sólidos
+L387	1.0602.32.00	Serviços de armazenagem de granéis líquidos ou liquefeitos
+L388	1.0602.33.00	Serviços de armazenagem de granéis gasosos
+L389	1.0602.90.00	Serviços de armazenagem não classificados em subposições anteriores
+L390	1.0603.00.00	Serviços de apoio ao transporte ferroviário
+L391	10604	Serviços de apoio ao transporte rodoviário
+L392	1.0604.10.00	Serviços de estações rodoviárias
+L393	1.0604.2	Serviços de operação de rodovias, pontes e túneis
+L394	1.0604.21.00	Serviços de operação de rodovias
+L395	1.0604.22.00	Serviços de operação de pontes e túneis
+L396	1.0604.30.00	Serviços de estacionamento
+L397	1.0604.40.00	Serviços de reboque para veículos particulares e comerciais
+L398	1.0604.90.00	Serviços de apoio ao transporte rodoviário não classificados em subposições anteriores
+L399	10605	Serviços de apoio ao transporte aquaviário
+L400	1.0605.10.00	Serviços de operação de portos e canais, exceto manuseio de cargas
+L401	1.0605.20.00	Serviços de praticagem e de atracação
+L402	1.0605.30.00	Serviços de salvamento de embarcações
+L403	1.0605.40.00	Serviços de navegação de apoio
+L404	1.0605.90.00	Serviços de apoio ao transporte aquaviário não classificados em subposições anteriores
+L405	10606	Serviços de apoio ao transporte aéreo e aeroespacial
+L406	1.0606.1	Serviços de apoio ao transporte aéreo
+L407	1.0606.11.00	Serviços de operação aeroportuária, exceto manuseio de cargas
+L408	1.0606.12.00	Serviços de controle de tráfego aéreo
+L409	1.0606.19.00	Serviços de apoio ao transporte aéreo não classificados em suposições anteriores
+L410	1.0606.20.00	Serviços de apoio ao transporte aeroespacial
+L411	1.0607.00.00	Serviços de agenciamento de transporte de cargas
+L412	10608	Serviços de apoio ao transporte multimodal de cargas
+L413	1.0608.10.00	Serviços de coleta e entrega de cargas no transporte multimodal
+L414	1.0608.20.00	Serviços de unitização ou desunitização de cargas no transporte multimodal
+L415	1.0608.30.00	Serviços de movimentação de cargas no transporte multimodal
+L416	1.0608.40.00	Serviços de consolidação ou desconsolidação documental de cargas no transporte multimodal
+L417	1.0608.90.00	Serviços de apoio ao transporte multimodal de cargas não classificados em subposições anteriores
+L418	1.0609.00.00	Serviços de apoio aos transportes não classificados em posições anteriores
+L419	1.0701.00.00	Serviços postais e de telegrama
+L420	1.0702.00.00	Serviços de coleta, transporte, remessa ou entrega de documentos ou encomendas, exceto remessas expressas
+L421	1.0703.00.00	Serviços de remessas expressas
+L422	10801	Serviços de transmissão e distribuição de eletricidade
+L423	1.0801.10.00	Serviços de transmissão de eletricidade
+L424	1.0801.20.00	Serviços de distribuição de eletricidade
+L425	10802	Serviços de distribuição de água
+L426	1.0802.10.00	Serviços de distribuição de água por meio de tubulações, exceto vapor de água e água quente
+L427	1.0802.20.00	Serviços de distribuição de vapor de água, água quente e ar condicionado por meio de tubulações
+L428	1.0802.30.00	Serviços de distribuição de água, exceto por meio de tubulações
+L429	1.0803.00.00	Serviços de distribuição de gás canalizado
+L430	10901	Serviços financeiros, exceto bancos de investimento, serviços de seguros e previdência complementar
+L431	1.0901.10.00	Serviços de banco central
+L432	1.0901.2	Serviços de depósito
+L433	1.0901.21.00	Serviços de depósito para pessoas jurídicas
+L434	1.0901.22.00	Serviços de depósito para pessoas físicas
+L435	1.0901.29.00	Serviços de depósito para outros depositantes
+L436	1.0901.3	Serviços de concessão de crédito
+L437	1.0901.31.00	Serviços de financiamentos imobiliários residenciais
+L438	1.0901.32.00	Serviços de financiamentos imobiliários não residenciais
+L439	1.0901.33.00	Serviços de empréstimos e financiamentos pessoais
+L440	1.0901.34.00	Serviços de empréstimos e financiamentos comerciais
+L441	1.0901.35.00	Serviços de empréstimos e financiamentos industriais
+L442	1.0901.36.00	Serviços de empréstimos e financiamentos agropecuários
+L443	1.0901.39.00	Serviços de concessão de crédito não classificados em subposições anteriores
+L444	1.0901.40.00	Serviços de cartão de crédito
+L445	1.0901.5	Operações de arrendamento mercantil financeiro
+L446	1.0901.51	Arrendamento mercantil financeiro de máquinas e equipamentos
+L447	1.0901.51.1	Arrendamento mercantil financeiro de equipamentos de transporte
+L448	1.0901.51.11	Arrendamento mercantil financeiro de veículos rodoviários automotores para o transporte de passageiros
+L449	1.0901.51.12	Arrendamento mercantil financeiro de veículos rodoviários automotores para o transporte de mercadorias
+L450	1.0901.51.13	Arrendamento mercantil financeiro de veículos e equipamentos ferroviários
+L451	1.0901.51.14	Arrendamento mercantil financeiro de outros equipamentos de transporte terrestre, inclusive de veículos de uso misto
+L452	1.0901.51.15	Arrendamento mercantil financeiro de navios e outras embarcações
+L453	1.0901.51.16	Arrendamento mercantil financeiro de aeronaves
+L454	1.0901.51.17	Arrendamento mercantil financeiro de contêineres
+L455	1.0901.51.2	Arrendamento mercantil financeiro de outras máquinas e equipamentos
+L456	1.0901.51.21	Arrendamento mercantil financeiro de máquinas e equipamentos agrícolas
+L457	1.0901.51.22	Arrendamento mercantil financeiro de máquinas e equipamentos de construção
+L458	1.0901.51.23	Arrendamento mercantil financeiro de máquinas e equipamentos para escritórios, exceto computadores
+L459	1.0901.51.24	Arrendamento mercantil financeiro de computadores
+L460	1.0901.51.25	Arrendamento mercantil financeiro de equipamentos de telecomunicação
+L461	1.0901.51.29	Arrendamento mercantil financeiro de outras máquinas e equipamentos não classificado em subposições anteriores
+L462	1.0901.52	Arrendamento mercantil financeiro de outras mercadorias
+L463	1.0901.52.10	Arrendamento mercantil financeiro de televisão e outros eletroeletrônicos domésticos, bem como seus acessórios
+L464	1.0901.52.20	Arrendamento mercantil financeiro de mídias gravadas
+L465	1.0901.52.30	Arrendamento mercantil financeiro de móveis e eletrodomésticos
+L466	1.0901.52.40	Arrendamento mercantil financeiro de equipamentos para diversão e lazer
+L467	1.0901.52.50	Arrendamento mercantil financeiro de artigos de cama, mesa e banho
+L468	1.0901.52.90	Arrendamento mercantil financeiro de outras mercadorias não classificado em subposições anteriores
+L469	1.0901.90.00	Serviços financeiros, exceto bancos de investimento, serviços de seguros e previdência complementar, não classificados em subposições anteriores
+L470	10902	Serviços de banco de investimento
+L471	1.0902.10.00	Serviços de valoração de ativos
+L472	1.0902.20.00	Serviços de subscrição de valores mobiliários
+L473	1.0902.30.00	Serviços de fusões e aquisições
+L474	1.0902.40.00	Serviços de capital de risco e finanças corporativas
+L475	1.0902.90.00	Serviços de banco de investimento não classificados em subposições anteriores
+L476	10903	Serviços de seguro e previdência complementar (excluídos os serviços de resseguro), exceto serviços de previdência social compulsória
+L477	1.0903.1	Serviços de seguro de vida e de previdência complementar, excluídos os serviços de resseguro
+L478	1.0903.11.00	Serviços de seguro de vida
+L479	1.0903.12.00	Serviços de previdência complementar aberta
+L480	1.0903.13.00	Serviços de previdência complementar fechada
+L481	1.0903.2	Serviços de seguro saúde e de acidentes
+L482	1.0903.21.00	Serviços de seguro saúde
+L483	1.0903.22.00	Serviços de seguro de acidentes
+L484	1.0903.3	Serviços de outros seguros, excluídos os serviços de resseguro
+L485	1.0903.31.00	Serviços de seguro de veículos rodoviários
+L486	1.0903.32.00	Serviços de seguro de veículos e equipamentos para transporte ferroviário, aquaviário e aéreo
+L487	1.0903.33.00	Serviços de seguro de cargas
+L488	1.0903.34.00	Serviços de seguro de outras propriedades
+L489	1.0903.35.00	Serviços de seguro por responsabilidade civil
+L490	1.0903.36.00	Serviços de seguro de crédito e de caução
+L491	1.0903.37.00	Serviços de seguro de viagem
+L492	1.0903.38.00	Serviços de seguro rural
+L493	1.0903.39.00	Serviços de outros seguros, excluídos os serviços de resseguro, não classificados em subposições anteriores
+L494	10904	Serviços de resseguro
+L495	1.0904.10.00	Serviços de resseguro de vida
+L496	1.0904.2	Serviços de resseguro saúde e de acidentes
+L497	1.0904.21.00	Serviços de resseguro saúde
+L498	1.0904.22.00	Serviços de resseguro de acidentes
+L499	1.0904.3	Serviços de outros resseguros
+L500	1.0904.31.00	Serviços de resseguro de veículos rodoviários
+L501	1.0904.32.00	Serviços de resseguro de veículos e equipamentos para transporte ferroviário, aquaviário e aéreo
+L502	1.0904.33.00	Serviços de resseguro de cargas
+L503	1.0904.34.00	Serviços de resseguro de outras propriedades
+L504	1.0904.35.00	Serviços de resseguro de responsabilidade civil
+L505	1.0904.36.00	Serviços de resseguro de crédito e caução
+L506	1.0904.37.00	Serviços de resseguro rural
+L507	1.0904.39.00	Serviços de outros resseguros não classificados em subposições anteriores
+L508	10905	Serviços auxiliares aos serviços financeiros, exceto os relacionados a seguros e previdência complementar
+L509	1.0905.1	Serviços de corretagem de títulos, derivativos e commodities
+L510	1.0905.11.00	Serviços de corretagem de títulos
+L511	1.0905.12.00	Serviços de corretagem de derivativos e commodities
+L512	1.0905.13.00	Serviços de compensação de transações financeiras, inclusive com ativos financeiros (clearinghouse)
+L513	1.0905.2	Serviços de gestão e administração de carteiras de ativos, fundos e trust
+L514	1.0905.21.00	Serviços de gestão e administração de carteiras de ativos, exceto fundos de pensão
+L515	1.0905.22.00	Serviços de administração fundos de investimento e fundos de pensão
+L516	1.0905.23.00	Serviços de gestão e administração de trust
+L517	1.0905.30.00	Serviços de guarda e custódia
+L518	1.0905.40.00	Serviços relacionados à administração de mercados financeiros
+L519	1.0905.50.00	Serviços de consultoria financeira
+L520	1.0905.60.00	Serviços de câmbio
+L521	1.0905.70.00	Serviços de classificação de risco (rating)
+L522	1.0905.80.00	Serviços fiduciários
+L523	1.0905.90.00	Serviços auxiliares aos serviços financeiros não classificados em subposições anteriores
+L524	10906	Serviços auxiliares a seguros, resseguros e previdência complementar
+L525	1.0906.1	Serviços de corretagem e agenciamento de seguros, resseguros e previdência complementar
+L526	1.0906.11.00	Serviços de agenciamento e corretagem de seguros, resseguros e previdência complementar, exceto de seguros saúde
+L527	1.0906.12.00	Serviços de corretagem de seguros saúde
+L528	1.0906.20.00	Serviços de perícia e avaliação de seguros e resseguros
+L529	1.0906.30.00	Serviços atuariais
+L530	1.0906.40.00	Serviços de gestão de fundos de previdência complementar
+L531	1.0906.90.00	Serviços auxiliares a seguros, resseguros e previdência complementar não classificados em subposições anteriores
+L532	1.0907.00.00	Serviços de seguro de recebíveis
+L533	1.0908.00.00	Fomento comercial (factoring)
+L534	10909	Serviços de holding de ativos financeiros
+L535	1.0909.10.00	Serviços de holding de patrimônio de empresas subsidiárias
+L536	1.0909.20.00	Serviços de holding de valores mobiliários e outros ativos financeiros e fundos e entidades financeiras similares
+L537	10910	Serviços de planos privados de assistência à saúde e serviços relacionados
+L538	1.0910.10.00	Serviços de planos privados de assistência à saúde
+L539	1.0910.20.00	Serviços de corretagem de planos privados de assistência à saúde
+L540	1.0910.90.00	Serviços de planos privados de assistência à saúde e serviços relacionados não classificados em subposições anteriores
+L541	1.0911.00.00	Serviços financeiros e serviços relacionados não classificados em posições anteriores
+L542	11001	Serviços imobiliários sob comissão ou contrato
+L543	1.1001.1	Serviços de administração e locação de imóveis
+L544	1.1001.11.00	Serviços de administração e locação de imóveis residenciais
+L545	1.1001.12	Serviços de administração e locação de imóveis não residenciais
+L546	1.1001.12.10	Serviços de administração e locação, sublocação, arrendamento, direito de passagem ou permissão de uso, compartilhado ou não, de ferrovia, rodovia, postes, cabos, dutos e condutos de qualquer natureza
+L547	1.1001.12.90	Serviços de administração e locação de outros imóveis não residenciais
+L548	1.1001.2	Serviços de intermediação na compra e venda de imóveis
+L549	1.1001.21.00	Serviços de intermediação na compra e venda de imóveis residenciais
+L550	1.1001.22.00	Serviços de intermediação na compra e venda de imóveis não residenciais
+L551	1.1001.30.00	Serviços de avaliação de imóveis
+L552	1.1001.40.00	Serviços de consultoria imobiliária
+L553	1.1001.50.00	Serviços de assessoria de gestão condominial (condomínios, edifícios residenciais e mistos)
+L554	1.1001.90.00	Serviços imobiliários não classificados em subposições anteriores
+L555	11002	Locação de imóveis
+L556	1.1002.10.00	Locação de imóveis residenciais
+L557	1.1002.20.00	Locação de imóveis não residenciais
+L558	11101	Arrendamento mercantil operacional ou locação de máquinas e equipamentos, sem operador
+L559	1.1101.1	Arrendamento mercantil operacional ou locação de equipamentos de transporte, sem operador
+L560	1.1101.11.00	Arrendamento mercantil operacional ou locação de veículos rodoviários automotores para o transporte de até oito passageiros, sem operador
+L561	1.1101.12.00	Arrendamento mercantil operacional ou locação de veículos rodoviários automotores para o transporte de cargas, sem operador
+L562	1.1101.13.00	Arrendamento mercantil operacional ou locação de veículos e equipamentos de transporte ferroviário, sem operador
+L563	1.1101.14.00	Arrendamento mercantil operacional ou locação de outros equipamentos de transporte terrestre, inclusive de veículos de uso misto, sem operador
+L564	1.1101.15.00	Arrendamento mercantil operacional ou locação de navios e outras embarcações, sem tripulação
+L565	1.1101.16.00	Arrendamento mercantil operacional ou locação de aeronaves, sem tripulação
+L566	1.1101.17.00	Arrendamento mercantil operacional ou locação de contêineres
+L567	1.1101.20.00	Arrendamento mercantil operacional ou locação de máquinas e equipamentos agrícolas, sem operador
+L568	1.1101.30.00	Arrendamento mercantil operacional ou locação de máquinas e equipamentos de construção, sem operador
+L569	1.1101.40.00	Arrendamento mercantil operacional ou locação de máquinas e equipamentos para escritórios, exceto computadores, sem operador
+L570	1.1101.50.00	Arrendamento mercantil operacional ou locação de computadores, sem operador
+L571	1.1101.60.00	Arrendamento mercantil operacional ou locação de equipamentos de telecomunicação, sem operador
+L572	1.1101.90.00	Arrendamento mercantil operacional ou locação de máquinas e equipamentos, sem operador, não classificado em subposições anteriores
+L573	11102	Arrendamento mercantil operacional ou locação de outras mercadorias
+L574	1.1102.10.00	Arrendamento mercantil operacional ou locação de televisão e outros eletroeletrônicos, bem como seus acessórios
+L575	1.1102.20.00	Arrendamento mercantil operacional ou locação de mídias gravadas
+L576	1.1102.30.00	Arrendamento mercantil operacional ou locação de móveis e eletrodomésticos
+L577	1.1102.40.00	Arrendamento mercantil operacional ou locação de equipamentos para diversão e lazer
+L578	1.1102.50.00	Arrendamento mercantil operacional ou locação de artigos de cama, mesa e banho
+L579	1.1102.60.00	Arrendamento mercantil operacional ou locação de roupas e calçados
+L580	1.1102.90.00	Arrendamento mercantil operacional ou locação de outras mercadorias não classificado em subposições anteriores
+L581	11103	Licenciamento de direitos de autor e de direitos conexos
+L582	1.1103.10.00	Licenciamento de direitos de obras literárias
+L583	1.1103.2	Licenciamento de direitos sobre programas de computador (software) e bancos de dados
+L584	1.1103.21.00	Licenciamento de direitos de produção, distribuição ou comercialização de programas de computador (software)
+L585	1.1103.22.00	Licenciamento de direitos de uso de programas de computador (software)
+L586	1.1103.23.00	Licenciamento de direitos sobre bancos de dados
+L587	1.1103.29.00	Licenciamento de direitos sobre programas de computador (software) e bancos de dados não classificado em subposições anteriores
+L588	1.1103.3	Licenciamento de direitos de obras audiovisuais
+L589	1.1103.31.00	Licenciamento de direitos de autor de obras cinematográficas
+L590	1.1103.32.00	Licenciamento de direitos de autor de obras jornalísticas
+L591	1.1103.33.00	Licenciamento de direitos de autor de obras publicitárias
+L592	1.1103.34.00	Licenciamento de direitos conexos de artistas intérpretes ou executantes em obras audiovisuais
+L593	1.1103.35.00	Licenciamento de direitos conexos de produtores de obras audiovisuais
+L594	1.1103.36	Licenciamento de direitos de obras audiovisuais destinadas à televisão
+L595	1.1103.36.10	Licenciamento de direitos de obras audiovisuais sobre transmissões de eventos esportivos
+L596	1.1103.36.20	Licenciamento de direitos de obras audiovisuais sobre transmissões de programas televisivos
+L597	1.1103.36.90	Licenciamento de direitos de obras audiovisuais sobre outras transmissões televisivas
+L598	1.1103.39.00	Licenciamento de direitos de obras audiovisuais não classificado em subposições anteriores
+L599	1.1103.4	Licenciamento de direitos de obras musicais e de fonogramas
+L600	1.1103.41.00	Licenciamento de direitos de autor de obras musicais ou literomusicais
+L601	1.1103.42.00	Licenciamento de direitos conexos de artistas intérpretes ou executantes
+L602	1.1103.43.00	Licenciamento de direitos conexos de produtores de fonogramas
+L603	1.1103.50.00	Licenciamento de direitos relacionados à radiodifusão
+L604	1.1103.90.00	Licenciamento de direitos de autor e de direitos conexos não classificado em subposições anteriores
+L605	11104	Licenciamento de direitos sobre a propriedade industrial
+L606	1.1104.10.00	Licenciamento de direitos sobre patentes
+L607	1.1104.20.00	Licenciamento de direitos sobre marcas
+L608	1.1104.30.00	Licenciamento de direitos sobre desenho industrial
+L609	1.1104.90.00	Licenciamento de direitos sobre a propriedade industrial não classificado em subposições anteriores
+L610	11105	Licenciamento de outros direitos
+L611	1.1105.10.00	Licenciamento de direitos sobre cultivares
+L612	1.1105.20.00	Licenciamento de direitos sobre topografias de circuitos integrados
+L613	1.1105.30.00	Licenciamento de direitos relativos à informação não divulgada
+L614	1.1105.4	Exploração de recursos naturais
+L615	1.1105.41.00	Exploração de recursos vegetais, inclusive florestais
+L616	1.1105.42.00	Exploração de recursos minerais
+L617	1.1105.5	Licenciamento de direitos sobre conhecimento tradicional
+L618	1.1105.51.00	Licenciamento de direitos sobre conhecimento tradicional associado a recursos genéticos
+L619	1.1105.59.00	Licenciamento de direitos sobre conhecimento tradicional não classificado em subposições anteriores
+L620	1.1105.60.00	Licenciamento de direitos relativos ao acesso a recursos genéticos, exceto os decorrentes do conhecimento tradicional
+L621	1.1105.70.00	Licenciamento de direitos sobre informações relativas à experiência adquirida no setor industrial, comercial ou científico (know-how)
+L622	1.1105.90.00	Licenciamento de outros direitos não classificado em subposições anteriores
+L623	11106	Cessão temporária de direitos de autor e de direitos conexos
+L624	1.1106.10.00	Cessão temporária de direitos de obras literárias
+L625	1.1106.20.00	Cessão temporária de direitos sobre programas de computador (software)
+L626	1.1106.3	Cessão temporária de direitos sobre obras audiovisuais
+L627	1.1106.31.00	Cessão temporária de direitos de autor de obras cinematográficas
+L628	1.1106.32.00	Cessão temporária de direitos de autor de obras jornalísticas
+L629	1.1106.33.00	Cessão temporária de direitos de autor de obras publicitárias
+L630	1.1106.34.00	Cessão temporária de direitos conexos de artistas intérpretes ou executantes em obras audiovisuais
+L631	1.1106.35.00	Cessão temporária de direitos conexos de produtores de obras audiovisuais
+L632	1.1106.36	Cessão temporária de direitos de obras audiovisuais destinadas à televisão
+L633	1.1106.36.10	Cessão temporária de direitos de obras audiovisuais sobre transmissões de eventos esportivos
+L634	1.1106.36.20	Cessão temporária de direitos de obras audiovisuais sobre transmissões de programas televisivos
+L635	1.1106.36.90	Cessão temporária de direitos de obras audiovisuais sobre outras transmissões televisivas
+L636	1.1106.39.00	Cessão temporária de direitos de obras audiovisuais não classificada em subposições anteriores
+L637	1.1106.4	Cessão temporária de direitos de obras musicais e de fonogramas
+L638	1.1106.41.00	Cessão temporária de direitos de autor de obras musicais e literomusicais
+L639	1.1106.42.00	Cessão temporária de direitos conexos de artistas intérpretes ou executantes
+L640	1.1106.43.00	Cessão temporária de direitos conexos de produtores de fonogramas
+L641	1.1106.50.00	Cessão temporária de direitos relacionados à radiodifusão
+L642	1.1106.90.00	Cessão temporária de direitos de autor e de direitos conexos não classificada em subposições anteriores
+L643	11107	Cessão definitiva de direitos de autor e de direitos conexos
+L644	1.1107.10.00	Cessão definitiva de direitos de obras literárias
+L645	1.1107.20.00	Cessão definitiva de direitos sobre programas de computador (software)
+L646	1.1107.3	Cessão definitiva de direitos de obras audiovisuais
+L647	1.1107.31.00	Cessão definitiva de direitos de obras cinematográficas
+L648	1.1107.32.00	Cessão definitiva de direitos de obras jornalísticas
+L649	1.1107.33.00	Cessão definitiva de direitos de obras publicitárias
+L650	1.1107.39.00	Cessão definitiva de direitos de obras audiovisuais não classificada em subposições anteriores
+L651	1.1107.40.00	Cessão definitiva de direitos de obras musicais e de fonogramas
+L652	1.1107.50.00	Cessão definitiva de direitos relacionados à radiodifusão
+L653	1.1107.90.00	Cessão definitiva de direitos de autor e de direitos conexos não classificada em subposições anteriores
+L654	11108	Cessão definitiva de direitos sobre a propriedade industrial
+L655	1.1108.10.00	Cessão definitiva de direitos sobre patentes
+L656	1.1108.20.00	Cessão definitiva de direitos sobre marcas
+L657	1.1108.30.00	Cessão definitiva de direitos sobre desenho industrial
+L658	1.1108.90.00	Cessão definitiva de direitos sobre a propriedade industrial não classificada em subposições anteriores
+L659	11109	Cessão definitiva de outros direitos
+L660	1.1109.10.00	Cessão definitiva de direitos sobre cultivares
+L661	1.1109.20.00	Cessão definitiva de direitos sobre topografias de circuitos integrados
+L662	1.1109.30.00	Cessão definitiva de direitos relativos à informação não divulgada
+L663	1.1109.90.00	Cessão definitiva de outros direitos não classificada em subposições anteriores
+L664	1.1110.00.00	Franquia
+L665	11201	Serviços de pesquisa e desenvolvimento em ciências naturais, engenharia e tecnologia
+L666	1.1201.1	Serviços de pesquisa e desenvolvimento em ciências naturais
+L667	1.1201.11.00	Serviços de pesquisa e desenvolvimento em ciências físicas
+L668	1.1201.12.00	Serviços de pesquisa e desenvolvimento em química e biologia
+L669	1.1201.19.00	Serviços de pesquisa e desenvolvimento em ciências naturais não classificadas em subposições anteriores
+L670	1.1201.20.00	Serviços de pesquisa e desenvolvimento em biotecnologia
+L671	1.1201.3	Serviços de pesquisa e desenvolvimento em engenharia e tecnologia
+L672	1.1201.31.00	Serviços de pesquisa e desenvolvimento em Tecnologia da Informação e Comunicação (TIC)
+L673	1.1201.32.00	Serviços de pesquisa e desenvolvimento em nanotecnologia
+L674	1.1201.33.00	Serviços de pesquisa e desenvolvimento em engenharia e tecnologia nucleares
+L675	1.1201.34.00	Serviços de pesquisa e desenvolvimento em engenharia e tecnologia em micro-ondas de potência
+L676	1.1201.39.00	Serviços de pesquisa e desenvolvimento em engenharia e tecnologia não classificados em subposições anteriores
+L677	1.1201.40.00	Serviços de pesquisa e desenvolvimento em ciências médicas, odontológicas e farmacêuticas
+L678	1.1201.50.00	Serviços de pesquisa e desenvolvimento em ciências agrárias
+L679	1.1201.90.00	Serviços de pesquisa e desenvolvimento em ciências, engenharia e tecnologia não classificados em subposições anteriores
+L680	11202	Serviços de pesquisa e desenvolvimento em ciências sociais e humanidades
+L681	1.1202.10.00	Serviços de pesquisa e desenvolvimento em psicologia
+L682	1.1202.20.00	Serviços de pesquisa e desenvolvimento em ciências econômicas
+L683	1.1202.30.00	Serviços de pesquisa e desenvolvimento em direito
+L684	1.1202.40.00	Serviços de pesquisa e desenvolvimento em línguas e literatura
+L685	1.1202.90.00	Serviços de pesquisa e desenvolvimento em ciências sociais e humanidades não classificadas em subposições anteriores
+L686	1.1203.00.00	Serviços de pesquisa e desenvolvimento interdisciplinar
+L687	11301	Serviços jurídicos
+L688	1.1301.10.00	Serviços de representação e consultoria jurídica criminal
+L689	1.1301.20.00	Serviços de representação e consultoria jurídica em outras áreas do direito, exceto consultoria tributária
+L690	1.1301.30.00	Serviços de documentação e certificação, exceto os serviços notariais e de registro
+L691	1.1301.40.00	Serviços de arbitragem, conciliação e mediação
+L692	1.1301.90.00	Serviços jurídicos não classificados em subposições anteriores
+L693	11302	Serviços de auditoria, contabilidade e escrituração mercantil
+L694	1.1302.1	Serviços de auditoria
+L695	1.1302.11.00	Serviços de auditoria contábil
+L696	1.1302.19.00	Serviços de auditoria não classificados em subposições anteriores
+L697	1.1302.2	Serviços de contabilidade e escrituração mercantil
+L698	1.1302.21.00	Serviços de contabilidade
+L699	1.1302.22.00	Serviços de escrituração mercantil
+L700	1.1302.23.00	Serviços de folha de pagamento
+L701	11303	Serviços de consultoria tributária
+L702	1.1303.10.00	Serviços de consultoria tributária para pessoas jurídicas
+L703	1.1303.20.00	Serviços de consultoria tributária para pessoas físicas
+L704	1.1304.00.00	Serviços notariais e de registro
+L705	11401	Serviços de gestão empresarial, consultoria em gestão empresarial e assessoria empresarial
+L706	1.1401.1	Serviços de consultoria em gestão empresarial
+L707	1.1401.11.00	Serviços de consultoria em gestão estratégica
+L708	1.1401.12.00	Serviços de consultoria em gestão financeira
+L709	1.1401.13.00	Serviços de consultoria em gestão de recursos humanos
+L710	1.1401.14.00	Serviços de consultoria em gestão de marketing
+L711	1.1401.15.00	Serviços de consultoria em gestão operacional
+L712	1.1401.16.00	Serviços de consultoria em gestão energética
+L713	1.1401.17.00	Serviços de consultoria em gestão de cadeia logística
+L714	1.1401.18.00	Serviços de consultoria em gestão hospitalar
+L715	1.1401.19.00	Serviços de consultoria em gestão empresarial não classificados em subposições anteriores
+L716	1.1401.2	Serviços de gestão de negócios
+L717	1.1401.21.00	Serviços de gestão em processos de negócios
+L718	1.1401.22.00	Serviços de gestão hospitalar
+L719	1.1401.29.00	Serviços de gestão não classificados em subposições anteriores
+L720	1.1401.3	Serviços de assessoria empresarial
+L721	1.1401.31.00	Serviços de assessoria de imprensa
+L722	1.1401.32.00	Serviços de relações públicas
+L723	1.1401.39.00	Serviços de assessoria empresarial não classificados em subposições anteriores
+L724	11402	Serviços de arquitetura, de planejamento urbano e de áreas rurais e de paisagismo
+L725	1.1402.1	Serviços de arquitetura
+L726	1.1402.11.00	Serviços de consultoria em arquitetura
+L727	1.1402.12.00	Serviços de arquitetura para projetos de construções residenciais
+L728	1.1402.13.00	Serviços de arquitetura para projetos de construções não residenciais
+L729	1.1402.14.00	Serviços de arquitetura para restauração de prédios históricos
+L730	1.1402.15.00	Serviços de arquitetura relativos ao acompanhamento e fiscalização da execução de projetos arquitetônicos e urbanísticos
+L731	1.1402.2	Serviços de planejamento urbano e de áreas rurais
+L732	1.1402.21.00	Serviços de planejamento urbano
+L733	1.1402.22.00	Serviços de planejamento de áreas rurais
+L734	1.1402.3	Serviços de paisagismo
+L735	1.1402.31.00	Serviços de consultoria em paisagismo
+L736	1.1402.32.00	Serviços de paisagismo, exceto consultoria
+L737	1.1402.90.00	Serviços de arquitetura, de planejamento urbano e de áreas rurais e de paisagismo não classificados em subposições anteriores
+L738	11403	Serviços de engenharia
+L739	1.1403.10.00	Serviços de consultoria em engenharia
+L740	1.1403.2	Serviços de engenharia para projetos específicos
+L741	1.1403.21	Serviços de engenharia para projetos de construção
+L742	1.1403.21.10	Serviços de engenharia para projetos de construção residencial
+L743	1.1403.21.20	Serviços de engenharia para projetos de construção não-residencial
+L744	1.1403.22	Serviços de engenharia para projetos industriais e de fabricação, exceto para projetos de energia
+L745	1.1403.22.1	Serviços de engenharia para exploração de minerais, petróleo, gás e biocombustíveis
+L746	1.1403.22.11	Serviços de engenharia para projetos de exploração de minerais
+L747	1.1403.22.12	Serviços de engenharia para projetos de exploração de petróleo e gás
+L748	1.1403.22.13	Serviços de engenharia para projetos de refino de petróleo e petroquímica
+L749	1.1403.22.14	Serviços de engenharia para projetos de unidades de produção de biocombustíveis
+L750	1.1403.22.2	Serviços de engenharia para projetos de veículos
+L751	1.1403.22.21	Serviços de engenharia para projetos de veículos terrestres
+L752	1.1403.22.22	Serviços de engenharia para projetos de embarcações
+L753	1.1403.22.23	Serviços de engenharia para projetos de veículos aéreos e aeroespaciais
+L754	1.1403.22.90	Serviços de engenharia para outros projetos industriais e de fabricação, exceto para projetos de energia
+L755	1.1403.23.00	Serviços de engenharia para projetos de infraestrutura de transportes
+L756	1.1403.24.00	Serviços de engenharia para projetos de energia
+L757	1.1403.25.00	Serviços de engenharia para projetos de telecomunicações, radiodifusão e televisão
+L758	1.1403.26.00	Serviços de engenharia para projetos de gerenciamento de resíduos (perigosos e não perigosos)
+L759	1.1403.27.00	Serviços de engenharia para projetos de distribuição de água e rede de esgoto
+L760	1.1403.29.00	Serviços de engenharia para outros projetos
+L761	1.1403.30.00	Serviços de gerenciamento de projetos de construção
+L762	1.1403.90.00	Serviços de engenharia não classificados em subposições anteriores
+L763	11404	Serviços científicos e outros serviços técnicos
+L764	1.1404.1	Serviços geológicos, geofísicos e outros de prospecção
+L765	1.1404.11.00	Serviços de consultoria geológica e geofísica
+L766	1.1404.12.00	Serviços geofísicos
+L767	1.1404.13.00	Serviços geoquímicos
+L768	1.1404.14.00	Serviços de informações para avaliação e exploração de recursos naturais
+L769	1.1404.19.00	Serviços geológicos, geofísicos e outros de prospecção não classificados em subposições anteriores
+L770	1.1404.2	Serviços topográficos e cartográficos
+L771	1.1404.21.00	Serviços topográficos
+L772	1.1404.22.00	Serviços cartográficos
+L773	1.1404.30.00	Serviços meteorológicos e de previsão do tempo
+L774	1.1404.4	Serviços de análise e exames técnicos
+L775	1.1404.41.00	Serviços de análise e de exames técnicos sobre pureza e composição
+L776	1.1404.42.00	Serviços de análise e de exames técnicos de propriedades físicas
+L777	1.1404.43.00	Serviços de análise e de exames técnicos de sistemas elétricos e mecânicos
+L778	1.1404.44.00	Serviços de inspeção técnica de veículos de transporte rodoviário
+L779	1.1404.49.00	Serviços de análise e exames técnicos não classificados em subposições anteriores
+L780	11405	Serviços veterinários
+L781	1.1405.1	Serviços veterinários para animais domésticos
+L782	1.1405.11.00	Serviços hospitalares, com ou sem internação, para animais domésticos
+L783	1.1405.12.00	Serviços de atendimento, assistência ou tratamento para animais domésticos
+L784	1.1405.2	Serviços veterinários para animais de corte
+L785	1.1405.21.00	Serviços hospitalares, com ou sem internação, para animais de corte
+L786	1.1405.22.00	Serviços de atendimento, assistência ou tratamento para animais de corte
+L787	1.1405.30.00	Serviços funerários, de cremação e de embalsamamento de animais
+L788	1.1405.40.00	Serviços de bancos de órgãos, sangue, sêmen, tecidos, óvulos e outros materiais biológicos
+L789	1.1405.50.00	Planos de atendimento e assistência médico-veterinária
+L790	1.1405.60.00	Serviços de guarda, adestramento, embelezamento e alojamento
+L791	1.1405.90.00	Serviços veterinários não classificados em subposições anteriores
+L792	11406	Serviços de propaganda e de alocação de espaço ou tempo para propaganda
+L793	1.1406.1	Serviços de propaganda
+L794	1.1406.11.00	Serviços de campanhas publicitárias
+L795	1.1406.12.00	Serviços de marketing direto e mala direta
+L796	1.1406.19.00	Serviços de propaganda não classificados em subposições anteriores
+L797	1.1406.20.00	Aquisição ou venda de espaço ou tempo para propaganda, sob comissão
+L798	1.1406.3	Venda de espaço ou tempo para propaganda, exceto sob comissão
+L799	1.1406.31.00	Venda de espaço para propaganda em mídia impressa, exceto sob comissão
+L800	1.1406.32.00	Venda de tempo para propaganda em rádio e televisão, exceto sob comissão
+L801	1.1406.33.00	Venda de espaço para propaganda na rede mundial de computadores, exceto sob comissão
+L802	1.1406.34.00	Venda de espaço para propaganda em mídia exterior, exceto sob comissão
+L803	1.1406.39.00	Venda de espaço ou tempo para propaganda, exceto sob comissão, não classificados em subposições anteriores
+L804	1.1407.00.00	Pesquisas de mercado e serviços de pesquisa de opinião pública
+L805	11408	Serviços fotográficos, videográficos e de processamento de fotografias
+L806	1.1408.1	Serviços fotográficos e videográficos de eventos
+L807	1.1408.11.00	Serviços fotográficos de retratos
+L808	1.1408.12.00	Serviços fotográficos e videográficos para propaganda
+L809	1.1408.13.00	Serviços fotográficos e videográficos de eventos
+L810	1.1408.14.00	Serviços fotográficos especiais
+L811	1.1408.15.00	Serviços de restauração e retoque de fotografias
+L812	1.1408.19.00	Serviços fotográficos e videográficos não classificados em subposições anteriores
+L813	1.1408.20.00	Serviços de processamento de fotografias
+L814	11409	Serviços especializados de design
+L815	1.1409.1	Serviços de design de interiores
+L816	1.1409.11.00	Serviços de design de interiores para espaços comerciais e públicos
+L817	1.1409.12.00	Serviços de design de interiores para espaços residenciais
+L818	1.1409.2	Serviços de desenho industrial
+L819	1.1409.21.00	Serviços de desenho industrial de embalagens, expositores de loja e objetos promocionais para comunicação e vendas
+L820	1.1409.22.00	Serviços de desenho industrial de produtos, utensílios, equipamentos, vestuário, calçados, ornamentos, joias e objetos pessoais
+L821	1.1409.23.00	Serviços de desenho industrial de máquinas, equipamentos, acessórios e objetos de uso industrial de qualquer natureza
+L822	1.1409.24.00	Serviços de desenho industrial de mobiliários e itens de decoração
+L823	1.1409.25.00	Serviços de desenho industrial de utensílios e equipamentos eletrodomésticos e eletroeletrônicos
+L824	1.1409.29.00	Serviços de desenho industrial não classificados em subposições anteriores
+L825	1.1409.30.00	Serviços de design de marcas, imagens, objetos gráficos e digitais
+L826	1.1409.90.00	Serviços especializados de design não classificados em subposições anteriores
+L827	11410	Serviços de consultoria técnica e científica não classificados em posições anteriores
+L828	1.1410.10.00	Serviços de consultoria ambiental
+L829	1.1410.90.00	Serviços de consultoria técnica e científica não classificados em subposições anteriores
+L830	1.1411.00.00	Serviços de tradução e de intérpretes
+L831	1.1412.00.00	Serviços para registros de marcas comerciais e de franquias empresariais, exceto as licenças de uso de direito
+L832	1.1413.00.00	Serviços de prospecção de clientes
+L833	1.1414.00.00	Serviços de prospecção de fornecedores
+L834	1.1415.00.00	Serviços profissionais, técnicos e gerenciais não classificados em posições anteriores
+L835	11501	Serviços de consultoria, de segurança e de suporte em tecnologia da informação (TI)
+L836	1.1501.10.00	Serviços de consultoria em tecnologia da informação (TI)
+L837	1.1501.20.00	Serviços de segurança em tecnologia da informação (TI)
+L838	1.1501.30.00	Serviços de suporte em tecnologia da informação (TI)
+L839	11502	Serviços de projeto e desenvolvimento de aplicativos e programas em tecnologia da informação (TI)
+L840	1.1502.10.00	Serviços de projeto, desenvolvimento e instalação de aplicativos e programas não personalizados (não customizados)
+L841	1.1502.20.00	Serviços de projeto e desenvolvimento, adaptação e instalação de aplicativos personalizados (customizados)
+L842	1.1502.30.00	Serviços de projeto e desenvolvimento de estruturas e conteúdo de páginas eletrônicas
+L843	1.1502.40.00	Serviços de projeto e desenvolvimento de estruturas e conteúdo de bancos de dados
+L844	1.1502.50.00	Serviços de integração de sistemas em tecnologia da informação (TI)
+L845	1.1502.90.00	Serviços de projeto e desenvolvimento de aplicativos e programas em tecnologia da informação (TI) não classificados em subposições anteriores
+L846	1.1503.00.00	Serviços de projeto e desenvolvimento de redes em tecnologia da informação (TI)
+L847	1.1504.00.00	Serviços de projeto e desenvolvimento de topografias de circuitos integrados
+L848	1.1505.00.00	Serviços de projeto de circuitos integrados
+L849	11506	Serviços de hospedagem e de disponibilização de infraestrutura em tecnologia da informação (TI)
+L850	1.1506.10.00	Serviços de hospedagem de sítios na rede mundial de computadores
+L851	1.1506.2	Serviços de hospedagem de aplicativos e programas
+L852	1.1506.21.00	Serviços de hospedagem de aplicativos e programas software como serviço (SaaS)
+L853	1.1506.22.00	Serviços de fornecimento de infraestrutura como serviço (IaaS)
+L854	1.1506.23.00	Serviços de fornecimento de plataformas como serviço (PaaS)
+L855	1.1506.29.00	Serviços de hospedagem de aplicativos e programas não classificados em subposições anteriores
+L856	1.1506.90.00	Serviços de hospedagem e de disponibilização de infraestrutura em tecnologia da informação (TI) não classificados em subposições anteriores
+L857	11507	Serviços de gerenciamento de redes e de infraestrutura em tecnologia da informação (TI)
+L858	1.1507.10.00	Serviços de gerenciamento de redes
+L859	1.1507.20.00	Serviços de gerenciamento de sistemas computacionais
+L860	1.1507.90.00	Serviços de gerenciamento de infraestrutura em tecnologia da informação (TI) não classificados em subposições anteriores
+L861	1.1508.00.00	Serviços de manutenção de aplicativos e programas
+L862	1.1509.00.00	Serviços de processamento de dados
+L863	1.1510.00.00	Serviços em tecnologia da informação (TI) não classificados em subposições anteriores
+L864	11701	Telefonia e outros serviços de telecomunicações, exceto pela rede mundial de computadores
+L865	1.1701.1	Serviços de operadoras
+L866	1.1701.11.00	Serviços de interconexão pelo uso da rede fixa
+L867	1.1701.12.00	Serviços de interconexão pelo uso de rede móvel
+L868	1.1701.19.00	Serviços de operadoras não classificados em subposições anteriores
+L869	1.1701.2	Serviços de telecomunicações fixos
+L870	1.1701.21.00	Serviços de chamadas de telecomunicações fixos comutados
+L871	1.1701.29.00	Serviços de telecomunicações fixos não classificados em subposições anteriores
+L872	1.1701.3	Serviços de telecomunicações móveis
+L873	1.1701.31.00	Serviços de voz nas telecomunicações móveis
+L874	1.1701.32.00	Serviços de texto nas telecomunicações móveis
+L875	1.1701.33.00	Serviços de transmissão de dados nas telecomunicações móveis, exceto serviços de texto
+L876	1.1701.34.00	Serviços de telecomunicações móveis para usuários visitantes (roaming)
+L877	1.1701.40.00	Serviços de redes privadas
+L878	1.1701.5	Serviços de transmissão de dados e serviços de exploração de linha dedicada
+L879	1.1701.51.00	Serviços de transmissão de dados local, nacional ou internacional
+L880	1.1701.52.00	Serviços de exploração de linha dedicada local, nacional ou internacional
+L881	1.1701.90.00	Outros serviços de telecomunicações, exceto pela rede mundial de computadores, não classificados em subposições anteriores
+L882	11702	Serviços de telecomunicações pela rede mundial de computadores
+L883	1.1702.10.00	Serviços de fornecimento de infraestrutura de acesso (backbone) à rede mundial de computadores
+L884	1.1702.2	Serviços de acesso à rede mundial de computadores
+L885	1.1702.21.00	Serviços de acesso à rede mundial de computadores por banda estreita
+L886	1.1702.22.00	Serviços de acesso à rede mundial de computadores por banda larga
+L887	1.1702.90.00	Serviços de telecomunicações pela rede mundial de computadores não classificados em subposições anteriores
+L888	11703	Serviços de oferta de conteúdo de acesso imediato (on-line)
+L889	1.1703.10.00	Serviços de oferta de livros, jornais, periódicos, diretórios e malas diretas de acesso imediato (on-line)
+L890	1.1703.2	Serviços de oferta de áudio de acesso imediato (on-line)
+L891	1.1703.21.00	Serviços de oferta de áudio para download
+L892	1.1703.22.00	Serviços de oferta de áudio de conteúdo contínuo (streaming)
+L893	1.1703.3	Serviços de oferta de arquivos contendo filmes e vídeos de acesso imediato (on-line)
+L894	1.1703.31.00	Serviços de oferta de arquivos contendo filmes e vídeos para download
+L895	1.1703.32.00	Serviços de oferta de filmes e vídeos de conteúdo contínuo (streaming)
+L896	1.1703.9	Serviços de oferta de outros conteúdos de acesso imediato (on-line) pela rede mundial de computadores
+L897	1.1703.91.00	Serviços de oferta de jogos e games de acesso imediato (on-line)
+L898	1.1703.92.00	Serviços de oferta de conteúdo de portais de busca na rede mundial de computadores
+L899	1.1703.99.00	Serviços de oferta de outros conteúdos de acesso imediato (on-line) não classificados em subposições anteriores
+L900	11704	Serviços de agências de notícias
+L901	1.1704.10.00	Serviços de agências de notícias para jornais e periódicos
+L902	1.1704.20.00	Serviços de agências de notícias para mídia audiovisual
+L903	11705	Serviços de biblioteca e arquivo
+L904	1.1705.10.00	Serviços de biblioteca
+L905	1.1705.20.00	Serviços de arquivo
+L906	11706	Serviços de difusão, programação e distribuição de programas de rádio e televisão
+L907	1.1706.1	Serviços de programação dos canais de rádio e televisão
+L908	1.1706.11.00	Serviços de programação dos canais de rádio
+L909	1.1706.12.00	Serviços de programação dos canais de televisão
+L910	1.1706.2	Serviços de transmissão de sinais, sons e imagens de rádio e televisão, aberta ou por assinatura; e serviços de distribuição de pacotes de televisão por assinatura
+L911	1.1706.21.00	Serviços de transmissão de sinais, sons e imagens de rádio e televisão, aberta ou por assinatura
+L912	1.1706.22.00	Serviços de distribuição de pacotes básicos de programação de televisão por assinatura
+L913	1.1706.23.00	Serviços de distribuição de pacotes de programação adicional de televisão por assinatura
+L914	1.1706.24.00	Serviços de distribuição de programas de televisão por assinatura, na modalidade "pague por exibição" (pay-per-view)
+L915	1.1706.90.00	Serviços de difusão, programação e distribuição de programas de rádio e televisão não classificados em subposições anteriores
+L916	11801	Serviços de seleção de pessoal e fornecimento de mão de obra
+L917	1.1801.1	Serviços de recrutamento e seleção de pessoal
+L918	1.1801.11.00	Serviço de recrutamento e seleção de profissionais executivos
+L919	1.1801.12.00	Serviço de recrutamento e seleção de profissionais, exceto executivos
+L920	1.1801.2	Serviços de fornecimento de mão de obra
+L921	1.1801.21.00	Serviços de fornecimento de mão de obra terceirizada, exceto temporária
+L922	1.1801.22.00	Serviços de fornecimento de mão de obra temporária
+L923	1.1801.29.00	Serviços de fornecimento de mão de obra não classificados em subposições anteriores
+L924	11802	Serviços de investigação e segurança
+L925	1.1802.10.00	Serviços de investigação
+L926	1.1802.20.00	Serviços de consultoria em segurança
+L927	1.1802.30.00	Serviços de sistemas de segurança
+L928	1.1802.40.00	Serviços de carro-forte
+L929	1.1802.50.00	Serviços de guarda e escolta armada
+L930	1.1802.90.00	Serviços de segurança não classificados em subposições anteriores
+L931	11803	Serviços de limpeza
+L932	1.1803.10.00	Serviços gerais de limpeza
+L933	1.1803.2	Serviços especializados de limpeza
+L934	1.1803.21.00	Serviços de desinfecção e extermínio de pragas
+L935	1.1803.22.00	Serviços de limpeza de janelas
+L936	1.1803.29.00	Serviços especializados de limpeza não classificados em subposições anteriores
+L937	1.1804.00.00	Serviços de acondicionamento e empacotamento
+L938	11805	Serviços de planejamento de viagens e serviços relacionados
+L939	1.1805.1	Serviços de reservas para transporte de passageiros
+L940	1.1805.11.00	Serviços de reservas para transporte aéreo de passageiros
+L941	1.1805.12.00	Serviços de reservas para transporte ferroviário de passageiros
+L942	1.1805.13.00	Serviços de reservas para transporte rodoviário de passageiros
+L943	1.1805.14.00	Serviços de reservas de carros de aluguel
+L944	1.1805.19.00	Serviços de reservas para transporte de passageiros não classificados em subposições anteriores
+L945	1.1805.2	Serviços de reservas de hospedagem, reservas em cruzeiros e reservas de pacotes turísticos
+L946	1.1805.21.00	Serviços de reservas de hospedagem, exceto em unidades compartilhadas
+L947	1.1805.22.00	Serviços de reservas e intercâmbio de unidades compartilhadas (time-share)
+L948	1.1805.23.00	Serviços de reservas em cruzeiros
+L949	1.1805.24.00	Serviços de reservas de pacotes turísticos
+L950	1.1805.3	Outros serviços de reservas
+L951	1.1805.31.00	Serviços de reservas para centros de convenções, centros de congressos e salas de exposições
+L952	1.1805.32.00	Serviços de reservas de ingressos para eventos de entretenimento e recreativos
+L953	1.1805.39.00	Serviços de reservas não classificados em subposições anteriores
+L954	1.1805.40.00	Serviços de operadoras de turismo
+L955	1.1805.50.00	Serviços de guias turísticos
+L956	1.1805.6	Serviços de promoção turística e informação a visitantes
+L957	1.1805.61.00	Serviços de promoção turística
+L958	1.1805.62.00	Serviços de informação a visitantes
+L959	11806	Outros serviços de apoio às atividades empresariais
+L960	1.1806.10.00	Serviços de informação cadastral e análise de crédito
+L961	1.1806.20.00	Serviços de cobrança
+L962	1.1806.3	Serviços de apoio às atividades empresariais por meio de telefone
+L963	1.1806.31.00	Serviços de call center
+L964	1.1806.39.00	Serviços de apoio às atividades empresariais por meio de telefone não classificados em subposições anteriores
+L965	1.1806.40.00	Serviços combinados de escritório e apoio administrativo
+L966	1.1806.5	Serviços especializados de apoio a escritório
+L967	1.1806.51.00	Serviços de fotocópias e outros serviços de reprodução de documentos
+L968	1.1806.52.00	Serviços de execução e envio de mala direta e de elaboração de listas de endereços
+L969	1.1806.53.00	Serviços de preparação de documentos
+L970	1.1806.59.00	Serviços especializados de apoio a escritório não classificados em subposições anteriores
+L971	1.1806.6	Serviços de assistência e organização de convenções, feiras de negócios, exposições e outros eventos
+L972	1.1806.61.00	Serviços de assistência e organização de convenções
+L973	1.1806.62.00	Serviços de assistência e organização de feiras de negócios
+L974	1.1806.63.00	Serviços de assistência e organização de exposições e outros eventos
+L975	1.1806.70.00	Serviços de jardinagem
+L976	1.1806.8	Serviços de agenciamento de modelos, artistas e atletas
+L977	1.1806.81.00	Serviços de agenciamento de modelos
+L978	1.1806.82.00	Serviços de agenciamento de artistas
+L979	1.1806.83.00	Serviços de agenciamento de atletas
+L980	1.1806.90.00	Serviços de apoio não classificados em subposições anteriores
+L981	11901	Serviços de apoio à agricultura, pecuária, produção florestal (silvicultura), pesca e aquicultura
+L982	1.1901.10.00	Serviços de apoio à agricultura
+L983	1.1901.20.00	Serviços de apoio à pecuária
+L984	1.1901.30.00	Serviços de apoio à produção florestal (silvicultura)
+L985	1.1901.40.00	Serviços de apoio à pesca
+L986	1.1901.50.00	Serviços de apoio à aquicultura
+L987	11902	Serviços de apoio à mineração
+L988	1.1902.10.00	Serviços de apoio à extração de petróleo e gás
+L989	1.1902.90.00	Serviços de apoio à mineração não classificados em subposições anteriores
+L990	11903	Serviços de apoio à transmissão e distribuição de eletricidade e à distribuição de gás e água
+L991	1.1903.1	Serviços de apoio à transmissão e distribuição de eletricidade
+L992	1.1903.11.00	Serviços de apoio à transmissão de eletricidade
+L993	1.1903.12.00	Serviços de apoio à distribuição de eletricidade
+L994	1.1903.20.00	Serviços de apoio à distribuição de gás por meio de tubulações
+L995	1.1903.30.00	Serviços de apoio à distribuição de água por meio de tubulações, exceto vapor de água e água quente
+L996	1.1903.40.00	Serviços de apoio a distribuição de vapor de água, água quente e ar condicionado por meio de tubulações
+L997	1.1903.50.00	Serviços de apoio à distribuição de água, exceto por meio de tubulações
+L998	12001	Serviços de manutenção e reparação de produtos metálicos, maquinários e equipamentos
+L999	1.2001.10.00	Serviços de manutenção e reparação de produtos metálicos, exceto maquinários e equipamentos
+L1000	1.2001.20.00	Serviços de manutenção e reparação de computadores e seus periféricos e de maquinário para escritório
+L1001	1.2001.3	Serviços de manutenção e reparação de maquinários e equipamentos de transporte
+L1002	1.2001.31	Serviços de manutenção e reparação de veículos rodoviários
+L1003	1.2001.31.10	Serviços de manutenção e reparação de veículos rodoviários motorizados
+L1004	1.2001.31.20	Serviços de manutenção e reparação de veículos rodoviários não motorizados
+L1005	1.2001.32.00	Serviços de manutenção e reparação de veículos sobre trilhos
+L1006	1.2001.33.00	Serviços de manutenção e reparação de veículos aquaviários
+L1007	1.2001.34	Serviços de manutenção e reparação de veículos de transporte aéreo e aeroespacial
+L1008	1.2001.34.10	Serviços de manutenção e reparação de aeronaves, exceto de motores, turborreatores e turbopropulsores aeronáuticos
+L1009	1.2001.34.20	Serviços de manutenção e reparação de motores, turborreatores e turbopropulsores aeronáuticos
+L1010	1.2001.34.30	Serviços de manutenção e reparação de foguetes e equipamentos aeroespaciais
+L1011	1.2001.35.00	Serviços de manutenção e reparação de veículos militares
+L1012	1.2001.39.00	Serviços de manutenção e reparação de maquinários e equipamentos de transporte não classificados em subposições anteriores
+L1013	1.2001.40.00	Serviços de manutenção e reparação de plataformas, inclusive navios-plataforma, para extração de petróleo e gás
+L1014	1.2001.50.00	Serviços de manutenção e reparação de maquinários e equipamentos de uso industrial
+L1015	1.2001.60.00	Serviços de manutenção e reparação de maquinários e equipamentos de uso comercial
+L1016	1.2001.70.00	Serviços de manutenção e reparação de equipamentos e aparelhos de telecomunicações
+L1017	1.2001.8	Serviços de manutenção e reparação de outros maquinários e equipamentos
+L1018	1.2001.81.00	Serviços de manutenção e reparação de aparelhos eletroeletrônicos domésticos
+L1019	1.2001.82.00	Serviços de manutenção e reparação de instrumentos e equipamentos médico-hospitalares, odontológicos, óticos e de precisão
+L1020	1.2001.83.00	Serviços de manutenção e reparação de equipamentos militares
+L1021	1.2001.89.00	Serviços de manutenção e reparação de outros maquinários e equipamentos não classificados em subposições anteriores
+L1022	12002	Serviços de manutenção e reparação de outros bens de consumo
+L1023	1.2002.10.00	Serviços de manutenção e reparação de produtos de couro, calçados, malas e bolsas
+L1024	1.2002.20.00	Serviços de manutenção e reparação de relógios e joias
+L1025	1.2002.30.00	Serviços de manutenção e reparação de móveis
+L1026	1.2002.40.00	Serviços de manutenção de roupas e outros produtos têxteis
+L1027	1.2002.90.00	Serviços de manutenção e reparação de outros bens de consumo não classificados em subposições anteriores
+L1028	12003	Serviços de instalação, exceto os de construção
+L1029	1.2003.10.00	Serviços de instalação de produtos metálicos, exceto maquinário e equipamentos
+L1030	1.2003.2	Serviços de instalação de maquinários, aparelhos e equipamentos
+L1031	1.2003.21	Serviços de instalação de maquinários, aparelhos e equipamentos industriais
+L1032	1.2003.21.10	Serviços de montagem sob encomenda de turbinas industriais
+L1033	1.2003.21.90	Serviços de instalação de maquinários, aparelhos e equipamentos industriais não classificados em itens anteriores
+L1034	1.2003.22.00	Serviços de instalação de computadores e seus periféricos e maquinário de escritório
+L1035	1.2003.23.00	Serviços de instalação de equipamentos e aparelhos de comunicação, incluindo de rádio e de televisão
+L1036	1.2003.24.00	Serviços de instalação de maquinários, equipamentos, instrumentos e aparelhos médico-hospitalares, óticos e de precisão
+L1037	1.2003.25	Serviços de instalação de sensores e sistemas de armas e de instalação de maquinários, aparelhos e equipamentos de emprego militar
+L1038	1.2003.25.10	Serviços de instalação de sensores e sistemas de armas
+L1039	1.2003.25.20	Serviços de instalação de maquinários, aparelhos e equipamentos de emprego militar
+L1040	1.2003.26	Serviços de instalação de maquinários e equipamentos de transporte
+L1041	1.2003.26.10	Serviços de montagem sob encomenda de motores, turborreatores e turbopropulsores aeronáuticos
+L1042	1.2003.26.90	Serviços de instalação de maquinários e equipamentos de transporte não classificados em itens anteriores
+L1043	1.2003.29.00	Serviços de instalação de maquinários, aparelhos e equipamentos não classificados em subposições anteriores
+L1044	12101	Serviços de editoração, impressão, reprodução e publicação
+L1045	1.2101.10.00	Serviços de editoração
+L1046	1.2101.2	Serviços de impressão e reprodução de mídia gravada
+L1047	1.2101.21.00	Serviços de impressão
+L1048	1.2101.22.00	Serviços relacionados à impressão
+L1049	1.2101.23.00	Serviços de reprodução de mídia gravada
+L1050	1.2101.30.00	Serviços de publicação
+L1051	12201	Serviços de educação básica
+L1052	1.2201.1	Serviços de educação infantil
+L1053	1.2201.11.00	Serviços de creches ou de entidade equivalente
+L1054	1.2201.12.00	Serviços de pré-escola
+L1055	1.2201.19.00	Serviços de educação infantil não classificados em subposições anteriores
+L1056	1.2201.20.00	Serviços de ensino fundamental
+L1057	1.2201.30.00	Serviços de ensino médio
+L1058	1.2202.00.00	Serviços de educação técnica de nível médio
+L1059	12203	Serviços de educação de jovens e adultos
+L1060	1.2203.10.00	Serviços de ensino fundamental de jovens e adultos
+L1061	1.2203.20.00	Serviços de ensino médio de jovens e adultos
+L1062	12204	Serviços de educação superior
+L1063	1.2204.10.00	Serviços educacionais de graduação
+L1064	1.2204.20.00	Serviços educacionais de pós-graduação
+L1065	1.2204.30.00	Serviços educacionais de extensão
+L1066	1.2204.40.00	Serviços educacionais de cursos sequenciais
+L1067	12205	Outros serviços educacionais, incluindo de treinamento, e serviços de apoio aos serviços educacionais
+L1068	1.2205.1	Outros serviços de educação, inclusive treinamento
+L1069	1.2205.11.00	Serviços de educação com enfoque cultural
+L1070	1.2205.12.00	Serviços de educação desportiva e recreacional
+L1071	1.2205.13.00	Serviços de educação em línguas estrangeiras e de sinais
+L1072	1.2205.14.00	Serviços de palestras e conferências
+L1073	1.2205.19.00	Outros serviços de educação, inclusive treinamento, não classificados em subposições anteriores
+L1074	1.2205.20.00	Serviços de apoio aos serviços educacionais
+L1075	12301	Serviços de saúde humana
+L1076	1.2301.1	Serviços hospitalares
+L1077	1.2301.11.00	Serviços cirúrgicos
+L1078	1.2301.12.00	Serviços ginecológicos e obstétricos
+L1079	1.2301.13.00	Serviços psiquiátricos
+L1080	1.2301.14.00	Serviços prestados em Unidades de Terapia Intensiva
+L1081	1.2301.15.00	Serviços de atendimento de urgência
+L1082	1.2301.19.00	Serviços hospitalares não classificados em subposições anteriores
+L1083	1.2301.2	Serviços médicos não hospitalares e serviços odontológicos
+L1084	1.2301.21.00	Serviços de clínica médica
+L1085	1.2301.22.00	Serviços médicos especializados
+L1086	1.2301.23.00	Serviços odontológicos
+L1087	1.2301.9	Outros serviços de saúde humana
+L1088	1.2301.91.00	Serviços de enfermagem
+L1089	1.2301.92.00	Serviços de fisioterapia
+L1090	1.2301.93.00	Serviços laboratoriais
+L1091	1.2301.94.00	Serviços de diagnóstico por imagem
+L1092	1.2301.95.00	Serviços de bancos de material biológico humano
+L1093	1.2301.96.00	Serviços de ambulância
+L1094	1.2301.97.00	Serviços de assistência ao parto e pós-parto
+L1095	1.2301.98.00	Serviços de psicologia
+L1096	1.2301.99.00	Outros serviços de saúde humana não classificados em subposições anteriores
+L1097	12302	Serviços de cuidado e assistência a idosos e pessoas com deficiência em unidades de acolhimento
+L1098	1.2302.10.00	Serviços de cuidado em saúde em unidades de acolhimento
+L1099	1.2302.2	Serviços de assistência a idosos e pessoas com deficiência em unidades de acolhimento
+L1100	1.2302.21.00	Serviços de assistência a idosos em unidades de acolhimento
+L1101	1.2302.22.00	Serviços de assistência a crianças e adolescentes com deficiência em unidades de acolhimento
+L1102	1.2302.23.00	Serviços de assistência a adultos com deficiência em unidades de acolhimento
+L1103	1.2303.00.00	Serviços de assistência prestados a pessoas em situação de vulnerabilidade social com acomodação
+L1104	12304	Serviços de assistência social sem acomodação
+L1105	1.2304.1	Serviços de reabilitação vocacional
+L1106	1.2304.11.00	Serviços de reabilitação vocacional para pessoas com deficiência
+L1107	1.2304.12.00	Serviços de reabilitação vocacional para desempregados
+L1108	1.2304.19.00	Serviço de reabilitação vocacional não classificados nas subposições anteriores
+L1109	1.2304.20.00	Serviços de orientação e aconselhamento relacionados a crianças e adolescentes
+L1110	1.2304.90.00	Serviços de assistência social sem acomodação não classificados em subposições anteriores
+L1111	1.2401.00.00	Serviços de tratamento de água
+L1112	12402	Serviços de esgoto, tratamento de esgotos e limpeza de fossas sépticas
+L1113	1.2402.10.00	Serviços de esgoto e tratamento de esgotos
+L1114	1.2402.20.00	Serviços de esvaziamento e limpeza de fossas sépticas
+L1115	12403	Serviços de coleta de resíduos
+L1116	1.2403.1	Serviços de coleta de resíduos perigosos
+L1117	1.2403.11.00	Serviços de coleta de resíduos de serviços de saúde e outros resíduos biológicos
+L1118	1.2403.12.00	Serviços de coleta de resíduos perigosos industriais, exceto resíduos de serviços de saúde e outros resíduos biológicos
+L1119	1.2403.19.00	Serviços de coleta de outros resíduos perigosos não classificados em subposições anteriores
+L1120	1.2403.2	Serviços de coleta de resíduos recicláveis não perigosos
+L1121	1.2403.21.00	Serviços de coleta de resíduos recicláveis, não perigosos, de origem doméstica
+L1122	1.2403.22.00	Serviços de coleta de resíduos recicláveis, não perigosos, exceto de origem doméstica
+L1123	1.2403.3	Serviços de coleta de resíduos gerais
+L1124	1.2403.31.00	Serviços de coleta de resíduos gerais de origem doméstica
+L1125	1.2403.32.00	Serviços de coleta de resíduos gerais, exceto de origem doméstica
+L1126	12404	Serviços de tratamento e eliminação de resíduos
+L1127	1.2404.1	Serviços de triagem, preparação, consolidação e estocagem de resíduos
+L1128	1.2404.11.00	Serviços de triagem, preparação, consolidação e estocagem de resíduos perigosos
+L1129	1.2404.12.00	Serviços de demolição e desmantelamento de embarcações, veículos e outros bens
+L1130	1.2404.13.00	Serviços de triagem, preparação, consolidação e estocagem de resíduos recicláveis não perigosos
+L1131	1.2404.19.00	Serviços de triagem, preparação, consolidação e estocagem de resíduos não perigosos, exceto os recicláveis
+L1132	1.2404.2	Serviços de tratamento e eliminação de resíduos perigosos
+L1133	1.2404.21.00	Serviços de tratamento de resíduos perigosos
+L1134	1.2404.22.00	Serviços de eliminação de resíduos perigosos
+L1135	1.2404.3	Serviços de tratamento e eliminação de resíduos não perigosos
+L1136	1.2404.31.00	Serviços de tratamento e eliminação de resíduos não perigosos em aterros sanitários
+L1137	1.2404.32.00	Serviços de tratamento e eliminação de resíduos não perigosos em aterros, exceto os sanitários
+L1138	1.2404.33.00	Serviços de incineração de resíduos não perigosos
+L1139	1.2404.39.00	Serviços de tratamento e eliminação de resíduos não perigosos não classificados em subposições anteriores
+L1140	12405	Serviços de remediação e contenção de contaminantes
+L1141	1.2405.1	Serviços de remediação e limpeza de áreas contaminadas
+L1142	1.2405.11.00	Serviços de remediação e limpeza do ar
+L1143	1.2405.12.00	Serviços de remediação e limpeza de águas de superfície
+L1144	1.2405.13.00	Serviços de remediação e limpeza do solo e de águas subterrâneas
+L1145	1.2405.14.00	Serviços de remediação em edificações
+L1146	1.2405.20.00	Serviços de contenção, controle e monitoramento de áreas contaminadas
+L1147	1.2405.90.00	Serviços de remediação não classificados em subposições anteriores
+L1148	12406	Serviços de limpeza urbana e similares
+L1149	1.2406.10.00	Serviços de varrição de vias e áreas públicas
+L1150	1.2406.90.00	Serviços de limpeza urbana e similares não classificados em subposições anteriores
+L1151	1.2407.00.00	Serviços de proteção ambiental não classificados em posições anteriores
+L1152	12501	Serviços de produção audiovisual, de apoio e relacionados
+L1153	1.2501.1	Serviços de gravação de som
+L1154	1.2501.11.00	Serviços de gravação de som em estúdio
+L1155	1.2501.12.00	Serviços de gravação de som ao vivo
+L1156	1.2501.2	Serviços de produção de programas de rádio e televisão, videoteipes e filmes
+L1157	1.2501.21.00	Serviços de produção de programas de televisão, videoteipes e filmes
+L1158	1.2501.22.00	Serviços de produção de programas de rádio
+L1159	1.2501.3	Serviços de pós-produção de obras audiovisuais
+L1160	1.2501.31.00	Serviços de edição de obras audiovisuais
+L1161	1.2501.32.00	Serviços de duplicação e transferência de obras audiovisuais
+L1162	1.2501.33.00	Serviços de correção de cor e restauração digital de obras audiovisuais
+L1163	1.2501.34.00	Serviços de efeitos visuais em obras audiovisuais
+L1164	1.2501.35.00	Serviços de animação
+L1165	1.2501.36.00	Serviços de legendas, títulos e dublagem em obras audiovisuais
+L1166	1.2501.37.00	Serviços de projeto e edição de som em obras audiovisuais
+L1167	1.2501.39.00	Serviços de pós-produção de obras audiovisuais não classificados em subposições anteriores
+L1168	1.2501.40.00	Serviços de agenciamento para a comercialização de obras audiovisuais
+L1169	1.2501.50.00	Serviços de projeção de filmes
+L1170	1.2501.90.00	Serviços de produção audiovisual, de apoio e relacionados não classificados em subposições anteriores
+L1171	12502	Serviços de apresentação e promoção de atuações artísticas e outros serviços de entretenimento ao vivo
+L1172	1.2502.10.00	Serviços de organização e promoção de atuações artísticas ao vivo
+L1173	1.2502.20.00	Serviços de produção e apresentação de atuações artísticas ao vivo
+L1174	1.2502.30.00	Serviços de apoio para atuações artísticas ao vivo
+L1175	1.2502.90.00	Serviços de apresentação e promoção de atuações artísticas e outros serviços de entretenimento ao vivo não classificados em subposições anteriores
+L1176	12503	Serviços de atuação artística e outros serviços artísticos
+L1177	1.2503.10.00	Serviços de atuação artística
+L1178	1.2503.20.00	Serviços de autores, compositores, escultores, pintores e outros artistas, exceto os de atuação artística
+L1179	12504	Serviços de museus e de preservação e serviços de reservas botânica, zoológica e natural
+L1180	1.2504.1	Serviços de museus e de preservação de locais e construções históricas
+L1181	1.2504.11.00	Serviços de museus
+L1182	1.2504.12.00	Serviços de preservação e operação de locais e construções históricas
+L1183	1.2504.2	Serviços de reservas botânica, zoológica e natural
+L1184	1.2504.21.00	Serviços de jardins botânico e zoológico
+L1185	1.2504.22.00	Serviços de reserva natural, incluindo preservação de vida selvagem
+L1186	12505	Serviços desportivos e recreacionais desportivos
+L1187	1.2505.10.00	Serviços de organização e promoção de eventos desportivos e recreacionais desportivos
+L1188	1.2505.20.00	Serviços de clubes desportivos
+L1189	1.2505.90.00	Serviços desportivos e recreacionais desportivos não classificados em subposições anteriores
+L1190	1.2506.00.00	Serviços fornecidos por atletas e desportistas, por conta própria, e serviços de apoio relacionados com desportes e recreação desportiva
+L1191	12507	Serviços de parques de diversão e atrações similares
+L1192	1.2507.10.00	Serviços de parques temáticos de diversão
+L1193	1.2507.90.00	Serviços de parques de diversão e atrações similares não classificados em subposições anteriores
+L1194	1.2508.00.00	Serviços recreativos, culturais e desportivos não classificados em posições anteriores
+L1195	12601	Serviços de lavanderia e tinturaria
+L1196	1.2601.10.00	Serviços de limpeza de têxteis, exceto quando realizados a seco
+L1197	1.2601.20.00	Serviços de limpeza a seco
+L1198	1.2601.30.00	Serviços de tinturaria
+L1199	1.2601.40.00	Serviços de passadoria de roupas e outros artigos têxteis
+L1200	1.2601.90.00	Serviços de lavanderia não classificados em subposições anteriores
+L1201	12602	Serviços de tratamento de beleza e bem-estar físico
+L1202	1.2602.10.00	Serviços de cabeleireiros e barbeiros
+L1203	1.2602.20.00	Serviços de manicure, pedicure e tratamento cosmético
+L1204	1.2602.30.00	Serviços de bem-estar físico
+L1205	1.2602.90.00	Serviços de tratamento de beleza e bem-estar físico não classificados em subposições anteriores
+L1206	1.2603.00.00	Serviços funerários, de cremação e de embalsamamento
+L1207	1.2604.00.00	Serviços de confecção de roupas e outros artigos têxteis
+L1208	1.2605.00.00	Serviços domésticos
+L1209	1.2606.00.00	Serviços pessoais não classificados em posições anteriores
+L1210	99999
+L1211	9.9999.99.99

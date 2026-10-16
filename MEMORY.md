@@ -53,6 +53,10 @@
     `regras-ibscbs-anexo-vi`, `eventos`, `adn-distribuicao`, `correlacao-nbs-indop` e 6 notas
     `correlacao-itens-*` (geradas por `scripts/gerar_notas_anexo_viii.py`). Regra de ouro: o que é **só do
     Anexo VI** não tem data de produção nas fontes. Lacunas que restam em `pendencias.md`.
+  - NFS-e, Anexo B v1.01-20260122 (2026-10-16, noite): lista nacional de serviços com **338 códigos** (os 335 do portal,
+    de descrição idêntica, + 110501, 141403 e 141404), títulos de 41 itens e 201 subitens, e lista de NBS v2.0 (1.210 entradas;
+    contém as 731 NBS do Anexo VIII). A nota `lista-servicos-ctribnac` passou a se basear nele; sem nota nova (40 notas `df-*`).
+    Segue faltando o Anexo A (países ISO2).
 - Soluções de Consulta da Receita entram como **interpretação** dos atos do
   domínio (não criam regra), a partir da SC Cosit 71/2026.
 - Próximos candidatos: LC 87/1996 (Kandir), LC 116/2003 (ISS), Leis

@@ -124,6 +124,7 @@ está em [[df-nfse-lista-servicos-ctribnac]].
 
 ## O que a planilha não responde
 
+- **Descrição oficial de cada NBS:** a aba `LISTA.NBS_v2.0` do Anexo B v1.01-20260122 (1.210 entradas) contém as 731 NBS desta planilha; em 56 delas o texto da descrição difere em redação do que o Anexo VIII traz. Consulte `fontes/documentos-fiscais/texto/anexo-b-lista-nbs-v2-0.tsv`.
 - **Qual código usar no caso concreto** quando há mais de um `cIndOp` ou `cClassTrib` por NBS.
 - **Se o cClassTrib listado se aplica ao seu cliente:** os benefícios (saúde, educação, profissões
   intelectuais etc.) têm condições na lei; ver [[df-tabela-cclasstrib]] e as notas do domínio
