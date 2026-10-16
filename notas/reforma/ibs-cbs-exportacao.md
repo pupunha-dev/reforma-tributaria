@@ -34,7 +34,7 @@ Exportações são **imunes** (art. 8º) e, mais que isso, o exportador **manté
 
 **Regulamentos:** o art. 92 do Decreto 12.955/2026 (CBS) e da Res. CGIBS 6/2026 (IBS) reproduz o art. 80 da lei; o § 1º-A da lei é o § 1º do art. 92 (que remete ao art. 12 do regulamento, equivalente ao art. 11 da lei), e o § 1º da lei é o § 2º do art. 92.
 
-**Na nota fiscal de serviço:** para como isso aparece no documento (CST 410 e cClassTrib 410004 para exportação de bens e serviços; 410027 para o fornecimento vinculado à exportação de bens materiais) ver [[df-tabela-cclasstrib]]. Os códigos da tabela não repetem a condição de "consumo no exterior"; a condição vem do art. 80.
+**Na nota fiscal de serviço:** para como isso aparece no documento (CST 410 e cClassTrib 410004 para exportação de bens e serviços; 410027 para o fornecimento vinculado à exportação de bens materiais) ver [[df-tabela-cclasstrib]]. Os códigos da tabela não repetem a condição de "consumo no exterior"; a condição vem do art. 80. Na NFS-e, o indicador da operação (`cIndOp`) também é obrigatório: para o serviço com adquirente **e** destinatário no exterior, nenhum código da tabela do Anexo VII descreve o caso, e **qual `cIndOp` usar não está nas fontes** ([[df-nfse-indop-ibscbs]]); o analista precisa confirmá-lo antes de emitir.
 
 ## Exportação sem saída física (art. 81)
 
