@@ -5,6 +5,24 @@ dentro de um domínio existente** (ex.: Resolução CGSN 140 no domínio
 simples-nacional). Rode `python scripts/verificar.py` no fim de cada etapa:
 o resultado precisa ser 0 erros.
 
+## Etapa 0: Triagem de arquivos recebidos (sempre, antes de usar)
+
+Pedido do usuário (2026-10-16): arquivos enviados podem estar fora de contexto, desatualizados
+ou errados. Antes de qualquer nota, para **cada** arquivo:
+
+1. **Abrir e identificar o que é de fato**, não pelo nome (ex.: o PDF "Lista de Serviços Anexa à
+   LC 116" era a lista nacional de 6 dígitos da NFS-e).
+2. **Origem e nível**: oficial (lei, ato, NT, tabela do órgão) ou de terceiros. Fonte não oficial
+   **não vira nota**: só entra se bater, linha a linha, com as tabelas oficiais; se não bater, fica
+   em `fontes/<dominio>/referencias-nao-oficiais/` com o resultado da conferência no `FONTE.md`.
+3. **Versão e data**: comparar com a versão que o projeto já tem e com a que as NTs/guias citam.
+   Versão superada vai para `fontes/<dominio>/historico/` e não alimenta notas; versão mais antiga
+   que a citada pelo ato é usada com aviso ⚠️ na nota e pendência aberta.
+4. **Conferir conteúdo**: contagens, códigos e datas contra outra extração ou contra as tabelas
+   oficiais (ex.: cIndOp × Anexo VII, cClassTrib × Portal dos DF-e).
+5. **Registrar** o veredito de cada arquivo (entra, entra com ressalva, arquivado, descartado) no
+   `FONTE.md`, em `_plano-notas.md` e, se for padrão que se repete, em `LEARNINGS.md`.
+
 ## Etapa 1: Fonte
 
 1. Baixe o **texto compilado/consolidado** oficial (Planalto para leis;
