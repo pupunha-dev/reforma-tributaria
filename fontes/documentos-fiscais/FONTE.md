@@ -27,6 +27,22 @@ dá os endereços oficiais das tabelas online (seção 06).
 Texto em `texto/`: `<it>-vigente.txt` e `<it>-riscado.md` (`scripts/extrair_nt.py`),
 mais `.txt` e `-layout.txt` (`pdftotext`). Use só o `-vigente.txt`.
 
+## Guia do Emissor Público Nacional Web da NFS-e (Sistema Nacional NFS-e)
+
+Fornecido pelo usuário em 2026-10-16 (caixa de entrada `fontes/assets/`). É o
+**manual operacional** do emissor web do Sistema Nacional Nota Fiscal de Serviço
+eletrônica: diz como preencher e operar o emissor. Fica **abaixo da NT** na
+hierarquia: não cria regra nem tributo. A URL de origem não consta no PDF (cita o
+Portal da Nota Fiscal de Serviço eletrônica): confirmar e registrar aqui.
+
+| Arquivo | Documento | Versão | Data da versão | Capturado em | Observação |
+|---|---|---|---|---|---|
+| guia-emissor-publico-nacional-nfse-v1.2.1.pdf | Guia do Emissor Público Nacional Web da NFS-e | 1.2 (o arquivo original se chama "versao_1-2-1") | 27/07/2026 (histórico do próprio guia; PDF criado em 27/07/2026) | 2026-10-16 | 125 páginas, 321 imagens (telas do emissor). Histórico de versões do guia: 1.0; 1.1 (23/09/2025, emissão por decisão administrativa/judicial); 1.2 (27/07/2026, "adequação do guia aos novos campos de IBS/CBS"). **Sem texto riscado** (0 linhas). Não traz a planilha de leiaute DPS e RN DPS nem o Anexo VII (IndOp_IBSCBS), que ele cita: ficam como lacuna. Original recebido como `guia_emissor_publico_nacional_web_snnfse-ern_versao_1-2-1.pdf`. |
+
+Texto em `texto/`: `guia-emissor-publico-nacional-nfse-v1.2.1-vigente.txt` (fonte das notas, `scripts/extrair_nt.py`),
+`guia-emissor-publico-nacional-nfse-v1.2.1-riscado.md` (vazio) e, para apoio de leitura, `guia-emissor-publico-nacional-nfse-v1.2.1.txt` e
+`guia-emissor-publico-nacional-nfse-v1.2.1-layout.txt` (`pdftotext`).
+
 ## Tabelas online do Portal dos DF-e (SVRS)
 
 Capturadas em **2026-10-08** pelos endereços do IT 2025.002 v1.60 (seção 06), com
