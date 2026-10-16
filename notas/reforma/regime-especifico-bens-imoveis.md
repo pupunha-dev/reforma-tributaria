@@ -8,7 +8,25 @@ artigos: 251 a 270
 
 ## Quando a pessoa física vira contribuinte (art. 251)
 
-Regra pensada para não capturar o "cidadão comum" que aluga ou vende um imóvel ocasionalmente: pessoa física só é contribuinte se ultrapassar limiares específicos — na locação/cessão/arrendamento, receita anual acima de **R$ 240 mil** *e* mais de 3 imóveis distintos; na venda, mais de 3 imóveis distintos no ano ou mais de 1 imóvel construído pelo próprio alienante nos últimos 5 anos. Passar do limite dentro do próprio ano já torna a pessoa contribuinte imediatamente para aquela operação (§2º).
+Regra pensada para não capturar o "cidadão comum" que aluga ou vende um imóvel ocasionalmente: a pessoa física só entra no regime regular se passar de limiares específicos. A regra geral **olha para trás**: os limiares são medidos no **ano-calendário anterior** (LC 214, art. 251, § 1º; Decreto 12.955, art. 382, caput; Res. CGIBS 6, art. 382, caput).
+
+| Operação da pessoa física | Vira contribuinte se, no ano-calendário anterior... |
+|---|---|
+| Locação, cessão onerosa e arrendamento | a receita total com essas operações passou de **R$ 240 mil** *e* o objeto foi **mais de 3 imóveis distintos** (os dois requisitos juntos) |
+| Alienação ou cessão de direitos reais | o objeto foi **mais de 3 imóveis distintos** (só contam imóveis no patrimônio há menos de 5 anos, § 3º) |
+| Alienação de imóvel construído pelo próprio alienante | foi **mais de 1 imóvel** construído por ele nos 5 anos anteriores à alienação |
+
+**Antecipação no próprio ano (art. 251, § 2º).** Quem ainda não passou nos limiares do ano anterior vira contribuinte **dentro do próprio ano** em três casos (regulamentos, art. 382, § 1º):
+
+- alienação ou cessão de direitos reais (linha 2 da tabela): a partir da **4ª operação** do ano;
+- alienação de imóvel construído pelo próprio alienante (linha 3): a partir da **2ª operação** do ano;
+- locação, cessão onerosa ou arrendamento: quando o valor **exceder em 20%** o limite de R$ 240 mil, ou seja, acima de **R$ 288 mil** (antes da atualização pelo IPCA), **observada a quantidade de imóveis distintos** da tabela (mais de 3).
+
+> ⚠️ **Lei × regulamento (locação, antecipação):** o § 2º, II da LC 214 só fala do valor acima de 20% do limite e não repete o requisito dos imóveis; o regulamento (CBS e IBS, art. 382, § 1º, III) diz expressamente "observada a quantidade de imóveis distintos". As notas seguem o regulamento e sinalizam a diferença; a equipe não adotou posição (ver `decisions.md`).
+
+**Atualização do valor.** O limite de R$ 240 mil é atualizado mensalmente pelo IPCA (LC 214, art. 251, § 5º; regulamentos, art. 382, § 4º: a partir de janeiro de 2025, com divulgação em ato conjunto da RFB e do CGIBS). **O valor atualizado não consta nas fontes deste projeto.**
+
+**Como contar.** Conta a quantidade de **imóveis**, não de operações (regulamentos, art. 382, § 5º). "Bens imóveis distintos" é definido pelo regulamento (LC 214, art. 251, § 6º): cada unidade imobiliária autônoma, edificada ou não, que permita ocupação ou utilização privativa, com localização cartográfica própria, ainda que não registrada em cartório; uma unidade pode ter mais de uma matrícula quando imóveis forem ocupados em conjunto (Decreto 12.955 e Res. CGIBS 6, art. 383).
 
 ## O que incide (art. 252)
 
