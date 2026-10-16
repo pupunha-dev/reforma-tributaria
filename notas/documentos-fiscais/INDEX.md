@@ -50,7 +50,7 @@ atos; datas e obrigações vêm do ato. ISSQN e convênios municipais ficam fora
 - [[df-nfse-visao-geral]] — o que é o emissor (Web, Mobile e API), DPS × NFS-e, glossário, versões do guia e datas do IBS/CBS (03/08/2026 regime regular; 01/01/2027 Simples)
 - [[df-nfse-acesso-perfis]] — acesso por usuário/senha, certificado digital e GOV.BR (só MEI); primeiro acesso, recuperação de senha, níveis de acesso e cadastro presencial
 - [[df-nfse-painel-configuracoes]] — painel, configurações do emitente, rascunhos de DPS e serviços favoritos
-- [[df-nfse-emissao-pessoas]] — passo 1: IBS/CBS sim/não, DPS (número e série), emitente, compras governamentais, tomador, destinatário e intermediário
+- [[df-nfse-emissao-pessoas]] — passo 1: IBS/CBS sim/não, DPS (número e série), emitente (na versão atual só o prestador/fornecedor emite; tomador e intermediário ainda não), compras governamentais, tomador, destinatário e intermediário
 - [[df-nfse-emissao-servico]] — passo 2: local da prestação, código de tributação, NBS, indicador da operação, imóvel/obra, evento, comércio exterior e tipo de operação
 - [[df-nfse-emissao-valores-ibs-cbs]] — passo 3: valores, descontos, deduções, tributação federal, CST/cClassTrib e documentos de reembolso, repasse e ressarcimento
 - [[df-nfse-emissao-final-mei]] — passo 4 (emitir), NFS-e gerada e emissão simplificada do MEI

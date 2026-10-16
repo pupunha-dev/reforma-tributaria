@@ -89,10 +89,29 @@ exterior: campos do endereço estrangeiro).
 
 ## Comércio exterior
 
-Quando o país da prestação **não é o Brasil**, o guia pede dados adicionais. Para o
-guia (referindo-se à RFB), a prestação é **comércio exterior** quando ao menos um
-destes está no exterior: tomador/adquirente, intermediário ou local da prestação.
-Campos:
+O guia abre o bloco de comércio exterior com esta frase: "quando o País da
+Prestação/Fornecimento do serviço é diferente de Brasil, algumas informações
+adicionais são requisitadas". Em seguida diz que, **para a RFB**, a prestação é uma
+operação de comércio exterior quando **ao menos um** destes itens está no exterior:
+**tomador/adquirente, intermediário ou local da prestação**. Ou seja, **tomador ou
+intermediário no exterior já caracteriza** comércio exterior, mesmo que o serviço seja
+executado no Brasil.
+
+> ⚠️ **Lacunas do guia** (o guia não responde): (1) se, com o país da prestação "Brasil"
+> e o tomador no exterior, a tela abre o bloco da mesma forma (o guia só descreve o
+> gatilho do país da prestação); (2) **qual opção** de modo de prestação, de vínculo ou
+> de mecanismo de apoio vale para cada caso concreto: ele só lista as opções, sem
+> defini-las. A escolha depende da operação real, não do guia. Na pergunta "é caso de
+> imunidade, exportação de serviço ou não incidência do ISSQN?" (passo 2), a opção
+> "exportação de serviço" pede o país em que se verificou o resultado do serviço; o
+> ISSQN em si é matéria municipal, fora do escopo.
+>
+> **IBS/CBS da exportação de serviço:** o que torna o serviço exportação (fornecimento
+> para residente no exterior **e** consumo no exterior) está em
+> [[ibs-cbs-exportacao]] (LC 214, art. 80); o CST/cClassTrib (410 e 410004) está em
+> [[df-tabela-cclasstrib]]. O guia não escolhe esses códigos.
+
+Campos pedidos no bloco:
 
 | Campo | Regra |
 |---|---|
@@ -136,4 +155,5 @@ ordem de serviço ou projeto (com a opção de listar **itens** em operações B
 - [[df-nfse-emissao-pessoas]]: passo 1.
 - [[df-nfse-emissao-valores-ibs-cbs]]: passo 3.
 - [[regime-especifico-bens-imoveis]]: art. 254 e o regime de bens imóveis.
+- [[ibs-cbs-exportacao]]: quando o serviço é exportação (art. 80 da LC 214).
 - [[df-visao-geral-reforma-nfe]]: o paralelo na NF-e.
