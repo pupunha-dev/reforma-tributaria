@@ -287,3 +287,11 @@ O que aconteceu: dois testes do bot (quem emite NFS-e pelo Emissor Nacional; ser
 Por que importa: o roteador escolhe só pelo texto da linha do índice, então a linha precisa conter a regra que responde a pergunta mais provável, não só o tema. E "espelho" de artigo é armadilha: conferir os conectivos (e/ou) e a condição "nos demais casos".
 
 Ação: nota de exportação reescrita com o teste completo do § 1º-A e a ligação com o art. 11; linhas dos três índices ajustadas; bloco "Comércio exterior" da NFS-e com as lacunas do guia; perguntas D24 a D26 e R11 no banco de testes. Padrão: ao resumir uma regra "espelhada", citar os dois dispositivos lado a lado e conferir cada conectivo.
+
+## [2026-10-16] — Reteste do caso real: o roteador deixou de abrir a nota do NIF e a nota trazia um exemplo que a lei não dá
+
+O que aconteceu: no reteste da pergunta do colaborador (serviço prestado no Brasil a tomador no exterior), a resposta ficou correta e condicional, mas disse que "o NIF não consta nas notas", embora `df-nfse-emissao-pessoas` o trate. Pergunta com várias partes (CST/cClassTrib, sete campos de comércio exterior, NIF) esgota as 4 notas do roteador; a linha do índice dessa nota não citava o tomador no exterior nem o NIF, e ela perdeu para as outras quatro. Além disso, `ibs-cbs-exportacao` dava como exemplo de serviço do inciso X "serviço intelectual ou técnico a distância": exemplo nosso, não da lei, e perigoso (serviço de engenharia executado em obra no Brasil pode ser do art. 11, II ou V).
+
+Por que importa: "não consta nas notas" dito sobre algo que está na base é o erro que mais abala a confiança da diretoria; e exemplo inventado numa nota vira regra na resposta do bot.
+
+Ação: linha do índice passa a citar tomador no exterior e NIF; exemplo removido e substituído por aviso de enquadramento no art. 11; pergunta D27 no banco de testes. Padrão: pergunta com várias partes pode precisar de mais de 4 notas (`maxNotas` no nó "Preparar"); avaliar subir para 5 se o padrão se repetir. Nota nunca deve trazer exemplo de enquadramento que o texto legal não traz.
