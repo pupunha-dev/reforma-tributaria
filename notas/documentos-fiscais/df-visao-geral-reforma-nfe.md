@@ -118,3 +118,4 @@ Obrigatoriedade, em produção, da informação dos novos tributos (UB12-10):
 - [[ibs-cbs-cadastro-documento-fiscal]]: o documento fiscal na LC 214.
 - [[ibs-cbs-split-payment]]: o recolhimento que usa as informações da nota.
 - [[sn-obrigacoes-acessorias]]: documentos fiscais do optante do Simples.
+- [[df-nfse-visao-geral]]: o equivalente para a NFS-e Nacional (Guia do Emissor, nível operacional).

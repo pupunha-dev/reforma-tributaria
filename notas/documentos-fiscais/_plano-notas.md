@@ -32,3 +32,47 @@ produção em 07/10/2026 vai para um bloco `⏳ Em produção a partir de ...`.
 
 Ajustes na redação: juntar ou separar notas conforme o volume real; toda seção
 das NTs tem uma nota dona.
+
+## Fonte nova (2026-10-16): Guia do Emissor Público Nacional Web da NFS-e v1.2
+
+Fonte: `fontes/documentos-fiscais/guia-emissor-publico-nacional-nfse-v1.2.1.pdf`, 125 páginas, texto em
+`fontes/documentos-fiscais/texto/guia-emissor-publico-nacional-nfse-v1.2.1-vigente.txt`. **Aprovado pelo usuário em
+16/10/2026** (escopo e profundidade); as 10 notas foram escritas e o plano voltou a `concluido`.
+
+Natureza: manual operacional do emissor web da NFS-e Nacional. Fica **abaixo da
+NT**: diz como emitir, consultar, cancelar e substituir; não cria regra nem tributo.
+As datas de obrigatoriedade do IBS/CBS que o guia cita (03/08/2026 para o regime
+regular; 01/01/2027 para o Simples Nacional, por fato gerador) vêm do próprio guia, e
+o ato que as fixa **não está nas fontes** (registrar na lista de pendências do projeto). ISSQN e
+convênios dos municípios são municipais: ficam fora de escopo. Prefixo `df-nfse-`.
+
+| Nota | Guia (seções e páginas) | Vigência prevista | Conteúdo |
+|---|---|---|---|
+| df-nfse-visao-geral.md | Histórico de versões, resumo, siglas e seção 1 (p. 1-7) | com-mudanca-programada | O que é o emissor nacional (Web, Mobile e API), DPS x NFS-e, quem usa, funcionalidades, glossário, versões do guia e datas do IBS/CBS |
+| df-nfse-acesso-perfis.md | 1.1 e 10 (p. 7-15 e 118-125) | atual | Acesso por usuário/senha, certificado digital e GOV.BR; primeiro acesso, recuperação de senha, perfis e níveis de acesso, cadastro presencial |
+| df-nfse-painel-configuracoes.md | 2, 3, 7 e 8 (p. 16-19 e 112-115) | atual | Painel principal, menu e painéis gerenciais, configurações do emissor, rascunhos de DPS e serviços favoritos |
+| df-nfse-emissao-pessoas.md | 4.1 e 4.1.1, passo 1 (p. 20-42) | com-mudanca-programada | Emitente, prestador, tomador, destinatário; opção de preencher IBS/CBS; competência; número e série da DPS; compra governamental |
+| df-nfse-emissao-servico.md | 4.1.2, passo 2 (p. 43-66) | com-mudanca-programada | Local e código de tributação, NBS, código indicador da operação, descrição, serviços ligados a imóveis, exterior e demais grupos do passo 2 (coube em uma nota) |
+| df-nfse-emissao-valores-ibs-cbs.md | 4.1.3, passo 3 (p. 66-84) | com-mudanca-programada | Valores, ISSQN, CST e cClassTrib, documentos de reembolso, repasse e ressarcimento, totais |
+| df-nfse-emissao-final-mei.md | 4.1.4, 4.1.5 e 4.2 (p. 84-96) | atual | Conferir e emitir; NFS-e gerada; emissão simplificada do MEI (configuração e serviços favoritos) |
+| df-nfse-decisao-administrativa-judicial.md | 4.3 (p. 96-100) | atual | Incluir, consultar, cancelar e substituir NFS-e emitida por decisão administrativa ou judicial |
+| df-nfse-consulta-cancelamento-substituicao.md | 5 e 9 (p. 100-106 e 115-117) | atual | Consultar NFS-e emitidas e eventos, substituição, cancelamento e pedido por análise fiscal, download de XML e DANFSe, consulta pública |
+| df-nfse-notas-recebidas-manifestacao.md | 6 (p. 107-112) | atual | NFS-e recebidas, download, manifestação (confirmar ou rejeitar) |
+
+Decisões do usuário (aprovadas em 16/10/2026):
+
+1. **Escopo:** o `CLAUDE.md` aceita hoje "atos normativos federais" e a documentação
+   técnica da NF-e/NFC-e. O Guia é manual operacional, não ato normativo. Adotado:
+   incluí-lo como documentação técnica nacional do domínio `documentos-fiscais`,
+   com a regra "o guia diz como operar o emissor; datas e obrigações vêm do ato".
+2. **Profundidade:** as telas (321 imagens) não entram nas notas; as notas trazem as
+   regras de preenchimento, obrigatoriedades e condições. Campo a campo só onde mudar
+   o resultado fiscal.
+
+Depois da redação, feitos: ligações (etapa 6: `INDEX.md` do domínio com um
+grupo "NFS-e" e `[[...]]` para `df-cst-cclasstrib`, `df-tabela-cclasstrib`,
+`sn-obrigacoes-acessorias`, `sn-mei-regulamentacao` e `ibs-cbs-documento-fiscal-regulamentacao`)
+e protocolo (etapa 7: linha do domínio no `CLAUDE.md`, bloco no `MEMORY.md`,
+perguntas D17 em diante em `docs/perguntas-teste/documentos-fiscais.md` e regressão das
+três baterias). O bot do Telegram também precisa ter o escopo atualizado em
+`prompts/roteador.md` e `prompts/sistema.md`.

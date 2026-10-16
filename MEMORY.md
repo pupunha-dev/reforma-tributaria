@@ -26,6 +26,11 @@
     texto riscado; as notas usam o `*-vigente.txt` (`scripts/extrair_nt.py`,
     requer pymupdf). Orientações de NF-e para Simples/MEI (CRT 1, 2 e 4)
     ainda dependem de "NT futura".
+  - NFS-e (desde 2026-10-16): Guia do Emissor Público Nacional Web da NFS-e v1.2
+    (27/07/2026) como documentação **operacional** (abaixo da NT e dos atos), em 10 notas
+    `df-nfse-*` (22 notas `df-*` no total). As telas (321 imagens) não entram; as datas de
+    IBS/CBS que o guia cita (03/08/2026 regime regular; 01/01/2027 Simples por fato gerador)
+    não têm o ato nas fontes. Planilhas de leiaute da DPS e Anexo VII (IndOp_IBSCBS) são lacuna.
 - Soluções de Consulta da Receita entram como **interpretação** dos atos do
   domínio (não criam regra), a partir da SC Cosit 71/2026.
 - Próximos candidatos: LC 87/1996 (Kandir), LC 116/2003 (ISS), Leis

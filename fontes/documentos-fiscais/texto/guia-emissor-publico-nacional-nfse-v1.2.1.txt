@@ -1,0 +1,10085 @@
+Sistema Nacional Nota Fiscal de Serviço
+
+Guia do Emissor Público Nacional Web da NFS-e
+
+HISTÓRICO DE VERSÕES
+Versão
+
+Data
+
+Alterações da Versão
+
+1.0
+1.1
+
+23/09/2025
+
+1.2
+
+27/07/2026
+
+Inclusão dos itens 4.3, 4.3.1, 4.3.2, 4.3.3 e 4.3.4 referentes a Emissão de NFS-e por
+decisão administrativa/judicial.
+Adequação do guia aos novos campos de IBS/CBS.
+
+Resumo do Documento
+
+Descrição:
+Destinação:
+
+Este documento é um roteiro para auxiliar os emitentes da Nota Fiscal de Serviço eletrônica
+– NFS-e a usarem o emissor web do sistema da NFS-e.
+Emitentes de NFS-e.
+
+SUMÁRIO
+1.
+
+INTRODUÇÃO .................................................................................................................................................... 6
+1.1. ACESSO AO EMISSOR PÚBLICO NACIONAL DA NFS-E. ......................................................................................... 7
+1.1.1.
+Acesso com Usuário/Senha ........................................................................................................... 7
+1.1.2.
+Acesso com Certificado Digital ................................................................................................... 15
+1.1.3.
+Acesso com GOV.BR ...................................................................................................................... 16
+
+2.
+
+PAINEL PRINCIPAL.......................................................................................................................................... 16
+2.1.
+2.2.
+
+MENU ............................................................................................................................................................... 17
+PAINÉIS GERENCIAIS .......................................................................................................................................... 17
+
+3.
+
+CONFIGURAÇÕES........................................................................................................................................... 18
+
+4.
+
+EMITINDO A NOTA FISCAL............................................................................................................................ 19
+4.1.EMISSÃO DE NFS-E COMPLETA (TODOS CONTRIBUINTES) ...................................................................................... 20
+4.1.1.
+PASSO 1 – Pessoas........................................................................................................................ 21
+4.1.2.
+PASSO 2 – Serviço ......................................................................................................................... 43
+4.1.3.
+PASSO 3 – Valores......................................................................................................................... 66
+4.1.4.
+PASSO 4 – Emitir NFS-e............................................................................................................... 84
+4.1.5.
+NFS-e Gerada com sucesso ........................................................................................................ 86
+4.2. EMISSÃO DE NFS-E SIMPLIFICADA (CONTRIBUINTES MEI) ................................................................................. 87
+4.2.1.
+Configuração do sistema para emissão da NFS-e simplificada. ....................................... 88
+4.2.2.
+Configurações no menu principal: ............................................................................................ 88
+4.2.3.
+Criando serviços favoritos ........................................................................................................... 89
+4.2.4.
+Emitir NFS-e .................................................................................................................................... 90
+4.2.5.
+NFS-e Gerada com sucesso ........................................................................................................ 96
+4.3. EMISSÃO POR DECISÃO ADMINISTRATIVA OU JUDICIAL ........................................................................................ 96
+4.3.1.
+Inclusão de NFS-e por decisão administrativa/judicial ....................................................... 96
+4.3.2.
+Consulta de NFS-e emitida por decisão administrativa / judicial .................................... 98
+4.3.3.
+Cancelar NFS-e emitidas por decisão administrativa / judicial ........................................ 98
+4.3.4.
+Substituir NFS-e emitida por decisão administrativa / judicial ........................................ 99
+
+5.
+
+CONSULTAS NFS-E EMITIDAS.................................................................................................................... 100
+5.1.
+5.2.
+5.3.
+5.4.
+5.5.
+
+6.
+
+VISUALIZAR NFS-E E EVENTOS VINCULADOS ................................................................................................... 101
+SUBSTITUIÇÃO DE NFS-E................................................................................................................................ 102
+CANCELAMENTO DE NFS-E E SOLICITAÇÃO DE CANCELAMENTO POR ANÁLISE FISCAL...................................... 103
+DOWNLOAD XML ........................................................................................................................................... 106
+DOWNLOAD DANFSE ..................................................................................................................................... 106
+CONSULTA NFS-E RECEBIDAS .................................................................................................................. 107
+
+6.1. VISUALIZAR NFS-E RECEBIDA .......................................................................................................................... 108
+6.2. DOWNLOAD XML ........................................................................................................................................... 108
+6.3. DOWNLOAD DANFSE ..................................................................................................................................... 109
+6.4. MANIFESTAÇÃO DE NFS-E .............................................................................................................................. 109
+6.4.1.
+Confirmar uma NFS-e ................................................................................................................. 110
+6.4.2.
+Rejeitar uma NFS-e ..................................................................................................................... 110
+7.
+
+RASCUNHO DPS............................................................................................................................................ 112
+7.1.
+7.2.
+
+EDITAR DPS ................................................................................................................................................... 113
+EXCLUIR DPS ................................................................................................................................................. 113
+
+8.
+
+SERVIÇOS FAVORITOS ................................................................................................................................ 114
+
+9.
+
+CONSULTA PÚBLICA DE UMA NFS-E ........................................................................................................ 115
+9.1.
+9.2.
+
+CONSULTA USANDO A CHAVE DE ACESSO DA NFS-E ........................................................................................ 116
+CONSULTA INFORMANDO OS DADOS DA DPS .................................................................................................. 117
+
+10.
+
+CONTROLE DE ACESSO AO SISTEMA NACIONAL NFS-E – CONTRIBUINTES ................................... 118
+
+10.1.
+GERENCIAMENTO DE PERFIS E NÍVEIS DE ACESSO ........................................................................................ 118
+10.2.
+CONTROLE DE PRIMEIRO ACESSO (EMITENTES / NÃO EMITENTES DE NFS-E) ................................................ 118
+10.3.
+REALIZAR PRIMEIRO ACESSO AO SISTEMA NACIONAL NFS-E ........................................................................ 118
+10.4.
+RECUPERAR SENHA DO USUÁRIO .................................................................................................................. 121
+10.5.
+CONFIRMAÇÃO DO CADASTRAMENTO PRESENCIAL AO USUÁRIO ................................................................... 123
+10.6.
+CONTROLE DE ACESSO AO SISTEMA NACIONAL NFS-E PARA O EMISSOR WEB ............................................. 123
+10.6.1. Controle de Acesso por Usuário/Senha ................................................................................. 123
+10.6.2. Controle de Acesso por Certificado Digital ........................................................................... 123
+10.6.3. Controle de Acesso ao Sistema Nacional NFS-e via GOV.BR .......................................... 124
+
+SIGLAS UTILIZADAS:
+
+ABRASF - Associação Brasileira de Secretários e Dirigentes das Finanças dos Municípios das Capitais
+ATM - Administração Tributária Municipal
+ADN – Ambiente de Dados Nacional
+CNC – Cadastro Nacional de Contribuintes
+CNM - Confederação Nacional dos Municípios
+DNA – Documento Nacional de Arrecadação GMP - Gestor Municipal Principal
+DPS – Declaração da Prestação de Serviços Sefin Nacional – Secretaria de Finanças Nacional CGNFS-e Comitê Gestor da NFS-e
+MAN – Módulo de Apuração Nacional
+NFS-e - Nota Fiscal de Serviço Eletrônica Nacional
+RFB - Receita Federal do Brasil
+SEBRAE - Serviço Brasileiro de Apoio às Micro e Pequenas Empresas
+SERPRO - Serviço Federal de Processamento de Dados
+
+Emissor Público Nacional NFS-e
+A emissão da NFS-e Nacional é feita através de um sistema público de emissão, disponível
+para acesso via Web, Mobile ou API.
+•
+
+Emissão Web: sistema para gerenciamento por parte do contribuinte, onde ele
+poderá se cadastrar, emitir, consultar e cancelar as NFS-e emitidas.
+
+•
+
+Emissão Mobile: permitirá a emissão de NFS-e simplificada, visando atender
+especificamente aos contribuintes dos municípios que utilizam a Sefin Nacional,
+comunicando-se somente com o Sistema Nacional da NFS-e.
+
+•
+
+Emissão via API: funciona como uma Secretária de Finanças Municipal (SEFIN
+Nacional NFS-e) com objetivo de recepcionar e validar as Declarações de Prestação de
+Serviços (DPS) dos contribuintes de municípios conveniados ao SN NFS-e – sejam
+estas DPS enviadas diretamente para API ou emitidas nos emissores públicos
+nacionais Web e APP. O município que não possuir um ambiente computacional para
+validar as DPS de seus contribuintes poderá se conveniar ao sistema nacional para
+utilização da Sefin Nacional NFS-e pelos seus contribuintes de ISSQN (Imposto Sobre
+Serviços de Qualquer Natureza).
+
+Mais informações sobre os emissores encontram-se na Portal da Nota Fiscal de Serviço
+eletrônica.
+
+Emissor Público Nacional NFS-e – Web
+1.
+
+Introdução
+Este módulo consiste em um sistema para gerenciamento de NFS-e do contribuinte. Está
+
+basicamente estruturado nas funcionalidades para:
+•
+
+Configuração do emissor;
+
+•
+
+Emissão de NFS-e;
+
+•
+
+Consultas NFS-e emitidas;
+
+•
+
+Consultas NFS-e recebidas;
+
+•
+
+Cancelamento de NFS-e;
+
+•
+
+Substituição de NFS-e;
+
+•
+
+Apuração Nacional – MAN (por ora, apenas em ambiente de Prod. Restrita);
+
+•
+
+Registro de serviços mais realizados pelo emitente (favoritos); e
+
+•
+
+Gravação de rascunhos.
+
+Além destas funcionalidades, o Emissor Público Nacional NFS-e – Web realiza diversas
+integrações com outras bases de dados: Tabelas de convênios dos Municípios (Painel Administrativo
+
+Nacional), Tabelas Parametrizadas pelos Municípios (Painel Administrativo Municipal), Cadastros
+CNPJ, CPF, Simples Nacional, TOM e Cadastro Nacional de Contribuinte (CNC NFS-e).
+O painel está disponível no endereço: https://www.nfse.gov.br/EmissorNacional.
+Obs.: para maiores informações sobre o Módulo de Apuração Nacional - MAN, acesse: Guia
+para Utilização do Módulo de Apuração Nacional.
+
+1.1.
+
+Acesso ao Emissor Público Nacional da NFS-e.
+
+O contribuinte deverá acessar o Portal de Gestão NFS-e - Contribuinte.
+O acesso ao Portal se dá de 3 formas:
+a) Acesso com usuário e senha;
+b) Acesso com certificado digital;
+c) Acesso via GOV.BR.
+
+1.1.1.
+
+Acesso com Usuário/Senha
+
+Para realizar este acesso, é necessário, incialmente, fazer um cadastro para o emissor (CPF ou
+CNPJ). Para isto deve-se clicar em: “Fazer primeiro acesso”.
+
+Na próxima tela serão solicitadas as informações conforme o tipo de contribuinte: Pessoa Física
+ou Jurídica.
+
+a) Pessoa Física:
+Marcar a opção
+
+. O sistema abrirá os campos: “CPF” e “Data de nascimento”.
+
+Preencher os dois campos e clicar em
+
+.
+
+Erro
+
+CPF não existente
+CPF informado para o emitente da
+NFS-e é inválido (verificar DV).
+
+Mensagem
+“Não foi possível recuperar informações do
+Contribuinte.”
+“Informe um CPF válido”
+
+A data de nascimento diferente da
+
+“A data de nascimento informada não
+
+informada no cadastro CPF.
+
+corresponde ao CPF informado.”
+
+A tela seguinte solicitará o número do título de eleitor para o CPF informado. Preencher o campo
+e clicar em
+
+.
+
+Caso o emissor tenha declarado imposto de renda pessoa física, será necessário informar os
+números dos recibos das declarações de renda dos dois últimos anos, se for o caso. Preencher os
+campos e clicar em
+
+.
+
+Na próxima tela, deverá ser informado um e-mail e criada uma senha de acesso. Preencher
+todo os campos e clicar em
+
+.
+
+Será enviado um “código de segurança” no e-mail cadastrado. Deve-se acessar o e-mail e
+verificar o “código de segurança” enviado. Informar o código no campo correspondente e clicar em
+.
+
+A etapa para o primeiro acesso de Pessoa Física está finalizada.
+
+b) Pessoa Jurídica:
+Marcar a opção
+
+. O sistema abrirá os campos: “CNPJ”, “CPF do responsável” e “Data
+
+de nascimento”(do responsável). Preencher os três campos e clicar em
+
+.
+
+Erro
+
+Mensagem
+“Não foi possível recuperar informações do
+
+CNPJ não existente
+
+Contribuinte.”
+
+CPF do responsável diferente do
+
+“O CPF informado não corresponde ao CPF
+
+informado no Cadastro CNPJ
+
+responsável pelo CNPJ informado.”
+
+A
+
+data
+
+de
+
+responsável
+
+é
+
+nascimento
+
+do
+
+diferente
+
+da
+
+cadastrada no cadastro CPF
+
+“A data de nascimento informada não
+corresponde ao CPF informado.”
+
+A tela seguinte solicitará o número do título de eleitor do responsável pelo CNPJ informado.
+Preencher o campo e clicar em
+
+.
+
+Caso o responsável pelo CNPJ tenha declarado imposto de renda pessoa física, será necessário
+informar os números dos recibos das declarações de renda dos dois últimos anos, se for o caso.
+Preencher os campos e clicar em
+
+.
+
+Na próxima tela, deverá ser informado um e-mail e criada uma senha de acesso. Preencher
+todo os campos e clicar em
+
+.
+
+Será enviado um “código de segurança” no e-mail cadastrado. Deve-se acessar o e-mail e
+verificar o “código de segurança” enviado. Informar o código no campo correspondente e clicar em
+.
+
+A etapa para o primeiro acesso de Pessoa Jurídica está finalizada.
+Em ambos os casos, ao finalizar o cadastro de Usuário/Senha, será exibida a página inicial do
+Portal onde deve ser informado o usuário (CPF/CNPJ) e a senha previamente cadastrados.
+Preencher ambos os campos e clicar em
+
+.
+
+1) Não foi possível criar seu usuário
+
+1.1.2.
+
+Acesso com Certificado Digital
+
+Outra forma de acesso é com o uso do certificado digital. Clicar sobre o ícone do certificado e o
+sistema abrirá a janela para selecionar o certificado.
+
+Selecione o certificado a ser usado e informe a senha na janela seguinte.
+
+Obs.: Certificados digitais do tipo A1, instalados diretamente no computador do usuário, não
+exigem senha ao utilizá-los.
+
+1.1.3.
+
+Acesso com GOV.BR
+
+Uma terceira forma de acesso é com o uso do serviço GOV.BR. Clicar sobre o ícone
+e o sistema abrirá a janela de login do GOV.BR. Realizar o login, conforme as
+orientações do site.
+
+2.
+
+Painel Principal
+Ao realizar o login por uma das formas descritas no item 1, o sistema exibirá o painel principal
+
+do módulo Emissor Público Nacional NFS-e. Este painel possui diversas consultas realizadas na base
+de dados do Emissor Web para o usuário que está acessando o sistema.
+Estas informações consolidadas são apresentadas no painel principal em pequenos dashboards
+(painéis) de acordo com o perfil do usuário logado. Estas informações podem não ser apresentadas
+
+dependendo do usuário que estiver acessando o sistema, pois o objetivo principal desses
+dashboards é auxiliar a interação do usuário emitente de NFS-e com o Emissor Web. Assim, um
+usuário não emitente, por exemplo, não possui rascunhos ou últimas NFS-e emitidas para serem
+apresentadas.
+
+O Painel Principal apresenta um menu com os módulos do sistema e o painel gerencial, tratados
+a seguir.
+
+2.1.
+
+Menu
+
+•
+
+Página inicial;
+
+•
+
+Tipos de emissão (completa, simplificada e por decisão administrativa/judicial);
+
+•
+
+NFS-e emitidas;
+
+•
+
+NFS-e recebidas;
+
+•
+
+Rascunhos;
+
+•
+
+Módulo de Apuração Nacional – MAN (por ora, apenas em ambiente de Prod. Restrita);
+
+•
+
+Configurações;
+
+•
+
+Serviços Favoritos;
+
+2.2.
+
+Painéis gerenciais
+
+São apresentados, no Painel Principal, os painéis gerenciais:
+•
+
+Rascunhos;
+
+•
+
+Dados do usuário que acessou o Emissor Web;
+
+•
+
+Últimas NFS-e emitidas;
+
+•
+
+Painel para acesso rápido a algumas funcionalidades;
+
+3.
+
+Configurações
+
+Este módulo deve ser o primeiro a ser acessado. Ele contempla as funcionalidades de
+complemento das informações do emitente da NFS-e.
+
+O e-mail e o telefone informados podem ser diferentes das informações
+cadastradas no município e/ou nas bases de dados da RFB. Por este motivo, para
+cada NFS-e emitida pelo Emissor Nacional Web, eles serão utilizados no grupo de
+informações da DPS conforme o tipo de emitente (Prestador/Fornecedor,
+Tomador/Adquirente ou Intermediário) e serão impressos no DANFSe somente
+quando forem ausentes nas fontes cadastrais oficiais.
+
+Campo
+E-mail
+
+Descrição
+
+Tipo
+
+Ocorrência
+
+Ação
+
+Endereço do e-mail Endereço de e- Opcional
+
+Informar
+
+mail
+
+endereço
+
+um
+de
+
+e-
+
+mail
+Telefone
+
+Telefone
+
+para Número
+
+Opcional
+
+contato
+Opção
+
+atual
+
+Simples Nacional
+
+Simples
+
+um
+
+telefone
+
+no Informação sobre a Texto
+opção
+
+Incluir
+
+atual
+
+no
+
+Nacional
+
+Obrigatório
+
+Este
+
+campo
+
+recuperado
+cadastros RFB.
+
+é
+dos
+
+do emitente.
+Valor aproximado dos tributos – marcar a opção que melhor atende ao perfil do emitente.
+Para cada emissão de NFS-e, a opção selecionada abaixo influenciará no cálculo/exibição dos
+valores totais dos tributos Federais, Estaduais e Municipais.
+
+A opção “Informar alíquota do Simples Nacional” será exibida somente para os optantes desse
+regime. Nesse caso, a ME/EPP informará a alíquota nominal a qual está sujeita nos termos do
+referido regime, conforme o art. 9º, do Decreto 8.264/2014, que regulamenta a Lei
+12.741/2012.
+
+Se esta for a opção marcada, nenhum preenchimento será necessário.
+
+Se esta for a opção marcada, deve-se preencher os percentuais “Federal”, “Estadual” e
+“Municipal”.
+
+Se esta for a opção marcada, deve-se preencher a alíquota nominal do Simples Nacional aplicável
+ao emitente.
+Após essa configuração, a emissão da nota fiscal de serviços eletrônica poderá ser feita.
+
+4.
+
+Emitindo a Nota Fiscal
+Para emitir a nota fiscal pelo Emissor Web, deve-se selecionar o ícone do menu marcado com o
+
+sinal de + na imagem abaixo e selecionar se deseja utilizar a Emissão Completa, Emissão
+Simplificada e Emissão por Decisão Administrativa/Judicial; ou, selecionar o mesmo ícone no painel
+de acesso rápido, que direcionará para a Emissão Completa. A Emissão Simplificada é
+disponível apenas para o MEI.
+
+4.1.Emissão de NFS-e Completa (Todos Contribuintes)
+A Emissão Completa é obrigatória para alguns tipos de prestação de serviço, como exportação
+e serviços cujo ISSQN é devido no local do tomador/adquirente.
+Para emitir a nota fiscal de modo completo pelo portal web, basta clicar no ícone marcado na
+imagem abaixo e selecionar a opção “Emissão Completa”; ou no painel de “Acesso Rápido”:
+
+Para preencher e emitir uma NFS-e serão consideradas regras de acordo com as opções de cada
+conjunto de informações solicitadas como Pessoas, Serviço, Valores e Emitir NFS-e.
+Na tabela abaixo estão explicitadas a maioria das informações que poderão ser necessárias.
+A obrigatoriedade dos campos, bem como as regras de negócio aplicadas para cada um deles,
+estão dispostas nas planilhas de leiaute DPS e RN DPS (ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe).
+
+4.1.1.
+
+PASSO 1 – Pessoas
+
+Nesta tela é feito o preenchimento dos dados dos participantes da NFS-e, quais sejam, emitente,
+prestador/fornecedor, tomador/adquirente e destinatário.
+Além disso, informações gerais da DPS também são preenchidas nesta tela, tais como: data de
+competência, número e série da DPS, opção pelo preenchimento das informações de IBS/CBS e a
+informação de que a operação se trata de uma compra governamental.
+A obrigatoriedade dos campos da tabela, bem como as regras de negócio aplicadas para cada
+um deles, estão dispostas na planilha de leiaute DPS e RN DPS descrita abaixo. Após o
+preenchimento dos campos, conforme indicado, clicar em
+
+.
+
+Campo
+
+Descrição
+
+Tipo
+
+Ocorrênci
+
+Ação
+
+a
+
+INFORMAÇÕES GERAIS
+Preencher
+
+as Permite
+
+informações IBS/CBS?
+
+emitente
+
+ao CheckBox Obrigatório Selecionar uma das 2 opções
+indicar
+
+se prencherá ou
+não
+
+as
+
+para o emitente:
+o Sim
+o Não
+
+informações
+relativas ao IBS e
+à CBS
+A partir de 03 de agosto de 2026, passará a ser exigido o preenchimento das informações
+relativas ao IBS e à CBS, observadas as respectivas regras de validação. Dessa forma, não será
+permitida a emissão de documentos fiscais eletrônicos, pelas empresas sujeitas ao regime
+regular, sem o preenchimento dos campos correspondentes ao IBS e à CBS.
+Às empresas optantes do regime do Simples Nacional, o início da obrigatoriedade do
+preenchimento das informações relativas ao IBS e à CBS se dará para os fatos geradores ocorridos
+a partir de 01 de janeiro de 2027.
+Data de Competência
+
+Data em que o Data
+serviço
+prestado
+
+foi
+
+Obrigatório Incluir
+
+a
+
+data
+
+competência
+
+ou
+
+ícone
+
+calendário
+
+do
+
+da
+
+clicar no
+e
+
+navegar até a data definida.
+
+Obs.: Ao selecionar “Sim” no campo “Preencher as informações IBS/CBS?”, a data de
+competência deve ser igual ou maior a 01/01/2026.
+
+DPS (Declaração de Prestação de Serviço) é um documento de posse e responsabilidade do
+contribuinte, que deverá ser gerado manualmente ou por alguma aplicação adquirida, possuindo
+uma numeração sequencial crescente e devendo ser convertido em NFS-e no prazo estipulado pela
+legislação tributária municipal.
+Este documento atende também àqueles contribuintes que, porventura, não dispõem de
+infraestrutura de conectividade em tempo integral, podendo gerar os documentos e enviá-los, em
+lote, para processamento e geração das respectivas NFS-e.
+Para que as DPS possam fazer parte de um lote a ser enviado para geração das NFS-e
+correspondentes, é necessário que o contribuinte possua uma aplicação instalada em seus
+computadores (desenvolvida particularmente seguindo as especificações disponibilizadas pelo
+Comitê Gestor da NFS-e).
+Mais informações sobre DPS podem ser consultadas diretamente no site O que é DPS? — Portal da
+Nota Fiscal de Serviço eletrônica.
+
+ou
+
+O número e a série Checkbox Opcional
+
+Clicar se a opção for informar
+
+da
+
+a DPS.
+
+DPS
+
+são
+
+campos
+obrigatórios
+
+de
+
+controle da DPS
+que
+
+ajudam
+
+a
+
+identificar
+unicamente
+
+uma
+
+DPS.
+
+geral,
+
+Em
+
+campos
+
+são
+
+gerados
+automaticamente
+pelo sistema para
+cada emitente de
+NFS-e.
+entanto,
+
+No
+existem
+
+situações em que
+o emitente ainda
+necessita
+
+controlá-los
+deverá
+
+ou
+
+informá-
+
+los manualmente.
+O sistema emissor
+permite
+
+que
+
+emitente
+
+o
+
+possa
+
+informar o número
+de
+
+série
+
+(transcrever
+
+o
+
+número de série)
+que foi repassado
+ao não emitente
+da NFS-e.
+Série
+
+Informação sobre Numérico Obrigatório Incluir a série da DPS. Deve
+a série da DPS.
+
+ser um número entre 80.000
+e 89.999, de acordo com a
+regra “Faixas de utilização da
+série da DPS”, descrita no
+ANEXO_I-SEFIN_ADNDPS_NFSe-SNNFSe-v1.0120260209
+
+Número da DPS
+
+Número da DPS
+
+Numérico Obrigatório Incluir o número da DPS
+
+EMITENTE DA NFS-E - Podem ser informadas 3 opções de emitente: Prestador/Fornecedor,
+Tomador/Adquirente ou Intermediário. A depender da opção feita, os campos para preenchimento
+vão sendo ajustados.
+
+Na atual versão, a NFS-e somente poderá ser emitida pelo Prestador/Fornecedor de
+Serviço. As emissões de NFS-e por Tomador/Adquirente e Intermediário ainda não estão
+disponíveis. A funcionalidade será disponibilizada em uma versão futura.
+
+Campo
+
+para CheckBox Obrigatório Selecionar uma das 3 opções
+
+informação
+
+de
+
+quem
+
+o
+
+será
+
+emitente da NFSe:
+
+Prestador
+
+/Fornecedor,
+
+para o emitente:
+o Prestador
+/Fornecedor
+o Tomador/Adquirente
+o Intermediário
+
+Tomador/Adquiren
+te
+
+ou
+
+Intermediário.
+CPF/CNPJ
+
+Informação do NI Numérico Obrigatório Este campo é recuperado dos
+(CPF/CNPJ)
+
+do
+
+emitente
+
+cadastros
+
+RFB
+
+ou
+
+CNC
+
+conforme
+
+convênio
+
+do
+
+município
+Nome
+
+Informação sobre Texto
+
+Obrigatório Este campo é recuperado dos
+
+o nome ou Razão
+
+cadastros
+
+RFB
+
+ou
+
+CNC
+
+Social do emitente
+
+conforme
+
+convênio
+
+do
+
+município
+Município
+
+Informação sobre Combo
+o
+
+nome
+
+município
+
+Obrigatório Este campo é recuperado dos
+
+do
+
+cadastros
+
+RFB
+
+ou
+
+CNC
+
+do
+
+conforme
+
+convênio
+
+do
+
+emitente
+
+município. O município do
+emitente
+
+da
+
+NFS-e
+
+será
+
+preenchido
+automaticamente,
+
+e
+
+corresponde ao código do
+município emissor (cLocEmi)
+informado na NFS-e.
+De acordo com as regras de
+negócio.
+Indicador Municipal
+
+Informação
+indicador
+
+do Combo
+
+Obrigatório Caso haja, este campo é
+recuperado do cadastro CNC,
+
+(inscrição)
+
+conforme
+
+Municipal
+
+do
+
+convênio
+
+do
+
+município.
+
+emitente
+Opção
+Nacional
+
+no
+
+Simples Informa
+
+se
+
+o Texto
+
+De acordo Este campo é recuperado dos
+
+contribuinte
+
+com
+
+as cadastros RFB.
+
+emitente é ou não
+
+regras
+
+de
+
+optante
+
+negócio
+
+pelo
+
+Simples Nacional
+Regime de Apuração dos Tributos no Simples Nacional (para optantes do Simples Nacional)
+
+A depender da opção realizada neste campo, os campos da Tributação Municipal (ISSQN)
+serão ou não habilitados para preenchimento.
+Informação se o Combo
+
+De acordo Selecionar
+
+o
+
+regime
+
+de
+
+com
+
+as apuração
+
+dos
+
+apuração
+
+dos
+
+regras
+
+de federais
+
+e
+
+tributos federais e
+municipal
+
+negócio
+
+serão
+
+regime
+
+de
+
+tributos
+municipal,
+
+conforme o enquadramento
+do emitente.
+
+realizados pelo SN
+ou pela NFS-e
+
+Telefone
+
+Informação
+
+do Número
+
+Opcional
+
+número
+
+do
+
+cadastros
+
+RFB
+
+ou
+
+CNC
+
+telefone
+
+do
+
+conforme
+
+convênio
+
+do
+
+emitente.
+
+Este campo é recuperado dos
+
+município. Quando ausente
+nos cadastros oficiais, este
+campo
+
+é
+
+recuperado
+
+das
+
+informações
+complementares
+
+do
+
+emitente,
+
+no
+
+preenchidas
+
+menu Configurações
+E-mail
+
+Informação
+endereço
+
+do Endereço
+do
+
+e- de e-mail
+
+Opcional
+
+Este campo é recuperado dos
+cadastros
+
+RFB
+
+ou
+
+CNC
+
+mail do emitente.
+
+conforme
+
+convênio
+
+do
+
+município. Quando ausente
+nos cadastros oficiais, este
+campo
+
+é
+
+recuperado
+
+das
+
+informações
+complementares
+
+do
+
+emitente,
+
+no
+
+preenchidas
+
+menu Configurações
+CEP
+
+Informação
+
+do Número
+
+Obrigatório Este campo é recuperado dos
+
+número do CEP
+
+cadastros
+
+RFB
+
+ou
+
+CNC
+
+conforme
+
+convênio
+
+do
+
+município
+Logradouro
+
+Informação
+
+do Texto
+
+nome
+
+do
+
+Obrigatório Este campo é recuperado dos
+
+logradouro
+
+cadastros
+
+RFB
+
+ou
+
+CNC
+
+conforme
+
+convênio
+
+do
+
+município
+Número
+
+Informação
+
+do Texto
+
+número
+
+do
+
+Obrigatório Este campo é recuperado dos
+
+logradouro
+
+cadastros
+
+RFB
+
+ou
+
+CNC
+
+conforme
+
+convênio
+
+do
+
+município
+Complemento
+
+Preencher com o Texto
+complemento
+
+Opcional
+
+-
+
+do
+
+logradouro
+Bairro
+
+Preencher com o Texto
+nome do bairro
+
+Obrigatório Este campo é recuperado dos
+cadastros
+
+RFB
+
+ou
+
+CNC
+
+conforme
+
+convênio
+
+do
+
+município
+
+COMPRAS GOVERNAMENTAIS – Deve-se informar se a prestação/fornecimento de
+serviço se trata de uma compra governamental.
+Para emissões com destaque de IBS/CBS, as informações referentes a compras governamentais
+devem ser preenchidas.
+Quando informado “Sim”, o endereço do Tomador/Adquirente será configurado para
+“Brasil” obrigatoriamente.
+Compras
+
+Campo
+
+para CheckBox Obrigatório Selecionar uma das 2 opções
+
+Governamentais
+
+informação de se a
+
+para o emitente:
+
+operação se trata
+
+o Sim
+
+de
+
+o Não
+
+uma
+
+compra
+
+governamental
+Selecionando
+“Sim”,
+
+Combo
+
+deve-se
+
+informar o tipo de
+ente
+
+Obrigatório Selecionar
+governamental,
+
+o
+dentre
+
+ente
+as
+
+opções:
+o União
+
+governamental
+
+o Estado
+o Distrito Federal
+o Município
+
+TOMADOR/ADQUIRENTE DO SERVIÇO - Podem ser informadas 3 opções relativas à
+localização do Tomador/Adquirente: Brasil ou Exterior ou Tomador/Adquirente não informado. A
+depender da opção feita, os campos para preenchimento vão sendo ajustados.
+
+Para determinados Códigos de Tributação Nacional a serem preenchidos no passo 2
+(Serviço), o preenchimento do Tomador/Adquirente do serviço é obrigatório, pois define
+o Local de Incidência do ISSQN (Lei Complementar 116/2003). Verificar a planilha
+MUN.INCID_INFO.SERV. do AnexoI-LeiautesRN_DPS_NFSe-SNNFSe.
+Opção
+
+para CheckBox Obrigatório Marcar uma das 3 opções
+
+informar
+
+onde
+
+está localizado o
+estabelecimento/d
+omicílio
+
+do
+
+disponíveis.
+o Brasil
+o Exterior
+o Tomador/Adquirente
+
+Tomador/Adquiren
+te.
+
+não
+
+informado
+o
+
+Tomador/Adquirente não informado - Caso esta opção seja marcada, nenhum campo será
+exibido para preenchimento posterior.
+
+Tomador/Adquirente no Brasil – Caso esta opção seja marcada, os campos a serem
+disponibilizados referem-se a informações de uma pessoa física ou jurídica domiciliada no Brasil.
+
+CPF/CNPJ
+
+Informação
+
+do Numérico Obrigatório Incluir
+
+CPF/CNPJ
+
+do
+
+o
+
+CPF/CNPJ
+
+do
+
+tomador/adquirente.
+
+tomador/adquiren
+
+Pode-se recuperar os dados
+
+te
+
+dos
+
+últimos
+
+tomadores/
+
+adquirentes clicando em
+
+Indicador Municipal
+
+Informação
+
+do Numérico Obrigatório Preencher com o indicador
+
+Indicador
+
+(inscrição)
+
+(Inscrição)
+
+tomador/adquirente,
+
+Municipal
+
+do
+
+municipal
+
+do
+caso
+
+haja.
+
+tomador/adquiren
+te
+Nome/Razão Social
+
+Informação
+nome
+
+ou
+
+Social
+
+do Texto
+
+Obrigatório Este campo é recuperado dos
+
+Razão
+
+cadastros
+
+do
+
+RFB
+
+conforme
+
+convênio do município
+
+tomador/adquiren
+te
+Telefone
+
+Informação
+
+do Número
+
+número
+
+do
+
+telefone
+
+do
+
+tomador/adquiren
+te
+
+Opcional
+
+Incluir número do telefone
+do tomador/adquirente
+
+E-mail
+
+Informação
+endereço
+mail
+
+do Endereço
+do
+
+Opcional
+
+e- de e-mail
+
+Incluir o endereço de e-mail
+do tomador/adquirente
+
+cadastrado
+
+como contato no
+município
+
+Endereço Tomador/Adquirente no Brasil
+
+Obs.: As informações dos campos a seguir são recuperadas dos cadastros RFB, quando o
+tomador/adquirente for um CNPJ, podendo-se alterá-las.
+CEP
+
+Informação
+
+do Número
+
+Obrigatório Incluir o CEP do endereço
+
+Informação
+
+do Texto
+
+Obrigatório Este campo é recuperado da
+
+nome
+
+do
+
+número do CEP
+Município
+
+tabela TOM de acordo com o
+
+município ao qual
+pertence
+
+CEP informado
+
+o
+
+tomador no Brasil
+Bairro
+
+Informação
+
+do Texto
+
+Obrigatório Este campo é recuperado da
+
+nome do bairro
+
+tabela TOM de acordo com o
+CEP informado
+
+Logradouro
+
+Informação
+
+do Texto
+
+nome
+
+do
+
+Obrigatório Este campo é recuperado da
+tabela TOM de acordo com o
+
+logradouro
+Número
+
+CEP informado
+
+Informação
+
+do Texto
+
+número
+
+do
+
+Obrigatório Incluir
+
+o
+
+número
+
+do
+
+logradouro
+
+logradouro
+Complemento
+
+Informação
+
+do Texto
+
+complemento
+
+do
+
+Opcional
+
+Incluir o complemento do
+logradouro
+
+logradouro
+Tomador/Adquirente do Serviço no Exterior - Caso esta opção seja marcada, os campos a
+serem disponibilizados referem-se a informações específicas de outros países para uma pessoa
+
+física ou jurídica domiciliada fora do Brasil.
+
+Informação
+
+se CheckBox Obrigatório Selecionar uma das 2 opções
+
+haverá ou não a
+informação do NIF
+(Número
+
+de
+
+Identificação
+Fiscal
+
+–
+
+número
+
+fornecido
+
+pelo
+
+órgão
+
+disponíveis:
+o Sim
+o Não
+
+de
+
+administração
+tributária
+
+do
+
+exterior
+
+e
+
+que
+
+identifica
+
+pessoa
+
+física ou jurídica
+externa ao Brasil
+(equivale ao CPF
+ou
+
+CNPJ,
+
+identificando
+
+a
+
+pessoa
+
+ou
+
+física
+
+jurídica
+
+no
+
+exterior).
+Opção para o caso CheckBox Obrigatório Selecionar a opção “Não”.
+de o NIF não ser
+
+Nesse
+
+caso,
+
+informado
+
+informar o motivo da não
+informação do NIF.
+
+deve-se
+
+Informação sobre Checkbox Obrigatório Selecionar uma das duas
+o motivo da não
+
+opções:
+
+informação do NIF
+
+NIF
+
+o
+
+Dispensado do NIF ou
+
+o
+
+Não exigência do NIF
+
+Informação
+
+do Numérico Obrigatório Incluir
+
+número
+
+de
+
+o
+
+NIF
+
+do
+
+tomador/adquirente
+
+identificação
+
+Pode-se
+
+internacional
+
+recuperar
+
+informado
+
+dos
+
+o
+
+NIF
+
+últimos
+
+tomadores em
+Nome/Razão Social
+
+Nome
+
+ou
+
+Razão Texto
+
+Social
+
+Obrigatório Preencher
+
+do
+
+Nome/Razão
+
+tomador/adquiren
+
+com
+
+o
+
+Social
+
+do
+
+tomador/adquirente
+
+te
+Telefone
+
+Número
+
+do Número
+
+telefone
+
+do
+
+Opcional
+
+Preencher com número do
+telefone
+
+tomador/adquiren
+
+do
+
+tomador/adquirente
+
+te
+E-mail
+
+Endereço
+mail
+
+do
+
+e- Endereço
+
+Opcional
+
+cadastrado de e-mail
+
+Preencher com o endereço
+de
+
+como contato no
+
+e-mail
+
+do
+
+tomador/adquirente
+
+município
+Endereço do Tomador/Adquirente no Exterior
+Logradouro
+
+Informação
+
+do Texto
+
+nome
+
+do
+
+logradouro
+
+no
+
+Obrigatório Preencher com o logradouro
+no exterior
+
+exterior
+Número
+
+Informação
+
+do Texto
+
+número
+
+do
+
+logradouro
+
+no
+
+Obrigatório Preencher com o número do
+logradouro no exterior
+
+exterior
+Complemento
+
+Informação
+
+do Texto
+
+Opcional
+
+Preencher
+
+com
+
+o
+
+complemento
+
+do
+
+complemento do logradouro
+
+logradouro
+
+no
+
+no exterior
+
+exterior
+Bairro
+
+Informação
+
+do Texto
+
+Obrigatório Preencher com o bairro no
+
+nome do bairro no
+
+exterior
+
+exterior
+Cidade
+
+Informação
+
+do Texto
+
+Obrigatório Preencher com o nome da
+
+nome da cidade no
+
+cidade no exterior
+
+exterior
+Código
+
+de Informação
+
+Endereçamento Postal
+
+código
+
+do Caracter
+
+Obrigatório Preencher com o código de
+
+de
+
+endereçamento
+
+endereçamento
+
+postal
+
+do
+
+endereço no exterior
+
+postal
+
+do
+
+endereço
+
+no
+
+exterior
+Estado,
+região
+
+província
+
+ou Informação
+
+do Texto
+
+Obrigatório Preencher com o nome do
+
+nome do Estado,
+
+Estado, província ou região
+
+província
+
+no exterior
+
+ou
+
+região no exterior
+País
+
+Informação
+
+do Combo
+
+Obrigatório Selecionar um dos países da
+
+nome do País
+
+lista
+
+DESTINATÁRIO DO SERVIÇO – Podem ser informadas 2 opções: “Sim”, para quando o
+Destinatário do Serviço é o próprio Tomador/Adquirente; ou “Não”, para quando o Destinatário do
+Serviço é uma pessoa física ou jurídica diversa do Tomador/Adquirente. A depender da opção feita,
+os campos a serem preenchidos serão disponibilizados na tela.
+Esta opção será habilitada quando selecionado “Sim” na informação geral “Preencher as
+informações IBS/CBS?”
+
+Opção para o caso Combo
+
+Obrigatório Selecionar a opção “Sim”.
+
+de o Destinatário
+
+Nesse caso, não há campos
+
+do serviço ser o
+
+adicionais
+
+próprio
+
+preenchimento.
+
+tomador/adquiren
+te informado
+
+para
+
+Opção para o caso Combo
+
+Obrigatório Caso
+
+selecione
+
+de o Destinatário
+
+opção
+
+anterior,
+
+do serviço não ser
+
+selecionar uma das 2 opções
+
+o próprio tomador
+
+disponíveis
+
+/adquirente
+
+localização do Destinatário:
+
+informado
+
+“Não”
+
+na
+
+deve-se
+
+para
+
+a
+
+o Brasil
+o Exterior
+
+Destinatário no Brasil – Caso esta opção seja marcada, os campos a serem disponibilizados
+referem-se a informações de uma pessoa física ou jurídica domiciliada no Brasil.
+
+CPF/CNPJ
+
+Informação
+
+do Numérico Obrigatório Incluir
+
+CPF/CNPJ
+
+do
+
+o
+
+CPF/CNPJ
+
+do
+
+destinatário.
+
+destinatário
+
+Pode-se recuperar os dados
+dos
+
+últimos
+
+destinatários
+
+clicando em
+Indicador Municipal
+
+Informação
+
+do Numérico Obrigatório Preencher com o indicador
+
+Indicador
+
+(inscrição)
+
+(Inscrição)
+
+destinatário
+
+Municipal
+
+municipal
+
+do
+
+do
+
+destinatário
+Nome/Razão Social
+
+Informação
+nome
+
+do Texto
+
+ou
+
+Obrigatório Este campo é recuperado dos
+
+Razão
+
+cadastros
+
+RFB
+
+ou
+
+CNC
+
+do
+
+conforme
+
+convênio
+
+do
+
+Social
+destinatário
+Telefone
+
+município
+
+Informação
+
+do Número
+
+número
+
+do
+
+telefone
+
+do
+
+Opcional
+
+Incluir número do telefone
+do destinatário
+
+destinatário
+E-mail
+
+Informação
+endereço
+
+do Endereço
+do
+
+e- de e-mail
+
+Opcional
+
+Incluir o endereço de e-mail
+do destinatário
+
+mail
+
+cadastrado
+
+como contato no
+município
+Endereço do Destinatário no Brasil
+
+Obs.: As informações dos campos a seguir são recuperadas dos cadastros RFB, quando o
+destinatário for um CNPJ, podendo-se alterá-las.
+CEP
+
+Informação
+
+do Número
+
+Obrigatório Incluir o CEP do endereço
+
+Informação
+
+do Texto
+
+Obrigatório Este campo é recuperado da
+
+nome
+
+do
+
+número do CEP
+Município
+
+tabela TOM de acordo com o
+
+município ao qual
+pertence
+
+o
+
+destinatário
+
+no
+
+CEP informado
+
+Brasil
+Bairro
+
+Informação
+
+do Texto
+
+Obrigatório Este campo é recuperado da
+
+nome do bairro
+
+tabela TOM de acordo com o
+CEP informado
+
+Logradouro
+
+Informação
+
+do Texto
+
+nome
+
+do
+
+Obrigatório Este campo é recuperado da
+tabela TOM de acordo com o
+
+logradouro
+Número
+
+CEP informado
+
+Informação
+
+do Texto
+
+número
+
+do
+
+Obrigatório Incluir
+
+o
+
+número
+
+do
+
+logradouro
+
+logradouro
+Complemento
+
+Informação
+
+do Texto
+
+complemento
+
+do
+
+Opcional
+
+Incluir o complemento do
+logradouro
+
+logradouro
+Destinatário do Serviço no Exterior - Caso esta opção seja marcada, os campos a serem
+disponibilizados referem-se a informações específicas de outros países para uma pessoa física ou
+jurídica domiciliada fora do Brasil.
+
+Opção se haverá CheckBox Obrigatório Selecionar uma das 2 opções
+ou
+
+não
+
+a
+
+informação do NIF
+(Número
+
+de
+
+Identificação
+Fiscal
+
+–
+
+número
+
+fornecido
+
+pelo
+
+órgão
+
+disponíveis:
+o Sim
+o Não
+
+de
+
+administração
+tributária
+
+do
+
+exterior
+
+e
+
+que
+
+identifica
+
+pessoa
+
+física ou jurídica
+externa ao Brasil
+(equivale ao CPF
+ou
+
+CNPJ,
+
+identificando
+
+a
+
+pessoa
+
+ou
+
+física
+
+jurídica
+
+no
+
+exterior).
+Opção para o caso CheckBox Obrigatório Selecionar a opção “Não”.
+de o NIF não ser
+
+Nesse
+
+caso,
+
+deve-se
+
+informado
+
+informar o motivo da não
+informação do NIF.
+
+Informação sobre Checkbox Obrigatório Selecionar uma das duas
+o motivo da não
+informação do NIF
+
+opções:
+o
+
+Dispensado do NIF ou
+
+o
+
+Não exigência do NIF
+
+NIF
+
+Informação
+
+do Numérico Obrigatório Incluir o NIF do destinatário
+
+número
+
+de
+
+Pode-se
+
+identificação
+
+informado
+
+internacional
+Nome/Razão Social
+
+Nome
+
+ou
+
+dos
+
+o
+
+NIF
+
+últimos
+
+destinatários em
+
+Razão Texto
+
+Social
+
+Obrigatório Preencher
+
+do
+
+Nome/Razão
+
+destinatário
+Telefone
+
+recuperar
+
+com
+
+o
+
+Social
+
+do
+
+destinatário
+
+Número
+
+do Número
+
+telefone
+
+do
+
+Opcional
+
+Preencher com número do
+telefone do destinatário
+
+destinatário
+E-mail
+
+Endereço
+mail
+
+do
+
+e- Endereço
+
+Opcional
+
+cadastrado de e-mail
+
+Preencher com o endereço
+de e-mail do destinatário
+
+como contato no
+município
+Endereço do Destinatário no Exterior
+Logradouro
+
+Informação
+
+do Texto
+
+nome
+
+do
+
+logradouro
+
+no
+
+Obrigatório Preencher com o logradouro
+no exterior
+
+exterior
+Número
+
+Informação
+
+do Texto
+
+número
+
+do
+
+logradouro
+
+no
+
+Obrigatório Preencher com o número do
+logradouro no exterior
+
+exterior
+Complemento
+
+Informação
+
+do Texto
+
+Opcional
+
+Preencher
+
+com
+
+o
+
+complemento
+
+do
+
+complemento do logradouro
+
+logradouro
+
+no
+
+no exterior
+
+exterior
+Bairro
+
+Informação
+
+do Texto
+
+nome do bairro no
+
+Obrigatório Preencher com o bairro no
+exterior
+
+exterior
+Cidade
+
+Informação
+
+do Texto
+
+nome da cidade no
+exterior
+
+Obrigatório Preencher com o nome da
+cidade no exterior
+
+Código
+
+de Informação
+
+Endereçamento Postal
+
+do Caracter
+
+código
+
+Obrigatório Preencher com o código de
+
+de
+
+endereçamento
+
+endereçamento
+
+postal
+
+do
+
+endereço no exterior
+
+postal
+
+do
+
+endereço
+
+no
+
+exterior
+Estado,
+região
+
+província
+
+ou Informação
+
+do Texto
+
+Obrigatório Preencher com o nome do
+
+nome do Estado,
+
+Estado, província ou região
+
+província
+
+no exterior
+
+ou
+
+região no exterior
+País
+
+Informação
+
+do Combo
+
+Obrigatório Selecionar um dos países da
+
+nome do País
+
+lista
+
+INTERMEDIÁRIO DO SERVIÇO – Podem ser informadas 3 opções relativas à localização
+do Intermediário: Brasil, Exterior ou Intermediário não informado. A depender da opção feita, os
+campos a serem preenchidos serão disponibilizados na tela.
+
+Opção
+
+para CheckBox Obrigatório Deve-se marcar uma das 3
+
+informar se há um
+intermediário
+onde
+
+ele
+
+localizado.
+
+e
+está
+
+opções.
+o Brasil
+o Exterior
+o Intermediário
+
+não
+
+informado
+Intermediário não informado – Caso esta opção seja marcada, nenhum campo será exibido
+para preenchimento posterior.
+
+Intermediário no Brasil – Caso esta opção seja marcada, os campos a serem disponibilizados
+referem-se a informações de uma pessoa física ou jurídica domiciliada no Brasil.
+
+CPF/CNPJ
+
+CPF/CNPJ
+
+do Numérico Obrigatório Preencher com o CPF/CNPJ
+
+intermediário
+Indicador Municipal
+
+do intermediário
+
+Indicador
+
+Numérico Opcional
+
+(Inscrição)
+
+Preencher com o indicador
+(inscrição)
+
+Municipal
+
+do
+
+municipal
+
+do
+
+intermediário
+
+intermediário
+Nome/Razão Social
+
+Nome
+
+ou
+
+Razão Texto
+
+Social
+
+Obrigatório Este campo é recuperado
+
+do
+
+dos cadastros RFB ou CNC
+
+intermediário
+
+conforme
+
+convênio
+
+do
+
+município
+Telefone
+
+Número
+
+do Número
+
+telefone
+
+do
+
+Opcional
+
+Preencher com número do
+telefone do intermediário
+
+intermediário
+E-mail
+
+Endereço
+mail
+
+do
+
+e- Endereço
+
+cadastrado de e-mail
+
+Opcional
+
+Preencher com o endereço
+de e-mail do intermediário
+
+como contato no
+município
+Endereço Intermediário no Brasil
+
+Obs.: As informações dos campos a seguir são recuperadas dos cadastros RFB, quando o
+intermediário for um CNPJ, podendo-se alterá-las.
+CEP
+
+Informação
+
+do Número
+
+número do CEP
+Município
+
+endereço
+
+Informação
+
+do Texto
+
+nome
+
+do
+
+município ao qual
+pertence
+
+Obrigatório Preencher com o CEP do
+
+o
+
+Obrigatório Este campo é recuperado da
+tabela TOM de acordo com o
+CEP informado
+
+intermediário
+
+no
+
+Brasil
+Bairro
+
+Informação
+
+do Texto
+
+Obrigatório Este campo é recuperado da
+
+nome do bairro
+
+tabela TOM de acordo com o
+CEP informado
+
+Logradouro
+
+Informação
+
+do Texto
+
+nome
+
+do
+
+Obrigatório Este campo é recuperado da
+tabela TOM de acordo com o
+
+logradouro
+Número
+
+CEP informado
+
+Informação
+
+do Texto
+
+número
+
+do
+
+Obrigatório Preencher com o número do
+logradouro
+
+logradouro
+Complemento
+
+Informação
+
+do Texto
+
+complemento
+
+do
+
+Opcional
+
+Preencher
+
+com
+
+o
+
+complemento do logradouro
+
+logradouro
+Intermediário do Serviço no Exterior - Caso esta opção seja marcada, os campos a serem
+disponibilizados referem-se a informações específicas de outros países para uma pessoa física ou
+jurídica domiciliada fora do Brasil.
+
+Opção se haverá CheckBox Obrigatório Selecionar uma das 2 opções
+ou
+
+não
+
+a
+
+informação do NIF
+(Número
+
+de
+
+Identificação
+Fiscal
+
+–
+
+número
+
+fornecido
+
+pelo
+
+órgão
+administração
+
+de
+
+disponíveis:
+o Sim
+o Não
+
+tributária
+
+do
+
+exterior
+
+e
+
+que
+
+identifica
+
+pessoa
+
+física ou jurídica
+externa ao Brasil
+(equivale ao CPF
+ou
+
+CNPJ,
+
+identificando
+
+a
+
+pessoa
+
+ou
+
+física
+
+jurídica
+
+no
+
+exterior).
+Opção para o caso CheckBox Obrigatório Selecionar a opção “Não”.
+de o NIF não ser
+
+Nesse
+
+caso,
+
+deve-se
+
+informado
+
+informar o motivo da não
+informação do NIF.
+
+Informação sobre Checkbox Obrigatório Selecionar uma das duas
+o motivo da não
+
+opções:
+
+informação do NIF
+
+NIF
+
+o
+
+Dispensado do NIF ou
+
+o
+
+Não exigência do NIF
+
+Informação
+
+do Numérico Obrigatório Incluir
+
+número
+
+de
+
+o
+
+NIF
+
+do
+
+tomador/adquirente.
+
+identificação
+
+Pode
+
+internacional
+
+recuperar
+
+informado
+
+dos
+
+o
+
+NIF
+
+últimos
+
+Intermediários
+Nome/Razão Social
+
+Nome
+
+ou
+
+Razão Texto
+
+Social
+
+Obrigatório Preencher
+
+do
+
+Nome/Razão
+
+intermediário
+Telefone
+
+com
+
+o
+
+Social
+
+do
+
+intermediário
+
+Número
+
+do Número
+
+telefone
+
+do
+
+Opcional
+
+Preencher com número do
+telefone do intermediário
+
+intermediário
+E-mail
+
+Endereço
+mail
+
+do
+
+e- Endereço
+
+cadastrado de e-mail
+
+como contato no
+município
+
+Opcional
+
+Preencher com o endereço
+de e-mail do intermediário
+
+Endereço do Intermediário no Exterior
+Logradouro
+
+Informação
+
+do Texto
+
+nome
+
+do
+
+logradouro
+
+no
+
+Obrigatório Preencher com o logradouro
+no exterior
+
+exterior.
+Número
+
+Informação
+
+do Texto
+
+número
+
+do
+
+logradouro
+
+no
+
+Obrigatório Preencher com o número do
+logradouro no exterior
+
+exterior
+Complemento
+
+Informação
+
+do Texto
+
+Opcional
+
+Preencher
+
+com
+
+o
+
+complemento
+
+do
+
+complemento do logradouro
+
+logradouro
+
+no
+
+no exterior
+
+exterior
+Bairro
+
+Informação
+
+do Texto
+
+nome do bairro no
+
+Obrigatório Preencher com o bairro no
+exterior
+
+exterior
+Cidade
+
+Informação
+
+do Texto
+
+nome da cidade no
+
+Obrigatório Preencher com o nome da
+cidade no exterior
+
+exterior
+Código
+
+de Informação
+
+Endereçamento Postal
+
+código
+
+do Caracter
+de
+
+endereçamento
+
+Obrigatório Preencher com o código de
+endereçamento
+
+postal
+
+do
+
+endereço no exterior
+
+postal
+
+do
+
+endereço
+
+no
+
+exterior
+Estado,
+região
+
+província
+
+ou Informação
+
+do Texto
+
+Obrigatório Preencher com o nome do
+
+nome do Estado,
+
+Estado, província ou região
+
+província
+
+no exterior
+
+ou
+
+região no exterior
+País
+
+Informação
+nome do País
+
+do Combo
+
+Obrigatório Selecionar um dos países da
+lista
+
+Após o preenchimento dos campos da etapa “Pessoas”, clicar em
+
+.
+
+4.1.2.
+
+PASSO 2 – Serviço
+
+Tela para preenchimento do(s) serviço(s) prestado(s) pela pessoa física ou jurídica emitente da
+NFS-e.
+A obrigatoriedade dos campos da tabela, bem como as regras de negócio aplicadas para cada
+um deles, estão dispostas na planilha de leiaute DPS e RN DPS descrita abaixo. Após o
+preenchimento dos campos, clicar em
+
+.
+
+Campo
+
+Descrição
+
+Tipo
+
+Ocorrência
+
+Ação
+
+LOCAL DO FORNECIMENTO/PRESTAÇÃO DO SERVIÇO
+País
+
+Informação sobre o Combo
+
+Obrigatório
+
+Selecionar
+
+um
+da
+
+dos
+
+país onde ocorreu a
+
+países
+
+lista
+
+conclusão do serviço
+
+constantes
+
+da
+
+prestado
+
+TAB.PAIS_ISO2
+
+do
+
+Anexo_AMunicipio_IBGEPaises_ISO2-V1.00Snnfse-20251210.
+Município
+
+Informação sobre o Combo
+município
+
+Obrigatório
+
+Caso o país informado
+
+onde
+
+para a prestação do
+
+ocorreu a conclusão
+
+serviço seja “Brasil”,
+
+do serviço prestado,
+
+selecionar o município
+
+quando o serviço for
+
+(digite pelo menos 3
+
+prestado no Brasil.
+
+caracteres
+
+para
+
+realizar a busca), onde
+ocorreu a conclusão do
+serviço prestado.
+
+SERVIÇO/FORNECIMENTO PRESTADO
+
+–
+
+Alguns
+
+campos
+
+relativos
+
+ao
+
+serviço/fornecimento prestado somente serão disponibilizados dependendo do Código
+de Tributação Nacional informado.
+Caso o Código de Tributação Nacional seja um dos casos de preenchimento obrigatório do Local da
+Prestação do serviço, deve-se informar o Tomador/Adquirente do serviço e o sistema exibirá
+a seguinte mensagem:
+
+Informando “Sim”, o sistema exibirá uma tela para inclusão dos dados do Tomador/Adquirente, a
+ser preenchido conforme explicado no passo anterior (Pessoas):
+
+Códido
+
+de
+
+Tributação Informação sobre o Combo
+
+Nacional
+
+Obrigatório
+
+Selecionar o Código de
+
+Código de Tributação
+
+Tributação
+
+Nacional
+
+Nacional do serviço
+
+constante do Anexo_B-
+
+prestado.
+
+Nbs2Lista_Servico_NacionalSnnfse-V1.01-20260122
+(digite pelo menos 3
+caracteres
+
+para
+
+realizar a busca).
+Código
+
+Complementar Informação sobre o Combo
+
+Obrigatório
+
+Selecionar
+
+o
+
+código
+
+do Município (Caso o Código
+
+complementar dentre
+
+município tenha criado Complementar
+
+as opções listadas.
+
+códigos
+
+Municipal do serviço
+
+complementares)
+
+prestado.
+
+O serviço prestado é um Informação
+caso
+
+de:
+
+imunidade, serviço
+
+exportação de serviço um
+
+se
+
+o Combo
+
+prestado
+caso
+
+Obrigatório
+
+é
+
+de:
+
+ou não incidência do imunidade,
+ISSQN?
+
+exportação
+
+de
+
+serviço
+
+não
+
+ou
+
+Marcar
+
+uma
+
+das
+
+opções:
+o
+
+Não
+
+o
+
+Sim
+
+incidência do ISSQN?
+Vários campos do terceiro passo (Valores) serão preenchidos a depender das opções feitas neste
+campo.
+Se a resposta for “Não”, nenhuma informação adicional será necessária.
+
+Se a resposta for “sim”, outros campos abrirão para preenchimento.
+
+Caso se tenha optado por “Sim” no campo anterior, deve-se informar se é um caso de: Imunidade,
+Exportação de Serviço ou Não incidência do ISSQN:
+
+Informação se é um Combo
+
+Obrigatório
+
+Selecionar
+
+caso de “Imunidade”
+
+“Imunidade” caso seja
+
+de
+
+do
+
+a
+
+o
+
+tributação do ISSQN
+
+tributação
+
+ISSQN
+
+sobre
+
+serviço prestado.
+
+opção
+
+sobre
+
+para
+o
+
+não
+
+serviço
+
+prestado.
+Selecionar uma das opções do Tipo de Imunidade para não incidência de ISSQN.
+
+Informação se é um Combo
+
+Obrigatório
+
+Selecionar
+
+caso de “Exportação
+
+“Exportação
+
+de
+
+Serviço” caso seja a
+
+Serviço”
+
+de
+
+de
+
+tributação do ISSQN
+
+opção
+
+sobre
+
+tributação do ISSQN
+
+o
+
+serviço
+
+prestado.
+
+sobre
+
+para
+o
+
+não
+serviço
+
+prestado.
+O sistema exibirá a seguinte mensagem no painel:
+
+Informação do país Combo
+
+Obrigatório
+
+Selecionar
+
+em que se verificou o
+
+países
+
+resultado do serviço
+
+constantes
+
+um
+da
+
+dos
+lista
+da
+
+prestado
+
+TAB.PAIS_ISO2
+
+do
+
+Anexo_AMunicipio_IBGEPaises_ISO2-V1.00Snnfse-20251210.
+Informação se é um Combo
+caso
+
+de
+
+“Não
+
+incidência”
+
+de
+
+Obrigatório
+
+Preenchimento
+automático quando no
+campo
+
+“Código
+
+de
+
+tributação do ISSQN
+
+Tributação
+
+sobre
+
+for informado o código
+
+o
+
+serviço
+
+Nacional”
+
+prestado. Esta opção
+
+99.01.01
+
+somente é possível
+
+sem
+
+se no campo “Código
+
+ISSQN e ICMS ou para
+
+de
+
+códigos
+
+Tributação
+
+Nacional”
+
+for
+
+-
+
+incidência
+
+serviço
+
+configurados
+
+como
+
+não
+
+99.01.01 - Serviço
+
+ISSQN
+
+sem
+
+municipal
+
+de
+
+ISSQN e ICMS ou
+para
+
+códigos
+
+de
+
+de
+
+informado o código
+incidência
+
+Serviço
+
+incidência
+no
+
+de
+
+painel
+do
+
+respectivo município.
+
+de
+
+serviço configurados
+como não incidência
+de ISSQN no painel
+municipal
+
+do
+
+respectivo município.
+IMPORTANTE: Se o “Código de Tributação Nacional” informado não for o 99.01.01 ou algum
+cadastrado no respectivo município como não incidência, o sistema não permitirá esta seleção e
+exibirá a seguinte mensagem:
+
+Nome do Município Texto
+de
+
+incidência
+
+do
+
+Obrigatório
+
+O
+
+Sistema
+
+NFS-e
+
+Nacional
+
+identifica
+
+a
+
+imposto.
+Este
+
+localidade
+
+campo
+
+será
+
+exibido a depender
+do
+
+“Código
+
+de
+
+Tributação Nacional”.
+Por
+
+exemplo:
+
+17.05.01
+
+–
+
+Fornecimento
+
+de
+
+mesmo em caráter
+temporário, inclusive
+ou
+ou
+pelo
+
+serviço.
+
+estabelecidas
+
+na
+
+LC
+
+116/03.
+Existem exceções em
+que
+
+o
+
+Nacional
+
+Sistema
+NFS-e
+
+de
+
+incidência
+
+haverá
+
+destaque
+
+não
+nem
+do
+
+ISSQN na emissão da
+1)
+
+Em
+
+caso
+
+localidade
+incidência
+
+prestador/
+fornecedor
+
+regras
+
+de
+
+imunidade não existe
+
+temporários,
+contratados
+
+conforme
+
+NFS-e:
+
+trabalhadores,
+avulsos
+
+incidência do ISSQN
+
+identifica a localidade
+
+mão-de-obra,
+
+de empregados
+
+de
+
+de
+
+de
+para
+
+o
+
+caso
+
+de
+
+ISSQN;
+2)
+
+Em
+
+exportação de serviço
+não existe localidade
+de incidência para o
+ISSQN;
+3) Em caso de serviços
+sem a incidência de
+ISSQN (cTribNac igual
+a 990101), não existe
+localidade
+incidência
+
+de
+para
+
+o
+
+caso
+
+de
+
+ISSQN;
+4)
+
+Em
+
+operação
+
+tributável
+
+deve existir localidade
+de incidência para o
+ISSQN.
+Inclusive
+
+para
+
+os
+
+serviços
+
+prestados
+
+para os subitens 03.04
+e 22.01, se informado
+um
+
+município
+
+específico no local de
+prestação de serviço,
+conforme
+TAB.MUN_IBGE.
+As exceções para não
+existir
+
+município
+
+de
+
+incidência do ISSQN
+nas NFS-e de serviços
+prestados
+
+para
+
+os
+
+subitens
+
+03.04
+
+e
+
+22.01,
+respectivamente, são
+definidos abaixo:
+a)
+
+Em
+
+caso
+
+Locação,
+
+de
+
+sublocação,
+
+arrendamento, direito
+de
+
+passagem
+
+permissão
+
+ou
+
+de
+
+uso,
+
+compartilhado ou não,
+de ferrovia, rodovia,
+postes, cabos, dutos e
+condutos de qualquer
+natureza
+
+(subitem
+
+03.04
+
+da
+
+lista
+
+serviço
+
+do
+
+Sistema
+
+de
+
+Nacional NFS-e),
+se o local de prestação
+de serviço informado
+na DPS corresponder à
+localidade
+
+geral
+
+definida
+
+para
+
+este
+
+serviço
+
+(0000000,
+
+conforme
+TAB.LOC.GERAL),
+então
+
+não
+
+é
+
+identificada
+
+a
+
+localidade
+
+de
+
+incidência
+
+para
+
+o
+
+ISSQN na NFS-e
+(as informações das
+
+localidades
+
+de
+
+incidência do ISSQN
+para o serviço 03.04
+ocorrerão
+
+na
+
+solicitação
+
+de
+
+apuração enviada pelo
+contribuinte ao MAN);
+Data de Competência
+
+Data da competência Data
+da
+
+incidência
+
+Obrigatório
+
+Recupera a data de
+competência
+
+do
+
+informada
+
+ISSQN.
+
+na
+
+tela
+
+inicial (Pessoas)
+Item
+
+da
+
+NBS Informação sobre a Combo
+
+correspondente
+
+a
+
+NBS
+
+ao NBS - Nomenclatura
+
+correspondente
+
+ao
+
+Brasileira de Serviços
+
+serviço prestado
+
+serviço/fornecimento
+
+Obrigatório
+
+Selecionar
+
+prestado
+
+Código
+
+indicador
+
+da Informação sobre o Combo
+
+Obrigatório
+
+Selecionar
+
+o
+
+Código
+
+operação
+
+Código indicador da
+
+indicador da operação
+
+(Preenchimento
+
+operação
+
+correspondente
+
+obrigatório
+
+para
+
+ao
+
+serviço
+
+prestado,
+
+emissões com destaque
+
+conforme
+
+lista
+
+de IBS/CBS)
+
+AnexoVII-
+
+do
+
+IndOp_IBSCBS
+
+Descrição do Serviço
+
+Descrição do serviço Texto
+prestado
+
+Obrigatório
+
+Incluir uma descrição
+detalhada do serviço
+prestado
+
+INFORMAÇÕES DO IMÓVEL - Campos que serão exibidos quando o Serviço/Fornecimento
+prestado forem relacionados a imóveis – Itens 020101, 020201 e 020301 do Código indicador
+da operação.
+
+Obs.: Caso sejam informados os subitens 07.02 e 07.05 do Código de Tributação Nacional, ao
+invés de o sistema exibir os campos de “INFORMAÇÕES DO IMÓVEL”, serão exibidos os
+campos relativos a “INFORMAÇÕES PARA OBRA”, que também contemplam as informações
+de imóveis.
+Código do Cadastro Código do Cadastro Texto
+
+Obrigatório
+
+Incluir o CIB
+
+Imobiliário Brasileiro Imobiliário Brasileiro
+CIB
+
+-
+
+Somente
+
+permitido se a opção do
+Local da Prestação do
+Serviço for “Brasil”
+Endereço no Brasil - Somente permitido se a opção do Local da Prestação do Serviço for “Brasil”
+
+Obs.: O CEP a ser informado para endereço do imóvel deve pertencer ao município que foi
+informado como local da prestação do serviço.
+CEP
+
+Informação
+
+do Número
+
+Obrigatório
+
+Incluir o CEP da obra
+
+Obrigatório
+
+O sistema recupera as
+
+número do CEP da
+obra.
+Município
+
+Informação do nome Texto
+do município ao qual
+
+informações
+
+pertence a obra no
+
+logradouro na tabela
+
+Brasil
+
+TOM
+
+com
+
+de
+o
+
+CEP
+
+informado
+Bairro
+
+Informação do bairro Texto
+
+Obrigatório
+
+O sistema recupera as
+informações
+
+de
+
+logradouro na tabela
+TOM
+
+com
+
+o
+
+CEP
+
+informado
+Logradouro
+
+Informação do nome Texto
+do logradouro.
+
+Obrigatório
+
+O sistema recupera as
+informações
+
+de
+
+logradouro na tabela
+
+TOM
+
+com
+
+o
+
+CEP
+
+informado
+Número
+
+Informação
+
+do Texto
+
+número
+
+do
+
+Obrigatório
+
+Incluir o número do
+logradouro
+
+logradouro,
+Complemento
+
+Informação
+
+do Texto
+
+complemento
+
+do
+
+Opcional
+
+Incluir o complemento
+do logradouro
+
+logradouro.
+Endereço no Exterior - Somente permitido se a opção do Local da Prestação do Serviço não for
+“Brasil”
+
+Bairro
+
+Informação do bairro Texto
+
+Obrigatório
+
+no exterior.
+
+Informar o bairro no
+exterior do local da
+obra.
+
+Logradouro
+
+Informação do nome Texto
+do
+
+logradouro
+
+Obrigatório
+
+no
+
+no exterior do local da
+
+exterior.
+Número
+
+obra.
+
+Informação
+
+do Texto
+
+número
+
+do
+
+Obrigatório
+
+obra.
+
+Informação
+
+do Texto
+
+complemento
+logradouro
+
+Opcional
+
+Informar
+
+o
+
+do
+
+complemento
+
+no
+
+no
+
+exterior do local da
+
+exterior.
+Código
+
+de Informação
+
+Endereçamento Postal
+
+Informar o número no
+exterior do local da
+
+logradouro
+Complemento
+
+Informar o logradouro
+
+obra.
+do Número
+
+Obrigatório
+
+Informar o código de
+
+número do Código de
+
+endereçamento
+
+fiscal
+
+endereçamento
+
+no exterior do local da
+
+Postal no exterior.
+
+obra.
+
+Estado,
+
+província
+
+ou Informação
+
+região
+
+do Texto
+
+Obrigatório
+
+Informar o no exterior
+
+Estado, província ou
+
+Estado, província ou
+
+região no exterior.
+
+região
+
+do
+
+local
+
+da
+
+obra.
+Cidade
+
+Informação
+
+da Texto
+
+Obrigatório
+
+cidade no exterior.
+
+Informar a cidade no
+exterior do local da
+obra.
+
+Inscrição Imobiliária Código de inscrição Texto
+Fiscal
+
+Obrigatório
+
+Incluir
+
+a
+
+inscrição
+
+imobiliária fornecida
+
+imobiliária
+
+fiscal
+
+pela Prefeitura
+
+código fornecido pela
+prefeitura
+
+para
+
+(
+a
+
+identificação da obra
+ou
+
+para
+
+fins
+
+recolhimento
+
+de
+do
+
+IPTU).
+
+INFORMAÇÕES PARA OBRA - Campos que serão exibidos quando o Serviço/Fornecimento
+prestado se referir a Obras - Subitens 07.02 e 07.05 do Código de Tributação Nacional.
+Deve-se marcar uma das opções de informação:
+
+Código
+
+da
+
+Obra
+
+- Número
+
+de Texto
+
+Obrigatório
+
+Somente permitido se a identificação da obra
+opção
+
+do
+
+Local
+
+Incluir
+
+o
+
+código
+
+obra
+
+da
+
+Prestação do Serviço for
+Brasil
+
+-
+
+Somente
+
+permitido se a opção do
+Local da Prestação do
+Serviço for “Brasil”
+
+Código do Cadastro Código do Cadastro Texto
+
+Obrigatório
+
+Incluir o CIB
+
+de
+
+Imobiliário Brasileiro Imobiliário Brasileiro
+CIB
+
+-
+
+Somente
+
+permitido se a opção do
+Local da Prestação do
+Serviço for “Brasil”
+
+Endereço no Brasil - Somente permitido se a opção do Local da Prestação do Serviço for “Brasil”
+
+Obs.: O CEP a ser informado para endereço do imóvel deve pertencer ao município que foi
+informado como local da prestação do serviço.
+CEP
+
+Informação
+
+do Número
+
+Obrigatório
+
+Incluir o CEP da obra
+
+Obrigatório
+
+O sistema recupera as
+
+número do CEP da
+obra.
+Município
+
+Informação do nome Texto
+do município ao qual
+
+informações
+
+pertence a obra no
+
+logradouro na tabela
+
+Brasil
+
+TOM
+
+com
+
+de
+o
+
+CEP
+
+informado
+Bairro
+
+Informação do bairro Texto
+
+Obrigatório
+
+O sistema recupera as
+informações
+
+de
+
+logradouro na tabela
+TOM
+
+com
+
+o
+
+CEP
+
+informado
+Logradouro
+
+Informação do nome Texto
+do logradouro.
+
+Obrigatório
+
+O sistema recupera as
+informações
+
+de
+
+logradouro na tabela
+TOM
+
+com
+
+o
+
+CEP
+
+informado
+Número
+
+Informação
+
+do Texto
+
+número
+
+do
+
+Obrigatório
+
+Incluir o número do
+logradouro
+
+logradouro,
+Complemento
+
+Informação
+
+do Texto
+
+complemento
+
+do
+
+Opcional
+
+Incluir o complemento
+do logradouro
+
+logradouro.
+Endereço no Exterior - Somente permitido se a opção do Local da Prestação do Serviço não for
+“Brasil”
+
+Bairro
+
+Informação do bairro Texto
+
+Obrigatório
+
+no exterior.
+
+Informar o bairro no
+exterior do local da
+obra.
+
+Logradouro
+
+Informação do nome Texto
+do
+
+logradouro
+
+Obrigatório
+
+no
+
+no exterior do local da
+
+exterior.
+Número
+
+obra.
+
+Informação
+
+do Texto
+
+número
+
+do
+
+Obrigatório
+
+obra.
+
+Informação
+
+do Texto
+
+complemento
+logradouro
+
+Opcional
+
+Informar
+
+o
+
+do
+
+complemento
+
+no
+
+no
+
+exterior do local da
+
+exterior.
+Código
+
+de Informação
+
+Endereçamento Postal
+
+Estado,
+
+província
+
+Informar o número no
+exterior do local da
+
+logradouro
+Complemento
+
+Informar o logradouro
+
+obra.
+do Número
+
+Obrigatório
+
+Informar o código de
+
+número do Código de
+
+endereçamento
+
+endereçamento
+
+no exterior do local da
+
+Postal no exterior.
+
+obra.
+
+ou Informação
+
+do Texto
+
+Obrigatório
+
+fiscal
+
+Informar o no exterior
+
+região
+
+Estado, província ou
+
+Estado, província ou
+
+região no exterior.
+
+região
+
+do
+
+local
+
+da
+
+obra.
+Cidade
+
+Informação
+
+da Texto
+
+Obrigatório
+
+cidade no exterior.
+
+Informar a cidade no
+exterior do local da
+obra.
+
+Inscrição Imobiliária Código de inscrição Texto
+Fiscal
+
+Obrigatório
+
+Incluir
+
+a
+
+inscrição
+
+imobiliária fornecida
+
+imobiliária
+
+pela Prefeitura
+
+código fornecido pela
+prefeitura
+
+fiscal
+para
+
+(
+a
+
+identificação da obra
+ou
+
+para
+
+fins
+
+recolhimento
+
+de
+do
+
+IPTU).
+
+INFORMAÇÕES PARA ATIVIDADE DE EVENTO - Campos que serão exibidos
+quando o serviço prestado se refere a atividades de Eventos - Subitens do item 12 do Código
+de Tributação Nacional.
+Data Inicial
+
+Data
+
+em
+
+que
+
+se Data
+
+Obrigatório
+
+iniciou a prestação
+
+Incluir a data de início
+do serviço
+
+do serviço
+Data Final
+
+Data em que se foi Data
+
+Obrigatório
+
+ou será concluída a
+
+Incluir a data final do
+serviço
+
+prestação do serviço
+Descrição
+
+Descrição do serviço Texto
+
+Obrigatório
+
+prestado
+
+Incluir
+
+descrição
+
+serviço
+
+Seleção de uma das formas de informação sobre o serviço prestado:
+
+Identificador - Somente permitido se a opção do Local da Prestação do Serviço for “Brasil”
+
+do
+
+Identificação
+
+Informação sobre o Código
+código
+da
+
+Opcional
+
+identificador
+
+atividade
+
+Incluir
+
+código
+
+de
+
+identificação
+
+do
+
+da
+
+atividade do evento
+
+evento determinado
+pela
+
+Administração
+
+Tributária
+Endereço no Brasil - Somente permitido se a opção do Local da Prestação do Serviço for “Brasil”
+
+Obs.: O CEP a ser informado para endereço do imóvel deve pertencer ao município que foi
+informado como local da prestação do serviço.
+CEP
+
+Informação
+
+do Número
+
+Obrigatório
+
+número do CEP da
+
+Incluir o CEP do local
+do evento.
+
+obra.
+Município
+
+Informação do nome Texto
+
+Obrigatório
+
+O sistema recupera as
+
+do município ao qual
+
+informações
+
+pertence a obra no
+
+logradouro na tabela
+
+Brasil
+
+TOM
+
+com
+
+de
+o
+
+CEP
+
+informado
+Bairro
+
+Informação do bairro Texto
+
+Obrigatório
+
+O sistema recupera as
+informações
+
+de
+
+logradouro na tabela
+TOM
+
+com
+
+o
+
+CEP
+
+informado
+Logradouro
+
+Informação do nome Texto
+do logradouro.
+
+Obrigatório
+
+O sistema recupera as
+informações
+
+de
+
+logradouro na tabela
+TOM
+
+com
+
+o
+
+CEP
+
+informado
+Número
+
+Informação
+
+do Texto
+
+número
+
+do
+
+Obrigatório
+
+logradouro do local do
+
+logradouro,
+Complemento
+
+Incluir o número do
+evento.
+
+Informação
+
+do Texto
+
+complemento
+
+do
+
+Opcional
+
+Incluir o complemento
+do logradouro do local
+
+logradouro.
+
+do evento.
+
+Endereço no Exterior - Somente permitido se a opção do Local da Prestação do Serviço não for
+“Brasil”
+
+Bairro
+
+Informação do bairro Texto
+
+Obrigatório
+
+no exterior.
+
+Informar o bairro no
+exterior do local do
+evento.
+
+Logradouro
+
+Informação do nome Texto
+do
+
+logradouro
+
+Obrigatório
+
+no
+
+no exterior do local do
+
+exterior.
+Número
+
+evento.
+
+Informação
+
+do Texto
+
+número
+
+do
+
+Obrigatório
+
+evento.
+
+Informação
+
+do Texto
+
+complemento
+logradouro
+
+Opcional
+
+Informar
+
+o
+
+do
+
+complemento
+
+no
+
+no
+
+exterior do local do
+
+exterior.
+Código
+
+de Informação
+
+Endereçamento Postal
+
+Estado,
+região
+
+província
+
+Informar o número no
+exterior do local do
+
+logradouro
+Complemento
+
+Informar o logradouro
+
+evento.
+do Número
+
+Obrigatório
+
+Informar o código de
+
+número do Código de
+
+endereçamento
+
+endereçamento
+
+no exterior do local do
+
+Postal no exterior.
+
+evento.
+
+ou Informação
+
+do Texto
+
+Estado, província ou
+
+Obrigatório
+
+fiscal
+
+Informar o no exterior
+Estado, província ou
+
+região no exterior.
+
+região
+
+do
+
+local
+
+do
+
+evento.
+Cidade
+
+Informação
+
+da Texto
+
+Obrigatório
+
+Informar a cidade no
+
+cidade no exterior.
+
+exterior do local do
+evento.
+
+INFORMAÇÕES PARA COMÉRCIO EXTERIOR
+
+–
+
+Quando
+
+o
+
+País
+
+da
+
+Prestação/Fornecimento do serviço é diferente de Brasil, algumas informações
+adicionais são requisitadas.
+Para a RFB, a prestação de serviço caracteriza-se como uma operação de comércio exterior quando
+existe ao menos um dos seguintes itens identificados/localizados no exterior: tomador/adquirente,
+intermediário ou local da prestação do serviço. Dessa forma, o emitente da DPS deverá prestar
+informações sobre esse tipo de transação, conforme apresentado a seguir:
+Modo de Prestação
+
+Informação sobre o Combo
+
+Obrigatório
+
+Selecionar
+
+uma
+
+das
+
+modo de prestação
+
+opções
+
+da
+
+lista
+
+do serviço, no âmbito
+
+disponibilizada:
+
+do comércio exterior
+
+o Transfronteiriço
+o Consumo no Brasil
+o Movimento
+Temporário
+
+de
+
+Pessoas Físicas
+o Consumo
+
+no
+
+Exterior
+Vínculo entre as partes no Informação sobre o Combo
+negócio
+
+vínculo
+
+entre
+
+Obrigatório
+
+as
+
+Selecionar
+vínculos
+
+partes no negócio
+
+um
+do
+
+prestado
+
+dos
+
+serviço
+
+da
+
+lista
+
+disponibilizada.
+o Sem vínculo com o
+tomador/prestador
+o Controlada
+o Controladora
+o Coligada
+o Matriz
+o Outro vínculo
+o Desconhecido
+Moeda
+
+Identifica a moeda Código
+
+Obrigatório
+
+Informar o código da
+
+da
+
+transação
+
+moeda publicado na
+
+comercial.
+
+tabela de moedas do
+Banco
+
+Central
+
+do
+
+Brasil composto por 3
+dígitos numéricos.
+Valor
+
+do Valor
+
+do
+
+serviço Valor
+
+Obrigatório
+
+Incluir
+
+o
+
+valor
+
+do
+
+expresso
+
+na
+
+serviço/fornecimento
+
+expresso na moeda
+
+serviço
+
+em moeda estrangeira
+
+estrangeira
+
+moeda
+
+especificada
+
+especificada
+
+Mecanismo
+
+de Descreve
+
+o Combo
+
+apoio/fomento
+
+ao mecanismo
+
+de
+
+Selecionar
+
+o
+
+mecanismo
+
+de
+
+Comércio Exterior utilizado apoio/fomento
+ao
+pelo
+prestador
+do Comércio
+Exterior
+
+apoio/fomento
+
+ao
+
+Comércio
+
+Exterior
+
+serviço/fornecimento
+
+utilizado
+
+pelo
+
+utilizado
+
+pelo
+
+prestador
+
+do
+
+Obrigatório
+
+estrangeira
+
+prestador/fornecedor
+
+serviço/fornecimento
+
+do serviço dentre as
+
+.
+
+opções da lista, por
+exemplo:
+o Nenhum;
+o ACC – Adiantamento
+sobre
+
+Contrato de
+
+Câmbio – Redução a
+zero do IR e do IOF;
+o ACE – Adiantamento
+sobre
+
+Cambiais
+
+Entregues
+
+–
+
+Redução a Zero do
+IR e do IOF;
+o BNDES-Exim
+Embarque
+
+Pós–
+
+Serviços;
+o BNDES-Exim
+Embarque
+
+Pré–
+
+Serviços.
+o FGE
+
+–
+
+Fundo
+
+Garantia
+
+de
+à
+
+Exportação
+o PROEX
+
+–
+
+Equalização
+o PROEX
+
+-
+
+Financiamento
+Mecanismo
+
+de Mecanismo
+
+de Combo
+
+apoio/fomento
+
+ao apoio/fomento
+
+ao
+
+Comércio Exterior utilizado Comércio
+pelo
+tomador
+do utilizado
+serviço/fornecimento
+
+tomador
+
+Exterior
+
+Obrigatório
+
+Selecionar
+
+o
+
+mecanismo
+
+de
+
+apoio/fomento
+
+ao
+
+pelo
+
+Comércio
+
+Exterior
+
+do
+
+utilizado
+
+pelo
+
+serviço/fornecimento
+
+tomador/adquirente
+do
+serviço/fornecimento
+dentre as opções da
+lista, por exemplo:
+o Nenhum;
+o Adm.
+
+Pública
+
+e
+
+Repr.
+Internacional;
+o Aluguéis e Arrend.
+Mercantil
+
+de
+
+máquinas, equip.,
+embarc.
+
+E
+
+aeronaves;
+o Arrendamento
+mercantil
+
+de
+
+aeronave
+
+para
+
+empresa
+
+de
+
+transporte
+
+aéreo
+
+público;
+o Comissão
+agentes
+
+a
+externos
+
+na exportação.
+o Despesas
+
+de
+
+armazenagem,
+mov. e transporte
+de
+
+carga
+
+no
+
+exterior
+o Eventos
+(subsidiária)
+o Eventos FIFA
+
+FIFA
+
+o Fretes,
+arrendamentos de
+embarcações
+
+ou
+
+aeronaves e outros
+o Material
+Aeronáutico
+o Promoção de Bens
+no Exterior
+o Promoção de Dest.
+Turísticos
+Brasileiros
+o Promoção do Brasil
+no Exterior
+o Promoção Serviços
+no Exterior
+o RECINE
+o RECOPA
+o Registro
+
+e
+
+Manutenção
+
+de
+
+marcas, patentes e
+cultivares
+o REICOMP
+o REIDI
+o REPENEC
+o REPES
+o RETAERO
+o RETID
+o Royalties,
+Assistência
+Técnica, Científica
+e Assemelhados
+o Serviços
+
+de
+
+avaliação
+
+da
+
+conformidade
+vinculados
+
+aos
+
+Acordos da OMC
+o ZPE
+Existe vínculo da operação Informação se Existe Combo
+à
+
+movimentação vínculo da operação
+
+Obrigatório
+
+Selecionar a opção do
+vínculo dentre a lista
+
+temporária de bens?
+
+à
+
+movimentação
+
+disponibilizada:
+
+temporária de bens.
+
+o Não;
+o Vinculada
+
+–
+
+Declaração
+
+de
+
+Importação;
+o Vinculada
+
+–
+
+Declaração
+
+de
+
+Exportação.
+Se a opção acima for : “Vinculada – Declaração de Importação”, o contribuinte deve informar o
+número da declaração de Importação (DI/DSI/DA/DRI-E) averbado.
+DI/DSI/DA/DRI-E
+
+Número
+
+da Texto
+
+averbado
+
+Declaração
+
+de
+
+Obrigatório
+
+Incluir
+
+Número
+
+da
+
+Declaração
+
+de
+
+Importação
+
+Importação
+
+(DI/DSI/DA/DRI-E)
+
+(DI/DSI/DA/DRI-E)
+
+averbado
+
+averbado
+
+Se a opção acima for : “Vinculada – Declaração de Exportação”, o contribuinte deve informar o
+Registro de Exportação (RE) averbado.
+RE averbado
+
+Número do Registro Texto
+
+Obrigatório
+
+Incluir o Número do
+
+de Exportação (RE)
+
+Registro
+
+averbado
+
+Exportação
+
+de
+(RE)
+
+averbado
+Deseja
+
+compartilhar
+
+a Informação sobre o Combo
+
+Obrigatório
+
+NFS-e que será gerada compartilhamento da
+desta DPS com o MDIC?
+
+NFS-e
+
+que
+
+Selecionar
+
+uma
+
+das
+
+opções:
+
+será
+
+gerada a partir desta
+
+o
+
+Sim
+
+o
+
+Não
+
+DPS com o MDIC.
+
+TIPO DE OPERAÇÃO - Esse campo é exigido para os casos de compras governamentais
+ou algum dos serviços dispostos no art. 254 da LC 214/2025 (subitens 25.05, 15.09, 17.12 e
+10.05, da lista de serviços).
+
+Tipo de Operação
+
+Informação
+Tipo
+
+de
+
+sobre Combo
+operação
+
+Obrigatório
+
+Selecionar
+
+uma
+
+opções da lista:
+
+das
+
+com
+
+entes
+
+governamentais
+
+1. Fornecimento com
+
+ou
+
+pagamento
+
+outros serviços sobre
+
+posterior
+
+bens imóveis
+
+2. Recebimento
+
+do
+
+pagamento
+
+com
+
+fornecimento
+
+já
+
+realizado
+3. Fornecimento com
+pagamento
+
+já
+
+realizado
+4. Recebimento
+
+do
+
+pagamento
+
+com
+
+fornecimento
+posterior
+5. Fornecimento
+
+e
+
+recebimento
+
+do
+
+pagamento
+concomitantes
+Chave da NFS-e
+
+Informação da Chave Valor
+
+Obrigatório
+
+Informar a chave de
+
+de acesso da NFS-e
+
+acesso da NFS-e que
+
+com fornecimento ou
+
+acobertou
+
+o
+
+recebimento
+
+do
+
+fornecimento
+
+ou
+
+pagamento realizado
+
+recebimento
+
+do
+
+(Opções 2 ou 3 do
+
+pagamento realizado.
+
+Tipo de Operação)
+
+Deve-se informar uma
+chave
+
+de
+
+válida,
+
+acesso
+
+com
+
+50
+
+caracteres
+alfanuméricos.
+Caso seja informada
+uma chave de acesso
+inválida,
+exibirá
+
+o
+a
+
+mensagem
+
+sistema
+seguinte
+
+INFORMAÇÕES COMPLEMENTARES
+
+Número do documento Informação sobre o Texto
+de
+
+responsabilidade número
+
+técnica
+
+documento
+
+Opcional
+
+Incluir o número
+
+do
+
+do
+
+documento
+
+de
+
+de
+
+responsabilidade
+
+responsabilidade
+
+técnica.
+
+técnica
+Documento
+
+de Informação
+
+referência
+
+sobre Texto
+
+Opcional
+
+Incluir dados sobre o
+
+documentos
+
+documento
+
+de
+
+referenciados
+
+responsabilidade
+técnica.
+
+Informações
+
+Descrição
+
+de Texto
+
+Complementares
+
+informações
+
+complementares sobre
+
+complementares
+
+o serviço.
+
+Número
+
+do
+
+Pedido, Informação
+
+Ordem
+
+de
+
+Compra, número do pedido,
+
+Ordem de Serviço ou ordem
+
+de
+
+sobre Texto
+
+Opcional
+
+Opcional
+
+informações
+
+Incluir
+
+as
+
+referidas
+
+informações.
+
+compra
+
+Será
+
+Projeto que autorize a etc.
+prestação
+
+Incluir
+
+habilitado
+
+o
+
+botão
+
+do
+
+para identificação de
+
+serviço/fornecimento
+
+itens a serem incluídos
+
+em operações B2B
+
+no pedido, ordem de
+compra etc.
+
+Incluir Item
+
+Identificação de itens Texto
+
+Obrigatório
+
+Incluir os itens que
+
+a serem incluídos no
+
+compõem as referidas
+
+Pedido,
+
+informações
+
+de
+
+Compra, Ordem de
+
+pedidos,
+
+de
+
+Serviço
+
+compra etc.
+
+Ordem
+ou
+
+de
+
+Projeto
+
+ordem
+
+que
+
+autorize
+
+a
+
+prestação do serviço/
+fornecimento
+
+em
+
+operações B2B.
+Após o preenchimento dos campos da etapa “Serviço”, clicar em
+
+4.1.3.
+
+.
+
+PASSO 3 – Valores
+
+Tela para preenchimento dos valores do(s) serviço(s) que originou a emissão da NFSe.
+A obrigatoriedade dos campos dessa tela, bem como as regras de negócio aplicadas para cada
+um deles, estão na planilha de leiaute DPS e RN DPS descrita abaixo.
+Preencher os campos conforme as regras descritas na tabela abaixo e clicar em “Avançar” .A
+obrigatoriedade dos campos da tela do passo, bem como as regras de negócio aplicadas para cada
+um deles, são dadas para cada campo das planilhas de leiaute DPS e RN DPS (ANEXO_ISEFIN_ADN-DPS_NFSe-SNNFSe) que corresponda ao campo na tela.
+Alguns campos podem não estar editáveis e serão preenchidos de acordo com as
+configurações, do contribuinte e/ou serviço, do município em que o contribuinte
+está autorizado a emitir notas, bem como os indicadores municipais previamente
+cadastrados no Painel Municipal.
+
+Campo
+
+Descrição
+
+Tipo
+
+Ocorrência
+
+Ação
+
+VALORES DO FORNECIMENTO/SERVIÇO PRESTADO
+Valor
+
+da Informação sobre o Valor
+
+operação/serviço
+
+valor total cobrado
+
+prestado
+
+pelo serviço prestado
+
+Valor
+
+recebido
+
+intermediário
+
+pelo Informação sobre o Valor
+valor
+
+pago
+
+ao
+
+intermediário,
+
+caso
+
+Obrigatório Incluir o valor total da
+operação/serviço
+
+Opcional
+
+Incluir valor recebido pelo
+intermediário (se houver).
+
+informado na etapa 1
+(pessoas)
+Desconto
+
+Informação sobre o Valor
+valor
+
+do
+
+desconto
+
+Opcional
+
+Incluir o valor do desconto
+
+incondicionado
+
+incondicionado
+(desconto
+sem
+
+incondicionado.
+
+oferecido
+
+que
+
+haja
+
+necessidade de que
+alguma
+
+condição
+
+seja cumprida para
+obtenção
+
+do
+
+desconto.
+
+Ele
+
+é
+
+concedido
+
+por
+
+vontade
+
+do
+
+prestador/
+fornecedor
+
+sem
+
+qualquer imposição e
+reduzirá o valor do
+serviço prestado).
+Desconto condicionado
+
+Informação sobre o Valor
+valor
+
+do
+
+desconto
+
+Opcional
+
+Incluir o valor do desconto
+condicionado.
+
+condicionado
+(desconto
+desde
+
+oferecido
+
+que
+
+alguma
+
+condição
+
+seja
+
+cumprida
+
+para
+
+obtenção
+
+do
+
+desconto.
+
+Este
+
+depende de alguma
+condição posterior à
+emissão da NFS-e. A
+base de cálculo não é
+reduzida
+
+por
+
+este
+
+desconto).
+
+TRIBUTAÇÃO MUNICIPAL
+Alguns campos já estarão preenchidos a depender das opções feitas em etapas anteriores.
+Por exemplo: não é permitido ao emitente informar alguns campos se se tratar de uma situação de
+exportação de serviço, conforme a planilha "COMEX - EXPORTAÇÃO DE SERVIÇO".
+Da mesma forma, para os optantes pelo Simples Nacional, com apuração dos tributos pelo
+regime do Simples Nacional, alguns campos não serão habilitados para preenchimento e a
+seguinte mensagem será exibida:
+
+Tributação do ISSQN sobre o serviço prestado
+
+Este campo será pré-preenchido dependendo das opções feitas nas telas anteriores:
+•
+
+Operação tributável;
+
+•
+
+Imunidade;
+
+•
+
+Exportação de serviço;
+
+•
+
+Não Incidência;
+
+Tributação
+sobre
+
+do
+o
+
+ISSQN Informação de que a Combo
+serviço operação
+
+prestado
+
+é
+
+tributável.
+
+Obrigatório Preenchimento automático
+do tipo de exigibilidade do
+ISSQN
+
+seguindo
+
+conforme
+de
+
+regras
+
+preenchimento
+
+campos
+
+das
+
+telas
+
+umas
+
+das
+
+anteriores.
+Regime
+Tributação
+
+Especial
+
+de Relaciona
+
+os Combo
+
+Regimes Especiais de
+Tributação definidos
+pelo
+
+Município
+
+do
+
+Obrigatório Selecionar
+
+opções, por exemplo:
+o
+
+Nenhum;
+
+o
+
+Ato cooperado;
+
+emitente. Somente
+disponível quando
+a
+
+operação
+
+for
+
+tributável.
+Se a opção for “Nenhum”, alguns campos serão disponibilizados para preenchimento;
+
+Suspensão da exigibilidade do ISSQN – campos de informação sobre a exigibilidade do imposto.
+
+A depender das opções das telas anteriores, alguns campos serão preenchidos
+automaticamente.
+
+Se a operação for tributável, alguns campos deverão ser preenchidos.
+
+A
+
+exigibilidade
+
+do Informação sobre a Combo
+
+Obrigatório Exibe os campos relativos
+
+recolhimento do ISSQN exigibilidade
+
+do
+
+à
+
+devido nesta operação recolhimento
+
+do
+
+exigibilidade:
+
+está suspensa?
+
+ISSQN devido nesta
+operação
+
+está
+
+suspensão
+
+o
+
+Não
+
+o
+
+Sim
+
+da
+
+suspensa?
+Tipo de suspensão
+
+Informação sobre o Combo
+
+Obrigatório Selecionar
+
+o
+
+tipo de suspensão:
+
+suspensão:
+
+Judicial
+
+o
+
+ou
+
+Administrativa
+
+tipo
+
+da
+
+Exigibilidade suspensa
+por decisão judicial
+
+o
+
+Exigibilidade suspensa
+por
+
+processo
+
+administrativo.
+Número do processo
+
+Informação
+
+do Valor
+
+número
+
+da
+
+suspensão
+
+da
+
+Obrigatório Informar
+
+o
+
+número
+
+do
+
+processo da suspensão
+
+exigibilidade
+Retenção do ISSQN – Informação se haverá ou não retenção de ISSQN.
+
+Nos casos de exigibilidade suspensa não é possível informar retenção do ISSQN, o
+sistema exibirá uma mensagem de alerta.
+
+Informação de que Combo
+“Não”
+
+haverá
+
+nenhum
+
+retenção de ISSQN
+
+a
+
+mais
+
+Obrigatório Marcar “Sim”. Neste caso
+
+haverá
+
+será aberto o campo “por
+
+retenção de ISSQN.
+
+quem o ISSQN será retido”
+
+Opções de retenção do Informação
+ISSQN
+
+campo
+
+será exibido
+
+Informação de que Combo
+“Sim”
+
+Obrigatório Marcar “Não”. Neste caso
+
+se
+
+o Botão
+
+ISSQN:
+o
+
+Retido
+
+Radio
+pelo
+
+Tomador
+o
+
+Retido
+
+Obrigatório Informar
+
+o
+
+tipo
+
+da
+
+retenção do ISSQN.
+a) Se a opção for “Retido
+pelo Tomador”, deve ter
+
+pelo
+
+Intermediário
+
+sido
+
+informado
+
+o
+
+tomador/adquirente
+
+de
+
+serviço na primeira tela
+(Pessoas).
+
+Se
+
+não
+
+foi
+
+informado, será mostrada
+a mensagem:
+
+Pode ser usado o botão
+“+Incluir Tomador”;
+b) Se a opção for “Retido
+pelo Intermediário”, deve
+ter
+
+sido
+
+informado
+
+o
+
+intermediário do serviço
+na primeira tela (Pessoas).
+Se não foi informado, será
+mostrada a mensagem :
+
+Pode ser usado o botão
+“+Incluir Intermediário”;
+Incluir/Editar
+
+Botão
+
+Tomador
+
+Obrigatório Informar
+
+os
+
+dados
+
+do
+
+tomador/adquirente, caso
+
+ou
+
+não
+
+tenham
+
+informados
+
+sido
+
+no
+
+passo
+
+pessoas; ou editá-los, caso
+tenham sido informados.
+Incluir/Editar
+ou
+
+Botão
+
+Intermediário
+
+Obrigatório Informar
+
+os
+
+dados
+
+do
+
+intermediário,
+
+caso
+
+não
+
+tenham sido informados
+no
+
+passo
+
+editá-los,
+
+pessoas;
+caso
+
+ou
+
+tenham
+
+sido informados.
+Para o prestador de serviço ME/EPP com apuração do ISSQN pelo Simples Nacional, é obrigatório
+informar alíquota do ISSQN quando há indicação de retenção do imposto.
+
+Informação do valor Valor
+da alíquota de ISSQN
+para
+
+o
+
+Obrigatório Informe o valor da alíquota
+do ISSQN aplicável.
+
+prestador/
+
+fornecedor
+
+optante
+
+pelo
+
+Simples
+
+Nacional
+Benefício Municipal - Exibe os campos relativos ao benefício municipal
+
+Informação
+
+se
+
+há Opção
+
+amparo de benefício Sim/ Não
+municipal
+tributação.
+
+na
+
+Obrigatório Informar:
+o “Não”:
+
+neste
+
+caso
+
+nenhum campo a mais
+será mostrado.
+
+o “Sim”: só é possível se o
+município
+
+tiver
+
+cadastrado
+
+“benefício”
+
+para o serviço prestado
+e/ou
+prestador/fornecedor do
+serviço
+
+na
+
+data
+
+de
+
+competência informada.
+(Obs: entrar em contato
+com
+
+o
+
+alguma
+
+município,
+das
+
+se
+
+situações
+
+acima ocorrer.).
+Informação de “Sim” Opção
+para
+
+amparo
+
+benefício
+
+de Sim/ Não
+
+municipal
+
+na tributação.
+
+Obrigatório Informar
+
+“Sim”
+
+para
+
+benefício
+
+fiscal.
+
+Alguns
+
+campos
+
+obrigatórios
+
+deverão ser preenchidos.
+
+Informação sobre a Combo
+identificação do BM
+
+Obrigatório Selecionar uma das opções
+configuradas
+município
+
+pelo
+concedente.
+
+Caso o BM cadastrado para
+o serviço/contribuinte seja
+do tipo “Redução de Base
+de Cálculo”, o emitente
+deverá informar o valor
+(percentual ou monetário)
+da redução.
+Valor/Percentual
+redução da BC
+
+para Informação sobre o Valor
+valor
+
+percentual/
+
+monetário
+
+Obrigatório Informar
+
+o
+
+percentual/
+
+valor da redução da BC.
+
+da
+
+redução do BM na BC
+Informações para dedução/redução da base de cálculo do ISSQN? – Exibe os campos
+relativos a deduções/reduções da base de cálculo.
+
+Informação
+algum
+
+se
+
+tipo
+
+há Combo
+de
+
+dedução/redução.
+
+Obrigatório Selecionar
+
+uma
+
+das
+
+opções:
+o
+
+Não
+
+o
+
+Sim
+
+Caso seja selecionado a opção “Sim”, deve-se selecionar o tipo de dedução/redução:
+
+Valor monetário
+
+Informação sobre o Valor
+
+Obrigatório Informar o valor monetário
+
+valor de Redução da
+
+a
+
+ser
+
+utilizado
+
+BC
+
+redução da BC.
+
+como
+
+O valor deve ser menor que o valor do serviço prestado.
+
+Valor percentual
+
+O
+
+valor
+
+da Valor
+
+Obrigatório Informar
+
+o
+
+valor
+
+dedução/redução
+
+percentual a ser utilizado
+
+será calculado pelo
+
+como redução da BC.
+
+percentual
+informado
+Caso o tipo de dedução/redução seja do tipo “Documentos”, selecionar
+para vincular os documentos:
+
+Em seguida, o painel exibirá a tela para inclusão das informações referentes ao documento vinculado
+à dedução.
+
+Após o preenchimento dos campos, selecionar
+Informação do tipo Combo
+de documento a ser
+incluído
+
+.
+Obrigatório Selecionar uma das opções
+da lista:
+o
+
+NF-e
+
+o
+
+NFS-e
+
+o
+
+Outras NFS-e
+
+o
+
+NF/NFS
+
+o
+
+Outros
+
+Documentos
+
+Fiscais
+o
+
+Outros Documentos
+
+Obs.: A depender do tipo
+de documento informado,
+o painel exibirá campos
+específicos
+
+com
+
+informações
+
+a
+
+preenchidas.
+trataremos
+
+as
+serem
+
+Abaixo,
+dos
+
+tipos
+
+NF-e e NFS-e.
+Chave de Acesso da NF- Informação sobre a Valor
+
+Obrigatório Informar
+
+o
+
+número
+
+da
+
+de
+
+acesso
+
+do
+
+e ou Chave de acesso chave de acesso da
+
+chave
+
+da NFS-e
+
+documento:
+
+NF-e ou NFS-e a ser
+vinculada à dedução
+
+Se NF-e deve conter 44
+caracteres alfanuméricos;
+Se NFS-e deve conter 50
+
+caracteres alfanuméricos;
+O sistema fará a busca do
+respectivo documento na
+base
+
+de
+
+confirmará
+
+dados
+a
+
+e
+
+existência
+
+dele. Caso o documento
+não exista será exibida a
+mensagem: “Informe uma
+chave de NF-e ou NFS-e
+válida.”
+Informação sobre a Combo
+identificação
+
+Obrigatório Selecionar uma das opções
+
+da
+
+disponíveis,
+
+dedução
+Data da emissão
+
+por
+
+exemplo: Materiais
+
+Informação sobre a Data
+
+Obrigatório Informar
+
+data de emissão do
+
+a
+
+data
+
+de
+
+emissão do documento
+
+documento
+Valor dedutível
+
+Informação
+
+sobre Valor
+
+Obrigatório Informar a parte do valor
+
+valor dedutível
+
+do documento apto a ser
+utilizado como dedução
+
+Valor da dedução
+
+Informação sobre o Valor
+
+Obrigatório Informar a parte do valor
+
+valor da dedução
+
+identificado como apto a
+reduzir a base de cálculo
+da NFS-e em emissão
+
+Identificar fornecedor
+
+Informação sobre o Checkbox
+
+Opcional
+
+Informar
+
+os
+
+dados
+
+do
+
+fornecedor
+
+na
+
+fornecedor na operação do
+
+operação
+
+do
+
+documento informado.
+
+documento
+informado
+
+Selecionar
+
+entre
+
+as
+
+opções:
+o
+
+Brasil
+
+o
+
+Exterior
+
+Preencher
+
+os
+
+exibidos,
+
+campos
+conforme
+
+obrigatoriedade
+
+e
+
+seguindo as orientações já
+indicadas
+
+no
+
+passo
+
+Pessoas.
+Salvo exceções previstas na legislação, o ISSQN não pode ser objeto de
+redução de base de cálculo que resulte em carga tributária menor que a
+decorrente da aplicação da alíquota mínima de 2,0% do valor do serviço.
+O sistema exibirá a seguinte mensagem de alerta, para que, se for o caso,
+sejam feitas as correções devidas:
+
+Após a inclusão, os documentos serão listados na tela, podendo-se editá-los ou excluí-los:
+
+Opção de edição do Opção
+
+Opcional
+
+Selecionar
+
+documento
+
+dedução”
+
+informado
+
+para
+
+“Editar
+e
+
+editar
+
+os
+
+campos necessários
+
+dedução
+Opção de exclusão Opção
+do
+
+Opcional
+
+Selecionar
+
+documento
+
+informado
+
+“Excluir
+
+dedução” e confirmar a
+
+para
+
+mensagem do sistema:
+
+dedução
+
+Alíquota
+
+Informação
+
+do Valor
+
+Conforme
+
+percentual
+
+do
+
+Regra
+
+imposto
+
+efetivo
+
+Recuperado
+
+do
+
+valor
+
+de percentual informado na
+
+Negócio
+
+tela
+
+aplicado ao valor da
+
+“Serviço”
+
+para
+
+o
+
+cálculo do ISSQN
+
+base de cálculo
+BC ISSQN
+
+Informação sobre a Valor
+
+Conforme
+
+base de cálculo do
+
+Regra
+
+ISSQN.
+
+Negócio
+
+Recuperado do valor total
+
+de do serviço reduzido o valor
+total das deduções e do
+valor
+
+do
+
+incondicionado
+
+desconto
+
+Valor ISSQN
+
+Valor do imposto a Valor
+
+Conforme
+
+ser recolhido
+
+Regra
+
+Calculado
+
+de automaticamente, sendo o
+
+Negócio
+
+valor do imposto a ser
+recolhido para pagamento
+ao município.
+
+TRIBUTAÇÃO FEDERAL
+
+Quando o emitente tem os tributos relacionados apurados pelo Simples Nacional, as
+informações de Tributação Federal já estarão preenchidas e não podem ser alteradas.
+
+PIS/COFINS – Os campos a serem preenchidos dependem da opção da “Situação Tributária do
+PIS/COFINS” selecionada.
+Situação Tributária do Informação sobre s Combo
+PIS/COFINS
+
+tipo
+
+Opcional
+
+Selecionar dentre os tipos
+
+de
+
+situação
+
+de situação tributária da
+
+tributária
+
+do
+
+lista disponibilizada, por
+
+PIS/COFINS
+
+exemplo:
+o
+
+00 – Nenhum
+
+o
+
+01
+
+–
+
+Operação
+
+Tributável com Alíquota
+Básica
+
+BC PIS/COFINS
+
+PIS - Alíquota
+
+Total
+
+do
+
+valor
+
+da Valor
+
+Conforme
+
+base de cálculo para
+
+Regra
+
+PIS/COFINS
+
+Negócio
+
+Valor do percentual a Valor
+
+Conforme
+
+ser aplicado
+
+percentual Regra
+Negócio
+
+Incluir o valor informado
+
+de
+
+Incluir
+
+de informado
+
+percentual
+
+PIS - Débito Apuração Valor
+Própria
+
+calculado
+
+do Valor
+
+Conforme
+
+imposto pela alíquota
+
+Regra
+
+informada
+
+Negócio
+
+Calculado
+
+de automaticamente,
+conforme BC e Alíquota
+informadas.
+
+COFINS - Alíquota
+
+Valor do percentual a Valor
+ser aplicado
+
+Conforme
+
+percentual Regra
+
+Incluir
+
+percentual
+
+de informado
+
+Negócio
+COFINS
+
+-
+
+Débito Valor
+
+Apuração Própria
+
+calculado
+
+do Valor
+
+Conforme
+
+imposto pela alíquota
+
+Regra
+
+informada
+
+Negócio
+
+Calculado
+
+de automaticamente,
+conforme BC e Alíquota
+informadas.
+
+Tipo
+
+retenção
+
+PIS/COFINS/CSLL
+
+do Informação sobre o Combo
+
+Obrigatório Informar
+
+o
+
+tipo
+
+de
+
+tipo de retenção de
+
+retenção de PIS/COFINS e
+
+PIS/COFINS e CSLL
+
+CSLL,
+
+conforme
+
+disponibilizada,
+
+lista
+por
+
+exemplo:
+o
+
+0 – PIS/COFINS/CSLL
+Não Retidos
+
+o
+
+3 – PIS/COFINS/CSLL
+Retidos
+
+Outros Tributos Federais
+Valor do IRRF retido, Valor
+
+IRRF
+
+conforme
+
+Opcional
+
+legislação
+
+Incluir o valor do IRRF, se
+aplicável
+
+própria
+Contribuições
+
+Sociais
+
+Retidas
+
+- Valor de PIS/COFINS Valor
+e
+
+CSLL
+
+conforme
+
+Opcional
+
+retidos,
+
+Incluir
+
+o
+
+PIS/COFINS
+
+legislação
+
+valor
+e
+
+de
+CSLL
+
+retidos, se aplicável
+
+própria
+Contribuição
+
+Valor da
+
+Previdenciária - Retida
+
+Contribuição
+
+Contribuição
+
+Previdenciária
+
+Previdenciária Patronal, se
+
+Patronal retida,
+
+aplicável
+
+conforme legislação
+própria
+
+Valor
+
+Opcional
+
+Incluir o valor da
+
+IBS/CBS – Campos para preenchimento do Código de Situação Tributária – CST e do Código de
+Classificação Tributária – cClassTrib aplicáveis ao serviço/fornecimento.
+
+Código
+
+de
+
+Situação Informação sobre o Combo
+
+Tributária – CST
+
+código de
+
+situação
+
+tributária
+
+aplicável
+
+ao
+
+serviço/
+
+Obrigatório Selecionar o CST aplicável
+ao serviço/fornecimento
+
+fornecimento
+
+Código de Classificação Informação sobre o Combo
+Tributária – cClassTrib
+
+código
+
+de
+
+o
+
+cClassTrib
+
+aplicável
+
+classificação
+aplicável
+
+Obrigatório Selecionar
+
+ao
+
+serviço/fornecimento.
+ao
+
+Obs.: a lista de cClassTrib
+
+serviço/fornecimento
+
+exibida dependerá do CST
+selecionado previamente
+
+Nesse grupo também poderão ser incluídos os documentos referenciados nos casos de reembolso,
+repasse e ressarcimento, a serem considerados na apuração da base de cálculo do IBS/CBS.
+
+Para incluir o documento, selecione
+
+.
+
+Em seguida, o painel exibirá a tela para inclusão das informações referentes ao documento vinculado
+ao reembolso, repasse ou ressarcimento.
+
+Após o preenchimento dos campos, selecionar
+Informação do tipo Combo
+de documento a ser
+incluído
+
+.
+Obrigatório Selecionar uma das opções
+da lista:
+o
+
+NF-e
+
+o
+
+NFS-e
+
+o
+
+CT-e
+
+o
+
+Outro
+
+Obs.: A depender do tipo
+de documento informado,
+o painel exibirá campos
+específicos
+
+com
+
+informações
+
+a
+
+preenchidas.
+trataremos
+
+as
+serem
+
+Abaixo,
+dos
+
+tipos
+
+NF-e e NFS-e.
+Chave de Acesso da Informação sobre a Valor
+NFS-e
+
+ou
+
+Chave
+
+acesso da NF-e
+
+de chave de acesso da
+NF-e ou NFS-e a ser
+vinculada
+reembolso,
+
+ao
+repasse
+
+ou ressarcimento
+
+Obrigatório Informar
+chave
+
+o
+
+número
+
+da
+
+de
+
+acesso
+
+do
+
+documento:
+Se NF-e deve conter 44
+caracteres alfanuméricos;
+Se NFS-e deve conter 50
+caracteres alfanuméricos;
+O sistema fará a busca do
+respectivo documento na
+
+base
+
+de
+
+dados
+
+confirmará
+
+a
+
+e
+
+existência
+
+dele. Caso o documento
+não exista será exibida a
+mensagem: “Informe uma
+chave de NF-e ou NFS-e
+válida.”
+Informação sobre a Combo
+
+Obrigatório Selecionar uma das opções
+
+identificação
+
+do
+
+disponíveis,
+
+reembolso,
+
+repasse
+
+exemplo:
+
+ou ressarcimento
+
+por
+Repasse
+
+remuneração
+
+de
+por
+
+intermediação...
+Data de Emissão
+
+Informação sobre a Data
+
+Obrigatório Informar
+
+data de emissão do
+
+a
+
+data
+
+de
+
+emissão do documento
+
+documento
+Data de Competência
+
+Informação sobre a Data
+
+a
+
+data de competência
+
+competência
+
+do documento
+
+documento
+
+Valor Reemb./ Repasse Informação sobre o Valor
+/ Ressarc.
+
+Obrigatório Informar
+
+Obrigatório Informar
+
+data
+
+de
+do
+
+o
+
+valor
+
+do
+
+valor do reembolso,
+
+documento
+
+objeto
+
+de
+
+repasse
+
+reembolso,
+
+repasse
+
+ou
+
+ou
+
+ressarcimento
+
+ressarcimento e que serão
+considerados na base de
+cálculo do IBS/CBS
+
+Identificar fornecedor
+
+Informação sobre o Checkbox
+
+Opcional
+
+Informar
+
+os
+
+dados
+
+do
+
+fornecedor
+
+na
+
+fornecedor na operação do
+
+operação
+
+do
+
+documento informado.
+
+documento
+informado
+
+Selecionar
+
+entre
+
+as
+
+opções:
+o
+
+Brasil
+
+o
+
+Exterior
+
+Preencher
+
+os
+
+exibidos,
+
+campos
+conforme
+
+obrigatoriedade
+
+e
+
+seguindo as orientações já
+indicadas
+
+no
+
+passo
+
+Pessoas.
+Após a inclusão, os documentos serão listados na tela, podendo-se editá-los ou excluí-los:
+
+Opção de edição do Opção
+
+Opcional
+
+documento
+
+Selecionar “Editar” e editar
+os campos necessários
+
+informado
+
+para
+
+reembolso,
+
+repasse
+
+ou ressarcimento
+Opção de exclusão Opção
+do
+
+Opcional
+
+documento
+
+informado
+
+para
+
+reembolso,
+
+repasse
+
+Selecionar
+
+“Excluir”
+
+e
+
+confirmar a mensagem do
+sistema:
+
+ou ressarcimento
+
+VALOR APROXIMADO DOS TRIBUTOS
+As informações dos valores aproximados dos tributos podem ser pré-configuradas, agilizando a
+emissão da NFS-e. Para isto, acesse a opção "Configurações" no menu principal.
+
+Deve-se selecionar uma das opções e preencher os campos exibidos.
+A opção “Informar alíquota do Simples Nacional” será exibida somente para os optantes desse
+regime. Nesse caso, a ME/EPP informará a alíquota nominal a qual está sujeita nos termos do
+referido regime, conforme o art. 9º, do Decreto 8.264/2014, que regulamenta a Lei 12.741/2012.
+
+Valores monetários totais para os tributos Federal, Estadual e Municipal
+
+Federal
+
+Informação sobre o Valor
+
+Obrigatório Preencher
+
+com
+
+o
+
+valor
+
+valor monetário total
+
+monetário total para os
+
+para
+
+tributos
+
+tributos Federais da NFS-e
+
+NFS-e
+
+em relação ao valor do
+
+os
+
+Federais
+
+da
+
+em relação ao valor
+
+serviço.
+
+do serviço.
+Estadual
+
+Informação sobre o Valor
+
+Obrigatório Preencher
+
+com
+
+o
+
+valor
+
+valor monetário total
+
+monetário total para os
+
+para
+
+tributos
+
+tributos estaduais da NFS-
+
+Estaduais da NFS-e
+
+e em relação ao valor do
+
+em relação ao valor
+
+serviço.
+
+os
+
+do serviço.
+Municipal
+
+Informação sobre o Valor
+
+Obrigatório Preencher
+
+com
+
+o
+
+valor monetário total
+
+monetário
+
+total
+
+para
+
+para
+
+imposto
+
+imposto municipal da NFS-
+
+municipal da NFS-e
+
+e em relação ao valor do
+
+em relação ao valor
+
+serviço.
+
+o
+
+valor
+o
+
+do serviço.
+Valores percentuais totais para os tributos Federal, Estadual e Municipal
+
+Federal
+
+Informação
+
+dos Valor
+
+Obrigatório Informar
+
+o
+
+valores
+
+percentuais
+
+percentual
+
+totais
+
+para
+
+impostos federais da NFS-
+
+os
+
+tributos Federais.
+
+total
+
+valor
+de
+
+e em relação ao valor total
+do serviço.
+
+Estadual
+
+Informação
+
+dos Valor
+
+Obrigatório Informar
+
+o
+
+valor
+
+valores
+
+percentuais
+
+percentual
+
+total
+
+de
+
+totais
+
+para
+
+impostos
+
+estaduais
+
+da
+
+os
+
+tributos estaduais.
+
+NFS-e em relação ao valor
+total do serviço.
+
+Municipal
+
+Informação
+valores
+
+dos Valor
+
+percentuais
+
+Obrigatório Informar
+percentual
+
+o
+total
+
+valor
+do
+
+totais para o imposto
+
+imposto municipal da NFS-
+
+municipal.
+
+e em relação ao valor total
+do serviço.
+
+Valor da alíquota para o regime do Simples Nacional
+
+Alíquota
+
+no
+
+Simples Informação
+
+Nacional
+
+da Valor
+
+Obrigatório Informar
+
+o
+
+valor
+
+da
+
+nominal
+
+do
+
+alíquota nominal do
+
+alíquota
+
+Simples Nacional
+
+Simples Nacional aplicável
+ao emitente
+
+Após o preenchimento dos campos da etapa “Valores”, clicar em
+
+4.1.4.
+
+.
+
+PASSO 4 – Emitir NFS-e
+
+Será apresentado um resumo dos itens informados em cada um dos passos de preenchimento
+da NFS-e. Neste momento o usuário tem a possibilidade de retornar e alterar as informações
+prestadas antes de solicitar a emissão da NFS-e.
+Neste passo é importante que se revise a Declaração de Prestação de Serviço (DPS) e confira o
+cálculo prévio dos tributos devidos. Se necessário, é possível a alteração das informações prestadas
+nos passos anteriores.
+O acionamento do comando “Emitir NFS-e” da tela envia o XML da DPS que foi formado pelo
+preenchimento das informações nos passos anteriores para o Serviço de Geração de NFS-e da Sefin
+Nacional NFS-e. Este serviço valida a DPS conforme regras do ANEXO_I-SEFIN_ADN-DPS_NFSeSNNFSe e retorna o XML da NFS-e gerada.
+
+4.1.4.1.
+
+Editar Pessoas
+
+O usuário deve conferir os dados das pessoas envolvidas na emissão do documento. Caso
+alguma informação não esteja correta, deve clicar em “Editar Pessoas”, fazer as alterações
+necessárias e clicar em “Avançar”.
+
+4.1.4.2.
+
+Editar Serviço
+
+O usuário deve conferir os dados do serviço informado na emissão do documento. Caso alguma
+informação não esteja correta, deve clicar em “Editar Serviço”, fazer as alterações necessárias e
+clicar em “Avançar”.
+
+4.1.4.3.
+
+Editar Valores
+
+Os valores serão recuperados conforme os dados preenchidos nas etapas anteriores; e o usuário
+deve conferir os valores retornados para a emissão do documento. Caso alguma informação não
+esteja correta, deve clicar em “Editar Tributação”, fazer as alterações necessárias e clicar em
+“Avançar”.
+
+Para conferência, é exibida a tela dos valores da NFS-e:
+
+4.1.5.
+
+NFS-e Gerada com sucesso
+
+Após conferir todos os dados informados, o usuário deve clicar em
+apresentado um resumo da NFS-e gerada, incluindo a chave de acesso à mesma.
+
+.
+
+Será
+
+Após a geração da NFS-e, o Emissor Web permite as seguintes ações:
+•
+
+Baixar o XML da NFS-e;
+
+•
+
+Baixar o DANFSe (Documento Auxiliar de Nota Fiscal de Serviço eletrônica - representação
+gráfica da NFS-e com informações resumidas da nota) em formato PDF;
+
+•
+
+Visualizar NFS-e (visualização no navegador do emitente em formato web);
+
+•
+
+NFS-e emitidas (direciona para a funcionalidade que exibe as NFS-e emitidas pelo usuário);
+
+•
+
+Nova NFS-e (recomeça o preenchimento da DPS para a geração de uma nova NFS-e);
+
+4.2. Emissão de NFS-e Simplificada (Contribuintes MEI)
+
+Os contribuintes enquadrados como MEI podem emitir uma versão simplificada da NFS-e, ou
+seja, o preenchimento de um grupo menor de informações é suficiente para emitir a NFS-e.
+Ao final do preenchimento o Emissor Público Nacional NFS-e emite uma NFS-e com o mesmo
+leiaute
+
+especificado
+
+no
+
+ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe.
+
+A
+
+maioria
+
+dos
+
+campos
+
+necessários e obrigatórios pelo leiaute já foram obtidos através do cadastro do contribuinte.
+A obrigatoriedade dos campos, bem como as regras de negócio aplicadas para cada um deles,
+são dispostas nas planilhas de leiaute DPS e RN DPS (ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe).
+
+4.2.1.
+
+Configuração do sistema para emissão da NFS-e simplificada.
+
+Para a emissão da NFSs-e simplificada, é necessário realizar algumas configurações no sistema.
+Acesse as opções "Configurações" e "Serviços Favoritos" no menu superior, preencha as
+informações de "Valor aproximado dos Tributos" e crie os serviços favoritos, respectivamente.
+Se o usuário acessar a “Emissão Simplificada” e não tiver feito as configurações previamente,
+o sistema exibirá a seguinte tela:
+
+4.2.2.
+
+Configurações no menu principal:
+
+O sistema exibirá a seguinte tela:
+
+Informar o e-mail e telefone e marcar a opção para os cálculos/exibição dos valores totais dos
+tributos Federais, Estaduais e Municipais.
+Clicar em
+
+e voltar para a emissão simplificada.
+
+4.2.3.
+
+Criando serviços favoritos
+
+O sistema exibirá a tela abaixo para inclusão de
+
+.
+
+Preencher os campos:
+1)
+
+Apelido (termo que ajudará o emissor, posteriormente, a identificar o serviço préconfigurado dentro do Sistema Nacional da NFS-e. Deve ter no máximo 50 caracteres).
+
+2) Código de Tributação Nacional – selecionar dentre os códigos da lista;
+3) Item da NBS correspondente ao serviço prestado. A Nomenclatura Brasileira de Serviços
+Intangíveis e Outras Operações que Produzam Variações no Patrimônio (NBS) é o
+classificador nacional para a identificação dos serviços e viabiliza adequadamente a
+elaboração fiscalização e avaliação de políticas públicas de forma integrada. Selecionar
+dentre os valores cadastrados.
+4) Descrição do serviço.
+
+Após o preenchimento de todos os campos, clicar em
+
+.
+
+O serviço cadastrado será exibido na tela inicial, onde será possível editá-lo ou excluí-lo; ou,
+ainda, cadastrar um novo serviço favorito.
+
+4.2.4.
+
+Emitir NFS-e
+
+Após as configurações feitas acima, para os serviços cadastrados como “favoritos”, é possível a
+Emissão Simplificada da NFS-e.
+
+Será apresentado um formulário simplificado para preenchimento de três informações:
+Identificador do cliente (o tomador/adquirente do serviço), Serviço prestado (o Código de
+Tributação Nacional do serviço, mas que será apresentado na lista conforme apelido dos “Serviços
+Favoritos” previamente cadastrados) e Valor do serviço prestado.
+
+Para quase todos os serviços prestados, estes campos serão suficientes para a
+emissão simplificada para contribuintes MEI.
+Caso o serviço prestado seja uma obra ou atividade de evento, o sistema solicitará
+informações adicionais de preenchimento que identificarão a obra ou seu local de execução para
+obras; e datas inicial/final e o identificador ou seu local de execução no caso de atividade de evento.
+
+Campo
+
+Descrição
+
+Tipo
+
+Ocorrênci Ação
+a
+
+CPF/CNPJ do Cliente
+
+Informação sobre o Numérico Obrigatório Incluir o CPF/CNPJ do
+CPF/CNPJ
+
+do
+
+tomador/adquirente.
+
+tomador/adquirente
+
+Pode-se recuperar os
+dados
+
+dos
+
+últimos
+
+tomadores/
+adquirentes
+clicando em
+Nome/Razão Social do Informação sobre o Texto
+Cliente
+
+Nome/Razão
+
+Obrigatório Preenchimento
+
+Social
+
+automático
+
+do Cliente
+
+pelo
+
+sistema com busca no
+cadastro CPF/CNPJ
+
+Serviço Prestado
+
+Informação sobre o Combo
+
+Obrigatório Selecionar um serviço
+
+serviço prestado. A
+lista
+
+exibe
+
+serviços
+
+prestado da lista
+
+os
+
+favoritos
+
+previamente
+cadastrados.
+Obs: caso deseje-se
+adicionar
+
+algum
+
+serviço à lista, basta
+cadastrar
+
+“novo
+
+serviço”
+
+na
+
+funcionalidade
+
+de
+
+“Serviços Favoritos”,
+item 4.2.3. acima.
+Descrição do Serviço
+
+Campo acionado se Texto
+clicar
+
+no
+
+(canto
+
+direito)
+
+campo
+
+editar
+do
+
+“Serviço
+
+Prestado”.
+O
+
+texto
+
+neste
+
+Editar
+
+informado
+será
+
+utilizado somente na
+da
+
+NFS-e
+
+ou
+
+complementar o texto
+salvo na descrição do
+serviço
+cadastrado
+
+campo
+
+emissão
+
+Opcional
+
+quando
+como
+
+“Serviço Favorito”
+
+que
+
+está
+
+sendo
+
+emitida.
+Não altera o texto
+cadastrado
+
+no
+
+“Serviço Favorito”.
+
+Valor
+
+do
+
+serviço Informação sobre o Valor
+
+prestado
+
+Obrigatório Incluir valor total do
+
+valor total cobrado
+pelo
+
+serviço, em reais.
+
+serviço
+
+prestado, em moeda
+nacional.
+Serviço – Informações para Obra (Subitens 7.02 e 7.05 )
+Quando a emissão da NFS-e refere-se a serviço de obra, alguns campos adicionais devem ser
+informados.
+O
+
+primeiro
+
+deles
+
+é
+
+marcar
+
+a
+
+opção
+
+se
+
+vai
+
+ser
+
+informado
+
+o
+
+Código
+
+de
+
+obra
+
+ou Endereço no Brasil. Conforme a opção marcada, o sistema exibirá campos diferentes a
+serem preenchidos.
+
+Opção: Código de Obra
+
+Código da Obra
+
+Informação sobre o Texto
+número
+
+de
+
+identificação da obra
+
+Obrigatório Incluir
+obra
+
+o
+
+código
+
+da
+
+Município
+
+onde
+
+serviço foi prestado
+
+o Informação do nome Texto
+
+Obrigatório Selecionar
+
+um
+
+dos
+
+do município ao qual
+
+municípios
+
+pertence a obra no
+
+disponibilizados
+
+na
+
+Brasil
+
+lista
+
+Opção: Endereço no Brasil
+
+CEP
+
+Informação
+
+do Numérico Obrigatório Informar
+
+Código
+
+de
+
+o
+
+CEP
+
+do
+
+local da obra.
+
+endereçamento
+postal no Brasil
+Município
+
+Informação do nome Texto
+
+Obrigatório Recupera
+
+as
+
+do município ao qual
+
+informações
+
+pertence a obra no
+
+Município
+
+Brasil
+
+TOM
+
+de
+
+na
+
+com
+
+tabela
+o
+
+CEP
+
+informado
+Bairro
+
+Informação do nome Texto
+do bairro
+
+Obrigatório Recupera
+
+as
+
+informações
+
+de
+
+logradouro na tabela
+TOM
+
+com
+
+o
+
+CEP
+
+informado
+Logradouro
+
+Informação do nome Texto
+do logradouro
+
+Obrigatório Recupera
+
+as
+
+informações
+
+de
+
+logradouro na tabela
+TOM
+
+com
+
+o
+
+CEP
+
+informado
+Número
+
+Informação
+
+do Texto
+
+número
+
+do
+
+logradouro
+
+Obrigatório Incluir o número do
+logradouro
+
+Complemento
+
+Informação
+
+do Texto
+
+complemento
+
+do
+
+Opcional
+
+Incluir o complemento
+do logradouro
+
+logradouro
+Serviço – Informações para Atividades de Eventos (subitens do item 12 - Serviços de
+diversões, lazer, entretenimento e congêneres)
+Quando o serviço favorito cadastrado é um serviço constante dos subitens do item 12 do código
+de tributação nacional, serão exibidos alguns campos sobre o endereço do evento.
+
+Data Inicial
+
+Data
+
+em
+
+que
+
+se Data
+
+Obrigatório Incluir a data de início
+
+iniciou a prestação
+
+do serviço
+
+do serviço
+Data Final
+
+Data em que se foi Data
+
+Obrigatório Incluir a data final do
+
+ou será concluída a
+
+serviço
+
+prestação do serviço
+Opção: Identificador
+
+Identificador do Evento Código identificador Código
+da
+
+atividade
+
+do
+
+evento determinado
+pela
+
+Opcional
+
+Incluir
+
+código
+
+de
+
+identificação
+
+da
+
+atividade do evento
+
+Administração
+
+Tributária
+
+Município
+
+onde
+
+serviço foi prestado
+
+o Informação do nome Texto
+
+Obrigatório Selecionar
+
+um
+
+dos
+
+município no qual a
+
+municípios
+
+atividade de evento
+
+disponibilizados
+
+na
+
+ocorreu
+
+lista
+
+Opção: Endereço no Brasil
+
+CEP
+
+Informação
+
+do Numérico Obrigatório Informar
+
+Código
+
+de
+
+o
+
+CEP
+
+do
+
+local do evento
+
+endereçamento
+postal no Brasil
+Município
+
+Informação do nome Texto
+
+Obrigatório Recupera
+
+as
+
+do município ao qual
+
+informações
+
+pertence a obra no
+
+Município
+
+Brasil
+
+TOM
+
+de
+
+na
+
+com
+
+tabela
+o
+
+CEP
+
+informado
+Bairro
+
+Informação do nome Texto
+
+Obrigatório Recupera
+
+do bairro
+
+as
+
+informações
+
+de
+
+logradouro na tabela
+TOM
+
+com
+
+o
+
+CEP
+
+informado
+Logradouro
+
+Informação do nome Texto
+
+Obrigatório Recupera
+
+do logradouro
+
+as
+
+informações
+
+de
+
+logradouro na tabela
+TOM
+
+com
+
+o
+
+CEP
+
+informado
+Número
+
+Informação
+
+do Texto
+
+número
+
+do
+
+Obrigatório Incluir o número do
+logradouro
+
+logradouro
+Complemento
+
+Informação
+
+do Texto
+
+complemento
+
+do
+
+Opcional
+
+Incluir o complemento
+do logradouro
+
+logradouro
+Após o preenchimento dos dados obrigatórios, conforme o serviço prestado, deve-se clicar no
+ícone
+
+.
+
+4.2.5.
+
+NFS-e Gerada com sucesso
+
+Será apresentado um resumo da NFS-e gerada, incluindo a chave de acesso à mesma.
+
+Após a NFS-e gerada com sucesso o Emissor Web permite ações:
+•
+
+Baixar o XML da NFS-e;
+
+•
+
+Baixar o DANFSe (Documento Auxiliar de Nota Fiscal de Serviço eletrônica - representação
+gráfica da NFS-e com informações resumidas da nota) em formato PDF;
+
+•
+
+Visualizar NFS-e (visualização no navegador do emitente em formato web);
+
+•
+
+NFS-e emitidas (direciona para a funcionalidade que exibe as NFS-e emitidas pelo usuário);
+
+•
+
+Nova NFS-e (recomeça o preenchimento da DPS para a geração de uma nova NFS-e);
+
+4.3.
+
+Emissão por decisão administrativa ou judicial
+
+A emissão de notas pelo fluxo de decisão administrativa ou judicial possibilita a geração dos
+documentos fiscais sem a necessidade de validação completa das regras de negócio aplicáveis ao
+processo padrão de emissão, conforme estabelecido no ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe,
+na planilha RN_DPS_NFS-e, coluna “L”.
+Essa funcionalidade tem como objetivo atender às determinações estabelecidas por tais
+decisões, sendo importante ressaltar que o contribuinte deve estar devidamente vinculado a uma
+decisão reconhecida pelo município.
+
+4.3.1.
+
+Inclusão de NFS-e por decisão administrativa/judicial
+
+Para inclusão de uma nota referente a decisão administrativa ou judicial, deve-se clicar na
+opção “Emissão por decisão administrativa/judicial” existente no menu principal:
+
+Caso o contribuinte não esteja vinculado a nenhuma decisão administrativa/judicial em nenhum
+município conveniado, será apresentada a tela a seguir:
+
+Caso contrário, se o usuário estiver vinculado a qualquer decisão administrativa/judicial, será
+exibida a tela abaixo para inclusão das informações:
+
+A prestação das informações segue o mesmo fluxo de uma emissão normal, com algumas
+particularidades:
+No passo “Pessoas”:
+•
+
+Informar a data de competência, observando o início de vigência do cadastro da decisão
+administrativa/judicial pelo município de emissão que autorizou o usuário a emitir uma
+NFS-e por decisão administrativa/judicial;
+
+•
+
+Informar os demais campos da tela, atentando para a possibilidade de informar o mesmo
+CPF/CNPJ do emitente como tomador/adquirente, destinatário e intermediário do
+serviço.
+
+Para o passo “Serviço”:
+•
+
+Informar os campos obrigatórios na tela, atentando para a seleção do município de
+incidência, que neste caso não é recuperado automaticamente pelo sistema;
+
+•
+
+Com relação ao “Código de Tributação Nacional“, serão exibidos apenas os serviços
+cadastrados
+
+pelo
+
+município
+
+de
+
+emissão
+
+como
+
+parte
+
+de
+
+uma
+
+decisão
+
+administrativa/judicial favorável ao emitente desta NFS-e.
+•
+
+O preenchimento dos grupos obra/imóvel, atividade de evento e comércio exterior é
+opcional.
+
+Finalmente, no passo “Valores”:
+•
+
+É necessário informar todos os campos de valores, entre os quais: alíquota, base de
+cálculo e valor do ISSQN, tendo em vista que os cálculos automáticos não são realizados;
+
+•
+
+Também é necessário informar os valores da NFS-e, p. ex. “Valor Líquido da NFS-e”, que
+no fluxo normal são calculados automaticamente.
+
+Após o preenchimento das informações nos passos anteriores, basta clicar em “Emitir NFS-e”
+para finalizar o processo.
+
+4.3.2.
+
+Consulta de NFS-e emitida por decisão administrativa / judicial
+
+Para identificar as NFS-e emitidas pelo fluxo de decisão administrativa/judicial, basta acessar a
+opção “NFS-e Emitidas” no menu principal e localizar as notas emitidas que possuem a identificação
+abaixo (ícone com detalhe azul -
+
+4.3.3.
+
+):
+
+Cancelar NFS-e emitidas por decisão administrativa / judicial
+
+Para cancelar uma nota emitida pelo fluxo de decisão administrativa/judicial, deve-se acessar
+a opção “NFS-e Emitidas” no menu principal e identificar a nota que deseja cancelar.
+No menu lateral da nota desejada, selecionar a opção “Cancelar NFS-e” conforme a tela abaixo:
+
+Preencher as informações da janela aberta e clicar em “Cancelar NFS-e”. A nota cancelada terá
+seu status alterado conforme a tela abaixo:
+
+4.3.4.
+
+Substituir NFS-e emitida por decisão administrativa / judicial
+
+Para substituir uma nota emitida por decisão administrativa/judicial, deve-se acessar a opção
+“NFS-e Emitidas” no menu principal e identificar a nota que deseja substituir.
+No menu lateral, selecionar a opção “Substituir”:
+
+O sistema verificará se a nota selecionada pode ser substituída por outra emitida tanto pelo
+fluxo padrão quanto pelo fluxo de decisão administrativa ou judicial. Caso essa substituição seja
+possível, será exibida uma janela para que o emitente escolha qual fluxo deseja utilizar:
+
+Após selecionar o fluxo desejado e clicar em “Confirmar”, o sistema irá direcionar para o fluxo
+de emissão por substituição.
+
+5.
+
+Consultas NFS-e Emitidas
+
+Ao clicar no ícone “NFS-e emitidas”, o usuário consulta as NFS-e emitidas. Na tela serão exibidos
+alguns campos de cada uma das NFS-e (Emissão, Emitida para, Competência, Município Emissor,
+Preço Serviço (R$), Situação):
+
+A partir da listagem das NFS-e emitidas o emitente pode filtrar as notas conforme filtros
+descritos no campo de pesquisa da aplicação. O sistema deve totalizar o quantitativo de registros
+que atendem aos critérios de buscas (Total NFS-e emitidas) e exibir na tela o campo totalizador
+das NFS-e emitidas, desde o início de utilização do sistema até a data presente de visualização da
+consulta pelo emitente. Para atender aos requisitos de performance e usabilidade do sistema o
+resultado da consulta é retornado por páginas na tela.
+Outras ações podem ser realizadas para cada uma das notas listadas, acessando em
+cada uma das linhas:
+
+•
+
+Visualizar NFS-e (visualização no navegador do emitente em formato web);
+
+•
+
+Substituir NFS-e (recarrega as informações da DPS da NFS-e para que o emitente possa
+alterar informações de alguns campos possíveis e reenviar a DPS para gerar uma NFS-e
+substituta à NFS-e original);
+
+•
+
+Cancelar NFS-e (realiza a ação para o cancelamento da NFS-e selecionada);
+
+•
+
+Download do XML da NFS-e (baixa o arquivo XML da NFS-e);
+
+•
+
+Download do DANFSe (Documento Auxiliar de Nota Fiscal de Serviço eletrônica representação gráfica da NFS-e com informações resumidas da nota) em formato PDF;
+
+Se o usuário clicar em
+
+,iniciará o preenchimento da DPS para a geração de uma
+
+nova NFS-e.
+
+5.1.
+
+Visualizar NFS-e e Eventos Vinculados
+
+Permite visualizar as informações da NFS-e, além da opção de download da mesma nos
+formatos HTML (Transformação do XML com XSLT), XML e PDF. A visualização retorna, além das
+informações da NFS-e, também dos eventos vinculados à NFS-e. Estes últimos, estão disponíveis
+somente no formato HTML (Transformação do XML com XSLT).
+
+5.2.
+
+Substituição de NFS-e
+
+O processo de substituição de uma NFS-e é o processo de emissão de uma DPS com alteração
+de uma ou mais informações de uma DPS já emitida com NFS-e gerada, com a informação da chave
+de acesso da NFS-e existente na nova DPS, para que o sistema entenda que este envio de DPS se
+trata de uma substituição de NFS-e e realize todas as validações necessárias para realizar a
+substituição da NFS-e original pela NFS-e substituta.
+
+Este processo realiza o cancelamento da NFS-e original através da geração e vinculação de um
+Evento de Cancelamento por Substituição de NFS-e. O cancelamento por substituição de uma NFS-e
+segue as regras de validação para cancelamento de NFS-e conforme ANEXO_I-SEFIN_ADNDPS_NFSe-SNNFSe.
+Todos estes documentos fiscais eletrônicos ficam vinculados mantendo a rastreabilidade entre
+eles. O processo de substituição pelo Emissor Web é realizado prestando as mesmas informações
+da emissão da DPS. Ao final é exibido um comparativo entre as informações da NFS-e original e da
+NFS-e substituta, por exemplo:
+
+.
+Os parâmetros para a substituição de uma NFS-e são cadastradas pelo município vinculado à
+emissão da NFS-e. Cada município define os seguintes parâmetros, e as dúvidas em relação a eles
+devem ser encaminhadas ao próprio município:
+•
+
+Se existe um prazo máximo para a substituição de uma NFS-e;
+
+•
+
+Qual é o prazo máximo (em dias) para substituição de uma NFS-e;
+
+•
+
+Se é permitido substituir uma NFS-e onde os não-emitentes não foram identificados;
+
+•
+
+Se é permitido alterar as informações dos não-emitentes na NFS-e substituta.
+
+5.3.
+
+Cancelamento de NFS-e e Solicitação de Cancelamento por Análise Fiscal
+
+O processo de cancelamento de uma NFS-e realiza o cancelamento da NFS-e original através
+da geração e vinculação de um Evento de Cancelamento de NFS-e. O cancelamento de uma NFS-e
+
+segue as regras de validação para cancelamento de NFS-e dispostas no ANEXO_I-SEFIN_ADNDPS_NFSe-SNNFSe.
+Todos estes documentos fiscais eletrônicos ficam vinculados, mantendo a rastreabilidade entre
+eles.
+O processo de cancelamento pelo Emissor Web é realizado prestando as informações permitidas
+conforme campos abaixo. Este evento gera um arquivo XML, conforme leiautes dos eventos
+definidos no Anexo II, que é processado conforme regras de validação para ser armazenado em
+banco de dados e vinculado à NFS-e.
+Campo
+
+Descrição
+
+Tipo
+
+Ocorrênci Ação
+a
+
+Chave de acesso
+
+Informação da chave Texto
+de
+
+acesso
+
+Obrigatório Recuperado
+
+que
+
+pelo
+
+sistema
+
+identifica a NFS-e
+Detalhes da NFS-e
+Número da DPS
+
+Informação
+
+sobre
+
+o Numérico Conforme
+
+número da DPS
+
+Regra
+
+Recuperado
+
+pelo
+
+de sistema
+
+Negócio
+Série da DPS
+
+Informação da série Numérico Conforme
+da DPS
+
+Regra
+
+Recuperado
+
+pelo
+
+de sistema
+
+Negócio
+Número da NFS-e
+
+Informação
+
+sobre
+
+o Numérico Conforme
+
+Número da NFS-e
+
+Regra
+
+Recuperado
+
+pelo
+
+de sistema
+
+Negócio
+Data da Geração
+
+Informação da data da Data
+geração da NFS-e
+
+Valor do serviço
+
+pelo
+
+sistema
+
+Informação
+
+sobre
+
+valor
+
+cobrado
+
+total
+
+Obrigatório Recuperado
+
+o Valor
+
+Obrigatório Recuperado
+
+pelo
+
+sistema
+
+pelo serviço prestado
+Município Gerador
+
+Informação
+
+sobre
+
+o Texto
+
+município que gerou a
+
+Obrigatório Recuperado
+
+pelo
+
+sistema
+
+NFS-e
+Emitido para
+
+Informação
+
+sobre Texto
+
+Obrigatório Recuperado
+
+pelo
+
+para quem a NFS-e foi
+
+sistema
+
+emitida
+Serviço prestado
+
+Informação
+
+do Texto
+
+código/Descrição
+
+do
+
+Obrigatório Recuperado
+
+pelo
+
+sistema
+
+Serviço
+Motivo
+
+Descrição do motivo Combo
+
+Cancelamento
+
+do cancelamento
+
+Obrigatório Incluir o motivo do
+cancelamento da NFSe
+
+Justificativa
+
+Descrição
+justificativa
+
+da Texto
+para
+
+o
+
+Obrigatório Incluir a justificativa
+para o cancelamento
+
+cancelamento
+Caso o cancelamento de NFS-e não seja possível conforme as regras para cancelamento
+definidas pelo município vinculado à emissão da NFS-e, o sistema exibirá uma mensagem de alerta:
+
+Se a resposta for “SIM”, ele permite que esta ação para cancelamento se torne um evento de
+Solicitação para Cancelamento de NFS-e por Análise Fiscal.
+
+Será exibida a tela abaixo, onde deverá ser selecionado o “Motivo do Cancelamento” e a
+“Justificativa”.
+
+5.4.
+
+Download XML
+
+Para fazer o download do arquivo XML da NFS-e emitida, o emitente aciona o comando
+“Download XML” para manter uma cópia deste arquivo no seu ambiente computacional. O sistema
+baixará o modelo XML com os dados preenchidos da NFS-e.
+
+5.5.
+
+Download DANFSe
+
+Para fazer o download do arquivo PDF do DANFSe da NFS-e emitida, o emitente aciona o
+comando “Download DANFS-e” para manter uma cópia deste arquivo no seu ambiente
+computacional. O sistema baixará o modelo XML com os dados preenchidos da NFS-e.
+
+6.
+
+Consulta NFS-e Recebidas
+
+Nesta página é possível realizar a consulta às NFS-e emitidas por outros usuários, onde o
+usuário emitente figura como tomador/adquirente ou intermediário. O usuário pode filtrar, de uma
+listagem disponibilizada as notas conforme filtros descritos no campo de pesquisa da aplicação.
+
+O sistema vai totalizar o quantitativo de registros que atendem aos critérios de buscas (Total
+NFS-e recebidas) e exibir na tela o campo totalizador das NFS-e recebidas, desde o início de
+utilização do sistema até a data presente de visualização da consulta pelo usuário.
+Outras ações podem ser realizadas para cada uma das notas listadas:
+•
+
+Visualizar NFS-e (visualização no navegador do emitente em formato web);
+
+•
+
+Baixar o XML da NFS-e (baixa o arquivo XML da NFS-e);
+
+•
+
+Baixar o DANFSe (Documento Auxiliar de Nota Fiscal de Serviço eletrônica – representação
+gráfica da NFS-e com informações resumidas da nota) em formato PDF;
+
+•
+
+Confirmar;
+
+•
+
+Rejeitar.
+
+•
+
+Iniciar uma nova emissão através do botão Nova NFS-e.
+
+6.1.
+
+Visualizar NFS-e recebida
+
+Apresentará a NFS-e emitida por outro usuário para o CPF/CNPJ do usuário emitente logado.
+
+6.2.
+
+Download XML
+
+Para fazer o download do arquivo XML da NFS-e emitida o, emitente aciona o comando
+“Download XML” para manter uma cópia deste arquivo no seu ambiente computacional. O sistema
+baixará o modelo XML com os dados preenchidos da NFS-e.
+
+6.3.
+
+Download DANFSe
+
+Para fazer o download do arquivo PDF do DANFSe da NFS-e emitida, o emitente aciona o
+comando “Download DANFS-e” para manter uma cópia deste arquivo no seu ambiente
+computacional. O sistema fará download de um PDF com o DANFSe da NFS-e emitida para o
+usuário logado.
+
+6.4.
+
+Manifestação de NFS-e
+
+O emitente da NFS-e logado no sistema poderá manifestar-se a respeito de uma NFS-e que foi
+emitida com sua identificação como tomador/adquirente de um serviço de uma NFS-e.
+O Evento de Manifestação de NFS-e pode ser de Confirmação (onde o não emitente aceita e
+concorda com as informações registradas na nota) ou de Rejeição (onde o não emitente não aceita
+nem concorda com as informações registradas na nota).
+Cada um dos não emitentes indicados na NFS-e pode manifestar-se em relação a uma nota.
+Portanto, estão previstos eventos de Confirmação e Rejeição de NFS-e emitidos cada um pelo
+Prestador/Fornecedor, Tomador/Adquirente ou Intermediário, a depender de quem seja o emitente
+da NFS-e.
+Assim, toda nota recebida por um usuário estará na área de Notas Recebidas do
+sistema e se poderá acionar os comandos para confirmar ou rejeitar aquela NFS-e. Esta
+ação gera um arquivo XML, conforme leiaute definido no ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe
+e, que será processado, armazenado e vinculado à NFS-e correspondente.
+
+6.4.1.
+
+Confirmar uma NFS-e
+
+Ao consultar a área de Notas Recebidas, o usuário poderá acionar o comando “Confirmar” do
+menu disponibilizado caso reconheça a NFS-e emitida para ele como tomador/adquirente de serviço
+de um outro emitente. Esta ação gera um arquivo XML (evento de manifestação), conforme leiaute
+definido no ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe e, que será processado, armazenado e
+vincula à NFS-e correspondente.
+Ao clicar em “Confirmar”, o sistema exibirá uma tela com um resumo da NFS-e emitida,
+conforme modelo abaixo:
+
+Caso o usuário reconheça a NFS-e emitida para ele, deve clicar no botão
+
+6.4.2.
+
+.
+
+Rejeitar uma NFS-e
+
+Ao consultar a área de Notas Recebidas, o usuário poderá acionar o comando “Rejeitar” do
+menu disponibilizado caso reconheça a NFS-e emitida para ele como tomador/adquirente de serviço
+de um outro emitente. Esta ação gera um arquivo XML (evento de manifestação), conforme leiaute
+
+definido no ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe, que será processado, armazenado e
+vinculado à NFS-e correspondente.
+Ao clicar em “Rejeitar”, o sistema exibirá uma tela com um resumo da NFS-e emitida, conforme
+modelo abaixo:
+
+Deve-se selecionador no campo “Motivo da Rejeição” uma das opções:
+•
+
+NFS-e em duplicidade;
+
+•
+
+NFS-e emitida pelo tomador;
+
+•
+
+Não ocorrência do fato gerador;
+
+•
+
+Erro quanto à responsabilidade tributária;
+
+•
+
+Erro quanto ao valor do serviço, valor das deduções ou serviço prestado ou data do fato
+gerador;
+
+•
+
+Outros.
+
+Deve-se preencher também o campo da “Justificativa”.
+Após o preenchimento deve-se clicar no botão
+
+7.
+
+.
+
+Rascunho DPS
+
+Esta funcionalidade permite que o emitente possa concluir o preenchimento e enviar a DPS para
+a geração da NFS-e em um momento posterior.
+O principal uso desta funcionalidade é devido à perda de conexão do link de internet com o
+Emissor Web. O sistema “salva o rascunho” automaticamente a cada 5 segundos, contendo as
+informações da DPS que estão sendo preenchidas, para que o emitente possa retornar em outro
+momento e, do ponto onde parou, continuar o preenchimento conforme demonstrado na coluna
+passo da tela abaixo.
+Campo
+
+Descrição
+
+Tipo
+
+Atualização
+
+Informação da data da Data
+
+Ocorrência Ação
+Obrigatório
+
+última atualização do
+
+Recuperado
+
+pelo
+
+sistema
+
+rascunho
+Competência
+
+Informação da data da Data
+
+Obrigatório
+
+competência da NFS-e
+Emitida para
+
+Identificação sobre
+
+Recuperado
+
+pelo
+
+sistema
+Texto
+
+Obrigatório
+
+para quem foi emitida
+
+Recuperado
+
+pelo
+
+sistema
+
+a NFS-e
+Valor
+
+Informação
+
+sobre
+
+o Valor
+
+Obrigatório
+
+valor total da NFS-e
+
+Recuperado
+
+pelo
+
+sistema
+
+emitida
+Passo
+
+Identificação em qual Ícone
+passo de emissão a
+
+Obrigatório
+
+Recuperado
+sistema
+
+pelo
+
+DPS está
+Ações no registro
+
+Informação sobre as Ícone
+possíveis ações para o
+rascunho da DPS
+
+7.1.
+
+Obrigatório
+
+Direcionar para ação
+selecionada:
+•
+
+Editar
+
+•
+
+Excluir
+
+Editar DPS
+
+A partir do registro do rascunho listado, o emitente pode continuar a edição da DPS acionando
+o comando “Editar”. O sistema irá retomar o preenchimento da DPS do passo em que o
+rascunho está, p. ex.: serviço.
+A edição de uma DPS permite a alteração de todos os campos da DPS seguindo os mesmos
+passos para a emissão de NFS-e demonstradas neste documento de regras de negócio.
+
+7.2.
+
+Excluir DPS
+
+A partir do registro do rascunho listado, o emitente pode deletar fisicamente o rascunho
+acionando o comando “Excluir”.
+
+8.
+
+Serviços Favoritos
+
+Esta funcionalidade permite ao emitente gravar informações conforme tela abaixo para facilitar
+o preenchimento dos campos no passo 2 do Emissor Web. Estes registros servem também ao
+Emissor Móvel, que os utiliza para o preenchimento de informações na DPS simplificada.
+
+Ao clicar o botão
+
+, o sistema exibirá a tela para o preenchimento dos seguintes
+
+campos:
+1) Apelido (termo que ajudará o emissor, posteriormente, a identificar o serviço préconfigurado dentro do Sistema Nacional da NFS-e. Deve ter no máximo 50 caracteres).
+2) Código de Tributação Nacional – selecionar dentre os códigos da lista;
+3) Item da NBS correspondente ao serviço prestado. A Nomenclatura Brasileira de Serviços
+Intangíveis e Outras Operações que Produzam Variações no Patrimônio (NBS) é o
+classificador nacional para a identificação dos serviços e viabiliza adequadamente a
+elaboração fiscalização e avaliação de políticas públicas de forma integrada. Selecionar
+dentre os valores cadastrados.
+4) Descrição do serviço.
+
+Após o preenchimento de todos os campos, clicar em
+
+.
+
+O serviço cadastrado será exibido na tela inicial, onde será possível editá-lo ou excluí-lo; ou,
+ainda, cadastrar um novo serviço favorito.
+
+Campo
+
+Descrição
+
+Municípios
+
+Informação
+
+Tipo
+sobre
+
+o Texto
+
+Ocorrência Ação
+Obrigatório
+
+Recupera
+
+dos
+
+município para o qual
+
+cadastros
+
+RFB
+
+ou
+
+será criado o serviço
+
+CNC
+
+conforme
+
+favorito
+
+convênio
+
+do
+
+município
+Apelido
+
+Termo para identificar Texto
+posteriormente
+serviço
+
+Obrigatório
+
+o
+
+Incluir apelido para o
+serviço
+
+pré-
+
+cadastrado no sistema
+da NFS-e
+Código de Tributação Informação do Código Combo
+Nacional
+
+Obrigatório
+
+Selecionar o código
+
+de Tributação
+
+de
+
+tributação
+
+Nacional
+
+nacional aplicável ao
+serviço da lista
+
+Item
+
+da
+
+NBS Informação
+
+correspondente
+
+da Combo
+
+ao Nomenclatura
+
+serviço selecionado
+
+Brasileira de Serviços
+
+Descrição do serviço
+
+Descrição do serviço Texto
+prestado
+
+9.
+
+Obrigatório
+
+Selecionar
+
+a
+
+NBS
+
+aplicável ao serviço
+da lista
+Obrigatório
+
+Incluir a descrição do
+serviço prestado
+
+Consulta Pública de uma NFS-e
+Com a unificação dos sistemas de NFS-e no Brasil, a chave de acesso nacional ajuda a
+
+padronizar o processo de emissão e controle de notas fiscais, eliminando as diferenças regionais
+que dificultavam a integração de sistemas entre municípios e empresas de diferentes localidades.
+A consulta pública é disponibilizada a todos os envolvidos no processo fiscal (prestadores,
+tomadores e órgãos fiscalizadores) para que realizem consultas e validações do documento em
+
+plataformas digitais que tiverem os dados de emissão.
+A consulta a uma NFS-e é possível através do site NFS-e | Consulta Pública de NFS-e, onde será
+exigido o preenchimento de alguns parâmetros.
+
+9.1.
+
+Consulta usando a chave de acesso da NFS-e
+
+A chave de acesso da NFS-e serve como um “código de identificação” da nota fiscal,
+permitindo que os envolvidos no processo fiscal façam as suas consultas.
+A chave de acesso é composta por 50 caracteres alfanuméricos, sendo que cada dígito ou
+conjunto de dígito representa uma informação sobre a nota fiscal e a empresa emitente do
+documento.
+Exemplo de uma Chave de Acesso e sua composição:
+31062001251235800000112230000000173023019580208160
+
+•
+
+Código do Município: Código do município do endereço do emitente. Para consultar o
+nome do município através do código, acesse: Códigos dos municípios IBGE
+
+•
+
+Ambiente gerador: Ambiente gerador da NFS-e: 1- Sistema Próprio do Município, 2- Sefin
+Nacional NFS-e.
+
+•
+
+Tipo Inscrição Federal: 1-CPF, 2-CNPJ
+
+•
+
+Inscrição Federal: Se for CPF completar com 000 à esquerda.
+
+•
+
+Número da NFSe: Número da NFS-e (Sequencial pelo emitente)
+
+•
+
+Ano/Mês Emissão: Ano e mês que a nota foi emitida.
+
+•
+
+Código Numérico: Código numérico de 9 posições, aleatório, gerado automaticamente
+pelo sistema gerador da NFS-e.
+
+•
+
+Dígito Verificador: Dígito verificador do código numérico.
+
+Deve-se preencher a chave de acesso, preencher o hCaptcha e clicar em
+
+9.2.
+
+.
+
+Consulta informando os dados da DPS
+
+A Declaração de Prestação de Serviço (DPS) é um documento de posse e responsabilidade do
+contribuinte, que deverá ser gerado manualmente ou por alguma aplicação adquirida, possuindo
+uma numeração sequencial crescente e devendo ser convertido em NFS-e no prazo estipulado pela
+legislação tributária municipal.
+Neste caso deve-se, obrigatoriamente, preencher os seguintes dados:
+•
+
+CPF/CNPJ do Emitente;
+
+•
+
+Série da DPS (a série da DPS na NFS-e nacional é um código sequencial utilizado para
+identificar a ordem de emissão das DPS, que são documentos preparatórios para a emissão
+da Nota Fiscal de Serviço eletrônica. A série pode ser numérica ou alfabética, dependendo
+da prefeitura ou do sistema utilizado. A série da DPS pode ser encontrada no próprio
+documento eletrônico ou PDF da NFS-e, geralmente em um campo específico com a
+nomenclatura "Série da DPS" ou similar. No arquivo XML da NFS-e, as informações da série
+também podem ser encontradas nas tags correspondentes.)
+
+•
+
+Número da DPS;
+
+•
+
+Município de emissão (selecionar dentre aqueles disponíveis na lista).
+
+Após o preenchimento dos campos obrigatórios, preencher o hCaptcha e clicar em
+
+10. Controle de Acesso ao Sistema Nacional NFS-e – Contribuintes
+10.1. Gerenciamento de Perfis e Níveis de Acesso
+Gerencia Níveis e Perfis de Acesso do Usuário (Emitentes / Não Emitentes de NFS-e)
+Existem três níveis de acesso definidos para o Sistema Nacional NFS-e:
+•
+
+Nível 1 - acesso por usuário/senha;
+
+•
+
+Nível 2 - acesso por usuário/senha com validação e cadastro prévio presencial pelo município
+do emitente;
+
+•
+
+Nível 3 - acesso por certificado digital;
+
+10.2. Controle de Primeiro Acesso (Emitentes / Não Emitentes de NFS-e)
+O controle de primeiro acesso dos perfis Emitentes e Não Emitentes de NFS-e é composto por
+processos que são descritos abaixo, desde a funcionalidade para primeiro acesso ao sistema até o
+controle de níveis de acesso a funcionalidades disponíveis. Segue abaixo a descrição deste
+gerenciamento que verifica o cadastramento do emitente de DF-e pelo município no Sistema
+Nacional NFS-e
+
+10.3. Realizar primeiro acesso ao Sistema Nacional NFS-e
+O Cadastramento de Login/Senha no Sistema Nacional da NFS-e será realizada pelo próprio
+usuário no Portal Nacional NFS-e.
+Para utilizar esta funcionalidade o usuário deve possuir os números de recibos das Declarações
+do Imposto de renda Pessoa Física (DIRPF) dos últimos 2 anos. Durante o processo de
+cadastramento será solicitado os números dos recibos de entrega das Declarações do Imposto de
+renda Pessoa Física (DIRPF) dos exercícios referentes às declarações ativas (últimas entregues)
+das quais o CPF do contribuinte seja titular.
+Se a geração de senha for para um CNPJ, os números de recibo das DIRPF que devem ser
+informados são os do CPF que seja responsável legal pelo CNPJ.
+Em caso de existência de registro de declaração de somente um dos últimos exercícios, será
+obrigatório que o contribuinte informe o número do recibo referente à declaração ativa (última
+entrega) deste ano.
+Caso o usuário não tenha nenhum recibo da DIRPF será utilizado o título de eleitor para o
+cadastramento do Login/Senha, obtido do cadastro CPF da RFB.
+Caso não possua título de eleitor, não será possível criação de usuário/senha e o
+
+usuário será instruído a comparecer presencialmente ao município em que seja emitente
+para ser cadastrado no sistema. Outra opção sem a necessidade de comparecimento presencial
+poderá ser o acesso ao sistema por certificado digital.
+Ao final, o processo de primeiro acesso realizado é registrado na tabela de log do sistema.
+
+10.4. Recuperar senha do usuário
+O processo para recuperação de senha, caso o usuário já tenha se cadastrado, segue
+praticamente o mesmo fluxo realizado no primeiro acesso, exceto pelo início do processo em que
+o usuário já poderá acionar a recuperação de senha desde o início, sem realizar o primeiro acesso
+pois este fluxo já foi realizado. Segue abaixo as telas para melhor entendimento.
+
+Caso o CPF ou CNPJ digitados não sejam encontrados no Sistema Nacional NFS-e, o sistema
+apresenta a tela a seguir para que o usuário opte por realizar o login com um CPF/CNPJ reconhecido
+pelo sistema ou que possa realizar todo o processo de primeiro acesso, conforme telas do item
+“Realizar primeiro acesso ao Sistema Nacional NFS-e” deste documento.
+
+Durante os processos de primeiro acesso e recuperação de senha de usuário, a existência dos
+CNPJ ou CPF informados pelo usuário, os números da última ou das duas últimas declarações de
+imposto de renda pessoa física e o título de eleitor do CPF informado ou do CPF responsável pelo
+CNPJ são verificados nos respectivos cadastros da RFB.
+Caso o CPF ou CNPJ sejam encontrados, ou seja, o usuário já tenha realizado o primeiro acesso
+ao sistema, o Sistema Nacional NFS-e exibe os e-mails cadastrados vinculados ao CPF ou CNPJ
+para que o usuário possa escolher qual e-mail deseja que o sistema envie o link para redefinição
+de senha.
+
+Ao final, o processo de recuperação de senha realizada é registrado na tabela de log do sistema.
+
+10.5. Confirmação do Cadastramento Presencial ao Usuário
+A realização do cadastro inicial de autorização para emissão de NFS-e, bem como a
+regularização da situação cadastral de emitentes de NFS-e serão realizadas no serviço de
+atendimento presencial do município do emitente
+Mediante a apresentação e conferência da documentação necessária exigida pelo município, o
+Gestor Atendente Municipal realiza acesso à funcionalidade disponível no Painel Administrativo
+Municipal e realiza o cadastramento inicial ou a regularização do emitente diretamente no CNC
+NFS-e.
+O emitente deverá cadastrar uma senha. No primeiro acesso, o Sistema Nacional NFS-e
+identificará o usuário e solicitará que sua senha seja alterada.
+
+10.6. Controle de Acesso ao Sistema Nacional NFS-e para o Emissor Web
+10.6.1. Controle de Acesso por Usuário/Senha
+O acesso pelo usuário CNPJ ou CPF e pela senha gerada no Sistema Nacional da NFS-e
+disponibiliza as funcionalidades conforme definição dos níveis de acesso para o tipo de acesso
+realizado do Sistema Nacional da NFS-e, sem a necessidade de certificado digital.
+Se o emitente estiver apenas cadastrado, mas não estiver habilitado, ou seja, estiver bloqueado
+para emissão, o sistema permitirá acesso à funcionalidade para emissão de NFS-e, mas indicará
+por mensagem ao emitente a sua situação de bloqueio no CNC.
+Ao final, o controle de acesso por usuário/senha realizado é registrado na tabela de log do
+sistema.
+
+10.6.2. Controle de Acesso por Certificado Digital
+O acesso por certificado digital disponibiliza as funcionalidades de consultas e emissão de NFSe do Sistema Nacional da NFS-e.
+
+Ao final, o controle de acesso por certificado digital realizado é registrado na tabela de log do
+sistema.
+
+10.6.3. Controle de Acesso ao Sistema Nacional NFS-e via GOV.BR
+A integração com GOV.BR pode ser utilizada para autenticação e acesso ao Emissor Web da
+NFS-e. A princípio, essa forma de acesso será permitida apenas para os MEIs. Os demais
+prestadores de serviço que não são MEI, tanto pessoa física (via CPF) quanto pessoa jurídica (via
+CNPJ), terão que continuar utilizando a forma de autenticação com login e senha, sendo necessário
+o primeiro cadastro, conforme já ocorre atualmente em produção. O acesso pelo GOV.BR para
+esses prestadores de serviço, não MEI, será tratado em uma nova pré-especificação e uma nova
+demanda será criada, sendo uma evolução desta.
+O usuário pessoa física representante legal de um MEI será autenticado no Emissor Web via
+GOV.BR e haverá um mecanismo de vinculação automática do seu CPF ao seu CNPJ MEI
+correspondente.
+a. Níveis de Acesso GOV.BR aceitos pelo Emissor Web
+Serão aceitos os níveis prata e ouro do GOV.BR para acesso ao Emissor Web da NFS-e por
+pessoa física que estará vinculada a um CNPJ MEI. O nível bronze foi considerado insuficiente
+para os padrões mínimos de segurança exigidos pelo sistema.
+Importante observar que a forma de acesso ao emissor Web via login e senha também é
+possível para o prestador/fornecedor de serviço MEI (para a criação da senha de acesso, o
+cadastramento, “Fazer primeiro acesso”, continuará sendo necessário), sendo o GOV.BR apenas
+mais uma opção de acesso a ser oferecida (sem a necessidade de cadastramento prévio no Emissor
+
+Web).
+Não há qualquer restrição ao acesso em relação à forma utilizada pelo usuário pessoa física
+representante legal do MEI (login e senha, certificado digital, etc.) desde que tenha os níveis prata
+ou ouro.
+b. Formas de Acesso GOV.BR
+Por se tratar de uma pessoa física vinculada a um CNPJ MEI, não é necessário que o emitente
+assine as notas emitidas com certificação digital, possibilitando que o usuário acesse o sistema
+utilizando qualquer forma disponível no GOV.BR, seja login e senha, certificado digital, certificado
+em nuvem, login com banco ou login com QR Code. Caso surjam novas formas de acesso
+futuramente, elas serão avaliadas pela equipe do sistema NFS-e, que decidirá se o login será
+permitido ao utilizá-las.
+c. Formas de Acesso não GOV.BR
+O acesso por login e senha do próprio sistema da NFS-e (não pelo GOV.BR) continua
+funcionando normalmente para os MEI, sendo necessária a criação de uma senha de acesso via
+cadastramento (“Fazer primeiro acesso”).
+
+

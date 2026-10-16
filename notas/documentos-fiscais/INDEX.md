@@ -5,8 +5,8 @@ título: Índice — Documentos fiscais eletrônicos (Notas Técnicas NF-e)
 # Índice de notas — documentos-fiscais
 
 Domínio `documentos-fiscais`. Prefixo `df-`. Fontes: Notas Técnicas do Projeto
-NF-e, o Informe Técnico 2025.002 e as tabelas do Portal dos DF-e (ver [FONTE.md](../../fontes/documentos-fiscais/FONTE.md)), com a versão de
-cada uma no frontmatter das notas. Data-base: 07/10/2026.
+NF-e, o Informe Técnico 2025.002, as tabelas do Portal dos DF-e e o Guia do Emissor Público Nacional Web da NFS-e v1.2 (ver [FONTE.md](../../fontes/documentos-fiscais/FONTE.md)), com a versão de
+cada uma no frontmatter das notas. Data-base: 07/10/2026 (NF-e) e 16/10/2026 (NFS-e).
 
 **Hierarquia:** lei (LC 214/2025, LC 123/2006) > resolução/ato infralegal > nota
 técnica. A NT diz **como preencher e validar** o documento; ela não cria nem
@@ -41,3 +41,19 @@ Mapa seção da NT → nota: [_plano-notas.md](_plano-notas.md).
 ## 4. Impressão
 
 - [[df-danfe-reforma]] — novo leiaute do DANFE com IBS, CBS e IS (NT 2026.010)
+
+## 5. NFS-e Nacional (Guia do Emissor Público Nacional Web v1.2)
+
+O guia é **documentação operacional** (como usar o emissor): fica abaixo da NT e dos
+atos; datas e obrigações vêm do ato. ISSQN e convênios municipais ficam fora do escopo.
+
+- [[df-nfse-visao-geral]] — o que é o emissor (Web, Mobile e API), DPS × NFS-e, glossário, versões do guia e datas do IBS/CBS (03/08/2026 regime regular; 01/01/2027 Simples)
+- [[df-nfse-acesso-perfis]] — acesso por usuário/senha, certificado digital e GOV.BR (só MEI); primeiro acesso, recuperação de senha, níveis de acesso e cadastro presencial
+- [[df-nfse-painel-configuracoes]] — painel, configurações do emitente, rascunhos de DPS e serviços favoritos
+- [[df-nfse-emissao-pessoas]] — passo 1: IBS/CBS sim/não, DPS (número e série), emitente, compras governamentais, tomador, destinatário e intermediário
+- [[df-nfse-emissao-servico]] — passo 2: local da prestação, código de tributação, NBS, indicador da operação, imóvel/obra, evento, comércio exterior e tipo de operação
+- [[df-nfse-emissao-valores-ibs-cbs]] — passo 3: valores, descontos, deduções, tributação federal, CST/cClassTrib e documentos de reembolso, repasse e ressarcimento
+- [[df-nfse-emissao-final-mei]] — passo 4 (emitir), NFS-e gerada e emissão simplificada do MEI
+- [[df-nfse-decisao-administrativa-judicial]] — emissão por decisão administrativa ou judicial
+- [[df-nfse-consulta-cancelamento-substituicao]] — consultar, substituir, cancelar, XML/DANFSe e consulta pública (chave de acesso)
+- [[df-nfse-notas-recebidas-manifestacao]] — NFS-e recebidas; confirmar ou rejeitar

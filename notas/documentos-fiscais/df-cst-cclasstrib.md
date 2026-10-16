@@ -66,3 +66,4 @@ para cooperativa" do leiaute da NT não confere com a tabela atual).
 - [[df-grupo-ibs-cbs-is]]: os grupos que cada código libera ou exige.
 - [[df-calculo-e-validacoes]]: regras que dependem dos indicadores.
 - [[ibs-cbs-cadastro-documento-fiscal]]: o documento fiscal na LC 214.
+- [[df-nfse-emissao-valores-ibs-cbs]]: o CST e o cClassTrib na NFS-e Nacional (passo "Valores").

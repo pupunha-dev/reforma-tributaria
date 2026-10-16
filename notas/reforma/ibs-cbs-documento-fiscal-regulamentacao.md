@@ -134,3 +134,4 @@ Texto por artigo: `fontes/reforma/texto/decreto-12955-2026-artigos.txt` e `fonte
 - [[ibs-cbs-cadastro-regulamentacao]]: o cadastro (CNPJ) que o documento exige.
 - [[df-visao-geral-reforma-nfe]]: como a NF-e/NFC-e foi adaptada (Notas Técnicas).
 - [[regulamentos-cbs-ibs]]: guia dos regulamentos.
+- [[df-nfse-visao-geral]]: como a NFS-e Nacional recebe os campos de IBS/CBS (guia do emissor).

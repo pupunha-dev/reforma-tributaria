@@ -205,3 +205,4 @@ Fundamento da data: Res. 190, art. 9º.
 - [[simples-nacional-e-mei]]: a declaração anual do MEI como confissão de dívida.
 - [[sn-acrescimos-penalidades]]: multas por atraso ou omissão nas declarações.
 - [[ibs-cbs-cadastro-documento-fiscal]]: documentos fiscais no IBS/CBS.
+- [[df-nfse-visao-geral]]: como funciona o Emissor Nacional da NFS-e (guia operacional) e as datas de IBS/CBS do Simples na nota.
