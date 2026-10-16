@@ -74,7 +74,8 @@ nas fontes.
 | **VI** — LeiautesRN_RTC_IBSCBS | layout e regras de negócio do grupo `IBSCBS` da DPS e da NFS-e | **não está nas fontes** (NT 004 v2.00: v1.01.03; NT 005: v1.02.00; NT 007: v1.03.00; NT 009: v1.04.00) |
 | **VII** — IndOp_IBSCBS | códigos do `cIndOp` | **v1.03.00**: [[df-nfse-indop-ibscbs]]. As NTs citam as versões 1.00.00 (NT 004 e 005), 1.01.00 (NT 007) e 1.02.00 (NT 009) |
 | **VIII** — correlação item da NBS × `cIndOp` × cClassTrib | "norteador" sem regras de negócio | **não está nas fontes** |
-| **A** — municípios IBGE e países ISO2; **B** — lista nacional de serviços (NBS2) | tabelas de códigos | **não estão nas fontes** |
+| **A** — municípios IBGE e países ISO2 | tabela de códigos | municípios: a tabela do IBGE (DTB de 22/11/2024) está nas fontes, ver [[df-nfse-codigos-ibge-localidades]]; **países ISO2: não estão nas fontes** |
+| **B** — lista nacional de serviços | códigos de tributação nacional | a lista do portal (atualizada em 20/08/2024) está em [[df-nfse-lista-servicos-ctribnac]]; o arquivo "V1.01-20260122" citado pelo guia **não está nas fontes** |
 | **II** do manual da API — leiautes e regras dos eventos | eventos de NFS-e | **não está nas fontes** |
 
 Sem o **Anexo VI**, as **regras de negócio do grupo `IBSCBS`** (por exemplo, quais combinações de

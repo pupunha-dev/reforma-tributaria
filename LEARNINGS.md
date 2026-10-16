@@ -303,3 +303,12 @@ O que aconteceu: ao ler as NTs da SE/CGNFS-e (003 a 010) e os anexos, apareceram
 Por que importa: o bot responderia "vale desde X" ou "a Sefin rejeita" sem base. A diretoria perde confiança se aparecer data ou rejeição errada.
 
 Ação: nota de cronologia (`df-nfse-cgnfse-notas-tecnicas`) com seção "O que está em produção hoje?", versão do anexo registrada no `FONTE.md`, anomalias sinalizadas com ⚠️ nas notas, e `scripts/verificar.py` passou a aceitar versões do tipo "NT CGNFS-e 004 v2.00". Padrão: ao ingerir anexo ou planilha, registrar a data interna do arquivo, comparar com a versão citada pela NT e ler as colunas de aplicabilidade antes de afirmar onde uma regra roda.
+
+## [2026-10-16] — Arquivo recebido não é o que o nome diz: conferir conteúdo, data e origem antes de usar
+
+O que aconteceu: a segunda leva de arquivos mostrou quatro casos. (1) O PDF "Lista de Serviços Anexa à LC 116" é, na verdade, a lista **nacional** da NFS-e, com 335 códigos de 6 dígitos (cTribNac), e não a lista de 4 dígitos da lei; a página do portal é de 20/08/2024, e o guia cita um arquivo de 22/01/2026. (2) Um CSV de terceiros ("contabilin") cruzava item × NBS × cIndOp × cClassTrib e parecia o Anexo VIII que faltava, mas a conferência mostrou 3 cIndOp que não existem no Anexo VII, textos de local de incidência que contradizem o código e nomes de cClassTrib diferentes da tabela oficial. (3) A NT 2025.002 v1.33 já estava superada pela v1.52. (4) No PDF impresso do site, o `pdftotext` embaralha o primeiro item de cada página (cabeçalho fixo): a extração com `pymupdf` por blocos resolveu e foi conferida contra o `pdftotext -layout`.
+
+Por que importa: a tabela de terceiros daria ao bot uma resposta de aparência oficial e errada. A diretoria perde a confiança se perceber um código inexistente.
+
+Ação: compilação de terceiros arquivada em `referencias-nao-oficiais/`, fora das notas, com os resultados da conferência no `FONTE.md`; pendência F15 segue aberta até o Anexo VIII oficial. Padrão: fonte não oficial só entra depois de bater, linha a linha, com as tabelas oficiais; se não bater, fica arquivada e registrada. Para PDFs de página web, extrair por blocos e comparar contagens com outra extração.
+

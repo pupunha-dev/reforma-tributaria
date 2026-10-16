@@ -39,6 +39,12 @@
     implantação (a NT 005 é anterior à 004 v2.00 mas não entrou em produção em jan/2026). Lacunas:
     Anexo VI (regras do grupo IBSCBS), Anexo VIII, cronograma das NTs 005/007/009, Resolução
     CGNFS-e 9 e Anexo I atual (`pendencias.md`, F12 e F14 a F19).
+  - NFS-e, tabelas de códigos (2026-10-16, fim da tarde): lista nacional de serviços do portal (335 códigos
+    de 6 dígitos, atualizada pelo portal em 20/08/2024) e tabela do IBGE (DTB 22/11/2024; 5.570 municípios,
+    consulta por `scripts/consulta_ibge.py`) entram em 2 notas (`lista-servicos-ctribnac`,
+    `codigos-ibge-localidades`; 30 notas `df-*`). Arquivados sem uso: NT 2025.002 v1.33 (superada) e um CSV
+    de terceiros (item × NBS × cIndOp × cClassTrib) **reprovado** na conferência contra o Anexo VII e o
+    Portal dos DF-e; o Anexo VIII oficial continua faltando.
 - Soluções de Consulta da Receita entram como **interpretação** dos atos do
   domínio (não criam regra), a partir da SC Cosit 71/2026.
 - Próximos candidatos: LC 87/1996 (Kandir), LC 116/2003 (ISS), Leis

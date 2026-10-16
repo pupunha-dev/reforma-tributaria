@@ -96,3 +96,14 @@ Nível de NT (acima do guia). Seis notas novas, prefixo `df-nfse-`:
 
 Fora do escopo (continua): ISSQN e convênios municipais, PIS/COFINS (só campos do layout), Resolução CGNFS-e 9 (não está nas fontes).
 Depois da redação: notas antigas do guia revisadas (lacunas de comércio exterior e `cIndOp` resolvidas).
+
+## Fonte nova (2026-10-16, fim da tarde): lista nacional de serviços, tabela IBGE e arquivos de apoio
+
+Arquivos recebidos em `fontes/assets/` e tratados assim:
+
+| Arquivo | Tratamento | Nota ou destino |
+|---|---|---|
+| `Lista de Serviços Anexa à Lei Complementar nº 116...pdf` (portal da NFS-e, 33 páginas) | é a lista nacional de **335 códigos de 6 dígitos** (cTribNac), não a lista de 4 dígitos da lei; extraída e conferida contra o texto; entra | df-nfse-lista-servicos-ctribnac.md |
+| `RELATORIO_DTB_BRASIL_{MUNICIPIO,DISTRITO,SUBDISTRITO}.xls` e as planilhas "novos 2023" (IBGE, data-base 22/11/2024) | tabela grande (5.570 municípios): vira fonte consultável (TSV) e script `scripts/consulta_ibge.py`; a nota explica o uso | df-nfse-codigos-ibge-localidades.md |
+| `NT_2025.002_v1.33_RTC_NF-e_IBS_CBS_IS.pdf` (12/2025) | versão **superada** da NT 2025.002 (vigente: v1.52); arquivada em `fontes/documentos-fiscais/historico/`, sem nota | — |
+| `reforma_tributaria_contabilin_2026-10-16.csv` (origem não oficial) | correlação item da LC 116 × NBS × cIndOp × cClassTrib; **reprovado na conferência** (códigos cIndOp inexistentes e textos que contradizem o Anexo VII); arquivado em `referencias-nao-oficiais/`, **não usado nas notas** | pendência F15 segue aberta |

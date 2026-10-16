@@ -25,7 +25,8 @@ obra, evento, comércio exterior.
 - **País:** onde foi concluído o serviço (tabela de países ISO2 do Anexo A do
   leiaute).
 - **Município:** obrigatório quando o país é "Brasil" (busca a partir de 3
-  caracteres).
+  caracteres). No XML é o código IBGE de 7 dígitos (`cLocPrestacao`), que também pode ser um trecho
+  de concessão de rodovia ou `0000000` ("Águas Marítimas"): [[df-nfse-codigos-ibge-localidades]].
 - Para certos códigos de tributação, o **tomador** passa a ser obrigatório (define o
   local de incidência); o sistema exibe uma mensagem e, com "Sim", abre a tela do
   tomador ([[df-nfse-emissao-pessoas]]).
@@ -34,7 +35,9 @@ obra, evento, comércio exterior.
 
 - **Código de Tributação Nacional:** obrigatório; escolhido na lista nacional de
   serviços (Anexo B; o guia cita o arquivo "..._V1.01-20260122"), com busca a partir
-  de 3 caracteres. Alguns campos só aparecem conforme o código escolhido.
+  de 3 caracteres. Os 335 códigos da lista publicada no portal e as regras do documento que
+  dependem do código (obra, evento, águas marítimas, não incidência) estão em
+  [[df-nfse-lista-servicos-ctribnac]]. Alguns campos só aparecem conforme o código escolhido.
 - **Código complementar municipal:** obrigatório quando o município tiver criado
   códigos complementares.
 - **Pergunta "é caso de imunidade, exportação de serviço ou não incidência do
@@ -76,7 +79,9 @@ obra, evento, comércio exterior.
   código postal, estado/região) e **inscrição imobiliária fiscal** (código da
   prefeitura para identificar a obra ou recolher IPTU).
 - **Informações para obra:** no lugar do bloco de imóvel, quando o código de
-  tributação for dos subitens **07.02** e **07.05**. Escolhe-se informar o **código
+  tributação for dos subitens **07.02** e **07.05** (segundo o guia; o Anexo I, regra E0372,
+  permite o grupo de obra em 11 códigos, e a divergência está em
+  [[df-nfse-lista-servicos-ctribnac]]). Escolhe-se informar o **código
   da obra** (só no Brasil), o **CIB** ou o **endereço**, com as mesmas regras de CEP
   e de exterior.
 
