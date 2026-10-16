@@ -272,3 +272,10 @@ PIS/Cofins (cumulativo no Lucro Presumido) não está nas fontes; a resposta B3
 usou conhecimento geral. Fica para o domínio PIS/Cofins (Leis 9.718, 10.637 e
 10.833), candidato em `MEMORY.md`.
 
+## [2026-10-16] — Teste do bot do Telegram revelou nota que simplificava o art. 251
+
+O que aconteceu: ao testar pelo bot a pergunta "quando a pessoa física vira contribuinte do IBS/CBS ao alugar imóveis?", a resposta repetiu a nota `regime-especifico-bens-imoveis`: "receita anual acima de R$ 240 mil" e "passar do limite dentro do próprio ano torna contribuinte imediatamente (§ 2º)". O texto da LC 214 (art. 251) e dos regulamentos (art. 382) diz outra coisa: o limiar da regra geral é medido no **ano-calendário anterior**; a antecipação no próprio ano, na locação, só ocorre quando o valor excede o limite em **20%** (e, no regulamento, observada a quantidade de imóveis); na alienação é a partir da 4ª operação (2ª, se o imóvel foi construído pelo alienante); o limite é atualizado pelo IPCA.
+
+Por que importa: a nota resumia demais, e o erro passa despercebido na regressão que só confere a citação (a nota esperada foi citada). O bot foi fiel à nota; o conteúdo estava impreciso.
+
+Ação: seção "Quando a pessoa física vira contribuinte (art. 251)" reescrita com tabela e os três casos de antecipação, conferida contra `fontes/reforma/texto/lc-214-2025.txt` e os dois regulamentos. Padrão a repetir: toda nota que resume limiares de enquadramento (valores, ano-base, contagem de imóveis ou de operações) deve dizer o **período de apuração** (ano anterior × próprio ano) e ser conferida literalmente contra a lei.
