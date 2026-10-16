@@ -140,6 +140,10 @@ faltar é lacuna (regra 3): ofereça consultar o texto extraído em
 ## Diretório `projetos/`
 
 Reservado para aplicações práticas (calculadoras, simuladores etc.)
-construídas a partir do conhecimento em `notas/`. Vazio até o momento.
+construídas a partir do conhecimento em `notas/`.
+
+- `projetos/telegram-bot/`: bot do Telegram (n8n + API da Anthropic) que consulta estas
+  notas no GitHub (`main`). Não guarda segredos: tokens ficam só nas credenciais do n8n.
+  Passo a passo e travas de consumo em `projetos/telegram-bot/README.md`.
 
 Consulte sempre @MEMORY.md para contexto de fundo da equipe.
