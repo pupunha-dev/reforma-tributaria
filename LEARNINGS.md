@@ -334,3 +334,9 @@ Ação: sempre abrir `FONTE.md` e conferir versão e data antes de responder; as
 O que aconteceu: o nó "Telegram: enviar resposta" falhou com "Bad Request: can't parse entities" numa resposta que citava a tela `IndOp_IBSCBS`. O nó do n8n envia com `parse_mode` Markdown por padrão (não aparece nos Additional Fields), e um `_`, `*`, crase ou `[` sem par faz o Telegram recusar a mensagem inteira. Funcionava antes só porque as respostas anteriores não tinham esses caracteres.
 
 Por que importa: respostas sobre NFS-e e NT trazem muitos nomes com underscore (campos, tags, telas); a falha some a resposta da vista de quem perguntou. Correção: `Formatar resposta` põe barra invertida antes desses 4 caracteres depois de dividir a mensagem (teste [5b]). Se um dia o nó passar a usar HTML ou MarkdownV2, o escape muda.
+
+## [2026-10-16] — Bot sem resposta: "API rate limit exceeded" ao ler o GitHub sem token
+
+O que aconteceu: numa tarde de testes o bot passou a responder "não consegui ler os índices no GitHub (403 API rate limit exceeded)". Os nós de leitura chamavam `api.github.com`, e as chamadas saíam sem token: sem autenticação o limite é de 60 consultas por hora por IP, e cada pergunta usa de 4 a 9 (3 índices + 1 a 6 notas).
+
+Por que importa: com a diretoria testando em sequência, o bot cai por até 1 hora sem aviso claro. O repositório é público, então a leitura passou a ser pelo `raw.githubusercontent.com`, sem token e sem esse limite (efeito colateral: o cache do GitHub pode atrasar até ~5 minutos uma nota recém-mergeada). Se o repositório virar privado, a leitura volta a precisar de token.

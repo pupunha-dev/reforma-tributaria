@@ -41,7 +41,6 @@ Se mudar o `CLAUDE.md` (escopo ou regras), atualize também `prompts/sistema.md`
 | Nome da credencial | Tipo | Valores |
 |---|---|---|
 | Telegram Bot (Consulta Fiscal) | Telegram API | Access Token do @BotFather |
-| GitHub (leitura second brain) | Header Auth | Name `Authorization`, Value `Bearer <token fine-grained, só leitura, só este repositório>` |
 | Anthropic API | Header Auth | Name `x-api-key`, Value `<chave da API>` |
 
 Nunca coloque tokens no código, em prints ou em mensagens.
@@ -83,8 +82,9 @@ até reativar.
 | Sintoma | Causa provável |
 |---|---|
 | Bot responde "Você ainda não tem acesso" | ID não está em `USUARIOS` (use o ID mostrado na mensagem) |
-| "não consegui ler os índices no GitHub (Bad credentials)" | Token do GitHub errado, expirado ou sem permissão `Contents: Read` |
-| "(Not Found)" no GitHub | Dono/repositório/branch errados em `CFG`, ou token sem acesso a este repositório |
+| "não consegui ler os índices no GitHub (404 / Not Found)" | Dono/repositório/branch errados em `CFG`, ou o repositório deixou de ser público (a leitura é sem token, pelo `raw.githubusercontent.com`) |
+| "API rate limit exceeded" (403) | Versão antiga do fluxo, que lia pela `api.github.com` sem token (limite de 60 consultas por hora por IP). Use os nós de leitura com a URL `raw.githubusercontent.com` |
+| Nota recém-mergeada ainda não aparece na resposta | Cache do GitHub (CDN): espere até ~5 minutos |
 | Erro 400 da API citando `effort` ou `output_config` | Deixe os esforços vazios (`''`) em `CFG` |
 | Erro 401 da API | Chave da Anthropic errada na credencial |
 | Telegram não chama o fluxo | Fluxo não está ativo (chave Active), ou alguém clicou em "Execute workflow" com ele ativo: desative e ative de novo. Erro "bad webhook: An HTTPS URL must be provided": o n8n precisa estar com HTTPS e `WEBHOOK_URL` correto |

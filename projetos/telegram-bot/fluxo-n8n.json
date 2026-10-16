@@ -6,7 +6,7 @@
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
       "parameters": {
-        "content": "## Second brain tributário no Telegram\n\n**Antes de ativar:**\n1. Credencial **Telegram Bot (Consulta Fiscal)**: token do @BotFather.\n2. Credencial **GitHub (leitura second brain)**: tipo Header Auth, nome `Authorization`, valor `Bearer SEU_TOKEN` (token fine-grained, só leitura, só este repositório).\n3. Credencial **Anthropic API**: tipo Header Auth, nome `x-api-key`, valor = sua chave.\n4. No nó **Preparar**, troque `COLE_AQUI_O_SEU_ID` pelo seu ID do Telegram e confira dono/repositório/branch.\n5. Teste com **Execute workflow** e mande uma mensagem ao bot; depois ative o fluxo (chave Active).\n\nOs prompts estão dentro dos nós **Montar roteador** e **Montar contexto** (gerados a partir de prompts/*.md pelo gerar_fluxo.py).",
+        "content": "## Second brain tributário no Telegram\n\n**Antes de ativar:**\n1. Credencial **Telegram Bot (Consulta Fiscal)**: token do @BotFather.\n2. Credencial **Anthropic API**: tipo Header Auth, nome `x-api-key`, valor = sua chave.\n3. No nó **Preparar**, troque `COLE_AQUI_O_SEU_ID` pelo seu ID do Telegram e confira dono/repositório/branch (o repositório precisa ser público: as notas são lidas sem token, pelo raw.githubusercontent.com).\n4. Teste com **Execute workflow** e mande uma mensagem ao bot; depois ative o fluxo (chave Active).\n\nOs prompts estão dentro dos nós **Montar roteador** e **Montar contexto** (gerados a partir de prompts/*.md pelo gerar_fluxo.py).",
         "height": 380,
         "width": 520,
         "color": 5
@@ -173,22 +173,8 @@
       "typeVersion": 4.2,
       "parameters": {
         "method": "GET",
-        "url": "=https://api.github.com/repos/{{ $('Preparar').first().json.cfg.owner }}/{{ $('Preparar').first().json.cfg.repo }}/contents/{{ $json.caminho }}?ref={{ $('Preparar').first().json.cfg.branch }}",
-        "authentication": "genericCredentialType",
-        "genericAuthType": "httpHeaderAuth",
-        "sendHeaders": true,
-        "headerParameters": {
-          "parameters": [
-            {
-              "name": "Accept",
-              "value": "application/vnd.github.raw+json"
-            },
-            {
-              "name": "X-GitHub-Api-Version",
-              "value": "2022-11-28"
-            }
-          ]
-        },
+        "url": "=https://raw.githubusercontent.com/{{ $('Preparar').first().json.cfg.owner }}/{{ $('Preparar').first().json.cfg.repo }}/{{ $('Preparar').first().json.cfg.branch }}/{{ $json.caminho }}",
+        "authentication": "none",
         "options": {
           "response": {
             "response": {
@@ -197,11 +183,6 @@
             }
           },
           "timeout": 60000
-        }
-      },
-      "credentials": {
-        "httpHeaderAuth": {
-          "name": "GitHub (leitura second brain)"
         }
       },
       "retryOnFail": true,
@@ -338,22 +319,8 @@
       "typeVersion": 4.2,
       "parameters": {
         "method": "GET",
-        "url": "=https://api.github.com/repos/{{ $('Preparar').first().json.cfg.owner }}/{{ $('Preparar').first().json.cfg.repo }}/contents/{{ $json.caminho }}?ref={{ $('Preparar').first().json.cfg.branch }}",
-        "authentication": "genericCredentialType",
-        "genericAuthType": "httpHeaderAuth",
-        "sendHeaders": true,
-        "headerParameters": {
-          "parameters": [
-            {
-              "name": "Accept",
-              "value": "application/vnd.github.raw+json"
-            },
-            {
-              "name": "X-GitHub-Api-Version",
-              "value": "2022-11-28"
-            }
-          ]
-        },
+        "url": "=https://raw.githubusercontent.com/{{ $('Preparar').first().json.cfg.owner }}/{{ $('Preparar').first().json.cfg.repo }}/{{ $('Preparar').first().json.cfg.branch }}/{{ $json.caminho }}",
+        "authentication": "none",
         "options": {
           "response": {
             "response": {
@@ -362,11 +329,6 @@
             }
           },
           "timeout": 60000
-        }
-      },
-      "credentials": {
-        "httpHeaderAuth": {
-          "name": "GitHub (leitura second brain)"
         }
       },
       "retryOnFail": true,
