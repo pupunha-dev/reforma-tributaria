@@ -30,7 +30,15 @@
     (27/07/2026) como documentação **operacional** (abaixo da NT e dos atos), em 10 notas
     `df-nfse-*` (22 notas `df-*` no total). As telas (321 imagens) não entram; as datas de
     IBS/CBS que o guia cita (03/08/2026 regime regular; 01/01/2027 Simples por fato gerador)
-    não têm o ato nas fontes. Planilhas de leiaute da DPS e Anexo VII (IndOp_IBSCBS) são lacuna.
+    não têm o ato nas fontes.
+  - NFS-e, Notas Técnicas da SE/CGNFS-e (desde 2026-10-16, tarde): NTs 003 a 010, Anexo I
+    (cópia de 09/09/2025, **anterior ao RTC, sem o grupo IBSCBS**), Anexo VII v1.03.00 (40 códigos
+    `cIndOp`) e manual da API (versão indeterminada) entram no **nível de NT**, em 6 notas novas
+    `df-nfse-*` (28 notas `df-*` no total): `cgnfse-notas-tecnicas` (cronologia), `layout-ibscbs`,
+    `comercio-exterior`, `indop-ibscbs`, `danfse` e `via`. Ordem de publicação ≠ ordem de
+    implantação (a NT 005 é anterior à 004 v2.00 mas não entrou em produção em jan/2026). Lacunas:
+    Anexo VI (regras do grupo IBSCBS), Anexo VIII, cronograma das NTs 005/007/009, Resolução
+    CGNFS-e 9 e Anexo I atual (`pendencias.md`, F12 e F14 a F19).
 - Soluções de Consulta da Receita entram como **interpretação** dos atos do
   domínio (não criam regra), a partir da SC Cosit 71/2026.
 - Próximos candidatos: LC 87/1996 (Kandir), LC 116/2003 (ISS), Leis

@@ -129,3 +129,6 @@ dos optantes do Simples para fatos geradores a partir de 01/01/2027, segundo o g
 - [[df-nfse-emissao-servico]]: passo 2.
 - [[df-nfse-emissao-final-mei]]: passo 4, conferir e emitir.
 - [[df-tabela-cclasstrib]] e [[df-cst-cclasstrib]]: os códigos.
+- [[df-nfse-layout-ibscbs]]: campos do grupo IBSCBS no XML, fórmulas da base de cálculo e
+  dos valores calculados, PIS/COFINS (`tpRetPisCofins`) e notas de ajuste (NTs CGNFS-e).
+- [[df-nfse-indop-ibscbs]]: os códigos do indicador da operação.

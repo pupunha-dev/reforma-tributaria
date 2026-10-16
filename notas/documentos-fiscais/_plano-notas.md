@@ -76,3 +76,23 @@ e protocolo (etapa 7: linha do domínio no `CLAUDE.md`, bloco no `MEMORY.md`,
 perguntas D17 em diante em `docs/perguntas-teste/documentos-fiscais.md` e regressão das
 três baterias). O bot do Telegram também precisa ter o escopo atualizado em
 `prompts/roteador.md` e `prompts/sistema.md`.
+
+## Fonte nova (2026-10-16, tarde): Notas Técnicas da SE/CGNFS-e 003 a 010, Anexos I e VII e manual da API
+
+Fontes: `fontes/documentos-fiscais/nt-cgnfse-003-v1.2.pdf` a `nt-cgnfse-010-v1.00.pdf`,
+`manual-api-emissor-nfse-2025-10.pdf`, `anexo-i-leiaute-rn-dps-nfse.xlsx` e
+`anexo-vii-indop-ibscbs-v1.03.00.xlsx` (textos e TSV em `texto/`). Pedido do usuário em 16/10/2026 para
+resolver os códigos que o bot não conseguia decodificar (comércio exterior, `cIndOp`, regras de rejeição).
+Nível de NT (acima do guia). Seis notas novas, prefixo `df-nfse-`:
+
+| Nota | Fonte (NT e seções) | Vigência prevista | Conteúdo |
+|---|---|---|---|
+| df-nfse-cgnfse-notas-tecnicas.md | NTs 003 a 010 (cabeçalhos, históricos de versão e seções de cronograma); manual da API; mapa dos anexos | com-mudanca-programada | Cronologia, substituição entre NTs, o que está em produção, anexos nas fontes e lacunas, API do emissor nacional |
+| df-nfse-layout-ibscbs.md | NT 004 v2.00 (seções 1 e 2 e leiaute); NT 005; NT 007; NT 009 | com-mudanca-programada | Grupo IBSCBS da DPS e da NFS-e: campos, fórmulas, PIS/COFINS, notas de ajuste, Simples, imóvel, bens móveis |
+| df-nfse-comercio-exterior.md | Anexo I (abas `RN_RECEPCAO_DPS`, `EXPORTACAO_EMISSÃO_NFS-e`, `LEIAUTE DPS_NFS-e`, `RN DPS_NFS-e`); NT 009 (NIF e CNPJ alfanumérico) | atual | comExt, códigos, rejeições e as 112 combinações da aba de exportação |
+| df-nfse-indop-ibscbs.md | Anexo VII v1.03.00 (aba `cIndOp Public`) | com-mudanca-programada | Os 40 códigos do `cIndOp` e como lê-los |
+| df-nfse-danfse.md | NT 008 v1.02 (todas as seções); NT 004 v2.00, seção 1.2 | com-mudanca-programada | DANFSe v2.0 |
+| df-nfse-via.md | NT 006 v1.00; NT 010 v1.00; NT 007, seção 3.c; NT 004 v2.00, seção 1.3 | atual | NFS-e Via: layout, eventos, ISSQN |
+
+Fora do escopo (continua): ISSQN e convênios municipais, PIS/COFINS (só campos do layout), Resolução CGNFS-e 9 (não está nas fontes).
+Depois da redação: notas antigas do guia revisadas (lacunas de comércio exterior e `cIndOp` resolvidas).

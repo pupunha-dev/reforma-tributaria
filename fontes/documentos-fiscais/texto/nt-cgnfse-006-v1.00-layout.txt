@@ -1,0 +1,736 @@
+    Projeto Reforma Tributária do Consumo
+      Leiaute Nota Fiscal de Serviço para
+         Exploração de Via_NFS-e Via
+                         Nota Técnica Nº 006
+
+
+
+
+                            22 de janeiro de 2026
+
+
+
+Secretaria-Executiva do Comitê Gestor da Nota Fiscal de Serviço Eletrônica
+                    de Padrão Nacional (SE/CGNFS-e)
+                                                                       Sumário
+
+1.   Introdução ................................................................................................................................................. 3
+2.   Layouts da NFS-e Via ................................................................................................................................. 4
+3.   Contingência para o início da emissão .................................................................................................... 13
+
+
+
+
+                                                                                                                                                                 2
+   1. Introdução
+
+       Em 30 de dezembro de 2025, foi publicada, no Diário Oficial da União, a Resolução CGNFS-
+E Nº 9 que institui o modelo da Nota Fiscal de Serviço eletrônica de Exploração de Via de padrão
+nacional (NFS-e Via) como parte integrante do Sistema Nacional da Nota Fiscal de Serviço eletrônica
+de padrão nacional (NFS-e) de que trata o Convênio celebrado entre as administrações tributárias da
+União, do Distrito Federal e dos Municípios, publicado no DOU de 1º de julho de 2022, Seção 3,
+página 56.
+
+       A presente Nota Técnica objetiva ratificar a documentação publicada em 23/12/2025 no portal
+nacional da NFS-e e tornar pública a primeira versão do layout da Nota Fiscal de Serviço eletrônica
+para Exploração de Via – NFS-e Via - padrão nacional relacionados à tributação do Imposto sobre
+Bens e Serviços – IBS, da Contribuição sobre Bens e Serviços – CBS e demais tributos incidentes
+nas operações de serviços de exploração de via, também em atendimento às alterações previstas na
+Emenda Constitucional nº 132 de, 20 de dezembro de 2023, que deu ensejo à Reforma Tributária do
+Consumo – RTC.
+
+       A primeira versão do layout da NFS-e Via, presente no documento “LeiautesRN_ADN-
+SNNFSeVia_V1.0_Produção”,          abas    “Leiaute_NFSeVia-ADN_NFSeVia”,           “RN_NFSeVia-
+ADN_NFSeVia”, “LEIAUTE_EVENTO-ADN_NFS-e_Via” e “RN_EVENTO-ADN_NFS-e_Via”
+que consta na sessão de documentação técnica no Portal da NFS-e: https://www.gov.br/nfse/pt-br/nfs-
+e-via/documentacao-tecnica.
+
+       O layout ora divulgado corresponde à primeira versão desenvolvida em parceria com as
+concessionárias de exploração de via, após estudos técnicos realizados tomando como base os textos
+das Leis Complementares – LC nº 116/2003 de 31 de julho de 2003 e LC nº 214, de 16 de janeiro de
+2025. Sua divulgação objetiva dar transparência aos Estados, aos Municípios, às empresas prestadoras
+de serviço e de Tecnologia da Informação – TI e contribuintes do novo padrão que passa a vigorar a
+partir de 1º de janeiro de 2026.
+
+       A modelagem da NFS-e Via compreende as seguintes etapas:
+
+   1) a concessionária deve parametrizar, no Portal de Gestão das Concessionárias
+       (https://via.nfse.gov.br/concessionarias/login), os dados de concessão, abrangendo contratos,
+       trechos, praças de cobrança, municípios e alíquotas tributárias;
+   2) com base neste cadastro, o sistema define a alíquota efetiva por trecho para uso no layout.
+
+
+                                                                                                    3
+   3) o emissor gera a nota em formato XML e transmite para o Ambiente Nacional da NFS-e;
+   4) o Ambiente Nacional valida as regras de arquivo e conteúdo de forma síncrona, fornecendo a
+       resposta da validação imediatamente ao emitente.
+
+       Junto a esta nota técnica, foi também publicado o anexo na seção de documentação técnica do
+portal da NFS-e (https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica):
+
+
+       LeiautesRN_ADN-SNNFSeVia_V1.00.02- o documento é composto por 4 planilhas:
+“LeiauteRN_ADN-SNNFSeVia_V1.00.02-”, “Leiaute_NFSeVia-ADN_NFSeVia”, “RN_NFSeVia-
+ADN_NFSeVia”, “LEIAUTE_EVENTO-ADN_NFS-e_Via” e “RN_EVENTO-ADN_NFS-e_Via”
+
+   2. Layouts da NFS-e Via
+            Para melhor compreensão das informações disponibilizadas nos layouts dispostos
+       neste tópico, segue um breve glossário.
+          •   CAMINHO NO XML
+              O XML (Extensible Markup Language) é uma linguagem de marcação utilizada para
+              estruturar e armazenar dados em um formato legível por máquina que obedece aos
+              layouts dispostos neste documento e que possui regras a serem seguidas, em uma
+              sequência pré-definida e ordenada. Esta coluna informa o path, ou caminho, ordenado
+              em que as informações devem ser dispostas na formatação do XML.
+
+
+          •   CAMPO
+              Nome do campo/informação que deve constar no XML.
+
+
+          •   ELE
+              Elemento ou valor do campo que deve ser informado. Pode ser dos tipos:
+                  o ID: Campo identificador do documento;
+                  o E: Element (Elemento), atributo deve ser informado no campo;
+                  o G: Group (Grupo), tag que identifica um grupo de informações que será
+                     formado por elements (E), choice elements (CE) ou outros grupos;
+                  o CG: Choice Group (Grupo de Escolha), tag que identifica um grupo que deverá
+                     ser informado a depender da escolha do emitente;
+                  o CE: Choice Element (Elemento de Escolha), elemento de uma lista pré-
+                     determinada, a ser preenchida pelo emitente.
+
+
+
+                                                                                                4
+•   TIPO
+    Tipo do campo que deve ser informado para a tag específica. Pode ser dos tipos:
+       o N: Numérico;
+       o C: Caractere;
+       o D: Data.
+
+
+    Nas tags G ou CG (Group ou Choice Group), como são apenas informações de
+    agrupamento de campos, não há um tipo relacionado.
+
+
+•   OCOR.
+    Quantidade de ocorrências possíveis para o campo/tag.
+    Por exemplo:
+       o 0-1: A informação não é obrigatória e, caso seja informada, só será possível de
+           ser informada uma única vez no documento;
+       o 1-1: Informação obrigatória e que deverá ser informada apenas uma vez no
+           documento;
+       o 1-60: Informação obrigatória que deverá ser informada até, no máximo, 60
+           vezes no documento.
+•   TAM.
+    Tamanho da informação para o campo/tag.
+    Por exemplo:
+    o 14: Campo de tamanho fixo com 14 caracteres ou números;
+    o 1-150: Campo de tamanho variável, podendo possuir de 1 a 150 caracteres ou
+       números;
+    o 1-3V2: Campo de tamanho variável, podendo possuir de 1 a 3 números mais duas
+       casas decimais.
+
+
+    Nas tags G ou CG (Group ou Choice Group), como são apenas informações de
+    agrupamento de campos, não há um tamanho relacionado.
+
+
+•   DESCRIÇÃO
+    Descrição sucinta do que representa cada campo e como deve ser preenchido.
+
+
+
+
+                                                                                      5
+                                      Layout da NFS-e Via – Versão 1.00
+    CAMINHO NO XML             CAMPO     ELE    TIPO   OCOR.   TAM.    DESCRIÇÃO
+-                          NFS-e Via     Raiz    -       -       -     -
+NFSeVia/                   versao         A      C      1-1    1-4V2   Versão do leiaute da NFS-e Via.
+NFSeVia/                   infNFSeVia     G      -      1-1      -     Grupo de informações da NFS-e Via
+
+
+
+
+                                                                       Informar o identificador precedido do literal ‘ID’.
+
+                                                                       A formação do identificador de 53 posições da NFS-e
+                                                                       Via é:
+
+                                                                       "VIA" +
+                                                                       Cód.da localidade/trecho (7) +
+                                                                       Amb.Ger. (1) +
+NFSeVia/infNFSeVia/        y              ID     C      1-1     53     Inscrição Federal (14) +
+                                                                       nNFS-e Via (13) +
+                                                                       serie (3) +
+                                                                       AnoMes Emis. da NFS-e Via (4) +
+                                                                       Cód.Num. (7) +
+                                                                       DV (1)
+
+                                                                       Código numérico de 7 Posições numérico,
+                                                                       possivelmente aleatório, gerado pelo emitente.
+
+
+
+
+                                                                       Identificação do tipo de ambiente no Sistema Nacional
+                                                                       NFS-e Via:
+NFSeVia/infNFSeVia/        tpAmb          E      N      1-1     1
+                                                                       1 - Produção;
+                                                                       2 - Homologação;
+
+NFSeVia/infNFSeVia/        verAplic       E      C      1-1    1-20    Versão da aplicação que gerou a NFS-e Via
+
+                                                                       Situações possíveis:
+
+NFSeVia/infNFSeVia/        cStat          E      N      1-1     3      100 - NFS-e Via Gerada;
+                                                                       101 - NFS-e Via de Substituição Gerada;
+                                                                       102 - NFS-e Via de Decisão Judicial;
+
+
+                                                                       Data e hora da emissão da NFS-e Via.
+                                                                       Data e hora no formato UTC (Universal Coordinated
+NFSeVia/infNFSeVia         dhEmi          E      D      1-1     8
+                                                                       Time):
+                                                                       AAAA-MM-DDThh:mm:ssTZD
+
+
+                                                                       Data e hora de competência da prestação do serviço:
+                                                                       passagem veicular.
+NFSeVia/infNFSeVia         dhCompet       E      D      1-1     8      Data e hora no formato UTC (Universal Coordinated
+                                                                       Time):
+                                                                       AAAA-MM-DDThh:mm:ssTZD
+
+                                                                       Grupo de informações relativas à NFS-e Via a ser
+NFSeVia/infNFSeVia/        subst          G      -      0-1      -
+                                                                       substituída
+
+NFSeVia/infNFSeVia/subst
+                           chSubstda      E      C      1-1     50     Chave de Acesso da NFS-e Via a ser substituída.
+/
+
+
+
+
+                                                                                                                             6
+                                                                Código de justificativa para substituição de NFS-e Via:
+
+                                                                03 - Inclusão Retroativa de Imunidade/Isenção para
+                                                                NFS-e Via;
+                                                                04 - Exclusão Retroativa de Imunidade/Isenção para
+                                                                NFS-e Via;
+NFSeVia/infNFSeVia/subst
+                           cMotivo      E    N   1-1     2      05 - Rejeição de NFS-e Via pelo tomador ou pelo
+/
+                                                                intermediário se responsável pelo recolhimento do
+                                                                tributo;
+                                                                06 - Alteração de parâmetros de cadastro do trecho da
+                                                                concessão;
+                                                                07 - Erro na identificação do veículo;
+                                                                99 - Outros;
+
+
+
+
+                                                                Descrição do motivo da substituição da NFS-e Via
+NFSeVia/infNFSeVia/subst
+                           xMotivo      E    C   0-1   15-255   quando o emitente deve descrever o motivo da
+/
+                                                                substituição para outros motivos (cMotivo = 99).
+
+
+                                                                Grupo de informações relativas ao
+NFSeVia/infNFSeVia         fornec       G    -   1-1     -
+                                                                fornecedor(prestador) do serviço
+
+
+NFSeVia/infNFSeVia/forne                                        Número da inscrição federal (CNPJ) do
+                           CNPJ         CE   C   1-1    14
+c/                                                              fornecedor(prestador) do serviço: concessionária
+
+
+NFSeVia/infNFSeVia/forne
+                           xNome        E    C   0-1    150     Nome / Nome Empresarial do fornecedor.
+c/
+                                                                Código do município do endereço do fornecedor do
+NFSeVia/infNFSeVia/forne
+                           cMun         E    N   1-1     7      serviço.
+c/
+                                                                (Tabela do IBGE)
+                                                                Grupo de informações relativas ao serviço
+NFSeVia/infNFSeVia/        serv         G    G   1-1     -
+                                                                prestado.
+
+
+
+                                                                Código da localidade da operação (prestação) do
+                                                                serviço.
+                                                                Obs: Para a exploração de via, o local da operação
+                                                                (prestação) é o trecho de concessão de exploração de
+NFSeVia/infNFSeVia/serv/   cLocOper     E    N   1-1     7
+                                                                via para a qual a NFS-e Via foi emitida. Também é o
+                                                                local de incidência. O local da operação, para o IBS e
+                                                                para a CBS, será o mesmo local de incidência para o
+                                                                ISSQN.
+
+
+
+
+                                                                Descrição do código de 7 dígitos referente ao local da
+NFSeVia/infNFSeVia/serv/   xLocOper     E    C   1-1    150     Operação(prestação) do serviço: nome dado ao trecho
+                                                                no cadastro pela concessionária.
+
+
+                                                                Código da Praça de Pedágio, gerado no portal da
+NFSeVia/infNFSeVia/        cPracaEmi    E    N   1-1     7      Concessionária no momento do cadastro do trecho,
+                                                                onde a NFS-e Via foi emitida.
+
+                                                                Nome da Praça de Pedágio onde a NFS-e Via foi
+NFSeVia/infNFSeVia/        xPracaEmi    E    C   1-1    150
+                                                                emitida.
+
+                                                                Quilômetro da via onde está localizada a praça de
+NFSeVia/infNFSeVia/        kmPracaEmi   E    N   1-1     7
+                                                                pedágio.
+
+                                                                Código de 7 dígitos do município (IBGE) onde está
+NFSeVia/infNFSeVia/        cLocEmi      E    N   1-1     7
+                                                                localizada a praça de pedágio.
+
+
+                                                                                                                 7
+                                                                 Descrição do código de 7 dígitos do município (IBGE)
+NFSeVia/infNFSeVia/        xLocEmi        E   C   1-1    150
+                                                                 onde está localizada a praça de pedágio.
+
+
+
+                                                                 Número sequencial, por praça e por equipamento, de
+NFSeVia/infNFSeVia/        nNFSeVia       E   N   1-1   1-13     pedágio, da NFS-eVIA gerado pelo emitente e tipo de
+                                                                 emitente da NFS-eVIA.
+
+
+
+NFSeVia/infNFSeVia/        serie          E   C   1-1     3      Uma série para cada praça e/ou equipamento ou
+                                                                 número da pista de cobrança.
+
+                                                                 Código de tributação nacional do ISSQN. Valor fixo
+NFSeVia/infNFSeVia/serv/   cTribNac       E   N   1-1     6
+                                                                 [220101]
+
+                                                                 Código NBS correspondente ao serviço prestado. Valor
+NFSeVia/infNFSeVia/serv/   cNBS           E   N   1-1     9
+                                                                 Fixo [106042100]
+
+NFSeVia/infNFSeVia/se                                            Grupo de informações relativas a atividades de
+                      explVia             G   -   1-1     -
+rv/                                                              Exploração de Rodovia
+
+                                                                 Categorias de veículos para cobrança:
+
+                                                                 00 - Categoria de Veículos (tipo não informado na nota
+                                                                 de origem);
+                                                                 01 - Automóvel, caminhonete e furgão - (2 eixos);
+                                                                 02 - Caminhão leve, ônibus, caminhão trator e furgão -
+                                                                 (2 eixos);
+                                                                 03 - Automóvel e caminhonete com semireboque - (3
+                                                                 eixos);
+                                                                 04 - Caminhão, caminhão-trator, caminhão-trator com
+                                                                 semi-reboque e ônibus - (3 eixos);
+                                                                 05 - Automóvel e caminhonete com reboque - (4
+NFSeVia/infNFSeVia/serv/                                         eixos);
+                           categVeic      E   N   1-1     2
+explVia/                                                         06 - Caminhão com reboque e caminhãotrator com
+                                                                 semi-reboque - (4 eixos);
+                                                                 07 - Caminhão com reboque e caminhãotrator com
+                                                                 semi-reboque - (5 eixos);
+                                                                 08 - Caminhão com reboque e caminhãotrator com
+                                                                 semi-reboque - (6 eixos);
+                                                                 09 - Caminhão com reboque e caminhãotrator com
+                                                                 semi-reboque - (7 eixos);
+                                                                 10 - Caminhão com reboque e caminhãotrator com
+                                                                 semi-reboque - (8 eixos);
+                                                                 11 - Motocicletas, motonetas e bicicletas motorizadas;
+                                                                 12 - Veículo com gratuidade;
+                                                                 99 - Cobrança Especial.
+
+                                                                 Orientação de passagem do veículo:
+
+NFSeVia/infNFSeVia/serv/                                         Ângulo em graus a partir do norte geográfico em
+                           sentido        E   C   1-1    1-3
+explVia/                                                         sentido horário, número inteiro de 0 a 359, onde 0º
+                                                                 seria o norte, 90º o leste, 180º o sul, 270º o oeste.
+                                                                 Precisão mínima de 10.
+NFSeVia/infNFSeVia/serv/
+                           placa          E   C   1-1   1 - 10   Placa do veículo até 10 caracteres.
+explVia/
+NFSeVia/infNFSeVia/serv/                                         Código de acesso gerado automaticamente pelo
+                           codAcessoPed   E   C   1-1    17
+explVia/                                                         sistema emissor da concessionária.
+
+
+                                                                 Modalidade da Passagem:
+
+                                                                 1 - Fluxo Livre
+NFSeVia/infNFSeVia/serv/   modPassage
+                                          E   C   1-1     1      2 - Manual
+explVia/                   m
+                                                                 3 - Automático
+                                                                 4 - Semi-Automático
+                                                                 5 - Outros
+
+
+
+
+                                                                                                                  8
+NFSeVia/infNFSeVia/serv/
+                           codContrato   E   C   1-1     4      Código de contrato do cadastro da concessionária.
+explVia/
+
+NFSeVia/infNFSeVia/serv/
+                           xInfComp      E   C   0-1   2000     Campo livre para preenchimento pelo contribuinte.
+explVia/
+
+                                                                Grupo de informações relativas à valores do
+NFSeVia/infNFSeVia/        valores       G   -   1-1     -
+                                                                serviço prestado
+NFSeVia/infNFSeVia/valor
+                           vServ         E   N   1-1   1-15V2   Valor monetário do serviço (R$).
+es/
+
+                                                                Modalidade de pagamento:
+
+                                                                1. Débito ou pix
+NFSeVia/infNFSeVia/valor   modPagamen
+                                         E   C   1-1     1      2. Crédito
+es/                        to
+                                                                3. Dinheiro
+                                                                4. Eletrônico
+                                                                5. Pagamento posterior
+
+
+
+NFSeVia/infNFSeVia/va vDescCondI                                Grupo de informações relativas aos descontos
+                                         G   -   0-1     -
+lores/                ncond                                     condicionados e incondicionados
+
+
+NFSeVia/infNFSeVia/valor
+                           vDescIncond   E   N   0-1   1-15V2   Valor monetário do desconto incondicionado (R$).
+es/vDescCondIncond/
+
+NFSeVia/infNFSeVia/valor
+                           vDescCond     E   N   0-1   1-15V2   Valor monetário do desconto condicionado (R$).
+es/vDescCondIncond/
+
+NFSeVia/infNFSeVia/va                                           Grupo de informações relacionados aos tributos
+                      trib               G   -   1-1     -
+lores/                                                          relacionados ao serviço prestado
+NFSeVia/infNFSeVia/va
+                      issqn              G   -   1-1     -      Grupo de valores para o ISSQN
+lores/trib/
+
+                                                                Valor da Base de Cálculo do ISSQN (R$) = Valor do
+NFSeVia/infNFSeVia/valor                                        Serviço - Desconto Incondicionado
+                           vBC           E   N   1-1   1-15V2
+es/trib/issqn/
+                                                                vBC = vServ - descIncond
+
+
+NFSeVia/infNFSeVia/valor                                        Valor da alíquota efetiva (%) do serviço prestado
+                           pAliq         E   N   1-1    1V2
+es/trib/issqn/                                                  resultante do cadastro do trecho pela concessionária.
+
+
+                                                                Valor do ISSQN (R$) = Valor da Base de Cálculo x
+NFSeVia/infNFSeVia/valor                                        Alíquota
+                           vISSQN        E   N   1-1   1-15V2
+es/trib/issqn/
+                                                                vISSQN = vBC x pAliq
+
+NFSeVia/infNFSeVia/va                                           Grupo de informações de outros tributos
+                      tribFed            G   -   0-1     -
+lores/trib/                                                     relacionados ao serviço prestado
+
+NFSeVia/infNFSeVia/va
+                      piscofins          G   -   0-1     -      Grupo de informações dos tributos PIS/COFINS
+lores/trib/tribFed/
+
+
+
+
+                                                                                                                 9
+                                                                   "Código de Situação Tributária do PIS/COFINS (CST):
+
+                                                                   00 - Nenhum;
+                                                                   01 - Operação Tributável com Alíquota Básica;
+                                                                   02 - Operação Tributável com Alíquota Diferenciada;
+                                                                   03 - Operação Tributável com Alíquota por Unidade de
+                                                                   Medida de Produto;
+NFSeVia/infNFSeVia/valor                                           04 - Operação Tributável monofásica - Revenda a
+                             CST            E   N   1-1     2
+es/trib/tribFed/piscofins/                                         Alíquota Zero;
+                                                                   05 - Operação Tributável por Substituição Tributária;
+                                                                   06 - Operação Tributável a Alíquota Zero;
+                                                                   07 - Operação Tributável da Contribuição;
+                                                                   08 - Operação sem Incidência da Contribuição;
+                                                                   09 - Operação com Suspensão da Contribuição;"
+                                                                   49 - Operação sem cobrança;
+                                                                   98 - Anulação;
+
+NFSeVia/infNFSeVia/valor
+                             vBCPisCofins   E   N   0-1   1-15V2   Valor da Base de Cálculo do PIS/COFINS (R$).
+es/trib/tribFed/piscofins/
+NFSeVia/infNFSeVia/valor
+                             pAliqPis       E   N   0-1   1-2V2    Valor da Alíquota do PIS (%).
+es/trib/tribFed/piscofins/
+NFSeVia/infNFSeVia/valor
+                             pAliqCofins    E   N   0-1   1-2V2    Valor da Alíquota da COFINS (%).
+es/trib/tribFed/piscofins/
+NFSeVia/infNFSeVia/valor
+                             vPis           E   N   0-1   1-15V2   Valor monetário do PIS (R$).
+es/trib/tribFed/piscofins/
+NFSeVia/infNFSeVia/valor
+                             vCofins        E   N   0-1   1-15V2   Valor monetário do COFINS (R$).
+es/trib/tribFed/piscofins/
+NFSeVia/infNFSeVia/va                                              Grupo de informações declaradas pelo emitente
+                      ibscbs                G   -   0-1     -
+lores/trib/                                                        referentes ao IBS e à CBS
+
+NFSeVia/infNFSeVia/valor                                           Tabela da Código de Situação Tributária do IBS. Valor
+                             CST            E   N   1-1     3
+es/trib/ibscbs/                                                    Fixo [000]
+
+NFSeVia/infNFSeVia/valor                                           Tabela de Código de classificação Tributária do IBS.
+                             cClassTrib     E   N   1-1     6
+es/trib/ibscbs/                                                    Valor fixo [[000002]
+
+NFSeVia/infNFSeVia/valor                                           Tabela de Classificação do indicador da operação
+                             cindOp         E   C   1-1     6
+es/trib/ibscbs/                                                    (AnexoVII-IndOp_IBSCBS). Valor fixo [080101]
+
+                                                                   Valor da base de cálculo (BC) do IBS/CBS antes das
+                                                                   reduções para cálculo do tributo bruto.
+
+                                                                   vBC = vServ - descIncond – vISSQN – vPIS - vCOFINS
+                                                                   (2026)
+NFSeVia/infNFSeVia/valor
+                             vBC            E   N   1-1   1-15V2
+es/trib/ibscbs/
+                                                                   ou
+
+                                                                   vBC = vServ - descIncond – vISSQN (2027 até 2032)
+
+                                                                   Utilizada a data de competência.
+
+                                                                   Valor líquido (R$) = Valor do serviço - Desconto
+                                                                   condicionado - Desconto incondicionado - Valores,
+NFSeVia/infNFSeVia/valor                                           (ISSQN, PIS, COFINS)**
+                             vLiq           E   N   1-1   1-15V2
+es/trib/ibscbs/
+                                                                   VLiq = vServ – vDescIncond – vDescCond – (vISSQN +
+                                                                   vPIS + vCOFINS)**
+
+                                                                   Valor Total da NF considerando os impostos por fora
+                                                                   IBS e CBS.
+NFSeVia/infNFSeVia/valor                                           O IBS e a CBS são por fora, por isso seus valores
+                             vTotNF         E   N   1-1   1-15V2
+es/trib/ibscbs/                                                    devem ser adicionados ao valor total da NF.
+
+                                                                   vTotNF = VLiq + vCBS + vIBSTot
+
+NFSeVia/infNFSeVia/va                                              Grupo de Informações relativas aos valores do
+                      gIBS                  G   -   1-1     -
+lores/trib/ibscbs/                                                 IBS Estadual
+
+
+
+
+                                                                                                                  10
+                                                                 Total Valor do IBS Total.
+NFSeVia/infNFSeVia/valor
+                           vIBSTot        E   N   1-1   1-15V2
+es/trib/ibscbs/gIBS/
+                                                                 vIBSTot = vIBSUF + vIBSMun
+NFSeVia/infNFSeVia/va
+                                                                 Grupo de Informações relativas aos valores do
+lores/trib/ibscbs/gIBS uf                 G   -   1-1     -
+                                                                 IBS Estadual
+/
+
+                                                                 Alíquota efetiva para IBS das UFs da localidade de
+NFSeVia/infNFSeVia/valor
+                           pAliqEfetUF    E   N   1-1   1-2V2    incidência/operação cadastrada: trecho.
+es/trib/ibscbs/gIBS/uf/
+
+
+
+                                                                 Total valor do IBS estadual.
+NFSeVia/infNFSeVia/valor
+                           vIBSUF         E   N   1-1   1-15V2
+es/trib/ibscbs/gIBS/uf/
+                                                                 vIBSUF = vBC x pAliqEfetUF
+NFSeVia/infNFSeVia/va
+                                                                 Grupo de Informações relativas aos valores do
+lores/trib/ibscbs/gIBS mun                G
+                                                                 IBS Municipal
+/
+
+                                                                 Alíquota efetiva para IBS dos Municípios da localidade
+NFSeVia/infNFSeVia/valor
+                           pAliqEfetMun   E   N   1-1   1-2V2    de incidência/operação cadastrada: trecho.
+es/trib/ibscbs/gIBS/mun/
+
+
+
+                                                                 Total valor do IBS municipal.
+NFSeVia/infNFSeVia/valor
+                           vIBSMun        E   N   1-1   1-15V2
+es/trib/ibscbs/gIBS/mun/
+                                                                 vIBSMun = vBC x pAliqEfetMun
+
+NFSeVia/infNFSeVia/va                                            Grupo de Informações relativas aos valores da
+                      gCBS                G   -   1-1     -
+lores/trib/ibscbs/                                               CBS
+
+NFSeVia/infNFSeVia/valor                                         Alíquota da União para a CBS Cadastrada
+                           pAliq          E   N   1-1   1-2V2
+es/trib/ibscbs/gCBS/
+
+                                                                 Total valor da CBS da União.
+NFSeVia/infNFSeVia/valor
+                           vCBS           E   N   1-1   1-15V2
+es/trib/ibscbs/gCBS/
+                                                                 vCBS = vBC x pAliq
+
+                                                                 Assinatura XML da NFS-e Via segundo o padrão
+NFSeVia/                   Signature      G   -   1-1     -
+                                                                 XML digital signature
+
+                                                                 Data/Hora da recepção da NFS-e Via.
+                                                                 Data e hora no formato UTC (Universal Coordinated
+                           dhReg
+                                                                 Time):
+                                                                 AAAA-MM-DDThh:mm:ssTZD
+
+                           nReg                                  "Número do Registro" da NFS-e Via
+
+
+
+
+                                                                                                                11
+             Layout do Evento de cancelamento da NFS-e Via – Versão 1.00
+ CAMINHO NO XML          CAMPO       ELE    TIPO   OCOR.   TAM.                         DESCRIÇÃO
+
+
+                         evento      Raiz    -       -       -                            TAG raiz
+
+
+      evento/             versao      A      C      1-1    1-4V2                 Versão do leiaute do evento
+      evento/           infEvento     G      -      1-1      -                                c
+  evento/infEvento/         id        ID     C      1-1     62           O identificador do evento é composto pela
+                                                                      concatenação de campos que constam no leiaute.
+
+                                                                      A formação deste identificador considera o literal
+                                                                      "EVT" associado a outras 59 posições numéricas,
+                                                                                 conforme descrito abaixo:
+
+                                                                                         "EVT" +
+                                                                      Chave de acesso da NFS-e Via (50) + Código do
+                                                                                      Evento (06) +
+                                                                      Número sequencial do evento (nSeqEvento) (03)
+
+                                                                     O código do evento corresponde ao valor informado
+                                                                          na tag infEvento sem a primeira posição:
+                                                                    Cancelamento de NFS-e Via - tag e101101 - código do
+                                                                                       evento 101101
+                                                                      Cancelamento de NFS-e Via por substituição - tag
+                                                                            e105102 - código do evento 105102
+
+  evento/infEvento/      verAplic     E      C      0-1     1-20          Versão do aplicativo que gerou o evento.
+  evento/infEvento/     nSeqEvento    E      N      1-1      3       Número sequencial do evento para o mesmo tipo de
+                                                                                         evento.
+
+                                                                    Para os eventos que ocorrem somente uma vez, como
+                                                                       é o caso do cancelamento, o nSeqEvento = 001.
+
+                                                                       Para os eventos que possam existir mais de um
+                                                                      evento do mesmo tipo o ambiente gerador deverá
+                                                                                numerar de forma sequencial.
+
+  evento/infEvento/     chNFSeVia    CE      N      1-1     50      Identificador da NFS-e a qual o evento será vinculada.
+  evento/infEvento/      dhEvento     E      D      1-1      -          Data e hora do evento no formato AAAA-MM-
+                                                                      DDThh:mm:ssTZD (UTC - Universal Coordinated
+                                                                       Time, onde TZD pode ser -02:00 (Fernando de
+                                                                     Noronha), -03:00 (Brasília) ou -04:00 (Manaus), no
+                                                                    horário de verão serão -01:00, -02:00 e -03:00. Ex.:
+                                                                                2010-08-19T13:00:15-03:00.
+                                                                                     Tipo de ambiente:
+  evento/infEvento/       tpAmb       E      N      1-1      1
+                                                                                      1 - Produção;
+                                                                                    2 - Homologação;
+evento/infEvento/       e101101      CG      -      1-1      -           Parte Específica do Registro de Evento
+                                                                            Evento Cancelamento de NFS-e
+
+evento/infEvento/e101     xDesc       E      C      1-1     5-60                    Descrição do evento:
+         101/                                                                     "Cancelamento de NFS-e"
+
+evento/infEvento/e101    cMotivo      E      N      1-1      1            Código de justificativa de cancelamento:
+         101/
+                                                                                  2 - Serviço não Prestado;
+
+evento/infEvento/e101    xMotivo      E      C      1-1    15-255     Descrição para explicitar o motivo indicado neste
+         101/                                                                              evento.
+
+evento/infEvento/       e105102      CG      -      1-1      -           Parte Específica do Registro de Evento
+                                                                        Cancelamento de NFS-e por Substituição
+
+evento/infEvento/e105     xDesc       E      C      1-1     5-60                  Descrição do evento:
+         102/                                                            "Cancelamento de NFS-e por Substituição"
+
+
+
+                                                                                                                 12
+evento/infEvento/e105       cMotivo     E     N     1-1      1      Código de justificativa de cancelamento substituição:
+         102/
+                                                                                    1 - Erro na Emissão
+
+evento/infEvento/e105       xMotivo     E     C     0-1    15-255     Descrição para explicitar o motivo indicado neste
+         102/                                                                              evento.
+
+
+evento/infEvento/e105   chSubstituta    E     C     1-1      50            Chave de Acesso da NFS-e substituta.
+         102/
+
+
+      evento/              Signature    G     -     1-1      -       Assinatura do registro segundo o Padrão XML
+                                                                                  Digital Signature.
+                            dhReg                                    Data/Hora da recepção do Evento de NFS-e Via.
+                                                                    Data e hora no formato UTC (Universal Coordinated
+                                                                                         Time):
+                                                                               AAAA-MM-DDThh:mm:ssTZD
+                             nReg                                     "Número do Registro" do Evento da NFS-e Via
+
+
+
+
+            3. Contingência para o início da emissão
+
+                        Em caráter excepcional, a emissão das Notas Fiscais de Serviço eletrônicas de
+        Exploração de Via (NFS-e Via) relativas às operações realizadas no mês de janeiro de 2026 será
+        admitida até o dia 31 de janeiro de 2026, como medida de contingência para o início da
+        obrigatoriedade.
+
+
+
+
+                                                  Carlos Eduardo Burkle
+                                        Auditor-Fiscal de Tributos – Londrina (PR)
+                  Secretário-Executivo da Secretaria-Executiva do Comitê Gestor da Nota Fiscal de Serviço
+                                       Eletrônica de Padrão Nacional (SE/CGNFS-e)
+
+
+
+
+                                                                                                                13
+

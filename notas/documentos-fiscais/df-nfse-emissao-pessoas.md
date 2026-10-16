@@ -98,6 +98,9 @@ Três opções: **Brasil**, **Exterior** ou **não informado** (sem campos extra
   **dispensado do NIF** ou **não exigência do NIF**. Depois: nome, e-mail e telefone
   opcionais e endereço (logradouro, número, complemento, bairro, cidade, código
   postal, estado/província/região e país).
+  No XML a escolha é `NIF` **ou** `cNaoNIF` (0 não informado na nota de origem, só para
+  compartilhamento do município; 1 dispensado; 2 não exigência). Tomador ou intermediário
+  no exterior **exige** o grupo de comércio exterior: [[df-nfse-comercio-exterior]].
 
 ## Destinatário do serviço (só com IBS/CBS)
 

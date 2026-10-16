@@ -1,0 +1,55 @@
+L3	 ⏎ 
+J8	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+J11	Mensagem de erro: ⏎ O sistema considera este cenário para a prestação de serviço informado na DPS uma Operação Tributável.  ⏎ Não é permitido ao emitente da DPS informar que este cenário de prestação de serviço se trata de uma operação de Exportação de Serviço.   ⏎ 
+J12	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+J15	Mensagem de erro: ⏎ O sistema considera este cenário para a prestação de serviço informado na DPS uma Operação Tributável.  ⏎ Não é permitido ao emitente da DPS informar que este cenário de prestação de serviço se trata de uma operação de Exportação de Serviço.   ⏎ 
+J16	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+E18	Serviços sem a incidência de ISSQN e ICMS ⏎ 
+E19	Serviços sem a incidência de ISSQN ⏎ 
+J22	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+J26	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+J30	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+J31	Mensagem de erro: ⏎ O sistema considera este cenário para a prestação de serviço informado na DPS uma Exportação de Serviço.  ⏎ Não é permitido ao emitente da DPS informar que que este cenário de prestação de serviço se trata de uma Operação Tributável.
+E32	Serviços sem a incidência de ISSQN e ICMS ⏎ 
+E33	Serviços sem a incidência de ISSQN ⏎ 
+J36	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+J39	Mensagem de erro: ⏎ O sistema considera este cenário para a prestação de serviço informada na DPS uma operação tributável. Não é permitido ao emitente da DPS informar que a prestação de serviço se trata de uma Exportação de serviço.  ⏎ 
+J40	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+J43	Mensagem de erro: ⏎ O sistema considera este cenário para a prestação de serviço informada na DPS uma operação tributável. Não é permitido ao emitente da DPS informar que a prestação de serviço se trata de uma Exportação de serviço.  ⏎ 
+J44	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+E46	Serviços sem a incidência de ISSQN e ICMS ⏎ 
+E47	Serviços sem a incidência de ISSQN ⏎ 
+J50	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+J54	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+J58	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+J59	Mensagem de erro: ⏎ O sistema considera este cenário para a prestação de serviço informado na DPS uma Exportação de Serviço.  ⏎ Não é permitido ao emitente da DPS informar que que este cenário de prestação de serviço se trata de uma Operação Tributável.
+E60	Serviços sem a incidência de ISSQN e ICMS ⏎ 
+E61	Serviços sem a incidência de ISSQN e ICMS ⏎ 
+J64	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+J68	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+J69	Mensagem de Aviso: ⏎ Para este cenário em que foi informado que o tomador do serviço está no exterior e o serviço prestado é devido no local do estabelecimento do tomador, o sujeito passivo será o prestador do serviço e o local de incidência do ISSQN será o local da prestação do serviço, conforme os parágrafos 1º e 2º do Art. 127 do CTN.
+J71	Mensagem de erro: ⏎ O sistema considera este cenário para a prestação de serviço informada na DPS uma operação tributável. Não é permitido ao emitente da DPS informar que a prestação de serviço se trata de uma Exportação de serviço.  ⏎ 
+J72	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+E74	Serviços sem a incidência de ISSQN e ICMS ⏎ 
+E75	Serviços sem a incidência de ISSQN ⏎ 
+J78	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+J82	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+J83	Mensagem de Aviso: ⏎ Para este cenário em que foi informado que o tomador do serviço está no exterior e o serviço prestado é devido no local do estabelecimento do tomador, o sujeito passivo será o prestador do serviço e o local de incidência do ISSQN será o local da prestação do serviço, conforme os parágrafos 1º e 2º do Art. 127 do CTN.
+J85	Mensagem de erro: ⏎ O sistema considera este cenário para a prestação de serviço informada na DPS uma operação tributável. Não é permitido ao emitente da DPS informar que a prestação de serviço se trata de uma Exportação de serviço.  ⏎ 
+J86	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+E88	Serviços sem a incidência de ISSQN e ICMS ⏎ 
+E89	Serviços sem a incidência de ISSQN ⏎ 
+J92	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+J96	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+J97	Mensagem de erro: ⏎ O sistema considera este cenário para a prestação de serviço informado na DPS uma Exportação de Serviço.  ⏎ Não é permitido ao emitente da DPS informar que que este cenário de prestação de serviço se trata de uma Operação Tributável.
+J100	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+J101	Mensagem de erro: ⏎ O sistema considera este cenário para a prestação de serviço informado na DPS uma Exportação de Serviço.  ⏎ Não é permitido ao emitente da DPS informar que que este cenário de prestação de serviço se trata de uma Operação Tributável.
+E102	Serviços sem a incidência de ISSQN e ICMS ⏎ 
+E103	Serviços sem a incidência de ISSQN ⏎ 
+J106	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+J110	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+J111	Mensagem de erro: ⏎ O sistema considera este cenário para a prestação de serviço informado na DPS uma Exportação de Serviço.  ⏎ Não é permitido ao emitente da DPS informar que que este cenário de prestação de serviço se trata de uma Operação Tributável.
+J114	Mensagem de erro: ⏎ A opção "Não Incidência" para a tributação do ISSQN somente é válida quando o código de tributação nacional selecionado corresponder ao código de serviço 99.01.01 - Serviço sem incidência de ISSQN e ICMS.
+J115	Mensagem de erro: ⏎ O sistema considera este cenário para a prestação de serviço informado na DPS uma Exportação de Serviço.  ⏎ Não é permitido ao emitente da DPS informar que que este cenário de prestação de serviço se trata de uma Operação Tributável.
+E116	Serviços sem a incidência de ISSQN e ICMS ⏎ 
+E117	Serviços sem a incidência de ISSQN ⏎ 

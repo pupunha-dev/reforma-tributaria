@@ -1,7 +1,7 @@
 ---
 título: NFS-e Nacional — emissão completa, passo 2 (Serviço): local, código de tributação, NBS, indicador da operação, imóveis, eventos, comércio exterior e tipo de operação
 dominio: documentos-fiscais
-fontes: Guia do Emissor Público Nacional Web da NFS-e v1.2 (27/07/2026), seção 4.1.2 (p. 43-66); LC 214/2025, art. 254 (conferido em fontes/reforma/texto); NT 2025.002-RTC v1.52 (referência para CST/cClassTrib, ver df-cst-cclasstrib)
+fontes: Guia do Emissor Público Nacional Web da NFS-e v1.2 (27/07/2026), seção 4.1.2 (p. 43-66); Anexo VII v1.03.00 e Anexo I (ver df-nfse-indop-ibscbs e df-nfse-comercio-exterior); LC 214/2025, art. 254 (conferido em fontes/reforma/texto); NT 2025.002-RTC v1.52 (referência para CST/cClassTrib, ver df-cst-cclasstrib)
 vigencia: com-mudanca-programada
 texto-base: 2026-10-16
 ---
@@ -60,10 +60,11 @@ obra, evento, comércio exterior.
 
 - **Data de competência:** recuperada da informada no passo 1.
 - **Item da NBS:** obrigatório; a NBS correspondente ao serviço prestado.
-- **Código indicador da operação** (`IndOp_IBSCBS`): **obrigatório nas emissões com
-  destaque de IBS/CBS**; escolhido na lista do **Anexo VII** do leiaute, que **não
-  está nas fontes** (⚠️ lacuna: os códigos não podem ser listados aqui). O guia
-  só cita que os códigos **020101, 020201 e 020301** ligam o serviço a **imóveis**.
+- **Código indicador da operação** (`IndOp_IBSCBS`, `cIndOp` no XML): **obrigatório nas
+  emissões com destaque de IBS/CBS**; escolhido na lista do **Anexo VII** do leiaute, cujos
+  **40 códigos** (versão 1.03.00) estão em [[df-nfse-indop-ibscbs]]. O guia só cita que os
+  códigos **020101, 020201 e 020301** ligam o serviço a **imóveis**. A correlação do item da NBS com o
+  código (Anexo VIII) **não está nas fontes**.
 - **Descrição do serviço:** obrigatória, detalhada.
 
 ## Imóvel e obra
@@ -97,19 +98,22 @@ operação de comércio exterior quando **ao menos um** destes itens está no ex
 intermediário no exterior já caracteriza** comércio exterior, mesmo que o serviço seja
 executado no Brasil.
 
-> ⚠️ **Lacunas do guia** (o guia não responde): (1) se, com o país da prestação "Brasil"
-> e o tomador no exterior, a tela abre o bloco da mesma forma (o guia só descreve o
-> gatilho do país da prestação); (2) **qual opção** de modo de prestação, de vínculo ou
-> de mecanismo de apoio vale para cada caso concreto: ele só lista as opções, sem
-> defini-las. A escolha depende da operação real, não do guia. Na pergunta "é caso de
-> imunidade, exportação de serviço ou não incidência do ISSQN?" (passo 2), a opção
-> "exportação de serviço" pede o país em que se verificou o resultado do serviço; o
-> ISSQN em si é matéria municipal, fora do escopo.
+> **O que o guia não responde e as NTs/anexos respondem:** (1) com país da prestação "Brasil"
+> e tomador ou intermediário no exterior, o grupo de comércio exterior **também é exigido**
+> (regra E0330 do Anexo I, que fixa os gatilhos); (2) o **significado** de cada opção de modo de
+> prestação, de vínculo, de mecanismo de apoio e de movimentação temporária de bens, as regras de
+> `nDI`/`nRE` e as rejeições estão em [[df-nfse-comercio-exterior]]. **Qual** opção vale para
+> cada caso concreto continua dependendo da operação real: nenhuma fonte a escolhe.
+>
+> Na pergunta "é caso de imunidade, exportação de serviço ou não incidência do ISSQN?"
+> (passo 2), a opção "exportação de serviço" pede o país em que se verificou o resultado do
+> serviço; o ISSQN em si é matéria municipal, fora do escopo.
 >
 > **IBS/CBS da exportação de serviço:** o que torna o serviço exportação (fornecimento
 > para residente no exterior **e** consumo no exterior) está em
 > [[ibs-cbs-exportacao]] (LC 214, art. 80); o CST/cClassTrib (410 e 410004) está em
-> [[df-tabela-cclasstrib]]. O guia não escolhe esses códigos.
+> [[df-tabela-cclasstrib]]. O guia não escolhe esses códigos, e nenhuma fonte liga o
+> modo de prestação (`mdPrestacao`) à classificação tributária.
 
 Campos pedidos no bloco:
 

@@ -37,11 +37,52 @@ Portal da Nota Fiscal de Serviço eletrônica): confirmar e registrar aqui.
 
 | Arquivo | Documento | Versão | Data da versão | Capturado em | Observação |
 |---|---|---|---|---|---|
-| guia-emissor-publico-nacional-nfse-v1.2.1.pdf | Guia do Emissor Público Nacional Web da NFS-e | 1.2 (o arquivo original se chama "versao_1-2-1") | 27/07/2026 (histórico do próprio guia; PDF criado em 27/07/2026) | 2026-10-16 | 125 páginas, 321 imagens (telas do emissor). Histórico de versões do guia: 1.0; 1.1 (23/09/2025, emissão por decisão administrativa/judicial); 1.2 (27/07/2026, "adequação do guia aos novos campos de IBS/CBS"). **Sem texto riscado** (0 linhas). Não traz a planilha de leiaute DPS e RN DPS nem o Anexo VII (IndOp_IBSCBS), que ele cita: ficam como lacuna. Original recebido como `guia_emissor_publico_nacional_web_snnfse-ern_versao_1-2-1.pdf`. |
+| guia-emissor-publico-nacional-nfse-v1.2.1.pdf | Guia do Emissor Público Nacional Web da NFS-e | 1.2 (o arquivo original se chama "versao_1-2-1") | 27/07/2026 (histórico do próprio guia; PDF criado em 27/07/2026) | 2026-10-16 | 125 páginas, 321 imagens (telas do emissor). Histórico de versões do guia: 1.0; 1.1 (23/09/2025, emissão por decisão administrativa/judicial); 1.2 (27/07/2026, "adequação do guia aos novos campos de IBS/CBS"). **Sem texto riscado** (0 linhas). Não traz a planilha de leiaute DPS e RN DPS nem o Anexo VII (IndOp_IBSCBS), que ele cita; em 2026-10-16 o usuário forneceu o Anexo I (cópia anterior ao RTC) e o Anexo VII v1.03.00 (ver a seção das Notas Técnicas da SE/CGNFS-e abaixo). Original recebido como `guia_emissor_publico_nacional_web_snnfse-ern_versao_1-2-1.pdf`. |
 
 Texto em `texto/`: `guia-emissor-publico-nacional-nfse-v1.2.1-vigente.txt` (fonte das notas, `scripts/extrair_nt.py`),
 `guia-emissor-publico-nacional-nfse-v1.2.1-riscado.md` (vazio) e, para apoio de leitura, `guia-emissor-publico-nacional-nfse-v1.2.1.txt` e
 `guia-emissor-publico-nacional-nfse-v1.2.1-layout.txt` (`pdftotext`).
+
+## Notas Técnicas da SE/CGNFS-e (NFS-e Nacional), anexos e manual da API
+
+Fornecidos pelo usuário em 2026-10-16 (caixa de entrada `fontes/assets/`), baixados por ele do portal
+da NFS-e (padrão de endereço: `https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica` e, para a
+NFS-e Via, `https://www.gov.br/nfse/pt-br/nfs-e-via/documentacao-tecnica`; **o endereço exato de cada
+arquivo não consta nos PDFs: confirmar e registrar**). São a documentação técnica nacional da NFS-e, no
+**nível de NT** (acima do Guia do Emissor, abaixo da lei e dos regulamentos). Numeração própria da
+SE/CGNFS-e: não confundir com as NTs do Projeto NF-e. Nota: [[df-nfse-cgnfse-notas-tecnicas]]
+(cronologia e substituições).
+
+| Arquivo | Documento | Versão | Data nas fontes | Páginas | Texto riscado | Notas que o usam |
+|---|---|---|---|---|---|---|
+| nt-cgnfse-003-v1.2.pdf | NT SE/CGNFS-e 003: grupos IBS/CBS (3ª versão do layout) | 1.2 | 04/07/2025 | 16 | extenso (~124 linhas); **substituída pela NT 004** | só histórico |
+| nt-cgnfse-004-v2.00.pdf | NT 004: grupos IBS/CBS (4ª versão); produção em 05/01/2026 | 2.00 | 10/12/2025 | 19 | ~81 linhas | `df-nfse-layout-ibscbs`, `df-nfse-via` |
+| nt-cgnfse-005-v1.0.pdf | NT 005: evoluções do layout (5ª versão) | 1.0 | 19/11/2025 | 15 | 6 linhas | `df-nfse-layout-ibscbs` |
+| nt-cgnfse-006-v1.00.pdf | NT 006: NFS-e Via, layout 1.00 | 1.00 | 22/01/2026 | 13 | nenhum | `df-nfse-via` |
+| nt-cgnfse-007-v1.0.pdf | NT 007: PIS/COFINS, `indZFMALC`, novos códigos | 1.0 | 07/02/2026 | 10 | nenhum | `df-nfse-layout-ibscbs`, `df-nfse-via` |
+| nt-cgnfse-008-v1.02.pdf | NT 008: DANFSe v2.0 | 1.02 (1.01: 30/06/2026) | 14/07/2026 | 26 | nenhum | `df-nfse-danfse` |
+| nt-cgnfse-009-v1.0.pdf | NT 009: ajustes e novos campos do grupo IBSCBS | 1.0 | 04/06/2026 | 12 | 4 linhas | `df-nfse-layout-ibscbs` |
+| nt-cgnfse-010-v1.00.pdf | NT 010: NFS-e Via, layout 1.01 e manifestação | 1.00 | 11/09/2026 | 6 | nenhum | `df-nfse-via` |
+| manual-api-emissor-nfse-2025-10.pdf | Manual dos Contribuintes: API do Emissor Público Nacional | **indeterminada**: o arquivo veio rotulado "v1.2", mas o histórico interno lista só a 1.0 (17/03/2025); PDF criado em 06/10/2025 | 17/03/2025 (histórico); PDF 06/10/2025 | 6 | nenhum | `df-nfse-cgnfse-notas-tecnicas` |
+| anexo-i-leiaute-rn-dps-nfse.xlsx | Anexo I: leiaute e regras de negócio da DPS/NFS-e (5 abas) | **cópia anterior ao RTC**: planilha modificada em 09/09/2025, **sem o grupo `IBSCBS`** (a NT 004 v2.00 cita o Anexo I "v1.00-20251210", que não está nas fontes) | 09/09/2025 | 5 abas | não se aplica | `df-nfse-comercio-exterior` (regras de exportação), `df-nfse-emissao-servico` |
+| anexo-vii-indop-ibscbs-v1.03.00.xlsx | Anexo VII: IndOp_IBSCBS (códigos do `cIndOp`) | 1.03.00 (as NTs citam 1.00.00, 1.01.00 e 1.02.00) | planilha modificada em 15/09/2026 | 1 aba | não se aplica | `df-nfse-indop-ibscbs`, `df-nfse-via` |
+
+A cadeia de substituição entre as NTs está em [[df-nfse-cgnfse-notas-tecnicas]]. **NT 004 (1ª versão, de
+19/08/2025)** e as **NTs 001 e 002** são citadas pelas outras, mas **não estão nas fontes**.
+
+Texto em `texto/` como nas demais NTs (`<arquivo>-vigente.txt` é a fonte das notas;
+`-riscado.md`, `.txt` e `-layout.txt` são apoio). As planilhas foram exportadas em TSV para consulta
+(`anexo-i-rn-recepcao-dps.tsv`, `anexo-i-mun-incid-info-serv.tsv`, `anexo-i-exportacao-emissao-nfs-e.tsv`
+e `-comentarios.tsv`, `anexo-i-leiaute-dps-nfs-e.tsv`, `anexo-i-rn-dps-nfs-e.tsv` e `-comentarios.tsv`,
+`anexo-vii-indop-cindop-public.tsv`). **Colunas das regras de recepção (Anexo I, aba `RN_RECEPCAO_DPS`):**
+K = emissores nacionais (recepção da DPS); L = emissores nacionais sob decisão judicial; M = compartilhamento
+com o ADN; N = ADN com decisão judicial; os níveis são 1, 2 e 3.
+
+**Lacunas conhecidas (pedir ao usuário quando necessário):** Anexo VI (LeiautesRN_RTC_IBSCBS, v1.04.00
+da NT 009), Anexo VIII (correlação item da NBS × cIndOp × cClassTrib), Anexos A (municípios IBGE e países
+ISO2) e B (lista nacional de serviços), Anexo IV (leiautes RN ADN da NFS-e Via), Manual para Emissão da
+NFS-e Via v1.02, Resolução CGNFS-e nº 9/2025, Anexo I atual (com os grupos `IBSCBS`), cronograma de
+implantação das NTs 005, 007 e 009 e o ato que fixa as datas do IBS/CBS na NFS-e.
 
 ## Tabelas online do Portal dos DF-e (SVRS)
 

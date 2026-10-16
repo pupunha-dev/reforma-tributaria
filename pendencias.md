@@ -3,7 +3,7 @@
 Controle do que está **em aberto**. Item decidido pela equipe sai daqui e vai
 para [decisions.md](decisions.md) (só posição adotada, regra 6 do
 [CLAUDE.md](CLAUDE.md)). Item resolvido por nova fonte sai daqui e a nota é
-atualizada. Data-base: 2026-10-08 (itens F11 a F13 incluídos em 2026-10-16).
+atualizada. Data-base: 2026-10-08 (itens F11 a F19 incluídos em 2026-10-16).
 
 ## A. Decisões da equipe (consultar depois)
 
@@ -26,9 +26,15 @@ seguem a hierarquia (lei > resolução) e mantêm o aviso ⚠️.
 | F8 | Versão atual da **Res. CGIBS 6/2026** (alterações depois de 30/04/2026, se houver) e a **data de publicação** | site do Comitê Gestor do IBS | [[regulamentos-cbs-ibs]], [[ibs-cbs-cadastro-regulamentacao]] (divergência CBS × IBS sobre PF e produtor rural PF) | **alta** |
 | F9 | Ato conjunto RFB/CGIBS com as **datas de obrigatoriedade** de cada documento fiscal (art. 112 dos regulamentos) | sites da RFB e do CGIBS | [[ibs-cbs-documento-fiscal-regulamentacao]] | alta |
 | F10 | Atos anuais (Ministro da Fazenda e CGIBS) com os **percentuais de crédito presumido** de produtor rural e TAC (divulgados até setembro, vigência em janeiro) | DOU / sites da RFB e do CGIBS | [[ibs-cbs-credito-presumido-regulamentacao]] | alta (2027) |
-| F11 | Ato que fixa as datas de obrigatoriedade do IBS/CBS na NFS-e que o guia cita (03/08/2026 regime regular; 01/01/2027 Simples, por fato gerador) | Portal da NFS-e Nacional; atos da RFB/CGIBS/CGNFS-e | [[df-nfse-visao-geral]], [[df-nfse-emissao-pessoas]], [[df-nfse-emissao-valores-ibs-cbs]] | alta |
-| F12 | Planilhas de leiaute **DPS e RN DPS** (`ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe`, v1.01 de 09/02/2026) e o **Anexo VII** (`IndOp_IBSCBS`), citados no guia | Portal da NFS-e Nacional → documentação técnica | [[df-nfse-emissao-pessoas]], [[df-nfse-emissao-servico]], [[df-nfse-emissao-valores-ibs-cbs]] | média |
-| F13 | Endereço oficial de origem do **Guia do Emissor** (o PDF não traz) e versão posterior à 1.2, se houver | Portal da NFS-e Nacional | [[df-nfse-visao-geral]] | baixa |
+| F11 | Ato que fixa as datas de obrigatoriedade do IBS/CBS na NFS-e que o guia cita (03/08/2026 regime regular; 01/01/2027 Simples, por fato gerador) | Portal da NFS-e Nacional; atos da RFB/CGIBS/CGNFS-e | [[df-nfse-visao-geral]], [[df-nfse-emissao-pessoas]], [[df-nfse-emissao-valores-ibs-cbs]], [[df-nfse-cgnfse-notas-tecnicas]] | alta |
+| F12 | **Anexo I atual** (leiaute e RN da DPS/NFS-e **com os grupos IBSCBS**; a NT 004 v2.00 cita "v1.00-20251210"; o guia cita v1.01 de 09/02/2026). A cópia nas fontes é de 09/09/2025, sem IBSCBS | Portal da NFS-e Nacional → documentação técnica | [[df-nfse-comercio-exterior]], [[df-nfse-layout-ibscbs]] | média |
+| F14 | **Anexo VI** (LeiautesRN_RTC_IBSCBS, v1.04.00 da NT 009): regras de negócio e rejeições do grupo IBSCBS | Portal da NFS-e → documentação técnica (anexo da NT 009) | [[df-nfse-layout-ibscbs]], [[df-nfse-cgnfse-notas-tecnicas]] | **alta** |
+| F15 | **Anexo VIII** (correlação item da NBS × cIndOp × cClassTrib) | idem (anexo da NT 005 e seguintes) | [[df-nfse-indop-ibscbs]] | alta |
+| F16 | **Cronograma de implantação** das NTs 005, 007 e 009 (notas de ajuste, `vAjusteBC`, `gLocacao`, `gTribSN`, `gPgtoVinc`, CNPJ alfanumérico, DANFSe v2.0) | portal da NFS-e ("cronograma de implantação") | [[df-nfse-cgnfse-notas-tecnicas]], [[df-nfse-layout-ibscbs]], [[df-nfse-danfse]] | alta |
+| F17 | Anexos **A** (municípios IBGE e países ISO2) e **B** (lista nacional de serviços e cTribNac/NBS) | idem | [[df-nfse-emissao-servico]], [[df-nfse-comercio-exterior]] | média |
+| F18 | **Resolução CGNFS-e nº 9/2025**, Manual para Emissão da NFS-e Via v1.02 e Anexo IV (leiautes RN ADN) | portal da NFS-e → NFS-e Via → documentação técnica | [[df-nfse-via]] | média |
+| F19 | NT 004 (1ª versão, 19/08/2025) e NTs 001 e 002; versão do **manual da API** posterior à 1.0 (o arquivo recebido não identifica a versão) | portal da NFS-e → documentação técnica | [[df-nfse-cgnfse-notas-tecnicas]] | baixa |
+| F13 | Endereço oficial de origem do **Guia do Emissor** e de cada **NT/anexo da SE/CGNFS-e** (os PDFs não trazem) e versão posterior à 1.2 do guia, se houver | Portal da NFS-e Nacional | [[df-nfse-visao-geral]] | baixa |
 | F7 | SC Cosit nº 66/2013 (CNAE × atividade real), citada na SC 71/2026 | Portal Normas da Receita | [[sn-cnae-impeditivos]], [[sn-solucoes-consulta]] | baixa |
 
 Os regulamentos da CBS e do IBS (antes F5 e F6) e a Res. CGSN 11/2007 (antes F2)
@@ -54,3 +60,10 @@ Nada em andamento.
   em sn-transacao e sn-recolhimento-das, condição "tpOp ≠ 2" da VB01-10, Exceção 4
   da B25-80, `extrair_nt.py` com riscado parcial (anotação StrikeOut coberta por
   teste) e `VERSAO_NT` com uma casa decimal.
+
+## E. Concluídos em 2026-10-16
+
+- Notas Técnicas da SE/CGNFS-e 003 a 010, Anexo I (cópia anterior ao RTC), Anexo VII v1.03.00 e manual da
+  API: seis notas novas ([[df-nfse-cgnfse-notas-tecnicas]], [[df-nfse-layout-ibscbs]],
+  [[df-nfse-comercio-exterior]], [[df-nfse-indop-ibscbs]], [[df-nfse-danfse]], [[df-nfse-via]]).
+  Resolveu a parte de F12 (Anexo VII e regras de comércio exterior); o que continua aberto está em F12 e F14 a F19.

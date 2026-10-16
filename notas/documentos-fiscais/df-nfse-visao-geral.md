@@ -107,3 +107,6 @@ regime regular: as duas datas valem para públicos diferentes.
 - [[ibs-cbs-documento-fiscal-regulamentacao]]: o documento fiscal na regulamentação
   do IBS/CBS.
 - [[df-visao-geral-reforma-nfe]]: o equivalente para a NF-e/NFC-e.
+- [[df-nfse-cgnfse-notas-tecnicas]]: as Notas Técnicas da SE/CGNFS-e (nível de NT, acima do
+  guia): cronologia, o que está em produção e o mapa dos anexos. Os campos do grupo IBSCBS
+  estão em [[df-nfse-layout-ibscbs]]; a NFS-e Via, em [[df-nfse-via]].

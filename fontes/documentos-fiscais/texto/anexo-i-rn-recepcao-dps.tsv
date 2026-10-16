@@ -1,0 +1,20 @@
+L1	#	REGRAS DE NEGÓCIO		APLIC.	EFEITO	CÓD. ERRO	MSG. ERRO	NOTAS EXPLICATIVAS
+L2	=ROW(A1)	Validação do Certificado de Transmissão		-	-	-	-	-
+L3	=ROW(A2)	Certificado de Transmissor Inválido: ⏎ - Certificado de Transmissor inexistente na mensagem ⏎ - Versão difere "3" ⏎ - Se informado o Basic Constraint deve ser true (não pode ser Certificado de AC) ⏎ - KeyUsage não define "Autenticação Cliente"		Obrig.	Rej.		Certificado de Transmissão Inválido	EM ANÁLISE
+L4	=ROW(A3)	Validade do Certificado (data início e data fim)		Obrig.	Rej.		Certificado de Transmissão expirado	EM ANÁLISE
+L5	=ROW(A4)	Verifica a Cadeia de Certificação: ⏎ - Certificado da AC emissora não cadastrado na RFB ⏎ - Certificado de AC revogado ⏎ - Certificado não assinado pela AC emissora do Certificado		Obrig.	Rej.		Certificado de Transmissão - Erro Cadeira de Certificação	EM ANÁLISE
+L6	=ROW(A5)	LCR do Certificado de Transmissor ⏎ - Falta o endereço da LCR (CRL DistributionPoint) ⏎ - LCR indisponível ⏎ - LCR inválida		Obrig.	Rej.		Certificado de Transmissão - Erro de acesso a LCR	EM ANÁLISE
+L7	=ROW(A6)	Certificado do Transmissor revogado		Obrig.	Rej.		Certificado de Transmissão revogado	EM ANÁLISE
+L8	=ROW(A7)	Certificado Raiz difere da "ICP-Brasil"		Obrig.	Rej.		Certificado de Transmissão difere da ICP - Brasil	EM ANÁLISE
+L9	=ROW(A8)	Falta a extensão de CNPJ ou CPF no Certificado (OtherName - OID=2.16.76.1.3.3)		Obrig.	Rej.		Certificado de Transmissão sem CNPJ ou CPF.	EM ANÁLISE
+L10	=ROW(A9)	Certificado da assinatura do lote - Erro na cadeia de certificação.		Obrig.	Rej.		Certificado da assinatura do lote - Erro na cadeia de certificação.	EM ANÁLISE
+L11	=ROW(A10)	Validação Inicial da Mensagem na API		-	-	-	-	-
+L12	=ROW(A11)	Verifica se o servidor de processamento está paralisado para manutenção		Obrig.	Rej.		Serviço paralisado para manutenção	EM ANÁLISE
+L13	=ROW(A12)	Validação da Área de Dados		-	-	-	-	-
+L14	=ROW(A13)	Falha na descompactado da base 64.		Obrig.	Rej.		Falha na decodificação da base 64 da área de dados	EM ANÁLISE
+L15	=ROW(A14)	Estrutura descompactada mal formada.		Obrig.	Rej.		Estrutura descompactada mal formada.	EM ANÁLISE
+L16	=ROW(A15)	Validação dos Tipos de Documentos		-	-	-	-	-
+L17	=ROW(A16)	Validar os tipos de DF-e tratados pelo Sistema Nacional NFS-e.		Obrig.	Rej.		Tipo DF-e não tratado pelo Sistema Nacional NFS-e.	EM ANÁLISE
+L18	=ROW(A17)	Uso de prefixo de namespace não permitido na área de dados descompactada.		Obrig.	Rej.		Uso de prefixo de namespace não permitido na área de dados descompactada.	EM ANÁLISE
+L19	=ROW(A18)	XML não está utilizando codificação UTF8.		Obrig.	Rej.		XML não está utilizando codificação UTF8.	EM ANÁLISE
+L20	=ROW(A19)	Falha no esquema XML do DF-e.		Obrig.	Rej.		Falha no esquema XML do DF-e.	EM ANÁLISE

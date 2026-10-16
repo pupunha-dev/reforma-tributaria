@@ -1,0 +1,763 @@
+   Projeto Reforma Tributária do Consumo –
+              Adequações NFS-e
+                 Nota Técnica Nº 009 – Versão 1.0
+
+
+
+
+                             4 de junho de 2026
+
+Secretaria-Execu va do Comitê Gestor da Nota Fiscal de Serviço Eletrônica
+                   de Padrão Nacional (SE/CGNFS-e)
+                                                                        Sumário
+
+1.    Introdução ................................................................................................................................................. 3
+2     Atualizações ............................................................................................................................................... 3
+2.1      CNPJ Alfanumérico ................................................................................................................................. 3
+2.2      Notas de Ajuste de IBS/CBS ................................................................................................................... 3
+2.3      Reestruturação ou merge dos grupos “vDedRed” e “gReeRepRes” ...................................................... 4
+2.4      Evoluções para o Simples Nacional........................................................................................................ 8
+2.5      Reinserção do campo “indFinal” ......................................................................................................... 10
+2.6      Restruturação das Informações de Operações com Bens Imóveis ...................................................... 10
+2.7      Alteração do nome do grupo “gLocBensMoveis” para “bensMoveis” ................................................ 12
+2.8      Criação do grupo “gPgtoVinc” ............................................................................................................. 12
+
+
+
+
+                                                                                                                                                                  2
+                1. Introdução
+
+                   Este documento contempla atualizações acerca do layout da Nota Fiscal de Serviço eletrônica
+           – NFS-e padrão nacional, complementando ou ajustando o conteúdo anteriormente descrito nas Notas
+           Técnicas anteriores.
+
+                   Junto a esta nota técnica, foram também publicadas, na seção de documentação técnica do
+           portal da NFS-e (https://www.gov.br/nfse/pt-br/biblioteca/documentacao-tecnica), atualizações dos
+           dois anexos listados abaixo:
+                   •   AnexoVI-LeiautesRN_RTC_IBSCBS-V1.04.00 – NT009.xlsx
+                         Este anexo possui o layout da NFS-e com as atualizações consolidadas para os ajustes
+                         do padrão nacional, incluindo os novos grupos referentes ao IBS e à CBS (“Leiaute
+                         DPS_NFS-e - RT”) e regras de negócio da NFS-e (esse novo layout, ao entrar em
+                         Produção, passará a ser identificado como ANEXO_I-SEFIN_ADN-DPS_NFSe-
+                         SNNFSe, com a devida identificação de versão);
+
+                   •   AnexoVII-IndOp_IBSCBS_V1.02.00.xlsx
+                         Composto por uma tabela com os códigos indicadores da operação que são
+                         referenciados no campo “cIndOp” da DPS. A tabela foi baseada no art. 11 da Lei
+                         Complementar – LC Nº 214, de 16 de janeiro de 2025.
+
+
+                  Todas as atualizações dos anexos acima em relação às suas versões anteriores, listadas nos
+           próximos tópicos desta NT, em estão marcadas na cor fúcsia.
+                  Nas próximas semanas, será publicado no portal da NFS-e o cronograma de implantação das
+           funcionalidades e evoluções presentes nesta Nota Técnica.
+
+           2    Atualizações
+
+                  2.1 CNPJ Alfanumérico
+
+                   Atualização dos campos “CNPJ” para o “TIPO” caractere (C) para contemplar o novo formato
+                   alfanumérico do Cadastro Nacional de Pessoas Jurídicas a ser implementado a partir de julho de 2026.
+                   Todos os campos CNPJ tiveram seus tipos alterados: de numérico (N) para caractere (C).
+
+                  2.2 Notas de Ajuste de IBS/CBS
+
+                   • Atualizações nas ocorrências (coluna “OCOR.”) de alguns grupos e campos para contemplar as
+                     possibilidades de notas de ajuste (débito ou crédito) que serão formalizadas por NFS-e, as quais,
+                     no AnexoVI-LeiautesRN_RTC_IBSCBS-V1.04.00 – NT009, estão marcadas na cor azul. Exemplo
+                     abaixo no grupo “valores”:
+NFSe/infNFSe/                     valores        G    -   0-1    -             Grupo de valores referentes ao serviço prestado
+
+
+
+                   • Criação da planilha “NFS-e_AJUSTE_LEIAUTE” com os tipos de notas de ajuste que serão
+                     possíveis no contexto da NFS-e e seus respectivos grupos/campos: marcados com X quando não
+                     deverão ser informados (DPS) ou não existirão no documento ou com V quando poderão ser
+
+                                                                                                                         3
+                           informados, entrando nas regras gerais. A planilha é um norteador dos campos que serão necessários
+                           para cada um dos tipos de NFS-e de ajuste;
+
+                      •    Criação do grupo “gIBSCBSAjuste”, para informação, na DPS, dos valores de ajuste de IBS e de
+                           CBS referentes às NFS-e de ajuste de crédito e de débito:
+
+
+
+NFSe/infNFSe/DPS/infDPS/I
+                                   gIBSCBSAjuste      G    -    0-1            -               Grupo de informações para as Notas de Ajuste
+BSCBS/valores/trib/
+NFSe/infNFSe/DPS/infDPS/IBSCB
+                                        vIBS          E    N     1-1      1-15V2                          Valor do IBS a ser ajustado.
+S/valores/trib/gIBSCBSAjuste/
+NFSe/infNFSe/DPS/infDPS/IBSCB
+                                        vCBS          E    N     1-1      1-15V2                          Valor da CBS a ser ajustado.
+S/valores/trib/gIBSCBSAjuste/
+
+
+                      • Deslocamento e atualização do domínio do campo “finNFSe”, bem como, a inserção dos campos
+                        “tpNFSeDebito” e “tpNFSeCredito”, a fim de contemplar as opções relativas às NFS-e de ajuste
+                        de crédito e de débito:
+                                                                                                 Indicador da finalidade da emissão de NFS-e
+
+NFSe/infNFSe/DPS/infDPS/               finNFSe        E    N   1-1       1                                    0 - NFS-e regular
+                                                                                                            1 - NFS-e de crédito
+                                                                                                            2 - NFS-e de débito
+                                                                                   Indicador do tipo de NFS-e de Ajuste de Débito (indicado apenas quando
+                                                                                                                 finNFSe = 2)
+
+                                                                                               01 - Transferência de créditos para Cooperativas
+NFSe/infNFSe/DPS/infDPS/            tpNFSeDebito      E    N   0-1       2                   02 - Anulação de Crédito por Saídas Imunes/Isentas
+                                                                                          03 - Débitos de notas fiscais não processadas na apuração
+                                                                                                               04 - Multa e juros
+                                                                                                   05 - Transferência de crédito na sucessão
+                                                                                                          06 - Pagamento Antecipado
+                                                                                   Indicador do tipo de NFS-e de Ajuste de Crédito (indicado apenas quando
+                                                                                                                 finNFSe = 1)
+NFSe/infNFSe/DPS/infDPS/            tpNFSeCredito     E    N   0-1       2
+                                                                                                              01 - Multa e juros
+                                                                                                  05 - Transferência de crédito na sucessão
+
+
+
+
+                      OBS: Algumas regras relacionadas às notas de ajuste foram inseridas na planilha RN DPS_NFS-e,
+                      mas foram tachadas uma vez que essas regras ainda estão em evolução e deverão passar por alterações.
+                      Optou-se por mantê-las na planilha, mesmo tachadas, para uma melhor compreensão da sistemática
+                      de obrigatoriedade dos campos e grupos que será implementada.
+
+                    2.3 Reestruturação ou merge dos grupos “vDedRed” e “gReeRepRes”
+
+                      Na DPS:
+
+                      • Os grupos “vDedRed” e “gReeRepRes”, que continham informações relativas aos valores de ajuste
+                        (dedução/redução) das bases de cálculo do ISSQN, do IBS e da CBS (esses dois últimos apenas
+                        ajustes por documentos), passaram por uma unificação, sendo agora denominado “vAjusteBC”. A
+                        alteração visa maior clareza, economia e concentração de campos com o mesmo teor informacional:
+NFSe/infNFSe/DPS/infDPS/v                                                          Grupo de informações relativas ao valores para ajuste dos valores
+                                     vAjusteBC        G    -   0-1       -
+alores/                                                                                                     de base de cálculo.
+NFSe/infNFSe/DPS/infDPS/valore                                                      Valor percentual padrão para ajuste dos valores de base de cálculo do
+                                   pAjusteBCISSQN     E    N   0-1     1-3V2
+s/vAjusteBC/                                                                                                       ISSQN.
+NFSe/infNFSe/DPS/infDPS/valore                                                      Valor monetário padrão para ajuste dos valores de base de cálculo do
+                                   vAjusteBCISSQN     E    N   0-1     1-15V2
+s/vAjusteBC/                                                                                                       ISSQN
+
+NFSe/infNFSe/DPS/infDPS/v                                                            Grupo de informações de documento utilizado para ajuste dos
+                                    documentos        G    -   0-1       -
+alores/vAjusteBC/                                                                         valores de base de cálculo (ISSQN e/ou IBS/CBS).
+
+
+
+
+                                                                                                                                              4
+NFSe/infNFSe/DPS/infDPS/v                                   1-
+alores/vAjusteBC/documento                                  10                Grupo de informações de documento utilizado para ajuste dos
+s                                 docAjusteBC     G    -    00      -              valores de base de cálculo (ISSQN e/ou IBS/CBS).
+                                                                                                     Tipo de Ajuste:
+
+                                                                                              1 – Alimentação e bebidas/frigobar;
+                                                                                                              2 – Materiais;
+                                                                                                        3 - Produção Externa;
+                                                                                                    4 - Reembolso de despesas;
+                                                                                                       5 – Repasse consorciado;
+                                                                                                     6 – Repasse plano de saúde;
+                                                                                                              7 – Serviços;
+                                                                                                8 – Subempreitada de mão de obra;
+                                                                                                        9 - Profissional parceiro;
+                                                                                           99 – Outras deduções exclusivas do ISSQN;
+                                                                            101 – Repasse de remuneração por intermediação de imóveis a demais
+                                                                                                  corretores envolvidos na operação
+                                                                                 102 – Repasse de valores a fornecedor relativo a fornecimento
+                                                                                                intermediado por agência de turismo
+                                                                           103 – Reembolso ou ressarcimento recebido por agência de propaganda e
+                                                                           publicidade por valores pagos relativos a serviços de produção externa por
+                                                                                                       conta e ordem de terceiro
+                                                                           104 – Reembolso ou ressarcimento recebido por agência de propaganda e
+                                                                             publicidade por valores pagos relativos a serviços de mídia por conta e
+                                                                                                            ordem de terceiro
+NFSe/infNFSe/DPS/infDPS/valore                                                                    105 – Glosa de Serviços de Saúde
+s/vAjusteBC/documentos/docAjus                                              199 – Outros reembolsos ou ressarcimentos recebidos por valores pagos
+teBC/                              tpAjusteBC     E    N    1-1    1-3                 relativos a operações por conta e ordem de terceiro
+                                                                           Descrição do ajuste quando o tipo informado (tpAjusteBC) é "99 – Outras
+NFSe/infNFSe/DPS/infDPS/valore                                                                     deduções exclusivas do ISSQN"
+s/vAjusteBC/documentos/docAjus    xTpAjusteBC     E    C    0-1   0-150                                             ou
+teBC/                                                                      "199 – Outros reembolsos ou ressarcimentos recebidos por valores pagos
+                                                                                      relativos a operações por conta e ordem de terceiro".
+NFSe/infNFSe/DPS/infDPS/valore                                                        Valor monetário total do documento informado (R$).
+s/vAjusteBC/documentos/docAjus                                              Este é o valor total no documento informado que é passível de ajuste de
+teBC/                               vTotDoc       E    N    1-1   1-15V2                                   base(s) de cálculo.
+
+
+NFSe/infNFSe/DPS/infDPS/valore                                             Valor monetário efetivamente utilizado para ajuste de base(s) de cálculo do
+s/vAjusteBC/documentos/docAjus                                                       valor do serviço da NFS-e que está sendo emitida (R$).
+teBC/                              vAjuteAplic    E    N    1-1   1-15V2         Deve ser menor ou igual ao valor total do documento (vTotDoc).
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus                                                             Data da emissão do documento dedutível.
+teBC/                              dtEmiDoc       E    D    0-1     -                           Ano, mês e dia (AAAA-MM-DD)
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus                                                           Data da competência do documento dedutível.
+teBC/                              dtCompDoc      E    D    0-1     -                           Ano, mês e dia (AAAA-MM-DD)
+NFSe/infNFSe/DPS/infDPS/v
+alores/vAjusteBC/documento                                                   Grupo de informações de documentos fiscais eletrônicos que se
+s/docAjusteBC/                    dFeNacional     CG   CG   1-1     -                        encontram no repositório nacional.
+                                                                           Documento fiscal a que se refere a chaveDfe que seja um dos documentos
+                                                                                                     do Repositório Nacional:
+                                                                                                           1 = NFS-e;
+NFSe/infNFSe/DPS/infDPS/valore                                                                              2 = NF-e;
+s/vAjusteBC/documentos/docAjus                                                                              3 = CT-e;
+teBC/dFeNacional/                 tipoChaveDFe    E    N    1-1     1                                      9 = Outro;
+NFSe/infNFSe/DPS/infDPS/valore                                             Descrição da DF-e a que se refere a chaveDfe que seja um dos documentos
+s/vAjusteBC/documentos/docAjus                                             do Repositório Nacional. Deve ser preenchido apenas quando tipoChaveDFe
+teBC/dFeNacional/                xTipoChaveDFe    E    C    0-1   1-255                                   = 9 (Outro).
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus                                             Chave do Documento Fiscal eletrônico do repositório nacional referenciado
+teBC/dFeNacional/                  chaveDFe       E    C    1-1    1-50                  para os casos de operações já tributadas.
+NFSe/infNFSe/DPS/infDPS/v
+alores/vAjusteBC/documento                                                 Grupo de informações de documento fiscais, eletrônicos ou não, que
+s/docAjusteBC/                   docFiscalOutro   CG   CG   1-1     -                   não se encontram no repositório nacional.
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus                                              Código do município emissor do documento fiscal que não se encontra no
+teBC/docFiscalOutro/             cMunDocFiscal    E    N    1-1     7                                repositório nacional
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus
+teBC/docFiscalOutro/               nDocFiscal     E    C    1-1   1-255     Número do documento fiscal que não se encontra no repositório nacional
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus
+teBC/docFiscalOutro/               xDocFiscal     E    C    1-1   1-255                          Descrição do documento fiscal
+NFSe/infNFSe/DPS/infDPS/v
+alores/vAjusteBC/documento
+s/docAjusteBC/                     docOutro       CG   CG   1-1     -                 Grupo de informações de documento não fiscal.
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus
+teBC/docOutro/                        nDoc        E    C    1-1   1-255                        Número do documento não fiscal.
+
+
+
+
+                                                                                                                                     5
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus
+teBC/docOutro/                       xDoc          E    C   1-1   1-255                      Descrição do documento não fiscal.
+NFSe/infNFSe/DPS/infDPS/v
+alores/vAjusteBC/documento
+s/docAjusteBC/                       fornec        G    -   0-1     -          Grupo de informações do fornecedor do serviço prestado
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus
+teBC/fornec/                         CNPJ          CE   C   1-1    14           Número da inscrição federal (CNPJ) do fornecedor de serviço.
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus
+teBC/fornec/                          CPF          CE   N   1-1    11            Número da inscrição federal (CPF) do fornecedor do serviço.
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus                                            Este elemento só deverá ser preenchido para fornecedores não residentes
+teBC/fornec/                          NIF          CE   C   1-1    40                                    no Brasil.
+
+
+
+                                                                                             Motivo para não informação do NIF:
+
+NFSe/infNFSe/DPS/infDPS/valore                                                              0 - Não informado na nota de origem;
+s/vAjusteBC/documentos/docAjus                                                                     1 - Dispensado do NIF;
+teBC/fornec/                        cNaoNIF        CE   N   1-1    1                              2 - Não exigência do NIF;
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus
+teBC/fornec/                         xNome         E    C   1-1   150                        Nome / Razão Social do fornecedor.
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus
+teBC/fornec/                          end          G    -   0-1     -                 Grupo de informações do endereço do fornecedor.
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus
+teBC/fornec/end/                    endNac        CG    -   1-1     -                   Grupo de informações do endereço nacional.
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus                                                         Código do município do endereço do fornecedor.
+teBC/fornec/end/endNac/              cMun          E    N   1-1    7                                 (Tabela do IBGE)
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus                                                    Código numérico do Endereçamento Postal nacional (CEP)
+teBC/fornec/end/endNac/               CEP          E    C   1-1    8                            do endereço do fornecedor.
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus
+teBC/fornec/end/                     endExt       CG    -   1-1     -                  Grupo de informações do endereço no exterior.
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus                                                     Código do país do endereço do prestador do fornecedor.
+teBC/fornec/end/endExt/              cPais         E    C   1-1    2                               (Tabela de Países ISO)
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus
+teBC/fornec/end/endExt/             cEndPost       E    C   1-1   1-11     Código alfanumérico do Endereçamento Postal no exterior do fornecedor.
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus
+teBC/fornec/end/endExt/             xCidade        E    C   1-1   1-60                   Nome da cidade no exterior do fornecedor.
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus
+teBC/fornec/end/endExt/           xEstProvReg      E    C   1-1   1-60         Estado, província ou região da cidade no exterior do fornecedor.
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus
+teBC/fornec/                          xLgr         E    C   1-1   1-255            Tipo e nome do logradouro do endereço do fornecedor.
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus
+teBC/fornec/                          nro          E    C   1-1   1-60               Número no logradouro do endereço do fornecedor.
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus
+teBC/fornec/                          xCpl         E    C   0-1   1-156                   Complemento do endereço do fornecedor.
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus
+teBC/fornec/                        xBairro        E    C   1-1   1-60                       Bairro do endereço do fornecedor.
+                                                                                             Número do telefone do fornecedor.
+NFSe/infNFSe/DPS/infDPS/valore                                                      (Preencher com o Código DDD + número do telefone.
+s/vAjusteBC/documentos/docAjus                                            Nas operações com exterior é permitido informar o código do país + código
+teBC/fornec/                          fone         E    N   0-1   6-20                      da localidade + número do telefone)
+NFSe/infNFSe/DPS/infDPS/valore
+s/vAjusteBC/documentos/docAjus
+teBC/fornec/                         email         E    C   0-1   1-80                              E-mail do fornecedor.
+
+
+                      • Para melhor compreensão acerca do novo grupo, foi criada, no AnexoVI-
+                        LeiautesRN_RTC_IBSCBS-V1.04.00 – NT009, a tabela “AJUSTE_BC_REPERCUSSÃO” com
+                        os tipos de ajuste e os seus respectivos efeitos nas bases de cálculo do ISSQN, do IBS/CBS e na
+                        Receita Bruta do Simples Nacional;
+
+                                                                                                                                     6
+                        • Os tipos de ajuste a seguir, presentes anteriormente em “vDedRed/documentos/docDedRed/
+                          tpDedRed” foram descontinuados na unificação em “vAjusteBC”, pelas seguintes razões:
+
+                                    o   “1 – Alimentação e bebidas/frigobar”: nos serviços de hotéis e motéis, quando esses
+                                        valores não integram o valor do serviço da diária ou hospedagem (base de cálculo do
+                                        ISSQN), alguns Municípios permitiam sua inclusão junto com o valor do serviço
+                                        propriamente dito, com “vServ” representando o valor total da operação (valor total
+                                        recebido) para entrega do documento ao tomador, com sua respectiva dedução da base
+                                        de cálculo do tributo municipal (ainda assim, evidentemente, era necessária a emissão
+                                        dos documentos de fornecimento de mercadorias). Ocorre que essa inclusão, por conta
+                                        do IBS e da CBS, não pode se dar na NFS-e, pois, afetariam a operacionalização do
+                                        cálculo desses tributos para esses fornecimentos (repita-se: de alimentos e bebidas),
+                                        já registrados em outros documentos fiscais eletrônicos de emissão desse mesmo
+                                        fornecedor;
+                                    o   “3 - Produção Externa”: para ter reflexo também no IBS e na CBS, esse tipo de
+                                        operação deve ser registrado pelo valor de ajuste “103”, que melhor o descreve, logo,
+                                        foi suprimido por estar redundante;
+                                    o   “4 - Reembolso de despesas”: os tipos que possuem reflexo também no IBS e na
+                                        CBS estão refletidos nos tipos ajuste “103”, “104” ou “199”, logo, foram suprimidos
+                                        por estarem redundantes e melhor representados nesses outros tipos. Caso algum outro
+                                        reembolso seja admitido pelo Município e não compreendido nos tipos acima
+                                        descritos, deve-se utilizar, com autorização municipal e apenas com reflexo na base
+                                        de cálculo do ISSQN, o tipo de ajuste “99”.
+
+                        Na NFS-e:
+
+                        • Alteração do nome do campo “vCalcDR” para “vCalcAjusteBCISSQN” visando maior clareza na
+                          descrição e na fórmula da base de cálculo do ISSQN, uma vez que o campo passará a contemplar
+                          os ajustes (deduções/reduções) por percentual ou por documentos incidentes sobre a base de cálculo
+                          deste tributo:
+
+                                                                             Valor monetário (R$) do ajuste (dedução/redução) da base de cálculo (BC) do
+NFSe/infNFSe/valores/            vCalcAjusteBCISSQN   E   N   0-1   1-15V2
+                                                                                                               ISSQN.
+
+
+
+
+                        OBS: Importante esclarecer que, em razão das evoluções trazidas neste tópico, a fórmula do cálculo
+                        do “vCalcAjusteBCISSQN” passou também por uma evolução em relação à fórmula de “vCalcDR”
+                        (antigo campo). Na nova fórmula, se levará em consideração todas as deduções que terão repercussão
+                        na base de cálculo do ISSQN (percentual + documentos, desde que o tipo de ajuste por documentos
+                        possa ser informado em concomitância com o ajuste percentual). Para mais detalhes, observar as notas
+                        explicativas do Anexo e, na planilha de regras de negócio “RN DPS_NFS-e”, a fórmula e as demais
+                        informações dispostas.
+
+                        • Atualização da fórmula de base de cálculo do ISSQN (NFSe/infNFSe/valores/vBC):
+                                                                                Valor da Base de Cálculo do ISSQN (R$) = Valor do Serviço - Desconto
+                                                                                 Incondicionado - Ajustes (Deduções/Reduções) - Benefício Municipal
+NFSe/infNFSe/valores/                   vBC           E   N   0-1   1-15V2
+                                                                               vBC = vServ - descIncond - (vAjusteBCISSQN + vCalcAjusteBCISSQN) -
+                                                                                                     (vRedBCBM ou VCalcBM)
+
+
+
+                                                                                                                                        7
+                       • Alteração do nome do campo “vCalcReeRepRes” para “vCalcAjusteBCIBSCBS” visando maior
+                         clareza na descrição e na fórmula da base de cálculo do IBS e da CBS, que passa a contemplar os
+                         ajustes (deduções/reduções ou reembolso, repasse ou ressarcimento) incidentes sobre a base de
+                         cálculo destes tributos:
+                                                                                                Valor monetário (R$) total relativo a glosa de serviços de saúde ou a
+                                                                                             operações de terceiros, objeto de reembolso, repasse ou ressarcimento pelo
+NFSe/infNFSe/IBSCBS/valores/      vCalcAjusteBCIBSCBS       E       N       0-1    1-15V2
+                                                                                               recebedor, devidamente referenciados, e que não integram da base de
+                                                                                                                    cálculo (BC) do IBS e da CBS.
+
+
+
+
+                       • No mesmo sentido, alteração do título do campo “vCalcDedRedIBSCBS” para
+                         “vCalcAjusteBCLocImoveis” que passa a contemplar tão-somente os ajustes (deduções/reduções)
+                         da base de cálculo do IBS e da CBS referentes às operações de locação, cessão onerosa ou
+                         arrendamento de bens imóveis (subitem 99.03):
+
+                                                                                              Valor monetário (R$) total relativo aos valores de ajuste (dedução/redução)
+                                                                                                da Base de Cálculo do IBS e da CBS referentes às operações de locação,
+NFSe/infNFSe/IBSCBS/valores/      vCalcAjusteBCLocImoveis       E       N    0-1    1-15V2
+                                                                                              cessão onerosa ou arrendamento de bens imóveis. Apenas para os subitens
+                                                                                                                                  99.03.
+
+
+
+
+                       • Atualização da fórmula de base de cálculo do IBS/CBS (NFSe/infNFSe/IBSCBS/valores/vBC):
+                                                                                              Valor da base de cálculo (BC) do IBS/CBS antes das reduções para cálculo
+                                                                                                                          do tributo bruto.
+
+                                                                                                       vBC = vServ - descIncond – vCalcAjusteBCIBSCBS ou
+                                                                                                 vCalcAjusteBCLocImoveis – vISSQN – vPIS - vCOFINS (até 2026)
+NFSe/infNFSe/IBSCBS/valores/               vBC                  E       N    1-1    1-15V2
+                                                                                                                                  ou
+
+                                                                                                       vBC = vServ - descIncond – vCalcAjusteBCIBSCBS ou
+                                                                                                     vCalcAjusteBCLocImoveis – vISSQN (de 2027 até 2032)
+
+
+
+
+                       2.4 Evoluções para o Simples Nacional
+
+                       Para o correto destaque de alíquotas e valores de IBS/CBS na NFS-e, quando esses tributos são
+                       apurados pelo Simples Nacional, o layout do documento fiscal passou por evoluções e pelas adaptações
+                       que se seguem:
+
+                       Na DPS:
+
+                       • Atualização do domínio do campo “opSimpNac” para inclusão da opção “4 – Optante Pendente”,
+                         buscando atender à situação em que o prestador de serviços tem sua opção pelo regime do Simples
+                         Nacional ainda pendente de regularização/julgamento:
+                                                                                                                  Situação perante Simples Nacional:
+
+NFSe/infNFSe/DPS/infDPS/prest/r                                                                                            1 - Não Optante;
+                                        opSimpNac               E       N    1-1       1
+egTrib/                                                                                                   2 - Optante - Microempreendedor Individual (MEI);
+                                                                                                 3 - Optante - Microempresa ou Empresa de Pequeno Porte (ME/EPP);
+                                                                                                                       4 - Optante Pendente;
+
+
+
+
+                       • Inserção do campo “regApIBSCBSSN” que permitirá a indicação do regime de apuração tributária
+                         do IBS e da CBS para o prestador de serviços optante pelo regime do Simples Nacional ou cuja
+                         opção esteja pendente:
+
+                                                                                                                                                        8
+                                                                              Regime de Apuração Tributária pelo Simples Nacional para IBS e CBS.
+NFSe/infNFSe/DPS/infDPS/prest/r
+                                   regApIBSCBSSN     E   N   0-1     1                           1 - IBS e CBS apurados pelo SN;
+egTrib/
+                                                                                   2 - CBS apurada pelo SN e IBS apurado pelo regime regular;
+                                                                                           3 - IBS e CBS apurados pelo regime regular
+
+
+
+
+                       • Inserção do campo “cAtvSN” a fim de que o prestador de serviços optante pelo regime do Simples
+                         Nacional ou cuja opção esteja pendente indique o enquadramento de sua atividade no regime do
+                         Simples Nacional, conforme a Lei Complementar nº 123/2006:
+
+                                                                            Código da atividade do Simples Nacional, conforme a Lei Complementar nº
+                                                                                                           123/2006:
+
+                                                                              7 - Prestação de serviços, cessão de direitos, de uso ou de espaço com
+                                                                                    incidência do ISS, tributados exclusivamente pelo Anexo III.
+                                                                            8 - Prestação de serviços contábeis autorizados a pagar o ISS em valor fixo
+                                                                                                    em guia do Município - Anexo III.
+                                                                                 9 - Prestação de serviços - Sujeitos ao Fator “R” – Anexo III ou V.
+                                                                            10 - Prestação de serviços de transporte municipal rodoviário, metroviário,
+NFSe/infNFSe/DPS/infDPS/serv/c
+                                       cAtvSN        E   N   0-1     2       ferroviário e aquaviário de passageiros relacionados no subitem 16.01 da
+Serv/
+                                                                                                lista anexa à LC 116/2003 - Anexo III.
+                                                                             11 - Locação de bens móveis e operações com serviços, bens imateriais e
+                                                                              direitos, inclusive com bens imóveis, sem incidência de ISS - Anexo III.
+                                                                              12 - Prestação de serviços da área da construção civil relacionados nos
+                                                                                   subitens 7.02 e 7.05 da lista anexa à LC 116/2003 - Anexo III.
+                                                                              13 - Prestação de serviços da área da construção civil relacionados nos
+                                                                                   subitens 7.02 e 7.05 da lista anexa à LC 116/2003 - Anexo IV.
+                                                                                                14 - Prestação de serviços - Anexo IV.
+                                                                                                     90 - Operações não tributadas.
+
+
+
+
+                  OBS: Em observância à padronização das informações constantes nos documentos fiscais de padrão
+                  nacional, manteve-se a numeração ordinal da relação de códigos da atividade do Simples Nacional,
+                  conforme a Lei Complementar nº 123/2006, adotando-se, no domínio do referido campo, apenas aqueles
+                  aplicáveis às operações abrangidas pela NFS-e.
+                       Na NFS-e:
+
+                       • Inserção do campo “vReceitaBrutaSN” que representará o valor da receita bruta para os optantes
+                         pelo regime do Simples Nacional e servirá de base para a apuração dos tributos abarcados por este
+                         regime:
+                                                                                  Valor da Receita Bruta para os Optantes do Simples Nacional.
+
+                                                                                 vReceitaBrutaSN = vServ - descIncond - vCalcAjusteBCIBSCBS -
+NFSe/infNFSe/IBSCBS/valores/       vReceitaBrutaSN   E   N   0-1   1-15V2                           vCalcAjusteBCISSQN*
+
+                                                                                  *apenas quando o valor calculado se referir à soma a partir de
+                                                                                   docAjusteBC/tpAjusteBC do tipo = "9 - Profissional parceiro"
+
+
+
+                       • Criação do grupo “gTribSN” que conterá as informações da composição do valor do IBS e da CBS
+                         para os optantes pelo regime do Simples Nacional com regime de apuração da CBS e/ou do IBS
+                         por esse regime de apuração:
+NFSe/infNFSe/IBSCBS/totCIB                                                  Grupo de informações da composição do valor do IBS e da CBS para
+                                      gTribSN        G   -   0-1     -
+S/                                                                                                     o Simples Nacional
+NFSe/infNFSe/IBSCBS/totCIBS/g                                                  Alíquota do IBS Total calculada apenas para os Optantes do Simples
+                                       pIBSSN        E   N   0-1   1-2V2
+TribSN/                                                                                                      Nacional.
+NFSe/infNFSe/IBSCBS/totCIBS/g
+                                       vIBSSN        E   N   0-1   1-15V2               Valor do IBS para os Optantes do Simples Nacional
+TribSN/
+NFSe/infNFSe/IBSCBS/totCIBS/g
+                                      pCBSSN         E   N   1-1   1-2V2          Alíquota da CBS apenas para os Optantes do Simples Nacional.
+TribSN/
+NFSe/infNFSe/IBSCBS/totCIBS/g
+                                      vCBSSN         E   N   1-1   1-15V2              Valor da CBS para os Optantes do Simples Nacional
+TribSN/
+
+
+
+                                                                                                                                      9
+                 OBS: Em razão da necessidade de criação do grupo acima para o correto destaque do IBS e da CBS para
+                 os optantes ou pendentes com regime de apuração desses tributos pelo Simples Nacional, foi necessária a
+                 mudança da ocorrência (OCOR.) em alguns campos/grupos na NFS-e que antes eram obrigatórios, são
+                 eles: vIBSTot, gIBSUFTot, gIBSMunTot, pCredPresCBS, vCredPresCBS e vCBS.
+
+
+                     2.5 Reinserção do campo “indFinal”
+
+                    Reinserção do campo “indFinal” para indicação de operações que se configurem como de uso ou
+                    consumo pessoal, na forma do art. 57, da Lei Complementar 214/2025:
+                                                                                Indica operação de uso ou consumo pessoal. (art. 57)
+NFSe/infNFSe/DPS/infDPS/IBSCB
+                                    indFinal       E     N   0-1    1
+S/                                                                                                    0 - Não
+                                                                                                      1 - Sim
+
+
+                     2.6 Restruturação das Informações de Operações com Bens Imóveis
+
+
+                 As informações relativas a operações envolvendo bens imóveis — exceto obras —, que serão formalizadas
+                 por meio de NFS-e, tanto aquelas situadas no campo de incidência do ISSQN quanto as enquadradas como
+                 novos fatos geradores (locação, cessão onerosa ou arrendamento de bens imóveis), passaram por um
+                 conjunto de evoluções. As principais alterações são as seguintes:
+                     Na DPS:
+                     Reestruturação do grupo “imovel”:
+
+                     • Criação do grupo “gLocacao” referente às informações decorrentes, exclusivamente, de operações
+                       de locação, cessão onerosa ou arrendamento de bens imóveis, que servirão de base para a definição
+                       dos valores de “vServ”, “vDescIncond” e “vDescCond”, do grupo de valores do serviço prestado
+                       na DPS;
+
+                     • Criação do grupo “gUnidImob” que permitirá a informação das unidades imobiliárias envolvidas
+                       nas operações. Neste grupo poderão ser relacionados até 99 (noventa e nove) registros, permitindo
+                       a emissão de uma única NFS-e em operações que envolvam 2 (duas) ou mais unidades imobiliárias
+                       que estejam num mesmo contexto: mesmos atores (Prestador/Fornecedor e Tomador/Adquirente),
+                       mesmo município (cMun) e mesmo percentual de copropriedade (pCopropriedade);
+
+                     • Alteração do nome do grupo “gDedRedIBSCBS” para “gAjusteBCLocImoveis”, bem como dos
+                       nomes dos campos relacionados (tpAjusteBCLocImoveis, xTpAjusteBCLocImoveis e
+                       vAjusteBCLocImoveis), de forma a melhor identificar os grupos/campos de informações de ajustes
+                       (deduções/reduções) relacionados às operações de locação, cessão onerosa ou arrendamento de
+                       bens imóveis. As informações constantes no grupo “gAjusteBCLocImoveis” irão compor, na NFS-
+                       e, o campo vCalcAjusteBCLocImoveis que irá deduzir a base de cálculo do IBS/CBS dessas
+                       operações, conforme descrito no tópico 2.3;
+
+
+
+NFSe/infNFSe/DPS/infDPS/I                                                     Grupo de informações de operações relacionadas a bens
+                                    imovel         G     -    0-1       -
+BSCBS/                                                                                        imóveis, exceto obras.
+NFSe/infNFSe/DPS/infDPS/IBSCB                                                          Código do município do endereço do imóvel
+                                     cMun          E     N    1-1       7
+S/imovel/                                                                                          (Tabela do IBGE)
+
+
+                                                                                                                             10
+                                                                                    Grupo de informações relativas às operações de locação, cessão
+NFSe/infNFSe/DPS/infDPS/IBSCB         gLocacao           G    -    0-1       -
+                                                                                              onerosa ou arrendamento de bens imóveis
+S/imovel/
+                                                                                                         Percentual de Copropriedade
+NFSe/infNFSe/DPS/infDPS/IBSCB
+                                    pCopropriedade       E    N    1-1     1-2V2         (Caso só haja um locador, cedente ou arrendador, informar o
+S/imovel/gLocacao/
+                                                                                                    Percentual de Copropriedade de 100%)
+                                                                                                   Valor total da operação com bem imóvel
+                                                                                      (Informar o valor total da operação de locação, cessão onerosa ou
+                                                                                        arrendamento de bens imóveis, associado ao aluguel, renda ou
+NFSe/infNFSe/DPS/infDPS/IBSCB
+                                       vTotOper          E    N    1-1     1-15V2              equivalente, conforme art. 255 da LC 214/2025).
+S/imovel/gLocacao/
+                                                                                         Não deverá ser inserido neste campo o valor proporcional do
+                                                                                                                coproprietário.
+                                                                                                   Valor total do Desconto Incondicionado
+NFSe/infNFSe/DPS/infDPS/IBSCB
+                                    vDescIncondTot       E    N    0-1     1-15V2     (Informar o valor total do desconto incondicionado na operação de
+S/imovel/gLocacao/
+                                                                                         locação, cessão onerosa ou arrendamento de bens imóveis)
+
+                                                                                                    Valor total do Desconto Condicionado
+NFSe/infNFSe/DPS/infDPS/IBSCB
+                                     vDescCondTot        E    N    0-1     1-15V2     (Informar o valor total do desconto incondicionado na operação de
+S/imovel/gLocacao/
+                                                                                         locação, cessão onerosa ou arrendamento de bens imóveis)
+
+                                                                                                         Data de vencimento original
+                                                                                                        Ano, Mês e Dia (AAAA-MM-DD)
+NFSe/infNFSe/DPS/infDPS/IBSCB
+                                       dVencOrig         E    D    0-1       -      (Informar data de vencimento original do aluguel, renda ou equivalente
+S/imovel/gLocacao/
+                                                                                       na operação de locação, cessão onerosa ou arrendamento de bens
+                                                                                                                   imóveis)
+NFSe/infNFSe/DPS/infDPS/I                                                           Grupo de informações relativas às unidades imobiliárias objeto
+                                      gUnidImob          G    -    0-99      -
+BSCBS/imovel/                                                                                               da operação
+                                                                                                           Inscrição imobiliária fiscal
+NFSe/infNFSe/DPS/infDPS/IBSCB
+                                     inscImobFisc        E    C    0-1     1-30      (código fornecido pela prefeitura para a identificação da obra ou para
+S/imovel/gUnidImob/
+                                                                                                        fins de recolhimento do IPTU)
+NFSe/infNFSe/DPS/infDPS/IBSCB
+                                         cCIB            CE   C    1-1       8                  Código do Cadastro Imobiliário Brasileiro - CIB
+S/imovel/gUnidImob/
+NFSe/infNFSe/DPS/infDPS/I
+                                         end             CG   -    1-1       -                Grupo de informações do endereço do imóvel.
+BSCBS/imovel/gUnidImob/
+                                                                                    Código numérico do Endereçamento Postal nacional (CEP) do endereço
+NFSe/infNFSe/DPS/infDPS/IBSCB
+                                         CEP             E    N    1-1       8                                  do imóvel.
+S/imovel/gUnidImob/end/
+                                                                                                   (Informar os zeros não significativos)
+NFSe/infNFSe/DPS/infDPS/IBSCB
+                                         xLgr            E    C    1-1     1-255              Tipo e nome do logradouro do endereço do imóvel.
+S/imovel/gUnidImob/end
+NFSe/infNFSe/DPS/infDPS/IBSCB
+                                          nro            E    C    1-1      1-60                Número no logradouro do endereço do imóvel.
+S/imovel/gUnidImob/end
+NFSe/infNFSe/DPS/infDPS/IBSCB
+                                         xCpl            E    C    0-1     1-156                    Complemento do endereço do imóvel.
+S/imovel/gUnidImob/end
+NFSe/infNFSe/DPS/infDPS/IBSCB
+                                        xBairro          E    C    0-1      1-60                        Bairro do endereço do imóvel.
+S/imovel/gUnidImob/end
+                                                                                           Grupo de informações relativas a valores de ajuste
+NFSe/infNFSe/DPS/infDPS/I        gAjusteBCLocImovei                                      (dedução/redução) da Base de Cálculo do IBS e da CBS
+                                                         G    -   0-1000     -
+BSCBS/imovel/gUnidImob/                   s                                              referentes às operações de locação, cessão onerosa ou
+                                                                                                      arrendamento de bens imóveis
+                                                                                      Tipo de parcela não integrante da base de cálculo do IBS e da CBS
+
+                                                                                          01 = Tributos inclusos no aluguel ou equivalente (Ex.: IPTU,
+                                                                                         Contribuição de melhoria) - apenas para NBS 1.1002.10.00 ou
+NFSe/infNFSe/DPS/infDPS/IBSCB                                                                                    1.1002.20.00
+S/imovel/gUnidImob/gAjusteBCLo   tpAjusteBCLocImoveis    E    N    1-1       2      02 = Emolumento incluso no aluguel ou equivalente - apenas para NBS
+cImoveis/                                                                                                1.1002.10.00 ou 1.1002.20.00
+                                                                                    03 = Condomínio incluso no aluguel ou equivalente - apenas para NBS
+                                                                                                         1.1002.10.00 ou 1.1002.20.00
+                                                                                            04 = Redutor Social - apenas para a NBS 1.1002.10.00
+                                                                                            99 = Outras parcelas inclusas no aluguel ou equivalente
+NFSe/infNFSe/DPS/infDPS/IBSCB                                                       Descrição do tipo de parcela não integrante da base de cálculo do IBS e
+S/imovel/gUnidImob/gAjusteBCLo   xTpAjusteBCLocImoveis   E    C    0-1     0-150     da CBS quando a opção for "99 = Outras parcelas inclusas no aluguel
+cImoveis/                                                                                                       ou equivalente".
+                                                                                    Valor monetário utilizado para não inclusão na base de cálculo do IBS e
+NFSe/infNFSe/DPS/infDPS/IBSCB                                                                    da CBS da NFS-e que está sendo emitida (R$).
+S/imovel/gUnidImob/gAjusteBCLo    vAjusteBCLocImoveis    E    N    1-1     1-15V2    (Informar o valor total da parcela não integrante da base de cálculo -
+cImoveis/                                                                             IPTU, Condomínio, Redutor social, etc. -, não devendo ser inserido o
+                                                                                                      valor proporcional do coproprietário)
+
+
+                      • Em razão da criação do grupo “gLocacao” em “imoveis”, foram promovidas alterações nas regras
+                        de validação dos campos “vServ”, “vDescIncond” e “vDescCond”:
+
+
+
+
+                                                                                                                                         11
+                                                                                                 Valor monetário do serviço (R$).
+NFSe/infNFSe/DPS/infDPS/valore
+                                      vServ         E   N     1-1    1-15V2
+s/vServPrest/                                                                   (Para os códigos de tributação nacional do subitem 99.03, vServ =
+                                                                                                   pCopropriedade x vTotOper)
+NFSe/infNFSe/DPS/infDPS/v                                                      Grupo de informações relativas aos descontos condicionados e
+                                 vDescCondIncond    G   -     0-1      -
+alores/                                                                                               incondicionados
+                                                                                       Valor monetário do desconto incondicionado (R$).
+NFSe/infNFSe/DPS/infDPS/valore
+                                   vDescIncond      E   N     0-1    1-15V2
+s/vDescCondIncond/                                                            (Para os códigos de tributação nacional do subitem 99.03, vDescIncond
+                                                                                               = pCopropriedade x vDescIncondTot)
+                                                                                         Valor monetário do desconto condicionado (R$).
+NFSe/infNFSe/DPS/infDPS/valore
+                                    vDescCond       E   N     0-1    1-15V2
+s/vDescCondIncond/                                                            (Para os códigos de tributação nacional do subitem 99.03, vDescCond =
+                                                                                                 pCopropriedade x vDescCondTot)
+
+
+
+
+                      2.7 Alteração do nome do grupo “gLocBensMoveis” para “bensMoveis”
+
+                        A alteração objetiva padronizar os nomes dos grupos relacionados aos novos fatos geradores
+                        (“imovel" e “bensMoveis”). Além disso, o grupo passou a permitir a inserção de até 1.000 (mil)
+                        registros:
+NFSe/infNFSe/DPS/infDPS/I                                                       Grupo de informações relativas aos bens móveis objetos de
+                                   bensMoveis       G   -   0-1000     -
+BSCBS/                                                                                                   locação
+
+
+
+                      2.8 Criação do grupo “gPgtoVinc”
+
+                        Grupo responsável pelas informações da vinculação da NFS-e à transação de pagamento relacionada,
+                        quando essas informações puderem ser disponibilizadas até o momento da emissão do documento
+                        fiscal (evento com mesma estrutura será implementado para que seja registrado nos casos em que a
+                        informação de pagamento só poderá ser informada após a emissão do documento fiscal). Poderão ser
+                        vinculadas até 99 (noventa e nove) transações de pagamento para uma mesma NFS-e:
+NFSe/infNFSe/DPS/infDPS/I                                                         Grupo de informações da vinculação com a transação de
+                                    gPgtoVinc       G   -     0-1      -
+BSCBS/                                                                                                 pagamento
+NFSe/infNFSe/DPS/infDPS/I
+                                       pgto         G   -    1-99      -                 Dados dos pagamentos vinculados à NFS-e
+BSCBS/gPgtoVinc/
+NFSe/infNFSe/DPS/infDPS/IBSCB
+                                       nPag         E   N     1-1      3                      Numerador único de cada pagamento
+S/gPgtoVinc/pgto/
+NFSe/infNFSe/DPS/infDPS/IBSCB                                                    Identificador específico da transação financeira, de acordo com o
+                                    idTransacao     E   C     1-1     2-35
+S/gPgtoVinc/pgto/                                                                                            pagamento.
+                                                                                              Código do meio de pagamento utilizado:
+
+                                                                                                          15 = Boleto
+NFSe/infNFSe/DPS/infDPS/IBSCB                                                                      17 = Pix QRCode dinâmico
+                                    tpMeioPgto      E   N     1-1      2
+S/gPgtoVinc/pgto/                                                                                          18 = TED
+                                                                                               20 = PIX chave ou QRCode estático
+                                                                                                      23 = Pix automático
+                                                                                                    24 = TEF / booktransfer
+NFSe/infNFSe/DPS/infDPS/IBSCB                                                 CNPJ completo do recebedor do pagamento (fornecedor, plataforma, ou
+                                    CNPJReceb       E   C     1-1     14
+S/gPgtoVinc/pgto/                                                                    outra entidade que receba o pagamento do adquirente).
+
+                                                                                CNPJ base da instituição financeira ou de pagamento utilizada pelo
+NFSe/infNFSe/DPS/infDPS/IBSCB                                                  recebedor do pagamento (fornecedor, plataforma, ou outra entidade
+                                   CNPJBasePSP      E   C     1-1      8
+S/gPgtoVinc/pgto/                                                                                               que
+                                                                                              receba o pagamento do adquirente).
+
+
+
+
+                                                CARLOS EDUARDO BURKLE
+                                            Auditor Fiscal de Tributos – Londrina/PR
+                      Secretário-Executivo da Secretaria-Executiva do Comitê Gestor da Nota Fiscal de Serviço
+                                             Eletrônica de Padrão Nacional (SE/CGNFS-e)
+
+
+                                                                                                                                    12
+
