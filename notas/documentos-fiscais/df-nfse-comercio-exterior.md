@@ -74,8 +74,21 @@ Observações do próprio leiaute:
 - `vincPrest`: o texto de ajuda deve dizer que a parte é "considerada vinculada" **nos
   termos do art. 23 da Lei 9.430/1996** (essa lei não está nas fontes: a nota só
   registra a referência).
-- `mecAFComexP` só existe na nota **do prestador**; `mecAFComexT` só na nota **do
-  tomador** (campos "disponíveis" para cada um).
+- ⚠️ **Quem preenche `mecAFComexP` e `mecAFComexT`: o Anexo I e o guia não dizem a mesma
+  coisa.** O Anexo I descreve `mecAFComexP` como "campo disponível na nota do prestador" e
+  `mecAFComexT` como "campo disponível na nota do tomador", mas os dois estão **dentro do
+  `comExt` com ocorrência 1-1**, e o **valor 0 é rejeitado** (E0341 e E0343). O **guia do
+  emissor** (seção 4.1.2, v1.2) mostra **os dois** como **obrigatórios** na tela de quem emite
+  a NFS-e. Na prática, quem emite como prestador e vê o campo do tomador na tela precisa
+  escolher uma opção (a lista tem "01 Nenhum"); as fontes **não explicam** como o Anexo I e a
+  tela se conciliam. O Anexo I das fontes é cópia de 09/09/2025 e o guia é de 27/07/2026, então
+  o anexo atual pode ter mudado: confirmar no Anexo I vigente. **Qual** mecanismo o tomador
+  usa é fato da operação, que nenhuma fonte escolhe.
+- ⚠️ **Vínculo (`vincPrest`): lista do guia ≠ lista do Anexo I.** O guia mostra as opções "sem
+  vínculo, controlada, controladora, coligada, matriz, outro vínculo e **desconhecido**" (sem
+  "filial"); o Anexo I tem 0 sem vínculo, 1 a 4, **5 filial ou sucursal** e 6 outro vínculo,
+  **sem** "desconhecido" (o 0 do Anexo I é "sem vínculo"). Vale o Anexo I (nível de NT); se a
+  tela do emissor mostrar "desconhecido", as fontes não dizem qual valor ele grava.
 - O **valor 0** ("desconhecido") de `mdPrestacao`, `mecAFComexP`, `mecAFComexT` e
   `movTempBens` existe **só para o compartilhamento** de NFS-e pelo município com o ADN
   (nota de origem sem a informação). Na Sefin Nacional a DPS com valor 0 é

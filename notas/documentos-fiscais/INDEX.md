@@ -65,7 +65,7 @@ regulamentos. A mais nova que altera um campo prevalece; o cronograma de produç
 **não está nas fontes**.
 
 - [[df-nfse-cgnfse-notas-tecnicas]] — **comece por aqui** nas perguntas sobre NT da NFS-e: cronologia das NTs 003 a 010, qual substitui qual, o que está em produção (05/01/2026, 09/02/2026), mapa dos anexos (I, VI, VII, VIII) e API do emissor nacional (POST /nfse, DPS, eventos, produção restrita)
-- [[df-nfse-layout-ibscbs]] — campos e fórmulas do grupo IBSCBS na DPS e na NFS-e: obrigatoriedade suspensa, vBC, alíquotas efetivas, vTotNF, PIS/COFINS (NT 007), notas de ajuste, Simples, imóvel, bens móveis, pagamento vinculado, CNPJ alfanumérico (NTs 004, 005, 007, 009)
+- [[df-nfse-layout-ibscbs]] — campos e fórmulas do grupo IBSCBS na DPS e na NFS-e: obrigatoriedade suspensa, vBC, alíquotas efetivas, vTotNF, PIS/COFINS (NT 007: significado de cada CST, como 06 alíquota zero, e tpRetPisCofins), notas de ajuste, Simples, imóvel, bens móveis, pagamento vinculado, CNPJ alfanumérico (NTs 004, 005, 007, 009)
 - [[df-nfse-comercio-exterior]] — exportação de serviço na NFS-e: grupo comExt (códigos de vínculo, moeda, mecanismos de apoio, DI/RE), NIF/cNaoNIF, rejeições E0330 a E0356 e E0590, as 112 combinações do Anexo I
 - [[df-nfse-indop-ibscbs]] — os 40 códigos do indicador da operação cIndOp (Anexo VII v1.03.00), como ler a tabela e o que ela não responde
 - [[df-nfse-danfse]] — DANFSe v2.0 (NT 008): blocos, supressões, QR Code, marcas d'água CANCELADA/SUBSTITUÍDA e suspensão da API de geração em 03/08/2026

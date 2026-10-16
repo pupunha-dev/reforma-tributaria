@@ -143,7 +143,7 @@ cujo texto está em [[ibs-cbs-base-calculo]]. A NT 009 renomeia `vCalcReeRepRes`
 - **`indZFMALC`** (0-1, grupo `IBSCBS` da DPS): indica o enquadramento nos **arts. 451 e 466 da
   LC 214/2025**, em que a alíquota da **CBS é reduzida a zero**: 0 não; 1 sim.
 - **PIS/COFINS** (`valores/trib/tribFed/piscofins`): nova lista de **CST** (00, 01 a 09, 49, 50 a
-  56, 60 a 67, 70 a 75, 98 e 99, a tabela de CST do PIS/COFINS) e novo domínio de
+  56, 60 a 67, 70 a 75, 98 e 99, a tabela de CST do PIS/COFINS; significados no quadro abaixo) e novo domínio de
   **`tpRetPisCofins`**: 0 PIS/COFINS/CSLL não retidos; 1 PIS/COFINS retido; 2 PIS/COFINS não
   retido; 3 PIS/COFINS/CSLL retidos; 4 PIS/COFINS retidos, CSLL não; 5 PIS retido, COFINS/CSLL
   não; 6 COFINS retido, PIS/CSLL não; 7 PIS não retido, COFINS/CSLL retidos; 8 PIS/COFINS não
@@ -170,6 +170,37 @@ cujo texto está em [[ibs-cbs-base-calculo]]. A NT 009 renomeia `vCalcReeRepRes`
 - **Número da NFS-e** (`nNFSe`): atribuído **só pela Sefin Nacional**; podem surgir **"pulos"**
   na sequência (número reservado e não persistido: timeouts, falhas, concorrência), e a NT diz
   que isso **não é irregularidade** do contribuinte.
+
+### Significado dos CST do PIS/COFINS (lista da NT 007)
+
+O campo `CST` (2 posições, obrigatório dentro do grupo `piscofins`) aceita os valores abaixo. Os
+nomes são os da NT 007 v1.0, que "atualiza o domínio" do campo. **Esta nota só diz o que cada
+código significa no leiaute; qual deles cabe a uma operação depende da legislação de
+PIS/COFINS, que não está nas fontes.**
+
+| CST | Significado na NT 007 |
+|---|---|
+| 00 | Nenhum |
+| 01 | Operação tributável com alíquota básica |
+| 02 | Operação tributável com alíquota diferenciada |
+| 03 | Operação tributável com alíquota por unidade de medida de produto |
+| 04 | Operação tributável monofásica — revenda a alíquota zero |
+| 05 | Operação tributável por substituição tributária |
+| **06** | **Operação tributável a alíquota zero** |
+| 07 | Operação isenta da contribuição |
+| 08 | Operação sem incidência da contribuição |
+| 09 | Operação com suspensão da contribuição |
+| 49 | Outras operações de saída |
+| 50 a 56 | Operação com direito a crédito, em variações pela origem da receita (tributada, não tributada, exportação e combinações no mercado interno) |
+| 60 a 67 | Crédito presumido (aquisição vinculada a cada tipo de receita; 67 = outras operações) |
+| 70 a 75 | Operação de aquisição: 70 sem direito a crédito; 71 com isenção; 72 com suspensão; 73 a alíquota zero; 74 sem incidência; 75 por substituição tributária |
+| 98 | Outras operações de entrada |
+| 99 | Outras operações |
+
+⚠️ **O Anexo I das fontes é anterior à NT 007** (arquivo de 09/09/2025) e traz só os CST 00 a
+09, com o 07 escrito como "Operação **Tributável** da Contribuição", que é erro de digitação
+da cópia: a NT 007 (mais nova, que altera o domínio) diz "Operação **Isenta** da Contribuição".
+Vale a NT 007.
 
 ## NT 009 v1.0 (04/06/2026): consolidação das evoluções
 

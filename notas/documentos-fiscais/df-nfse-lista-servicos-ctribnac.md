@@ -18,10 +18,10 @@ da lista nacional publicada no portal da NFS-e. Esta nota só **lista os código
 documento**: alíquota, local de incidência e benefícios do ISSQN são matéria municipal e **fora do
 escopo**. A tela de escolha do código está em [[df-nfse-emissao-servico]].
 
-> **Cuidado com a data da lista.** A página do portal de onde a tabela foi copiada diz
-> "atualizada em 20/08/2024", e o guia da NFS-e cita o arquivo do Anexo B com a data
-> "V1.01-20260122" (22/01/2026), que **não está nas fontes**. Se a lista do portal tiver
-> mudado desde então, esta tabela pode estar defasada. O título da página do portal usa o nome da
+> **Origem da lista.** A tabela foi copiada da página do portal da NFS-e, impressa em 16/10/2026;
+> a própria página informa "atualizada em 20/08/2024", ou seja, é a versão que o portal
+> publicava nessa data. (O guia cita o arquivo do Anexo B "V1.01-20260122"; ele não foi
+> fornecido e as fontes não indicam que difira desta lista.) O título da página do portal usa o nome da
 > lista da LC 116/2003, mas os códigos têm **6 dígitos** (item, subitem e desdobro nacional),
 > e não só os 4 dígitos da lei; por isso é a lista **nacional**, e a LC 116 não está nas fontes.
 
@@ -49,8 +49,7 @@ escopo**. A tela de escolha do código está em [[df-nfse-emissao-servico]].
 > ⚠️ **Divergência entre guia e Anexo I (obra).** O guia (v1.2) diz que o bloco "informações para obra"
 > aparece para os subitens **07.02 e 07.05**; o Anexo I (arquivo de 09/09/2025) permite o grupo de
 > obra em **11 códigos**, listados acima, que incluem também 07.04, 07.06, 07.07, 07.08, 07.17 e 07.19.
-> Pela hierarquia vale o Anexo I (nível de NT), mas o Anexo I em mãos é **anterior** ao guia: não
-> dá para saber qual é o mais recente. Confirme no Anexo I atual.
+> Pela hierarquia vale o Anexo I (nível de NT); o guia é só documentação operacional.
 
 ## Os 335 códigos
 
@@ -402,4 +401,5 @@ títulos dos itens**; a descrição de cada linha é a da fonte.
 - **Alíquota, local de incidência e retenção do ISSQN:** matéria municipal, fora do escopo.
 - **NBS e indicador da operação de cada código:** a correlação oficial (Anexo VIII) **não está nas
   fontes** ([[df-nfse-indop-ibscbs]]).
-- **Códigos criados ou extintos depois de 20/08/2024** (data da página do portal).
+- **Códigos criados ou extintos depois de 20/08/2024** (data informada pela página do portal): se a
+  pergunta for sobre a atualidade da lista, diga isso; nas demais, não é preciso lembrar.

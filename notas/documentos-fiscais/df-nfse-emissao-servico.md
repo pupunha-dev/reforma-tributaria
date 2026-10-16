@@ -125,10 +125,10 @@ Campos pedidos no bloco:
 | Campo | Regra |
 |---|---|
 | Modo de prestação | obrigatório: transfronteiriço, consumo no Brasil, movimento temporário de pessoas físicas ou consumo no exterior |
-| Vínculo entre as partes | obrigatório: sem vínculo, controlada, controladora, coligada, matriz, outro vínculo ou desconhecido |
+| Vínculo entre as partes | obrigatório: sem vínculo, controlada, controladora, coligada, matriz, outro vínculo ou desconhecido (⚠️ o Anexo I não tem "desconhecido" e tem "filial ou sucursal", que o guia não lista: [[df-nfse-comercio-exterior]]) |
 | Moeda | código de 3 dígitos numéricos da tabela do Banco Central |
 | Valor do serviço em moeda estrangeira | obrigatório |
-| Mecanismo de apoio/fomento do prestador e do tomador | obrigatório; listas (por exemplo ACC, ACE, BNDES-Exim, FGE, PROEX, RECINE, REIDI, ZPE) com a opção "Nenhum" |
+| Mecanismo de apoio/fomento do prestador e do tomador | obrigatório (os dois, na tela de quem emite); listas (por exemplo ACC, ACE, BNDES-Exim, FGE, PROEX, RECINE, REIDI, ZPE) com a opção "Nenhum". O Anexo I diz que cada campo é "disponível" na nota do respectivo lado: ⚠️ [[df-nfse-comercio-exterior]] |
 | Vínculo da operação a movimentação temporária de bens | obrigatório: não, vinculada a Declaração de Importação (informar o número averbado de DI/DSI/DA/DRI-E) ou vinculada a Declaração de Exportação (informar o Registro de Exportação averbado) |
 | Compartilhar a NFS-e com o **MDIC** | obrigatório: sim ou não |
 
