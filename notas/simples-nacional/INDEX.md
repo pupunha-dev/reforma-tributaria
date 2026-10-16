@@ -53,7 +53,7 @@ e a Res. CGSN 11/2007 (texto original, sobre arrecadação e partilha) entraram 
 - [[sn-recolhimento-das]] — DAS, retenção de ISS, restituição, compensação, parcelamento; split payment em 2027
 - [[sn-repasse-arrecadacao]] — partilha entre os entes; caminho do DAS até cada ente (Res. CGSN 11/2007); DAS mínimo de R$ 10,00; IBS do MEI 50%/50%
 - [[sn-creditos]] — crédito de ICMS (e, em 2027, de IBS/CBS) para quem compra de optante
-- [[sn-obrigacoes-acessorias]] — declarações, documentos fiscais, livro-caixa; NFS-e nacional em 01/11/2026; declaração assistida em 2027
+- [[sn-obrigacoes-acessorias]] — declarações, documentos fiscais, livro-caixa; NFS-e nacional obrigatória para ME/EPP optantes a partir de 01/11/2026 (Res. CGSN 191/2026, que altera o art. 59 da Res. 140); declaração assistida em 2027
 - [[sn-declaracoes-pgdas-defis]] — PGDAS-D (confissão de dívida, retificação, malha) e Defis; Defis vira bloco anual do PGDAS-D em 2027
 - [[sn-parcelamento]] — até 60 parcelas, redução de multa de 40%/20%, reparcelamento (10%/20%), rescisão
 

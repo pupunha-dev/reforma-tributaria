@@ -37,7 +37,7 @@ valem em 2027 ou 2029). Guia: [regulamentos-cbs-ibs.md](regulamentos-cbs-ibs.md)
 ## 2. Comércio exterior
 
 - [ibs-cbs-importacao.md](ibs-cbs-importacao.md) 🟡
-- [ibs-cbs-exportacao.md](ibs-cbs-exportacao.md) 🟡 — ECE, exportação sem saída física
+- [ibs-cbs-exportacao.md](ibs-cbs-exportacao.md) 🟡 — exportação de serviços e bens imateriais (consumo no exterior, art. 80), ECE, exportação sem saída física
 - [regimes-aduaneiros-especiais.md](regimes-aduaneiros-especiais.md) 🟡 — trânsito, depósito, drawback, Repetro
 - [zonas-processamento-exportacao.md](zonas-processamento-exportacao.md) 🔵
 - [regimes-bens-de-capital.md](regimes-bens-de-capital.md) 🟡 — Reporto, Reidi, Renaval, desoneração geral
