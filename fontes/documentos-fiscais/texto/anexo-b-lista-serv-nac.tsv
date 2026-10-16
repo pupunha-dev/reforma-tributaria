@@ -1,0 +1,581 @@
+L1	CÓDIGO DE TRIBUTAÇÃO NACIONAL	ITEM	SUBITEM	DESDOBRO NACIONAL	DESCRIÇÃO
+L2		1	0	0	Serviços de Informática e congêneres.
+L3		1	1	0	Análise e desenvolvimento de sistemas.
+L4	10101	1	1	1	Análise e desenvolvimento de sistemas.
+L5		1	2	0	Programação.
+L6	10201	1	2	1	Programação.
+L7		1	3	0	Processamento, armazenamento ou hospedagem de dados, textos, imagens, vídeos, páginas eletrônicas, aplicativos e sistemas de informação, entre outros formatos, e congêneres.
+L8	10301	1	3	1	Processamento de dados, textos, imagens, vídeos, páginas eletrônicas, aplicativos e sistemas de informação, entre outros formatos, e congêneres.
+L9	10302	1	3	2	Armazenamento ou hospedagem de dados, textos, imagens, vídeos, páginas eletrônicas, aplicativos e sistemas de informação, entre outros formatos, e congêneres.
+L10		1	4	0	Elaboração de programas de computadores, inclusive de jogos eletrônicos, independentemente da arquitetura construtiva da máquina em que o programa será executado, incluindo tablets, smartphones e congêneres.
+L11	10401	1	4	1	Elaboração de programas de computadores, inclusive de jogos eletrônicos, independentemente da arquitetura construtiva da máquina em que o programa será executado, incluindo tablets, smartphones e congêneres.
+L12		1	5	0	Licenciamento ou cessão de direito de uso de programas de computação.
+L13	10501	1	5	1	Licenciamento ou cessão de direito de uso de programas de computação.
+L14		1	6	0	Assessoria e consultoria em informática.
+L15	10601	1	6	1	Assessoria e consultoria em informática.
+L16		1	7	0	Suporte técnico em informática, inclusive instalação, configuração e manutenção de programas de computação e bancos de dados.
+L17	10701	1	7	1	Suporte técnico em informática, inclusive instalação, configuração e manutenção de programas de computação e bancos de dados.
+L18		1	8	0	Planejamento, confecção, manutenção e atualização de páginas eletrônicas.
+L19	10801	1	8	1	Planejamento, confecção, manutenção e atualização de páginas eletrônicas.
+L20		1	9	0	Disponibilização, sem cessão definitiva, de conteúdos de áudio, vídeo, imagem e texto por meio da internet, respeitada a imunidade de livros, jornais e periódicos (exceto a distribuição de conteúdos pelas prestadoras de Serviço de Acesso Condicionado, de que trata a Lei nº 12.485, de 12 de setembro de 2011, sujeita ao ICMS).
+L21	10901	1	9	1	Disponibilização, sem cessão definitiva, de conteúdos de áudio por meio da internet (exceto a distribuição de conteúdos pelas prestadoras de Serviço de Acesso Condicionado, de que trata a Lei nº 12.485, de 12 de setembro de 2011, sujeita ao ICMS).
+L22	10902	1	9	2	Disponibilização, sem cessão definitiva, de conteúdos de vídeo, imagem e texto por meio da internet, respeitada a imunidade de livros, jornais e periódicos (exceto a distribuição de conteúdos pelas prestadoras de Serviço de Acesso Condicionado, de que trata a Lei nº 12.485, de 12 de setembro de 2011, sujeita ao ICMS).
+L23		2	0	0	Serviços de pesquisas e desenvolvimento de qualquer natureza.
+L24		2	1	0	Serviços de pesquisas e desenvolvimento de qualquer natureza.
+L25	20101	2	1	1	Serviços de pesquisas e desenvolvimento de qualquer natureza.
+L26		3	0	0	Serviços prestados mediante locação, cessão de direito de uso e congêneres.
+L27		3	2	0	Cessão de direito de uso de marcas e de sinais de propaganda.
+L28	30201	3	2	1	Cessão de direito de uso de marcas e de sinais de propaganda.
+L29		3	3	0	Exploração de salões de festas, centro de convenções, escritórios virtuais, stands, quadras esportivas, estádios, ginásios, auditórios, casas de espetáculos, parques de diversões, canchas e congêneres, para realização de eventos ou negócios de qualquer natureza.
+L30	30301	3	3	1	Exploração de salões de festas, centro de convenções, stands e congêneres, para realização de eventos ou negócios de qualquer natureza.
+L31	30302	3	3	2	Exploração de escritórios virtuais e congêneres, para realização de eventos ou negócios de qualquer natureza.
+L32	30303	3	3	3	Exploração de quadras esportivas, estádios, ginásios, canchas e congêneres, para realização de eventos ou negócios de qualquer natureza.
+L33	30304	3	3	4	Exploração de auditórios, casas de espetáculos e congêneres, para realização de eventos ou negócios de qualquer natureza.
+L34	30305	3	3	5	Exploração de parques de diversões e congêneres, para realização de eventos ou negócios de qualquer natureza.
+L35		3	4	0	Locação, sublocação, arrendamento, direito de passagem ou permissão de uso, compartilhado ou não, de ferrovia, rodovia, postes, cabos, dutos e condutos de qualquer natureza.
+L36	30401	3	4	1	Locação, sublocação, arrendamento, direito de passagem ou permissão de uso, compartilhado ou não, de ferrovia.
+L37	30402	3	4	2	Locação, sublocação, arrendamento, direito de passagem ou permissão de uso, compartilhado ou não, de rodovia.
+L38	30403	3	4	3	Locação, sublocação, arrendamento, direito de passagem ou permissão de uso, compartilhado ou não, de postes, cabos, dutos e condutos de qualquer natureza.
+L39		3	5	0	Cessão de andaimes, palcos, coberturas e outras estruturas de uso temporário.
+L40	30501	3	5	1	Cessão de andaimes, palcos, coberturas e outras estruturas de uso temporário.
+L41		4	0	0	Serviços de saúde, assistência médica e congêneres.
+L42		4	1	0	Medicina e biomedicina.
+L43	40101	4	1	1	Medicina.
+L44	40102	4	1	2	Biomedicina.
+L45		4	2	0	Análises clínicas, patologia, eletricidade médica, radioterapia, quimioterapia, ultra-sonografia, ressonância magnética, radiologia, tomografia e congêneres.
+L46	40201	4	2	1	Análises clínicas e congêneres.
+L47	40202	4	2	2	Patologia e congêneres.
+L48	40203	4	2	3	Eletricidade médica (eletroestimulação de nervos e musculos, cardioversão, etc) e congêneres.
+L49	40204	4	2	4	Radioterapia, quimioterapia e congêneres.
+L50	40205	4	2	5	Ultra-sonografia, ressonância magnética, radiologia, tomografia e congêneres.
+L51		4	3	0	Hospitais, clínicas, laboratórios, sanatórios, manicômios, casas de saúde, prontos-socorros, ambulatórios e congêneres.
+L52	40301	4	3	1	Hospitais e congêneres.
+L53	40302	4	3	2	Laboratórios e congêneres.
+L54	40303	4	3	3	Clínicas, sanatórios, manicômios, casas de saúde, prontos-socorros, ambulatórios e congêneres.
+L55		4	4	0	Instrumentação cirúrgica.
+L56	40401	4	4	1	Instrumentação cirúrgica.
+L57		4	5	0	Acupuntura.
+L58	40501	4	5	1	Acupuntura.
+L59		4	6	0	Enfermagem, inclusive serviços auxiliares.
+L60	40601	4	6	1	Enfermagem, inclusive serviços auxiliares.
+L61		4	7	0	Serviços farmacêuticos.
+L62	40701	4	7	1	Serviços farmacêuticos.
+L63		4	8	0	Terapia ocupacional, fisioterapia e fonoaudiologia.
+L64	40801	4	8	1	Terapia ocupacional.
+L65	40802	4	8	2	Fisioterapia.
+L66	40803	4	8	3	Fonoaudiologia.
+L67		4	9	0	Terapias de qualquer espécie destinadas ao tratamento físico, orgânico e mental.
+L68	40901	4	9	1	Terapias de qualquer espécie destinadas ao tratamento físico, orgânico e mental.
+L69		4	10	0	Nutrição.
+L70	41001	4	10	1	Nutrição.
+L71		4	11	0	Obstetrícia.
+L72	41101	4	11	1	Obstetrícia.
+L73		4	12	0	Odontologia.
+L74	41201	4	12	1	Odontologia.
+L75		4	13	0	Ortóptica.
+L76	41301	4	13	1	Ortóptica.
+L77		4	14	0	Próteses sob encomenda.
+L78	41401	4	14	1	Próteses sob encomenda.
+L79		4	15	0	Psicanálise.
+L80	41501	4	15	1	Psicanálise.
+L81		4	16	0	Psicologia.
+L82	41601	4	16	1	Psicologia.
+L83		4	17	0	Casas de repouso e de recuperação, creches, asilos e congêneres.
+L84	41701	4	17	1	Casas de repouso e congêneres.
+L85	41702	4	17	2	Casas de recuperação e congêneres.
+L86	41703	4	17	3	Creches e congêneres.
+L87	41704	4	17	4	Asilos e congêneres.
+L88		4	18	0	Inseminação artificial, fertilização in vitro e congêneres.
+L89	41801	4	18	1	Inseminação artificial, fertilização in vitro e congêneres.
+L90		4	19	0	Bancos de sangue, leite, pele, olhos, óvulos, sêmen e congêneres.
+L91	41901	4	19	1	Bancos de sangue, leite, pele, olhos, óvulos, sêmen e congêneres.
+L92		4	20	0	Coleta de sangue, leite, tecidos, sêmen, órgãos e materiais biológicos de qualquer espécie.
+L93	42001	4	20	1	Coleta de sangue, leite, tecidos, sêmen, órgãos e materiais biológicos de qualquer espécie.
+L94		4	21	0	Unidade de atendimento, assistência ou tratamento móvel e congêneres.
+L95	42101	4	21	1	Unidade de atendimento, assistência ou tratamento móvel e congêneres.
+L96		4	22	0	Planos de medicina de grupo ou individual e convênios para prestação de assistência médica, hospitalar, odontológica e congêneres.
+L97	42201	4	22	1	Planos de medicina de grupo ou individual e convênios para prestação de assistência médica, hospitalar, odontológica e congêneres.
+L98		4	23	0	Outros planos de saúde que se cumpram através de serviços de terceiros contratados, credenciados, cooperados ou apenas pagos pelo operador do plano mediante indicação do beneficiário.
+L99	42301	4	23	1	Outros planos de saúde que se cumpram através de serviços de terceiros contratados, credenciados, cooperados ou apenas pagos pelo operador do plano mediante indicação do beneficiário.
+L100		5	0	0	Serviços de medicina e assistência veterinária e congêneres.
+L101		5	1	0	Medicina veterinária e zootecnia.
+L102	50101	5	1	1	Medicina veterinária
+L103	50102	5	1	2	Zootecnia.
+L104		5	2	0	Hospitais, clínicas, ambulatórios, prontos-socorros e congêneres, na área veterinária.
+L105	50201	5	2	1	Hospitais e congêneres, na área veterinária.
+L106	50202	5	2	2	Clínicas, ambulatórios, prontos-socorros e congêneres, na área veterinária.
+L107		5	3	0	Laboratórios de análise na área veterinária.
+L108	50301	5	3	1	Laboratórios de análise na área veterinária.
+L109		5	4	0	Inseminação artificial, fertilização in vitro e congêneres.
+L110	50401	5	4	1	Inseminação artificial, fertilização in vitro e congêneres.
+L111		5	5	0	Bancos de sangue e de órgãos e congêneres.
+L112	50501	5	5	1	Bancos de sangue e de órgãos e congêneres.
+L113		5	6	0	Coleta de sangue, leite, tecidos, sêmen, órgãos e materiais biológicos de qualquer espécie.
+L114	50601	5	6	1	Coleta de sangue, leite, tecidos, sêmen, órgãos e materiais biológicos de qualquer espécie.
+L115		5	7	0	Unidade de atendimento, assistência ou tratamento móvel e congêneres.
+L116	50701	5	7	1	Unidade de atendimento, assistência ou tratamento móvel e congêneres.
+L117		5	8	0	Guarda, tratamento, amestramento, embelezamento, alojamento e congêneres.
+L118	50801	5	8	1	Guarda, tratamento, amestramento, embelezamento, alojamento e congêneres.
+L119		5	9	0	Planos de atendimento e assistência médico-veterinária.
+L120	50901	5	9	1	Planos de atendimento e assistência médico-veterinária.
+L121		6	0	0	Serviços de cuidados pessoais, estética, atividades físicas e congêneres.
+L122		6	1	0	Barbearia, cabeleireiros, manicuros, pedicuros e congêneres.
+L123	60101	6	1	1	Barbearia, cabeleireiros, manicuros, pedicuros e congêneres.
+L124		6	2	0	Esteticistas, tratamento de pele, depilação e congêneres.
+L125	60201	6	2	1	Esteticistas, tratamento de pele, depilação e congêneres.
+L126		6	3	0	Banhos, duchas, sauna, massagens e congêneres.
+L127	60301	6	3	1	Banhos, duchas, sauna, massagens e congêneres.
+L128		6	4	0	Ginástica, dança, esportes, natação, artes marciais e demais atividades físicas.
+L129	60401	6	4	1	Ginástica, dança, esportes, natação, artes marciais e demais atividades físicas.
+L130		6	5	0	Centros de emagrecimento, spa e congêneres.
+L131	60501	6	5	1	Centros de emagrecimento, spa e congêneres.
+L132		6	6	0	Aplicação de tatuagens, piercings e congêneres.
+L133	60601	6	6	1	Aplicação de tatuagens, piercings e congêneres.
+L134		7	0	0	Serviços relativos a engenharia, arquitetura, geologia, urbanismo, construção civil, manutenção, limpeza, meio ambiente, saneamento e congêneres.
+L135		7	1	0	Engenharia, agronomia, agrimensura, arquitetura, geologia, urbanismo, paisagismo e congêneres.
+L136	70101	7	1	1	Engenharia e congêneres.
+L137	70102	7	1	2	Agronomia e congêneres.
+L138	70103	7	1	3	Agrimensura e congêneres.
+L139	70104	7	1	4	Arquitetura, urbanismo e congêneres.
+L140	70105	7	1	5	Geologia e congêneres.
+L141	70106	7	1	6	Paisagismo e congêneres.
+L142		7	2	0	Execução, por administração, empreitada ou subempreitada, de obras de construção civil, hidráulica ou elétrica e de outras obras semelhantes, inclusive sondagem, perfuração de poços, escavação, drenagem e irrigação, terraplanagem, pavimentação, concretagem e a instalação e montagem de produtos, peças e equipamentos (exceto o fornecimento de mercadorias produzidas pelo prestador de serviços fora do local da prestação dos serviços, que fica sujeito ao ICMS).
+L143	70201	7	2	1	Execução, por administração, de obras de construção civil, hidráulica ou elétrica e de outras obras semelhantes, inclusive sondagem, perfuração de poços, escavação, drenagem e irrigação, terraplanagem, pavimentação, concretagem e a instalação e montagem de produtos, peças e equipamentos (exceto o fornecimento de mercadorias produzidas pelo prestador de serviços fora do local da prestação dos serviços, que fica sujeito ao ICMS).
+L144	70202	7	2	2	Execução, por empreitada ou subempreitada, de obras de construção civil, hidráulica ou elétrica e de outras obras semelhantes, inclusive sondagem, perfuração de poços, escavação, drenagem e irrigação, terraplanagem, pavimentação, concretagem e a instalação e montagem de produtos, peças e equipamentos (exceto o fornecimento de mercadorias produzidas pelo prestador de serviços fora do local da prestação dos serviços, que fica sujeito ao ICMS).
+L145		7	3	0	Elaboração de planos diretores, estudos de viabilidade, estudos organizacionais e outros, relacionados com obras e serviços de engenharia; elaboração de anteprojetos, projetos básicos e projetos executivos para trabalhos de engenharia.
+L146	70301	7	3	1	Elaboração de planos diretores, estudos de viabilidade, estudos organizacionais e outros, relacionados com obras e serviços de engenharia.
+L147	70302	7	3	2	Elaboração de anteprojetos, projetos básicos e projetos executivos para trabalhos de engenharia.
+L148		7	4	0	Demolição.
+L149	70401	7	4	1	Demolição.
+L150		7	5	0	Reparação, conservação e reforma de edifícios, estradas, pontes, portos e congêneres (exceto o fornecimento de mercadorias produzidas pelo prestador dos serviços, fora do local da prestação dos serviços, que fica sujeito ao ICMS).
+L151	70501	7	5	1	Reparação, conservação e reforma de edifícios e congêneres (exceto o fornecimento de mercadorias produzidas pelo prestador dos serviços, fora do local da prestação dos serviços, que fica sujeito ao ICMS).
+L152	70502	7	5	2	Reparação, conservação e reforma de estradas, pontes, portos e congêneres (exceto o fornecimento de mercadorias produzidas pelo prestador dos serviços, fora do local da prestação dos serviços, que fica sujeito ao ICMS).
+L153		7	6	0	Colocação e instalação de tapetes, carpetes, assoalhos, cortinas, revestimentos de parede, vidros, divisórias, placas de gesso e congêneres, com material fornecido pelo tomador do serviço.
+L154	70601	7	6	1	Colocação e instalação de tapetes, carpetes, cortinas e congêneres, com material fornecido pelo tomador do serviço.
+L155	70602	7	6	2	Colocação e instalação de assoalhos, revestimentos de parede, vidros, divisórias, placas de gesso e congêneres, com material fornecido pelo tomador do serviço.
+L156		7	7	0	Recuperação, raspagem, polimento e lustração de pisos e congêneres.
+L157	70701	7	7	1	Recuperação, raspagem, polimento e lustração de pisos e congêneres.
+L158		7	8	0	Calafetação.
+L159	70801	7	8	1	Calafetação.
+L160		7	9	0	Varrição, coleta, remoção, incineração, tratamento, reciclagem, separação e destinação final de lixo, rejeitos e outros resíduos quaisquer.
+L161	70901	7	9	1	Varrição, coleta e remoção de lixo, rejeitos e outros resíduos quaisquer.
+L162	70902	7	9	2	Incineração, tratamento, reciclagem, separação e destinação final de lixo, rejeitos e outros resíduos quaisquer.
+L163		7	10	0	Limpeza, manutenção e conservação de vias e logradouros públicos, imóveis, chaminés, piscinas, parques, jardins e congêneres.
+L164	71001	7	10	1	Limpeza, manutenção e conservação de vias e logradouros públicos, parques, jardins e congêneres.
+L165	71002	7	10	2	Limpeza, manutenção e conservação de imóveis, chaminés, piscinas e congêneres.
+L166		7	11	0	Decoração e jardinagem, inclusive corte e poda de árvores.
+L167	71101	7	11	1	Decoração.
+L168	71102	7	11	2	Jardinagem, inclusive corte e poda de árvores.
+L169		7	12	0	Controle e tratamento de efluentes de qualquer natureza e de agentes físicos, químicos e biológicos.
+L170	71201	7	12	1	Controle e tratamento de efluentes de qualquer natureza e de agentes físicos, químicos e biológicos.
+L171		7	13	0	Dedetização, desinfecção, desinsetização, imunização, higienização, desratização, pulverização e congêneres.
+L172	71301	7	13	1	Dedetização, desinfecção, desinsetização, imunização, higienização, desratização, pulverização e congêneres.
+L173		7	16	0	Florestamento, reflorestamento, semeadura, adubação, reparação de solo, plantio, silagem, colheita, corte e descascamento de árvores, silvicultura, exploração florestal e dos serviços congêneres indissociáveis da formação, manutenção e colheita de florestas, para quaisquer fins e por quaisquer meios.
+L174	71601	7	16	1	Florestamento, reflorestamento, semeadura, adubação, reparação de solo, plantio, silagem, colheita, corte e descascamento de árvores, silvicultura, exploração florestal e dos serviços congêneres indissociáveis da formação, manutenção e colheita de florestas, para quaisquer fins e por quaisquer meios.
+L175		7	17	0	Escoramento, contenção de encostas e serviços congêneres.
+L176	71701	7	17	1	Escoramento, contenção de encostas e serviços congêneres.
+L177		7	18	0	Limpeza e dragagem de rios, portos, canais, baías, lagos, lagoas, represas, açudes e congêneres.
+L178	71801	7	18	1	Limpeza e dragagem de rios, portos, canais, baías, lagos, lagoas, represas, açudes e congêneres.
+L179		7	19	0	Acompanhamento e fiscalização da execução de obras de engenharia, arquitetura e urbanismo.
+L180	71901	7	19	1	Acompanhamento e fiscalização da execução de obras de engenharia, arquitetura e urbanismo.
+L181		7	20	0	Aerofotogrametria (inclusive interpretação), cartografia, mapeamento, levantamentos topográficos, batimétricos, geográficos, geodésicos, geológicos, geofísicos e congêneres.
+L182	72001	7	20	1	Aerofotogrametria (inclusive interpretação), cartografia, mapeamento e congêneres.
+L183	72002	7	20	2	Levantamentos batimétricos, geográficos, geodésicos, geológicos, geofísicos e congêneres.
+L184	72003	7	20	3	Levantamentos topográficos e congêneres.
+L185		7	21	0	Pesquisa, perfuração, cimentação, mergulho, perfilagem, concretação, testemunhagem, pescaria, estimulação e outros serviços relacionados com a exploração e explotação de petróleo, gás natural e de outros recursos minerais.
+L186	72101	7	21	1	Pesquisa, perfuração, cimentação, mergulho, perfilagem, concretação, testemunhagem, pescaria, estimulação e outros serviços relacionados com a exploração e explotação de petróleo, gás natural e de outros recursos minerais.
+L187		7	22	0	Nucleação e bombardeamento de nuvens e congêneres.
+L188	72201	7	22	1	Nucleação e bombardeamento de nuvens e congêneres.
+L189		8	0	0	Serviços de educação, ensino, orientação pedagógica e educacional, instrução, treinamento e avaliação pessoal de qualquer grau ou natureza.
+L190		8	1	0	Ensino regular pré-escolar, fundamental, médio e superior.
+L191	80101	8	1	1	Ensino regular pré-escolar, fundamental e médio.
+L192	80102	8	1	2	Ensino regular superior.
+L193		8	2	0	Instrução, treinamento, orientação pedagógica e educacional, avaliação de conhecimentos de qualquer natureza.
+L194	80201	8	2	1	Instrução, treinamento, orientação pedagógica e educacional, avaliação de conhecimentos de qualquer natureza.
+L195		9	0	0	Serviços relativos a hospedagem, turismo, viagens e congêneres.
+L196		9	1	0	Hospedagem de qualquer natureza em hotéis, apart-service condominiais, flat, apart-hotéis, hotéis residência, residence-service, suite service, hotelaria marítima, motéis, pensões e congêneres; ocupação por temporada com fornecimento de serviço (o valor da alimentação e gorjeta, quando incluído no preço da diária, fica sujeito ao Imposto Sobre Serviços).
+L197	90101	9	1	1	Hospedagem em hotéis, hotelaria marítima e congêneres (o valor da alimentação e gorjeta, quando incluído no preço da diária, fica sujeito ao Imposto Sobre Serviços).
+L198	90102	9	1	2	Hospedagem em pensões, albergues, pousadas, hospedarias, ocupação por temporada com fornecimento de serviços e congêneres (o valor da alimentação e gorjeta, quando incluído no preço da diária, fica sujeito ao Imposto Sobre Serviços).
+L199	90103	9	1	3	Hospedagem em motéis e congêneres (o valor da alimentação e gorjeta, quando incluído no preço da diária, fica sujeito ao Imposto Sobre Serviços).
+L200	90104	9	1	4	Hospedagem em apart-service condominiais, flat, apart-hotéis, hotéis residência, residence-service, suite service e congêneres (o valor da alimentação e gorjeta, quando incluído no preço da diária, fica sujeito ao Imposto Sobre Serviços).
+L201		9	2	0	Agenciamento, organização, promoção, intermediação e execução de programas de turismo, passeios, viagens, excursões, hospedagens e congêneres.
+L202	90201	9	2	1	Agenciamento e intermediação de programas de turismo, passeios, viagens, excursões, hospedagens e congêneres.
+L203	90202	9	2	2	Organização, promoção e execução de programas de turismo, passeios, viagens, excursões, hospedagens e congêneres.
+L204		9	3	0	Guias de turismo.
+L205	90301	9	3	1	Guias de turismo.
+L206		10	0	0	Serviços de intermediação e congêneres.
+L207		10	1	0	Agenciamento, corretagem ou intermediação de câmbio, de seguros, de cartões de crédito, de planos de saúde e de planos de previdência privada.
+L208	100101	10	1	1	Agenciamento, corretagem ou intermediação de câmbio.
+L209	100102	10	1	2	Agenciamento, corretagem ou intermediação de seguros.
+L210	100103	10	1	3	Agenciamento, corretagem ou intermediação de cartões de crédito.
+L211	100104	10	1	4	Agenciamento, corretagem ou intermediação de planos de saúde.
+L212	100105	10	1	5	Agenciamento, corretagem ou intermediação de planos de previdência privada.
+L213		10	2	0	Agenciamento, corretagem ou intermediação de títulos em geral, valores mobiliários e contratos quaisquer.
+L214	100201	10	2	1	Agenciamento, corretagem ou intermediação de títulos em geral e valores mobiliários.
+L215	100202	10	2	2	Agenciamento, corretagem ou intermediação de contratos quaisquer.
+L216		10	3	0	Agenciamento, corretagem ou intermediação de direitos de propriedade industrial, artística ou literária.
+L217	100301	10	3	1	Agenciamento, corretagem ou intermediação de direitos de propriedade industrial, artística ou literária.
+L218		10	4	0	Agenciamento, corretagem ou intermediação de contratos de arrendamento mercantil (leasing), de franquia (franchising) e de faturização (factoring).
+L219	100401	10	4	1	Agenciamento, corretagem ou intermediação de contratos de arrendamento mercantil (leasing).
+L220	100402	10	4	2	Agenciamento, corretagem ou intermediação de contratos de franquia (franchising).
+L221	100403	10	4	3	Agenciamento, corretagem ou intermediação de faturização (factoring).
+L222		10	5	0	Agenciamento, corretagem ou intermediação de bens móveis ou imóveis, não abrangidos em outros itens ou subitens, inclusive aqueles realizados no âmbito de Bolsas de Mercadorias e Futuros, por quaisquer meios.
+L223	100501	10	5	1	Agenciamento, corretagem ou intermediação de bens móveis ou imóveis, não abrangidos em outros itens ou subitens, por quaisquer meios.
+L224	100502	10	5	2	Agenciamento, corretagem ou intermediação de bens móveis ou imóveis realizados no âmbito de Bolsas de Mercadorias e Futuros, por quaisquer meios.
+L225		10	6	0	Agenciamento marítimo.
+L226	100601	10	6	1	Agenciamento marítimo.
+L227		10	7	0	Agenciamento de notícias.
+L228	100701	10	7	1	Agenciamento de notícias.
+L229		10	8	0	Agenciamento de publicidade e propaganda, inclusive o agenciamento de veiculação por quaisquer meios.
+L230	100801	10	8	1	Agenciamento de publicidade e propaganda, inclusive o agenciamento de veiculação por quaisquer meios.
+L231		10	9	0	Representação de qualquer natureza, inclusive comercial.
+L232	100901	10	9	1	Representação de qualquer natureza, inclusive comercial.
+L233		10	10	0	Distribuição de bens de terceiros.
+L234	101001	10	10	1	Distribuição de bens de terceiros.
+L235		11	0	0	Serviços de guarda, estacionamento, armazenamento, vigilância e congêneres.
+L236		11	1	0	Guarda e estacionamento de veículos terrestres automotores, de aeronaves e de embarcações.
+L237	110101	11	1	1	Guarda e estacionamento de veículos terrestres automotores.
+L238	110102	11	1	2	Guarda e estacionamento de aeronaves e de embarcações.
+L239		11	2	0	Vigilância, segurança ou monitoramento de bens, pessoas e semoventes.
+L240	110201	11	2	1	Vigilância, segurança ou monitoramento de bens, pessoas e semoventes.
+L241		11	3	0	Escolta, inclusive de veículos e cargas.
+L242	110301	11	3	1	Escolta, inclusive de veículos e cargas.
+L243		11	4	0	Armazenamento, depósito, carga, descarga, arrumação e guarda de bens de qualquer espécie.
+L244	110401	11	4	1	Armazenamento, depósito, guarda de bens de qualquer espécie.
+L245	110402	11	4	2	Carga, descarga, arrumação de bens de qualquer espécie.
+L246		11	5	0	Serviços relacionados ao monitoramento e rastreamento a distância, em qualquer via ou local, de veículos, cargas, pessoas e semoventes em circulação ou movimento, realizados por meio de telefonia móvel, transmissão de satélites, rádio ou qualquer outro meio, inclusive pelas empresas de Tecnologia da Informação Veicular, independentemente de o prestador de serviços ser proprietário ou não da infraestrutura de telecomunicações que utiliza.
+L247	110501	11	5	1	Serviços relacionados ao monitoramento e rastreamento a distância, em qualquer via ou local, de veículos, cargas, pessoas e semoventes em circulação ou movimento, realizados por meio de telefonia móvel, transmissão de satélites, rádio ou qualquer outro meio, inclusive pelas empresas de Tecnologia da Informação Veicular, independentemente de o prestador de serviços ser proprietário ou não da infraestrutura de telecomunicações que utiliza.
+L248		12	0	0	Serviços de diversões, lazer, entretenimento e congêneres.
+L249		12	1	0	Espetáculos teatrais.
+L250	120101	12	1	1	Espetáculos teatrais.
+L251		12	2	0	Exibições cinematográficas.
+L252	120201	12	2	1	Exibições cinematográficas.
+L253		12	3	0	Espetáculos circenses.
+L254	120301	12	3	1	Espetáculos circenses.
+L255		12	4	0	Programas de auditório.
+L256	120401	12	4	1	Programas de auditório.
+L257		12	5	0	Parques de diversões, centros de lazer e congêneres.
+L258	120501	12	5	1	Parques de diversões, centros de lazer e congêneres.
+L259		12	6	0	Boates, taxi-dancing e congêneres.
+L260	120601	12	6	1	Boates, taxi-dancing e congêneres.
+L261		12	7	0	Shows, ballet, danças, desfiles, bailes, óperas, concertos, recitais, festivais e congêneres.
+L262	120701	12	7	1	Shows, ballet, danças, desfiles, bailes, óperas, concertos, recitais, festivais e congêneres.
+L263		12	8	0	Feiras, exposições, congressos e congêneres.
+L264	120801	12	8	1	Feiras, exposições, congressos e congêneres.
+L265		12	9	0	Bilhares, boliches e diversões eletrônicas ou não.
+L266	120901	12	9	1	Bilhares.
+L267	120902	12	9	2	Boliches.
+L268	120903	12	9	3	Diversões eletrônicas ou não.
+L269		12	10	0	Corridas e competições de animais.
+L270	121001	12	10	1	Corridas e competições de animais.
+L271		12	11	0	Competições esportivas ou de destreza física ou intelectual, com ou sem a participação do espectador.
+L272	121101	12	11	1	Competições esportivas ou de destreza física ou intelectual, com ou sem a participação do espectador.
+L273		12	12	0	Execução de música.
+L274	121201	12	12	1	Execução de música.
+L275		12	13	0	Produção, mediante ou sem encomenda prévia, de eventos, espetáculos, entrevistas, shows, ballet, danças, desfiles, bailes, teatros, óperas, concertos, recitais, festivais e congêneres.
+L276	121301	12	13	1	Produção, mediante ou sem encomenda prévia, de eventos, espetáculos, entrevistas, shows, ballet, danças, desfiles, bailes, teatros, óperas, concertos, recitais, festivais e congêneres.
+L277		12	14	0	Fornecimento de música para ambientes fechados ou não, mediante transmissão por qualquer processo.
+L278	121401	12	14	1	Fornecimento de música para ambientes fechados ou não, mediante transmissão por qualquer processo.
+L279		12	15	0	Desfiles de blocos carnavalescos ou folclóricos, trios elétricos e congêneres.
+L280	121501	12	15	1	Desfiles de blocos carnavalescos ou folclóricos, trios elétricos e congêneres.
+L281		12	16	0	Exibição de filmes, entrevistas, musicais, espetáculos, shows, concertos, desfiles, óperas, competições esportivas, de destreza intelectual ou congêneres.
+L282	121601	12	16	1	Exibição de filmes, entrevistas, musicais, espetáculos, shows, concertos, desfiles, óperas, competições esportivas, de destreza intelectual ou congêneres.
+L283		12	17	0	Recreação e animação, inclusive em festas e eventos de qualquer natureza.
+L284	121701	12	17	1	Recreação e animação, inclusive em festas e eventos de qualquer natureza.
+L285		13	0	0	Serviços relativos a fonografia, fotografia, cinematografia e reprografia.
+L286		13	2	0	Fonografia ou gravação de sons, inclusive trucagem, dublagem, mixagem e congêneres.
+L287	130201	13	2	1	Fonografia ou gravação de sons, inclusive trucagem, dublagem, mixagem e congêneres.
+L288		13	3	0	Fotografia e cinematografia, inclusive revelação, ampliação, cópia, reprodução, trucagem e congêneres.
+L289	130301	13	3	1	Fotografia e cinematografia, inclusive revelação, ampliação, cópia, reprodução, trucagem e congêneres.
+L290		13	4	0	Reprografia, microfilmagem e digitalização.
+L291	130401	13	4	1	Reprografia, microfilmagem e digitalização.
+L292		13	5	0	Composição gráfica, inclusive confecção de impressos gráficos, fotocomposição, clicheria, zincografia, litografia e fotolitografia, exceto se destinados a posterior operação de comercialização ou industrialização, ainda que incorporados, de qualquer forma, a outra mercadoria que deva ser objeto de posterior circulação, tais como bulas, rótulos, etiquetas, caixas, cartuchos, embalagens e manuais técnicos e de instrução, quando ficarão sujeitos ao ICMS.
+L293	130501	13	5	1	Composição gráfica, inclusive confecção de impressos gráficos, fotocomposição, clicheria, zincografia, litografia e fotolitografia, exceto se destinados a posterior operação de comercialização ou industrialização, ainda que incorporados, de qualquer forma, a outra mercadoria que deva ser objeto de posterior circulação, tais como bulas, rótulos, etiquetas, caixas, cartuchos, embalagens e manuais técnicos e de instrução, quando ficarão sujeitos ao ICMS.
+L294		14	0	0	Serviços relativos a bens de terceiros.
+L295		14	1	0	Lubrificação, limpeza, lustração, revisão, carga e recarga, conserto, restauração, blindagem, manutenção e conservação de máquinas, veículos, aparelhos, equipamentos, motores, elevadores ou de qualquer objeto (exceto peças e partes empregadas, que ficam sujeitas ao ICMS).
+L296	140101	14	1	1	Lubrificação, limpeza, lustração, revisão, carga e recarga, conserto, restauração, blindagem, manutenção e conservação de máquinas, veículos, aparelhos, equipamentos, motores, elevadores ou de qualquer objeto (exceto peças e partes empregadas, que ficam sujeitas ao ICMS).
+L297		14	2	0	Assistência técnica.
+L298	140201	14	2	1	Assistência técnica.
+L299		14	3	0	Recondicionamento de motores (exceto peças e partes empregadas, que ficam sujeitas ao ICMS).
+L300	140301	14	3	1	Recondicionamento de motores (exceto peças e partes empregadas, que ficam sujeitas ao ICMS).
+L301		14	4	0	Recauchutagem ou regeneração de pneus.
+L302	140401	14	4	1	Recauchutagem ou regeneração de pneus.
+L303		14	5	0	Restauração, recondicionamento, acondicionamento, pintura, beneficiamento, lavagem, secagem, tingimento, galvanoplastia, anodização, corte, recorte, plastificação, costura, acabamento, polimento e congêneres de objetos quaisquer.
+L304	140501	14	5	1	Restauração, recondicionamento, acondicionamento, pintura, beneficiamento, lavagem, secagem, tingimento, galvanoplastia, anodização, corte, recorte, plastificação, costura, acabamento, polimento e congêneres de objetos quaisquer.
+L305		14	6	0	Instalação e montagem de aparelhos, máquinas e equipamentos, inclusive montagem industrial, prestados ao usuário final, exclusivamente com material por ele fornecido.
+L306	140601	14	6	1	Instalação e montagem de aparelhos, máquinas e equipamentos, inclusive montagem industrial, prestados ao usuário final, exclusivamente com material por ele fornecido.
+L307		14	7	0	Colocação de molduras e congêneres.
+L308	140701	14	7	1	Colocação de molduras e congêneres.
+L309		14	8	0	Encadernação, gravação e douração de livros, revistas e congêneres.
+L310	140801	14	8	1	Encadernação, gravação e douração de livros, revistas e congêneres.
+L311		14	9	0	Alfaiataria e costura, quando o material for fornecido pelo usuário final, exceto aviamento.
+L312	140901	14	9	1	Alfaiataria e costura, quando o material for fornecido pelo usuário final, exceto aviamento.
+L313		14	10	0	Tinturaria e lavanderia.
+L314	141001	14	10	1	Tinturaria e lavanderia.
+L315		14	11	0	Tapeçaria e reforma de estofamentos em geral.
+L316	141101	14	11	1	Tapeçaria e reforma de estofamentos em geral.
+L317		14	12	0	Funilaria e lanternagem.
+L318	141201	14	12	1	Funilaria e lanternagem.
+L319		14	13	0	Carpintaria e serralheria.
+L320	141301	14	13	1	Carpintaria.
+L321	141302	14	13	2	Serralheria.
+L322		14	14	0	Guincho intramunicipal, guindaste e içamento.
+L323	141401	14	14	1	Guincho intramunicipal.
+L324	141402	14	14	2	Guindaste e içamento.
+L325	141403	14	14	3	Guincho intramunicipal em construção civil.
+L326	141404	14	14	4	Guindaste e içamento em construção civil.
+L327		15	0	0	Serviços relacionados ao setor bancário ou financeiro, inclusive aqueles prestados por instituições financeiras autorizadas a funcionar pela União ou por quem de direito.
+L328		15	1	0	Administração de fundos quaisquer, de consórcio, de cartão de crédito ou débito e congêneres, de carteira de clientes, de cheques pré-datados e congêneres.
+L329	150101	15	1	1	Administração de fundos quaisquer e congêneres.
+L330	150102	15	1	2	Administração de consórcio e congêneres.
+L331	150103	15	1	3	Administração de cartão de crédito ou débito e congêneres.
+L332	150104	15	1	4	Administração de carteira de clientes e congêneres.
+L333	150105	15	1	5	Administração de cheques pré-datados e congêneres.
+L334		15	2	0	Abertura de contas em geral, inclusive conta-corrente, conta de investimentos e aplicação e caderneta de poupança, no País e no exterior, bem como a manutenção das referidas contas ativas e inativas.
+L335	150201	15	2	1	Abertura de conta-corrente no País, bem como a manutenção da referida conta ativa e inativa.
+L336	150202	15	2	2	Abertura de conta-corrente no exterior, bem como a manutenção da referida conta ativa e inativa.
+L337	150203	15	2	3	Abertura de conta de investimentos e aplicação no País, bem como a manutenção da referida conta ativa e inativa.
+L338	150204	15	2	4	Abertura de conta de investimentos e aplicação no exterior, bem como a manutenção da referida conta ativa e inativa.
+L339	150205	15	2	5	Abertura de caderneta de poupança no País, bem como a manutenção da referida conta ativa e inativa.
+L340	150206	15	2	6	Abertura de caderneta de poupança no exterior, bem como a manutenção da referida conta ativa e inativa.
+L341	150207	15	2	7	Abertura de contas em geral no País, não abrangida em outro subitem, bem como a manutenção das referidas contas ativas e inativas.
+L342	150208	15	2	8	Abertura de contas em geral no exterior, não abrangida em outro subitem, bem como a manutenção das referidas contas ativas e inativas.
+L343		15	3	0	Locação e manutenção de cofres particulares, de terminais eletrônicos, de terminais de atendimento e de bens e equipamentos em geral.
+L344	150301	15	3	1	Locação de cofres particulares.
+L345	150302	15	3	2	Manutenção de cofres particulares.
+L346	150303	15	3	3	Locação de terminais eletrônicos.
+L347	150304	15	3	4	Manutenção de terminais eletrônicos.
+L348	150305	15	3	5	Locação de terminais de atendimento.
+L349	150306	15	3	6	Manutenção de terminais de atendimento.
+L350	150307	15	3	7	Locação de bens e equipamentos em geral.
+L351	150308	15	3	8	Manutenção de bens e equipamentos em geral.
+L352		15	4	0	Fornecimento ou emissão de atestados em geral, inclusive atestado de idoneidade, atestado de capacidade financeira e congêneres.
+L353	150401	15	4	1	Fornecimento ou emissão de atestados em geral, inclusive atestado de idoneidade, atestado de capacidade financeira e congêneres.
+L354		15	5	0	Cadastro, elaboração de ficha cadastral, renovação cadastral e congêneres, inclusão ou exclusão no Cadastro de Emitentes de Cheques sem Fundos - CCF ou em quaisquer outros bancos cadastrais.
+L355	150501	15	5	1	Cadastro, elaboração de ficha cadastral, renovação cadastral e congêneres.
+L356	150502	15	5	2	Inclusão no Cadastro de Emitentes de Cheques sem Fundos - CCF.
+L357	150503	15	5	3	Exclusão no Cadastro de Emitentes de Cheques sem Fundos - CCF.
+L358	150504	15	5	4	Inclusão em quaisquer outros bancos cadastrais.
+L359	150505	15	5	5	Exclusão em quaisquer outros bancos cadastrais.
+L360		15	6	0	Emissão, reemissão e fornecimento de avisos, comprovantes e documentos em geral; abono de firmas; coleta e entrega de documentos, bens e valores; comunicação com outra agência ou com a administração central; licenciamento eletrônico de veículos; transferência de veículos; agenciamento fiduciário ou depositário; devolução de bens em custódia.
+L361	150601	15	6	1	Emissão, reemissão e fornecimento de avisos, comprovantes e documentos em geral
+L362	150602	15	6	2	Abono de firmas.
+L363	150603	15	6	3	Coleta e entrega de documentos, bens e valores.
+L364	150604	15	6	4	Comunicação com outra agência ou com a administração central.
+L365	150605	15	6	5	Licenciamento eletrônico de veículos.
+L366	150606	15	6	6	Transferência de veículos.
+L367	150607	15	6	7	Agenciamento fiduciário ou depositário.
+L368	150608	15	6	8	Devolução de bens em custódia.
+L369		15	7	0	Acesso, movimentação, atendimento e consulta a contas em geral, por qualquer meio ou processo, inclusive por telefone, fac-símile, internet e telex, acesso a terminais de atendimento, inclusive vinte e quatro horas; acesso a outro banco e à rede compartilhada; fornecimento de saldo, extrato e demais informações relativas a contas em geral, por qualquer meio ou processo.
+L370	150701	15	7	1	Acesso, movimentação, atendimento e consulta a contas em geral, por qualquer meio ou processo, inclusive por telefone, fac-símile, internet e telex.
+L371	150702	15	7	2	Acesso a terminais de atendimento, inclusive vinte e quatro horas.
+L372	150703	15	7	3	Acesso a outro banco e à rede compartilhada.
+L373	150704	15	7	4	Fornecimento de saldo, extrato e demais informações relativas a contas em geral, por qualquer meio ou processo.
+L374		15	8	0	Emissão, reemissão, alteração, cessão, substituição, cancelamento e registro de contrato de crédito; estudo, análise e avaliação de operações de crédito; emissão, concessão, alteração ou contratação de aval, fiança, anuência e congêneres; serviços relativos à abertura de crédito, para quaisquer fins.
+L375	150801	15	8	1	Emissão, reemissão, alteração, cessão, substituição, cancelamento e registro de contrato de crédito.
+L376	150802	15	8	2	Estudo, análise e avaliação de operações de crédito.
+L377	150803	15	8	3	Emissão, concessão, alteração ou contratação de aval, fiança, anuência e congêneres.
+L378	150804	15	8	4	Serviços relativos à abertura de crédito, para quaisquer fins.
+L379		15	9	0	Arrendamento mercantil (leasing) de quaisquer bens, inclusive cessão de direitos e obrigações, substituição de garantia, alteração, cancelamento e registro de contrato, e demais serviços relacionados ao arrendamento mercantil (leasing).
+L380	150901	15	9	1	Arrendamento mercantil (leasing) de quaisquer bens, inclusive cessão de direitos e obrigações, substituição de garantia, alteração, cancelamento e registro de contrato, e demais serviços relacionados ao arrendamento mercantil (leasing).
+L381		15	10	0	Serviços relacionados a cobranças, recebimentos ou pagamentos em geral, de títulos quaisquer, de contas ou carnês, de câmbio, de tributos e por conta de terceiros, inclusive os efetuados por meio eletrônico, automático ou por máquinas de atendimento; fornecimento de posição de cobrança, recebimento ou pagamento; emissão de carnês, fichas de compensação, impressos e documentos em geral.
+L382	151001	15	10	1	Serviços relacionados a cobranças em geral, de títulos quaisquer, de contas ou carnês, de câmbio, de tributos e por conta de terceiros, inclusive os efetuados por meio eletrônico, automático ou por máquinas de atendimento.
+L383	151002	15	10	2	Serviços relacionados a recebimentos em geral, de títulos quaisquer, de contas ou carnês, de câmbio, de tributos e por conta de terceiros, inclusive os efetuados por meio eletrônico, automático ou por máquinas de atendimento.
+L384	151003	15	10	3	Serviços relacionados a pagamentos em geral, de títulos quaisquer, de contas ou carnês, de câmbio, de tributos e por conta de terceiros, inclusive os efetuados por meio eletrônico, automático ou por máquinas de atendimento.
+L385	151004	15	10	4	Serviços relacionados a fornecimento de posição de cobrança, recebimento ou pagamento.
+L386	151005	15	10	5	Serviços relacionados a emissão de carnês, fichas de compensação, impressos e documentos em geral.
+L387		15	11	0	Devolução de títulos, protesto de títulos, sustação de protesto, manutenção de títulos, reapresentação de títulos, e demais serviços a eles relacionados.
+L388	151101	15	11	1	Devolução de títulos, protesto de títulos, sustação de protesto, manutenção de títulos, reapresentação de títulos, e demais serviços a eles relacionados.
+L389		15	12	0	Custódia em geral, inclusive de títulos e valores mobiliários.
+L390	151201	15	12	1	Custódia em geral, inclusive de títulos e valores mobiliários.
+L391		15	13	0	Serviços relacionados a operações de câmbio em geral, edição, alteração, prorrogação, cancelamento e baixa de contrato de câmbio; emissão de registro de exportação ou de crédito; cobrança ou depósito no exterior; emissão, fornecimento e cancelamento de cheques de viagem; fornecimento, transferência, cancelamento e demais serviços relativos a carta de crédito de importação, exportação e garantias recebidas; envio e recebimento de mensagens em geral relacionadas a operações de câmbio.
+L392	151301	15	13	1	Serviços relacionados a operações de câmbio em geral, edição, alteração, prorrogação, cancelamento e baixa de contrato de câmbio.
+L393	151302	15	13	2	Serviços relacionados a emissão de registro de exportação ou de crédito.
+L394	151303	15	13	3	Serviços relacionados a cobrança ou depósito no exterior.
+L395	151304	15	13	4	Serviços relacionados a emissão, fornecimento e cancelamento de cheques de viagem.
+L396	151305	15	13	5	Serviços relacionados a fornecimento, transferência, cancelamento e demais serviços relativos a carta de crédito de importação, exportação e garantias recebidas.
+L397	151306	15	13	6	Serviços relacionados a envio e recebimento de mensagens em geral relacionadas a operações de câmbio.
+L398		15	14	0	Fornecimento, emissão, reemissão, renovação e manutenção de cartão magnético, cartão de crédito, cartão de débito, cartão salário e congêneres.
+L399	151401	15	14	1	Fornecimento, emissão, reemissão de cartão magnético, cartão de crédito, cartão de débito, cartão salário e congêneres.
+L400	151402	15	14	2	Renovação de cartão magnético, cartão de crédito, cartão de débito, cartão salário e congêneres.
+L401	151403	15	14	3	Manutenção de cartão magnético, cartão de crédito, cartão de débito, cartão salário e congêneres.
+L402		15	15	0	Compensação de cheques e títulos quaisquer; serviços relacionados a depósito, inclusive depósito identificado, a saque de contas quaisquer, por qualquer meio ou processo, inclusive em terminais eletrônicos e de atendimento.
+L403	151501	15	15	1	Compensação de cheques e títulos quaisquer.
+L404	151502	15	15	2	Serviços relacionados a depósito, inclusive depósito identificado, a saque de contas quaisquer, por qualquer meio ou processo, inclusive em terminais eletrônicos e de atendimento.
+L405		15	16	0	Emissão, reemissão, liquidação, alteração, cancelamento e baixa de ordens de pagamento, ordens de crédito e similares, por qualquer meio ou processo; serviços relacionados à transferência de valores, dados, fundos, pagamentos e similares, inclusive entre contas em geral.
+L406	151601	15	16	1	Emissão, reemissão, liquidação, alteração, cancelamento e baixa de ordens de pagamento, ordens de crédito e similares, por qualquer meio ou processo.
+L407	151602	15	16	2	Serviços relacionados à transferência de valores, dados, fundos, pagamentos e similares, inclusive entre contas em geral.
+L408		15	17	0	Emissão, fornecimento, devolução, sustação, cancelamento e oposição de cheques quaisquer, avulso ou por talão.
+L409	151701	15	17	1	Emissão e fornecimento de cheques quaisquer, avulso ou por talão.
+L410	151702	15	17	2	Devolução de cheques quaisquer, avulso ou por talão.
+L411	151703	15	17	3	Sustação, cancelamento e oposição de cheques quaisquer, avulso ou por talão.
+L412		15	18	0	Serviços relacionados a crédito imobiliário, avaliação e vistoria de imóvel ou obra, análise técnica e jurídica, emissão, reemissão, alteração, transferência e renegociação de contrato, emissão e reemissão do termo de quitação e demais serviços relacionados a crédito imobiliário.
+L413	151801	15	18	1	Serviços relacionados a crédito imobiliário, de avaliação e vistoria de imóvel ou obra.
+L414	151802	15	18	2	Serviços relacionados a crédito imobiliário, de análise técnica e jurídica.
+L415	151803	15	18	3	Serviços relacionados a crédito imobiliário, de emissão, reemissão, alteração, transferência e renegociação de contrato.
+L416	151804	15	18	4	Serviços relacionados a crédito imobiliário, de emissão e reemissão do termo de quitação.
+L417	151805	15	18	5	Demais serviços relacionados a crédito imobiliário.
+L418		16	0	0	Serviços de transporte de natureza municipal.
+L419		16	1	0	Serviços de transporte coletivo municipal rodoviário, metroviário, ferroviário e aquaviário de passageiros.
+L420	160101	16	1	1	Serviços de transporte coletivo municipal rodoviário de passageiros.
+L421	160102	16	1	2	Serviços de transporte coletivo municipal metroviário de passageiros.
+L422	160103	16	1	3	Serviços de transporte coletivo municipal ferroviário de passageiros.
+L423	160104	16	1	4	Serviços de transporte coletivo municipal aquaviário de passageiros.
+L424		16	2	0	Outros serviços de transporte de natureza municipal.
+L425	160201	16	2	1	Outros serviços de transporte de natureza municipal.
+L426		17	0	0	Serviços de apoio técnico, administrativo, jurídico, contábil, comercial e congêneres.
+L427		17	1	0	Assessoria ou consultoria de qualquer natureza, não contida em outros itens desta lista; análise, exame, pesquisa, coleta, compilação e fornecimento de dados e informações de qualquer natureza, inclusive cadastro e similares.
+L428	170101	17	1	1	Assessoria ou consultoria de qualquer natureza, não contida em outros itens desta lista.
+L429	170102	17	1	2	Análise, exame, pesquisa, coleta, compilação e fornecimento de dados e informações de qualquer natureza, inclusive cadastro e similares.
+L430		17	2	0	Datilografia, digitação, estenografia, expediente, secretaria em geral, resposta audível, redação, edição, interpretação, revisão, tradução, apoio e infra-estrutura administrativa e congêneres.
+L431	170201	17	2	1	Datilografia, digitação, estenografia e congêneres.
+L432	170202	17	2	2	Expediente, secretaria em geral, apoio e infra-estrutura administrativa e congêneres.
+L433	170203	17	2	3	Resposta audível e congêneres.
+L434	170204	17	2	4	Redação, edição, revisão e congêneres.
+L435	170205	17	2	5	Interpretação, tradução e congêneres.
+L436		17	3	0	Planejamento, coordenação, programação ou organização técnica, financeira ou administrativa.
+L437	170301	17	3	1	Planejamento, coordenação, programação ou organização técnica.
+L438	170302	17	3	2	Planejamento, coordenação, programação ou organização financeira.
+L439	170303	17	3	3	Planejamento, coordenação, programação ou organização administrativa.
+L440		17	4	0	Recrutamento, agenciamento, seleção e colocação de mão-de-obra.
+L441	170401	17	4	1	Recrutamento, agenciamento, seleção e colocação de mão-de-obra.
+L442		17	5	0	Fornecimento de mão-de-obra, mesmo em caráter temporário, inclusive de empregados ou trabalhadores, avulsos ou temporários, contratados pelo prestador de serviço.
+L443	170501	17	5	1	Fornecimento de mão-de-obra, mesmo em caráter temporário, inclusive de empregados ou trabalhadores, avulsos ou temporários, contratados pelo prestador de serviço.
+L444		17	6	0	Propaganda e publicidade, inclusive promoção de vendas, planejamento de campanhas ou sistemas de publicidade, elaboração de desenhos, textos e demais materiais publicitários.
+L445	170601	17	6	1	Propaganda e publicidade, inclusive promoção de vendas, planejamento de campanhas ou sistemas de publicidade, elaboração de desenhos, textos e demais materiais publicitários.
+L446		17	8	0	Franquia (franchising).
+L447	170801	17	8	1	Franquia (franchising).
+L448		17	9	0	Perícias, laudos, exames técnicos e análises técnicas.
+L449	170901	17	9	1	Perícias, laudos, exames técnicos e análises técnicas.
+L450		17	10	0	Planejamento, organização e administração de feiras, exposições, congressos e congêneres.
+L451	171001	17	10	1	Planejamento, organização e administração de feiras, exposições, e congêneres.
+L452	171002	17	10	2	Planejamento, organização e administração de congressos e congêneres.
+L453		17	11	0	Organização de festas e recepções; bufê (exceto o fornecimento de alimentação e bebidas, que fica sujeito ao ICMS).
+L454	171101	17	11	1	Organização de festas e recepções.
+L455	171102	17	11	2	Bufê (exceto o fornecimento de alimentação e bebidas, que fica sujeito ao ICMS).
+L456		17	12	0	Administração em geral, inclusive de bens e negócios de terceiros.
+L457	171201	17	12	1	Administração em geral, inclusive de bens e negócios de terceiros.
+L458		17	13	0	Leilão e congêneres.
+L459	171301	17	13	1	Leilão e congêneres.
+L460		17	14	0	Advocacia
+L461	171401	17	14	1	Advocacia
+L462		17	15	0	Arbitragem de qualquer espécie, inclusive jurídica.
+L463	171501	17	15	1	Arbitragem de qualquer espécie, inclusive jurídica.
+L464		17	16	0	Auditoria.
+L465	171601	17	16	1	Auditoria.
+L466		17	17	0	Análise de Organização e Métodos.
+L467	171701	17	17	1	Análise de Organização e Métodos.
+L468		17	18	0	Atuária e cálculos técnicos de qualquer natureza.
+L469	171801	17	18	1	Atuária e cálculos técnicos de qualquer natureza.
+L470		17	19	0	Contabilidade, inclusive serviços técnicos e auxiliares.
+L471	171901	17	19	1	Contabilidade, inclusive serviços técnicos e auxiliares.
+L472		17	20	0	Consultoria e assessoria econômica ou financeira.
+L473	172001	17	20	1	Consultoria e assessoria econômica ou financeira.
+L474		17	21	0	Estatística.
+L475	172101	17	21	1	Estatística.
+L476		17	22	0	Cobrança em geral.
+L477	172201	17	22	1	Cobrança em geral.
+L478		17	23	0	Assessoria, análise, avaliação, atendimento, consulta, cadastro, seleção, gerenciamento de informações, administração de contas a receber ou a pagar e em geral, relacionados a operações de faturização (factoring).
+L479	172301	17	23	1	Assessoria, análise, avaliação, atendimento, consulta, cadastro, seleção, gerenciamento de informações, administração de contas a receber ou a pagar e em geral, relacionados a operações de faturização (factoring).
+L480		17	24	0	Apresentação de palestras, conferências, seminários e congêneres.
+L481	172401	17	24	1	Apresentação de palestras, conferências, seminários e congêneres.
+L482		17	25	0	Inserção de textos, desenhos e outros materiais de propaganda e publicidade, em qualquer meio (exceto em livros, jornais, periódicos e nas modalidades de serviços de radiodifusão sonora e de sons e imagens de recepção livre e gratuita).
+L483	172501	17	25	1	Inserção de textos, desenhos e outros materiais de propaganda e publicidade, em qualquer meio (exceto em livros, jornais, periódicos e nas modalidades de serviços de radiodifusão sonora e de sons e imagens de recepção livre e gratuita).
+L484		18	0	0	Serviços de regulação de sinistros vinculados a contratos de seguros; inspeção e avaliação de riscos para cobertura de contratos de seguros; prevenção e gerência de riscos seguráveis e congêneres.
+L485		18	1	0	Serviços de regulação de sinistros vinculados a contratos de seguros; inspeção e avaliação de riscos para cobertura de contratos de seguros; prevenção e gerência de riscos seguráveis e congêneres.
+L486	180101	18	1	1	Serviços de regulação de sinistros vinculados a contratos de seguros e congêneres.
+L487	180102	18	1	2	Serviços de inspeção e avaliação de riscos para cobertura de contratos de seguros e congêneres.
+L488	180103	18	1	3	Serviços de prevenção e gerência de riscos seguráveis e congêneres.
+L489		19	0	0	Serviços de distribuição e venda de bilhetes e demais produtos de loteria, bingos, cartões, pules ou cupons de apostas, sorteios, prêmios, inclusive os decorrentes de títulos de capitalização e congêneres.
+L490		19	1	0	Serviços de distribuição e venda de bilhetes e demais produtos de loteria, bingos, cartões, pules ou cupons de apostas, sorteios, prêmios, inclusive os decorrentes de títulos de capitalização e congêneres.
+L491	190101	19	1	1	Serviços de distribuição e venda de bilhetes e demais produtos de loteria, cartões, pules ou cupons de apostas, sorteios, prêmios, inclusive os decorrentes de títulos de capitalização e congêneres.
+L492	190102	19	1	2	Serviços de distribuição e venda de bingos e congêneres.
+L493		20	0	0	Serviços portuários, aeroportuários, ferroportuários, de terminais rodoviários, ferroviários e metroviários.
+L494		20	1	0	Serviços portuários, ferroportuários, utilização de porto, movimentação de passageiros, reboque de embarcações, rebocador escoteiro, atracação, desatracação, serviços de praticagem, capatazia, armazenagem de qualquer natureza, serviços acessórios, movimentação de mercadorias, serviços de apoio marítimo, de movimentação ao largo, serviços de armadores, estiva, conferência, logística e congêneres.
+L495	200101	20	1	1	Serviços portuários, ferroportuários, utilização de porto, movimentação de passageiros, reboque de embarcações, rebocador escoteiro, atracação, desatracação, serviços de praticagem, capatazia, armazenagem de qualquer natureza, serviços acessórios, movimentação de mercadorias, serviços de apoio marítimo, de movimentação ao largo, serviços de armadores, estiva, conferência, logística e congêneres. (prestado em terra)
+L496	200102	20	1	2	Serviços portuários, ferroportuários, utilização de porto, movimentação de passageiros, reboque de embarcações, rebocador escoteiro, atracação, desatracação, serviços de praticagem, capatazia, armazenagem de qualquer natureza, serviços acessórios, movimentação de mercadorias, serviços de apoio marítimo, de movimentação ao largo, serviços de armadores, estiva, conferência, logística e congêneres. (prestado em águas marinhas)
+L497		20	2	0	Serviços aeroportuários, utilização de aeroporto, movimentação de passageiros, armazenagem de qualquer natureza, capatazia, movimentação de aeronaves, serviços de apoio aeroportuários, serviços acessórios, movimentação de mercadorias, logística e congêneres.
+L498	200201	20	2	1	Serviços aeroportuários, utilização de aeroporto, movimentação de passageiros, armazenagem de qualquer natureza, capatazia, movimentação de aeronaves, serviços de apoio aeroportuários, serviços acessórios, movimentação de mercadorias, logística e congêneres.
+L499		20	3	0	Serviços de terminais rodoviários, ferroviários, metroviários, movimentação de passageiros, mercadorias, inclusive suas operações, logística e congêneres.
+L500	200301	20	3	1	Serviços de terminais rodoviários, ferroviários, metroviários, movimentação de passageiros, mercadorias, inclusive suas operações, logística e congêneres.
+L501		21	0	0	Serviços de registros públicos, cartorários e notariais.
+L502		21	1	0	Serviços de registros públicos, cartorários e notariais.
+L503	210101	21	1	1	Serviços de registros públicos, cartorários e notariais.
+L504		22	0	0	Serviços de exploração de rodovia.
+L505		22	1	0	Serviços de exploração de rodovia mediante cobrança de preço ou pedágio dos usuários, envolvendo execução de serviços de conservação, manutenção, melhoramentos para adequação de capacidade e segurança de trânsito, operação, monitoração, assistência aos usuários e outros serviços definidos em contratos, atos de concessão ou de permissão ou em normas oficiais.
+L506	220101	22	1	1	Serviços de exploração de rodovia mediante cobrança de preço ou pedágio dos usuários, envolvendo execução de serviços de conservação, manutenção, melhoramentos para adequação de capacidade e segurança de trânsito, operação, monitoração, assistência aos usuários e outros serviços definidos em contratos, atos de concessão ou de permissão ou em normas oficiais.
+L507		23	0	0	Serviços de programação e comunicação visual, desenho industrial e congêneres.
+L508		23	1	0	Serviços de programação e comunicação visual, desenho industrial e congêneres.
+L509	230101	23	1	1	Serviços de programação e comunicação visual e congêneres.
+L510	230102	23	1	2	Serviços de desenho industrial e congêneres.
+L511		24	0	0	Serviços de chaveiros, confecção de carimbos, placas, sinalização visual, banners, adesivos e congêneres.
+L512		24	1	0	Serviços de chaveiros, confecção de carimbos, placas, sinalização visual, banners, adesivos e congêneres.
+L513	240101	24	1	1	Serviços de chaveiros, confecção de carimbos e congêneres.
+L514	240102	24	1	2	Serviços de placas, sinalização visual, banners, adesivos e congêneres.
+L515		25	0	0	Serviços funerários.
+L516		25	1	0	Funerais, inclusive fornecimento de caixão, urna ou esquifes; aluguel de capela; transporte do corpo cadavérico; fornecimento de flores, coroas e outros paramentos; desembaraço de certidão de óbito; fornecimento de véu, essa e outros adornos; embalsamento, embelezamento, conservação ou restauração de cadáveres.
+L517	250101	25	1	1	Funerais, inclusive fornecimento de caixão, urna ou esquifes; aluguel de capela; transporte do corpo cadavérico; fornecimento de flores, coroas e outros paramentos; desembaraço de certidão de óbito; fornecimento de véu, essa e outros adornos; embalsamento, embelezamento, conservação ou restauração de cadáveres.
+L518		25	2	0	Translado intramunicipal e cremação de corpos e partes de corpos cadavéricos.
+L519	250201	25	2	1	Translado intramunicipal de corpos e partes de corpos cadavéricos.
+L520	250202	25	2	2	Cremação de corpos e partes de corpos cadavéricos.
+L521		25	3	0	Planos ou convênio funerários.
+L522	250301	25	3	1	Planos ou convênio funerários.
+L523		25	4	0	Manutenção e conservação de jazigos e cemitérios.
+L524	250401	25	4	1	Manutenção e conservação de jazigos e cemitérios.
+L525		25	5	0	Cessão de uso de espaços em cemitérios para sepultamento.
+L526	250501	25	5	1	Cessão de uso de espaços em cemitérios para sepultamento.
+L527		26	0	0	Serviços de coleta, remessa ou entrega de correspondências, documentos, objetos, bens ou valores, inclusive pelos correios e suas agências franqueadas; courrier e congêneres.
+L528		26	1	0	Serviços de coleta, remessa ou entrega de correspondências, documentos, objetos, bens ou valores, inclusive pelos correios e suas agências franqueadas; courrier e congêneres.
+L529	260101	26	1	1	Serviços de coleta, remessa ou entrega de correspondências, documentos, objetos, bens ou valores, inclusive pelos correios e suas agências franqueadas.
+L530	260102	26	1	2	Serviços de courrier e congêneres.
+L531		27	0	0	Serviços de assistência social.
+L532		27	1	0	Serviços de assistência social.
+L533	270101	27	1	1	Serviços de assistência social.
+L534		28	0	0	Serviços de avaliação de bens e serviços de qualquer natureza.
+L535		28	1	0	Serviços de avaliação de bens e serviços de qualquer natureza.
+L536	280101	28	1	1	Serviços de avaliação de bens e serviços de qualquer natureza.
+L537		29	0	0	Serviços de biblioteconomia.
+L538		29	1	0	Serviços de biblioteconomia.
+L539	290101	29	1	1	Serviços de biblioteconomia.
+L540		30	0	0	Serviços de biologia, biotecnologia e química.
+L541		30	1	0	Serviços de biologia, biotecnologia e química.
+L542	300101	30	1	1	Serviços de biologia e biotecnologia.
+L543	300102	30	1	2	Serviços de química.
+L544		31	0	0	Serviços técnicos em edificações, eletrônica, eletrotécnica, mecânica, telecomunicações e congêneres.
+L545		31	1	0	Serviços técnicos em edificações, eletrônica, eletrotécnica, mecânica, telecomunicações e congêneres.
+L546	310101	31	1	1	Serviços técnicos em edificações e congêneres.
+L547	310102	31	1	2	Serviços técnicos em eletrônica, eletrotécnica e congêneres.
+L548	310103	31	1	3	Serviços técnicos em mecânica e congêneres.
+L549	310104	31	1	4	Serviços técnicos em telecomunicações e congêneres.
+L550		32	0	0	Serviços de desenhos técnicos.
+L551		32	1	0	Serviços de desenhos técnicos.
+L552	320101	32	1	1	Serviços de desenhos técnicos.
+L553		33	0	0	Serviços de desembaraço aduaneiro, comissários, despachantes e congêneres.
+L554		33	1	0	Serviços de desembaraço aduaneiro, comissários, despachantes e congêneres.
+L555	330101	33	1	1	Serviços de desembaraço aduaneiro, comissários, despachantes e congêneres.
+L556		34	0	0	Serviços de investigações particulares, detetives e congêneres.
+L557		34	1	0	Serviços de investigações particulares, detetives e congêneres.
+L558	340101	34	1	1	Serviços de investigações particulares, detetives e congêneres.
+L559		35	0	0	Serviços de reportagem, assessoria de imprensa, jornalismo e relações públicas.
+L560		35	1	0	Serviços de reportagem, assessoria de imprensa, jornalismo e relações públicas.
+L561	350101	35	1	1	Serviços de reportagem e jornalismo.
+L562	350102	35	1	2	Serviços de assessoria de imprensa.
+L563	350103	35	1	3	Serviços de relações públicas.
+L564		36	0	0	Serviços de meteorologia.
+L565		36	1	0	Serviços de meteorologia.
+L566	360101	36	1	1	Serviços de meteorologia.
+L567		37	0	0	Serviços de artistas, atletas, modelos e manequins.
+L568		37	1	0	Serviços de artistas, atletas, modelos e manequins.
+L569	370101	37	1	1	Serviços de artistas, atletas, modelos e manequins.
+L570		38	0	0	Serviços de museologia.
+L571		38	1	0	Serviços de museologia.
+L572	380101	38	1	1	Serviços de museologia.
+L573		39	0	0	Serviços de ourivesaria e lapidação.
+L574		39	1	0	Serviços de ourivesaria e lapidação (quando o material for fornecido pelo tomador do serviço).
+L575	390101	39	1	1	Serviços de ourivesaria e lapidação (quando o material for fornecido pelo tomador do serviço).
+L576		40	0	0	Serviços relativos a obras de arte sob encomenda.
+L577		40	1	0	Obras de arte sob encomenda.
+L578	400101	40	1	1	Obras de arte sob encomenda.
+L579		99	0	0	Serviços sem a incidência de ISSQN e ICMS
+L580		99	1	0	Serviços sem a incidência de ISSQN e ICMS
+L581	990101	99	1	1	Serviços sem a incidência de ISSQN e ICMS

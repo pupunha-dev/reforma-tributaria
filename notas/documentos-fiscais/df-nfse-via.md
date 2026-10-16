@@ -92,8 +92,10 @@ Raiz `NFSeVia/infNFSeVia`. Principais campos:
 O identificador do evento é "EVT" + chave da NFS-e Via (50) + código do evento (6) + número
 sequencial (3). Os grupos `infEventoMiaA` (aceite) e `infEventoMiaR` (rejeição) são
 **mutuamente excludentes**. A NT 010 vem com o **Manual para Emissão da NFS-e Via v1.02** e o
-Anexo IV (Leiautes RN ADN) v1.00.04 com seis planilhas (nota, cancelamento e manifestação, cada
-uma com layout e regras de negócio); esses arquivos **não estão nas fontes**.
+Anexo IV da NFS-e Via (`LeiautesRN_ADN-SNNFSeVia_V1.00.04`, seis planilhas: nota, cancelamento e
+manifestação, cada uma com layout e regras de negócio); esses arquivos **não estão nas fontes**. O
+"Anexo IV" que as fontes têm (v1.00-20251216) é **outro documento**, sobre a distribuição de DF-e do ADN
+([[df-nfse-adn-distribuicao]]); os eventos da NFS-e **comum** estão em [[df-nfse-eventos]].
 
 ## ISSQN e apuração (NT 007, seção 3.c)
 

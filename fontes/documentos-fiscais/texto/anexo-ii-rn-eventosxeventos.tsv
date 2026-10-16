@@ -1,0 +1,29 @@
+L1					RECEPÇAO DE PEDIDOS DE REGISTROS DE EVENTOS NO SISTEMA NACIONAL NFS-e
+L2	#	PEDIDOS DE REGISTRO DOS EVENTOS DE NFS-e  ⏎ RECEPCIONADOS NO SISTEMA AUTORIZADOR  ⏎ APÓS UM EVENTO PRÉ-EXISTENTE  ⏎ JÁ ESTAR RELACIONADO À UMA NFS-e			AO RECEBER OS POSSÍVEIS PEDIDOS DE REGISTROS DOS EVENTOS ABAIXO, O SISTEMA NACIONAL NFS-e PODE ACEITAR OU REJEITAR  ⏎ O PEDIDO DE REGISTRO DE EVENTO RECEBIDO OU EVENTO COMPARTILHADO, CONFORME INDICADO PELOS SINAIS V (Permitir) OU X (Não é Permitido), RESPECTIVAMENTE
+L3					Cancelamento  ⏎ de NFS-e	Cancelamento  ⏎ de NFS-e ⏎ por Substituição	Solicitação de Análise Fiscal para Cancelamento de NFS-e	Cancelamento  ⏎ de NFS-e Deferido  ⏎ por Análise Fiscal	Cancelamento  ⏎ de NFS-e Indeferido  ⏎ por Análise Fiscal	Manifestação de NFS-e -  ⏎ Confirmação do Prestador	Manifestação de NFS-e - ⏎ Confirmação do Tomador	Manifestação de NFS-e - ⏎ Confirmação do Intermediário	Manifestação de NFS-e - ⏎ Confirmação Tácita	Manifestação de NFS-e - ⏎ Rejeição do Prestador	Manifestação de NFS-e - ⏎ Rejeição do Tomador	Manifestação de NFS-e - ⏎ Rejeição do Intermediário	Manifestação de NFS-e ⏎ - Anulação da Rejeição	Cancelamento de NFS-e  ⏎ por Ofício	Bloqueio de NFS-e por Ofício ⏎ (É permitido SOMENTE para eventos que ainda não tenham sido bloqueados ou que já foram desbloqueados)					Desbloqueio de NFS-e por Ofício ⏎ (É permitido SOMENTE se houver um bloqueio pendente e  ⏎ se o desbloqueio corresponder exatamente ao identificador do bloqueio)
+L4		EVENTOS DE NFS-e PRÉ-EXISTENTES NO  ⏎ SISTEMA AUTORIZADOR E  ⏎ RELACIONADOS À NFS-e ⏎  ⏎																	Cancelamento de NFS-e	Cancelamento  ⏎ de NFS-e por Substituição	Cancelamento  ⏎ de NFS-e Deferido por Análise Fiscal	Cancelamento  ⏎ de NFS-e Indeferido por Análise Fiscal	Cancelamento  ⏎ de NFS-e por Ofício	Cancelamento  ⏎ de NFS-e	Cancelamento  ⏎ de NFS-e por Substituição	Cancelamento  ⏎ de NFS-e Deferido por Análise Fiscal	Cancelamento  ⏎ de NFS-e Indeferido por Análise Fiscal	Cancelamento  ⏎ de NFS-e por Ofício
+L5	=ROW(A1)		NENHUM EVENTO PRÉ-EXISTENTE		V	V	V	X	X	V	V	V	V	V	V	V	V	V	V	V	V	V	V	X	X	X	X	X
+L6	=ROW(A2)		Cancelamento de NFS-e		X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X
+L7	=ROW(A3)		Cancelamento de NFS-e por Substituição		X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X
+L8	=ROW(A4)		Solicitação de Análise Fiscal para Cancelamento de NFS-e		X	X	X	V	V	V	V	V	V	V	V	V	V	X	V	V	V	V	V	V	V	V	V	V
+L9	=ROW(A5)		Cancelamento de NFS-e Deferido por Análise Fiscal		X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X
+L10	=ROW(A6)		Cancelamento de NFS-e Indeferido por Análise Fiscal		X	X	X	X	X	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V
+L11	=ROW(A7)		Manifestação de NFS-e - Confirmação do Prestador		X	V	X	X	X	X	X/V	X/V	X	V	X/V	X/V	V	V	V	V	V	V	V	V	V	V	V	V
+L12	=ROW(A8)		Manifestação de NFS-e - Confirmação do Tomador		X	V	X	X	X	X/V	X	X/V	X	X/V	V	X/V	V	V	V	V	V	V	V	V	V	V	V	V
+L13	=ROW(A9)		Manifestação de NFS-e - Confirmação do Intermediário		X	V	X	X	X	X/V	X/V	X	X	X/V	X/V	V	V	V	V	V	V	V	V	V	V	V	V	V
+L14	=ROW(A10)		Manifestação de NFS-e - Confirmação Tácita		X	V	V	V	V	X	X	X	X	X	X	X	X	V	V	V	V	V	V	V	V	V	V	V
+L15	=ROW(A11)		Manifestação de NFS-e - Rejeição do Prestador		V	V	V	V	V	V	X/V	X/V	X	X	X/V	X/V	V	V	V	V	V	V	V	V	V	V	V	V
+L16	=ROW(A12)		Manifestação de NFS-e - Rejeição do Tomador		V	V	V	V	V	X/V	V	X/V	X	X/V	X	X/V	V	V	V	V	V	V	V	V	V	V	V	V
+L17	=ROW(A13)		Manifestação de NFS-e - Rejeição do Intermediário		V	V	V	V	V	X/V	X/V	V	X	X/V	X/V	X	V	V	V	V	V	V	V	V	V	V	V	V
+L18	=ROW(A14)		Manifestação de NFS-e - Anulação Rejeição		X	V	V	V	V	V	V	V	V	X/V	X/V	X/V	X	V	V	V	V	V	V	V	V	V	V	V
+L19	=ROW(A15)		Cancelamento de NFS-e por Ofício		X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X	X
+L20	=ROW(A16)		Bloqueio de NFS-e  ⏎ por Ofício para:	Ev. de Cancelamento de NFS-e	X/V	V	V	V	V	V	V	V	V	V	V	V	V	V	X/V	V	V	V	V	V	V	V	V	V
+L21	=ROW(A17)			Ev. de Cancelamento de NFS-e por Substituição	V	X/V	V	V	V	V	V	V	V	V	V	V	V	V	V	X/V	V	V	V	V	V	V	V	V
+L22	=ROW(A18)			Ev. de Cancelamento de NFS-e Deferido por Análise Fiscal	V	V	V	X/V	V	V	V	V	V	V	V	V	V	V	V	V	X/V	V	V	V	V	V	V	V
+L23	=ROW(A19)			Ev. de Cancelamento de NFS-e Indeferido por Análise Fiscal	V	V	V	V	X/V	V	V	V	V	V	V	V	V	V	V	V	V	X/V	V	V	V	V	V	V
+L24	=ROW(A20)			Ev. de Cancelamento de NFS-e por Ofício	V	V	V	V	V	V	V	V	V	V	V	V	V	X/V	V	V	V	V	X/V	V	V	V	V	V
+L25	=ROW(A21)		Desbloqueio de NFS-e  ⏎ por Ofício de:	Ev. de Cancelamento de NFS-e	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	X	V	V	V	V
+L26	=ROW(A22)			Ev. de Cancelamento de NFS-e por Substituição	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	X	V	V	V
+L27	=ROW(A23)			Ev. de Cancelamento de NFS-e Deferido por Análise Fiscal	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	X	V	V
+L28	=ROW(A24)			Ev. de Cancelamento de NFS-e Indeferido por Análise Fiscal	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	X	V
+L29	=ROW(A25)			Ev. de Cancelamento de NFS-e por Ofício	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	V	X

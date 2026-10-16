@@ -36,15 +36,27 @@
     `cIndOp`) e manual da API (versão indeterminada) entram no **nível de NT**, em 6 notas novas
     `df-nfse-*` (28 notas `df-*` no total): `cgnfse-notas-tecnicas` (cronologia), `layout-ibscbs`,
     `comercio-exterior`, `indop-ibscbs`, `danfse` e `via`. Ordem de publicação ≠ ordem de
-    implantação (a NT 005 é anterior à 004 v2.00 mas não entrou em produção em jan/2026). Lacunas:
-    Anexo VI (regras do grupo IBSCBS), Anexo VIII, cronograma das NTs 005/007/009, Resolução
-    CGNFS-e 9 e Anexo I atual (`pendencias.md`, F12 e F14 a F19).
+    implantação (a NT 005 é anterior à 004 v2.00 mas não entrou em produção em jan/2026). Lacunas
+    daquela data (Anexo VI, Anexo VIII e Anexo I atual foram resolvidas na entrada "noite" abaixo; seguem abertos o
+    cronograma das NTs 005/007/009 e a Resolução CGNFS-e 9: `pendencias.md`).
   - NFS-e, tabelas de códigos (2026-10-16, fim da tarde): lista nacional de serviços do portal (335 códigos
     de 6 dígitos, atualizada pelo portal em 20/08/2024) e tabela do IBGE (DTB 22/11/2024; 5.570 municípios,
     consulta por `scripts/consulta_ibge.py`) entram em 2 notas (`lista-servicos-ctribnac`,
     `codigos-ibge-localidades`; 30 notas `df-*`). Arquivados sem uso: NT 2025.002 v1.33 (superada) e um CSV
     de terceiros (item × NBS × cIndOp × cClassTrib) **reprovado** na conferência contra o Anexo VII e o
-    Portal dos DF-e; o Anexo VIII oficial continua faltando.
+    Portal dos DF-e (o Anexo VIII oficial chegou na entrada seguinte).
+  - NFS-e, anexos oficiais novos (2026-10-16, noite): Anexo I v1.01-20260209 (layout em produção; a cópia de
+    09/09/2025 foi arquivada como superada), Anexo II v1.01-20260122 (eventos), Anexo IV v1.00-20251216 (ADN,
+    distribuição de DF-e; **não** é o "Anexo IV" da NFS-e Via citado pela NT 010), Anexo VI v1.04.01 (layout da
+    NT 009 v1.01, sem data de produção), Anexo VIII v1.01.00 (correlação item × NBS × cIndOp × cClassTrib) e a
+    NT 009 v1.01 (a v1.0 foi arquivada). 10 notas `df-nfse-*` novas (40 notas `df-*` no total):
+    `regras-ibscbs-anexo-vi`, `eventos`, `adn-distribuicao`, `correlacao-nbs-indop` e 6 notas
+    `correlacao-itens-*` (geradas por `scripts/gerar_notas_anexo_viii.py`). Regra de ouro: o que é **só do
+    Anexo VI** não tem data de produção nas fontes. Lacunas que restam em `pendencias.md`.
+  - NFS-e, Anexo B v1.01-20260122 (2026-10-16, noite): lista nacional de serviços com **338 códigos** (os 335 do portal,
+    de descrição idêntica, + 110501, 141403 e 141404), títulos de 41 itens e 201 subitens, e lista de NBS v2.0 (1.210 entradas;
+    contém as 731 NBS do Anexo VIII). A nota `lista-servicos-ctribnac` passou a se basear nele; sem nota nova (40 notas `df-*`).
+    Segue faltando o Anexo A (países ISO2).
 - Soluções de Consulta da Receita entram como **interpretação** dos atos do
   domínio (não criam regra), a partir da SC Cosit 71/2026.
 - Próximos candidatos: LC 87/1996 (Kandir), LC 116/2003 (ISS), Leis

@@ -1,7 +1,7 @@
 ---
 título: NFS-e Nacional — códigos IBGE de município, distrito e subdistrito (DTB) e onde a DPS os usa
 dominio: documentos-fiscais
-fontes: Anexo I do leiaute da DPS/NFS-e (arquivo de 09/09/2025, anterior à versão de 10/12/2025 citada pela NT CGNFS-e 004 v2.00: campos cLocEmi, cLocPrestacao, cLocIncid, cMun e xLocEmi); Relatórios da Divisão Territorial Brasileira do IBGE (BET, data-base 22/11/2024; municípios, distritos e subdistritos) e planilhas de distritos e subdistritos novos de 2023
+fontes: Anexo I v1.01-20260209 do leiaute da DPS/NFS-e (campos cLocEmi, cLocPrestacao, cLocIncid, cMun e xLocEmi, conferidos); Anexo VI v1.04.01 e NT CGNFS-e 009 v1.01 (validação do código do município do endereço, regras E0929, E0920 a E0922); Relatórios da Divisão Territorial Brasileira do IBGE (BET, data-base 22/11/2024; municípios, distritos e subdistritos) e planilhas de distritos e subdistritos novos de 2023
 vigencia: atual
 texto-base: 2026-10-16
 ---
@@ -26,7 +26,7 @@ Esta nota explica **onde o código é usado** e **o que a tabela do IBGE contém
 | `cMun` (`enderNac`) | município do endereço do emitente, prestador, tomador, intermediário e fornecedor de documento de dedução | "Tabela do IBGE", 7 dígitos |
 | `xLocEmi`, `xLocPrestacao`, `xLocIncid` | descrição (nome) do código | preenchidas pelo sistema |
 
-(Código de **país** é outra tabela, a ISO2 do Anexo A, que **não está nas fontes**.)
+(Código de **país** é outra tabela, a ISO2 do Anexo A, que **não está nas fontes**.) O Anexo VI e a NT 009 v1.01 acrescentam conferências sobre o `cMun`: o código do município do endereço do imóvel tem que existir na tabela do IBGE (E0929), e o do endereço do destinatário também (E0920); no Anexo VI, quando o destinatário é identificado por CNPJ ou CPF, o código tem que corresponder ao município do endereço **cadastrado** dele na data de competência (E0921, E0922), com exceção para o subitem 17.05 em condições descritas na regra; ver [[df-nfse-regras-ibscbs-anexo-vi]].
 O ISSQN em si (quem cobra, onde incide) é matéria municipal e fora do escopo; ver
 [[df-nfse-emissao-servico]] para a tela e [[df-nfse-lista-servicos-ctribnac]] para o código do serviço.
 

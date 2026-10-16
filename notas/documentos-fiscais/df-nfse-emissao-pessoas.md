@@ -1,7 +1,7 @@
 ---
 título: NFS-e Nacional — emissão completa, passo 1 (Pessoas): emitente, tomador, destinatário, intermediário e dados gerais da DPS
 dominio: documentos-fiscais
-fontes: Guia do Emissor Público Nacional Web da NFS-e v1.2 (27/07/2026), seção 4.1 e 4.1.1 (p. 20-42); NT 2025.002-RTC v1.52 (referência para CST/cClassTrib, ver df-cst-cclasstrib)
+fontes: Guia do Emissor Público Nacional Web da NFS-e v1.2 (27/07/2026), seção 4.1 e 4.1.1 (p. 20-42); Anexo VI v1.04.01 e NT CGNFS-e 009 v1.01 (regras do tomador e do destinatário); NT 2025.002-RTC v1.52 (referência para CST/cClassTrib, ver df-cst-cclasstrib)
 vigencia: com-mudanca-programada
 texto-base: 2026-10-16
 ---
@@ -88,6 +88,10 @@ Três opções: **Brasil**, **Exterior** ou **não informado** (sem campos extra
 - Para certos **Códigos de Tributação Nacional** do passo 2, informar o tomador é
   **obrigatório**, porque ele define o **local de incidência do ISSQN** (LC 116/2003;
   planilha `MUN.INCID_INFO.SERV` do anexo de leiaute).
+- **IBS/CBS (Anexo VI, NT 009 v1.01):** quando o `cIndOp` põe a incidência do IBS/CBS no município do
+  tomador e a calculadora indica tributação, o tomador (ou o destinatário, se for outra pessoa) tem que
+  ter CNPJ ou CPF e **endereço nacional** (regras E0239, E0243 e E0919). Essas regras são só do
+  Anexo VI e não têm data de produção nas fontes ([[df-nfse-regras-ibscbs-anexo-vi]]).
 - **No Brasil:** CPF/CNPJ (com busca nos últimos tomadores), indicador municipal,
   nome/razão social (recuperado dos cadastros), telefone e e-mail opcionais e
   endereço (CEP, município, bairro, logradouro, número e complemento). O endereço de
