@@ -4,8 +4,8 @@ Base de conhecimento tributário federal do setor fiscal. Posição em 09/10/202
 
 ## O que mostrar em 1 minuto
 
-- **139 notas** em 3 domínios: Reforma Tributária (92), Simples Nacional e MEI
-  (35) e documentos fiscais da NF-e (12).
+- **168 notas** em 3 domínios: Reforma Tributária (92), Simples Nacional e MEI
+  (36) e documentos fiscais da NF-e e da NFS-e (40).
 - **Fontes oficiais**: LC 214/2025, LC 227/2026, Regulamentos da CBS (Decreto
   12.955/2026) e do IBS (Res. CGIBS 6/2026), LC 123/2006, Res. CGSN 140/2018 com
   anexos, Res. CGSN 11/2007, Solução de Consulta Cosit 71/2026, 5 Notas Técnicas,

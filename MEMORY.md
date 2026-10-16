@@ -15,7 +15,7 @@
     140/2018 na visão multivigente da Receita, com as Res. CGSN 190 e
     191/2026 (fase B, 2026-10-07) + Anexos VI (CNAEs impeditivos) e XI
     (ocupações do MEI) da Res. 140 e a SC Cosit 71/2026 (fase C,
-    2026-10-08) + Res. CGSN 11/2007 (arrecadação, texto original): 35 notas `sn-*`. Anexos VII, X e XII ainda não estão nas
+    2026-10-08) + Res. CGSN 11/2007 (arrecadação, texto original): 36 notas `sn-*` (a 36ª, `sn-opcao-2027-prazos`, entrou em 2026-10-16). Anexos VII, X e XII ainda não estão nas
     fontes.
   - `documentos-fiscais` (desde 2026-10-07): 5 Notas Técnicas do Projeto
     NF-e (NT 2025.002-RTC v1.52, 2026.002 v1.11, 2026.007 v1.10, 2026.008
@@ -57,6 +57,16 @@
     de descrição idêntica, + 110501, 141403 e 141404), títulos de 41 itens e 201 subitens, e lista de NBS v2.0 (1.210 entradas;
     contém as 731 NBS do Anexo VIII). A nota `lista-servicos-ctribnac` passou a se basear nele; sem nota nova (40 notas `df-*`).
     Segue faltando o Anexo A (países ISO2).
+  - `simples-nacional`, atos CGSN de 2026 fora da Res. 140 (2026-10-16): Res. CGSN 186/2026 (prazos da
+    opção para 2027), alterada pela 194/2026 (28/09/2026), em `sn-opcao-2027-prazos`: opção pelo Simples
+    01/09 a 15/10/2026; opção pelo regime regular de IBS/CBS ("regime híbrido", só jan–jun/2027) 01/09
+    a 30/10/2026; cancelamento 03/11 a 20/12/2026; pendências até 30/10/2026; empresas novas e SIMEI
+    fora da janela. Também: 187 (art. 40-A, §6º, parcelas em calamidade), 188 (DAS para ISS até 2032 via
+    MAN), 192 (CGIBS na arrecadação, Res. 11/2007); a 193 (Regimento Interno do CGSN) ficou só arquivada.
+    O arquivo da 186 é o consolidado (com a redação da 194): a redação original e a conferência com o DOU
+    são pendências F20/F21. Regra nova R-erro no CLAUDE.md (todo erro apontado vira LEARNINGS + pergunta de
+    teste + pendência de fonte no mesmo PR). Propostas P1/P2 (log de perguntas; varredura de atos novos)
+    aguardam decisão: `pendencias.md`, seção F.
 - Soluções de Consulta da Receita entram como **interpretação** dos atos do
   domínio (não criam regra), a partir da SC Cosit 71/2026.
 - Próximos candidatos: LC 87/1996 (Kandir), LC 116/2003 (ISS), Leis

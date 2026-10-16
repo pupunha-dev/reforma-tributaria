@@ -10,7 +10,7 @@ oficiais de `fontes/<dominio>/`.
 | Domínio | Atos normativos | Notas | Fontes | Prefixo | Status |
 |---|---|---|---|---|---|
 | reforma | LC 214/2025 + LC 227/2026 + regulamentos: Decreto 12.955/2026 (CBS) e Res. CGIBS 6/2026 (IBS) | `notas/reforma/` | `fontes/reforma/` | — | ativo (92 notas; bloco "Regulamentação" em cada nota da lei) |
-| simples-nacional | LC 123/2006 (fase A) + Res. CGSN 140/2018 e alteradoras, como as Res. CGSN 190 e 191/2026 (fase B) + Anexos VI e XI da Res. 140, Res. CGSN 11/2007 (arrecadação) e Solução de Consulta Cosit 71/2026 (fase C) | `notas/simples-nacional/` | `fontes/simples-nacional/` | `sn-` | ativo (35 notas) — fases A, B e C concluídas |
+| simples-nacional | LC 123/2006 (fase A) + Res. CGSN 140/2018 e alteradoras, como as Res. CGSN 190 e 191/2026 (fase B), + **Res. CGSN 186/2026 alterada pela 194/2026 (prazos da opção para 2027)**, 187, 188 e 192/2026 (fase D) + Anexos VI e XI da Res. 140, Res. CGSN 11/2007 (arrecadação) e Solução de Consulta Cosit 71/2026 (fase C) | `notas/simples-nacional/` | `fontes/simples-nacional/` | `sn-` | ativo (36 notas) — fases A, B e C concluídas; atos CGSN de 2026 fora da Res. 140 (186, 187, 188, 192 e 194/2026) incorporados em 16/10/2026 |
 | documentos-fiscais | Notas Técnicas do Projeto NF-e: NT 2025.002-RTC, 2026.002, 2026.007, 2026.008 e 2026.010; Informe Técnico 2025.002 (tabelas do IBS/CBS); tabelas CST/cClassTrib e cCredPres do Portal dos DF-e (SVRS); Guia do Emissor Público Nacional Web da NFS-e v1.2 (documentação operacional, notas `df-nfse-*`); **Notas Técnicas da SE/CGNFS-e 003 a 010 da NFS-e Nacional**, com os Anexos B v1.01-20260122 (lista nacional de serviços e NBS), I v1.01, II (eventos), IV (ADN, distribuição de DF-e), VI, VII e VIII, o manual da API e a lista nacional de serviços (cTribNac) da NFS-e, além da tabela de municípios do IBGE (nível de NT para a NFS-e; notas `df-nfse-*`). Versões e datas de captura em `fontes/documentos-fiscais/FONTE.md` | `notas/documentos-fiscais/` | `fontes/documentos-fiscais/` | `df-` | ativo (40 notas) |
 
 - Índice mestre: **[notas/INDEX.md](notas/INDEX.md)**. Cada domínio tem
@@ -113,6 +113,21 @@ faltar é lacuna (regra 3): ofereça consultar o texto extraído em
    nunca como regra nova, e sinalize se ela divergir da lei ou da resolução.
 9. **Cruzamento (R-cruzamento).** Pergunta que envolve dois domínios (ex.:
    Simples Nacional × IBS/CBS) usa as notas dos dois e cita ambas.
+10. **Erro apontado (R-erro).** Todo erro que o usuário ou a diretoria apontar
+    (resposta do bot, nota errada, data ou número errado, fonte que faltava)
+    é registrado **no mesmo PR que o corrige**, com três itens:
+    (a) uma entrada em [LEARNINGS.md](LEARNINGS.md) com "O que aconteceu", "Por
+    que importa" e "Ação" (a regra 5 não se aplica aqui: erro apontado por
+    usuário sempre entra);
+    (b) uma pergunta de regressão em `docs/perguntas-teste/<dominio>.md`, com a
+    resposta esperada e, se for o caso, o que **não** pode ser dito;
+    (c) se a causa foi fonte que faltava, uma linha em
+    [pendencias.md](pendencias.md) (seção B) com a fonte a buscar, e a conferência
+    do ato original quando só se tiver texto de terceiros.
+    Se o erro vier do roteador ou do prompt do bot, acrescente a regra em
+    `projetos/telegram-bot/prompts/` e rode os testes do bot. Aviso ⚠️ de lacuna
+    numa nota exige a linha correspondente em `pendencias.md` (seção B): sem ela
+    ninguém vai atrás da fonte.
 
 ## Legendas
 

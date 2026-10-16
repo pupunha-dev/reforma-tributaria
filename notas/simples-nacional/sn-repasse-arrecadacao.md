@@ -1,9 +1,9 @@
 ---
 título: Repasse do produto da arrecadação do Simples aos entes
 dominio: simples-nacional
-fontes: LC 123/2006, art. 22 (caput e incisos IV a VI com redação da LC 227/2026, art. 168); LC 214/2025, arts. 542 e 543; Res. CGSN 140/2018, arts. 27, 43, 44, 45 e 54; Res. CGSN 11/2007, arts. 5º a 21 e 26 (texto original)
+fontes: LC 123/2006, art. 22 (caput e incisos IV a VI com redação da LC 227/2026, art. 168); LC 214/2025, arts. 542 e 543; Res. CGSN 140/2018, arts. 27, 43, 44, 45 e 54; Res. CGSN 11/2007, arts. 5º a 21 e 26 (texto original); Res. CGSN 192/2026 (altera os arts. 17-A, 19, 20 e 21 da Res. 11)
 vigencia: com-mudanca-programada
-texto-base: 2026-10-08
+texto-base: 2026-10-16
 ---
 
 # Repasse da arrecadação
@@ -84,8 +84,42 @@ O caminho do dinheiro, do pagamento do DAS até a conta de cada ente. Pense numa
 4. A RFB disponibiliza aos entes, no Portal do Simples, as informações dos DAS e
    dos valores arrecadados (art. 26).
 
+### O que a Res. CGSN 192/2026 mudou (DOU de 10/08/2026, Edição Extra)
+
+A Res. CGSN 192/2026 acrescentou o **CGIBS** (Comitê Gestor do IBS) à esteira:
+onde a Res. 11 falava só em "entes federativos" ou "estados e municípios", a
+partilha agora inclui o CGIBS. Está em vigor desde a publicação (art. 2º). Os
+dispositivos alterados, com a redação nova:
+
+- **Art. 17-A, §2º:** os entes federados **e o CGIBS** recebem da IFC os dados
+  analíticos dos **documentos cancelados**, que permitam identificar os valores
+  descontados.
+- **Art. 19:** a RFB, por intermédio do Serpro, processa os arquivos da rede
+  arrecadadora e envia à IFC as informações para o crédito dos montantes devidos
+  aos **estados, municípios e ao CGIBS**. (O texto oficial grafa "CGBIS" nesse
+  artigo; é erro de digitação do ato, pois os demais artigos usam
+  CGIBS.)
+- **Art. 20, §1º, "b", "d" e "f":** a IFC recebe da RFB as informações para a
+  partilha aos entes **e ao CGIBS**; promove a partilha dos recursos aos entes
+  **e ao CGIBS**; e disponibiliza a cada ente **e ao CGIBS** as informações da
+  alínea "b".
+- **Art. 20, §3º, IV, e §4º:** o valor de principal, multa e juros passa a ser
+  informado **também em relação ao CGIBS**, e a forma de entrega das informações
+  é combinada entre o ente federativo, **o CGIBS** e a IFC.
+- **Art. 21, caput e §5º:** a partilha diária fica disponível aos entes **e ao
+  CGIBS** no 1º dia útil seguinte ao da recepção da informação do art. 20, §1º,
+  "b"; e a IFC não pode dar ao produto da arrecadação outra destinação que não
+  mantê-lo em conta específica até a partilha aos entes **e ao CGIBS**.
+
+A Res. 192 só reproduz os trechos que alterou. Os demais dispositivos seguem
+como no texto original que consta das fontes. O **art. 17-A** (cancelamento de
+documentos) **não existe no texto original** que temos da Res. 11, que só vai do
+art. 1º ao 27 com os arts. 17 e 18; portanto o caput e o §1º do art. 17-A, e
+qualquer outra alteração da Res. 11 anterior a 2026, **não estão nas fontes**.
+
 > ⚠️ **Versão:** a fonte é o texto **original** da Res. CGSN 11/2007 (DOU de
-> 25/07/2007; PDF de 2008). Alterações posteriores não foram verificadas, e o
+> 25/07/2007; PDF de 2008), mais os trechos alterados pela Res. CGSN 192/2026
+> (acima). Outras alterações posteriores não foram verificadas, e o
 > texto cita normas antigas (ex.: Res. CGSN 5/2007 para o aplicativo do DAS e a
 > Lei 8.666/1993 para os contratos). Para emissão e cálculo do DAS hoje, vale a
 > Res. CGSN 140 (ver [[sn-recolhimento-das]] e [[sn-declaracoes-pgdas-defis]]).

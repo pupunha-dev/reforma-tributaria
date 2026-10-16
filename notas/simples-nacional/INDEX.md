@@ -6,7 +6,10 @@ título: Índice — Simples Nacional (LC 123/2006 + Res. CGSN 140/2018 e anexos
 
 Domínio `simples-nacional`. Prefixo `sn-`. **Fase A:** LC 123/2006. **Fase B:**
 Res. CGSN 140/2018 (visão multivigente do portal da Receita, 07/10/2026) e as
-alteradoras Res. CGSN 190 e 191/2026. Cada nota traz a lei primeiro e, na
+alteradoras Res. CGSN 190 e 191/2026. **Atos de 2026 incorporados em 16/10/2026:**
+Res. CGSN 186/2026 e 194/2026 (opção para 2027), 187/2026 (parcelas em calamidade),
+188/2026 (DAS para ISS) e 192/2026 (arrecadação e CGIBS); a 193/2026 só altera o
+Regimento Interno do CGSN e não gera nota. Cada nota traz a lei primeiro e, na
 seção "Regulamentação (Res. CGSN 140/2018)", o detalhe operacional; se a
 resolução divergir da lei, há um aviso ⚠️ e **vale a lei**. Regras futuras ficam
 em blocos `⏳` (redação futura) e `❌` (revogação programada), com data e
@@ -19,8 +22,10 @@ fundamento.
 
 **Lacunas conhecidas:** os Anexos VII, X e XII da Res. 140 (CNAEs ambíguos,
 relatório mensal do MEI e Anexo XII) **não estão nas fontes**. Os Anexos VI e XI
-e a Res. CGSN 11/2007 (texto original, sobre arrecadação e partilha) entraram em
-2026-10-08.
+e a Res. CGSN 11/2007 (texto original, sobre arrecadação e partilha, mais as
+alterações da Res. CGSN 192/2026) entraram em 2026-10-08 e 2026-10-16. Falta o
+texto **original** da Res. CGSN 186/2026 (DOU de 17/04/2026): as fontes têm a
+redação dada pela 194.
 
 ## 1. Quem é pequeno e como entra
 
@@ -29,6 +34,7 @@ e a Res. CGSN 11/2007 (texto original, sobre arrecadação e partilha) entraram 
 - [[sn-vedacoes-ingresso]] — atividades e situações que impedem o Simples (art. 17)
 - [[sn-cnae-impeditivos]] — os 101 CNAEs impeditivos do Anexo VI da Res. 140; o CNAE é o filtro, decide a atividade real
 - [[sn-abrangencia-tributos]] — tributos dentro e fora do DAS, opção, isenção de IR sobre lucros; IBS/CBS a partir de 2027
+- [[sn-opcao-2027-prazos]] — prazos da opção para 2027 (Res. CGSN 186/2026, alterada pela 194/2026): Simples até 15/10/2026, regime regular de IBS/CBS ("regime híbrido") até 30/10/2026, cancelamento, pendências, empresas novas, SIMEI excluído
 
 ## 2. Cálculo do DAS
 
@@ -50,12 +56,12 @@ e a Res. CGSN 11/2007 (texto original, sobre arrecadação e partilha) entraram 
 
 ## 4. Pagamento, créditos e obrigações
 
-- [[sn-recolhimento-das]] — DAS, retenção de ISS, restituição, compensação, parcelamento; split payment em 2027
-- [[sn-repasse-arrecadacao]] — partilha entre os entes; caminho do DAS até cada ente (Res. CGSN 11/2007); DAS mínimo de R$ 10,00; IBS do MEI 50%/50%
+- [[sn-recolhimento-das]] — DAS, retenção de ISS, restituição, compensação, parcelamento; split payment em 2027; DAS para recolher ISS pelo MAN até 2032 (Res. CGSN 188/2026); calamidade pública (art. 40-A)
+- [[sn-repasse-arrecadacao]] — partilha entre os entes; caminho do DAS até cada ente (Res. CGSN 11/2007); DAS mínimo de R$ 10,00; IBS do MEI 50%/50%; CGIBS na partilha (Res. CGSN 192/2026)
 - [[sn-creditos]] — crédito de ICMS (e, em 2027, de IBS/CBS) para quem compra de optante
 - [[sn-obrigacoes-acessorias]] — declarações, documentos fiscais, livro-caixa; NFS-e nacional obrigatória para ME/EPP optantes a partir de 01/11/2026 (Res. CGSN 191/2026, que altera o art. 59 da Res. 140); declaração assistida em 2027
 - [[sn-declaracoes-pgdas-defis]] — PGDAS-D (confissão de dívida, retificação, malha) e Defis; Defis vira bloco anual do PGDAS-D em 2027
-- [[sn-parcelamento]] — até 60 parcelas, redução de multa de 40%/20%, reparcelamento (10%/20%), rescisão
+- [[sn-parcelamento]] — até 60 parcelas, redução de multa de 40%/20%, reparcelamento (10%/20%), rescisão; prorrogação de parcelas em calamidade (Res. CGSN 187/2026)
 
 ## 5. Saída, fiscalização e litígio
 

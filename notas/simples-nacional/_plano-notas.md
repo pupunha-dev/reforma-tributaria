@@ -59,7 +59,7 @@ Anexos I–VII.
 |---|---|---|---|---|
 | sn-associativismo-credito-inovacao.md | 56–67-A | com-mudanca-programada | Sociedade de propósito específico, crédito e capitalização (investidor-anjo, ESC, garantia solidária), inovação (Inova Simples) | — |
 | sn-regras-civis-justica-apoio.md | 68–76-A | atual | Pequeno empresário, deliberações sociais, nome empresarial, protesto de títulos, juizados, conciliação, apoio e representação | — |
-| sn-disposicoes-finais.md | 77–89 | atual | Disposições finais e transitórias (inclui o art. 87-B, revogado pela LC 227, art. 181, IV, "a") | — |
+| sn-disposicoes-finais.md | 77–89 | atual | Disposições finais e transitórias (inclui o art. 87-B, revogado pela LC 227, art. 181, IV, "a"; a transição do prazo de 2027 está em sn-opcao-2027-prazos) | — |
 
 ## Cobertura
 
@@ -119,3 +119,17 @@ recebe a seção "Regulamentação (Res. CGSN 140/2018)" depois da regra da LC
 
 Anexos **VII** (CNAEs ambíguos), **X** (relatório mensal do MEI) e **XII** da Res.
 140 seguem **lacuna**: são PDFs separados no portal e não estão nas fontes.
+
+### Fase D — Resoluções CGSN de 2026 fora da Res. 140 (2026-10-16, a pedido do usuário)
+
+| Arquivo | Fonte | Vigência | Observação |
+|---|---|---|---|
+| sn-opcao-2027-prazos.md | Res. CGSN 186/2026 (redação da 194/2026), arts. 1º a 5º; LC 123, arts. 2º, §6º, 13, §§9º–11, e 16; LC 214, art. 41, §§3º–4º | com-mudanca-programada | prazos da opção de 2027: Simples (01/09–15/10/2026), regime regular de IBS/CBS (01/09–30/10/2026), cancelamento, pendências, empresas novas e SIMEI |
+
+Atos de 2026 absorvidos em notas já existentes (sem nota nova): Res. CGSN 187/2026
+(art. 40-A, §6º da Res. 140: [[sn-recolhimento-das]], [[sn-parcelamento]]); Res.
+CGSN 188/2026 (DAS para o ISS até 2032 e revogação da Res. 177/2024:
+[[sn-recolhimento-das]]); Res. CGSN 192/2026 (arrecadação e CGIBS:
+[[sn-repasse-arrecadacao]]). A Res. CGSN 193/2026 (Regimento Interno do CGSN) fica
+arquivada em `fontes/`, sem nota: não traz regra tributária. A Res. CGSN 191/2026
+já estava nas fontes (DOU).

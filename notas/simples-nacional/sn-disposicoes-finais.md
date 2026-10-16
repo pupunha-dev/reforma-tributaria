@@ -1,9 +1,9 @@
 ---
 título: Disposições finais e transitórias da LC 123 (visão geral)
 dominio: simples-nacional
-fontes: LC 123/2006, arts. 77 a 89; LC 214/2025, art. 517 (art. 87-B); LC 227/2026, art. 181, IV, "a"; Res. CGSN 140/2018, arts. 142 a 153; Res. CGSN 190/2026, art. 1º (arts. 144-D e 144-E)
+fontes: LC 123/2006, arts. 77 a 89; LC 214/2025, art. 517 (art. 87-B); LC 227/2026, art. 181, IV, "a"; Res. CGSN 140/2018, arts. 142 a 153; Res. CGSN 190/2026, art. 1º (arts. 144-D e 144-E); Res. CGSN 186/2026 (redação da Res. CGSN 194/2026)
 vigencia: com-mudanca-programada
-texto-base: 2026-10-07
+texto-base: 2026-10-16
 ---
 
 # Disposições finais e transitórias (visão geral)
@@ -53,13 +53,14 @@ dessas leis está fora das fontes deste second brain.
   **setembro de 2026**.
 - A LC 227/2026 **revogou** esse art. 87-B "na redação dada pelo art. 517 da Lei
   Complementar nº 214" (art. 181, IV, "a"), com vigência desde a publicação.
-- **Lacuna:** como a nova regra de opção em setembro (art. 16, §2º, redação do
-  art. 517) só produz efeitos a partir de 01/01/2027, as notas não têm, só com a
-  LC 123, LC 214 e LC 227, a regra operacional do prazo de opção para o
-  ano-calendário 2027. A Res. CGSN 190/2026 altera o art. 6º da Res. CGSN 140
-  (opção), mas também não traz regra de transição para o prazo da opção de 2027:
-  ver o ⚠️ em [[sn-abrangencia-tributos]]. O que ela traz para quem ingressa em
-  2027 é o envio prévio da receita anterior (arts. 144-D e 144-E, abaixo).
+- **Onde está o prazo da opção de 2027:** como a nova regra de opção em
+  setembro (art. 16, §2º, redação do art. 517) só produz efeitos a partir de
+  01/01/2027, a transição foi feita por resolução: a **Res. CGSN 186/2026**
+  (alterada pela 194/2026) fixou a opção pelo Simples de **01/09 a 15/10/2026** e
+  a opção por IBS/CBS pelo regime regular de **01/09 a 30/10/2026**. Ver
+  [[sn-opcao-2027-prazos]]. A Res. CGSN 190/2026 não traz regra de transição para
+  esse prazo; o que ela traz para quem ingressa em 2027 é o envio prévio da
+  receita anterior (arts. 144-D e 144-E, abaixo).
 
 ## Regulamentação (Res. CGSN 140/2018)
 

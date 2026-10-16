@@ -3,7 +3,7 @@
 Controle do que está **em aberto**. Item decidido pela equipe sai daqui e vai
 para [decisions.md](decisions.md) (só posição adotada, regra 6 do
 [CLAUDE.md](CLAUDE.md)). Item resolvido por nova fonte sai daqui e a nota é
-atualizada. Data-base: 2026-10-08 (itens F11 a F19 incluídos em 2026-10-16).
+atualizada. Data-base: 2026-10-08 (itens F11 a F21 incluídos em 2026-10-16).
 
 ## A. Decisões da equipe (consultar depois)
 
@@ -14,7 +14,7 @@ seguem a hierarquia (lei > resolução) e mantêm o aviso ⚠️.
 |---|---|---|---|---|
 | D1 | Dedução do DAS no limite de lucros isentos | LC 123, art. 14, §1º: subtrai o DAS inteiro. Res. 140, art. 145, §1º: subtrai só o IRPJ | [[sn-disposicoes-finais]], [[sn-abrangencia-tributos]] | Manter a LC (nível mais alto e mais conservador); conferir como o PGDAS-D trata na prática |
 | D2 | Prazo de 20/12/2026 (Res. 140, art. 144-E, I) anterior aos efeitos da Res. 190 (01/01/2027) | As fontes não resolvem o descompasso | [[sn-disposicoes-finais]] | Tratar 20/12/2026 como prazo real; acompanhar correção oficial |
-| D3 | Prazo da opção pelo Simples para 2027 | Até 31/12/2026 a opção é em janeiro; depois, em setembro. Sem regra de transição nas fontes; art. 87-B da LC 123 revogado pela LC 227 | [[sn-abrangencia-tributos]], [[sn-disposicoes-finais]] | Não prometer prazo ao cliente; listar os clientes que pretendem entrar em 2027 |
+| D3 | ~~Prazo da opção pelo Simples para 2027~~ **resolvido em 2026-10-16** | Res. CGSN 186/2026 (alterada pela 194/2026) fixa as datas: [[sn-opcao-2027-prazos]]. Resta só a leitura sistemática 186 × 190 (186 específica de 2027; 190 geral dos anos seguintes), que nenhum dos dois atos diz expressamente | [[sn-opcao-2027-prazos]], [[sn-abrangencia-tributos]] | Manter a leitura sistemática com o aviso na nota; registrar em `decisions.md` se a equipe adotar posição |
 
 ## B. Fontes que faltam
 
@@ -35,6 +35,8 @@ seguem a hierarquia (lei > resolução) e mantêm o aviso ⚠️.
 | F18 | **Resolução CGNFS-e nº 9/2025**, Manual para Emissão da NFS-e Via v1.02 e **Anexo IV da NFS-e Via** (`LeiautesRN_ADN-SNNFSeVia_V1.00.04`; o "Anexo IV" que está nas fontes é o do ADN) | portal da NFS-e → NFS-e Via → documentação técnica | [[df-nfse-via]], [[df-nfse-adn-distribuicao]] | média |
 | F19 | NT 004 (1ª versão, 19/08/2025) e NTs 001 e 002; versão do **manual da API** posterior à 1.0 (o arquivo recebido não identifica a versão) | portal da NFS-e → documentação técnica | [[df-nfse-cgnfse-notas-tecnicas]] | baixa |
 | F13 | Endereço oficial de origem do **Guia do Emissor** e de cada **NT/anexo da SE/CGNFS-e** (os PDFs não trazem) e versão posterior à 1.2 do guia, se houver | Portal da NFS-e Nacional | [[df-nfse-visao-geral]] | baixa |
+| F20 | **Texto original** da Res. CGSN 186/2026 (DOU de 17/04/2026, antes da 194) e **conferência com o DOU** das Res. CGSN 186, 187, 188, 192 e 193/2026, recebidas como texto extraído | Diário Oficial da União (in.gov.br) ou Portal Normas da Receita (visão multivigente da Res. 186) | [[sn-opcao-2027-prazos]], [[sn-repasse-arrecadacao]], [[sn-recolhimento-das]] | média |
+| F21 | Texto **atualizado** da Res. CGSN 11/2007 (com o art. 17-A e demais alterações anteriores a 2026); as fontes têm o original de 2007 mais os trechos da Res. 192/2026 | Portal Normas da Receita (visão multivigente) | [[sn-repasse-arrecadacao]] | média |
 | F7 | SC Cosit nº 66/2013 (CNAE × atividade real), citada na SC 71/2026 | Portal Normas da Receita | [[sn-cnae-impeditivos]], [[sn-solucoes-consulta]] | baixa |
 
 Os regulamentos da CBS e do IBS (antes F5 e F6) e a Res. CGSN 11/2007 (antes F2)
@@ -78,3 +80,15 @@ Nada em andamento.
   Abertos desta entrada: **código de lista de serviços** `110501`, `141403` e `141404` do Anexo I que a lista do portal
   não traz (confirmar atualização do portal; ver [[df-nfse-lista-servicos-ctribnac]]); discrepância de data da NT 009 v1.01
   (11/09/2026 no texto; 01/10/2026 no rótulo do portal); Anexo VII v1.02.01 citado pela NT 009 v1.01 × v1.03.00 nas fontes.
+- Res. CGSN 186/2026 (redação da 194/2026), 187, 188, 192 e 193/2026 (a 191 já estava nas fontes): nota nova
+  [[sn-opcao-2027-prazos]] e atualização de [[sn-abrangencia-tributos]], [[sn-disposicoes-finais]],
+  [[sn-recolhimento-das]], [[sn-parcelamento]] e [[sn-repasse-arrecadacao]]. Fechou D3 (prazo da opção de 2027). Abriu F20 e F21.
+
+## F. Propostas aguardando decisão da equipe
+
+Surgiram em 2026-10-16, quando uma resposta do bot errou por falta de um ato nas fontes. Nenhuma foi implantada.
+
+| # | Proposta | Para que serve | Custo / cuidado |
+|---|---|---|---|
+| P1 | **Registrar as perguntas do bot** em uma tabela (data, pergunta, notas escolhidas pelo roteador, se a resposta foi marcada como lacuna) | Achar lacunas de fonte pelo uso real, sem depender de alguém reclamar | Exige nó novo no n8n e cuidado com dados de clientes: **não guardar nome de cliente nem CNPJ**; avaliar se o log fica só no n8n |
+| P2 | **Varredura periódica** de atos novos (Res. CGSN, NTs do Portal da NF-e, NTs da SE/CGNFS-e) com aviso ao responsável | Evitar que um ato novo (como as Res. 186/194) fique meses fora das fontes | Depende de acesso às páginas oficiais; o ambiente do Claude só alcança sites permitidos. Alternativa mais simples: conferir as páginas de atos toda semana e enviar o que for novo |
