@@ -37,7 +37,6 @@ def js(caminho: str) -> str:
 
 
 CRED_TELEGRAM = {"telegramApi": {"name": "Telegram Bot (Consulta Fiscal)"}}
-CRED_GITHUB = {"httpHeaderAuth": {"name": "GitHub (leitura second brain)"}}
 CRED_ANTHROPIC = {"httpHeaderAuth": {"name": "Anthropic API"}}
 
 nodes = []
@@ -99,10 +98,13 @@ def telegram_send(nome, chat_id_expr, texto_expr):
     }
 
 
+# O repositório é público: lê pelo raw.githubusercontent.com, sem token. A API (api.github.com) sem token
+# limita a 60 consultas por hora por IP e estourou nos testes ("API rate limit exceeded", HTTP 403).
+# Cada pergunta usa de 4 a 9 leituras; o raw não tem esse limite. O cache do GitHub (CDN) pode atrasar
+# até ~5 minutos a chegada de uma nota recém-mergeada.
 URL_GITHUB = (
-    "=https://api.github.com/repos/{{ $('Preparar').first().json.cfg.owner }}"
-    "/{{ $('Preparar').first().json.cfg.repo }}/contents/{{ $json.caminho }}"
-    "?ref={{ $('Preparar').first().json.cfg.branch }}"
+    "=https://raw.githubusercontent.com/{{ $('Preparar').first().json.cfg.owner }}"
+    "/{{ $('Preparar').first().json.cfg.repo }}/{{ $('Preparar').first().json.cfg.branch }}/{{ $json.caminho }}"
 )
 
 
@@ -114,21 +116,12 @@ def github_get(nome):
         "parameters": {
             "method": "GET",
             "url": URL_GITHUB,
-            "authentication": "genericCredentialType",
-            "genericAuthType": "httpHeaderAuth",
-            "sendHeaders": True,
-            "headerParameters": {
-                "parameters": [
-                    {"name": "Accept", "value": "application/vnd.github.raw+json"},
-                    {"name": "X-GitHub-Api-Version", "value": "2022-11-28"},
-                ]
-            },
+            "authentication": "none",
             "options": {
                 "response": {"response": {"responseFormat": "text", "outputPropertyName": "texto"}},
                 "timeout": 60000,
             },
         },
-        "credentials": CRED_GITHUB,
         "retryOnFail": True,
         "maxTries": 2,
         "waitBetweenTries": 2000,
@@ -166,11 +159,10 @@ LEIA_ME = (
     "## Second brain tributário no Telegram\n\n"
     "**Antes de ativar:**\n"
     "1. Credencial **Telegram Bot (Consulta Fiscal)**: token do @BotFather.\n"
-    "2. Credencial **GitHub (leitura second brain)**: tipo Header Auth, nome `Authorization`, "
-    "valor `Bearer SEU_TOKEN` (token fine-grained, só leitura, só este repositório).\n"
-    "3. Credencial **Anthropic API**: tipo Header Auth, nome `x-api-key`, valor = sua chave.\n"
-    "4. No nó **Preparar**, troque `COLE_AQUI_O_SEU_ID` pelo seu ID do Telegram e confira dono/repositório/branch.\n"
-    "5. Teste com **Execute workflow** e mande uma mensagem ao bot; depois ative o fluxo (chave Active).\n\n"
+    "2. Credencial **Anthropic API**: tipo Header Auth, nome `x-api-key`, valor = sua chave.\n"
+    "3. No nó **Preparar**, troque `COLE_AQUI_O_SEU_ID` pelo seu ID do Telegram e confira dono/repositório/branch "
+    "(o repositório precisa ser público: as notas são lidas sem token, pelo raw.githubusercontent.com).\n"
+    "4. Teste com **Execute workflow** e mande uma mensagem ao bot; depois ative o fluxo (chave Active).\n\n"
     "Os prompts estão dentro dos nós **Montar roteador** e **Montar contexto** "
     "(gerados a partir de prompts/*.md pelo gerar_fluxo.py)."
 )
