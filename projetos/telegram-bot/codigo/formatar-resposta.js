@@ -70,6 +70,12 @@ const meta = {
   stopReason: stop,
 };
 
+// O nó do Telegram envia com parse_mode Markdown (padrão do n8n). Um "_", "*", "`" ou "[" solto no texto
+// (ex.: "IndOp_IBSCBS") faz o Telegram recusar a mensagem inteira ("can't parse entities").
+// A barra invertida antes do caractere o mantém como texto comum. Escapa depois de dividir (cada parte
+// continua abaixo de 4.096 caracteres: o corte é em 3.800).
+const escapar = (s) => s.replace(/([_*`\[])/g, '\\$1');
+
 return dividir(texto, 3800).map((t, i, arr) => ({
-  json: { chatId: p.chatId, text: t, parte: i + 1, partes: arr.length, meta: i === 0 ? meta : undefined },
+  json: { chatId: p.chatId, text: escapar(t), parte: i + 1, partes: arr.length, meta: i === 0 ? meta : undefined },
 }));
