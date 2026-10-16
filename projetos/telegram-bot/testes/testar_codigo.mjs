@@ -233,6 +233,23 @@ console.log('\n[5] Base legal e prompt curto');
   confere('prompt de sistema exige base legal e formato curto', mc.includes('BASE LEGAL') && mc.includes('Base legal:') && mc.includes('1.200'));
 }
 
+// ---------------------------------------------------------------- 5b) caracteres do Markdown do Telegram
+console.log('\n[5b] Escape de _ * ` [ (parse_mode Markdown do n8n)');
+{
+  const S = {};
+  S['Preparar'] = await rodar('Preparar', S, update(111, 'pergunta de teste sobre imóveis'), TROCA_ID);
+  S['Montar contexto'] = [{ json: { precisaClaude: 'sim', meta: { consultadas: ['reforma/a.md'], truncadas: [] } } }];
+  const txt = 'Tela IndOp_IBSCBS, campo cIndOp e a tag tp_ente; use `cClassTrib` e [ref]; 2*3.\n\nBase legal: LC 214/2025, art. 11';
+  const fm = await rodar('Formatar resposta', S, [{ json: { content: [{ type: 'text', text: txt }], stop_reason: 'end_turn', usage: {} } }]);
+  const t = fm[0].json.text;
+  confere('underscore escapado (evita "can\'t parse entities")', t.includes('IndOp\\_IBSCBS') && t.includes('tp\\_ente'));
+  confere('asterisco, crase e colchete escapados', t.includes('2\\*3') && t.includes('\\`cClassTrib\\`') && t.includes('\\[ref]'));
+  confere('nenhum _ * ` [ sem barra antes', !/(^|[^\\])[_*`\[]/.test(t));
+  const longo = ('Campo IndOp_IBSCBS e tp_ente repetidos para forçar muitos escapes. ').repeat(150);
+  const fm2 = await rodar('Formatar resposta', S, [{ json: { content: [{ type: 'text', text: longo }], stop_reason: 'end_turn', usage: {} } }]);
+  confere('com escapes, nenhuma parte passa de 4.096', fm2.every((x) => x.json.text.length <= 4096), fm2.map((x) => x.json.text.length).join(','));
+}
+
 // ---------------------------------------------------------------- 6) travas contra disparo acidental
 console.log('\n[6] Travas anti-disparo');
 {

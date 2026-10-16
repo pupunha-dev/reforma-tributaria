@@ -328,3 +328,9 @@ O que aconteceu: (1) as respostas "confusas e duvidosas" vieram de um Anexo I de
 Por que importa: a diretoria perde a confiança com qualquer data ou rejeição errada; a mesma frase vale ou não conforme o anexo.
 
 Ação: sempre abrir `FONTE.md` e conferir versão e data antes de responder; as notas dizem de qual anexo vem cada regra ("I e VI" ou "só VI"); o nome "Anexo IV" é sempre qualificado; planilhas com células mescladas são lidas pela planilha original, não só pelo TSV. Padrão para novos anexos: comparar com o anterior por código de erro e registrar o que mudou.
+
+## [2026-10-16] — Telegram: "can't parse entities" por _ * ` [ soltos na resposta
+
+O que aconteceu: o nó "Telegram: enviar resposta" falhou com "Bad Request: can't parse entities" numa resposta que citava a tela `IndOp_IBSCBS`. O nó do n8n envia com `parse_mode` Markdown por padrão (não aparece nos Additional Fields), e um `_`, `*`, crase ou `[` sem par faz o Telegram recusar a mensagem inteira. Funcionava antes só porque as respostas anteriores não tinham esses caracteres.
+
+Por que importa: respostas sobre NFS-e e NT trazem muitos nomes com underscore (campos, tags, telas); a falha some a resposta da vista de quem perguntou. Correção: `Formatar resposta` põe barra invertida antes desses 4 caracteres depois de dividir a mensagem (teste [5b]). Se um dia o nó passar a usar HTML ou MarkdownV2, o escape muda.
