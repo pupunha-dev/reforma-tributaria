@@ -8,7 +8,7 @@ Roda no n8n (VPS da Hostinger), lê as notas direto do GitHub e usa a API do Cla
 ```
 Telegram → confere o ID da pessoa → "Consultando as notas..."
   → lê os 3 INDEX.md no GitHub
-  → Claude (modelo rápido) escolhe de 1 a 4 notas pelos índices   [roteador]
+  → Claude (modelo rápido) escolhe de 1 a 6 notas pelos índices   [roteador]
   → o código descarta qualquer nome que não exista nos índices
   → lê as notas escolhidas no GitHub
   → Claude (modelo mais capaz) responde só com essas notas        [prompt = regras do CLAUDE.md]
@@ -74,7 +74,7 @@ até reativar.
 
 ## Custo e controle
 
-- Cada pergunta faz 2 chamadas ao Claude. O roteador recebe só os índices (~6 mil tokens) e a resposta recebe de 1 a 4 notas (limite de ~57 mil tokens no pior caso).
+- Cada pergunta faz 2 chamadas ao Claude. O roteador recebe só os índices (~6 mil tokens) e a resposta recebe de 1 a 6 notas (o limite de ~57 mil tokens no pior caso continua o mesmo, porque o teto é o total de caracteres, não o número de notas).
 - Defina um limite mensal de gasto no Console da Anthropic.
 - O histórico de execuções do n8n guarda pergunta, notas abertas e tokens usados (nó "Formatar resposta").
 
