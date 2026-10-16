@@ -242,3 +242,4 @@ Fundamento da data: Res. 190, art. 9º.
   excesso acima de 20%.
 - [[sn-obrigacoes-acessorias]]: NFS-e nacional e documentos do optante.
 - [[sn-acrescimos-penalidades]]: as multas gerais e a redução do art. 98-A.
+- [[df-nfse-emissao-final-mei]]: a emissão simplificada da NFS-e do MEI no Emissor Nacional; acesso por GOV.BR em [[df-nfse-acesso-perfis]].

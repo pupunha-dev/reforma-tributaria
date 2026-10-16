@@ -3,7 +3,7 @@
 Controle do que está **em aberto**. Item decidido pela equipe sai daqui e vai
 para [decisions.md](decisions.md) (só posição adotada, regra 6 do
 [CLAUDE.md](CLAUDE.md)). Item resolvido por nova fonte sai daqui e a nota é
-atualizada. Data-base: 2026-10-08.
+atualizada. Data-base: 2026-10-08 (itens F11 a F13 incluídos em 2026-10-16).
 
 ## A. Decisões da equipe (consultar depois)
 
@@ -26,6 +26,9 @@ seguem a hierarquia (lei > resolução) e mantêm o aviso ⚠️.
 | F8 | Versão atual da **Res. CGIBS 6/2026** (alterações depois de 30/04/2026, se houver) e a **data de publicação** | site do Comitê Gestor do IBS | [[regulamentos-cbs-ibs]], [[ibs-cbs-cadastro-regulamentacao]] (divergência CBS × IBS sobre PF e produtor rural PF) | **alta** |
 | F9 | Ato conjunto RFB/CGIBS com as **datas de obrigatoriedade** de cada documento fiscal (art. 112 dos regulamentos) | sites da RFB e do CGIBS | [[ibs-cbs-documento-fiscal-regulamentacao]] | alta |
 | F10 | Atos anuais (Ministro da Fazenda e CGIBS) com os **percentuais de crédito presumido** de produtor rural e TAC (divulgados até setembro, vigência em janeiro) | DOU / sites da RFB e do CGIBS | [[ibs-cbs-credito-presumido-regulamentacao]] | alta (2027) |
+| F11 | Ato que fixa as datas de obrigatoriedade do IBS/CBS na NFS-e que o guia cita (03/08/2026 regime regular; 01/01/2027 Simples, por fato gerador) | Portal da NFS-e Nacional; atos da RFB/CGIBS/CGNFS-e | [[df-nfse-visao-geral]], [[df-nfse-emissao-pessoas]], [[df-nfse-emissao-valores-ibs-cbs]] | alta |
+| F12 | Planilhas de leiaute **DPS e RN DPS** (`ANEXO_I-SEFIN_ADN-DPS_NFSe-SNNFSe`, v1.01 de 09/02/2026) e o **Anexo VII** (`IndOp_IBSCBS`), citados no guia | Portal da NFS-e Nacional → documentação técnica | [[df-nfse-emissao-pessoas]], [[df-nfse-emissao-servico]], [[df-nfse-emissao-valores-ibs-cbs]] | média |
+| F13 | Endereço oficial de origem do **Guia do Emissor** (o PDF não traz) e versão posterior à 1.2, se houver | Portal da NFS-e Nacional | [[df-nfse-visao-geral]] | baixa |
 | F7 | SC Cosit nº 66/2013 (CNAE × atividade real), citada na SC 71/2026 | Portal Normas da Receita | [[sn-cnae-impeditivos]], [[sn-solucoes-consulta]] | baixa |
 
 Os regulamentos da CBS e do IBS (antes F5 e F6) e a Res. CGSN 11/2007 (antes F2)

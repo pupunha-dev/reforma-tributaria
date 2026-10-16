@@ -31,9 +31,9 @@ use os dois.
 
 ## Documentos fiscais eletrônicos — Notas Técnicas, Informe Técnico e tabelas NF-e/NFC-e
 
-- Índice: [documentos-fiscais/INDEX.md](documentos-fiscais/INDEX.md) — 12 notas
+- Índice: [documentos-fiscais/INDEX.md](documentos-fiscais/INDEX.md) — 22 notas (12 da NF-e/NFC-e e 10 da NFS-e Nacional)
 - Mapa NT → nota: [documentos-fiscais/_plano-notas.md](documentos-fiscais/_plano-notas.md)
 - Hierarquia: lei > resolução > nota técnica (a NT diz como preencher e validar)
 - Vigência por cronograma de produção; versão da NT em cada nota
-- Fontes: `fontes/documentos-fiscais/` (NT 2025.002-RTC, 2026.002, 2026.007, 2026.008, 2026.010; IT 2025.002; tabelas cClassTrib e cCredPres do Portal dos DF-e)
+- Fontes: `fontes/documentos-fiscais/` (NT 2025.002-RTC, 2026.002, 2026.007, 2026.008, 2026.010; IT 2025.002; tabelas cClassTrib e cCredPres do Portal dos DF-e; Guia do Emissor Público Nacional Web da NFS-e v1.2, documentação operacional)
 - Pontes: [[ibs-cbs-cadastro-documento-fiscal]], [[sn-obrigacoes-acessorias]]

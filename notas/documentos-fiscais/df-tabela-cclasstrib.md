@@ -419,3 +419,4 @@ futura para os CRT 1, 2 e 4 (ver [[df-visao-geral-reforma-nfe]]).
 - [[df-grupo-ibs-cbs-is]]: os grupos que cada código libera ou exige.
 - [[df-calculo-e-validacoes]]: regras que dependem dos indicadores e as alíquotas
   padrão a informar.
+- [[df-nfse-emissao-valores-ibs-cbs]]: onde esses códigos são escolhidos na NFS-e Nacional.
